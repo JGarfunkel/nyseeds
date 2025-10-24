@@ -1,0 +1,185 @@
+{
+  "municipality": {
+    "id": "NY-Harrison-Town",
+    "displayName": "Harrison - Town"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a specific regulatory framework that establishes a clear prohibition period for gas leaf blowers, such as from May 1st to September 30th, to address seasonal air quality and noise concerns."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blower operation is permitted between the hours of 8:00 a.m. and 8:00 p.m. on weekdays and between the hours of 10:00 a.m. and 8:00 p.m. on weekends and national and state holidays.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 177-3"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific noise level restrictions for gas leaf blower operation to address potential noise pollution concerns during the permitted hours."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating noise regulations, including those related to gas leaf blowers, are a fine not to exceed $250, imprisonment for a term not to exceed 15 days, or both. Each separate noise or noise source is considered a separate violation.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 177-9"
+      ],
+      "score": 0.9,
+      "gap": "Consider adding specific escalation measures for repeat offenses, such as increased fines or longer imprisonment terms, to deter habitual violations of gas leaf blower regulations."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, actions of or sponsored by governmental agencies are exempt from the requirements of this chapter. Additionally, actions required by exigent circumstances, and certain activities related to religious rites, ceremonies, and educational programs during specific hours, are also exempt.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 177-7"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding specific definitions and criteria for what constitutes \"exigent circumstances\" and \"educational programs during specific hours\" to ensure clarity and prevent potential misuse or misinterpretation of these exemptions."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a regulatory framework that mandates the establishment of a centralized reporting system for violations, which includes clear procedures for data collection, public access to violation reports, and mechanisms for tracking and transparency to ensure accountability and enforcement."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the ordinance that mandates public education campaigns on the environmental benefits of leaving leaf debris and implementing leaf mulching, including guidelines for best practices and potential incentives for residents who adopt these methods."
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report detailing data collection methods, key findings, and progress on relevant initiatives, ensuring transparency and accountability to the community."
+    }
+  ],
+  "scores": {
+    "overallScore": 3.87,
+    "normalizedScore": 3.87,
+    "averageConfidence": 42,
+    "questionsAnswered": 3,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.6,
+        0.9,
+        0.65,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.3642857142857143,
+      "weightedScore": 0.3875,
+      "totalWeightedScore": 4.6499999999999995,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 4,
+          "weightedScore": 0.4,
+          "maxWeightedScore": 4,
+          "confidence": 10
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Gas leaf blower operation is permitted between the hours of 8:00 a.m. and 8:00 p.m. on weekdays and between the hours of 10:00 a.m. and 8:00 p.m. on weekends and national and state holidays.",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "The penalties for violating noise regulations, including those related to gas leaf blowers, are a fine not to exceed $250, imprisonment for a term not to exceed 15 days, or both. Each separate noise or noise source is considered a separate violation.",
+          "score": 0.9,
+          "weight": 3,
+          "weightedScore": 2.7,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Yes, actions of or sponsored by governmental agencies are exempt from the requirements of this chapter. Additionally, actions required by exigent circumstances, and certain activities related to religious rites, ceremonies, and educational programs during specific hours, are also exempt.",
+          "score": 0.65,
+          "weight": 1,
+          "weightedScore": 0.65,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        }
+      ]
+    }
+  },
+  "overallScore": 3.87,
+  "averageConfidence": 42,
+  "questionsAnswered": 3,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-09T20:01:17.207Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 3.87,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.233Z"
+}

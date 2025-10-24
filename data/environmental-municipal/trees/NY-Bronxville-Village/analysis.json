@@ -1,0 +1,199 @@
+{
+  "municipality": "NY-Bronxville-Village",
+  "domain": "trees",
+  "analyzedAt": "2025-09-09T18:17:24.446Z",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T18:17:15.440Z"
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "Any person violating any of the provisions of this chapter, which includes removing trees without a permit, shall, upon conviction, be subject to a fine of not more than $250 or to imprisonment for not more than 15 days, or to both such fine and imprisonment (§ 282-8).",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 282-8"
+      ],
+      "score": 1,
+      "analyzedAt": "2025-09-09T18:17:16.379Z"
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T18:17:17.645Z"
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T18:17:18.018Z"
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T18:17:19.035Z"
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T18:17:20.854Z"
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Your responsibilities for maintaining trees on your property include:\n\n1. Keeping all trees, shrubs, and plants trimmed and in a condition that does not interfere with or obstruct vision or endanger the safety of persons using any public street, sidewalk, or other public place (§ 282-3). Specifically, tree limbs overhanging a public sidewalk must be at least eight feet above it, and limbs overhanging a public street must be at least 13 feet above it.\n\n2. Ensuring that all trees, shrubs, and plants are free from insects that cause or tend to cause disease, destruction, or damage, and that may spread to public areas (§ 282-4). This does not apply to insects causing Dutch elm disease.\n\nFailure to comply with these responsibilities may result in the village taking corrective action and assessing the costs to you (§ 282-6, § 282-7).",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 282-3",
+        "§ 282-4",
+        "§ 282-6"
+      ],
+      "score": 0.75,
+      "analyzedAt": "2025-09-09T18:17:23.941Z"
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T18:17:24.446Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 3.07,
+    "normalizedScore": 3.07,
+    "averageConfidence": 23,
+    "questionsAnswered": 2,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.75,
+        0.1
+      ],
+      "averageQuestionScore": 0.29375000000000007,
+      "weightedScore": 0.3067,
+      "totalWeightedScore": 4.6000000000000005,
+      "totalPossibleWeight": 15,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "2",
+          "question": "What are the penalties for removing trees without a permit?",
+          "answer": "Any person violating any of the provisions of this chapter, which includes removing trees without a permit, shall, upon conviction, be subject to a fine of not more than $250 or to imprisonment for not more than 15 days, or to both such fine and imprisonment (§ 282-8).",
+          "score": 1,
+          "weight": 2,
+          "weightedScore": 2,
+          "maxWeightedScore": 2,
+          "confidence": 90
+        },
+        {
+          "id": "3",
+          "question": "What is the fee for removing each tree without a replacement?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "4",
+          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 3,
+          "weightedScore": 0.30000000000000004,
+          "maxWeightedScore": 3,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "question": "Which neighbors must be notified if I remove trees? ",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 3,
+          "weightedScore": 0.30000000000000004,
+          "maxWeightedScore": 3,
+          "confidence": 0
+        },
+        {
+          "id": "8",
+          "question": "What are my responsibilities for maintaining trees on my property?",
+          "answer": "Your responsibilities for maintaining trees on your property include:\n\n1. Keeping all trees, shrubs, and plants trimmed and in a condition that does not interfere with or obstruct vision or endanger the safety of persons using any public street, sidewalk, or other public place (§ 282-3). Specifically, tree limbs overhanging a public sidewalk must be at least eight feet above it, and limbs overhanging a public street must be at least 13 feet above it.\n\n2. Ensuring that all trees, shrubs, and plants are free from insects that cause or tend to cause disease, destruction, or damage, and that may spread to public areas (§ 282-4). This does not apply to insects causing Dutch elm disease.\n\nFailure to comply with these responsibilities may result in the village taking corrective action and assessing the costs to you (§ 282-6, § 282-7).",
+          "score": 0.75,
+          "weight": 2,
+          "weightedScore": 1.5,
+          "maxWeightedScore": 2,
+          "confidence": 90
+        },
+        {
+          "id": "9",
+          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 3.07,
+  "averageConfidence": 23,
+  "questionsAnswered": 2,
+  "totalQuestions": 8,
+  "gapAnalysis": "",
+  "wenGrade": "G-",
+  "usesStateCode": false,
+  "normalizedScore": 3.07,
+  "scoresUpdatedAt": "2025-10-10T17:18:10.162Z"
+}

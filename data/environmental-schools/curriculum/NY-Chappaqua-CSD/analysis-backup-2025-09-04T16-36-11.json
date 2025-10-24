@@ -1,0 +1,37 @@
+{
+  "municipality": "NY-Chappaqua-CSD",
+  "domain": "curriculum",
+  "analyzedAt": "2025-09-04T16:36:11.004Z",
+  "answers": [
+    {
+      "id": "1",
+      "question": "Does the school district have sustainability integrated in the curriculum?",
+      "answer": "Yes, the Chappaqua Central School District has sustainability integrated into the curriculum through the Sustainability K-12 Student Learning Standards, which define what students should know and be able to do to be \"Sustainability literate.\"",
+      "confidence": 80,
+      "sourceRefs": [],
+      "score": 0.65,
+      "analyzedAt": "2025-09-04T16:36:11.004Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.8,
+    "normalizedScore": 3.25,
+    "averageConfidence": 80,
+    "questionsAnswered": 1,
+    "totalQuestions": 1,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.65
+      ],
+      "averageQuestionScore": 0.65,
+      "weightedScore": 0.65
+    }
+  },
+  "overallScore": 3.25,
+  "averageConfidence": 80,
+  "questionsAnswered": 1,
+  "totalQuestions": 1,
+  "gapAnalysis": "",
+  "wenGrade": null,
+  "usesStateCode": false
+}

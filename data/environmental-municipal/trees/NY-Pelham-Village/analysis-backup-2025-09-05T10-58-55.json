@@ -1,0 +1,37 @@
+{
+  "municipality": "NY-Pelham-Village",
+  "domain": "trees",
+  "analyzedAt": "2025-09-05T10:58:55.700Z",
+  "questions": [
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-05T10:58:55.700Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0.35,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 1,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1
+      ],
+      "averageQuestionScore": 0.1,
+      "weightedScore": 0.07
+    }
+  },
+  "overallScore": 0.35,
+  "averageConfidence": 0,
+  "questionsAnswered": 0,
+  "totalQuestions": 1,
+  "gapAnalysis": "",
+  "wenGrade": "G-",
+  "usesStateCode": false
+}

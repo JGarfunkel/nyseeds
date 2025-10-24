@@ -1,0 +1,42 @@
+{
+  "libraries": [
+    {
+      "id": "ecode360",
+      "name": "eCode360",
+      "baseUrl": "https://ecode360.com",
+      "urlPatterns": [
+        "ecode360.com"
+      ],
+      "download": true,
+      "extractionSupported": true,
+      "anchorSupported": true,
+      "notes": "Supports direct downloads and anchor-based extraction"
+    },
+    {
+      "id": "municode",
+      "name": "Municode Library",
+      "baseUrl": "https://library.municode.com",
+      "urlPatterns": [
+        "library.municode.com"
+      ],
+      "download": false,
+      "extractionSupported": false,
+      "anchorSupported": false,
+      "notes": "Does not support direct downloads; manual downloads required. Interactive interface prevents automated extraction."
+    },
+    {
+      "id": "generalcode",
+      "name": "General Code",
+      "baseUrl": "https://generalcode.com",
+      "urlPatterns": [
+        "generalcode.com"
+      ],
+      "download": true,
+      "extractionSupported": true,
+      "anchorSupported": false,
+      "notes": "Supports downloads but may have different HTML structure"
+    }
+  ],
+  "defaultLibrary": "ecode360",
+  "lastUpdated": "2025-08-29T13:50:00.000Z"
+}

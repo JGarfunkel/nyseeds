@@ -1,0 +1,110 @@
+{
+  "municipality": {
+    "id": "NY-DobbsFerry-Village",
+    "displayName": "Dobbs Ferry - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property. To apply, you must file a tree removal permit application with the Building Department. The application must be made in writing according to the rules and regulations set by the Building Department, and a permit fee must be remitted with the application (§ 300-51I(G)(1)-(2)). The Building Department reviews the application and, once complete, refers it to the Tree Committee (TC) for further review (§ 300-51I(G)(1)).",
+      "confidence": 59,
+      "sourceRefs": [
+        "§ 300-51I",
+        "§ 300-51G"
+      ],
+      "score": 0.89,
+      "gap": "Consider adding specific timelines for each stage of the application process, including how long the Building Department and Tree Committee have to review and respond to the permit application, to provide clarity and predictability for applicants."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit are specified in § 300-29D. They include:\n\n- Mechanical damage to a public protected tree: up to $500 per violation.\n- Violations affecting a protected tree or public protected tree: up to $500 per violation.\n- Violations affecting a protected tree within a conservation easement, wetland, watercourse, or designated buffer area: up to $1,000 per violation.\n- Violations affecting a tree of historic or unique value: up to $2,000 per violation.\n- Other violations, including the removal of five or more trees without a permit: up to $2,000 per violation.\n- Each tree may be considered a separate violation, and a penalty shall be assessed accordingly (§ 300-29D(8)).\n\nAdditionally, violators may be required to enter into a binding and enforceable restoration agreement with the Village (§ 300-29D(3)).",
+      "confidence": 63,
+      "sourceRefs": [
+        "§ 300-29D",
+        "§ 300-51G"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "Yes, there are fees associated with removing individual trees. According to § 300-51I(G)(2), a permit and escrow fee must be established and remitted with the application for a tree removal permit. The specific amounts are determined by resolution and included in the Fee Schedule in accordance with Chapter 175.",
+      "confidence": 59,
+      "sourceRefs": [
+        "§ 300-29D",
+        "§ 300-51I"
+      ],
+      "score": 0.89,
+      "gap": "Consider adding specific details about the fee amounts, payment options, potential exemptions for certain types of tree removals, and how the fees cover administrative costs to enhance transparency and understanding for applicants."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Not specified in the statute.",
+      "confidence": 51,
+      "sourceRefs": [
+        "§ 300-51I"
+      ],
+      "score": 0,
+      "gap": "Consider adding a regulation that requires replanting with native species at a minimum replacement ratio of 2:1, along with a mandatory survival monitoring period of three years to ensure successful establishment."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 51,
+      "sourceRefs": [
+        "§ 300-51I"
+      ],
+      "score": 0,
+      "gap": "Consider adding a requirement that property owners must notify neighbors within a 100-foot radius at least 14 days in advance of tree removal, using certified mail to ensure receipt, and clearly identify any parties whose property lines are directly adjacent to the trees being removed."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. It emphasizes the fundamental contribution of trees to the health, safety, and general welfare of the community, highlighting their role in energy conservation, temperature moderation, air quality improvement, and reduction of global warming. The statute also notes that trees help protect surface water quality, provide shade, offer windbreaks, control water pollution, and enhance property values, among other benefits (§ 300-51 A(1)). Additionally, the code aims to increase species and age diversity to provide long-term stability of the tree canopy and ecosystem (§ 300-51 A(b)).",
+      "confidence": 49,
+      "sourceRefs": [
+        "§ 300-51",
+        "§ 300-14"
+      ],
+      "score": 0.69,
+      "gap": "Consider adding specific coverage targets for the tree canopy, along with detailed measurement methods and maintenance plans to ensure long-term preservation and stability of the ecosystem."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Not specified in the statute.",
+      "confidence": 56,
+      "sourceRefs": [
+        "§ 300-51"
+      ],
+      "score": 0,
+      "gap": "Consider adding a regulation that requires property owners to conduct annual inspections of trees on their property, adhere to specified care standards, and promptly address any identified hazards to ensure public safety and tree health."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute call for data collection on tree removals and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 60,
+      "sourceRefs": [
+        "§ 300-51G",
+        "§ 300-51I"
+      ],
+      "score": 0,
+      "gap": "Consider adding a requirement for the municipality to collect detailed data on all tree removals, including location, species, reason for removal, and replacement plans, and to compile this information into an annual public report to enhance transparency and accountability."
+    }
+  ],
+  "lastUpdated": "2025-08-29T19:43:32.596Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

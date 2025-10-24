@@ -1,0 +1,108 @@
+{
+  "municipality": {
+    "id": "NY-Yonkers-City",
+    "displayName": "Yonkers - City"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gasoline-powered leaf blowers lasts from June 1 through September 30 of each year. (§ 91-31(A))",
+      "confidence": 47,
+      "sourceRefs": [
+        "§ 91-31"
+      ],
+      "score": 0.57,
+      "gap": "The statute seems to lack provisions for enforcement mechanisms or penalties for non-compliance with the prohibition of gasoline-powered leaf blowers."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 56,
+      "sourceRefs": [
+        "§ 91-31"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack specific regulations regarding the permitted hours for gas leaf blower operation. The municipality should establish a regulatory framework that clearly defines the allowable hours for gas leaf blower use, taking into consideration noise ordinances and community feedback, to minimize disturbances and ensure compliance."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Violations of the gas leaf blower regulations are classified as a Class II offense as defined in Chapter 1, General Provisions (§ 91-31).",
+      "confidence": 56,
+      "sourceRefs": [
+        "§ 91-31"
+      ],
+      "score": 0.76,
+      "gap": "The statute seems to lack specific details on the fine amounts, escalation for repeat offenses, and enforcement mechanisms for violations of the gas leaf blower regulations."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 37,
+      "sourceRefs": [
+        "§ 91-31",
+        "§ 91-32"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack provisions for exceptions related to school, government, and commercial properties. The municipality should establish a regulatory framework that clearly defines and outlines specific exceptions or requirements for school, government, and commercial properties, ensuring these entities are either exempt from certain regulations or subject to tailored standards that reflect their unique operational needs."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 30,
+      "sourceRefs": [
+        "§ 1-21"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack provisions for reporting and enforcement of violations. The municipality should establish a regulatory framework that mandates a centralized reporting system with clear guidelines for data collection, public accessibility, and regular updates to ensure transparency and accountability in tracking violations."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 53,
+      "sourceRefs": [
+        "§ 91-30",
+        "§ 91-31"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack provisions on the environmental benefits of leaving leaf debris and leaf mulching; therefore, the municipality should establish a regulatory framework that mandates the promotion and education of sustainable leaf management practices, including the benefits of leaf mulching for soil health and biodiversity, through community workshops and informational campaigns."
+    }
+  ],
+  "lastUpdated": "2025-08-28T17:38:23.610Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.47,
+    "normalizedScore": 0.8866666666666666,
+    "averageConfidence": 47,
+    "questionsAnswered": 2,
+    "totalQuestions": 6,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.57,
+        0,
+        0.76,
+        0,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.22166666666666668,
+      "weightedScore": 0.17733333333333332
+    }
+  },
+  "overallScore": 0.8866666666666666,
+  "normalizedScore": 0.8866666666666666,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.055Z"
+}

@@ -1,0 +1,116 @@
+{
+  "municipality": {
+    "id": "NY-BriarcliffManor-Village",
+    "displayName": "Briarcliff Manor - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove certain trees on your private property. You need to submit a written application to the Village office using the forms provided. The application should include details such as your name and address, the property address, the purpose of the removal, the method of removal, the name of the person or entity doing the removal, a plan depicting the trees to be removed, and if applicable, a stormwater pollution prevention plan. The Building Inspector will review the application and notify the Tree Preservation Board of his decision within five days. The Tree Preservation Board can also review the decision upon request.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 202-3",
+        "§ 202-6"
+      ],
+      "score": 0.85
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit include a fine of not more than $350 for the first violation. For a second or each subsequent offense within a one-year period, the fine can be up to $700. Additionally, any clear-cutting offense may incur an additional fine of not more than $5,000. The court can also order the offender to replant trees that were improperly removed, as much as possible.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 202-8"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed, as the statute states that the property owner will replant replacement trees of a similar species or add other vegetation to offset the negative effects of the tree removal. However, the statute does not specify whether non-native species can be used as replacements.",
+      "confidence": 70,
+      "sourceRefs": [
+        "§ 202-5A"
+      ],
+      "score": 0.1
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "If you are removing trees on public property, the Tree Preservation Board must be notified and public hearings will be held. Property owners within 300 feet of the subject property must be notified in advance by letter of these public hearings.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 202-3C"
+      ],
+      "score": 0.85
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.41,
+    "normalizedScore": 1.7,
+    "averageConfidence": 41,
+    "questionsAnswered": 4,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.85,
+        1,
+        0.1,
+        0.1,
+        0.85,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.4000000000000001,
+      "weightedScore": 0.34
+    }
+  },
+  "overallScore": 1.7,
+  "averageConfidence": 41,
+  "questionsAnswered": 4,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T18:55:03.058Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

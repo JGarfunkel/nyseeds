@@ -1,0 +1,15 @@
+{
+  "municipality": "Scarsdale",
+  "municipalityType": "Town",
+  "domain": "Weeds",
+  "domainId": "weeds",
+  "originalCellValue": "G- https://ecode360.com/6439543#6439543",
+  "downloadedAt": "2025-09-05T16:32:51.026Z",
+  "contentLength": 2178,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:04.759Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/6439543#6439543",
+  "statuteNumber": "§ 281-14",
+  "statuteTitle": "Infestations, Poisonous, Harmful Weeds and Plants"
+}

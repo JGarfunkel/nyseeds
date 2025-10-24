@@ -1,0 +1,102 @@
+{
+  "municipality": {
+    "id": "NY-Buchanan-Village",
+    "displayName": "Buchanan - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers are prohibited between the hours of 7:00 p.m. and 8:00 a.m. on all days and prohibited until 10:00 a.m. on Sunday.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 119-5"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Any person violating the regulations can be guilty of a violation and, upon conviction, will be punished by a fine of $250. Each day constitutes a separate offense. For subsequent violations by the same person, the fine increases to $500 for each conviction.",
+      "confidence": 95,
+      "sourceRefs": [
+        "§ 119-7"
+      ],
+      "score": 0.75
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations can be reported by sworn affidavits from two or more unrelated persons who reside in different residences and agree on the times and durations of the noise, or through direct observation by an officer or official enforcing the article.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 119-6"
+      ],
+      "score": 0.65
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.45,
+    "normalizedScore": 1.4,
+    "averageConfidence": 45,
+    "questionsAnswered": 3,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.6,
+        0.75,
+        0.1,
+        0.65,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.3428571428571429,
+      "weightedScore": 0.28
+    }
+  },
+  "overallScore": 1.4,
+  "averageConfidence": 45,
+  "questionsAnswered": 3,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:20:35.631Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

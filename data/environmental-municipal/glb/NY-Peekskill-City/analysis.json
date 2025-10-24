@@ -1,0 +1,181 @@
+{
+  "municipality": {
+    "id": "NY-Peekskill-City",
+    "displayName": "Peekskill - City"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a specific regulatory framework that clearly defines the prohibition period for gas leaf blowers, including exact start and end dates, such as from May 1st to September 30th, to ensure clarity and compliance."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a regulation that specifies the permitted hours for gas leaf blower operation, including clear guidelines on application procedures for exceptions, review criteria for noise impact, an appeal process for denied applications, timelines for decision-making, and standards for approval to ensure community noise levels are managed effectively."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a tiered penalty structure that includes an initial fine of $100 for first-time offenses, escalating to $250 for second offenses and $500 for subsequent violations, along with clear enforcement mechanisms such as warnings and citations issued by designated municipal officers."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions for governmental agencies for public warning devices and certain maintenance operations, as well as organs, bells, chimes, or similar instruments used by schools in connection with education programs.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 391-7"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific criteria or guidelines for what constitutes \"certain maintenance operations\" to ensure clarity and prevent misuse of the exceptions for governmental agencies."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a regulatory framework that mandates the establishment of a centralized reporting system for violations, which includes clear guidelines for data collection, public access to violation reports, and mechanisms for tracking and transparency to ensure accountability and enforcement."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that mandates the promotion of leaf mulching and leaving leaf debris as environmentally beneficial practices, including guidelines for residents on how to effectively implement these methods to enhance soil health and reduce waste."
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report that includes comprehensive data collection on relevant activities, transparency measures, and tracking mechanisms to ensure accountability and public awareness."
+    }
+  ],
+  "scores": {
+    "overallScore": 1.38,
+    "normalizedScore": 1.38,
+    "averageConfidence": 25,
+    "questionsAnswered": 1,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.1,
+        0.55,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.1642857142857143,
+      "weightedScore": 0.1375,
+      "totalWeightedScore": 1.6500000000000004,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 4,
+          "weightedScore": 0.4,
+          "maxWeightedScore": 4,
+          "confidence": 15
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 15
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 3,
+          "weightedScore": 0.30000000000000004,
+          "maxWeightedScore": 3,
+          "confidence": 15
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Yes, there are exceptions for governmental agencies for public warning devices and certain maintenance operations, as well as organs, bells, chimes, or similar instruments used by schools in connection with education programs.",
+          "score": 0.55,
+          "weight": 1,
+          "weightedScore": 0.55,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 15
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 15
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 15
+        }
+      ]
+    }
+  },
+  "overallScore": 1.38,
+  "averageConfidence": 25,
+  "questionsAnswered": 1,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-09T20:05:43.142Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 1.38,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.261Z"
+}

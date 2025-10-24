@@ -1,0 +1,73 @@
+{
+  "municipality": {
+    "id": "NY-Mamaroneck-Town",
+    "displayName": "Mamaroneck - Town"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts from January 1, 2025, onwards, as it becomes unlawful to operate gasoline-powered leaf blowers in the unincorporated area of the Town from that date. This is a permanent phase-out, so it does not end as it applies throughout the entire year.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 141-18C"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Prior to January 1, 2025, gasoline-powered leaf blowers, like other leaf blowers, can be operated from 8:00 a.m. to 9:00 p.m. on weekdays and from 10:00 a.m. to 5:00 p.m. on Saturdays, Sundays, and certain holidays. However, starting January 1, 2025, all gas leaf blowers are prohibited year-round.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 141-18A",
+        "§ 141-18C"
+      ],
+      "score": 0.65
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating the regulations on leaf blowers, including gas leaf blowers, are as follows: For the first offense within a calendar year, the fine is between $125 and $250. A second offense in the same calendar year incurs a fine between $250 and $500. For additional offenses in the same calendar year, each offense results in a $500 fine.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 141-20F"
+      ],
+      "score": 0.75
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions for certain entities. The restrictions on the operation of leaf blowers, including the prohibition on gasoline-powered leaf blowers, do not apply to the Town of Mamaroneck, the County of Westchester, the State of New York, the Mamaroneck Union Free School District, utility companies, or persons engaged by any of these entities to perform work.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 141-18D"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "The statute does not specify the process for reporting or enforcing violations of leaf blower regulations. It outlines the penalties for offenses but does not detail the mechanisms for how violations are reported or how enforcement is carried out.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "The ordinance does not mention the benefits of leaving leaf debris or of leaf mulching. It focuses on the regulations and restrictions regarding the operation of leaf blowers.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5
+    }
+  ],
+  "lastUpdated": "2025-09-05T18:14:35.940Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

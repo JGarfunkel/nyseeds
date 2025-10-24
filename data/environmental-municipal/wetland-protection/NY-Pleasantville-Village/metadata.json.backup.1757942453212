@@ -1,0 +1,15 @@
+{
+  "municipality": "Pleasantville",
+  "municipalityType": "Village",
+  "domain": "Wetland protection",
+  "domainId": "wetland-protection",
+  "originalCellValue": "G- https://ecode360.com/10903269",
+  "downloadedAt": "2025-09-05T16:45:32.420Z",
+  "contentLength": 25898,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:05.999Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/10903269",
+  "statuteNumber": "Ch 182",
+  "statuteTitle": "Flood damage prevention — See Ch"
+}

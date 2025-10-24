@@ -1,0 +1,87 @@
+{
+  "municipality": "NY-PoundRidge-Town",
+  "domain": "glb",
+  "analyzedAt": "2025-09-01T11:38:01.887Z",
+  "answers": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-09-01T11:37:59.913Z"
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-09-01T11:38:00.418Z"
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-09-01T11:38:00.736Z"
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-09-01T11:38:01.125Z"
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-09-01T11:38:01.428Z"
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-09-01T11:38:01.885Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 6,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0,
+      "weightedScore": 0
+    }
+  },
+  "overallScore": 0,
+  "averageConfidence": 0,
+  "questionsAnswered": 0,
+  "totalQuestions": 6,
+  "gapAnalysis": "",
+  "wenGrade": "G-",
+  "usesStateCode": false
+}

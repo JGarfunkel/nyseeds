@@ -1,0 +1,104 @@
+{
+  "municipality": {
+    "id": "NY-Irvington-Village",
+    "displayName": "Irvington - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas-powered leaf blowers lasts for the entire year, with the relevant provision allowing for no operation at any time. The restriction is specified to take effect on December 16, 2023.",
+      "confidence": 100,
+      "sourceRefs": [
+        "§ 148-4B"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "The use or operation of gas-powered leaf blowers is not permitted at any time.",
+      "confidence": 100,
+      "sourceRefs": [
+        "§ 148-4B"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating the gas leaf blower regulations are $250 for the first offense and $500 for any subsequent offense.",
+      "confidence": 100,
+      "sourceRefs": [
+        "§ 148-4B"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "There are no exceptions stated for school, government, or commercial properties regarding the prohibition of gas-powered leaf blowers.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.5
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "There is a requirement for the Building Inspector to file a report regarding inspections of public nuisances with the Village Clerk, but it does not specify a report to be presented to the public.",
+      "confidence": 40,
+      "sourceRefs": [
+        "§ 148-12C"
+      ],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.53,
+    "normalizedScore": 1.65,
+    "averageConfidence": 53,
+    "questionsAnswered": 5,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.55,
+        0.6,
+        0.6,
+        0.5,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.3642857142857143,
+      "weightedScore": 0.33
+    }
+  },
+  "overallScore": 1.65,
+  "averageConfidence": 53,
+  "questionsAnswered": 5,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:22:11.019Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

@@ -1,0 +1,64 @@
+{
+  "municipality": {
+    "id": "NY-State",
+    "displayName": "NY State Code",
+    "type": "State"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weed Management"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Property maintenance requirements for weed control are delegated to local municipalities. The state provides general environmental guidelines but does not specify particular height limits or maintenance standards for residential properties.",
+      "score": 0,
+      "confidence": 90,
+      "source": "state-code-reference"
+    },
+    {
+      "id": 2,
+      "question": "What penalties or enforcement mechanisms exist for non-compliance with weed control regulations?",
+      "answer": "Enforcement mechanisms for weed control violations are established and administered by local municipalities rather than at the state level. The state does not impose specific penalties for residential weed maintenance.",
+      "score": 0,
+      "confidence": 90,
+      "source": "state-code-reference"
+    },
+    {
+      "id": 3,
+      "question": "Are there any exemptions or special considerations for different types of properties or situations?",
+      "answer": "The state defers to local municipal authority for property-specific exemptions and special considerations regarding weed management. Agricultural and conservation lands may have different requirements under separate state agricultural and environmental programs.",
+      "score": 0,
+      "confidence": 85,
+      "source": "state-code-reference"
+    },
+    {
+      "id": 4,
+      "question": "What specific procedures must property owners follow when dealing with weed control?",
+      "answer": "Specific procedures for weed control on private property are established by local municipal ordinances rather than state regulation. Property owners should consult their local municipality for applicable procedures and requirements.",
+      "score": 0,
+      "confidence": 90,
+      "source": "state-code-reference"
+    },
+    {
+      "id": 5,
+      "question": "How does the statute address notifications, permits, or approvals related to weed management?",
+      "answer": "Notification and permit requirements for weed management activities are typically handled at the municipal level. The state may require permits for certain herbicide applications or activities affecting protected areas, but general residential weed control notification requirements are locally administered.",
+      "score": 0,
+      "confidence": 85,
+      "source": "state-code-reference"
+    }
+  ],
+  "gapAnalysis": [
+    "Consider adding specific statewide standards for weed control on residential properties",
+    "Consider adding uniform enforcement mechanisms across municipalities",
+    "Consider adding guidance for property owners on integrated weed management practices",
+    "Consider adding provisions for coordination between state and local weed management efforts",
+    "Consider adding environmental protection standards for herbicide use in residential areas"
+  ],
+  "overallScore": 0.0,
+  "analysisDate": "2025-09-01T17:08:00.000Z",
+  "processingMethod": "state-code-detection",
+  "usesStateCode": true
+}

@@ -1,0 +1,12 @@
+{
+  "municipality": "Bronxville",
+  "municipalityType": "Village",
+  "domain": "Solar 1",
+  "domainId": "solar-1",
+  "originalCellValue": "Not available",
+  "downloadedAt": "2025-08-29T15:36:57.184Z",
+  "contentLength": 47803,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T15:44:13.279Z",
+  "note": "Metadata created retroactively for existing statute file"
+}

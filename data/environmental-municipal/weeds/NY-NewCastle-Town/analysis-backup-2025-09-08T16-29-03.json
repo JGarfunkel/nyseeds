@@ -1,0 +1,73 @@
+{
+  "municipality": {
+    "id": "NY-NewCastle-Town",
+    "displayName": "New Castle - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents in residential districts must keep the area within 15 feet of the perimeter of their main structure free from uncultivated vegetation that exceeds 10 inches in height. This includes grasses, brush, and briars, but does not include trees, shrubs, and specifically cultivated vegetation like flower gardens or plants nurtured from garden-grown stock and wild populations.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-2"
+      ],
+      "score": 0.9,
+      "gap": "Consider adding a clear definition of \"uncultivated vegetation\" to avoid ambiguity and ensure consistent enforcement of the statute."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Yes, the property maintenance code allows for exceptions where cultivated vegetation, including pollinator gardens, is concerned. Specifically, the maintenance requirements exclude trees, shrubs, and other cultivated plants, including pollinator gardens, from the restrictions on vegetation height.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-2"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding specific guidelines for the maintenance and management of pollinator gardens to ensure they do not become overgrown or invasive, potentially including requirements for native plant species and periodic inspections."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "The property maintenance law specifically addresses the maintenance of areas within the property, such as the curtilage up to 15 feet from the main structure, but it does not specify regulations beyond the property lot lines, such as to the curb.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding specific regulations for the maintenance of areas beyond the property lot lines, such as the curb and adjacent public sidewalks, to ensure clarity and comprehensive property upkeep responsibilities."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "The penalties for failing to comply with property maintenance regulations include a penalty of up to $200 for each day the violation continues (§ 93-3). Additionally, if the violation is not corrected within 10 days of a public hearing, the Town may correct or remove the violation, and all costs and expenses incurred by the Town, including penalties, will be charged to the property owner. If these costs are not paid within 30 days, they become a lien on the property and are added to the property taxes, bearing interest at the same rate as unpaid taxes (§ 93-3, § 93-4).",
+      "confidence": 59,
+      "sourceRefs": [
+        "§ 93-3",
+        "§ 93-4"
+      ],
+      "score": 0.89,
+      "gap": "The statute seems to lack specific provisions for escalating penalties for repeat offenses, which could strengthen enforcement by deterring habitual non-compliance."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The timeline for resolving a property maintenance violation before penalties are applied is as follows:\n\n1. Upon observing a violation, the Building Inspector issues a written notice of violation and order to correct the violation within 30 days (§ 93-4(A)).\n2. If the owner or occupant fails to comply within 30 days, and the violation is deemed a public nuisance or endangers public health, safety, or welfare, the Town Board will hold a public hearing (§ 93-4(B)).\n3. If the violation is not corrected within 10 days after the public hearing, the Town may correct or remove the violation, and costs will be charged to the property owner (§ 93-4(C)).\n\nPenalties of up to $200 per day may be applied for each day the violation continues (§ 93-3).",
+      "confidence": 51,
+      "sourceRefs": [
+        "§ 93-4",
+        "§ 93-3"
+      ],
+      "score": 0.71,
+      "gap": "The statute seems to lack specific provisions for escalating penalties for repeat offenses, which could deter habitual violators more effectively."
+    }
+  ],
+  "lastUpdated": "2025-09-08T16:29:03.390Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

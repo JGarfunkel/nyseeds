@@ -1,0 +1,114 @@
+{
+  "municipality": {
+    "id": "NY-Scarsdale-Town",
+    "displayName": "Scarsdale - Town"
+  },
+  "domain": {
+    "id": "wetland-protection",
+    "displayName": "Wetland Protection"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 3,
+      "question": "What are the setback requirements from wetland boundaries?",
+      "answer": "The statute indicates that the freshwater wetlands/watercourse buffer generally extends 25 feet horizontally away from and paralleling the outermost boundary of wetlands and/or the point of mean high water of a watercourse or floodplain. However, if a state-designated wetland is involved, the area may be designated by the Commissioner of the New York State Department of Environmental Conservation.",
+      "confidence": 80,
+      "sourceRefs": [
+        "§ 171-3",
+        "§ 171-7D"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 4,
+      "question": "What are the penalties for unauthorized wetland disturbance?",
+      "answer": "Any person who commits an offense against the provisions of the wetland protection chapter may face a violation that can result in a fine not exceeding $250, imprisonment for up to 15 days, or both. Each day the offense continues constitutes a separate violation.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 171-13"
+      ],
+      "score": 0.85
+    },
+    {
+      "id": 5,
+      "question": "How do I apply for a wetland permit or variance?",
+      "answer": "To apply for a wetland permit, you must submit an application for any controlled activity within a freshwater wetlands controlled area to the Village Engineer or the Planning Board, depending on the type of activity. The application must comply with the requirements set forth in the statute. If you wish to appeal a decision made by the Village Engineer, you should apply to the Planning Board within 30 days. For other appeals from decisions made by the Planning Board, you must commence an action within 30 days according to Article 78 of the Civil Practice Law and Rules.",
+      "confidence": 80,
+      "sourceRefs": [
+        "§ 171-4",
+        "§ 171-12"
+      ],
+      "score": 0.95
+    },
+    {
+      "id": 6,
+      "question": "Are there mitigation requirements for permitted wetland impacts?",
+      "answer": "Yes, if it is determined that impacts to freshwater wetlands or a freshwater wetlands/watercourse buffer are necessary and unavoidable, and have been minimized to the maximum extent practicable, the Planning Board may permit the controlled activity. In such cases, the applicant is required to develop a mitigation plan, which may include creating replacement freshwater wetlands that are at least 1.5 times larger than the original wetlands in terms of type, functions, and setting.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 171-7E"
+      ],
+      "score": 0.95
+    },
+    {
+      "id": 7,
+      "question": "What types of development are completely prohibited in wetlands?",
+      "answer": "The statute specifies that no controlled activity is permitted within a freshwater wetlands/watercourse buffer except under certain conditions as approved by the Planning Board. Additionally, a permit will be denied if the proposed activity threatens public health, safety, or welfare, causes nuisances, or violates pollution control standards, indicating that some activities that may damage the wetlands are completely prohibited.",
+      "confidence": 80,
+      "sourceRefs": [
+        "§ 171-7D",
+        "§ 171-7B"
+      ],
+      "score": 0.8
+    },
+    {
+      "id": 9,
+      "question": "Are there tax incentives for wetland preservation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 10,
+      "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+      "answer": "The Planning Board may require the applicant to post a bond or other surety to ensure that a qualified person regularly inspects the project during construction. This monitoring is to ensure that all mitigation measures required by the Board's approval are implemented prior to the start of construction and continuously throughout the construction process until a certificate of occupancy is issued.",
+      "confidence": 80,
+      "sourceRefs": [
+        "§ 171-9",
+        "§ 171-7E"
+      ],
+      "score": 0.75
+    }
+  ],
+  "scores": {
+    "overallScore": 0.71,
+    "normalizedScore": 3.2,
+    "averageConfidence": 71,
+    "questionsAnswered": 6,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.3,
+        0.85,
+        0.95,
+        0.95,
+        0.8,
+        0.1,
+        0.75
+      ],
+      "averageQuestionScore": 0.6714285714285714,
+      "weightedScore": 0.64
+    }
+  },
+  "overallScore": 3.2,
+  "averageConfidence": 71,
+  "questionsAnswered": 6,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:35:30.324Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

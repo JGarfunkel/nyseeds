@@ -1,0 +1,90 @@
+{
+  "municipality": {
+    "id": "NY-NewCastle-Town",
+    "displayName": "New Castle - Town"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts from June 1 through September 30 each year. (§ 90-6E(1))",
+      "confidence": 47,
+      "sourceRefs": [
+        "§ 90-6E",
+        "§ 90-6C"
+      ],
+      "score": 0.57,
+      "gap": "Consider adding a provision that outlines the penalties or enforcement mechanisms for violations of the gas leaf blower prohibition to ensure compliance and clarity for residents and enforcement officers."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "The permitted hours for gas leaf blower operation are not explicitly specified in the statute. However, the use of any fuel-powered motorized leaf blower is unlawful during the period from June 1 through September 30 each year (§ 90-6E(1)). During the period of October 1 through May 31, the use of motorized leaf blowers is permitted during the hours set forth in § 90-6C(2), but the specific hours are not provided in the text you shared.",
+      "confidence": 59,
+      "sourceRefs": [
+        "§ 90-6B",
+        "§ 90-6C"
+      ],
+      "score": 0.89,
+      "gap": "Consider adding specific permitted hours for gas leaf blower operation during the period of October 1 through May 31 to eliminate ambiguity and ensure clear compliance guidelines."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 50,
+      "sourceRefs": [
+        "§ 90-6E",
+        "§ 90-6C"
+      ],
+      "score": 0,
+      "gap": "Consider adding a tiered penalty structure that includes an initial fine of $100 for first-time offenses, escalating to $250 for second offenses and $500 for subsequent violations, along with clear enforcement mechanisms such as warnings and citations issued by designated municipal officers."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions specified for certain properties. According to § 90-6C(5), the restrictions on the use of motorized leaf blowers do not apply to the Chappaqua Central School District's recreational fields and tennis courts, Town of New Castle recreational fields and tennis courts, country clubs' tennis courts, homeowner associations' tennis courts, swim clubs' tennis courts, golf courses, and cemeteries. Additionally, the use of motorized leaf blowers may be permitted on certain properties where the Town Administrator has determined there exists a public safety concern.",
+      "confidence": 41,
+      "sourceRefs": [
+        "§ 90-6C",
+        "§ 90-6"
+      ],
+      "score": 0.71,
+      "gap": "Consider adding specific criteria or guidelines for the Town Administrator to assess and determine what constitutes a \"public safety concern\" to ensure consistent and transparent decision-making regarding exceptions for motorized leaf blower use."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 23,
+      "sourceRefs": [
+        "§ 90-6",
+        "§ 90-6B"
+      ],
+      "score": 0,
+      "gap": "Consider adding a regulatory framework that mandates the establishment of a centralized reporting system, requiring detailed documentation of violations, public access to violation data, and regular publication of enforcement actions to ensure transparency and accountability."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 44,
+      "sourceRefs": [
+        "§ 90-6E",
+        "§ 90-6C"
+      ],
+      "score": 0,
+      "gap": "Consider adding a requirement for the municipality to promote and educate residents on the environmental benefits of leaving leaf debris and practicing leaf mulching, including guidelines for proper implementation to enhance soil health and reduce waste."
+    }
+  ],
+  "lastUpdated": "2025-08-29T19:49:34.214Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

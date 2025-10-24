@@ -1,0 +1,128 @@
+{
+  "municipality": {
+    "id": "NY-Hastings-on-Hudson-Village",
+    "displayName": "Hastings-on-Hudson - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees & Urban Forestry"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property if it is a designated tree, which is defined as having a diameter at breast height (dbh) of eight inches or more. To apply, you must submit a written application to the Building Inspector, who will consult with the Tree Preservation Board before issuing or denying the permit. The application must include details such as the number of trees to be removed, their size and species, the reason for removal, and proof of neighbor notification. The Building Inspector reviews the application and issues the permit if conditions are met.",
+      "confidence": 85,
+      "score": 0.8,
+      "sourceRefs": [
+        "§273-4",
+        "§273-7"
+      ],
+      "relevantSections": [
+        "§273-4",
+        "§273-7"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit in Hastings-on-Hudson include a fine of no less than $250 and not exceeding $5,000. Each violation to an individual designated tree constitutes a separate offense. Additionally, violators are required to replace any removed tree with a tree of the same species, size, and/or value, as determined by the Building Inspector. The Building Inspector may allow for differences in size and number of the replacement tree(s) if the removed tree was too large to feasibly replace with one of equal size. No building permit, demolition permit, or certificate of occupancy will be granted until all provisions of this chapter are satisfied.",
+      "confidence": 95,
+      "score": 1,
+      "sourceRefs": [
+        "§273-12"
+      ],
+      "relevantSections": [
+        "§273-12"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with tree removal permits or for removing individual trees?",
+      "answer": "Yes, there are fees associated with tree removal permits. A tree removal permit application must be accompanied by a fee determined by the Village Board by resolution and set in the fee schedule.",
+      "confidence": 85,
+      "score": 0.8,
+      "sourceRefs": [
+        "§273-7",
+        "§273-8"
+      ],
+      "relevantSections": [
+        "§273-7",
+        "§273-8"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Can I replant trees to replace removed trees, and are they required to be of certain species?",
+      "answer": "Yes, you can replant trees to replace removed trees. The request for a tree removal permit should include proposed mitigation measures by the planting of one or more new trees. However, the statute does not specify that the replacement trees must be of certain species.",
+      "confidence": 85,
+      "score": 0.8,
+      "sourceRefs": [
+        "§273-7",
+        "§273-9"
+      ],
+      "relevantSections": [
+        "§273-7",
+        "§273-9"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Neighbors who must be notified include properties adjacent to the property on which the tree grows or which lie within 50 yards of the tree in question. Notification must occur at least two weeks before filing a permit application for tree removal.",
+      "confidence": 85,
+      "score": 0.8,
+      "sourceRefs": [
+        "§273-7"
+      ],
+      "relevantSections": [
+        "§273-7"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. The purpose section (§273-1) highlights the negative impacts of tree destruction, such as increased surface drainage problems and deterioration of the community, which adversely affects the environment and ecosystems. This indicates an acknowledgment of the importance of maintaining a healthy tree canopy.",
+      "confidence": 90,
+      "score": 0.8,
+      "sourceRefs": [
+        "§273-1"
+      ],
+      "relevantSections": [
+        "§273-1"
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As a property owner in Hastings-on-Hudson, you are responsible for maintaining trees on your property by ensuring that no designated tree is cut down, destroyed, or injured without a tree removal permit. You must also prevent any petrochemicals, herbicides, or other harmful substances from penetrating the soil around a designated tree's root system. Additionally, if construction or other activities occur within 25 feet of a designated tree, you must ensure these actions do not kill or injure the tree. You are also responsible for the actions of any contractors or subcontractors working on your property.",
+      "confidence": 90,
+      "score": 0.8,
+      "sourceRefs": [
+        "§273-4",
+        "§273-5"
+      ],
+      "relevantSections": [
+        "§273-4",
+        "§273-5"
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Is data collected on the reasons for tree removals?",
+      "answer": "Yes, data is collected on the reasons for tree removals. The permit application process requires the applicant to specify the reason for the removal of each tree as part of the information submitted to the Building Inspector.",
+      "confidence": 95,
+      "score": 0.8,
+      "sourceRefs": [
+        "§273-7"
+      ],
+      "relevantSections": [
+        "§273-7"
+      ]
+    }
+  ],
+  "overallScore": 8.3,
+  "lastUpdated": "2025-08-26T11:59:52.739Z",
+  "processingMethod": "quality-improved-analysis-v1",
+  "usesStateCode": false
+}

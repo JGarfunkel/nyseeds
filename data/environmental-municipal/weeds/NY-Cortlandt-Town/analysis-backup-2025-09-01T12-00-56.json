@@ -1,0 +1,81 @@
+{
+  "municipality": "NY-Cortlandt-Town",
+  "domain": "weeds",
+  "analyzedAt": "2025-09-01T12:00:56.201Z",
+  "answers": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-09-01T12:00:52.943Z"
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-09-01T12:00:53.450Z"
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "The penalty for failing to comply with property maintenance regulations is that the Town will engage contractors to perform the necessary work, and the cost of this work will become a lien against the property. Additionally, an administrative fee of 20% will be added to the cost of the cleanup. (§ 221-2)",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 221-2"
+      ],
+      "score": 1,
+      "analyzedAt": "2025-09-01T12:00:54.985Z"
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The timeline for resolving a property maintenance violation before penalties are applied is 10 days following the receipt of the notice. (§ 221-2)",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 221-2"
+      ],
+      "score": 1,
+      "analyzedAt": "2025-09-01T12:00:55.601Z"
+    },
+    {
+      "id": "11",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-09-01T12:00:56.201Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.36,
+    "normalizedScore": 1.6400000000000001,
+    "averageConfidence": 36,
+    "questionsAnswered": 2,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "averageQuestionScore": 0.4,
+      "weightedScore": 0.328
+    }
+  },
+  "overallScore": 1.6400000000000001,
+  "averageConfidence": 36,
+  "questionsAnswered": 2,
+  "totalQuestions": 5,
+  "gapAnalysis": "",
+  "wenGrade": null,
+  "usesStateCode": false
+}

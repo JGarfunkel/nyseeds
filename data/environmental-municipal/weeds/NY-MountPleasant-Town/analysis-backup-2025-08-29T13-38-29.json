@@ -1,0 +1,96 @@
+{
+  "municipality": {
+    "id": "NY-MountPleasant-Town",
+    "displayName": "Mount Pleasant - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weed Management"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding yard and landscape conditions?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "gap": "The statute seems to lack clear guidelines on property maintenance for yards and landscapes. The municipality should establish a regulatory framework that mandates residents to maintain their yards by regularly mowing lawns, trimming overgrown vegetation, and ensuring the removal of debris to prevent unsightly conditions and promote community aesthetics."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator garddens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 44,
+      "sourceRefs": [
+        "§ 149-36",
+        "§ 149-35"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack provisions for cultivated pollinator gardens; the municipality should establish a regulatory framework that explicitly permits and defines standards for pollinator gardens, including guidelines on plant species, maintenance practices, and size limitations to ensure they do not interfere with property aesthetics or safety."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 45,
+      "sourceRefs": [
+        "§ 149-35",
+        "§ 149-36"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack clear penalties for non-compliance with property maintenance regulations. The municipality should establish a tiered fine system starting at $100 for first offenses, with escalating fines for repeat violations, and clearly define categories of violations to ensure consistent enforcement."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the statute.",
+      "confidence": 35,
+      "sourceRefs": [
+        "§ 149-35",
+        "§ 149-37"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack a clear timeline for resolving property maintenance violations before penalties are applied. The municipality should establish a regulatory framework that specifies a standard resolution period, such as 30 days, after which escalating fines are imposed for non-compliance, with higher penalties for repeat offenses and clear enforcement mechanisms for different categories of violations."
+    },
+    {
+      "id": "11",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 46,
+      "sourceRefs": [
+        "§ 149-36",
+        "§ 149-35"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack clarity on the extent of property maintenance responsibilities beyond the property lot lines. The municipality should establish a regulatory framework that explicitly defines maintenance responsibilities for property owners extending to the curb, including requirements for sidewalk upkeep, snow removal, and debris clearance to ensure public safety and neighborhood aesthetics."
+    }
+  ],
+  "lastUpdated": "2025-08-29T01:34:00.750Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.34,
+    "normalizedScore": 0,
+    "averageConfidence": 34,
+    "questionsAnswered": 0,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0,
+      "weightedScore": 0
+    }
+  },
+  "overallScore": 0,
+  "normalizedScore": 0,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.739Z"
+}

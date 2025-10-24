@@ -1,0 +1,113 @@
+{
+  "municipality": "NY-Bronxville-Village",
+  "domain": "trees",
+  "analyzedAt": "2025-09-08T18:23:33.833Z",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:22:54.559Z"
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit are not specified in the statute. However, any person violating any of the provisions of this chapter, which includes unauthorized removal of trees, shall, upon conviction, be subject to a fine of not more than $250 or to imprisonment for not more than 15 days, or to both such fine and imprisonment (§ 282-8).",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 282-8"
+      ],
+      "score": 1,
+      "analyzedAt": "2025-09-08T18:22:55.746Z"
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:22:57.226Z"
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:22:57.807Z"
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:22:58.405Z"
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:23:31.676Z"
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Your responsibilities for maintaining trees on your property include:\n\n1. Keeping all trees, shrubs, and plants trimmed and in a condition that does not interfere with or obstruct vision or endanger the safety of persons using any public street, sidewalk, or other public place (§ 282-3). Specifically, tree limbs overhanging a public sidewalk must be at least eight feet above it, and tree limbs overhanging a public street must be at least 13 feet above it.\n\n2. Ensuring that all trees, shrubs, and plants are free from insects that cause or tend to cause disease, destruction, or damage to them, and that may spread to public areas (§ 282-4). This does not apply to insects causing Dutch elm disease.\n\nFailure to comply with these responsibilities may result in the village taking corrective action and assessing the costs to you (§ 282-6, § 282-7).",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 282-3",
+        "§ 282-4",
+        "§ 282-6"
+      ],
+      "score": 0.75,
+      "analyzedAt": "2025-09-08T18:23:33.497Z"
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:23:33.833Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.23,
+    "normalizedScore": 1.15,
+    "averageConfidence": 23,
+    "questionsAnswered": 2,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.75,
+        0.1
+      ],
+      "averageQuestionScore": 0.29375000000000007,
+      "weightedScore": 0.23
+    }
+  },
+  "overallScore": 1.15,
+  "averageConfidence": 23,
+  "questionsAnswered": 2,
+  "totalQuestions": 8,
+  "gapAnalysis": "",
+  "wenGrade": "G-",
+  "usesStateCode": false
+}

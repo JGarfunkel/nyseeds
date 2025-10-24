@@ -1,0 +1,20 @@
+{
+  "municipality": "Rye",
+  "municipalityType": "City",
+  "domain": "Weeds",
+  "domainId": "weeds",
+  "originalCellValue": "R- https://ecode360.com/6973930#:~:text=It%20shall%20be%20unlawful%20for,curb%2C%20any%20growth%20of%20weeds%2C",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:04.574Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Ch 157",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-05T16:32:33.859Z",
+      "contentLength": 3696,
+      "sourceUrl": "https://ecode360.com/6973930#:~:text=It%20shall%20be%20unlawful%20for,curb%2C%20any%20growth%20of%20weeds%2C",
+      "title": "Weeds",
+      "type": "statute"
+    }
+  ]
+}

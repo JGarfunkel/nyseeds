@@ -1,0 +1,141 @@
+{
+  "municipality": {
+    "id": "NY-Bronxville-Village",
+    "displayName": "Bronxville - Village"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "The statute does not specify detailed property maintenance requirements for residents regarding weeds. It mentions compliance notice procedures if maintenance is lacking, but not the specific standards or requirements for weed control.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a clear regulatory framework that specifies maximum allowable weed height, types of prohibited invasive weed species, and mandatory maintenance schedules to ensure consistent property upkeep and community aesthetics."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, defining specific criteria such as plant species, maintenance standards, and designated areas to ensure they are distinguishable from unmanaged weed growth."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the statute that requires property owners to maintain the area between their property lot lines and the curb, including the removal of weeds, to ensure a consistent and well-kept appearance of public spaces."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "If the property owner fails to comply with the maintenance notice within seven days, the Village Administrator is authorized to cut, trim, and remove materials from the property. The cost of these services will be assessed against the property as a lien, collected like delinquent taxes. This cost is in addition to any penalty specified under § 252-7.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.7,
+      "gap": "Consider adding specific fine amounts for initial and repeat offenses, as well as detailed escalation procedures for non-compliance, to strengthen enforcement mechanisms and provide clear guidance to property owners."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The property owner has seven days from the date of mailing of the notice to comply with the property maintenance requirements before penalties are applied.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.55,
+      "gap": "Consider adding specific details about the fine amounts, escalation procedures for repeat offenses, and clear enforcement mechanisms to strengthen the statute's clarity and effectiveness in addressing property maintenance violations."
+    }
+  ],
+  "scores": {
+    "overallScore": 2.75,
+    "normalizedScore": 2.75,
+    "averageConfidence": 46,
+    "questionsAnswered": 3,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.1,
+        0.7,
+        0.55
+      ],
+      "averageQuestionScore": 0.31,
+      "weightedScore": 0.275,
+      "totalWeightedScore": 1.6500000000000001,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "The statute does not specify detailed property maintenance requirements for residents regarding weeds. It mentions compliance notice procedures if maintenance is lacking, but not the specific standards or requirements for weed control.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "If the property owner fails to comply with the maintenance notice within seven days, the Village Administrator is authorized to cut, trim, and remove materials from the property. The cost of these services will be assessed against the property as a lien, collected like delinquent taxes. This cost is in addition to any penalty specified under § 252-7.",
+          "score": 0.7,
+          "weight": 1,
+          "weightedScore": 0.7,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "The property owner has seven days from the date of mailing of the notice to comply with the property maintenance requirements before penalties are applied.",
+          "score": 0.55,
+          "weight": 1,
+          "weightedScore": 0.55,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 2.75,
+  "averageConfidence": 46,
+  "questionsAnswered": 3,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:38:03.559Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 2.75,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.490Z"
+}

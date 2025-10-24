@@ -1,0 +1,240 @@
+{
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "analysisDate": "2025-09-02T20:30:29.252Z",
+  "totalMunicipalitiesAnalyzed": 19,
+  "averageScore": 0,
+  "highestScoringMunicipality": {
+    "id": "NY-Pelham-Village",
+    "displayName": "Pelham - Village",
+    "score": 0
+  },
+  "bestPractices": [
+    {
+      "questionId": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "bestAnswer": "Best practices include requiring residents to maintain their property, including the curtilage and areas adjacent to sidewalks and streets, free from weeds and plant growth exceeding 10 inches in height, with a stricter limit of 6 inches for areas adjacent to public pathways. The statute should require the removal of noxious weeds, poisonous plants, and any vegetation that poses a health or safety hazard. Additionally, residents should ensure that hedges and tree limbs do not impede pedestrian passage and remove any dead or diseased trees that present a safety risk.",
+      "bestScore": 1,
+      "bestMunicipality": {
+        "id": "NY-NewCastle-Town",
+        "displayName": "New Castle"
+      },
+      "quantitativeHighlights": [],
+      "supportingExamples": [
+        {
+          "municipality": {
+            "id": "NY-NewCastle-Town",
+            "displayName": "New Castle"
+          },
+          "score": 1,
+          "confidence": 85
+        },
+        {
+          "municipality": {
+            "id": "NY-NorthCastle-Town",
+            "displayName": "North Castle - Town"
+          },
+          "score": 1,
+          "confidence": 85
+        },
+        {
+          "municipality": {
+            "id": "NY-Rye-City",
+            "displayName": "Rye - City"
+          },
+          "score": 1,
+          "confidence": 85
+        }
+      ],
+      "commonGaps": [
+        "Higher penalties needed",
+        "Enforcement mechanisms"
+      ]
+    },
+    {
+      "questionId": "11",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "bestAnswer": "Best practices include requiring property owners, lessees, or occupants to maintain the exterior premises from the building line to the nearest curb or street edge, ensuring these areas are free from litter, debris, and overgrown vegetation exceeding six inches in height. The statute should mandate the upkeep of sidewalks, driveways, and unpaved street portions adjacent to the property, with clear penalties for non-compliance to ensure public safety and cleanliness.",
+      "bestScore": 1,
+      "bestMunicipality": {
+        "id": "NY-NewCastle-Town",
+        "displayName": "New Castle"
+      },
+      "quantitativeHighlights": [],
+      "supportingExamples": [
+        {
+          "municipality": {
+            "id": "NY-NewCastle-Town",
+            "displayName": "New Castle"
+          },
+          "score": 1,
+          "confidence": 85
+        },
+        {
+          "municipality": {
+            "id": "NY-Ardsley-Village",
+            "displayName": "Ardsley"
+          },
+          "score": 0.95,
+          "confidence": 85
+        },
+        {
+          "municipality": {
+            "id": "NY-Larchmont-Village",
+            "displayName": "Larchmont"
+          },
+          "score": 0.95,
+          "confidence": 85
+        }
+      ],
+      "commonGaps": [
+        "Higher penalties needed",
+        "Enforcement mechanisms"
+      ]
+    },
+    {
+      "questionId": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "bestAnswer": "Best practices include allowing exceptions in property maintenance codes for cultivated pollinator gardens by explicitly defining them as distinct from 'weeds' and exempting them from height restrictions on uncultivated vegetation. The statute should require clear definitions and guidelines to ensure that cultivated pollinator gardens are recognized and protected, promoting biodiversity and environmental benefits.",
+      "bestScore": 1,
+      "bestMunicipality": {
+        "id": "NY-NewCastle-Town",
+        "displayName": "New Castle"
+      },
+      "quantitativeHighlights": [],
+      "supportingExamples": [
+        {
+          "municipality": {
+            "id": "NY-NewCastle-Town",
+            "displayName": "New Castle"
+          },
+          "score": 1,
+          "confidence": 85
+        },
+        {
+          "municipality": {
+            "id": "NY-NorthCastle-Town",
+            "displayName": "North Castle - Town"
+          },
+          "score": 1,
+          "confidence": 85
+        },
+        {
+          "municipality": {
+            "id": "NY-Mamaroneck-Town",
+            "displayName": "Mamaroneck - Town"
+          },
+          "score": 0.95,
+          "confidence": 85
+        }
+      ],
+      "commonGaps": [
+        "Permit process improvements",
+        "Higher penalties needed",
+        "Neighbor notification requirements"
+      ]
+    },
+    {
+      "questionId": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "bestAnswer": "Best practices include implementing a tiered penalty system where fines increase with repeated offenses, starting at $250 and reaching up to $2,000. The statute should require that each day a violation continues is treated as a separate offense, with penalties up to $200 per day. Additionally, municipalities should have the authority to perform necessary maintenance work after a notice period (e.g., 7 to 15 days) and charge the cost to the property owner, including a 20% administrative fee, with the total cost becoming a lien against the property if unpaid.",
+      "bestScore": 1,
+      "bestMunicipality": {
+        "id": "NY-Ardsley-Village",
+        "displayName": "Ardsley"
+      },
+      "quantitativeHighlights": [
+        "Highest fine: $2,000",
+        "Highest fine: $200"
+      ],
+      "supportingExamples": [
+        {
+          "municipality": {
+            "id": "NY-Ardsley-Village",
+            "displayName": "Ardsley"
+          },
+          "score": 1,
+          "confidence": 85
+        },
+        {
+          "municipality": {
+            "id": "NY-Bedford-Town",
+            "displayName": "Bedford"
+          },
+          "score": 1,
+          "confidence": 85
+        },
+        {
+          "municipality": {
+            "id": "NY-Bronxville-Village",
+            "displayName": "Bronxville - Village"
+          },
+          "score": 1,
+          "confidence": 85
+        }
+      ],
+      "commonGaps": [
+        "Higher penalties needed",
+        "Enforcement mechanisms",
+        "Permit process improvements"
+      ]
+    },
+    {
+      "questionId": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "bestAnswer": "Best practices include requiring a written notice of violation to be issued to the property owner, with a standard resolution timeframe of 30 days. If the violation poses an imminent danger, corrective action should begin within 10 days. Failure to comply within these timeframes should lead to a public hearing, after which the municipality may intervene and charge the owner for corrective costs. Immediate penalties or actions should be considered for repeat offenses within a 24-month period.",
+      "bestScore": 1,
+      "bestMunicipality": {
+        "id": "NY-Ardsley-Village",
+        "displayName": "Ardsley"
+      },
+      "quantitativeHighlights": [],
+      "supportingExamples": [
+        {
+          "municipality": {
+            "id": "NY-Ardsley-Village",
+            "displayName": "Ardsley"
+          },
+          "score": 1,
+          "confidence": 85
+        },
+        {
+          "municipality": {
+            "id": "NY-Bedford-Town",
+            "displayName": "Bedford"
+          },
+          "score": 1,
+          "confidence": 85
+        },
+        {
+          "municipality": {
+            "id": "NY-Larchmont-Village",
+            "displayName": "Larchmont"
+          },
+          "score": 1,
+          "confidence": 85
+        }
+      ],
+      "commonGaps": [
+        "Enforcement mechanisms",
+        "Higher penalties needed",
+        "Permit process improvements"
+      ]
+    }
+  ],
+  "overallRecommendations": {
+    "commonWeaknesses": [],
+    "keyImprovements": [
+      "Higher penalties needed",
+      "Enforcement mechanisms",
+      "Permit process improvements",
+      "Neighbor notification requirements"
+    ],
+    "modelMunicipalities": [
+      "Pelham - Village"
+    ]
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,108 @@
+{
+  "municipality": {
+    "id": "NY-Ossining-Village",
+    "displayName": "Ossining - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas-powered leaf blowers lasts from January 1, 2023, at all times on properties less than 1/2 acre in size. For properties that are at least 1/2 acre, the use is allowed from March 1 through June 1 and September 15 through December 15.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 178-5D"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas-powered leaf blowers may be operated during the hours set forth in Subsection D(2), which indicates that noise levels from domestic tools and equipment are permitted from 8:00 a.m. to sundown Monday through Friday, and from 9:00 a.m. to sundown on Saturday, Sunday, and holidays.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 178-5D"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Violators of the gas leaf blower regulations are considered to be violating the chapter and can face penalties as outlined in Article III, General Penalty, of Chapter 1, General Provisions. For specific violations related to gas leaf blowers, individuals will receive one warning before an appearance ticket is issued.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 178-9B"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions. Sounds created by governmental agencies using public warning devices, and the production of music in connection with military or civic parades, funeral processions, or religious services are exempt from the limitations of this chapter.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 178-7A"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations of this chapter must be supported by evidence, which may include time-stamped photographs, video, records of complaints, and/or sworn witness statements. Enforcement is done through prosecuting violators who exceed permissible noise levels.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 178-9C"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.64,
+    "normalizedScore": 1.65,
+    "averageConfidence": 64,
+    "questionsAnswered": 5,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.55,
+        0.3,
+        0.3,
+        0.55,
+        0.6,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.3571428571428572,
+      "weightedScore": 0.33
+    }
+  },
+  "overallScore": 1.65,
+  "averageConfidence": 64,
+  "questionsAnswered": 5,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:24:41.142Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

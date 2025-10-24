@@ -1,0 +1,37 @@
+{
+  "municipality": "NY-BriarcliffManor-Village",
+  "domain": "weeds",
+  "analyzedAt": "2025-09-08T16:58:17.758Z",
+  "questions": [
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T16:58:17.758Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0.35,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 1,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1
+      ],
+      "averageQuestionScore": 0.1,
+      "weightedScore": 0.07
+    }
+  },
+  "overallScore": 0.35,
+  "averageConfidence": 0,
+  "questionsAnswered": 0,
+  "totalQuestions": 1,
+  "gapAnalysis": "",
+  "wenGrade": null,
+  "usesStateCode": false
+}

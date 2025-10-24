@@ -1,0 +1,92 @@
+{
+  "municipality": {
+    "id": "NY-NorthCastle-Town",
+    "displayName": "North Castle - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weed Management"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding yard and landscape conditions?",
+      "answer": "Residents are required to maintain their yards and landscapes by keeping them free from weeds or plant growth in excess of 10 inches. All noxious weeds are prohibited. \"Weeds\" are defined as all grasses, annual plants, and vegetation, excluding trees, shrubs, cultivated flowers, and gardens (§ 241-4E). Additionally, yards must be kept clean and free of physical hazards, rodent harborage, and infestation, and maintained to prevent dust or particles from being blown about the neighborhood (§ 241-4D).",
+      "confidence": 54,
+      "sourceRefs": [
+        "§ 241-4"
+      ],
+      "score": 0.84,
+      "gap": "The statute seems to lack specific guidelines for the disposal of yard waste, such as grass clippings and fallen leaves, to ensure environmentally responsible practices and prevent clogging of drainage systems."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator garddens?",
+      "answer": "Yes, there is an exception in the property maintenance code for cultivated gardens. According to § 241-4(E), the term \"weeds\" does not include cultivated flowers and gardens, which implies that cultivated pollinator gardens would be allowed as they fall under the category of cultivated gardens.",
+      "confidence": 45,
+      "sourceRefs": [
+        "§ 241-4"
+      ],
+      "score": 0.65,
+      "gap": "The statute seems to lack specific guidelines or standards for the maintenance and design of cultivated pollinator gardens to ensure they are distinguishable from neglected or overgrown areas."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 49,
+      "sourceRefs": [
+        "§ 241-4"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack clear guidelines on penalties for non-compliance with property maintenance regulations. The municipality should establish a tiered penalty system that includes specific fine amounts for first-time and repeat offenses, categorizes violations by severity, and outlines enforcement mechanisms such as warnings, fines, and potential legal action for continued non-compliance."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the statute.",
+      "confidence": 38,
+      "sourceRefs": [
+        "§ 241-4"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack a clear timeline for resolving property maintenance violations before penalties are applied. The municipality should establish a regulatory framework that specifies a standard resolution period, such as 30 days from the date of notice, with clearly defined fine amounts, escalation procedures for repeat offenses, enforcement mechanisms, and categorized violation types to ensure consistent and fair application of penalties."
+    },
+    {
+      "id": "11",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 51,
+      "sourceRefs": [
+        "§ 241-4"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack clarity on the maintenance responsibilities extending beyond property lot lines to the curb; the municipality should establish a regulatory framework that clearly defines property owner responsibilities for maintaining the area between their property lines and the curb, including standards for sidewalk cleanliness, snow removal, and vegetation control."
+    }
+  ],
+  "lastUpdated": "2025-08-29T01:34:50.430Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.47,
+    "normalizedScore": 1.2217999999999998,
+    "averageConfidence": 47,
+    "questionsAnswered": 2,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.84,
+        0.65,
+        0,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.298,
+      "weightedScore": 0.24435999999999997
+    }
+  },
+  "overallScore": 1.2217999999999998,
+  "normalizedScore": 1.2217999999999998,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.748Z"
+}

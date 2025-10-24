@@ -1,0 +1,90 @@
+{
+  "municipality": {
+    "id": "NY-Cortlandt-Town",
+    "displayName": "Cortlandt - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "The statute does not specify the detailed property maintenance requirements for weeds. It generally addresses the enforcement and notification processes for zombie properties in violation of the New York State Property Maintenance Code, but it doesn't include specific requirements about weed management.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding specific property maintenance requirements for weed management, such as defining acceptable weed height limits, outlining regular maintenance schedules, and establishing penalties for non-compliance to ensure clarity and enforceability."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "The statute does not mention exceptions or allowances for cultivated pollinator gardens. It focuses on the maintenance and enforcement processes for vacant properties, commonly referred to as 'zombie properties', under the New York State Property Maintenance Code.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "Consider adding explicit provisions or exceptions in the property maintenance code to allow for and regulate cultivated pollinator gardens, including specific guidelines on acceptable plant species, garden maintenance standards, and potential impact on neighboring properties to ensure clarity and support for biodiversity initiatives."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "The statute does not specify whether the property maintenance law extends beyond the property lot lines, such as to the curb. It focuses on addressing violations related to the maintenance of vacant properties within the property lines, according to the New York State Property Maintenance Law.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding explicit language to the statute that clarifies the responsibilities of property owners for maintaining areas beyond their property lot lines, such as sidewalks and curbs, to ensure comprehensive property maintenance and address potential ambiguities in enforcement."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "If a property owner fails to comply with property maintenance regulations after receiving an order to remedy, the Town may engage contractors to perform the necessary work. The cost of this work, along with an administrative fee of 20%, becomes a lien against the property. This cost is collected in the same manner as Town taxes and can become a lien if unpaid.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 221-2",
+        "§ 221-5"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding specific fine amounts for initial and repeat offenses, as well as detailed categories of violations to ensure clarity and consistency in enforcement."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Once an order to remedy is issued and not complied with, the property owner is sent a notice providing 10 days to resolve the violation before the Town engages contractors to perform the necessary work. This is after the initial expiration date required under the New York State Property Maintenance Law. If not resolved within this timeline, penalties as specified in the statute will be applied.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 221-2",
+        "§ 221-3"
+      ],
+      "score": 1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.85,
+    "normalizedScore": 2.45,
+    "averageConfidence": 85,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.5,
+        0.1,
+        0.75,
+        1
+      ],
+      "averageQuestionScore": 0.49000000000000005,
+      "weightedScore": 0.49
+    }
+  },
+  "overallScore": 2.45,
+  "averageConfidence": 85,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T16:58:52.020Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

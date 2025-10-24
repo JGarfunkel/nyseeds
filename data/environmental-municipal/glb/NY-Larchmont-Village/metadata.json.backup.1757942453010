@@ -1,0 +1,15 @@
+{
+  "municipality": "Larchmont",
+  "municipalityType": "Village",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "GG-CH-180-Leaf Blowers",
+  "downloadedAt": "2025-09-05T16:35:45.828Z",
+  "contentLength": 5067,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:58.469Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/36859358",
+  "statuteNumber": "Chapter 180",
+  "statuteTitle": "Leaf Blowers"
+}

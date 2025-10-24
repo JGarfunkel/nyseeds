@@ -1,0 +1,13 @@
+{
+  "municipality": "Briarcliff Manor",
+  "municipalityType": "Village",
+  "domain": "Weeds",
+  "domainId": "weeds",
+  "originalCellValue": "R-ny state",
+  "downloadedAt": "2025-09-05T16:13:20.536Z",
+  "contentLength": 1769,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:02.849Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://up.codes/viewer/new_york/ny-property-maintenance-code-2020"
+}

@@ -1,0 +1,78 @@
+{
+  "municipality": {
+    "id": "NY-Bedford-Town",
+    "displayName": "Bedford - Town"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Gas leaf blowers, referred to as internal combustion leaf blowers in the statute, can only be used during the specified clean-up season. This season lasts from October 26 to December 7 each year. Thus, gas leaf blowers are prohibited for the rest of the year, outside these dates.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 83-3",
+        "§ 83-5"
+      ],
+      "score": 0.65
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers can be operated during the clean-up season on non-holiday weekdays from 8:00 a.m. to 5:00 p.m., on Saturdays from 10:00 a.m. to 4:00 p.m., and on Sundays from 12:00 p.m. to 4:00 p.m.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 83-5"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Penalties for violating gas leaf blower regulations include a fine of up to $250 for the first violation, $500 for the second violation, and $1,000 for the third and any additional violations.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 83-10"
+      ],
+      "score": 0.7
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are several exceptions for school, government, and other properties. For example, sounds connected with sporting events of any public or private school or town-sponsored events, sounds from activities and equipment operated by the Town of Bedford, and sounds by governmental agencies for public warning are exempt from the noise prohibition. Additionally, schools can use organs, bells, or chimes without restriction, and public utilities are exempt during their franchise operations.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 83-7"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations can be reported through sworn affidavits from two or more unrelated persons, direct observation by an enforcement officer, or a time-stamped geo-video/photo accompanied by a sworn affidavit. Enforcement of these violations is conducted by the Police Department of the Town of Bedford, the Town Code Enforcement Officer, or other officials designated by the Town Board.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 83-3",
+        "§ 83-9"
+      ],
+      "score": 0.65
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5
+    }
+  ],
+  "lastUpdated": "2025-09-05T20:35:24.616Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

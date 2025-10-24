@@ -1,0 +1,137 @@
+{
+  "municipality": {
+    "id": "NY-RyeBrook-Village",
+    "displayName": "Rye Brook - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Not specified in the statute.",
+      "confidence": 61,
+      "sourceRefs": [
+        "§ 235-13",
+        "§ 235-7"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack permit requirements - municipality should establish clear application procedures, review criteria, and approval standards for tree removal."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit are as follows:\n\n1. For the first violation, the offense is punishable by a fine of not less than $500 and not more than $750 per violation. Each tree removed without a permit constitutes a separate offense (Statute Chunk 1).\n\n2. For a second and each subsequent violation within a one-year period, the offense is punishable by a fine of not less than $600 and not more than $1,000 per violation, or a term of imprisonment of not more than 15 days, or both. Additionally, another tree or multiple trees equaling the DBH (Diameter at Breast Height) of the tree removed must be replanted at the expense of the property owner, with the species, DBH, and location specified by the Approving Authority (Statute Chunk 2).",
+      "confidence": 66,
+      "sourceRefs": [
+        "§ 235-15",
+        "§ 235-7"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "Not specified in the statute.",
+      "confidence": 58,
+      "sourceRefs": [
+        "§ 235-20",
+        "§ 235-7"
+      ],
+      "score": 0,
+      "gap": "The statute seems to be missing fee structure - municipality should establish permit fees to cover administrative costs and incentivize proper tree management practices."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "You are required to replant a native noninvasive tree of a specified size on the property or on common property with permission, as per § 235-18. Non-native species are not allowed as replacements.",
+      "confidence": 57,
+      "sourceRefs": [
+        "§ 235-18",
+        "§ 235-24"
+      ],
+      "score": 0.77,
+      "gap": "The statute seems to lack specific details on the required size of the replacement native noninvasive tree, as well as any monitoring or survival requirements to ensure the newly planted trees thrive."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 56,
+      "sourceRefs": [
+        "§ 235-18",
+        "§ 235-20"
+      ],
+      "score": 0,
+      "gap": "The statute seems to be missing notification requirements - municipality should require advance notice to adjacent property owners for significant tree removal projects."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. It highlights the vital interest in the planting and preservation of trees, noting their environmental benefits such as providing shade, aiding water absorption, purifying the air, and enhancing the quality of life (see § 235-1). Additionally, the code mentions that the destruction and removal of trees can have negative effects, such as increased costs for drainage control and impaired property values, and establishes standards for tree protection (see statute chunk 4).",
+      "confidence": 46,
+      "sourceRefs": [
+        "§ 235-1",
+        "§ 235-12"
+      ],
+      "score": 0.66,
+      "gap": "The statute seems to lack specific coverage targets and measurement methods for maintaining a healthy tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Your responsibilities for maintaining trees on your property include:\n\n1. Pruning branches of any tree or shrub on private property that overhangs any right-of-way within the Village to ensure they do not obstruct street lamps, interfere with utilities, or obstruct the view of street intersections or traffic control devices. There must be a clear space of eight feet above the surface of the street or sidewalk (§ 235-10 A).\n\n2. Removing all dead, diseased, or dangerous trees or broken or decayed limbs that pose a safety risk to the public (§ 235-10 A).\n\n3. Ensuring all such work is supervised and performed by a licensed and insured tree removal contractor (§ 235-10 B).",
+      "confidence": 60,
+      "sourceRefs": [
+        "§ 235-10",
+        "§ 235-8"
+      ],
+      "score": 0.8,
+      "gap": "The statute seems to lack specific inspection schedules or standards for property owners to follow in maintaining trees, which could ensure consistent compliance and safety."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute call for data collection on tree removals and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 56,
+      "sourceRefs": [
+        "§ 235-15",
+        "§ 235-7"
+      ],
+      "score": 0,
+      "gap": "The statute seems to be missing reporting framework - municipality should require annual tree removal data collection and public reporting to track urban forest changes."
+    }
+  ],
+  "lastUpdated": "2025-08-27T02:34:23.667Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.58,
+    "normalizedScore": 1.7159375000000001,
+    "averageConfidence": 58,
+    "questionsAnswered": 4,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        1,
+        0,
+        0.77,
+        0,
+        0.66,
+        0.8,
+        0
+      ],
+      "averageQuestionScore": 0.40375000000000005,
+      "weightedScore": 0.34318750000000003
+    }
+  },
+  "overallScore": 1.7159375000000001,
+  "normalizedScore": 1.7159375000000001,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.658Z"
+}

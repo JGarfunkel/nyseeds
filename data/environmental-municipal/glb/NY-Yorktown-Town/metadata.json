@@ -1,0 +1,20 @@
+{
+  "municipality": "Yorktown",
+  "municipalityType": "Town",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "R-CH-217-Noise",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:00.048Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Chapter 216",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-05T16:34:25.426Z",
+      "contentLength": 9786,
+      "sourceUrl": "https://ecode360.com/6851864",
+      "title": "Peace and Good Order",
+      "type": "statute"
+    }
+  ]
+}

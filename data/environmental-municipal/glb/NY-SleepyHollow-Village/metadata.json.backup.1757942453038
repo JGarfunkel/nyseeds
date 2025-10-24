@@ -1,0 +1,15 @@
+{
+  "municipality": "Sleepy Hollow",
+  "municipalityType": "Village",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "G- CH-272-Noise",
+  "downloadedAt": "2025-09-05T16:37:48.612Z",
+  "contentLength": 12324,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:59.792Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/15070090",
+  "statuteNumber": "Ch 272",
+  "statuteTitle": "Alarm systems — See Ch"
+}

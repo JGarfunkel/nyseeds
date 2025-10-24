@@ -1,0 +1,79 @@
+{
+  "municipality": "NY-Scarsdale-Town",
+  "domain": "property-maintenance",
+  "analyzedAt": "2025-08-29T19:55:22.342Z",
+  "answers": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents are required not to maintain or permit any poisonous or harmful weed or plant that is likely to spread to other properties or become a public nuisance on their land. (§ 281-14 B)",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 281-14"
+      ],
+      "score": 1,
+      "analyzedAt": "2025-08-29T19:55:19.966Z"
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-08-29T19:55:20.716Z"
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-08-29T19:55:21.261Z"
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-08-29T19:55:21.796Z"
+    },
+    {
+      "id": "11",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-08-29T19:55:22.342Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.18,
+    "normalizedScore": 0.7600000000000001,
+    "averageConfidence": 18,
+    "questionsAnswered": 1,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.2,
+      "weightedScore": 0.15200000000000002
+    }
+  },
+  "overallScore": 0.7600000000000001,
+  "averageConfidence": 18,
+  "questionsAnswered": 1,
+  "totalQuestions": 5,
+  "gapAnalysis": "",
+  "wenGrade": "G-",
+  "usesStateCode": false
+}

@@ -1,0 +1,30 @@
+{
+  "municipality": {
+    "id": "NY-NewRochelle-City",
+    "displayName": "undefined - City"
+  },
+  "domain": {
+    "id": "cac-cb-etc",
+    "displayName": "Cac Cb Etc"
+  },
+  "grades": {},
+  "questions": [],
+  "lastUpdated": "2025-08-26T18:00:15.148Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 0,
+    "scoreBreakdown": {
+      "questionScores": [],
+      "averageQuestionScore": 0,
+      "weightedScore": 0
+    }
+  },
+  "overallScore": 0,
+  "normalizedScore": 0,
+  "scoresUpdatedAt": "2025-08-29T13:38:28.626Z"
+}

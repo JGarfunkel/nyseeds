@@ -1,0 +1,21 @@
+{
+  "municipality": "Bedford",
+  "municipalityType": "Town",
+  "domain": "Gas Leaf Blowers",
+  "domainId": "glb",
+  "originalCellValue": "https://ecode360.com/6235661",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T20:33:17.762Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Ch 83",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-15T14:42:35.198Z",
+      "contentLength": 24077,
+      "sourceUrl": "https://ecode360.com/6235661",
+      "title": "Additional noise regulations — See Ch",
+      "type": "statute"
+    }
+  ],
+  "originalHtmlLength": 154641
+}

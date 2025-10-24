@@ -1,0 +1,57 @@
+{
+  "municipality": "NY-Mamaroneck-UFSD",
+  "domain": "overall",
+  "analyzedAt": "2025-09-04T17:29:25.965Z",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Does the school district have a policy sustainability?",
+      "answer": "Yes, the school district has a sustainability policy. The Mamaroneck Union Free School District (MUFSD) commits to empowering students to become lifelong, active stewards of communities and the planet, and to operate more sustainably. They aim to develop curricula emphasizing ecological sustainability, promote student leadership in sustainability, and infuse sustainable practices in school operations.",
+      "confidence": 80,
+      "sourceRefs": [],
+      "score": 0.6500000000000001,
+      "analyzedAt": "2025-09-04T17:29:24.832Z"
+    },
+    {
+      "id": "2",
+      "question": "Does the school district have a sustainability committee?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-04T17:29:25.417Z"
+    },
+    {
+      "id": "3",
+      "question": "Does the school district have a comprehensive plan for sustainability?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-04T17:29:25.965Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.27,
+    "normalizedScore": 1.1333333333333333,
+    "averageConfidence": 27,
+    "questionsAnswered": 1,
+    "totalQuestions": 3,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.6500000000000001,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.2833333333333334,
+      "weightedScore": 0.22666666666666668
+    }
+  },
+  "overallScore": 1.1333333333333333,
+  "averageConfidence": 27,
+  "questionsAnswered": 1,
+  "totalQuestions": 3,
+  "gapAnalysis": "",
+  "wenGrade": null,
+  "usesStateCode": false
+}

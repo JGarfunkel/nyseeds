@@ -1,0 +1,19 @@
+{
+  "municipality": "Pelham",
+  "municipalityType": "Town",
+  "domain": "Weed Management",
+  "domainId": "weeds",
+  "originalCellValue": "R-ny state",
+  "stateCodeApplies": true,
+  "referencesStateCode": true,
+  "stateCodePath": "../NY-State/statute.txt",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-05T17:49:43.428Z",
+      "contentLength": 0,
+      "sourceUrl": "https://up.codes/viewer/new_york/ny-property-maintenance-code-2020",
+      "title": "Weed Management",
+      "type": "statute"
+    }
+  ]
+}

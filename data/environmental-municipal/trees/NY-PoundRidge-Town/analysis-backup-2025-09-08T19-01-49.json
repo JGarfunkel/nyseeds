@@ -1,0 +1,114 @@
+{
+  "municipality": {
+    "id": "NY-PoundRidge-Town",
+    "displayName": "Pound Ridge - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a tree removal permit to remove certain trees on your private property. You can apply by filing three copies of the tree removal permit application with the Building Inspector. The application must include details like your name, the address of the property, the number and size of trees to be removed, and the purpose for removal. The Building Inspector will review your application and is required to grant or deny the permit within 15 business days after receiving all required information.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-4",
+        "§ 93-5"
+      ],
+      "score": 0.9
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit include being guilty of an offense punishable by a fine of up to $500 for each regulated tree removed, cut down, or damaged. Additionally, the Building Inspector may direct the violator to replace any removed or damaged trees with native and/or noninvasive nursery stock trees. These replacements must be planted within a specified time and guaranteed to remain healthy for at least two years. No building permit, certificate of occupancy, or certificate of compliance will be issued until the replacement has been completed.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-8"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed, and this is required instead of making a payment. However, you must use native and/or noninvasive nursery stock trees for the replacements, which means you are not allowed to plant non-native species as replacements.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-8"
+      ],
+      "score": 0.95
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.38,
+    "normalizedScore": 1.7,
+    "averageConfidence": 38,
+    "questionsAnswered": 3,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.9,
+        1,
+        0.1,
+        0.95,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.41875000000000007,
+      "weightedScore": 0.34
+    }
+  },
+  "overallScore": 1.7,
+  "averageConfidence": 38,
+  "questionsAnswered": 3,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T19:01:49.882Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

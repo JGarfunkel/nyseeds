@@ -1,0 +1,15 @@
+{
+  "municipality": "Larchmont",
+  "municipalityType": "Village",
+  "domain": "Weeds",
+  "domainId": "weeds",
+  "originalCellValue": "R-https://ecode360.com/7080161",
+  "downloadedAt": "2025-09-05T16:31:13.842Z",
+  "contentLength": 2635,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:03.590Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/7080161",
+  "statuteNumber": "Ch 115",
+  "statuteTitle": "Property maintenance — See Ch"
+}

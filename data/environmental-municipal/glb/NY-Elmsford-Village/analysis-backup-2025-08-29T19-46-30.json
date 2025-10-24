@@ -1,0 +1,88 @@
+{
+  "municipality": {
+    "id": "NY-Elmsford-Village",
+    "displayName": "Elmsford - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Not specified in the statute.",
+      "confidence": 32,
+      "sourceRefs": [
+        "§ 228-2",
+        "§ 228-3"
+      ],
+      "score": 0,
+      "gap": "Consider adding a specific regulatory framework that establishes a clear prohibition period for gas leaf blowers, detailing the start and end dates, such as from May 1st to September 30th, to ensure clarity and compliance."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "The permitted hours for gas leaf blower operation are between 8:00 a.m. and 8:00 p.m., Monday through Friday, and between 9:00 a.m. and 8:00 p.m. on Saturdays, Sundays, and any federal holidays (§ 228-3, H).",
+      "confidence": 41,
+      "sourceRefs": [
+        "§ 228-3",
+        "§ 228-2"
+      ],
+      "score": 0.71,
+      "gap": "Consider adding specific enforcement mechanisms and penalties for violations of the permitted hours for gas leaf blower operation to ensure compliance and address any potential disturbances effectively."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating gas leaf blower regulations are specified in § 228-4. Any person found in violation of this chapter shall, upon conviction, be punished by a fine of not less than $100 nor more than $250. Additionally, each day that a violation continues is considered a separate offense.",
+      "confidence": 43,
+      "sourceRefs": [
+        "§ 228-4",
+        "§ 228-3"
+      ],
+      "score": 0.73,
+      "gap": "Consider adding specific escalation measures for repeat offenses, such as increased fines or additional penalties, to deter ongoing non-compliance with gas leaf blower regulations."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 36,
+      "sourceRefs": [
+        "§ 228-3",
+        "§ 228-2"
+      ],
+      "score": 0,
+      "gap": "Consider adding a provision that explicitly outlines exceptions or specific requirements for school, government, and commercial properties, including criteria for eligibility and any conditions that must be met to qualify for these exceptions."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 34,
+      "sourceRefs": [
+        "§ 228-4",
+        "§ 228-3"
+      ],
+      "score": 0,
+      "gap": "Consider adding a regulatory framework that mandates a centralized reporting system for violations, requiring detailed data collection, public accessibility of reports, and a transparent tracking mechanism to ensure accountability and enforcement."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 34,
+      "sourceRefs": [
+        "§ 228-2",
+        "§ 228-1"
+      ],
+      "score": 0,
+      "gap": "Consider adding a provision to the ordinance that encourages residents to leave leaf debris or practice leaf mulching by offering guidelines on its environmental benefits, such as improving soil health and reducing landfill waste, and providing incentives like reduced yard waste collection fees for participants."
+    }
+  ],
+  "lastUpdated": "2025-08-29T19:46:30.160Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

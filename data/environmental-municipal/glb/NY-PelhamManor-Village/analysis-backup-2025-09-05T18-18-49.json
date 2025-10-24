@@ -1,0 +1,74 @@
+{
+  "municipality": {
+    "id": "NY-PelhamManor-Village",
+    "displayName": "Pelham Manor - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition on operating gas leaf blowers lasts for parts of the year with specific allowed periods for use. The prohibition is in effect from April 16 to October 14, December 16 to March 14, and with limited hours between October 15 to December 15 and March 15 to April 15. During those periods, gas leaf blowers can only be used between 8:00 a.m. and 5:30 p.m. on Tuesday to Friday, and between 12:00 noon and 4:00 p.m. on Saturday.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 139-10"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers are permitted to be operated during two specific periods of the year: from October 15 to December 15 and from March 15 to April 15. During these times, gas leaf blowers can be used between 8:00 a.m. and 5:30 p.m. from Tuesday to Friday. They can also be used on Saturdays between 12:00 noon and 4:00 p.m. They are not allowed to be operated on Sundays or legal holidays.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 139-10"
+      ],
+      "score": 0.65
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Violating the gas leaf blower regulations can result in a fine ranging from $250 to $1,000. Additionally, violators could face imprisonment for up to 15 days. Each violation is considered a separate offense, meaning multiple infractions could lead to multiple fines and/or jail terms.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 139-12"
+      ],
+      "score": 0.85
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions for certain entities. The restrictions on gas leaf blower use do not apply to utility companies, municipal, and school district emergency operations.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 139-11"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5
+    }
+  ],
+  "lastUpdated": "2025-09-05T18:18:49.084Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

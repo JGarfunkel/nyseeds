@@ -1,0 +1,20 @@
+{
+  "municipality": "New Castle",
+  "municipalityType": "Town",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "G- CH-90-Noise",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:58.889Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Ch 90",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-05T16:36:27.642Z",
+      "contentLength": 23721,
+      "sourceUrl": "https://ecode360.com/11760261#11760282",
+      "title": "Alarm systems — See Ch",
+      "type": "statute"
+    }
+  ]
+}

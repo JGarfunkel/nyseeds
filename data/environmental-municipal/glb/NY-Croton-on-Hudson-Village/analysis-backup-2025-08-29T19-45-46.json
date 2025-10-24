@@ -1,0 +1,90 @@
+{
+  "municipality": {
+    "id": "NY-Croton-on-Hudson-Village",
+    "displayName": "Croton-on-Hudson - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas-powered leaf blowers lasts from June 1 to August 31 and from January 1 to March 31 each year. This means the prohibition is in effect for a total of six months each year. (Section I)",
+      "confidence": 25,
+      "sourceRefs": [
+        "§ 160-4",
+        "§ 160-10"
+      ],
+      "score": 0.45,
+      "gap": "Consider adding a clear definition of \"gas-powered leaf blowers\" within the statute to ensure consistent understanding and enforcement of the prohibition periods."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "The permitted hours for gas leaf blower operation are not specified in the statute. However, the statute does mention that the operation of gas-powered leaf blowers is prohibited between June 1 and August 31, as well as January 1 and March 31, every year. Additionally, the Village Manager may allow their use after significant storm events or emergencies for up to seven days during these periods (Section I).",
+      "confidence": 30,
+      "sourceRefs": [
+        "§ 160-4",
+        "§ 160-10"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific permitted hours for gas leaf blower operation outside the prohibited periods, such as allowing their use from 9 AM to 5 PM on weekdays and 10 AM to 4 PM on weekends, to minimize noise disturbances while accommodating necessary landscaping activities."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 31,
+      "sourceRefs": [
+        "§ 160-4",
+        "§ 160-10"
+      ],
+      "score": 0,
+      "gap": "Consider adding a tiered penalty structure that includes an initial fine of $100 for first-time violations, escalating to $250 for second offenses and $500 for subsequent violations, along with clear enforcement mechanisms such as warnings and citations issued by designated municipal officers."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there is an exception specified for school district properties. The statute states that the use of gas-powered leaf blowers is not prohibited on school district property at any time, even during the periods when their use is generally restricted (Section I).",
+      "confidence": 25,
+      "sourceRefs": [
+        "§ 160-4",
+        "§ 160-10"
+      ],
+      "score": 0.35,
+      "gap": "Consider adding a provision that outlines specific exceptions or restrictions for the use of gas-powered leaf blowers on government and commercial properties, similar to those established for school district properties, to ensure clarity and consistency across different property types."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 18,
+      "sourceRefs": [
+        "§ 160-4",
+        "§ 160-10"
+      ],
+      "score": 0,
+      "gap": "Consider adding a regulatory framework that mandates the establishment of a centralized reporting system for violations, requiring detailed data collection, public accessibility of reports, and regular updates to ensure transparency and effective tracking of enforcement actions."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 23,
+      "sourceRefs": [
+        "§ 160-4",
+        "§ 160-10"
+      ],
+      "score": 0,
+      "gap": "Consider adding a provision to the statute that mandates the promotion of leaf mulching practices through public education campaigns and incentives for residents who adopt sustainable leaf management techniques."
+    }
+  ],
+  "lastUpdated": "2025-08-29T19:45:46.924Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

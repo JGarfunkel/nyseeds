@@ -1,0 +1,149 @@
+{
+  "municipality": {
+    "id": "NY-Rye-City",
+    "displayName": "Rye - City"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents must ensure no weeds, grass, or other rank vegetation exceed 12 inches in height and must not allow poisonous plants like poison ivy or ragweed to grow in a way that affects public places. Additionally, the vegetation must be cut and removed at least once every three weeks from May 15 to September 15. For lots of one acre or less, complete clearance of these plants is required. For larger parcels, there must be at least a 150-foot clearance from street lines and 100 feet from adjacent property lines.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 157-52",
+        "§ 157-53"
+      ],
+      "score": 1
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, specifying guidelines for acceptable plant species, maintenance standards, and designated areas to ensure they are distinguishable from unmanaged weed growth."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law extends beyond the property lot lines to include the area along sidewalks, streets adjacent to the property, and up to 10 feet outside the property line if there is no curb.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 157-52"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding specific guidelines for property owners regarding maintenance responsibilities for areas beyond the property lot lines, such as clear standards for sidewalk cleanliness, snow removal, and vegetation control, to ensure consistent enforcement and compliance."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "If the owner fails to comply, the City will cut and remove the weeds, and the costs of this work, plus reasonable inspection and additional costs, will become a lien on the property and added to the taxes. This amount will bear interest like taxes and be collected in the same manner. Additionally, these costs are in addition to any penalties for violation of the statute.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 157-54"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding specific fine amounts for initial and repeat offenses, as well as clear categories of violations and detailed enforcement mechanisms to strengthen the statute's clarity and deterrence."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "After written notice is served by mail, the property owner has five days to cut and remove the offending vegetation before the City takes action and applies penalties.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 157-54"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific details about the fine amounts, escalation procedures for repeat offenses, and clear enforcement mechanisms to strengthen the statute's clarity and effectiveness in addressing property maintenance violations."
+    }
+  ],
+  "scores": {
+    "overallScore": 5.5,
+    "normalizedScore": 5.5,
+    "averageConfidence": 72,
+    "questionsAnswered": 4,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        0.1,
+        0.8,
+        0.75,
+        0.55
+      ],
+      "averageQuestionScore": 0.64,
+      "weightedScore": 0.55,
+      "totalWeightedScore": 3.3,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "Residents must ensure no weeds, grass, or other rank vegetation exceed 12 inches in height and must not allow poisonous plants like poison ivy or ragweed to grow in a way that affects public places. Additionally, the vegetation must be cut and removed at least once every three weeks from May 15 to September 15. For lots of one acre or less, complete clearance of these plants is required. For larger parcels, there must be at least a 150-foot clearance from street lines and 100 feet from adjacent property lines.",
+          "score": 1,
+          "weight": 1,
+          "weightedScore": 1,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "Yes, the property maintenance law extends beyond the property lot lines to include the area along sidewalks, streets adjacent to the property, and up to 10 feet outside the property line if there is no curb.",
+          "score": 0.8,
+          "weight": 1,
+          "weightedScore": 0.8,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "If the owner fails to comply, the City will cut and remove the weeds, and the costs of this work, plus reasonable inspection and additional costs, will become a lien on the property and added to the taxes. This amount will bear interest like taxes and be collected in the same manner. Additionally, these costs are in addition to any penalties for violation of the statute.",
+          "score": 0.75,
+          "weight": 1,
+          "weightedScore": 0.75,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "After written notice is served by mail, the property owner has five days to cut and remove the offending vegetation before the City takes action and applies penalties.",
+          "score": 0.55,
+          "weight": 1,
+          "weightedScore": 0.55,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 5.5,
+  "averageConfidence": 72,
+  "questionsAnswered": 4,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:50:05.804Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 5.5,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.550Z"
+}

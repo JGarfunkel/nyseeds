@@ -1,0 +1,216 @@
+{
+  "municipality": {
+    "id": "NY-Peekskill-City",
+    "displayName": "Peekskill - City"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree with a DBH of six inches or greater on your private property. To apply for a permit, you must use the forms provided by the Building Inspector, and your application must include specific information such as the owner’s details, number of trees involved, purpose of the permit, and a sketch plan. The Building Inspector reviews the application.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 530-4",
+        "§ 530-6"
+      ],
+      "score": 0.9,
+      "gap": "Consider adding detailed timelines for the application review process and decision-making to provide clarity on how long applicants should expect to wait for a permit decision."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit include being guilty of an offense punishable by a fine of $500. Each day the violation continues counts as a separate offense, and each tree removed illegally also counts as a separate offense.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 530-11"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding specific details about the application procedures for obtaining a tree removal permit, including required documentation, review criteria, timelines for decision-making, and the appeal process for denied permits."
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§ 530-9"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific costs per tree, available payment options, any applicable exemptions, and provisions to ensure the fees cover administrative costs associated with enforcement and processing."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed instead of making a payment. However, you are not allowed to plant non-native species as replacements. Replanted trees must be ecologically compatible with the site and neighboring properties and should be from the approved list of native species as specified by the Department of Environmental Conservation and Westchester Native Plants Center.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 530-9"
+      ],
+      "score": 0.9,
+      "gap": "Consider adding a requirement for a survival monitoring period to ensure that replanted trees establish successfully, along with guidelines for replacement ratios to maintain ecological balance."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§ 530-5"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and identifying any parties whose property may be impacted by the removal."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy by establishing minimum standards for tree protection to prevent indiscriminate destruction of trees. It highlights the benefits of trees, such as shade, pollution control, and aesthetic value, which are linked to a healthy tree canopy.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 530-1"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific coverage targets for the tree canopy, detailed measurement methods for assessing canopy health, and comprehensive maintenance plans to ensure long-term preservation and enhancement of the tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "The statute does not specify detailed responsibilities for maintaining trees on your property, but it does require any replanted trees to be maintained in healthy conditions for at least one year from the date of replanting.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 530-9"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding specific guidelines for property owners regarding regular inspection schedules, care standards for tree health, and responsibilities for managing potential hazards such as dead branches or diseased trees to ensure public safety and compliance."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for systematic data collection on all tree removals, including the reason for removal and location, with an annual public report that details these findings to ensure transparency and facilitate community engagement."
+    }
+  ],
+  "scores": {
+    "overallScore": 5.03,
+    "normalizedScore": 5.03,
+    "averageConfidence": 61,
+    "questionsAnswered": 5,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.9,
+        0.85,
+        0.1,
+        0.9,
+        0.1,
+        0.55,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.45000000000000007,
+      "weightedScore": 0.5033,
+      "totalWeightedScore": 7.550000000000001,
+      "totalPossibleWeight": 15,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+          "answer": "Yes, you need a permit to remove a tree with a DBH of six inches or greater on your private property. To apply for a permit, you must use the forms provided by the Building Inspector, and your application must include specific information such as the owner’s details, number of trees involved, purpose of the permit, and a sketch plan. The Building Inspector reviews the application.",
+          "score": 0.9,
+          "weight": 1,
+          "weightedScore": 0.9,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the penalties for removing trees without a permit?",
+          "answer": "The penalties for removing trees without a permit include being guilty of an offense punishable by a fine of $500. Each day the violation continues counts as a separate offense, and each tree removed illegally also counts as a separate offense.",
+          "score": 0.85,
+          "weight": 2,
+          "weightedScore": 1.7,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What is the fee for removing each tree without a replacement?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "4",
+          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+          "answer": "Yes, you can replant new trees to replace those removed instead of making a payment. However, you are not allowed to plant non-native species as replacements. Replanted trees must be ecologically compatible with the site and neighboring properties and should be from the approved list of native species as specified by the Department of Environmental Conservation and Westchester Native Plants Center.",
+          "score": 0.9,
+          "weight": 3,
+          "weightedScore": 2.7,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "Which neighbors must be notified if I remove trees? ",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "6",
+          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+          "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy by establishing minimum standards for tree protection to prevent indiscriminate destruction of trees. It highlights the benefits of trees, such as shade, pollution control, and aesthetic value, which are linked to a healthy tree canopy.",
+          "score": 0.55,
+          "weight": 3,
+          "weightedScore": 1.6500000000000001,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "8",
+          "question": "What are my responsibilities for maintaining trees on my property?",
+          "answer": "The statute does not specify detailed responsibilities for maintaining trees on your property, but it does require any replanted trees to be maintained in healthy conditions for at least one year from the date of replanting.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "9",
+          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        }
+      ]
+    }
+  },
+  "overallScore": 5.03,
+  "averageConfidence": 61,
+  "questionsAnswered": 5,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-09T18:26:06.718Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 5.03,
+  "scoresUpdatedAt": "2025-10-10T17:18:10.205Z"
+}

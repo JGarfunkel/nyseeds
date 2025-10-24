@@ -1,0 +1,113 @@
+{
+  "municipality": {
+    "id": "NY-Cortlandt-Town",
+    "displayName": "Cortlandt - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property unless specific exemptions apply. According to § 283-3, a permit is required to cut down, kill, or otherwise destroy any tree unless you are removing three or fewer trees on a single lot within a twelve-month period, provided they are not protected trees and are not within 10 feet of the property line on lots greater than 20,000 square feet. Additionally, removal is allowed without a permit if the tree poses an emergency threat or is dead or substantially diseased.\n\nTo apply for a permit, you must file an application with the approving authority, including details such as the property owner's information, a statement of purpose for the removal, and a plan showing the property and proposed work (§ 283-6).\n\nThe approving authority reviews the application, evaluating the proposed activity's impact on public health, safety, and environmental factors (§ 283-7).",
+      "confidence": 56,
+      "sourceRefs": [
+        "§ 283-6",
+        "§ 283-7"
+      ],
+      "score": 0.86,
+      "gap": "Consider adding a clear timeline for the permit application review process, including specific deadlines for both submission and decision-making, to ensure transparency and predictability for applicants."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit include the requirement to restore the affected area by backfilling all holes and creating an acceptable grade and plantings, subject to approval by the Director of Technical Services in consultation with the Town Arborist (§ 283-9). There is no mention of fines or other specific penalties in the provided statute text.",
+      "confidence": 59,
+      "sourceRefs": [
+        "§ 283-9",
+        "§ 283-3"
+      ],
+      "score": 0.99,
+      "gap": "Consider adding specific monetary fines or penalties for removing trees without a permit to provide a clear deterrent and ensure compliance with the regulation."
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "Not specified in the statute.",
+      "confidence": 54,
+      "sourceRefs": [
+        "§ 283-9",
+        "§ 283-3"
+      ],
+      "score": 0,
+      "gap": "Consider adding a clear fee schedule within the statute that outlines specific costs associated with the removal of individual trees, including payment options, possible exemptions for certain cases, and provisions to ensure the fees cover administrative costs."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Not specified in the statute.",
+      "confidence": 56,
+      "sourceRefs": [
+        "§ 283-9"
+      ],
+      "score": 0,
+      "gap": "Consider adding a regulation that requires replanting with native species at a minimum replacement ratio of 2:1, along with a mandatory survival monitoring period of three years to ensure successful establishment."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 53,
+      "sourceRefs": [
+        "§ 283-9",
+        "§ 283-3"
+      ],
+      "score": 0,
+      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail or direct delivery, to ensure all potentially affected parties are informed."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. It acknowledges the role of trees in stabilizing soil, controlling water pollution, absorbing air pollution, providing oxygen, and offering aesthetic and ecological benefits (see § 283-1). Additionally, the statute defines \"canopy\" as the cover formed by the leafy upper branches of a tree, indicating its significance in the context of tree protection and management (§ 283-5).",
+      "confidence": 48,
+      "sourceRefs": [
+        "§ 283-14",
+        "§ 283-1"
+      ],
+      "score": 0.78,
+      "gap": "Consider adding specific coverage targets for the tree canopy, along with detailed measurement methods and maintenance plans, to ensure long-term preservation and effective management of the canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Your responsibilities for maintaining trees on your property include:\n\n1. **Restrictions on Tree Removal**: You cannot cut down, kill, clear cut, top, or destroy any tree without a permit unless it falls under specific exceptions (§ 283-3A).\n\n2. **Permitted Activities**: On residential properties not greater than four acres, you can remove up to three non-protected trees per year, remove trees in emergency conditions, remove dead or diseased trees, and prune trees as long as it doesn't damage more than 25% of the canopy or roots (§ 283-3B(1)).\n\n3. **Documentation**: If you remove a tree, you must submit documentation to the Director of Technical Services within 10 days explaining the removal (§ 283-3B(2)).\n\n4. **Restoration**: If you remove trees without a permit, you must restore the area by backfilling holes and replanting, subject to approval by the Director of Technical Services and the Town Arborist (§ 283-9A).\n\n5. **Tree Protection**: If involved in construction or development, you must protect existing trees and may need to replace damaged trees or plant additional trees as required (§ 283-9A).\n\n6. **Tree Inventory and Protection Plan**: For certain developments, you must submit a tree inventory and protection plan, which includes details on existing and proposed trees, and measures to protect trees during construction (§ 283-3A and B).\n\nThese responsibilities are aimed at preserving the health and welfare of the community's trees and woodlands.",
+      "confidence": 58,
+      "sourceRefs": [
+        "§ 283-3",
+        "§ 283-9"
+      ],
+      "score": 0.98,
+      "gap": "Consider adding specific guidelines for regular inspection schedules and care standards for tree maintenance to ensure property owners are aware of their ongoing responsibilities and to prevent potential hazards."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute call for data collection on tree removals and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 58,
+      "sourceRefs": [
+        "§ 283-6",
+        "§ 283-7"
+      ],
+      "score": 0,
+      "gap": "Consider adding a requirement for the municipality to systematically collect data on all tree removals, including location, species, reason for removal, and number of trees removed, and to compile this information into an annual public report to enhance transparency and accountability."
+    }
+  ],
+  "lastUpdated": "2025-08-29T19:42:38.564Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

@@ -1,0 +1,15 @@
+{
+  "municipality": "Bedford",
+  "municipalityType": "Town",
+  "domain": "Weeds",
+  "domainId": "weeds",
+  "originalCellValue": "R- https://ecode360.com/30850200",
+  "downloadedAt": "2025-09-05T16:15:20.628Z",
+  "contentLength": 7810,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T20:33:18.047Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/30850200",
+  "statuteNumber": "Ch 90",
+  "statuteTitle": "Unsafe buildings — See Ch"
+}

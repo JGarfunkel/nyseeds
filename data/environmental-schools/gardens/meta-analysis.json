@@ -1,0 +1,86 @@
+{
+  "domain": {
+    "id": "gardens",
+    "displayName": "gardens"
+  },
+  "analysisDate": "2025-09-04T19:36:07.279Z",
+  "totalMunicipalitiesAnalyzed": 3,
+  "averageScore": 0.35,
+  "highestScoringMunicipality": {
+    "score": 0.35
+  },
+  "bestPractices": [
+    {
+      "questionId": "1",
+      "question": "Does the school district have school gardens, and how are they used",
+      "bestAnswer": "Best practices include requiring school districts to establish and maintain school gardens with a focus on using native plants, as this promotes local biodiversity and environmental education. The statute should mandate that these gardens be integrated into the school curriculum to enhance student learning and engagement with sustainability practices. Additionally, schools should be encouraged to collaborate with local environmental organizations to ensure the gardens are effectively managed and utilized.",
+      "bestScore": 0.65,
+      "bestMunicipality": {
+        "id": "NY-PocanticoHills-CSD",
+        "displayName": "Unknown - Municipality"
+      },
+      "quantitativeHighlights": [],
+      "supportingExamples": [
+        {
+          "municipality": {
+            "id": "NY-PocanticoHills-CSD",
+            "displayName": "Unknown - Municipality"
+          },
+          "score": 0.65,
+          "confidence": 85
+        },
+        {
+          "municipality": "NY-Irvington-UFSD",
+          "score": 0.1,
+          "confidence": 0
+        },
+        {
+          "municipality": "NY-Rye-CSD",
+          "score": 0.1,
+          "confidence": 0
+        }
+      ],
+      "commonGaps": []
+    },
+    {
+      "questionId": "2",
+      "question": "Does the school district follow any practices for using native perennials or controlling invasive weeds in landscaping?",
+      "bestAnswer": "Best practices include requiring school districts to prioritize the use of native plants, particularly native perennials, in landscaping efforts. The statute should mandate the replacement of non-native and invasive species with native alternatives, taking into account site-specific conditions to ensure practicality and effectiveness.",
+      "bestScore": 0.7,
+      "bestMunicipality": {
+        "id": "NY-PocanticoHills-CSD",
+        "displayName": "Unknown - Municipality"
+      },
+      "quantitativeHighlights": [],
+      "supportingExamples": [
+        {
+          "municipality": {
+            "id": "NY-PocanticoHills-CSD",
+            "displayName": "Unknown - Municipality"
+          },
+          "score": 0.7,
+          "confidence": 85
+        },
+        {
+          "municipality": "NY-Irvington-UFSD",
+          "score": 0.1,
+          "confidence": 0
+        },
+        {
+          "municipality": "NY-Rye-CSD",
+          "score": 0.1,
+          "confidence": 0
+        }
+      ],
+      "commonGaps": []
+    }
+  ],
+  "overallRecommendations": {
+    "commonWeaknesses": [
+      "2 questions consistently score below 0.8 across municipalities"
+    ],
+    "keyImprovements": [],
+    "modelMunicipalities": []
+  },
+  "version": "1.0"
+}

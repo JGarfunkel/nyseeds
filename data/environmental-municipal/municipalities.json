@@ -1,0 +1,1981 @@
+{
+  "municipalities": [
+    {
+      "id": "NY-Ardsley-Village",
+      "name": "Ardsley",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Ardsley - Village",
+      "singular": "ardsley"
+    },
+    {
+      "id": "NY-BriarcliffManor-Village",
+      "name": "Briarcliff Manor",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Briarcliff Manor - Village",
+      "singular": "briarcliffmanor"
+    },
+    {
+      "id": "NY-Cortlandt-Town",
+      "name": "Cortlandt",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Cortlandt - Town",
+      "singular": "cortlandt"
+    },
+    {
+      "id": "NY-Irvington-Village",
+      "name": "Irvington",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Irvington - Village",
+      "singular": "irvington"
+    },
+    {
+      "id": "NY-Mamaroneck-Village",
+      "name": "Mamaroneck",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Mamaroneck - Village",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "NY-MountPleasant-Town",
+      "name": "Mount Pleasant",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mount Pleasant - Town",
+      "singular": "mountpleasant"
+    },
+    {
+      "id": "NY-NewRochelle-City",
+      "name": "New Rochelle",
+      "type": "City",
+      "state": "NY",
+      "displayName": "New Rochelle - City",
+      "singular": "newrochelle"
+    },
+    {
+      "id": "NY-Peekskill-City",
+      "name": "Peekskill",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Peekskill - City",
+      "singular": "peekskill"
+    },
+    {
+      "id": "NY-Yorktown-Town",
+      "name": "Yorktown",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Yorktown - Town",
+      "singular": "yorktown"
+    },
+    {
+      "id": "NY-Ardsley-Village",
+      "name": "Ardsley",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Ardsley - Village",
+      "singular": "ardsley"
+    },
+    {
+      "id": "NY-Bedford-Town",
+      "name": "Bedford",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Bedford - Town",
+      "singular": "bedford"
+    },
+    {
+      "id": "NY-BriarcliffManor-Village",
+      "name": "Briarcliff Manor",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Briarcliff Manor - Village",
+      "singular": "briarcliffmanor"
+    },
+    {
+      "id": "NY-Greenburgh-Town",
+      "name": "Greenburgh",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Greenburgh - Town",
+      "singular": "greenburgh"
+    },
+    {
+      "id": "NY-NewRochelle-City",
+      "name": "New Rochelle",
+      "type": "City",
+      "state": "NY",
+      "displayName": "New Rochelle - City",
+      "singular": "newrochelle"
+    },
+    {
+      "id": "NY-NorthCastle-Town",
+      "name": "North Castle",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "North Castle - Town",
+      "singular": "northcastle"
+    },
+    {
+      "id": "NY-Ossining-Town",
+      "name": "Ossining",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Ossining - Town",
+      "singular": "ossining"
+    },
+    {
+      "id": "NY-Yorktown-Town",
+      "name": "Yorktown",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Yorktown - Town",
+      "singular": "yorktown"
+    },
+    {
+      "id": "NY-Bedford-Town",
+      "name": "Bedford",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Bedford - Town",
+      "singular": "bedford"
+    },
+    {
+      "id": "NY-Bronxville-Village",
+      "name": "Bronxville",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Bronxville - Village",
+      "singular": "bronxville"
+    },
+    {
+      "id": "NY-Cortlandt-Town",
+      "name": "Cortlandt",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Cortlandt - Town",
+      "singular": "cortlandt"
+    },
+    {
+      "id": "NY-CrotononHudson-Village",
+      "name": "Croton-on- Hudson",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Croton-on- Hudson - Village",
+      "singular": "crotononhudson"
+    },
+    {
+      "id": "NY-DobbsFerry-Village",
+      "name": "Dobbs Ferry",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Dobbs Ferry - Village",
+      "singular": "dobbsferry"
+    },
+    {
+      "id": "NY-Larchmont-Village",
+      "name": "Larchmont",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Larchmont - Village",
+      "singular": "larchmont"
+    },
+    {
+      "id": "NY-Lewisboro-Town",
+      "name": "Lewisboro",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Lewisboro - Town",
+      "singular": "lewisboro"
+    },
+    {
+      "id": "NY-Mamaroneck-Village",
+      "name": "Mamaroneck",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Mamaroneck - Village",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "NY-MountKisco-Town",
+      "name": "Mount Kisco",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mount Kisco - Town",
+      "singular": "mountkisco"
+    },
+    {
+      "id": "NY-Yorktown-Town",
+      "name": "Yorktown",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Yorktown - Town",
+      "singular": "yorktown"
+    },
+    {
+      "id": "NY-Ardsley-Village",
+      "name": "Ardsley",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Ardsley - Village",
+      "singular": "ardsley"
+    },
+    {
+      "id": "NY-Bedford-Town",
+      "name": "Bedford",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Bedford - Town",
+      "singular": "bedford"
+    },
+    {
+      "id": "NY-BriarcliffManor-Village",
+      "name": "Briarcliff Manor",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Briarcliff Manor - Village",
+      "singular": "briarcliffmanor"
+    },
+    {
+      "id": "NY-Bronxville-Village",
+      "name": "Bronxville",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Bronxville - Village",
+      "singular": "bronxville"
+    },
+    {
+      "id": "NY-Cortlandt-Town",
+      "name": "Cortlandt",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Cortlandt - Town",
+      "singular": "cortlandt"
+    },
+    {
+      "id": "NY-CrotononHudson-Village",
+      "name": "Croton-on- Hudson",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Croton-on- Hudson - Village",
+      "singular": "crotononhudson"
+    },
+    {
+      "id": "NY-DobbsFerry-Village",
+      "name": "Dobbs Ferry",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Dobbs Ferry - Village",
+      "singular": "dobbsferry"
+    },
+    {
+      "id": "NY-Lewisboro-Town",
+      "name": "Lewisboro",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Lewisboro - Town",
+      "singular": "lewisboro"
+    },
+    {
+      "id": "NY-Mamaroneck-Town",
+      "name": "Mamaroneck",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mamaroneck - Town",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "NY-Mamaroneck-Village",
+      "name": "Mamaroneck",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Mamaroneck - Village",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "NY-NewCastle-Town",
+      "name": "New Castle",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "New Castle - Town",
+      "singular": "newcastle"
+    },
+    {
+      "id": "NY-NewRochelle-City",
+      "name": "New Rochelle",
+      "type": "City",
+      "state": "NY",
+      "displayName": "New Rochelle - City",
+      "singular": "newrochelle"
+    },
+    {
+      "id": "NY-NorthCastle-Town",
+      "name": "North Castle",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "North Castle - Town",
+      "singular": "northcastle"
+    },
+    {
+      "id": "NY-PortChester-Village",
+      "name": "Port Chester",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Port Chester - Village",
+      "singular": "portchester"
+    },
+    {
+      "id": "NY-PoundRidge-Town",
+      "name": "Pound Ridge",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Pound Ridge - Town",
+      "singular": "poundridge"
+    },
+    {
+      "id": "NY-Yonkers-City",
+      "name": "Yonkers",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Yonkers - City",
+      "singular": "yonkers"
+    },
+    {
+      "id": "NY-Yorktown-Town",
+      "name": "Yorktown",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Yorktown - Town",
+      "singular": "yorktown"
+    },
+    {
+      "id": "NY-Ardsley-Village",
+      "name": "Ardsley",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Ardsley - Village",
+      "singular": "ardsley"
+    },
+    {
+      "id": "NY-Bedford-Town",
+      "name": "Bedford",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Bedford - Town",
+      "singular": "bedford"
+    },
+    {
+      "id": "NY-BriarcliffManor-Village",
+      "name": "Briarcliff Manor",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Briarcliff Manor - Village",
+      "singular": "briarcliffmanor"
+    },
+    {
+      "id": "NY-Bronxville-Village",
+      "name": "Bronxville",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Bronxville - Village",
+      "singular": "bronxville"
+    },
+    {
+      "id": "NY-Buchanan-Village",
+      "name": "Buchanan",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Buchanan - Village",
+      "singular": "buchanan"
+    },
+    {
+      "id": "NY-Cortlandt-Town",
+      "name": "Cortlandt",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Cortlandt - Town",
+      "singular": "cortlandt"
+    },
+    {
+      "id": "NY-CrotononHudson-Village",
+      "name": "Croton-on- Hudson",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Croton-on- Hudson - Village",
+      "singular": "crotononhudson"
+    },
+    {
+      "id": "NY-DobbsFerry-Village",
+      "name": "Dobbs Ferry",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Dobbs Ferry - Village",
+      "singular": "dobbsferry"
+    },
+    {
+      "id": "NY-Eastchester-Town",
+      "name": "Eastchester",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Eastchester - Town",
+      "singular": "eastchester"
+    },
+    {
+      "id": "NY-Elmsford-Village",
+      "name": "Elmsford",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Elmsford - Village",
+      "singular": "elmsford"
+    },
+    {
+      "id": "NY-Greenburgh-Town",
+      "name": "Greenburgh",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Greenburgh - Town",
+      "singular": "greenburgh"
+    },
+    {
+      "id": "NY-Harrison-Town",
+      "name": "Harrison",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Harrison - Town",
+      "singular": "harrison"
+    },
+    {
+      "id": "NY-HastingsonHudson-Village",
+      "name": "Hastings-on- Hudson",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Hastings-on- Hudson - Village",
+      "singular": "hastingsonhudson"
+    },
+    {
+      "id": "NY-Irvington-Village",
+      "name": "Irvington",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Irvington - Village",
+      "singular": "irvington"
+    },
+    {
+      "id": "NY-Larchmont-Village",
+      "name": "Larchmont",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Larchmont - Village",
+      "singular": "larchmont"
+    },
+    {
+      "id": "NY-Lewisboro-Town",
+      "name": "Lewisboro",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Lewisboro - Town",
+      "singular": "lewisboro"
+    },
+    {
+      "id": "NY-Mamaroneck-Town",
+      "name": "Mamaroneck",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mamaroneck - Town",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "NY-Mamaroneck-Village",
+      "name": "Mamaroneck",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Mamaroneck - Village",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "NY-MountKisco-Town",
+      "name": "Mount Kisco",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mount Kisco - Town",
+      "singular": "mountkisco"
+    },
+    {
+      "id": "NY-MountPleasant-Town",
+      "name": "Mount Pleasant",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mount Pleasant - Town",
+      "singular": "mountpleasant"
+    },
+    {
+      "id": "NY-MountVernon-City",
+      "name": "Mount Vernon",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Mount Vernon - City",
+      "singular": "mountvernon"
+    },
+    {
+      "id": "NY-NewCastle-Town",
+      "name": "New Castle",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "New Castle - Town",
+      "singular": "newcastle"
+    },
+    {
+      "id": "NY-NewRochelle-City",
+      "name": "New Rochelle",
+      "type": "City",
+      "state": "NY",
+      "displayName": "New Rochelle - City",
+      "singular": "newrochelle"
+    },
+    {
+      "id": "NY-NorthCastle-Town",
+      "name": "North Castle",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "North Castle - Town",
+      "singular": "northcastle"
+    },
+    {
+      "id": "NY-NorthSalem-Town",
+      "name": "North Salem",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "North Salem - Town",
+      "singular": "northsalem"
+    },
+    {
+      "id": "NY-Ossining-Town",
+      "name": "Ossining",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Ossining - Town",
+      "singular": "ossining"
+    },
+    {
+      "id": "NY-Ossining-Village",
+      "name": "Ossining",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Ossining - Village",
+      "singular": "ossining"
+    },
+    {
+      "id": "NY-Peekskill-City",
+      "name": "Peekskill",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Peekskill - City",
+      "singular": "peekskill"
+    },
+    {
+      "id": "NY-Pelham-Town",
+      "name": "Pelham",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Pelham - Town",
+      "singular": "pelham"
+    },
+    {
+      "id": "NY-Pelham-Village",
+      "name": "Pelham",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Pelham - Village",
+      "singular": "pelham"
+    },
+    {
+      "id": "NY-PelhamManor-Village",
+      "name": "Pelham Manor",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Pelham Manor - Village",
+      "singular": "pelhammanor"
+    },
+    {
+      "id": "NY-Pleasantville-Village",
+      "name": "Pleasantville",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Pleasantville - Village",
+      "singular": "pleasantville"
+    },
+    {
+      "id": "NY-PortChester-Village",
+      "name": "Port Chester",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Port Chester - Village",
+      "singular": "portchester"
+    },
+    {
+      "id": "NY-PoundRidge-Town",
+      "name": "Pound Ridge",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Pound Ridge - Town",
+      "singular": "poundridge"
+    },
+    {
+      "id": "NY-Rye-City",
+      "name": "Rye",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Rye - City",
+      "singular": "rye"
+    },
+    {
+      "id": "NY-Rye-Town",
+      "name": "Rye",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Rye - Town",
+      "singular": "rye"
+    },
+    {
+      "id": "NY-RyeBrook-Village",
+      "name": "Rye Brook",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Rye Brook - Village",
+      "singular": "ryebrook"
+    },
+    {
+      "id": "NY-Scarsdale-Town",
+      "name": "Scarsdale",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Scarsdale - Town",
+      "singular": "scarsdale"
+    },
+    {
+      "id": "NY-SleepyHollow-Village",
+      "name": "Sleepy Hollow",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Sleepy Hollow - Village",
+      "singular": "sleepyhollow"
+    },
+    {
+      "id": "NY-Somers-Town",
+      "name": "Somers",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Somers - Town",
+      "singular": "somers"
+    },
+    {
+      "id": "NY-Tarrytown-Village",
+      "name": "Tarrytown",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Tarrytown - Village",
+      "singular": "tarrytown"
+    },
+    {
+      "id": "NY-Tuckahoe-Village",
+      "name": "Tuckahoe",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Tuckahoe - Village",
+      "singular": "tuckahoe"
+    },
+    {
+      "id": "NY-WhitePlains-City",
+      "name": "White Plains",
+      "type": "City",
+      "state": "NY",
+      "displayName": "White Plains - City",
+      "singular": "whiteplains"
+    },
+    {
+      "id": "NY-Yonkers-City",
+      "name": "Yonkers",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Yonkers - City",
+      "singular": "yonkers"
+    },
+    {
+      "id": "NY-Yorktown-Town",
+      "name": "Yorktown",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Yorktown - Town",
+      "singular": "yorktown"
+    },
+    {
+      "id": "NY-Ardsley-Village",
+      "name": "Ardsley",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Ardsley - Village",
+      "singular": "ardsley"
+    },
+    {
+      "id": "NY-Bedford-Town",
+      "name": "Bedford",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Bedford - Town",
+      "singular": "bedford"
+    },
+    {
+      "id": "NY-BriarcliffManor-Village",
+      "name": "Briarcliff Manor",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Briarcliff Manor - Village",
+      "singular": "briarcliffmanor"
+    },
+    {
+      "id": "NY-Bronxville-Village",
+      "name": "Bronxville",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Bronxville - Village",
+      "singular": "bronxville"
+    },
+    {
+      "id": "NY-Buchanan-Village",
+      "name": "Buchanan",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Buchanan - Village",
+      "singular": "buchanan"
+    },
+    {
+      "id": "NY-Cortlandt-Town",
+      "name": "Cortlandt",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Cortlandt - Town",
+      "singular": "cortlandt"
+    },
+    {
+      "id": "NY-CrotononHudson-Village",
+      "name": "Croton-on- Hudson",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Croton-on- Hudson - Village",
+      "singular": "crotononhudson"
+    },
+    {
+      "id": "NY-Greenburgh-Town",
+      "name": "Greenburgh",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Greenburgh - Town",
+      "singular": "greenburgh"
+    },
+    {
+      "id": "NY-Harrison-Town",
+      "name": "Harrison",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Harrison - Town",
+      "singular": "harrison"
+    },
+    {
+      "id": "NY-HastingsonHudson-Village",
+      "name": "Hastings-on- Hudson",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Hastings-on- Hudson - Village",
+      "singular": "hastingsonhudson"
+    },
+    {
+      "id": "NY-Lewisboro-Town",
+      "name": "Lewisboro",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Lewisboro - Town",
+      "singular": "lewisboro"
+    },
+    {
+      "id": "NY-Mamaroneck-Village",
+      "name": "Mamaroneck",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Mamaroneck - Village",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "NY-MountKisco-Town",
+      "name": "Mount Kisco",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mount Kisco - Town",
+      "singular": "mountkisco"
+    },
+    {
+      "id": "NY-MountPleasant-Town",
+      "name": "Mount Pleasant",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mount Pleasant - Town",
+      "singular": "mountpleasant"
+    },
+    {
+      "id": "NY-NewRochelle-City",
+      "name": "New Rochelle",
+      "type": "City",
+      "state": "NY",
+      "displayName": "New Rochelle - City",
+      "singular": "newrochelle"
+    },
+    {
+      "id": "NY-NorthSalem-Town",
+      "name": "North Salem",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "North Salem - Town",
+      "singular": "northsalem"
+    },
+    {
+      "id": "NY-Ossining-Town",
+      "name": "Ossining",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Ossining - Town",
+      "singular": "ossining"
+    },
+    {
+      "id": "NY-Peekskill-City",
+      "name": "Peekskill",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Peekskill - City",
+      "singular": "peekskill"
+    },
+    {
+      "id": "NY-PoundRidge-Town",
+      "name": "Pound Ridge",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Pound Ridge - Town",
+      "singular": "poundridge"
+    },
+    {
+      "id": "NY-Rye-City",
+      "name": "Rye",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Rye - City",
+      "singular": "rye"
+    },
+    {
+      "id": "NY-RyeBrook-Village",
+      "name": "Rye Brook",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Rye Brook - Village",
+      "singular": "ryebrook"
+    },
+    {
+      "id": "NY-Somers-Town",
+      "name": "Somers",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Somers - Town",
+      "singular": "somers"
+    },
+    {
+      "id": "NY-Yonkers-City",
+      "name": "Yonkers",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Yonkers - City",
+      "singular": "yonkers"
+    },
+    {
+      "id": "NY-Yorktown-Town",
+      "name": "Yorktown",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Yorktown - Town",
+      "singular": "yorktown"
+    },
+    {
+      "id": "NY-Ardsley-Village",
+      "name": "Ardsley",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Ardsley - Village",
+      "singular": "ardsley"
+    },
+    {
+      "id": "NY-Bedford-Town",
+      "name": "Bedford",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Bedford - Town",
+      "singular": "bedford"
+    },
+    {
+      "id": "NY-BriarcliffManor-Village",
+      "name": "Briarcliff Manor",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Briarcliff Manor - Village",
+      "singular": "briarcliffmanor"
+    },
+    {
+      "id": "NY-Bronxville-Village",
+      "name": "Bronxville",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Bronxville - Village",
+      "singular": "bronxville"
+    },
+    {
+      "id": "NY-Buchanan-Village",
+      "name": "Buchanan",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Buchanan - Village",
+      "singular": "buchanan"
+    },
+    {
+      "id": "NY-Cortlandt-Town",
+      "name": "Cortlandt",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Cortlandt - Town",
+      "singular": "cortlandt"
+    },
+    {
+      "id": "NY-CrotononHudson-Village",
+      "name": "Croton-on- Hudson",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Croton-on- Hudson - Village",
+      "singular": "crotononhudson"
+    },
+    {
+      "id": "NY-Lewisboro-Town",
+      "name": "Lewisboro",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Lewisboro - Town",
+      "singular": "lewisboro"
+    },
+    {
+      "id": "NY-Mamaroneck-Town",
+      "name": "Mamaroneck",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mamaroneck - Town",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "NY-Mamaroneck-Village",
+      "name": "Mamaroneck",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Mamaroneck - Village",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "NY-MountKisco-Town",
+      "name": "Mount Kisco",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mount Kisco - Town",
+      "singular": "mountkisco"
+    },
+    {
+      "id": "NY-NewCastle-Town",
+      "name": "New Castle",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "New Castle - Town",
+      "singular": "newcastle"
+    },
+    {
+      "id": "NY-NewRochelle-City",
+      "name": "New Rochelle",
+      "type": "City",
+      "state": "NY",
+      "displayName": "New Rochelle - City",
+      "singular": "newrochelle"
+    },
+    {
+      "id": "NY-Ossining-Town",
+      "name": "Ossining",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Ossining - Town",
+      "singular": "ossining"
+    },
+    {
+      "id": "NY-PortChester-Village",
+      "name": "Port Chester",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Port Chester - Village",
+      "singular": "portchester"
+    },
+    {
+      "id": "NY-PoundRidge-Town",
+      "name": "Pound Ridge",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Pound Ridge - Town",
+      "singular": "poundridge"
+    },
+    {
+      "id": "NY-Somers-Town",
+      "name": "Somers",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Somers - Town",
+      "singular": "somers"
+    },
+    {
+      "id": "NY-WhitePlains-City",
+      "name": "White Plains",
+      "type": "City",
+      "state": "NY",
+      "displayName": "White Plains - City",
+      "singular": "whiteplains"
+    },
+    {
+      "id": "NY-Yonkers-City",
+      "name": "Yonkers",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Yonkers - City",
+      "singular": "yonkers"
+    },
+    {
+      "id": "NY-Yorktown-Town",
+      "name": "Yorktown",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Yorktown - Town",
+      "singular": "yorktown"
+    },
+    {
+      "id": "NY-Ardsley-Village",
+      "name": "Ardsley",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Ardsley - Village",
+      "singular": "ardsley"
+    },
+    {
+      "id": "NY-Bedford-Town",
+      "name": "Bedford",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Bedford - Town",
+      "singular": "bedford"
+    },
+    {
+      "id": "NY-BriarcliffManor-Village",
+      "name": "Briarcliff Manor",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Briarcliff Manor - Village",
+      "singular": "briarcliffmanor"
+    },
+    {
+      "id": "NY-Bronxville-Village",
+      "name": "Bronxville",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Bronxville - Village",
+      "singular": "bronxville"
+    },
+    {
+      "id": "NY-Buchanan-Village",
+      "name": "Buchanan",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Buchanan - Village",
+      "singular": "buchanan"
+    },
+    {
+      "id": "NY-Cortlandt-Town",
+      "name": "Cortlandt",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Cortlandt - Town",
+      "singular": "cortlandt"
+    },
+    {
+      "id": "NY-CrotononHudson-Village",
+      "name": "Croton-on- Hudson",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Croton-on- Hudson - Village",
+      "singular": "crotononhudson"
+    },
+    {
+      "id": "NY-DobbsFerry-Village",
+      "name": "Dobbs Ferry",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Dobbs Ferry - Village",
+      "singular": "dobbsferry"
+    },
+    {
+      "id": "NY-Eastchester-Town",
+      "name": "Eastchester",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Eastchester - Town",
+      "singular": "eastchester"
+    },
+    {
+      "id": "NY-Greenburgh-Town",
+      "name": "Greenburgh",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Greenburgh - Town",
+      "singular": "greenburgh"
+    },
+    {
+      "id": "NY-Harrison-Town",
+      "name": "Harrison",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Harrison - Town",
+      "singular": "harrison"
+    },
+    {
+      "id": "NY-HastingsonHudson-Village",
+      "name": "Hastings-on- Hudson",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Hastings-on- Hudson - Village",
+      "singular": "hastingsonhudson"
+    },
+    {
+      "id": "NY-Irvington-Village",
+      "name": "Irvington",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Irvington - Village",
+      "singular": "irvington"
+    },
+    {
+      "id": "NY-Larchmont-Village",
+      "name": "Larchmont",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Larchmont - Village",
+      "singular": "larchmont"
+    },
+    {
+      "id": "NY-Lewisboro-Town",
+      "name": "Lewisboro",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Lewisboro - Town",
+      "singular": "lewisboro"
+    },
+    {
+      "id": "NY-Mamaroneck-Town",
+      "name": "Mamaroneck",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mamaroneck - Town",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "NY-Mamaroneck-Village",
+      "name": "Mamaroneck",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Mamaroneck - Village",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "NY-MountKisco-Town",
+      "name": "Mount Kisco",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mount Kisco - Town",
+      "singular": "mountkisco"
+    },
+    {
+      "id": "NY-MountPleasant-Town",
+      "name": "Mount Pleasant",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mount Pleasant - Town",
+      "singular": "mountpleasant"
+    },
+    {
+      "id": "NY-MountVernon-City",
+      "name": "Mount Vernon",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Mount Vernon - City",
+      "singular": "mountvernon"
+    },
+    {
+      "id": "NY-NewCastle-Town",
+      "name": "New Castle",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "New Castle - Town",
+      "singular": "newcastle"
+    },
+    {
+      "id": "NY-NewRochelle-City",
+      "name": "New Rochelle",
+      "type": "City",
+      "state": "NY",
+      "displayName": "New Rochelle - City",
+      "singular": "newrochelle"
+    },
+    {
+      "id": "NY-NorthCastle-Town",
+      "name": "North Castle",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "North Castle - Town",
+      "singular": "northcastle"
+    },
+    {
+      "id": "NY-NorthSalem-Town",
+      "name": "North Salem",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "North Salem - Town",
+      "singular": "northsalem"
+    },
+    {
+      "id": "NY-Ossining-Town",
+      "name": "Ossining",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Ossining - Town",
+      "singular": "ossining"
+    },
+    {
+      "id": "NY-Ossining-Village",
+      "name": "Ossining",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Ossining - Village",
+      "singular": "ossining"
+    },
+    {
+      "id": "NY-Peekskill-City",
+      "name": "Peekskill",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Peekskill - City",
+      "singular": "peekskill"
+    },
+    {
+      "id": "NY-Pelham-Town",
+      "name": "Pelham",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Pelham - Town",
+      "singular": "pelham"
+    },
+    {
+      "id": "NY-Pelham-Village",
+      "name": "Pelham",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Pelham - Village",
+      "singular": "pelham"
+    },
+    {
+      "id": "NY-Pleasantville-Village",
+      "name": "Pleasantville",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Pleasantville - Village",
+      "singular": "pleasantville"
+    },
+    {
+      "id": "NY-PortChester-Village",
+      "name": "Port Chester",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Port Chester - Village",
+      "singular": "portchester"
+    },
+    {
+      "id": "NY-PoundRidge-Town",
+      "name": "Pound Ridge",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Pound Ridge - Town",
+      "singular": "poundridge"
+    },
+    {
+      "id": "NY-Rye-Town",
+      "name": "Rye",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Rye - Town",
+      "singular": "rye"
+    },
+    {
+      "id": "NY-RyeBrook-Village",
+      "name": "Rye Brook",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Rye Brook - Village",
+      "singular": "ryebrook"
+    },
+    {
+      "id": "NY-Scarsdale-Town",
+      "name": "Scarsdale",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Scarsdale - Town",
+      "singular": "scarsdale"
+    },
+    {
+      "id": "NY-SleepyHollow-Village",
+      "name": "Sleepy Hollow",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Sleepy Hollow - Village",
+      "singular": "sleepyhollow"
+    },
+    {
+      "id": "NY-Somers-Town",
+      "name": "Somers",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Somers - Town",
+      "singular": "somers"
+    },
+    {
+      "id": "NY-Tarrytown-Village",
+      "name": "Tarrytown",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Tarrytown - Village",
+      "singular": "tarrytown"
+    },
+    {
+      "id": "NY-TestMunicipality-Town",
+      "name": "Test Municipality",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Test Municipality - Town",
+      "singular": "testmunicipality"
+    },
+    {
+      "id": "NY-Tuckahoe-Village",
+      "name": "Tuckahoe",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Tuckahoe - Village",
+      "singular": "tuckahoe"
+    },
+    {
+      "id": "NY-Yonkers-City",
+      "name": "Yonkers",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Yonkers - City",
+      "singular": "yonkers"
+    },
+    {
+      "id": "NY-Yorktown-Town",
+      "name": "Yorktown",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Yorktown - Town",
+      "singular": "yorktown"
+    },
+    {
+      "id": "NY-Ardsley-Village",
+      "name": "Ardsley",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Ardsley - Village",
+      "singular": "ardsley"
+    },
+    {
+      "id": "NY-Bedford-Town",
+      "name": "Bedford",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Bedford - Town",
+      "singular": "bedford"
+    },
+    {
+      "id": "NY-BriarcliffManor-Village",
+      "name": "Briarcliff Manor",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Briarcliff Manor - Village",
+      "singular": "briarcliffmanor"
+    },
+    {
+      "id": "NY-Bronxville-Village",
+      "name": "Bronxville",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Bronxville - Village",
+      "singular": "bronxville"
+    },
+    {
+      "id": "NY-Buchanan-Village",
+      "name": "Buchanan",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Buchanan - Village",
+      "singular": "buchanan"
+    },
+    {
+      "id": "NY-Cortlandt-Town",
+      "name": "Cortlandt",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Cortlandt - Town",
+      "singular": "cortlandt"
+    },
+    {
+      "id": "NY-CrotononHudson-Village",
+      "name": "Croton-on- Hudson",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Croton-on- Hudson - Village",
+      "singular": "crotononhudson"
+    },
+    {
+      "id": "NY-DobbsFerry-Village",
+      "name": "Dobbs Ferry",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Dobbs Ferry - Village",
+      "singular": "dobbsferry"
+    },
+    {
+      "id": "NY-Eastchester-Town",
+      "name": "Eastchester",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Eastchester - Town",
+      "singular": "eastchester"
+    },
+    {
+      "id": "NY-Elmsford-Village",
+      "name": "Elmsford",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Elmsford - Village",
+      "singular": "elmsford"
+    },
+    {
+      "id": "NY-Greenburgh-Town",
+      "name": "Greenburgh",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Greenburgh - Town",
+      "singular": "greenburgh"
+    },
+    {
+      "id": "NY-Harrison-Town",
+      "name": "Harrison",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Harrison - Town",
+      "singular": "harrison"
+    },
+    {
+      "id": "NY-HastingsonHudson-Village",
+      "name": "Hastings-on- Hudson",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Hastings-on- Hudson - Village",
+      "singular": "hastingsonhudson"
+    },
+    {
+      "id": "NY-Irvington-Village",
+      "name": "Irvington",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Irvington - Village",
+      "singular": "irvington"
+    },
+    {
+      "id": "NY-Larchmont-Village",
+      "name": "Larchmont",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Larchmont - Village",
+      "singular": "larchmont"
+    },
+    {
+      "id": "NY-Lewisboro-Town",
+      "name": "Lewisboro",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Lewisboro - Town",
+      "singular": "lewisboro"
+    },
+    {
+      "id": "NY-Mamaroneck-Town",
+      "name": "Mamaroneck",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mamaroneck - Town",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "NY-Mamaroneck-Village",
+      "name": "Mamaroneck",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Mamaroneck - Village",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "NY-MountKisco-Town",
+      "name": "Mount Kisco",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mount Kisco - Town",
+      "singular": "mountkisco"
+    },
+    {
+      "id": "NY-MountPleasant-Town",
+      "name": "Mount Pleasant",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mount Pleasant - Town",
+      "singular": "mountpleasant"
+    },
+    {
+      "id": "NY-MountVernon-City",
+      "name": "Mount Vernon",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Mount Vernon - City",
+      "singular": "mountvernon"
+    },
+    {
+      "id": "NY-NewCastle-Town",
+      "name": "New Castle",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "New Castle - Town",
+      "singular": "newcastle"
+    },
+    {
+      "id": "NY-NewRochelle-City",
+      "name": "New Rochelle",
+      "type": "City",
+      "state": "NY",
+      "displayName": "New Rochelle - City",
+      "singular": "newrochelle"
+    },
+    {
+      "id": "NY-NorthCastle-Town",
+      "name": "North Castle",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "North Castle - Town",
+      "singular": "northcastle"
+    },
+    {
+      "id": "NY-NorthSalem-Town",
+      "name": "North Salem",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "North Salem - Town",
+      "singular": "northsalem"
+    },
+    {
+      "id": "NY-Ossining-Town",
+      "name": "Ossining",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Ossining - Town",
+      "singular": "ossining"
+    },
+    {
+      "id": "NY-Ossining-Village",
+      "name": "Ossining",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Ossining - Village",
+      "singular": "ossining"
+    },
+    {
+      "id": "NY-Peekskill-City",
+      "name": "Peekskill",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Peekskill - City",
+      "singular": "peekskill"
+    },
+    {
+      "id": "NY-Pelham-Town",
+      "name": "Pelham",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Pelham - Town",
+      "singular": "pelham"
+    },
+    {
+      "id": "NY-Pelham-Village",
+      "name": "Pelham",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Pelham - Village",
+      "singular": "pelham"
+    },
+    {
+      "id": "NY-PelhamManor-Village",
+      "name": "Pelham Manor",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Pelham Manor - Village",
+      "singular": "pelhammanor"
+    },
+    {
+      "id": "NY-Pleasantville-Village",
+      "name": "Pleasantville",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Pleasantville - Village",
+      "singular": "pleasantville"
+    },
+    {
+      "id": "NY-PortChester-Village",
+      "name": "Port Chester",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Port Chester - Village",
+      "singular": "portchester"
+    },
+    {
+      "id": "NY-PoundRidge-Town",
+      "name": "Pound Ridge",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Pound Ridge - Town",
+      "singular": "poundridge"
+    },
+    {
+      "id": "NY-Rye-City",
+      "name": "Rye",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Rye - City",
+      "singular": "rye"
+    },
+    {
+      "id": "NY-Rye-Town",
+      "name": "Rye",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Rye - Town",
+      "singular": "rye"
+    },
+    {
+      "id": "NY-RyeBrook-Village",
+      "name": "Rye Brook",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Rye Brook - Village",
+      "singular": "ryebrook"
+    },
+    {
+      "id": "NY-Scarsdale-Town",
+      "name": "Scarsdale",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Scarsdale - Town",
+      "singular": "scarsdale"
+    },
+    {
+      "id": "NY-SleepyHollow-Village",
+      "name": "Sleepy Hollow",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Sleepy Hollow - Village",
+      "singular": "sleepyhollow"
+    },
+    {
+      "id": "NY-Somers-Town",
+      "name": "Somers",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Somers - Town",
+      "singular": "somers"
+    },
+    {
+      "id": "NY-Tarrytown-Village",
+      "name": "Tarrytown",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Tarrytown - Village",
+      "singular": "tarrytown"
+    },
+    {
+      "id": "NY-Tuckahoe-Village",
+      "name": "Tuckahoe",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Tuckahoe - Village",
+      "singular": "tuckahoe"
+    },
+    {
+      "id": "NY-WhitePlains-City",
+      "name": "White Plains",
+      "type": "City",
+      "state": "NY",
+      "displayName": "White Plains - City",
+      "singular": "whiteplains"
+    },
+    {
+      "id": "NY-Yonkers-City",
+      "name": "Yonkers",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Yonkers - City",
+      "singular": "yonkers"
+    },
+    {
+      "id": "NY-Yorktown-Town",
+      "name": "Yorktown",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Yorktown - Town",
+      "singular": "yorktown"
+    },
+    {
+      "id": "NY-Bedford-Town",
+      "name": "Bedford",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Bedford - Town",
+      "singular": "bedford"
+    },
+    {
+      "id": "NY-Buchanan-Village",
+      "name": "Buchanan",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Buchanan - Village",
+      "singular": "buchanan"
+    },
+    {
+      "id": "NY-Cortlandt-Town",
+      "name": "Cortlandt",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Cortlandt - Town",
+      "singular": "cortlandt"
+    },
+    {
+      "id": "NY-Lewisboro-Town",
+      "name": "Lewisboro",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Lewisboro - Town",
+      "singular": "lewisboro"
+    },
+    {
+      "id": "NY-MountVernon-City",
+      "name": "Mount Vernon",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Mount Vernon - City",
+      "singular": "mountvernon"
+    },
+    {
+      "id": "NY-NewCastle-Town",
+      "name": "New Castle",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "New Castle - Town",
+      "singular": "newcastle"
+    },
+    {
+      "id": "NY-NewRochelle-City",
+      "name": "New Rochelle",
+      "type": "City",
+      "state": "NY",
+      "displayName": "New Rochelle - City",
+      "singular": "newrochelle"
+    },
+    {
+      "id": "NY-NorthCastle-Town",
+      "name": "North Castle",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "North Castle - Town",
+      "singular": "northcastle"
+    },
+    {
+      "id": "NY-NorthSalem-Town",
+      "name": "North Salem",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "North Salem - Town",
+      "singular": "northsalem"
+    },
+    {
+      "id": "NY-Ossining-Town",
+      "name": "Ossining",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Ossining - Town",
+      "singular": "ossining"
+    },
+    {
+      "id": "NY-Ossining-Village",
+      "name": "Ossining",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Ossining - Village",
+      "singular": "ossining"
+    },
+    {
+      "id": "NY-Peekskill-City",
+      "name": "Peekskill",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Peekskill - City",
+      "singular": "peekskill"
+    },
+    {
+      "id": "NY-Pelham-Town",
+      "name": "Pelham",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Pelham - Town",
+      "singular": "pelham"
+    },
+    {
+      "id": "NY-Pelham-Village",
+      "name": "Pelham",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Pelham - Village",
+      "singular": "pelham"
+    },
+    {
+      "id": "NY-PelhamManor-Village",
+      "name": "Pelham Manor",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Pelham Manor - Village",
+      "singular": "pelhammanor"
+    },
+    {
+      "id": "NY-Pleasantville-Village",
+      "name": "Pleasantville",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Pleasantville - Village",
+      "singular": "pleasantville"
+    },
+    {
+      "id": "NY-PortChester-Village",
+      "name": "Port Chester",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Port Chester - Village",
+      "singular": "portchester"
+    },
+    {
+      "id": "NY-PoundRidge-Town",
+      "name": "Pound Ridge",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Pound Ridge - Town",
+      "singular": "poundridge"
+    },
+    {
+      "id": "NY-Rye-City",
+      "name": "Rye",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Rye - City",
+      "singular": "rye"
+    },
+    {
+      "id": "NY-Rye-Town",
+      "name": "Rye",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Rye - Town",
+      "singular": "rye"
+    },
+    {
+      "id": "NY-RyeBrook-Village",
+      "name": "Rye Brook",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Rye Brook - Village",
+      "singular": "ryebrook"
+    },
+    {
+      "id": "NY-Scarsdale-Town",
+      "name": "Scarsdale",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Scarsdale - Town",
+      "singular": "scarsdale"
+    },
+    {
+      "id": "NY-SleepyHollow-Village",
+      "name": "Sleepy Hollow",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Sleepy Hollow - Village",
+      "singular": "sleepyhollow"
+    },
+    {
+      "id": "NY-Somers-Town",
+      "name": "Somers",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Somers - Town",
+      "singular": "somers"
+    },
+    {
+      "id": "NY-Tarrytown-Village",
+      "name": "Tarrytown",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Tarrytown - Village",
+      "singular": "tarrytown"
+    },
+    {
+      "id": "NY-Tuckahoe-Village",
+      "name": "Tuckahoe",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Tuckahoe - Village",
+      "singular": "tuckahoe"
+    },
+    {
+      "id": "NY-Yorktown-Town",
+      "name": "Yorktown",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Yorktown - Town",
+      "singular": "yorktown"
+    }
+  ],
+  "lastUpdated": "2025-09-15T14:42:31.996Z"
+}

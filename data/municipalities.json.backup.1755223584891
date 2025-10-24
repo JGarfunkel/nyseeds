@@ -1,0 +1,13 @@
+{
+  "municipalities": [
+    {
+      "id": "NY-Bedford-Town",
+      "name": "Bedford",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Bedford - Town",
+      "singular": "bedford"
+    }
+  ],
+  "lastUpdated": "2025-08-15T01:56:21.125Z"
+}

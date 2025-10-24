@@ -1,0 +1,138 @@
+{
+  "municipality": {
+    "id": "NY-Pelham-Village",
+    "displayName": "Pelham - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Not specified in the statute.",
+      "confidence": 46,
+      "sourceRefs": [
+        "§ 93-15",
+        "§ 93-12"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack permit requirements - municipality should establish clear application procedures, review criteria, and approval standards for tree removal."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "Not specified in the statute.",
+      "confidence": 50,
+      "sourceRefs": [
+        "§ 93-15",
+        "§ 93-13"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack permit requirements - municipality should establish clear application procedures, review criteria, and approval standards for tree removal."
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "Not specified in the statute.",
+      "confidence": 48,
+      "sourceRefs": [
+        "§ 93-15",
+        "§ 93-12"
+      ],
+      "score": 0,
+      "gap": "The statute seems to be missing fee structure - municipality should establish permit fees to cover administrative costs and incentivize proper tree management practices."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Not specified in the statute.",
+      "confidence": 42,
+      "sourceRefs": [
+        "§ 93-7",
+        "§ 93-12"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack replacement requirements - municipality should mandate tree replacement with specific ratios, native species preferences, and survival monitoring."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 52,
+      "sourceRefs": [
+        "§ 93-15",
+        "§ 93-14"
+      ],
+      "score": 0,
+      "gap": "The statute seems to be missing notification requirements - municipality should require advance notice to adjacent property owners for significant tree removal projects."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of maintaining a healthy tree canopy. Section § 93-12 mentions the Village's right to plant, prune, maintain, and remove trees to preserve and enhance the symmetry and beauty of Village property, which implies an acknowledgment of the value of a healthy tree canopy. Additionally, § 93-5 outlines the responsibilities of a Committee to develop and administer a plan for the care, preservation, and planting of trees, further indicating the importance placed on maintaining a healthy tree canopy.",
+      "confidence": 44,
+      "sourceRefs": [
+        "§ 93-1",
+        "§ 93-12"
+      ],
+      "score": 0.64,
+      "gap": "The statute seems to lack specific coverage targets and measurement methods for maintaining a healthy tree canopy, which would provide clearer goals and metrics for evaluating the effectiveness of the tree management efforts."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Your responsibilities for maintaining trees on your property include:\n\n1. Pruning branches of any tree overhanging a street or right-of-way to ensure they do not obstruct street lamps or the view of street intersections, and maintaining a clear space of eight feet above the street or sidewalk (§ 93-14 A).\n\n2. Pruning hedges, bushes, or other vegetation to maintain a clear space of six lateral inches from any Village sidewalk (§ 93-14 B).\n\n3. Removing all dead, diseased, or dangerous trees or broken or decayed limbs that pose a safety risk to the public (§ 93-14 C).\n\n4. Removing dead or diseased trees on your property if they constitute a hazard to life and property or harbor insects or disease that threaten other trees in the Village. You must do this at your own expense within 60 days of receiving written notice from the Village Tree Committee (§ 93-15 A).\n\nFailure to comply with the removal of hazardous trees may result in the Village removing the trees and charging you for the expenses incurred (§ 93-15 B).",
+      "confidence": 56,
+      "sourceRefs": [
+        "§ 93-5",
+        "§ 93-12"
+      ],
+      "score": 0.76,
+      "gap": "The statute seems to lack specific details on the inspection schedules and standards for ensuring compliance with tree maintenance responsibilities on private property."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute call for data collection on tree removals and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 53,
+      "sourceRefs": [
+        "§ 93-12",
+        "§ 93-5"
+      ],
+      "score": 0,
+      "gap": "The statute seems to be missing reporting framework - municipality should require annual tree removal data collection and public reporting to track urban forest changes."
+    }
+  ],
+  "lastUpdated": "2025-08-27T02:34:17.056Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.49,
+    "normalizedScore": 0.6781249999999999,
+    "averageConfidence": 49,
+    "questionsAnswered": 2,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.64,
+        0.76,
+        0
+      ],
+      "averageQuestionScore": 0.175,
+      "weightedScore": 0.13562499999999997
+    }
+  },
+  "overallScore": 0.6781249999999999,
+  "normalizedScore": 0.6781249999999999,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.636Z"
+}

@@ -1,0 +1,102 @@
+{
+  "municipality": {
+    "id": "NY-Peekskill-City",
+    "displayName": "Peekskill - City"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Not specified in the statute.",
+      "confidence": 38,
+      "sourceRefs": [
+        "§ 391-5"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack clear guidelines on the duration and specific dates for the prohibition of gas leaf blowers. The municipality should establish a regulatory framework that specifies the exact start and end dates of the prohibition period, such as from May 1st to September 30th, to ensure clarity and compliance."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "The permitted hours for operating gas leaf blowers in residential districts are from 8:00 a.m. to 8:00 p.m. Monday through Saturday, except holidays, and from 9:00 a.m. to 8:00 p.m. on Sundays and holidays, as specified in §391-5, chunk 1.",
+      "confidence": 57,
+      "sourceRefs": [
+        "§ 391-5"
+      ],
+      "score": 0.87,
+      "gap": "The statute seems to lack specific provisions regarding the enforcement mechanisms and penalties for non-compliance with the permitted hours for gas leaf blower operation."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating gas leaf blower regulations are as follows:\n\n- For a first offense, a fine not less than $250 and not exceeding $500, or imprisonment not exceeding five days, or both (§ 391-8B).\n- For a corporate offender's first offense, a fine not less than $1,000 and not exceeding $2,500, or any higher amount not exceeding double the amount of the corporation's gain from the commission of the offense. Each day the violation continues constitutes a separate offense (§ 391-8B(1)).\n- For a second offense committed within one year of the first offense, a fine not less than $500 and not exceeding $750, or imprisonment not exceeding 10 days, or both (§ 391-8C).",
+      "confidence": 50,
+      "sourceRefs": [
+        "§ 391-8"
+      ],
+      "score": 0.8,
+      "gap": "The statute seems to lack clarity on the enforcement mechanisms and responsible authorities for ensuring compliance with the gas leaf blower regulations."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions for certain properties and activities:\n\n1. **Governmental Functions**: State, county, and city maintenance operations, street cleaning, refuse removal, and other governmental functions are exempt from regulation under this chapter (Chunk 1, Section 6).\n\n2. **Commercial Activities**: Commercial street sweeping, parking lot maintenance, and repair are exempt during the hours of 6:00 a.m. to 11:00 p.m. (Chunk 1, Section 6).\n\n3. **Schools**: The use of organs, bells, chimes, or similar instruments by schools on their premises in connection with school education programs is exempt (Chunk 2, Section B).\n\n4. **Governmental Agencies**: Sounds created by any governmental agency using public warning devices are exempt from the limitations of this chapter (Chunk 2, Section C).",
+      "confidence": 47,
+      "sourceRefs": [
+        "§ 391-7"
+      ],
+      "score": 0.67,
+      "gap": "The statute seems to lack specific criteria or conditions under which these exemptions for school, government, and commercial properties can be revoked or modified to ensure they do not lead to excessive noise or disruption in residential areas."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 41,
+      "sourceRefs": [
+        "§ 391-8"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack provisions for the reporting and enforcement of violations. The municipality should establish a regulatory framework that mandates a centralized reporting system with clear guidelines for data collection, public accessibility, and transparency, including a digital platform for tracking and addressing violations."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 40,
+      "sourceRefs": [],
+      "score": 0,
+      "gap": "The statute seems to lack provisions on the environmental benefits of leaving leaf debris and leaf mulching; the municipality should establish a regulatory framework that mandates public education campaigns and incentives for residents to adopt leaf mulching practices to enhance soil health and reduce waste."
+    }
+  ],
+  "lastUpdated": "2025-08-28T17:37:28.535Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.46,
+    "normalizedScore": 1.6574999999999998,
+    "averageConfidence": 46,
+    "questionsAnswered": 3,
+    "totalQuestions": 6,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0.87,
+        0.8,
+        0.67,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.38999999999999996,
+      "weightedScore": 0.33149999999999996
+    }
+  },
+  "overallScore": 1.6574999999999998,
+  "normalizedScore": 1.6574999999999998,
+  "scoresUpdatedAt": "2025-08-29T13:38:28.992Z"
+}

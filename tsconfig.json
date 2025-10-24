@@ -1,0 +1,26 @@
+{
+  "include": ["client/src/**/*", "server/**/*"],
+  "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
+  "compilerOptions": {
+    "incremental": true,
+    "tsBuildInfoFile": "./node_modules/typescript/tsbuildinfo",
+    "noEmit": true,
+    "module": "ESNext",
+    "strict": true,
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
+    "types": ["node", "vite/client"],
+    "paths": {
+      "@/*": ["./client/src/*"],
+      "@ordinizer/core": ["../ordinizer/packages/core/src"],
+      "@ordinizer/client/ui": ["../ordinizer/client/src/ui/index.ts"],
+      "@ordinizer/app/*": ["../ordinizer/app/client/src/*"],
+      "@ordinizer/client": ["../ordinizer/client/src/index.ts"]
+    }
+  }
+}

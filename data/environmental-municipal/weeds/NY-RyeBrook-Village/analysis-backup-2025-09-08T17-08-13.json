@@ -1,0 +1,91 @@
+{
+  "municipality": {
+    "id": "NY-RyeBrook-Village",
+    "displayName": "Rye Brook - Village"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents must maintain their property by trimming grass, hedges, vines, shrubs, and brush. This includes removing trimmings, clippings, leaves, and other debris. Poisonous and noxious weeds should be eradicated. Any rubbish, litter, or other materials that may become health, safety, or fire hazards must be cleared from the land. The same maintenance responsibility extends to the public property between a resident's property line and the curb or edge of the street.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 186-2"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding specific height limits for grass and weeds to provide clear guidelines for residents on when maintenance is required."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute. The property maintenance code does not mention exceptions for cultivated pollinator gardens.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "Consider adding explicit provisions or exceptions in the property maintenance code that define and permit cultivated pollinator gardens, including specific guidelines on acceptable plant species, maintenance standards, and size limitations to ensure they are recognized and regulated appropriately."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law requires residents to maintain public property located between their property line and the curb or edge of the street or highway in the same condition as their private property. This includes trimming plants and removing debris.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 186-2"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific guidelines for the types of maintenance required, such as frequency of trimming and acceptable debris removal methods, to ensure consistent compliance and enforcement across the municipality."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "If a property owner fails to comply with the property maintenance regulations, the Board of Trustees will send a written notice by mail. If the owner does not comply within five days, the Director of Public Works will correct the violation. The owner must then pay all costs associated with the correction within 30 days. If not paid, the costs will become a lien on the property and added to the next property tax bill, accruing interest at the same rate as taxes. These costs are in addition to any penalties imposed for noncompliance.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 186-2"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding specific fine amounts for initial and repeat offenses, as well as clear categories of violations to ensure consistent enforcement and deterrence."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Once a property owner receives a written notice of violation, they have five days to comply with the maintenance requirements before the Village intervenes to resolve the issue. If the owner fails to address the violation within this timeframe, the violation will be corrected by the Director of Public Works, and the owner will be responsible for the associated costs.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 186-2"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding specific fine amounts for non-compliance, details on escalation for repeat offenses, and a clear categorization of violation types to strengthen enforcement and ensure consistent application of penalties."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.85,
+    "normalizedScore": 2.9,
+    "averageConfidence": 85,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.3,
+        0.5,
+        0.6,
+        0.8,
+        0.7
+      ],
+      "averageQuestionScore": 0.5800000000000001,
+      "weightedScore": 0.58
+    }
+  },
+  "overallScore": 2.9,
+  "averageConfidence": 85,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:08:13.777Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

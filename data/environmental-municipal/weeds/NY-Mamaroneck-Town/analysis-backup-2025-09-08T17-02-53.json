@@ -1,0 +1,94 @@
+{
+  "municipality": {
+    "id": "NY-Mamaroneck-Town",
+    "displayName": "Mamaroneck - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Owners, tenants, or occupants of real property in the Town of Mamaroneck must cut, trim, or remove all brush, grass, rubbish, noxious weeds, litter, or other similar unsightly or objectionable material from their property at their own expense. This requirement helps maintain community standards and appearance. If they fail to do so, the Town may intervene and perform these tasks, and the costs would be added as a lien on the property.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 161-3"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific height limits for grass and weeds, as well as a clear definition of \"noxious weeds\" to ensure consistent enforcement and understanding among residents."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "The statute does not specify any exceptions that would allow for cultivated pollinator gardens. All property owners, tenants, or occupants are required to remove noxious weeds and similar objectionable materials, but the statute does not mention cultivated plantings meant to support pollinators.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding explicit provisions in the statute that define and permit cultivated pollinator gardens, including guidelines for acceptable plant species, maintenance standards, and exemptions from noxious weed removal requirements to support biodiversity and ecological health."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "The statute specifies that property maintenance requirements apply to the real property and mentions sidewalks only in relation to avoiding nuisance or hazards like rubbish. It does not specifically extend maintenance responsibilities beyond the property lot lines to areas such as the curb.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 161-3",
+        "§ 161-8"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding explicit language to the statute that clearly defines maintenance responsibilities for areas beyond the property lot lines, such as the curb and adjacent public spaces, to ensure comprehensive property upkeep and public safety."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 49,
+      "sourceRefs": [
+        "§ 161-8"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack clear penalties for non-compliance with property maintenance regulations. The municipality should establish a tiered penalty system that includes specific fine amounts for first-time and repeat offenses, categorizes violations by severity, and outlines enforcement mechanisms such as warnings, fines, and potential legal action for persistent non-compliance."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the statute.",
+      "confidence": 35,
+      "sourceRefs": [
+        "§ 161-8"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack a clear timeline for resolving property maintenance violations before penalties are applied. The municipality should establish a regulatory framework that specifies a 30-day resolution period for initial violations, with escalating fines for repeat offenses, categorized by the severity of the violation, and clear enforcement mechanisms to ensure compliance."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.68,
+    "normalizedScore": 1,
+    "averageConfidence": 68,
+    "questionsAnswered": 3,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.55,
+        0.1,
+        0.5,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.22999999999999998,
+      "weightedScore": 0.2
+    }
+  },
+  "overallScore": 1,
+  "averageConfidence": 68,
+  "questionsAnswered": 3,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:02:53.857Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

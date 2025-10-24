@@ -1,0 +1,96 @@
+{
+  "municipality": {
+    "id": "NY-Rye-City",
+    "displayName": "Rye - City"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents must ensure that any weeds, grass, or vegetation on their property, and the adjacent sidewalk or street, do not grow taller than 12 inches on average. Additionally, it is unlawful to have any dead vegetation or poisonous plants like poison ivy and ragweed that extend or project over public areas or have their seeds or pollen carried into public places. Property owners must regularly cut and remove such growth at least once every three weeks between May 15 and September 15 to comply with the law. This rule specifically applies to lots or plots of one acre or less, requiring complete clearance. For larger parcels, there must be a minimum clearance of 150 feet from street lines and 100 feet from adjacent property lines.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 157-52",
+        "§ 157-53"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding a provision that specifies penalties or fines for non-compliance with the property maintenance requirements to ensure enforcement and accountability."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "The statute does not specify any exceptions for cultivated pollinator gardens. It only mentions the maintenance requirements for weeds, grass, or other rank vegetation, including prohibitions against poisonous plants. There are no clear allowances for cultivated pollinator gardens in the provided text.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding explicit provisions or exceptions in the property maintenance code that recognize and permit cultivated pollinator gardens, including guidelines for their maintenance and differentiation from prohibited vegetation."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law applies beyond the property lot lines. Owners must ensure that the adjacent sidewalk or street areas, extending from the property line to the curb or the middle of the street, are also in compliance. If there is no curb, the requirement extends to 10 feet outside the property line.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 157-52"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding specific guidelines for maintenance responsibilities, such as snow removal, debris clearing, and vegetation management, to ensure clarity and consistency in enforcement for areas extending beyond the property lot lines."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "The penalties for failing to comply with property maintenance regulations include the Town Board performing the necessary work and assessing the total expense or charge upon the real property concerned, which will constitute a lien until paid (as per § 48-1(B)). Additionally, any person violating the provisions of §§ 48-2, 48-3, or 48-4, upon conviction, shall be subject to a fine not exceeding $25 for each offense (as per § 48-5).",
+      "confidence": 48,
+      "sourceRefs": [
+        "§ 48-1",
+        "§ 48-5"
+      ],
+      "score": 0.78,
+      "gap": "The statute seems to lack a clear escalation mechanism for repeat offenses, as it only specifies a flat fine of $25 per offense without addressing increased penalties for subsequent violations."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The timeline for resolving a property maintenance violation before penalties are applied is ten days. According to § 48-1(C), the Town shall mail a notice of its intention to perform the necessary work ten days before undertaking the work if the owner or responsible person fails to comply.",
+      "confidence": 37,
+      "sourceRefs": [
+        "§ 48-1",
+        "§ 48-9"
+      ],
+      "score": 0.57,
+      "gap": "The statute seems to lack clarity on the specific penalties and enforcement mechanisms for property maintenance violations. The municipality should establish a regulatory framework that includes a tiered penalty system with defined fine amounts, escalating for repeat offenses, and categorizing violations by severity to ensure consistent and fair enforcement."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.68,
+    "normalizedScore": 3.1,
+    "averageConfidence": 68,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.85,
+        0.1,
+        0.8,
+        0.78,
+        0.57
+      ],
+      "averageQuestionScore": 0.62,
+      "weightedScore": 0.62
+    }
+  },
+  "overallScore": 3.1,
+  "averageConfidence": 68,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:07:16.229Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

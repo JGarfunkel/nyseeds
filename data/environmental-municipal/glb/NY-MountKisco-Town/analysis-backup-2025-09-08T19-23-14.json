@@ -1,0 +1,110 @@
+{
+  "municipality": {
+    "id": "NY-MountKisco-Town",
+    "displayName": "Mount Kisco - Town"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas-powered leaf blowers lasts from May 1 until September 15, which is a total of 4.5 months of the year.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 77-7A"
+      ],
+      "score": 0.45
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas-powered leaf blowers are permitted to be used from September 16 through April 30, Monday through Saturday between the hours of 8:00 a.m. and 5:00 p.m. Homeowners and tenants can use them on their own property from Monday through Saturday between 8:00 a.m. and 7:00 p.m., and on Sundays and federal holidays from 9:00 a.m. to 1:00 p.m.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 77-7B",
+        "§ 77-7C"
+      ],
+      "score": 0.65
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating the gas leaf blower regulations are as follows: For a first offense, the violator is guilty of a Class III violation. For a second offense, it is a Class II violation, and for a third offense or any offenses beyond that, it is a Class I violation. The punishments for these violations are specified in § 1-17 of the Code.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 77-13"
+      ],
+      "score": 0.65
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "There are exemptions for school/government operations. The Village's use of gas-powered leaf blowers is subject to the limitations but is exempt for moving leaves or yard debris for Village/Town leaf collection from October 15 through December 31. Additionally, there's an exception for cleanup after major storms or emergencies, which allows for gas-powered leaf blowers to be used for up to seven days following such events, unless additional time is approved.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 77-9",
+        "§ 77-10"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations are enforced by the Village/Town of Mount Kisco Building Department and Village/Town Code Enforcement Officers, as well as the police agency contracted with the Village for police services and other officials designated by the Village Board.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 77-12"
+      ],
+      "score": 0.65
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.66,
+    "normalizedScore": 2.1,
+    "averageConfidence": 66,
+    "questionsAnswered": 5,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.45,
+        0.65,
+        0.65,
+        0.6,
+        0.65,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.4571428571428572,
+      "weightedScore": 0.42
+    }
+  },
+  "overallScore": 2.1,
+  "averageConfidence": 66,
+  "questionsAnswered": 5,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:23:14.889Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

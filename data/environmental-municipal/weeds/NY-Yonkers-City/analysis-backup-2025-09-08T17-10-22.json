@@ -1,0 +1,98 @@
+{
+  "municipality": {
+    "id": "NY-Yonkers-City",
+    "displayName": "Yonkers - City"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents must not allow harmful, noxious weeds, long grass, or any rank growths that are detrimental to health on their property. They are required, upon receiving written notice from the Commissioner of Public Works, to cut, trim, remove, or otherwise eliminate these growths within five days of the notice being mailed.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 69-1"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding a clear definition of what constitutes \"harmful, noxious weeds\" and \"rank growths\" to ensure residents understand what specific plants or growths are prohibited, thereby reducing ambiguity and potential disputes."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 69-1",
+        "§ 69-4"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding explicit provisions in the property maintenance code that define and permit cultivated pollinator gardens, including specific criteria for acceptable plant species, maintenance standards, and any necessary permits or notifications to ensure clarity and support for biodiversity initiatives."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 69-1",
+        "§ 69-4"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding explicit language to the statute that defines the extent of property maintenance responsibilities beyond the property lot lines, including specific requirements for maintaining areas such as sidewalks, curbs, and adjacent public spaces to ensure clarity and comprehensive coverage."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "If a property owner fails to comply with the maintenance regulations within five days of receiving notice, the City of Yonkers' Department of Public Works can remove the weeds and growths and assess the cost to the property. This charge, if not paid, will become a lien on the property and can be collected as a tax after due notice to the owner and a hearing on the justness of the costs.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 69-1"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific fine amounts for initial and repeat offenses, as well as detailed escalation procedures for non-compliance, to strengthen the enforcement mechanisms of the property maintenance regulations."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The property owner has five days to address the violation by cutting, trimming, removing, or otherwise eliminating the noxious weeds or growths after the written notice has been mailed. If the owner fails to do so within this timeframe, penalties can be applied.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 69-1",
+        "§ 69-2"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding specific details about the fine amounts for initial and subsequent violations, escalation procedures for repeat offenses, and clear enforcement mechanisms to ensure compliance and deter future violations."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.85,
+    "normalizedScore": 3,
+    "averageConfidence": 85,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.7,
+        0.5,
+        0.5,
+        0.6,
+        0.7
+      ],
+      "averageQuestionScore": 0.6,
+      "weightedScore": 0.6
+    }
+  },
+  "overallScore": 3,
+  "averageConfidence": 85,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:10:22.348Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

@@ -1,0 +1,106 @@
+{
+  "municipality": {
+    "id": "NY-PortChester-Village",
+    "displayName": "Port Chester - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts from April 15 to November 15 of each year.",
+      "confidence": 1,
+      "sourceRefs": [
+        "§ 224-2C"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers are permitted to operate from 8:00 a.m. to 8:00 p.m. on weekdays, and not between 10:00 a.m. and 7:00 p.m. on weekends and legal holidays.",
+      "confidence": 1,
+      "sourceRefs": [
+        "§ 224-2C"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "For violating gas leaf blower regulations, the penalties are as follows: For the first conviction, a fine of not less than $250 nor more than $500. For the second conviction within one year, a fine of not less than $500 nor more than $750. For the third or subsequent conviction within one year, a fine of not less than $750 nor more than $1,000.",
+      "confidence": 1,
+      "sourceRefs": [
+        "§ 224-4"
+      ],
+      "score": 0.75
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "There are no exceptions specified in the statute regarding school, government, or commercial properties for the operation of gas leaf blowers.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.5
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations are enforced through the Village Attorney, who can commence the appropriate action or proceeding to prevent continued violations, with the authorization of the Village Manager.",
+      "confidence": 1,
+      "sourceRefs": [
+        "§ 224-4A"
+      ],
+      "score": 0.7
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "The ordinance does not mention the benefits of leaving leaf debris or leaf mulching.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.5
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "The ordinance does not specify a requirement for a report to be presented to the public.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.05,
+    "normalizedScore": 2.6,
+    "averageConfidence": 5,
+    "questionsAnswered": 7,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.5,
+        0.6,
+        0.75,
+        0.5,
+        0.7,
+        0.5,
+        0.1
+      ],
+      "averageQuestionScore": 0.5214285714285715,
+      "weightedScore": 0.52
+    }
+  },
+  "overallScore": 2.6,
+  "averageConfidence": 5,
+  "questionsAnswered": 7,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:25:42.111Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

@@ -1,0 +1,15 @@
+{
+  "municipality": "Rye",
+  "municipalityType": "City",
+  "domain": "Wetland protection",
+  "domainId": "wetland-protection",
+  "originalCellValue": "G- https://ecode360.com/6976602",
+  "downloadedAt": "2025-09-05T16:46:07.734Z",
+  "contentLength": 54625,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:06.155Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/6976602",
+  "statuteNumber": "Ch 195",
+  "statuteTitle": "Findings of fact"
+}

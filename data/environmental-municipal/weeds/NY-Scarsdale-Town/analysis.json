@@ -1,0 +1,53 @@
+{
+  "municipality": "NY-Scarsdale-Town",
+  "domain": "weeds",
+  "analyzedAt": "2025-09-08T18:46:35.070Z",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:46:35.054Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 1,
+    "normalizedScore": 1,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 1,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1
+      ],
+      "averageQuestionScore": 0.1,
+      "weightedScore": 0.1,
+      "totalWeightedScore": 0.1,
+      "totalPossibleWeight": 1,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 1,
+  "averageConfidence": 0,
+  "questionsAnswered": 0,
+  "totalQuestions": 1,
+  "gapAnalysis": "",
+  "wenGrade": "G-",
+  "usesStateCode": false,
+  "normalizedScore": 1,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.556Z"
+}

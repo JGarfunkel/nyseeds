@@ -1,0 +1,15 @@
+{
+  "municipality": "Croton-on- Hudson",
+  "municipalityType": "Village",
+  "domain": "Weeds",
+  "domainId": "weeds",
+  "originalCellValue": "R- https://ecode360.com/9143373",
+  "downloadedAt": "2025-09-05T16:30:44.658Z",
+  "contentLength": 11449,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:03.160Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/9143373",
+  "statuteNumber": "Chapter 179",
+  "statuteTitle": "Property Maintenance"
+}

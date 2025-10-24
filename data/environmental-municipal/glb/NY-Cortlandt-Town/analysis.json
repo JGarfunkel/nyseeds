@@ -1,0 +1,175 @@
+{
+  "municipality": "NY-Cortlandt-Town",
+  "domain": "glb",
+  "analyzedAt": "2025-09-09T19:59:14.424Z",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T19:59:10.412Z"
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blower operation is not permitted during the hours of 10:00 p.m. to 8:00 a.m. in a residentially zoned district, as it falls under the category of domestic power tools and equipment (§ 197-5 J).",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 197-5"
+      ],
+      "score": 0.65,
+      "analyzedAt": "2025-09-09T19:59:11.505Z"
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T19:59:12.016Z"
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T19:59:12.837Z"
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T19:59:13.392Z"
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T19:59:13.881Z"
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T19:59:14.424Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 1.46,
+    "normalizedScore": 1.46,
+    "averageConfidence": 13,
+    "questionsAnswered": 1,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.65,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.1785714285714286,
+      "weightedScore": 0.1458,
+      "totalWeightedScore": 1.7500000000000004,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 4,
+          "weightedScore": 0.4,
+          "maxWeightedScore": 4,
+          "confidence": 0
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Gas leaf blower operation is not permitted during the hours of 10:00 p.m. to 8:00 a.m. in a residentially zoned district, as it falls under the category of domestic power tools and equipment (§ 197-5 J).",
+          "score": 0.65,
+          "weight": 1,
+          "weightedScore": 0.65,
+          "maxWeightedScore": 1,
+          "confidence": 90
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 3,
+          "weightedScore": 0.30000000000000004,
+          "maxWeightedScore": 3,
+          "confidence": 0
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 1.46,
+  "averageConfidence": 13,
+  "questionsAnswered": 1,
+  "totalQuestions": 7,
+  "gapAnalysis": "",
+  "wenGrade": null,
+  "usesStateCode": false,
+  "normalizedScore": 1.46,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.223Z"
+}

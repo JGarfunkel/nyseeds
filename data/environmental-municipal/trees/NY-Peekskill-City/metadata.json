@@ -1,0 +1,20 @@
+{
+  "municipality": "Peekskill",
+  "municipalityType": "City",
+  "domain": "Trees",
+  "domainId": "trees",
+  "originalCellValue": "G- https://ecode360.com/38211587",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:02.093Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Chapter 530",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-05T16:41:24.637Z",
+      "contentLength": 13200,
+      "sourceUrl": "https://ecode360.com/38211587",
+      "title": "Tree Preservation",
+      "type": "statute"
+    }
+  ]
+}

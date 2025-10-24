@@ -1,0 +1,76 @@
+{
+  "municipality": {
+    "id": "NY-Ossining-Village",
+    "displayName": "Ossining - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas-powered leaf blowers covers two periods during the year. The use of gas-powered leaf blowers is prohibited from June 2 through September 14 and again from December 16 through the end of February. This means they are only permitted for use from March 1 to June 1 and September 15 to December 15.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 178-5"
+      ],
+      "score": 0.75
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas-powered leaf blowers may be operated from 8:00 a.m. to sundown on Monday through Friday, except on holidays. On Saturday, Sunday, and holidays, they may be used from 9:00 a.m. to sundown.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 178-5"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "For violations of the gas leaf blower regulations, specifically § 178-5(D)(7), (8), and (9), violators will receive one warning before an appearance ticket is issued. After a warning, further violations may result in a fine as outlined in Article III, General Penalty, of Chapter 1, General Provisions.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 178-9"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions for sounds created by any governmental agency through the use of public warning devices. Additionally, the statute permits the use of organs, bells, chimes, or similar instruments by schools on their premises in connection with school education programs. These exemptions suggest that certain activities by these entities may not be restricted under this noise regulation.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 178-7"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations of the noise regulations are supported by evidence, which can include time-stamped photographs, video, records of complaints, and/or sworn witness statements. Both the owner and the operator of any device exceeding permissible noise levels are considered violators. Enforcement of these violations might involve issuing warnings and appearance tickets, depending on the specifics of the violation.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 178-9"
+      ],
+      "score": 0.65
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "lastUpdated": "2025-09-05T18:18:32.166Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

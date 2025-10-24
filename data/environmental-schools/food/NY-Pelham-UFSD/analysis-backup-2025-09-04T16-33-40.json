@@ -1,0 +1,37 @@
+{
+  "municipality": {
+    "id": "NY-Pelham-UFSD",
+    "displayName": "Unknown - Municipality"
+  },
+  "domain": {
+    "id": "food",
+    "displayName": "Food"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": "2",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": "3",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "lastUpdated": "2025-09-04T16:33:40.305Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

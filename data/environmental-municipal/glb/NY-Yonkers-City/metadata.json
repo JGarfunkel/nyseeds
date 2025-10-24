@@ -1,0 +1,20 @@
+{
+  "municipality": "Yonkers",
+  "municipalityType": "City",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "G- CH-91-Garbage etc.",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:00.002Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Ch 91",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-05T16:38:05.646Z",
+      "contentLength": 3695,
+      "sourceUrl": "https://ecode360.com/15089761#15089762",
+      "title": "Art III  [Adopted 4-11-1972 by G",
+      "type": "statute"
+    }
+  ]
+}

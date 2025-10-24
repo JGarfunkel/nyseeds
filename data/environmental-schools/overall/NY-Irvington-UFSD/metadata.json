@@ -1,0 +1,17 @@
+{
+  "districtName": "Irvington UFSD",
+  "entityId": "NY-Irvington-UFSD",
+  "domain": "overall",
+  "policyNumber": null,
+  "realm": "westchester-schools-sustainability",
+  "lastConverted": "2025-09-04T15:42:18.072Z",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-04T15:42:18.050Z",
+      "contentLength": 0,
+      "sourceUrl": "https://www.irvingtonschools.org/site/default.aspx?DomainID=4&FlexDataID=9456&PageID=0&PageType=3",
+      "title": "District Goes Green: Solar Lighting & Grounds Plan",
+      "type": "policy"
+    }
+  ]
+}

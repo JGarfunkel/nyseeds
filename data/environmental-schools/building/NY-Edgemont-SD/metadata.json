@@ -1,0 +1,16 @@
+{
+  "districtName": "Edgemont School District",
+  "entityId": "NY-Edgemont-SD",
+  "domain": "building",
+  "policyNumber": null,
+  "realm": "westchester-schools-sustainability",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-04T15:42:13.629Z",
+      "contentLength": 0,
+      "sourceUrl": "FAILED HTTP 404 https://www.edgemont.org/uploaded/District_Documents/Stormwater_Management_Education.pdf",
+      "title": "Stormwater Management Education (MS4)",
+      "type": "policy"
+    }
+  ]
+}

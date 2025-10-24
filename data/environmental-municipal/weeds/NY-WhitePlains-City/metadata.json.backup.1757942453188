@@ -1,0 +1,12 @@
+{
+  "municipality": "White Plains",
+  "municipalityType": "City",
+  "domain": "Weeds",
+  "domainId": "weeds",
+  "originalCellValue": "Not available",
+  "downloadedAt": "2025-09-03T00:28:58.825Z",
+  "contentLength": 7751,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T15:44:13.364Z",
+  "note": "Metadata created retroactively for existing statute file"
+}

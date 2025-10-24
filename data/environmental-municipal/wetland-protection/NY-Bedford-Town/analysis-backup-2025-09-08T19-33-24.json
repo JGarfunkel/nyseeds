@@ -1,0 +1,103 @@
+{
+  "municipality": {
+    "id": "NY-Bedford-Town",
+    "displayName": "Bedford - Town"
+  },
+  "domain": {
+    "id": "wetland-protection",
+    "displayName": "Wetland Protection"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 3,
+      "question": "What are the setback requirements from wetland boundaries?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:33:20.442Z"
+    },
+    {
+      "id": 4,
+      "question": "What are the penalties for unauthorized wetland disturbance?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:33:21.100Z"
+    },
+    {
+      "id": 5,
+      "question": "How do I apply for a wetland permit or variance?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:33:21.587Z"
+    },
+    {
+      "id": 6,
+      "question": "Are there mitigation requirements for permitted wetland impacts?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:33:22.079Z"
+    },
+    {
+      "id": 7,
+      "question": "What types of development are completely prohibited in wetlands?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:33:22.620Z"
+    },
+    {
+      "id": 9,
+      "question": "Are there tax incentives for wetland preservation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:33:23.338Z"
+    },
+    {
+      "id": 10,
+      "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:33:24.181Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0.35,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.09999999999999999,
+      "weightedScore": 0.07
+    }
+  },
+  "overallScore": 0.35,
+  "averageConfidence": 0,
+  "questionsAnswered": 0,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:33:24.183Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

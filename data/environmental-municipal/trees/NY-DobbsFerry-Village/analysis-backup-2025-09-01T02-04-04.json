@@ -1,0 +1,102 @@
+{
+  "municipality": {
+    "id": "NY-DobbsFerry-Village",
+    "displayName": "Dobbs Ferry - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you generally need a permit to remove a tree on your private property if it is considered a 'protected tree' as defined by the statute. To apply for a tree removal permit, you must fill out a Tree Removal Permit Application available from the Building Department or the Village website. This application should include a tree removal plan and a landscape plan if applicable. Once your application is complete, it is reviewed first by the Building Department and then referred to the Tree Commission (TC) for further review. The TC may request additional information and has the authority to make a decision regarding your application.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 300-51E",
+        "§ 300-51G"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove a tree without obtaining the required permit, you could face penalties. The penalties vary depending on the type of tree and circumstances. For mechanical damage to a public protected tree, the fine is up to $500 per violation. If the violation affects a protected tree or public protected tree, it's up to $500 per violation. Violations concerning a protected tree within a conservation easement, wetland, watercourse, or designated buffer area can result in fines up to $1,000 per violation. If the violation involves a tree of historic or unique value, the penalty can be up to $2,000 per violation. Removing five or more trees without a permit can also result in fines up to $2,000 per tree. Each tree may be considered a separate violation, and penalties will be assessed accordingly.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 300-51K"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "Yes, there are fees associated with removing individual trees. You need to pay a permit fee when you submit a Tree Removal Permit Application. Additionally, an escrow fee may be required, established by resolution and adjusted over time by the Board of Trustees. These fees are included in the Fee Schedule in accordance with Chapter 175. The exact amounts of these fees are not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 300-51G"
+      ],
+      "score": 1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed as part of the replanting agreement. The requirement is to replace 50% of the total aggregate diameter of the trees removed with new trees or appropriate vegetation such as shrubs. This must be done in accordance with the tree valuation criteria. If on-site planting is impractical, you may be allowed to pay a fee instead, which goes into the Village Tree Fund. The statute does not specify whether non-native species are permitted as replacements, so it's best to check with the Building Department or the Tree Commission for guidance on acceptable species.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 300-51F",
+        "§ 300-51I"
+      ],
+      "score": 1
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "The statute does not specifically require notifying neighbors when you remove trees. However, a permit sign must be posted publicly on site, at a location clearly visible from the street, at least three days before tree removal begins. This allows the public, including neighbors, to be informed about the tree removal.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 300-51G"
+      ],
+      "score": 1
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of maintaining a healthy tree canopy. It states that trees contribute to various environmental benefits such as air quality improvement, reduction of global warming, and the creation of microclimates and ecosystems. The code establishes regulations to prevent indiscriminate damage to trees and emphasizes the need for tree preservation to ensure that the community continues to benefit from the tree canopy. Additionally, it encourages the replanting of trees to increase species and age diversity and ensure long-term stability.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 300-51A"
+      ],
+      "score": 1
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Your responsibilities for maintaining trees on your property include not engaging in activities that could harm protected trees. This includes avoiding removal of protected trees without a permit, refraining from clearcutting, and following best practices for pruning to prevent destructive pruning. You must also avoid compacting the critical root zone during construction, prevent damage to the tree's bark or girdling, and not change the grade or install impervious surfaces within the critical root zone without proper permission. If a tree poses a risk, you should have it assessed by a certified arborist and take appropriate action to mitigate the risk.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 300-51D",
+        "§ 300-51C"
+      ],
+      "score": 1
+    },
+    {
+      "id": 9,
+      "question": "Does the statute call for data collection on tree removals and presentation in a report to the public?",
+      "answer": "The statute does not specifically require data collection on tree removals to be presented in a report to the public. However, documentation of public protected trees that have been removed must be forwarded to the Tree Commission. The Village also requires information such as an arborist report and test results to be available upon request regarding tree removal decisions on public protected trees.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 300-51J"
+      ],
+      "score": 0.95,
+      "gap": "Consider adding a requirement for an annual public report that compiles and presents data on all tree removals, including reasons for removal and any associated arborist reports, to enhance transparency and public awareness."
+    }
+  ],
+  "lastUpdated": "2025-09-01T02:04:04.319Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

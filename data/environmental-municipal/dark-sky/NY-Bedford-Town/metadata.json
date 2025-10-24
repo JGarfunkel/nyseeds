@@ -1,0 +1,12 @@
+{
+  "municipality": "Bedford",
+  "municipalityType": "Town",
+  "domain": "Dark sky",
+  "domainId": "dark-sky",
+  "originalCellValue": "Not available",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T20:33:17.640Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "§ 52",
+  "sources": []
+}

@@ -1,0 +1,146 @@
+{
+  "municipality": {
+    "id": "NY-Rye-Town",
+    "displayName": "Rye - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents must ensure all poisonous weeds or growth, ragweed, and other noxious weeds are eradicated.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 48-1"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding specific height limits for weeds, a clear definition of what constitutes \"noxious weeds,\" and a timeline for compliance to strengthen enforcement and clarity of the statute."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 50,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, defining clear criteria such as plant species, maintenance standards, and designated garden areas to ensure they are distinguishable from unmanaged weed growth."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 50,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the statute that requires property owners to maintain the area between their property lot lines and the curb, including the removal of weeds, to ensure a consistent and well-kept appearance of public spaces."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "The statute indicates that if an owner fails to comply with property maintenance requirements, the town may perform the work and assess the expense as a lien on the property. However, specific fines for failing to comply with property maintenance regulations like weed control are not detailed in § 48-5, which mentions fines for other offenses.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 48-1",
+        "§ 48-5"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific fine amounts for initial and repeat offenses related to property maintenance violations, as well as clear enforcement mechanisms and categories of violations to ensure comprehensive and enforceable regulations."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The town will mail a notice of its intention to perform the necessary work 10 days before undertaking it.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 48-1"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding a clear timeline for when penalties will be applied after the initial notice, specify the fine amounts for violations, outline escalation procedures for repeat offenses, and detail the enforcement mechanisms to ensure compliance."
+    }
+  ],
+  "scores": {
+    "overallScore": 3.5,
+    "normalizedScore": 3.5,
+    "averageConfidence": 71,
+    "questionsAnswered": 3,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.5,
+        0.1,
+        0.1,
+        0.6,
+        0.7
+      ],
+      "averageQuestionScore": 0.39999999999999997,
+      "weightedScore": 0.35,
+      "totalWeightedScore": 2.0999999999999996,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "Residents must ensure all poisonous weeds or growth, ragweed, and other noxious weeds are eradicated.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 50
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 50
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "The statute indicates that if an owner fails to comply with property maintenance requirements, the town may perform the work and assess the expense as a lien on the property. However, specific fines for failing to comply with property maintenance regulations like weed control are not detailed in § 48-5, which mentions fines for other offenses.",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "The town will mail a notice of its intention to perform the necessary work 10 days before undertaking it.",
+          "score": 0.7,
+          "weight": 1,
+          "weightedScore": 0.7,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 3.5,
+  "averageConfidence": 71,
+  "questionsAnswered": 3,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:50:30.514Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 3.5,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.552Z"
+}

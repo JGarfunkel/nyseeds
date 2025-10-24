@@ -1,0 +1,149 @@
+{
+  "municipality": {
+    "id": "NY-Ossining-Town",
+    "displayName": "Ossining - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents are required to cut, trim, or remove weeds that pose fire, health, or safety hazards. If they do not comply, the town may perform these actions and charge the cost to the property owner.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 60-1",
+        "§ 60-2",
+        "§ 60-3"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific height or density thresholds for weeds to clearly define when they pose a fire, health, or safety hazard, ensuring consistent enforcement and understanding among residents."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision in the property maintenance code that explicitly permits cultivated pollinator gardens, defining clear criteria such as plant species, maintenance standards, and designated areas to ensure they are distinguishable from unmanaged weed growth."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the statute that requires property owners to maintain the area between their property lot lines and the curb, including the removal of weeds, to ensure consistent upkeep and aesthetic standards across public and private spaces."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "If a property owner fails to comply, the town will remove the hazard, and the cost will be charged to the property owner. This cost becomes a lien on the property until paid.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 60-3"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding specific fine amounts for initial and repeat offenses, detailed categories of violations, and clear enforcement mechanisms to strengthen the statute's clarity and deterrence."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Property owners are given 15 days from the mailing of the notice to resolve the maintenance violation before further actions are taken.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 60-2"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding specific details about the fine amounts for unresolved violations, escalation procedures for repeat offenses, and clear enforcement mechanisms to strengthen the statute's clarity and effectiveness."
+    }
+  ],
+  "scores": {
+    "overallScore": 3.58,
+    "normalizedScore": 3.58,
+    "averageConfidence": 59,
+    "questionsAnswered": 3,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.55,
+        0.1,
+        0.1,
+        0.5,
+        0.8
+      ],
+      "averageQuestionScore": 0.41,
+      "weightedScore": 0.3583,
+      "totalWeightedScore": 2.1500000000000004,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "Residents are required to cut, trim, or remove weeds that pose fire, health, or safety hazards. If they do not comply, the town may perform these actions and charge the cost to the property owner.",
+          "score": 0.55,
+          "weight": 1,
+          "weightedScore": 0.55,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "If a property owner fails to comply, the town will remove the hazard, and the cost will be charged to the property owner. This cost becomes a lien on the property until paid.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "Property owners are given 15 days from the mailing of the notice to resolve the maintenance violation before further actions are taken.",
+          "score": 0.8,
+          "weight": 1,
+          "weightedScore": 0.8,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 3.58,
+  "averageConfidence": 59,
+  "questionsAnswered": 3,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:48:19.737Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 3.58,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.538Z"
+}

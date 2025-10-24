@@ -1,0 +1,113 @@
+{
+  "municipality": {
+    "id": "NY-BriarcliffManor-Village",
+    "displayName": "Briarcliff Manor - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property if it falls under certain conditions, such as having a DBH (Diameter at Breast Height) of seven inches or greater within specific zones or if it is a significant tree (§ 202-2).\n\nTo apply for a permit, you must submit a written application to the Village office using the forms provided. The application should include details such as the name and address of the applicant, the property address, the purpose of the tree removal, the removal method, the name of the individual or entity performing the removal, a plan describing the trees to be removed, and a stormwater pollution prevention plan (§ 202-6).\n\nThe Building Inspector, subject to review by the Tree Preservation Board, is the primary authority to issue permits for tree removal. In cases where the application is part of a site plan or subdivision application, the Village Planning Board is the approving authority. For applications related to a special permit, the Village Board of Trustees is the approving authority (§ 202-4).",
+      "confidence": 57,
+      "sourceRefs": [
+        "§ 202-2",
+        "§ 202-6"
+      ],
+      "score": 0.87,
+      "gap": "Consider adding specific timelines for the review and approval process of tree removal permits to provide applicants with clear expectations on how long the process will take."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit are specified in § 202-8. A property owner, their agents, or employees who violate any provision of the chapter shall be guilty of a violation, punishable by a fine of not more than $350. For a second and each subsequent offense within a one-year period, the fine can be up to $700. Additionally, any clear-cutting offense will incur an extra fine of not more than $5,000. Each violation is considered a separate and distinct offense. Furthermore, the court may order the offender to replant trees that were improperly removed, with the restoration supervised by the Tree Preservation Board. No site plan approval, building permit, or certificate of occupancy will be granted until satisfactory measures are taken to replace the removed trees (§ 202-8 B, C).",
+      "confidence": 60,
+      "sourceRefs": [
+        "§ 202-2",
+        "§ 202-8"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "Not specified in the statute.",
+      "confidence": 53,
+      "sourceRefs": [
+        "§ 202-2",
+        "§ 202-8"
+      ],
+      "score": 0,
+      "gap": "Consider adding a detailed fee schedule within the statute that outlines specific costs for tree removal permits, includes payment options, specifies any exemptions for certain types of trees or property owners, and ensures fees cover administrative costs associated with processing and enforcement."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Not specified in the statute.",
+      "confidence": 48,
+      "sourceRefs": [
+        "§ 202-5",
+        "§ 202-2"
+      ],
+      "score": 0,
+      "gap": "Consider adding a regulation that requires replanting with native species at a minimum replacement ratio of 2:1, along with a mandatory survival monitoring period of three years to ensure successful establishment."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 51,
+      "sourceRefs": [
+        "§ 202-2",
+        "§ 202-3A"
+      ],
+      "score": 0,
+      "gap": "Consider adding a requirement that property owners must notify neighbors within a 100-foot radius at least 14 days in advance of tree removal, using certified mail to ensure receipt, and include information on the type and number of trees to be removed."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. According to § 202-1, the legislative intent emphasizes the role of trees in providing shade, impeding soil erosion, aiding water absorption and retention, inhibiting excess runoff and flooding, and protecting the watershed. Trees also contribute to energy efficiency, provide a habitat for wildlife, enhance property values, and satisfy residents' psychological and aesthetic needs. The chapter is enacted for the preservation of trees to protect the general welfare, beauty, health, and safety of the community.",
+      "confidence": 46,
+      "sourceRefs": [
+        "§ 202-1",
+        "§ 202-5"
+      ],
+      "score": 0.66,
+      "gap": "Consider adding specific coverage targets for tree canopy, detailed measurement methods for assessing canopy health, and comprehensive maintenance plans to ensure long-term preservation and enhancement of the tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Not specified in the statute.",
+      "confidence": 54,
+      "sourceRefs": [
+        "§ 202-2",
+        "§ 202-8"
+      ],
+      "score": 0,
+      "gap": "Consider adding a regulation that requires property owners to conduct annual inspections of trees on their property, adhere to established care standards, and promptly address any identified hazards to ensure public safety and prevent property damage."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute call for data collection on tree removals and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 59,
+      "sourceRefs": [
+        "§ 202-2",
+        "§ 202-6"
+      ],
+      "score": 0,
+      "gap": "Consider adding a requirement for the municipality to systematically collect data on all tree removals, including location, species, and reason for removal, and to compile this information into an annual public report to enhance transparency and facilitate community engagement."
+    }
+  ],
+  "lastUpdated": "2025-08-29T19:41:30.317Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

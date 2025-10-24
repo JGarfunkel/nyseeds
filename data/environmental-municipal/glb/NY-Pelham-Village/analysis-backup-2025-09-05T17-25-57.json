@@ -1,0 +1,110 @@
+{
+  "municipality": {
+    "id": "NY-Pelham-Village",
+    "displayName": "Pelham - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts from May 1 to October 14 and from December 16 to March 14. This means the prohibition starts on May 1 and ends on October 14, and then starts again on December 16 and ends on March 14. (§ 68-17 A)",
+      "confidence": 46,
+      "sourceRefs": [
+        "§ 68-17"
+      ],
+      "score": 0.66,
+      "gap": "The statute seems to lack clarity on the rationale behind the specific prohibition periods for gas leaf blowers, which could be strengthened by providing environmental or community impact assessments to justify the chosen dates."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "The permitted hours for gas leaf blower operation are Monday through Friday from 8:30 a.m. to 5:30 p.m., and Saturday from 10:00 a.m. to 5:00 p.m. All leaf blower use is prohibited on Sundays, except by residents on their own property between 12:00 p.m. and 4:00 p.m. (§ 68-17).",
+      "confidence": 61,
+      "sourceRefs": [
+        "§ 68-17",
+        "§ 68-16"
+      ],
+      "score": 0.91,
+      "gap": "The statute seems to lack specific guidelines on the enforcement mechanisms and penalties for violations of the permitted hours for gas leaf blower operation."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 53,
+      "sourceRefs": [
+        "§ 68-17"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack clear penalties for violating gas leaf blower regulations. The municipality should establish a tiered penalty system that includes an initial fine of $100 for first-time offenses, escalating to $250 for second offenses and $500 for subsequent violations, with enforcement mechanisms involving local law enforcement or designated municipal officers."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 36,
+      "sourceRefs": [
+        "§ 68-17",
+        "§ 68-20"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack provisions for exceptions related to school, government, and commercial properties. The municipality should establish a regulatory framework that explicitly outlines criteria and conditions under which exceptions can be granted for these types of properties, ensuring clarity and consistency in application."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 31,
+      "sourceRefs": [
+        "§ 54-8",
+        "§ 68-19"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack provisions for the reporting and enforcement of violations. The municipality should establish a regulatory framework that mandates a centralized digital platform for the public to report violations, which includes data collection requirements, ensures transparency through regular public reporting, and incorporates tracking mechanisms to monitor the status and resolution of reported violations."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 48,
+      "sourceRefs": [
+        "§ 68-15",
+        "§ 68-17"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack provisions on the environmental benefits of leaving leaf debris and leaf mulching; the municipality should establish a regulatory framework that mandates public education campaigns and incentives for residents to adopt leaf mulching practices to enhance soil health and reduce waste."
+    }
+  ],
+  "lastUpdated": "2025-08-28T17:37:33.133Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.46,
+    "normalizedScore": 1.0466666666666666,
+    "averageConfidence": 46,
+    "questionsAnswered": 2,
+    "totalQuestions": 6,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.66,
+        0.91,
+        0,
+        0,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.26166666666666666,
+      "weightedScore": 0.20933333333333332
+    }
+  },
+  "overallScore": 1.0466666666666666,
+  "normalizedScore": 1.0466666666666666,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.002Z"
+}

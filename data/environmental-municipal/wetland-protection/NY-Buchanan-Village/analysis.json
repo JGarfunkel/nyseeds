@@ -1,0 +1,187 @@
+{
+  "municipality": {
+    "id": "NY-Buchanan-Village",
+    "displayName": "Buchanan - Village"
+  },
+  "domain": {
+    "id": "wetland-protection",
+    "displayName": "Wetland Protection"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 3,
+      "question": "What are the setback requirements from wetland boundaries?",
+      "answer": "It is required to have a setback of 100 feet from the boundary of any wetland, water body, or watercourse.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 203-4"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding provisions that specify the types of activities or structures that are permitted within the setback area, as well as guidelines for the management of stormwater runoff to protect wetland health."
+    },
+    {
+      "id": 4,
+      "question": "What are the penalties for unauthorized wetland disturbance?",
+      "answer": "The penalties for unauthorized wetland disturbance include a civil penalty of up to $3,000 for each violation. Additionally, violators may face a fine of not less than $500 nor more than $1,000, and for subsequent offenses, a fine of not less than $1,000 nor more than $2,000 or imprisonment of 15 days to 6 months. Each day of violation is treated as a separate offense.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 203-11"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding a tiered penalty structure that increases fines for repeat offenses beyond the second violation, as well as specifying the criteria for determining whether a violation is minor or major, to enhance clarity and enforcement consistency."
+    },
+    {
+      "id": 5,
+      "question": "How do I apply for a wetland permit or variance?",
+      "answer": "To apply for a wetland permit, you must file four copies of an application with the Planning Board. The application should include your name and address, the property address, a detailed description of the proposed activity, a map of the affected area, and any necessary surveys or engineering studies. You should also request a field determination by the Village engineering consultant before mapping.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 203-6"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding a clear timeline for the application review process and specify the criteria used by the Planning Board to evaluate the permit applications, as well as the steps for appealing a decision if the permit is denied."
+    },
+    {
+      "id": 6,
+      "question": "Are there mitigation requirements for permitted wetland impacts?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a clear section outlining specific mitigation requirements for permitted wetland impacts, including detailed application procedures, review criteria for assessing mitigation plans, timelines for implementation, and standards for approval to ensure compliance with wetland protection goals."
+    },
+    {
+      "id": 7,
+      "question": "What types of development are completely prohibited in wetlands?",
+      "answer": "The following types of development are completely prohibited in wetlands: any form of draining, dredging, excavation or removal of material (except for removing debris), depositing any material like soil or chemicals, erecting buildings or structures, installing septic tanks or sewer outfalls, and any activity that substantially impairs the functions of wetlands.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 203-4"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding a clear definition of \"substantially impairs\" to provide measurable criteria for assessing activities that may affect wetland functions, ensuring consistent enforcement and compliance."
+    },
+    {
+      "id": 9,
+      "question": "Are there tax incentives for wetland preservation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that establishes tax incentives for landowners who engage in wetland preservation practices, including property tax reductions or credits for maintaining and restoring wetland areas."
+    },
+    {
+      "id": 10,
+      "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a section that outlines specific monitoring and maintenance requirements for permitted wetland projects, including timelines for reporting, criteria for assessing project success, and penalties for non-compliance."
+    }
+  ],
+  "scores": {
+    "overallScore": 4.86,
+    "normalizedScore": 4.86,
+    "averageConfidence": 55,
+    "questionsAnswered": 4,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.85,
+        0.85,
+        0.75,
+        0.1,
+        0.65,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.48571428571428577,
+      "weightedScore": 0.4857,
+      "totalWeightedScore": 3.4000000000000004,
+      "totalPossibleWeight": 7,
+      "questionsWithScores": [
+        {
+          "id": "3",
+          "question": "What are the setback requirements from wetland boundaries?",
+          "answer": "It is required to have a setback of 100 feet from the boundary of any wetland, water body, or watercourse.",
+          "score": 0.85,
+          "weight": 1,
+          "weightedScore": 0.85,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties for unauthorized wetland disturbance?",
+          "answer": "The penalties for unauthorized wetland disturbance include a civil penalty of up to $3,000 for each violation. Additionally, violators may face a fine of not less than $500 nor more than $1,000, and for subsequent offenses, a fine of not less than $1,000 nor more than $2,000 or imprisonment of 15 days to 6 months. Each day of violation is treated as a separate offense.",
+          "score": 0.85,
+          "weight": 1,
+          "weightedScore": 0.85,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "How do I apply for a wetland permit or variance?",
+          "answer": "To apply for a wetland permit, you must file four copies of an application with the Planning Board. The application should include your name and address, the property address, a detailed description of the proposed activity, a map of the affected area, and any necessary surveys or engineering studies. You should also request a field determination by the Village engineering consultant before mapping.",
+          "score": 0.75,
+          "weight": 1,
+          "weightedScore": 0.75,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "Are there mitigation requirements for permitted wetland impacts?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 15
+        },
+        {
+          "id": "7",
+          "question": "What types of development are completely prohibited in wetlands?",
+          "answer": "The following types of development are completely prohibited in wetlands: any form of draining, dredging, excavation or removal of material (except for removing debris), depositing any material like soil or chemicals, erecting buildings or structures, installing septic tanks or sewer outfalls, and any activity that substantially impairs the functions of wetlands.",
+          "score": 0.65,
+          "weight": 1,
+          "weightedScore": 0.65,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "9",
+          "question": "Are there tax incentives for wetland preservation?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 15
+        },
+        {
+          "id": "10",
+          "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 15
+        }
+      ]
+    }
+  },
+  "overallScore": 4.86,
+  "averageConfidence": 55,
+  "questionsAnswered": 4,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:38:17.908Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4.86,
+  "scoresUpdatedAt": "2025-10-10T17:19:07.230Z"
+}

@@ -1,0 +1,122 @@
+{
+  "municipality": {
+    "id": "NY-Mamaroneck-Town",
+    "displayName": "Mamaroneck - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a regulated tree on your private property. To apply for a tree removal permit, you must file an application with the approving authority, which will be the Town Environmental Planner for the removal of seven or fewer regulated trees, or the Planning Board for applications that are part of site plan approvals or other designated permits. The application must include specific information such as the property owner's details, a description of the proposed removal, and a planting plan for replacement trees if required.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 207-3",
+        "§ 207-6"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing a regulated tree without a permit include fines based on the diameter at breast height (DBH) of the tree removed. You would be fined $300 for trees with a DBH between six inches and 12 inches, $600 for trees greater than 12 inches but not exceeding 18 inches, and $900 for trees larger than 18 inches. Additionally, you would be required to plant replacement trees and/or make payment to the Tree Planting Fund for the trees that would have been required to be planted if a permit had been obtained.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 207-17"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "The fee for removing each tree without a replacement is calculated based on the diameter at breast height (DBH) of the tree. The fines are as follows: $300 for trees with a DBH between six inches and 12 inches, $600 for trees greater than 12 inches but not greater than 18 inches, and $900 for trees larger than 18 inches.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 207-17A"
+      ],
+      "score": 1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed instead of making a payment, as long as the approving authority does not determine that it is impractical to do so. However, you cannot plant non-native species as replacements; replacement trees must be selected from a list of approved species and cannot include invasive species.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 207-7A",
+        "§ 207-7E"
+      ],
+      "score": 0.8
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "If you remove trees and wish to appeal a decision by the Environmental Planner regarding a tree removal permit, you must notify the properties that are within 100 linear feet from each of the lot lines and corners of your property.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 207-15A"
+      ],
+      "score": 0.85
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "You are responsible for not causing injury to the trees on your property, as doing so could lead to those trees becoming dead or hazardous. Additionally, if you remove a tree, you need to comply with replanting requirements as outlined in the statute, which may include replacing removed trees with new ones or making a payment to the Tree Planting Fund.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 207-5C",
+        "§ 207-7"
+      ],
+      "score": 0.7
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.66,
+    "normalizedScore": 3.2,
+    "averageConfidence": 66,
+    "questionsAnswered": 6,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        1,
+        1,
+        0.8,
+        0.85,
+        0.1,
+        0.7,
+        0.1
+      ],
+      "averageQuestionScore": 0.6937499999999999,
+      "weightedScore": 0.64
+    }
+  },
+  "overallScore": 3.2,
+  "averageConfidence": 66,
+  "questionsAnswered": 6,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T18:57:56.106Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

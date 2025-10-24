@@ -1,0 +1,95 @@
+{
+  "municipality": {
+    "id": "NY-Croton-on-Hudson-Village",
+    "displayName": "Croton-on-Hudson - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a tree removal permit to remove a tree on your private property. To apply, you must follow the process outlined in Section 208-17, which covers the permit application. The approving authority for the tree removal permit is specified in Section 208-16.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 208-16",
+        "§ 208-17"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit are outlined in Section 208-25, which details the penalties for offenses. However, the specific penalties, such as fines or other repercussions, are not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 208-25"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "Yes, there are fees associated with removing trees. This is specified in Section 208-20, which covers the permit fee required for tree removal. However, the specific amount of the fee is not mentioned in the statute.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 208-20"
+      ],
+      "score": 1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "The statute does not specify whether replanting new trees can be done in lieu of a payment or if non-native species are allowed as replacements. Information regarding replanting or the type of species permissible is not detailed in the sections provided.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 1
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "The statute does not specify any requirement for notifying neighbors when you remove trees. There are no guidelines provided about neighbor notification in the sections available.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.85,
+      "gap": "Consider adding specific requirements for notifying neighbors within a certain distance, detailing the timing and methods of notification, and identifying which parties are affected by tree removal to ensure clarity and prevent disputes."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "The code implicitly recognizes the importance of tree preservation through the requirements for permits and restrictions on tree removal, suggesting an overall intent to maintain a healthy tree canopy. However, explicit recognition of the broader importance of a healthy tree canopy is not directly stated in the statute.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 208-14",
+        "§ 208-16"
+      ],
+      "score": 1
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Your responsibilities for maintaining trees on your property are outlined in Section 208-10, which references the responsibilities of property owners. However, the statute does not specify exact maintenance duties beyond general responsibilities, like ensuring trees do not become hazards.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 208-10"
+      ],
+      "score": 1
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "lastUpdated": "2025-09-05T10:58:31.125Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

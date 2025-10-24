@@ -1,0 +1,12 @@
+{
+  "municipality": "Pound Ridge",
+  "municipalityType": "Town",
+  "domain": "Weed Management",
+  "domainId": "weeds",
+  "sourceUrl": "https://up.codes/viewer/new_york/ny-property-maintenance-code-2020",
+  "originalCellValue": "R-ny state",
+  "downloadedAt": "2025-09-05T17:50:16.878Z",
+  "stateCodeApplies": true,
+  "referencesStateCode": true,
+  "stateCodePath": "../NY-State/statute.txt"
+}

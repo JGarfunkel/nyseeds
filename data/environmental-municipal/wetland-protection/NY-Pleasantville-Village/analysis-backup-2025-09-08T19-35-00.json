@@ -1,0 +1,106 @@
+{
+  "municipality": {
+    "id": "NY-Pleasantville-Village",
+    "displayName": "Pleasantville - Village"
+  },
+  "domain": {
+    "id": "wetland-protection",
+    "displayName": "Wetland Protection"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 3,
+      "question": "What are the setback requirements from wetland boundaries?",
+      "answer": "There is a requirement that no activities are allowed to be conducted within 50 feet of the edge of any wetland, water body, or watercourse situated in a Wetland Control District.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 182-6A"
+      ],
+      "score": 0.75
+    },
+    {
+      "id": 4,
+      "question": "What are the penalties for unauthorized wetland disturbance?",
+      "answer": "Any person who violates or fails to comply with the requirements of this chapter will be liable for penalties set forth in the Environmental Conservation Law. Each violation is considered a separate offense, and for ongoing violations, each day is treated as a distinct offense.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 182-11"
+      ],
+      "score": 0.65
+    },
+    {
+      "id": 5,
+      "question": "How do I apply for a wetland permit or variance?",
+      "answer": "To apply for a wetland permit, you need to submit an application in triplicate to the Building Department. The application must include your name and address, the purpose of the application, a detailed description of the proposed activity, and a map of the affected area. If applicable, it should also include surveys, hydrological data, and an application fee as specified by the Village Board.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 182-8A"
+      ],
+      "score": 0.75
+    },
+    {
+      "id": 6,
+      "question": "Are there mitigation requirements for permitted wetland impacts?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 7,
+      "question": "What types of development are completely prohibited in wetlands?",
+      "answer": "The following activities are prohibited: depositing any material within 50 feet of any wetland, removing material (other than debris or refuse) from wetlands or the adjacent area, constructing any building or structure within 50 feet of a wetland, and draining or altering any wetland or watercourse.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 182-6A"
+      ],
+      "score": 0.9
+    },
+    {
+      "id": 9,
+      "question": "Are there tax incentives for wetland preservation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 10,
+      "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.49,
+    "normalizedScore": 2.1,
+    "averageConfidence": 49,
+    "questionsAnswered": 4,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.75,
+        0.65,
+        0.75,
+        0.1,
+        0.9,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.4785714285714286,
+      "weightedScore": 0.42
+    }
+  },
+  "overallScore": 2.1,
+  "averageConfidence": 49,
+  "questionsAnswered": 4,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:35:00.479Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

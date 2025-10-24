@@ -1,0 +1,434 @@
+{
+  "school-districts": [
+    {
+      "id": "NY-Ardsley-UFSD",
+      "name": "Ardsley",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Ardsley UFSD",
+      "singular": "ardsley",
+      "website": "http://www.ardsleyschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Bedford-CSD",
+      "name": "Bedford",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Bedford CSD",
+      "singular": "bedford",
+      "website": "http://www.bcsdny.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-BlindBrook-UFSD",
+      "name": "Blind Brook",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Blind Brook UFSD",
+      "singular": "blindbrook",
+      "website": "http://www.blindbrook.org",
+      "enrollment": null
+    },
+    {
+      "id": "NY-BriarcliffManor-UFSD",
+      "name": "Briarcliff Manor",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Briarcliff Manor UFSD",
+      "singular": "briarcliffmanor",
+      "website": "http://www.briarcliffschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Bronxville-UFSD",
+      "name": "Bronxville",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Bronxville UFSD",
+      "singular": "bronxville",
+      "website": "https://www.bronxvilleschool.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-ByramHills-CSD",
+      "name": "Byram Hills",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Byram Hills CSD",
+      "singular": "byramhills",
+      "website": "http://www.byramhills.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Chappaqua-CSD",
+      "name": "Chappaqua",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Chappaqua Central School District",
+      "singular": "chappaqua",
+      "website": "https://chappaquaschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-CrotonHarmon-UFSD",
+      "name": "Croton-Harmon",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Croton-Harmon UFSD",
+      "singular": "crotonharmon",
+      "website": "http://www.croton-harmonschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-DobbsFerry-UFSD",
+      "name": "Dobbs Ferry",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Dobbs Ferry UFSD",
+      "singular": "dobbsferry",
+      "website": "http://www.dfsd.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Eastchester-UFSD",
+      "name": "Eastchester",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Eastchester UFSD",
+      "singular": "eastchester",
+      "website": "https://district.eastchesterschools.org/m2/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Edgemont-CSD",
+      "name": "Edgemont",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Edgemont School District",
+      "singular": "edgemont",
+      "website": "http://www.edgemont.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-ElmsfordPublic-CSD",
+      "name": "Elmsford Public",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Elmsford Public School District",
+      "singular": "elmsfordpublic",
+      "website": "http://www.eufsd.org",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Greenburgh-CSD",
+      "name": "Greenburgh",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Greenburgh Central School District",
+      "singular": "greenburgh",
+      "website": "https://www.greenburghcsd.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Harrison-CSD",
+      "name": "Harrison",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Harrison CSD",
+      "singular": "harrison",
+      "website": "http://www.harrisoncsd.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-HastingsonHudson-UFSD",
+      "name": "Hastings-on-Hudson",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Hastings-on-Hudson UFSD",
+      "singular": "hastingsonhudson",
+      "website": "http://www.hastings.k12.ny.us/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-HawthorneCedarKnolls-UFSD",
+      "name": "Hawthorne Cedar Knolls",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Hawthorne Cedar Knolls UFSD",
+      "singular": "hawthornecedarknolls",
+      "website": "http://www.hcks.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-HendrickHudson-CSD",
+      "name": "Hendrick Hudson",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Hendrick Hudson CSD",
+      "singular": "hendrickhudson",
+      "website": "https://www.henhudschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Irvington-UFSD",
+      "name": "Irvington",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Irvington UFSD",
+      "singular": "irvington",
+      "website": "http://www.irvingtonschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-KatonahLewisboro-CSD",
+      "name": "Katonah-Lewisboro",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Katonah-Lewisboro School District",
+      "singular": "katonahlewisboro",
+      "website": "https://www.klschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Lakeland-CSD",
+      "name": "Lakeland",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Lakeland CSD",
+      "singular": "lakeland",
+      "website": "http://www.lakelandschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Mamaroneck-UFSD",
+      "name": "Mamaroneck",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Mamaroneck UFSD",
+      "singular": "mamaroneck",
+      "website": "http://www.mamkschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-MountPleasantBlythedale-UFSD",
+      "name": "Mount Pleasant Blythedale",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Mount Pleasant Blythedale UFSD",
+      "singular": "mountpleasantblythedale",
+      "website": "http://www.mpbschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-MountPleasantCottageSchool-UFSD",
+      "name": "Mount Pleasant Cottage School",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Mount Pleasant Cottage School UFSD",
+      "singular": "mountpleasantcottageschool",
+      "website": "https://www.mpcsny.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-MountPleasant-CSD",
+      "name": "Mount Pleasant",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Mount Pleasant CSD",
+      "singular": "mountpleasant",
+      "website": "http://www.mtplcsd.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-MountVernon-CSD",
+      "name": "Mount Vernon",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Mount Vernon CSD",
+      "singular": "mountvernon",
+      "website": "http://www.mtvernoncsd.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-NewRochelle-CSD",
+      "name": "New Rochelle",
+      "type": "City School District",
+      "state": "NY",
+      "displayName": "New Rochelle City School District",
+      "singular": "newrochelle",
+      "website": "http://www.nred.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-NorthSalem-CSD",
+      "name": "North Salem",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "North Salem CSD",
+      "singular": "northsalem",
+      "website": "http://www.northsalemschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Ossining-UFSD",
+      "name": "Ossining",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Ossining UFSD",
+      "singular": "ossining",
+      "website": "http://www.ossiningufsd.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Peekskill-CSD",
+      "name": "Peekskill",
+      "type": "City School District",
+      "state": "NY",
+      "displayName": "Peekskill City School District",
+      "singular": "peekskill",
+      "website": "http://www.peekskillcsd.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Pelham-UFSD",
+      "name": "Pelham",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Pelham UFSD",
+      "singular": "pelham",
+      "website": "http://www.pelhamschools.org",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Pleasantville-UFSD",
+      "name": "Pleasantville",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Pleasantville UFSD",
+      "singular": "pleasantville",
+      "website": "http://www.pleasantvilleschools.com/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-PocanticoHills-CSD",
+      "name": "Pocantico Hills",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Pocantico Hills CSD",
+      "singular": "pocanticohills",
+      "website": "http://www.pocanticohills.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-PortChesterRye-UFSD",
+      "name": "Port Chester Rye",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Port Chester Rye UFSD",
+      "singular": "portchesterrye",
+      "website": "http://www.portchesterschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Rye-CSD",
+      "name": "Rye",
+      "type": "City School District",
+      "state": "NY",
+      "displayName": "Rye City School District",
+      "singular": "rye",
+      "website": "http://www.ryeschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-RyeNeck-UFSD",
+      "name": "Rye Neck",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Rye Neck UFSD",
+      "singular": "ryeneck",
+      "website": "http://www.ryeneck.k12.ny.us/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Scarsdale-UFSD",
+      "name": "Scarsdale",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Scarsdale UFSD",
+      "singular": "scarsdale",
+      "website": "http://www.scarsdaleschools.org",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Somers-CSD",
+      "name": "Somers",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Somers CSD",
+      "singular": "somers",
+      "website": "http://www.somersschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Tuckahoe-UFSD",
+      "name": "Tuckahoe",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Tuckahoe UFSD",
+      "singular": "tuckahoe",
+      "website": "http://www.tuckahoeschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Tarrytown-UFSD",
+      "name": "Tarrytown",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Tarrytown UFSD",
+      "singular": "tarrytown",
+      "website": "http://www.tufsd.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Valhalla-UFSD",
+      "name": "Valhalla",
+      "type": "Union Free School District",
+      "state": "NY",
+      "displayName": "Valhalla UFSD",
+      "singular": "valhalla",
+      "website": "http://www.valhallaschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-WhitePlains-CSD",
+      "name": "White Plains",
+      "type": "City School District",
+      "state": "NY",
+      "displayName": "White Plains City School District",
+      "singular": "whiteplains",
+      "website": "https://www.whiteplainspublicschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Yonkers-CSD",
+      "name": "Yonkers",
+      "type": "City School District",
+      "state": "NY",
+      "displayName": "Yonkers City School District",
+      "singular": "yonkers",
+      "website": "http://www.yonkerspublicschools.org/",
+      "enrollment": null
+    },
+    {
+      "id": "NY-Yorktown-CSD",
+      "name": "Yorktown",
+      "type": "Central School District",
+      "state": "NY",
+      "displayName": "Yorktown CSD",
+      "singular": "yorktown",
+      "website": "https://www.yorktown.org/",
+      "enrollment": null
+    }
+  ]
+}

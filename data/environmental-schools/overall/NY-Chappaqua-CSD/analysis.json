@@ -1,0 +1,37 @@
+{
+  "municipality": "NY-Chappaqua-CSD",
+  "domain": "overall",
+  "analyzedAt": "2025-09-04T19:35:25.958Z",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Does the school district have a policy for sustainability?",
+      "answer": "Yes, the school district has a policy for sustainability. The Environmental Policy (0115) includes curriculum that promotes preservation of a safe environment, encourages solid waste source reduction, supports the collection and purchase of recyclables, effects energy efficiency, and promotes the proper use and disposal of materials.",
+      "confidence": 80,
+      "sourceRefs": [],
+      "score": 0.55,
+      "analyzedAt": "2025-09-04T19:35:25.958Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.8,
+    "normalizedScore": 2.75,
+    "averageConfidence": 80,
+    "questionsAnswered": 1,
+    "totalQuestions": 1,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.55
+      ],
+      "averageQuestionScore": 0.55,
+      "weightedScore": 0.55
+    }
+  },
+  "overallScore": 2.75,
+  "averageConfidence": 80,
+  "questionsAnswered": 1,
+  "totalQuestions": 1,
+  "gapAnalysis": "",
+  "wenGrade": null,
+  "usesStateCode": false
+}

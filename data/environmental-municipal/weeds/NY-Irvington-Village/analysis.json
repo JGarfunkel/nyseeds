@@ -1,0 +1,148 @@
+{
+  "municipality": {
+    "id": "NY-Irvington-Village",
+    "displayName": "Irvington - Village"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents must keep their premises free of hazards, including weeds, which are considered a nuisance. Vacant lots must be kept free of weeds as well.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 460-9"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding specific height limits for weeds and a clear definition of what constitutes a \"nuisance\" to provide residents with measurable standards for compliance."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 50,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, defining clear criteria such as plant species, maintenance standards, and designated areas to ensure they are distinguishable from unmanaged weed growth."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, property maintenance requirements extend beyond the property lot lines to areas such as sidewalks, where awnings or marquees are concerned, and street numbers must be visible from the curb.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 460-35",
+        "§ 460-18"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding explicit guidelines for maintenance responsibilities related to snow and ice removal from sidewalks and curbs to ensure pedestrian safety and clarify property owner obligations."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Violations of property maintenance regulations can result in a fine ranging from $750 to $1,250, and up to 90 days in jail. Repeat offenses within one year can incur an additional separate $1,000 fine.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 460-9"
+      ],
+      "score": 0.9,
+      "gap": "Consider adding specific categories of violations with corresponding fine amounts to ensure clarity and consistency in enforcement, as well as detailing the enforcement mechanisms and processes for imposing penalties."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the statute.",
+      "confidence": 50,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a clear timeline of 30 days for property owners to resolve a weeds-related maintenance violation before penalties are applied, with specified fine amounts for initial and repeat offenses, and a structured escalation process for non-compliance."
+    }
+  ],
+  "scores": {
+    "overallScore": 3.67,
+    "normalizedScore": 3.67,
+    "averageConfidence": 71,
+    "questionsAnswered": 3,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.5,
+        0.1,
+        0.5,
+        0.9,
+        0.1
+      ],
+      "averageQuestionScore": 0.42000000000000004,
+      "weightedScore": 0.3667,
+      "totalWeightedScore": 2.2,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "Residents must keep their premises free of hazards, including weeds, which are considered a nuisance. Vacant lots must be kept free of weeds as well.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 50
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "Yes, property maintenance requirements extend beyond the property lot lines to areas such as sidewalks, where awnings or marquees are concerned, and street numbers must be visible from the curb.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "Violations of property maintenance regulations can result in a fine ranging from $750 to $1,250, and up to 90 days in jail. Repeat offenses within one year can incur an additional separate $1,000 fine.",
+          "score": 0.9,
+          "weight": 1,
+          "weightedScore": 0.9,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 50
+        }
+      ]
+    }
+  },
+  "overallScore": 3.67,
+  "averageConfidence": 71,
+  "questionsAnswered": 3,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:42:50.296Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 3.67,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.515Z"
+}

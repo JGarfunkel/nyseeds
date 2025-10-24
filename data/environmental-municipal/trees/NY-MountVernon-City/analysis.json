@@ -1,0 +1,212 @@
+{
+  "municipality": {
+    "id": "NY-MountVernon-City",
+    "displayName": "Mount Vernon - City"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property if the tree is 10 inches in diameter at breast height (DBH) or greater, or does not meet specific exemption criteria like emergency removal. To apply for a permit, you should make a request to the Department of Public Works with at least 20 business days' notice for inspection, and submit an application including details like the total number of trees for removal, their DBH, and a sketch of property showing tree locations. The Building Department and the Department of Public Works, with advice from the Mount Vernon Tree Advisory Board and after an inspection by the City Tree Surgeon, will review the application.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 252-4",
+        "§ 252-5"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalty for removing trees without a permit is a fine of up to $1,000 per tree for the first tree. For a second and subsequent offense within a one-year period, the fine can be up to $2,000 per tree. Additionally, the violator will be required to repair or replace each and every tree harmed or removed or pay a fee-in-lieu of replacement. All fines are deposited into the Mount Vernon Tree Fund Escrow Account. No building permit or certificate of occupancy can be issued for any construction on the property until the provisions of the statute have been satisfied.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 252-16"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "If a tree is removed without a replacement, the property owner may pay a fee-in-lieu of replacement, which is $500 per tree. This payment is made to the City and is deposited into the Mount Vernon Tree Fund Escrow Account.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 252-10E"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding a detailed fee schedule that outlines any potential variations in the fee based on tree size, species, or location, as well as specifying accepted payment methods and any possible exemptions or reductions for certain property owners or circumstances."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed instead of making a payment. The replacement trees must have a minimum diameter at breast height (DBH) of three inches and must be species included on the list of permitted trees, which implies that non-native species may not be allowed if they are not on the official list. The planting should follow best practices and must be completed within six months of the tree removal permit issuance.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 252-10C",
+        "§ 252-10D"
+      ],
+      "score": 1
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and clearly identifying any neighbors whose property may be affected by potential changes in landscape or drainage."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of maintaining a healthy tree canopy. The purpose section emphasizes the environmental, aesthetic, and economic benefits provided by trees, including shade and the preservation of air quality. The regulation seeks to prevent unnecessary damage and preserve trees as community assets.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 252-1"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific coverage targets for tree canopy, detailed measurement methods for assessing canopy health, and comprehensive maintenance plans to ensure long-term preservation and enhancement of the tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As a property owner, you are responsible for pruning trees so that the tree's basic nature is not damaged and its size is not reduced by more than 1/4. You must address any branches or roots overhanging an adjacent lot, sidewalk, or roadway if notified by the adjacent property owner. You are also responsible for the control and removal of infested trees, shrubs, bushes, and invasive vines. Failure to address infestations could lead to the city removing the trees at your expense if you do not comply within 30 days of being notified.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 252-4A"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding a requirement for regular inspections by property owners to identify potential hazards or infestations, with a recommended inspection frequency and documentation process to ensure proactive tree maintenance and compliance."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to collect detailed data on all tree removals, including location, species, and reason for removal, and to compile this information into an annual public report to enhance transparency and facilitate community engagement in urban forestry management."
+    }
+  ],
+  "scores": {
+    "overallScore": 6.73,
+    "normalizedScore": 6.73,
+    "averageConfidence": 69,
+    "questionsAnswered": 6,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        1,
+        0.75,
+        1,
+        0.1,
+        0.55,
+        0.7,
+        0.1
+      ],
+      "averageQuestionScore": 0.65,
+      "weightedScore": 0.6733,
+      "totalWeightedScore": 10.1,
+      "totalPossibleWeight": 15,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+          "answer": "Yes, you need a permit to remove a tree on your private property if the tree is 10 inches in diameter at breast height (DBH) or greater, or does not meet specific exemption criteria like emergency removal. To apply for a permit, you should make a request to the Department of Public Works with at least 20 business days' notice for inspection, and submit an application including details like the total number of trees for removal, their DBH, and a sketch of property showing tree locations. The Building Department and the Department of Public Works, with advice from the Mount Vernon Tree Advisory Board and after an inspection by the City Tree Surgeon, will review the application.",
+          "score": 1,
+          "weight": 1,
+          "weightedScore": 1,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the penalties for removing trees without a permit?",
+          "answer": "The penalty for removing trees without a permit is a fine of up to $1,000 per tree for the first tree. For a second and subsequent offense within a one-year period, the fine can be up to $2,000 per tree. Additionally, the violator will be required to repair or replace each and every tree harmed or removed or pay a fee-in-lieu of replacement. All fines are deposited into the Mount Vernon Tree Fund Escrow Account. No building permit or certificate of occupancy can be issued for any construction on the property until the provisions of the statute have been satisfied.",
+          "score": 1,
+          "weight": 2,
+          "weightedScore": 2,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What is the fee for removing each tree without a replacement?",
+          "answer": "If a tree is removed without a replacement, the property owner may pay a fee-in-lieu of replacement, which is $500 per tree. This payment is made to the City and is deposited into the Mount Vernon Tree Fund Escrow Account.",
+          "score": 0.75,
+          "weight": 1,
+          "weightedScore": 0.75,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+          "answer": "Yes, you can replant new trees to replace those removed instead of making a payment. The replacement trees must have a minimum diameter at breast height (DBH) of three inches and must be species included on the list of permitted trees, which implies that non-native species may not be allowed if they are not on the official list. The planting should follow best practices and must be completed within six months of the tree removal permit issuance.",
+          "score": 1,
+          "weight": 3,
+          "weightedScore": 3,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "Which neighbors must be notified if I remove trees? ",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "6",
+          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+          "answer": "Yes, the code recognizes the importance of maintaining a healthy tree canopy. The purpose section emphasizes the environmental, aesthetic, and economic benefits provided by trees, including shade and the preservation of air quality. The regulation seeks to prevent unnecessary damage and preserve trees as community assets.",
+          "score": 0.55,
+          "weight": 3,
+          "weightedScore": 1.6500000000000001,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "8",
+          "question": "What are my responsibilities for maintaining trees on my property?",
+          "answer": "As a property owner, you are responsible for pruning trees so that the tree's basic nature is not damaged and its size is not reduced by more than 1/4. You must address any branches or roots overhanging an adjacent lot, sidewalk, or roadway if notified by the adjacent property owner. You are also responsible for the control and removal of infested trees, shrubs, bushes, and invasive vines. Failure to address infestations could lead to the city removing the trees at your expense if you do not comply within 30 days of being notified.",
+          "score": 0.7,
+          "weight": 2,
+          "weightedScore": 1.4,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "9",
+          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        }
+      ]
+    }
+  },
+  "overallScore": 6.73,
+  "averageConfidence": 69,
+  "questionsAnswered": 6,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-09T18:23:38.708Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 6.73,
+  "scoresUpdatedAt": "2025-10-10T17:18:10.193Z"
+}

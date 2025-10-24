@@ -1,0 +1,15 @@
+{
+  "municipality": "Tuckahoe",
+  "municipalityType": "Village",
+  "domain": "Trees",
+  "domainId": "trees",
+  "originalCellValue": "G- https://ecode360.com/15685617",
+  "downloadedAt": "2025-09-05T16:42:45.288Z",
+  "contentLength": 14378,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:02.661Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/15685617",
+  "statuteNumber": "Chapter 21A",
+  "statuteTitle": "Trees"
+}

@@ -1,0 +1,76 @@
+{
+  "municipality": {
+    "id": "NY-Rye-City",
+    "displayName": "Rye - City"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts for 6 and a half months. It starts on May 1st and ends on September 30th, as well as from December 16th to the last day of February.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 122-4"
+      ],
+      "score": 0.45
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers can be operated during the Fall and Spring cleanup seasons only between 8:00 a.m. and 6:00 p.m. on weekdays and from 10:00 a.m. to 4:00 p.m. on weekends. They cannot be used on holidays, Rosh Hashanah, or Yom Kippur unless permission is granted for expanded use by the head of the Rye Department of Public Works in specific circumstances.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 122-5"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalty for violating gas leaf blower regulations involves a tiered system of fines. The first offense carries a fine not to exceed $250. A second violation results in a fine not to exceed $350. A third violation incurs a fine up to $1,500.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 122-7"
+      ],
+      "score": 0.75
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions for certain entities. The restrictions on the use of motorized landscaping equipment, including gas leaf blowers, do not apply to municipal properties, schools, religious institutions, membership clubs, golf courses, hospitals and retirement communities, cemeteries, and for driveway or road paving and sealing activities.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 122-5D"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations are enforced by the City of Rye Police Department, the Rye Building Department, or any other City employee designated by the City Manager. The specific process for reporting violations is not provided in the statute.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 122-6"
+      ],
+      "score": 0.65
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "lastUpdated": "2025-09-05T18:19:56.484Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

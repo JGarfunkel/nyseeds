@@ -1,0 +1,48 @@
+{
+  "description": "Leaf blowers are a common tool used to clear leaves from lawns and other surfaces. However, their use can cause significant damage to the environment, including soil erosion, water pollution, and habitat disruption. Gas leaf blowers are particularly noxious given their pollutant contribution and louder noise than electric blowers. Many municipalities have regulations to restrict the use of gas leaf blowers, either as part of noise ordinances or on their own.",
+  "questions": [
+    {
+      "id": 1,
+      "category": "seasonal restrictions",
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "scoreInstructions": "The score should be proportional to length of the prohibition around the year -- 1.0 for a full year, 0.0 for no prohibition.",
+      "weight": 4
+    },
+    {
+      "id": 2,
+      "category": "time restrictions",
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "scoreInstructions": "The score should be proportional to the number of hours permitted -- 1.0 for 24/7, 0.0 for no hourly restrictions.",
+      "weight": 1
+    },
+    {
+      "id": 3,
+      "category": "penalties",
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "scoreInstructions": "The score should be higher if penalties are more severe.",
+      "weight": 3
+    },
+    {
+      "id": 4,
+      "category": "Exceptions",
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "scoreInstructions": "The score should give 1.0 if there are no exceptions."
+    },
+    {
+      "id": 5,
+      "category": "Enforcement",
+      "question": "How are violations reported and enforced?"
+    },
+    {
+      "id": 6,
+      "category": "Alternatives to blowing",
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?"
+    },
+    {
+      "id": 7,
+      "category": "Report",
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "scoreInstructions": "The score should give 1.0 if a report is required."
+    }
+  ]
+}

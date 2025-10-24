@@ -1,0 +1,99 @@
+{
+  "municipality": "NY-Pelham-Village",
+  "domain": "wetland-protection",
+  "analyzedAt": "2025-09-08T19:34:44.769Z",
+  "questions": [
+    {
+      "id": 3,
+      "question": "What are the setback requirements from wetland boundaries?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:34:37.433Z"
+    },
+    {
+      "id": 4,
+      "question": "What are the penalties for unauthorized wetland disturbance?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:34:38.185Z"
+    },
+    {
+      "id": 5,
+      "question": "How do I apply for a wetland permit or variance?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:34:38.855Z"
+    },
+    {
+      "id": 6,
+      "question": "Are there mitigation requirements for permitted wetland impacts?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:34:39.704Z"
+    },
+    {
+      "id": 7,
+      "question": "What types of development are completely prohibited in wetlands?",
+      "answer": "The types of development that are completely prohibited in wetlands, without a permit, include:\n\n1. Any form of draining, dredging, excavation, or removal of soil, mud, sand, gravel, or other material.\n2. Any form of dumping, filling, grading, or depositing of any soil, stones, sand, gravel, mud, rubbish, or fill of any kind.\n3. The erection of any structures or roads, the driving of pilings, or the placement of any other obstructions, whether or not changing or diverting the flow of water.\n4. The introduction of any form of pollution, including but not limited to installing a septic tank, running a sewer outfall, discharging sewage treatment effluent, or other liquid wastes into or so as to drain a freshwater wetlands area.\n5. Any other activity which may substantially impair the natural functions served by the wetlands or the benefits derived therefrom.\n\n(See § 49-3 A)",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 49-3"
+      ],
+      "score": 0.65,
+      "analyzedAt": "2025-09-08T19:34:44.012Z"
+    },
+    {
+      "id": 9,
+      "question": "Are there tax incentives for wetland preservation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:34:44.313Z"
+    },
+    {
+      "id": 10,
+      "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:34:44.768Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.13,
+    "normalizedScore": 0.65,
+    "averageConfidence": 13,
+    "questionsAnswered": 1,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.65,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.1785714285714286,
+      "weightedScore": 0.13
+    }
+  },
+  "overallScore": 0.65,
+  "averageConfidence": 13,
+  "questionsAnswered": 1,
+  "totalQuestions": 7,
+  "gapAnalysis": "",
+  "wenGrade": "G-",
+  "usesStateCode": false
+}

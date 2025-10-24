@@ -1,0 +1,129 @@
+{
+  "realms": [
+    {
+      "id": "westchester-municipal-environmental",
+      "name": "Westchester Municipality Environmental Statutes",
+      "displayName": "Westchester Municipality Environmental Statutes",
+      "description": "Environmental statute analysis for Westchester County municipalities",
+      "realmType": "statute",
+      "datapath": "environmental-municipal",
+      "entityType": "municipalities",
+      "entityFile": "municipalities.json",
+      "mapBoundaries": "NY/westchester-boundaries.json",
+      "dataSource": {
+        "type": "google-sheets",
+        "url": "https://docs.google.com/spreadsheets/d/1Nc5xZZ9OrRgI2pnGjlBmo7yvpiQELYSEp19e73Gl_UE/edit?gid=2126758775#gid=2126758775"
+      },
+      "domains": [
+        "trees",
+        "weeds", 
+        "glb",
+        "wetland-protection",
+        "dark-sky",
+        "cluster-zoning",
+        "solar-1",
+        "slopes"
+      ],
+      "isDefault": true,
+      "terminology": {
+        "entitySingular": "Municipality",
+        "entityPlural": "Municipalities",
+        "domainSingular": "Domain", 
+        "domainPlural": "Domains",
+        "documentSingular": "Ordinance",
+        "documentPlural": "Ordinances"
+      },
+      "scoring": {
+        "colorGradient": {
+          "low": "#bbf7d0",
+          "medium": "#86efac", 
+          "high": "#22c55e"
+        },
+        "thresholds": {
+          "low": 0.3,
+          "high": 0.7
+        },
+        "scale": "environmental-protection"
+      },
+      "ui": {
+        "theme": "environmental",
+        "primaryColor": "#16a34a",
+        "mapColors": {
+          "dataAvailable": "environmental-gradient",
+          "stateCode": "#3b82f6",
+          "noAnalysis": "#8b5cf6",
+          "noData": "#6b7280"
+        }
+      },
+      "features": {
+        "gapAnalysis": true,
+        "metaAnalysis": true,
+        "scoreComparison": true,
+        "mapVisualization": true,
+        "stateCodeHandling": true
+      }
+    },
+    {
+      "id": "westchester-schools-sustainability",
+      "name": "Westchester Schools",
+      "displayName": "Westchester School District Sustainability Policies",
+      "description": "Sustainability practice analysis for Westchester County school districts",
+      "realmType": "policy",
+      "datapath": "environmental-schools",
+      "entityType": "school-districts",
+      "entityFile": "school-districts.json",
+      "mapBoundaries": "NY/westchester-school-district-boundaries.geojson",
+      "dataSource": {
+        "type": "json-file",
+        "path": "data/environmental-schools/school_district_sustainability_policies.json"
+      },
+      "domains": [
+        "overall",
+        "building", 
+        "curriculum",
+        "food",
+        "gardens",
+        "stormwater"
+      ],
+      "isDefault": false,
+      "terminology": {
+        "entitySingular": "School District",
+        "entityPlural": "School Districts",
+        "domainSingular": "Domain", 
+        "domainPlural": "Domains",
+        "documentSingular": "Policy",
+        "documentPlural": "Policies"
+      },
+      "scoring": {
+        "colorGradient": {
+          "low": "#fecaca",
+          "medium": "#fed7aa", 
+          "high": "#bbf7d0"
+        },
+        "thresholds": {
+          "low": 0.3,
+          "high": 0.7
+        },
+        "scale": "sustainability-implementation"
+      },
+      "ui": {
+        "theme": "education",
+        "primaryColor": "#2563eb",
+        "mapColors": {
+          "dataAvailable": "blue-gradient",
+          "stateCode": "#3b82f6",
+          "noAnalysis": "#8b5cf6",
+          "noData": "#6b7280"
+        }
+      },
+      "features": {
+        "gapAnalysis": true,
+        "metaAnalysis": true,
+        "scoreComparison": true,
+        "mapVisualization": true,
+        "stateCodeHandling": false
+      }
+    }
+  ],
+  "lastUpdated": "2025-09-03T20:50:00.000Z"
+}

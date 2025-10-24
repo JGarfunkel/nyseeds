@@ -1,0 +1,114 @@
+{
+  "municipality": {
+    "id": "NY-Croton-on-Hudson-Village",
+    "displayName": "Croton-on-Hudson - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Not specified in the statute.",
+      "confidence": 41,
+      "sourceRefs": [
+        "§ 208-16",
+        "§ 208-27"
+      ],
+      "score": 0,
+      "gap": "Consider adding a clear regulatory framework that requires property owners to obtain a permit for tree removal on private property, detailing the application procedures, review criteria, timelines for decision-making, and an appeal process, while specifying the municipal department responsible for reviewing and approving such permits."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "Not specified in the statute.",
+      "confidence": 48,
+      "sourceRefs": [
+        "§ 208-16",
+        "§ 208-27"
+      ],
+      "score": 0,
+      "gap": "Consider adding a section to the statute that specifies penalties for removing trees without a permit, including fines, mandatory replanting requirements, and potential legal action, to ensure compliance and protect urban forestry."
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "Not specified in the statute.",
+      "confidence": 44,
+      "sourceRefs": [
+        "§ 208-27",
+        "§ 208-16"
+      ],
+      "score": 0,
+      "gap": "Consider adding a clear fee schedule for tree removal permits that outlines specific costs based on tree size and type, includes payment options, details any exemptions for certain property owners or tree species, and ensures fees cover administrative costs associated with processing and enforcement."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Not specified in the statute.",
+      "confidence": 36,
+      "sourceRefs": [
+        "§ 208-27",
+        "§ 208-16"
+      ],
+      "score": 0,
+      "gap": "Consider adding a regulation that requires the replanting of native tree species at a minimum replacement ratio of 2:1 for every tree removed, with a mandatory survival monitoring period of three years to ensure successful establishment."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 45,
+      "sourceRefs": [
+        "§ 208-27",
+        "§ 208-16"
+      ],
+      "score": 0,
+      "gap": "Consider adding a requirement that property owners must notify neighbors within a 100-foot radius at least 14 days in advance of tree removal, using certified mail to ensure all affected parties are informed."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the statute.",
+      "confidence": 37,
+      "sourceRefs": [
+        "§ 208-27",
+        "§ 208-16"
+      ],
+      "score": 0,
+      "gap": "Consider adding a regulatory framework that establishes specific tree canopy coverage targets, outlines standardized methods for measuring canopy coverage, mandates regular maintenance plans, and implements long-term preservation strategies to ensure a sustainable and healthy urban forest."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Not specified in the statute.",
+      "confidence": 46,
+      "sourceRefs": [
+        "§ 208-27",
+        "§ 208-16"
+      ],
+      "score": 0,
+      "gap": "Consider adding a regulation that requires property owners to conduct annual inspections of trees on their property, adhere to established care standards, and promptly address any identified hazards to ensure public safety and tree health."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute call for data collection on tree removals and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 49,
+      "sourceRefs": [
+        "§ 208-16",
+        "§ 208-27"
+      ],
+      "score": 0,
+      "gap": "Consider adding a requirement for the municipality to systematically collect data on all tree removals, including location, species, and reason for removal, and to compile this information into an annual public report to enhance transparency and accountability."
+    }
+  ],
+  "lastUpdated": "2025-08-29T19:42:57.958Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

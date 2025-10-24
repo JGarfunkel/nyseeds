@@ -1,0 +1,15 @@
+{
+  "municipality": "New Rochelle",
+  "municipalityType": "City",
+  "domain": "Weeds",
+  "domainId": "weeds",
+  "originalCellValue": "R- https://ecode360.com/6736390",
+  "downloadedAt": "2025-09-05T16:29:57.167Z",
+  "contentLength": 11929,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:04.069Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/6736390",
+  "statuteNumber": "Chapter 250",
+  "statuteTitle": "Property Maintenance"
+}

@@ -1,0 +1,22 @@
+{
+  "municipality": "Buchanan - Village",
+  "domain": "Slopes",
+  "grade": null,
+  "gradeColor": "#6b7280",
+  "lastUpdated": "2025-08-14T15:00:51.493Z",
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 0,
+    "scoreBreakdown": {
+      "questionScores": [],
+      "averageQuestionScore": 0,
+      "weightedScore": 0
+    }
+  },
+  "overallScore": 0,
+  "normalizedScore": 0,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.104Z"
+}

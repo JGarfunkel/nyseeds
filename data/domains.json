@@ -1,0 +1,57 @@
+{
+  "domains": [
+    {
+      "id": "trees",
+      "name": "trees",
+      "displayName": "Trees & Urban Forestry",
+      "description": "Tree removal, planting, and maintenance regulations"
+    },
+    {
+      "id": "glb",
+      "name": "glb",
+      "displayName": "Gas Leaf Blowers",
+      "description": "Gas-powered leaf blower regulations and restrictions"
+    },
+    {
+      "id": "wetland-protection",
+      "name": "wetland-protection",
+      "displayName": "Wetland Protection",
+      "description": "Wetland conservation and protection ordinances"
+    },
+    {
+      "id": "weeds",
+      "name": "weeds",
+      "displayName": "Weed Management",
+      "description": "Weed control, noxious plant management, and vegetation regulations"
+    },
+    {
+      "id": "dark-sky",
+      "name": "dark-sky",
+      "show": false,
+      "displayName": "Dark Sky Protection",
+      "description": "Light pollution control and dark sky protection"
+    },
+    {
+      "id": "cluster-zoning",
+      "name": "cluster-zoning", 
+      "show": false,
+      "displayName": "Cluster Zoning",
+      "description": "Cluster development and conservation zoning regulations"
+    },
+    {
+      "id": "solar-1",
+      "name": "solar-1",
+      "show": false,
+      "displayName": "Solar Energy",
+      "description": "Solar installation and renewable energy regulations"
+    },
+    {
+      "id": "slopes",
+      "name": "slopes",
+      "show": false,
+      "displayName": "Slope Protection",
+      "description": "Steep slope development and erosion control regulations"
+    }
+  ],
+  "lastUpdated": "2025-08-14T21:53:00.000Z"
+}

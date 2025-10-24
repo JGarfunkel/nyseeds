@@ -1,0 +1,100 @@
+{
+  "municipality": {
+    "id": "NY-Ardsley-Village",
+    "displayName": "Ardsley - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "The statute does not specifically require a permit for removing a tree on private property unless it is related to subdivision plans. For general tree activities, permits are necessary only for trees within public streets or places.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 185-3"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove trees without a required permit, you may be found guilty of committing a violation, which can result in a fine of up to $250.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 185-11"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "The statute states that there is no charge for the permit to remove, plant, or modify trees within public streets or places. Fees associated with tree removal on private property are not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 185-3E"
+      ],
+      "score": 1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "The statute allows for the replanting of new trees as replacements. However, any tree planting on public property must be of a variety selected or approved by the Street Commissioner, and non-native species such as poplar, willow, tree of heaven, female gingko, or wild cherry trees are prohibited from being planted. The Planning Board may require multiple trees to replace mature trees that can't be replicated. Planting plans need to be approved as part of any development or subdivision activity.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 185-4K",
+        "§ 185-4O",
+        "§ 185-9"
+      ],
+      "score": 1
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "The statute does not specify any requirement to notify neighbors if you remove trees.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.85,
+      "gap": "Consider adding a requirement for notifying neighbors within a specific distance (e.g., 100 feet) of the property where trees are being removed, including details on the timing (e.g., at least 14 days prior), acceptable notification methods (e.g., certified mail or in-person delivery), and identification of affected parties (e.g., adjacent property owners)."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy by stating the intent to prevent damage to shade, ornamental, and evergreen trees, which if excessively cut or damaged, can lead to problems like increased surface drainage, impaired property value, and community deterioration affecting the general welfare of village inhabitants.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 185-1"
+      ],
+      "score": 0.95,
+      "gap": "Consider adding specific coverage targets for the tree canopy, detailed measurement methods to assess canopy health, and comprehensive maintenance plans to ensure long-term preservation and enhancement of the tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As a property owner, you must ensure trees on your property that overhang public streets or places are trimmed so that the lowest branches are at least 15 feet above the road and 9 feet above the sidewalk. You are also responsible for removing any dead or hazardous trees or branches. If you fail to do so after receiving written notice, the Street Commissioner can carry out the work and charge you for it.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 185-6",
+        "§ 185-7"
+      ],
+      "score": 1
+    },
+    {
+      "id": 9,
+      "question": "Does the statute call for data collection on tree removals and presentation in a report to the public?",
+      "answer": "The statute does not mention any requirements for data collection on tree removals or the presentation of such data in a report to the public.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.85,
+      "gap": "Consider adding explicit requirements for systematic data collection on tree removals, including the frequency of data updates, and mandate the presentation of this data in an accessible public report to enhance transparency and accountability."
+    }
+  ],
+  "lastUpdated": "2025-09-01T01:56:04.839Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

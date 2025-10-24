@@ -1,0 +1,91 @@
+{
+  "municipality": {
+    "id": "NY-Elmsford-Village",
+    "displayName": "Elmsford - Village"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents in the Village of Elmsford are required to cut, trim, or remove brush, grass, rubbish, or weeds on their property. They also need to spray with herbicides, cut, trim, remove, or destroy poisonous shrubs or weeds when ordered to do so by a resolution from the Village Board.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 105-3"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding specific height limits for grass and weeds, as well as a clear timeline for compliance after a resolution is issued by the Village Board, to ensure consistent enforcement and clarity for residents."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "Consider adding explicit provisions in the property maintenance code that define and permit cultivated pollinator gardens, including specific guidelines on acceptable plant species, maintenance standards, and any necessary permits or notifications to ensure they are distinguishable from neglected properties."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "Consider adding explicit language in the statute to define the extent of property maintenance responsibilities beyond the property lot lines, including specific requirements for maintaining areas such as sidewalks, curbs, and adjacent public spaces."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "The penalties for failing to comply with property maintenance regulations include the village performing the required work and the costs being reimbursed by the property owner. Specifically, if the owner neglects or fails to comply with the notice to maintain their property, the Village Board will authorize the work to be done and pay for it using general village funds (§ 105-5). The costs incurred by the village for this work will then be assessed and levied as a lien on the property, which will remain until it is paid or otherwise satisfied (§ 105-6).",
+      "confidence": 42,
+      "sourceRefs": [
+        "§ 105-5",
+        "§ 105-4"
+      ],
+      "score": 0.62,
+      "gap": "The statute seems to lack specific fine amounts for initial and repeat offenses, as well as clear escalation procedures for non-compliance beyond the reimbursement of costs."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The timeline for resolving a property maintenance violation before penalties are applied is specified as \"not less than five days from the receipt of said notice\" (§ 105-4). The Village Board will specify the exact time within which the work must be completed, but it cannot be less than five days from when the notice is received.",
+      "confidence": 37,
+      "sourceRefs": [
+        "§ 105-4",
+        "§ 105-5"
+      ],
+      "score": 0.57,
+      "gap": "The statute seems to lack detailed guidance on the escalation of penalties for repeat property maintenance violations. The municipality should establish a tiered penalty system that increases fines for repeat offenses within a specified timeframe, clearly defining categories of violations and corresponding enforcement mechanisms to ensure compliance."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.67,
+    "normalizedScore": 2.85,
+    "averageConfidence": 67,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.65,
+        0.5,
+        0.5,
+        0.62,
+        0.57
+      ],
+      "averageQuestionScore": 0.568,
+      "weightedScore": 0.57
+    }
+  },
+  "overallScore": 2.85,
+  "averageConfidence": 67,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:00:03.177Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

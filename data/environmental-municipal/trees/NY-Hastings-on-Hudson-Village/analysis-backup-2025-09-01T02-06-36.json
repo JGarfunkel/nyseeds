@@ -1,0 +1,101 @@
+{
+  "municipality": {
+    "id": "NY-Hastings-on-Hudson-Village",
+    "displayName": "Hastings-on-Hudson - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a tree removal permit to remove a designated tree on your private property. A designated tree is any tree with a diameter at breast height (dbh) of eight inches or more. To apply for the permit, you must fill out a written application and submit three copies to the Building Inspector. The application must include your details, the property's address and tax map designation, information about the trees to be removed, the reason for removal, and proof that you’ve notified your neighbors at least two weeks in advance. The Building Inspector, in consultation with the Tree Preservation Board, will review and either approve or deny your application.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-4",
+        "§ 273-7"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove a tree without a permit, you can be fined between $250 and $5,000. Each tree removed without a permit counts as a separate offense. Additionally, you will be required to replace any tree you removed with a new tree of the same species, size, and/or value, unless otherwise permitted by the Building Inspector. No building permit, demolition permit, or certificate of occupancy will be granted until all provisions related to tree removal are completed.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-12"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "Yes, there are fees associated with applying for a tree removal permit. However, the exact fee amount is determined by the Village Board and is listed in the fee schedule, which is available at the Village offices.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-8"
+      ],
+      "score": 1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "You are required to replant new trees to replace those removed if the removal is done without a permit, and the replacement trees should be of the same species, size, and/or value unless specified otherwise by the Building Inspector. While the statute does require replacement, it does not specify whether non-native species can be used as replacements. This decision may ultimately rest with the Building Inspector's discretion.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-12"
+      ],
+      "score": 1
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "You must notify the neighbors whose properties are adjacent to the property on which the tree grows or who are within 50 yards of the tree in question. This notification must occur at least two weeks before filing your tree removal permit application.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-7"
+      ],
+      "score": 1
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of maintaining a healthy tree canopy. It highlights the adverse effects of indiscriminate tree removal, such as increased surface drainage problems, impaired property values, and deterioration of the community, which ultimately affects public health, safety, and welfare. This underscores the importance of preserving the tree canopy in the Village.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-1"
+      ],
+      "score": 0.95,
+      "gap": "Consider adding specific coverage targets for the tree canopy, along with detailed measurement methods and maintenance plans to ensure long-term preservation and effective monitoring of the canopy's health and growth."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "You are responsible for ensuring that no designated trees on your property are cut down, injured, or destroyed without a tree removal permit. This includes not intentionally or negligently introducing harmful substances into the soil around a tree's root system. Additionally, you are responsible for your contractors' actions if they perform work on your property involving trees. In the case of tree removal, you must follow the proper permit application process and, if required, replace removed trees with new ones, following village guidelines.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-4",
+        "§ 273-5",
+        "§ 273-12"
+      ],
+      "score": 1
+    },
+    {
+      "id": 9,
+      "question": "Does the statute call for data collection on tree removals and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0,
+      "gap": "Consider adding a requirement for the municipality to systematically collect data on all tree removals, including location, species, reason for removal, and date, and to compile this information into an annual public report to enhance transparency and accountability."
+    }
+  ],
+  "lastUpdated": "2025-09-01T02:06:36.404Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

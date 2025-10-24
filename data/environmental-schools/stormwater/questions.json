@@ -1,0 +1,9 @@
+{
+  "questions": [
+    {
+      "id": "has_policy",
+      "category": "Policy Existence",
+      "question": "Does the school district have a policy for MS4 compliance, stormwater pollution prevention, and watershed protection?"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "municipality": {
+    "id": "NY-PortChester-Village",
+    "displayName": "Port Chester - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As the owner or occupant, you must keep the trees and shrubs on your property trimmed to prevent interference with passersby. Overhanging limbs must be at least eight feet above the center of the sidewalk and 13 feet above the roadway, according to § 304-6.",
+      "confidence": 80,
+      "sourceRefs": [
+        "§ 304-6"
+      ],
+      "score": 0.8
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.19,
+    "normalizedScore": 0.7,
+    "averageConfidence": 19,
+    "questionsAnswered": 1,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.8,
+        0.1
+      ],
+      "averageQuestionScore": 0.1875,
+      "weightedScore": 0.14
+    }
+  },
+  "overallScore": 0.7,
+  "averageConfidence": 19,
+  "questionsAnswered": 1,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T19:01:32.224Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

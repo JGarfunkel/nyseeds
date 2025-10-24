@@ -1,0 +1,10 @@
+{
+  "districtName": "Croton-Harmon UFSD",
+  "entityId": "NY-CrotonHarmon-UFSD",
+  "domain": "building",
+  "sourceUrl": "FAILED HTTP 404 https://www.chufsd.org/departments/operations/energy-and-solar",
+  "policyNumber": null,
+  "policyTitle": "Energy Performance Contract & Solar",
+  "downloadedAt": "2025-09-04T15:42:10.909Z",
+  "realm": "westchester-schools-sustainability"
+}

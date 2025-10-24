@@ -1,0 +1,57 @@
+{
+  "municipality": "NY-DobbsFerry-UFSD",
+  "domain": "food",
+  "analyzedAt": "2025-09-04T16:36:22.632Z",
+  "answers": [
+    {
+      "id": "1",
+      "question": "Does the district have composting?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-04T16:36:19.208Z"
+    },
+    {
+      "id": "2",
+      "question": "How much recycling do the schools do?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-04T16:36:21.256Z"
+    },
+    {
+      "id": "3",
+      "question": "How does the district work to reduce waste?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-04T16:36:22.632Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0.35000000000000003,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 3,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.10000000000000002,
+      "weightedScore": 0.07
+    }
+  },
+  "overallScore": 0.35000000000000003,
+  "averageConfidence": 0,
+  "questionsAnswered": 0,
+  "totalQuestions": 3,
+  "gapAnalysis": "",
+  "wenGrade": null,
+  "usesStateCode": false
+}

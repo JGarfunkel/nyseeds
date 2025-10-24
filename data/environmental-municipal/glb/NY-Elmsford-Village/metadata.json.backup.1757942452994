@@ -1,0 +1,15 @@
+{
+  "municipality": "Elmsford",
+  "municipalityType": "Village",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "R-CH-228-Noise",
+  "downloadedAt": "2025-09-05T16:35:28.498Z",
+  "contentLength": 6779,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:58.214Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/8653109",
+  "statuteNumber": "Ch 228",
+  "statuteTitle": "Alarms — See Ch"
+}

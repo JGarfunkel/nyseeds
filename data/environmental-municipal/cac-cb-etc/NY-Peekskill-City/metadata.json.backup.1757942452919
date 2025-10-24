@@ -1,0 +1,14 @@
+{
+  "municipality": "Peekskill",
+  "municipalityType": "City",
+  "domain": "Cac cb etc",
+  "domainId": "cac-cb-etc",
+  "originalCellValue": "Not available",
+  "downloadedAt": "2025-08-29T14:46:51.429Z",
+  "contentLength": 5516,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:57.449Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Ch 24",
+  "statuteTitle": "Greenway Compact — See Ch"
+}

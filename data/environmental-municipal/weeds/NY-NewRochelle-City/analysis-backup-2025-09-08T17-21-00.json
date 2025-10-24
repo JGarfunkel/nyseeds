@@ -1,0 +1,97 @@
+{
+  "municipality": {
+    "id": "NY-NewRochelle-City",
+    "displayName": "New Rochelle - City"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Property owners, lessees, or occupants in New Rochelle must ensure that weeds, grass, or other rank vegetation do not grow taller than six inches on their property. Additionally, they must remove any poisonous plants like poison ivy and ragweed that could spread pollen or other harmful particles into public spaces. It's the responsibility of the property holder to cut and remove these plants as often as necessary to comply with these rules.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 250-5"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding a clear definition of \"rank vegetation\" to ensure consistent enforcement and understanding among residents, as well as specifying any penalties or consequences for non-compliance to strengthen the statute's effectiveness."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, defining clear criteria such as plant species, maintenance standards, and designated garden areas to distinguish them from unmanaged weed growth."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law extends beyond the property lot lines to include the area along the sidewalk or street adjacent to the property, between the property line and the curb, or the edge of the street pavement if there is no curb. Property owners, lessees, or occupants must ensure this area is free of rubbish, trash, and weeds.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 250-1",
+        "§ 250-5"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific guidelines or standards for the maintenance of the area between the property line and the curb, such as height limits for grass and weeds, frequency of maintenance, and penalties for non-compliance, to ensure clarity and enforceability."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "The penalties for failing to comply with property maintenance regulations are specified in § 250-7. Any person found guilty of an offense against this Chapter or the State Code shall be punishable by a fine of not more than $2,500 for a first offense and not more than $5,000 for a second or subsequent offense within three years of a first or other offense of this Chapter. Additionally, there is the possibility of imprisonment for not more than 15 days, or both a fine and imprisonment. Each day a violation continues is considered a separate and additional violation.",
+      "confidence": 49,
+      "sourceRefs": [
+        "§ 250-7",
+        "§ 250-6"
+      ],
+      "score": 0.79,
+      "gap": "The statute seems to lack specific categories of violations and corresponding penalties, which could provide clearer guidance on how different types of property maintenance violations are penalized."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the statute.",
+      "confidence": 37,
+      "sourceRefs": [
+        "§ 250-6",
+        "Section 200"
+      ],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T17:18:07.538Z",
+      "gap": "Consider adding a clear timeline of 30 days for property owners to resolve a weeds-related maintenance violation before penalties are applied, with specified fine amounts for initial and repeat offenses, and a structured enforcement mechanism to ensure compliance."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.68,
+    "normalizedScore": 1.9,
+    "averageConfidence": 68,
+    "questionsAnswered": 3,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.6,
+        0.1,
+        0.55,
+        0.79,
+        0.1
+      ],
+      "averageQuestionScore": 0.42800000000000005,
+      "weightedScore": 0.38
+    }
+  },
+  "overallScore": 1.9,
+  "averageConfidence": 68,
+  "questionsAnswered": 3,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:18:07.539Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

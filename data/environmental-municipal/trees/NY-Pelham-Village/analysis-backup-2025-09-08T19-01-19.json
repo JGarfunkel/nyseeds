@@ -1,0 +1,117 @@
+{
+  "municipality": {
+    "id": "NY-Pelham-Village",
+    "displayName": "Pelham - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed, but it must be in line with the species listed in the statute. Non-native species are not allowed as replacements without written permission from the Village Tree Committee.",
+      "confidence": 75,
+      "sourceRefs": [
+        "§ 93-7",
+        "§ 93-5"
+      ],
+      "score": 0.85
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of maintaining a healthy tree canopy as part of the duties of the Village Tree Committee and the provisions for care and preservation of trees.",
+      "confidence": 75,
+      "sourceRefs": [
+        "§ 93-5",
+        "§ 93-12"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As a property owner, you are responsible for pruning the branches of any tree overhanging a street or right-of-way so they do not obstruct street lamps or the view at intersections. You must also prune hedges and bushes to maintain a clear space from sidewalks and remove dead, diseased, or dangerous trees.",
+      "confidence": 80,
+      "sourceRefs": [
+        "§ 93-14"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Yes, the Village Tree Committee is responsible for developing and administering a written plan for the care, preservation, pruning, planting, replanting, and removal of trees and must present this plan annually to the Village Board.",
+      "confidence": 75,
+      "sourceRefs": [
+        "§ 93-5"
+      ],
+      "score": 0.75
+    }
+  ],
+  "scores": {
+    "overallScore": 0.38,
+    "normalizedScore": 1.6,
+    "averageConfidence": 38,
+    "questionsAnswered": 4,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.1,
+        0.85,
+        0.1,
+        0.5,
+        0.55,
+        0.75
+      ],
+      "averageQuestionScore": 0.38125,
+      "weightedScore": 0.32
+    }
+  },
+  "overallScore": 1.6,
+  "averageConfidence": 38,
+  "questionsAnswered": 4,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T19:01:19.101Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

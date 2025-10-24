@@ -1,0 +1,96 @@
+{
+  "municipality": {
+    "id": "NY-Somers-Town",
+    "displayName": "Somers - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "The statute does not specify particular requirements for maintaining weeds. It focuses on general property maintenance, such as keeping properties clean and free from vermin, nuisances, hazards, debris, and litter. Property owners are responsible for removing offenses as ordered by the Building Inspector within 30 days of notice.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 135-1",
+        "§ 135-2"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding specific requirements for weed control, such as defining acceptable weed height limits, mandating regular maintenance schedules, and outlining penalties for non-compliance to ensure clarity and enforceability in property maintenance standards."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "The statute does not specify any exceptions for cultivated pollinator gardens within the property maintenance code.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding explicit provisions in the property maintenance code that define and permit cultivated pollinator gardens, including guidelines on acceptable plant species, maintenance standards, and any necessary permits or notifications to ensure they are recognized and protected as beneficial ecological spaces."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law does apply beyond property lot lines to include offenses affecting public streets or other public properties within the Town. Individuals responsible for offenses in these areas are required to remove them when ordered by the Building Inspector.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 135-2B"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding specific guidelines and standards for the maintenance and cleanliness of public areas adjacent to private properties, such as sidewalks and curbs, to ensure consistent enforcement and clarity for property owners."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "The penalties for failing to comply with the property maintenance regulations include fines that escalate with repeated offenses. The fine for a first offense is between $250 and $500. A second offense within 18 months results in a fine between $500 and $1,000. A third offense within 18 months of the second conviction incurs a fine between $2,500 and $5,000, and a fourth or subsequent offense within 18 months of the third conviction incurs a fine between $5,000 and $7,500. Each week the offense continues after the notice of violation is issued counts as a separate offense.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 135-3"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding specific enforcement mechanisms, such as detailing the process for issuing notices of violation and the timeline for compliance before fines are imposed, to ensure clarity and consistency in enforcement."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Once a violation notice is served, the responsible party has 30 days to resolve the issue to the satisfaction of the Building Inspector. If the issue is not resolved within this timeframe, a summons will be issued, and the case will be taken to the Justice Court of the Town of Somers.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 135-2A",
+        "§ 135-2B",
+        "§ 135-2E"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding specific fine amounts for unresolved violations, details on escalation for repeat offenses, and a clear categorization of violation types to strengthen enforcement mechanisms."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.85,
+    "normalizedScore": 2.55,
+    "averageConfidence": 85,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.65,
+        0.85,
+        0.85
+      ],
+      "averageQuestionScore": 0.51,
+      "weightedScore": 0.51
+    }
+  },
+  "overallScore": 2.55,
+  "averageConfidence": 85,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:09:31.718Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}
