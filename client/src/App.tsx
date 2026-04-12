@@ -18,28 +18,15 @@ function Router() {
     return <OrdinizerApp basePath="/ordinizer" />;
   }
   
+  // Redirect root to /ordinizer
+  if (pathname === '/') {
+    window.location.href = '/ordinizer';
+    return null;
+  }
+  
   return (
     <Switch>
-      {/* Root - Simple landing page */}
-      <Route path="/">
-        {() => (
-          <div className="min-h-screen flex items-center justify-center bg-gray-50">
-            <div className="text-center">
-              <h1 className="text-4xl font-bold mb-4">Sample Site</h1>
-              <p className="text-lg text-gray-600 mb-8">
-                A sample website demonstrating Ordinizer integration
-              </p>
-              <a
-                href="/ordinizer"
-                className="inline-block px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
-                data-testid="link-ordinizer"
-              >
-                Launch Ordinizer →
-              </a>
-            </div>
-          </div>
-        )}
-      </Route>
+      {/* Root - redirect handled above */}
       
       {/* 404 fallback */}
       <Route>
