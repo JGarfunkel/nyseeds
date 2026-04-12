@@ -16,8 +16,8 @@ import { registerRoutes as registerOrdinizerRoutes } from "../../ordinizer/app/s
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Mount Ordinizer application routes at /api/ordinizer
-  // Pass samplesite/data as the data directory path
-  const dataPath = path.join(process.cwd(), "samplesite", "data");
+  // Pass nyseeds/data as the data directory path
+  const dataPath = path.join(process.cwd(), "data");
   await registerOrdinizerRoutes(app, "/api/ordinizer", dataPath);
   
   // Future: Add other application routes here
