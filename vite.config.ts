@@ -1,12 +1,31 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
+import fs from "fs";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
-// Helper to resolve ordinizer paths - use node_modules path directly
+// Helper to resolve ordinizer paths - prefer local dev repo if it exists
 const resolveOrdinizerPath = (subpath: string) => {
-  // Use the node_modules path directly since git dependency should be installed there
-  return `ordinizer/${subpath}`;
+  const localPath = path.resolve(import.meta.dirname, `../ordinizer/${subpath}`);
+  const nodeModulesPath = path.resolve(import.meta.dirname, `node_modules/ordinizer/${subpath}`);
+  
+  // Check multiple candidates (file itself, with extensions, as directory with index)
+  const candidates = [
+    localPath,
+    `${localPath}.ts`,
+    `${localPath}.tsx`,
+    `${localPath}/index.ts`,
+    `${localPath}/index.tsx`,
+  ];
+  
+  for (const candidate of candidates) {
+    if (fs.existsSync(candidate)) {
+      return localPath;
+    }
+  }
+  
+  // Fall back to node_modules
+  return nodeModulesPath;
 };
 
 export default defineConfig({
@@ -32,10 +51,9 @@ export default defineConfig({
         import.meta.dirname,
         "node_modules/@tanstack/react-query",
       ),
-      "@ordinizer/core": resolveOrdinizerPath("packages/core/src"),
-      "@ordinizer/client/ui": resolveOrdinizerPath("client/src/ui/index.ts"),
+      "@ordinizer/client/ui": resolveOrdinizerPath("client/src/ui"),
       "@ordinizer/app": resolveOrdinizerPath("app/client/src"),
-      "@ordinizer/client": resolveOrdinizerPath("client/src/index.ts"),
+      "@ordinizer/core": resolveOrdinizerPath("packages/core/src/index.ts"),
     },
     dedupe: ["react", "react-dom", "@tanstack/react-query"],
   },
