@@ -3,14 +3,10 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
-// Helper to resolve ordinizer paths - try node_modules first, then local
+// Helper to resolve ordinizer paths - use node_modules path directly
 const resolveOrdinizerPath = (subpath: string) => {
-  try {
-    return require.resolve(`ordinizer/${subpath}`);
-  } catch {
-    // Fallback to local development path
-    return path.resolve(import.meta.dirname, `../ordinizer/${subpath}`);
-  }
+  // Use the node_modules path directly since git dependency should be installed there
+  return `ordinizer/${subpath}`;
 };
 
 export default defineConfig({
