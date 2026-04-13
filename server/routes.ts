@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import path from "path";
-import { registerRoutes as registerOrdinizerRoutes } from "../../ordinizer/app/server/routes.js";
+import { registerRoutes as registerOrdinizerRoutes } from "ordinizer/app/server/routes";
 
 /**
  * NYSeeds Server Routes

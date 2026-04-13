@@ -30,7 +30,7 @@
     "memorystore": "^1.6.7",
     "nanoid": "^5.1.5",
     "openai": "^5.12.2",
-    "ordinizer": "git+https://github.com/JGarfunkel/ordinizer.git#main",
+    "ordinizer": "github:JGarfunkel/ordinizer#main",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "react": "^18.3.1",
