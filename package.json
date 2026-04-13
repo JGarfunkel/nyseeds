@@ -6,8 +6,8 @@
   "description": "NY Seeds - Environmental statute analysis application using the Ordinizer library",
   "scripts": {
     "dev": "cross-env NODE_ENV=development npx tsx server/index.ts",
-    "build": "npx vite build && esbuild server/index.ts --platform=node --bundle --format=esm --outdir=dist",
-    "start": "cross-env NODE_ENV=production node dist/index.js",
+    "build": "npx vite build && esbuild server/index.ts --platform=node --bundle --packages=bundle --external:vite --format=cjs --outdir=dist --out-extension:.js=.cjs",
+    "start": "cross-env NODE_ENV=production node dist/index.cjs",
     "check": "tsc",
     "db:push": "drizzle-kit push"
   },
