@@ -2,7 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 import fs from "fs";
-import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 // Helper to resolve ordinizer paths - prefer local dev repo if it exists
 const resolveOrdinizerPath = (subpath: string) => {
@@ -30,16 +29,7 @@ const resolveOrdinizerPath = (subpath: string) => {
 
 export default defineConfig({
   plugins: [
-    react(),
-    runtimeErrorOverlay(),
-    ...(process.env.NODE_ENV !== "production" &&
-    process.env.REPL_ID !== undefined
-      ? [
-          await import("@replit/vite-plugin-cartographer").then((m) =>
-            m.cartographer(),
-          ),
-        ]
-      : []),
+    react()
   ],
   resolve: {
     alias: {
