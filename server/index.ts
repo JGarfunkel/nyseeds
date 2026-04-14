@@ -59,10 +59,28 @@ app.use((req, res, next) => {
     console.log("Setting up Vite...");
     await setupVite(app, server);
     console.log("Vite setup complete.");
+
   } else {
-    console.log("Serving static files...");
-    serveStatic(app);
-    console.log("Static serving setup.");
+    // Example: Serve /ordinizer SPA
+    const path = require("path");
+    const expressStatic = express.static;
+    const ordinizerDist = path.resolve(process.cwd(), "dist", "public");
+
+    // Serve static assets under /ordinizer
+    app.use("/ordinizer", expressStatic(ordinizerDist));
+    // Catch-all for client-side routing under /ordinizer
+    app.get("/ordinizer/*", (_req, res) => {
+      res.sendFile(path.join(ordinizerDist, "index.html"));
+    });
+
+    // Example: Add more SPAs/static sites here
+    // const docsDist = path.resolve(process.cwd(), "dist", "docs");
+    // app.use("/docs", expressStatic(docsDist));
+    // app.get("/docs/*", (_req, res) => {
+    //   res.sendFile(path.join(docsDist, "index.html"));
+    // });
+
+    console.log("Static serving setup for /ordinizer (and more if added).");
   }
 
   // ALWAYS serve the app on the port specified in the environment variable PORT
