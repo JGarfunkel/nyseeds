@@ -9,8 +9,12 @@ export default {
   content: [
     path.resolve(baseDir, "index.html"),
     path.resolve(baseDir, "src/**/*.{js,jsx,ts,tsx}"),
+    // Local dev: sibling ordinizer repo
     path.resolve(baseDir, "../../ordinizer/app/client/src/**/*.{js,jsx,ts,tsx}"),
     path.resolve(baseDir, "../../ordinizer/client/src/**/*.{js,jsx,ts,tsx}"),
+    // Production: ordinizer installed as npm package
+    path.resolve(baseDir, "../node_modules/ordinizer/app/client/src/**/*.{js,jsx,ts,tsx}"),
+    path.resolve(baseDir, "../node_modules/ordinizer/client/src/**/*.{js,jsx,ts,tsx}"),
   ],
   safelist: [
     {
