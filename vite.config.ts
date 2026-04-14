@@ -28,6 +28,7 @@ const resolveOrdinizerPath = (subpath: string) => {
 };
 
 export default defineConfig({
+  base: "./",
   plugins: [
     react()
   ],
