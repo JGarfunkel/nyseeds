@@ -5,11 +5,12 @@
       "name": "Westchester Municipality Environmental Statutes",
       "displayName": "Westchester Municipality Environmental Statutes",
       "description": "Environmental statute analysis for Westchester County municipalities",
-      "realmType": "statute",
-      "datapath": "environmental-municipal",
+      "ruleType": "statute",
+      "datapath": "westchester-municipal-environmental",
       "entityType": "municipalities",
       "entityFile": "municipalities.json",
-      "mapBoundaries": "NY/westchester-boundaries.json",
+      "mapBoundaries": "gis/NY/westchester-boundaries.json",
+      "mapCenter": [41.1220, -73.7949],
       "dataSource": {
         "type": "google-sheets",
         "url": "https://docs.google.com/spreadsheets/d/1Nc5xZZ9OrRgI2pnGjlBmo7yvpiQELYSEp19e73Gl_UE/edit?gid=2126758775#gid=2126758775"
@@ -68,11 +69,12 @@
       "name": "Westchester Schools",
       "displayName": "Westchester School District Sustainability Policies",
       "description": "Sustainability practice analysis for Westchester County school districts",
-      "realmType": "policy",
-      "datapath": "environmental-schools",
+      "ruleType": "policy",
+      "datapath": "westchester-schools-sustainability",
       "entityType": "school-districts",
       "entityFile": "school-districts.json",
-      "mapBoundaries": "NY/westchester-school-district-boundaries.geojson",
+      "mapBoundaries": "gis/NY/westchester-school-district-boundaries.geojson",
+      "mapCenter": [41.1220, -73.7949],
       "dataSource": {
         "type": "json-file",
         "path": "data/environmental-schools/school_district_sustainability_policies.json"
