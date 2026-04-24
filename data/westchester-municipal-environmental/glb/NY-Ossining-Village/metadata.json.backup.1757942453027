@@ -1,0 +1,15 @@
+{
+  "municipality": "Ossining",
+  "municipalityType": "Village",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "G- CH-178-Noise",
+  "downloadedAt": "2025-09-05T16:36:39.511Z",
+  "contentLength": 15943,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:59.215Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/6424687#6424711",
+  "statuteNumber": "Chapter 178",
+  "statuteTitle": "Noise"
+}

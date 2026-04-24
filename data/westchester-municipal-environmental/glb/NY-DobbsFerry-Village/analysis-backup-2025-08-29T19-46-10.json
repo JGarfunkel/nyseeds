@@ -1,0 +1,86 @@
+{
+  "municipality": {
+    "id": "NY-DobbsFerry-Village",
+    "displayName": "Dobbs Ferry - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts for two periods each year: from May 16 to October 14 and from December 16 to March 14. The use of gas leaf blowers is allowed between March 15 and May 15 and October 15 and December 15. (§ 240.20 I(1))",
+      "confidence": 35,
+      "sourceRefs": [
+        "§ 240.20"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding a clear definition of \"gas leaf blowers\" within the statute to ensure consistent understanding and enforcement of the prohibition periods."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "The permitted hours for gas leaf blower operation are from 8:00 a.m. until 6:00 p.m. on Monday through Friday, and from 10:00 a.m. until 5:00 p.m. on Saturday, Sunday, and holidays. This is allowed only between March 15 and May 15 and October 15 and December 15 (§ 240.20 I(1)).",
+      "confidence": 46,
+      "sourceRefs": [
+        "§ 240.20",
+        "§ 386"
+      ],
+      "score": 0.76,
+      "gap": "Consider adding specific enforcement mechanisms and penalties for non-compliance with the permitted hours of gas leaf blower operation to strengthen the statute's effectiveness."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 44,
+      "sourceRefs": [
+        "§ 240.20",
+        "§ 234-26"
+      ],
+      "score": 0,
+      "gap": "Consider adding a tiered penalty structure that includes an initial fine of $100 for first-time violations, escalating to $250 for second offenses and $500 for subsequent violations, along with clear enforcement mechanisms such as issuing citations by local law enforcement or designated municipal officers."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions specified for school and municipal employees. According to the statute, golf course operations, municipal and school employees are exempt while performing their regular duties beyond 100 feet from the nearest residence. Additionally, utility companies, municipal and school employees, or property owners and/or their subcontractors are exempt while performing emergency repairs (Chunk 3, section 4(a) and 4(b)).",
+      "confidence": 38,
+      "sourceRefs": [
+        "§ 240.20"
+      ],
+      "score": 0.58,
+      "gap": "Consider adding a regulatory framework that specifies clear noise and operational restrictions for school, government, and commercial properties, including defined hours of operation and permissible noise levels, to ensure minimal disruption to nearby residential areas."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 31,
+      "sourceRefs": [
+        "§ 234-26"
+      ],
+      "score": 0,
+      "gap": "Consider adding a clear regulatory framework that mandates the establishment of a centralized reporting system for violations, which includes detailed data collection requirements, public access to violation reports, transparency measures for how reports are handled, and mechanisms for tracking the resolution and enforcement of each reported violation."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 35,
+      "sourceRefs": [
+        "§ 240.20"
+      ],
+      "score": 0,
+      "gap": "Consider adding a provision to the statute that mandates public education campaigns on the environmental benefits of leaving leaf debris and mulching, including guidelines for residents on how to effectively implement these practices to enhance soil health and reduce waste."
+    }
+  ],
+  "lastUpdated": "2025-08-29T19:46:10.028Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

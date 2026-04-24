@@ -1,0 +1,137 @@
+{
+  "municipality": {
+    "id": "NY-Lewisboro-Town",
+    "displayName": "Lewisboro - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property if it falls under certain conditions specified in § 203-4A. A permit is required for:\n\n1. Any tree within a wetland or wetland buffer.\n2. Any tree on a slope exceeding a grade of 15%.\n3. Any tree removal considered clear-cutting.\n4. Any specimen tree.\n5. Any tree designated by the NYSDEC as a protected native plant.\n6. Any tree removal in a Special Character Overlay District.\n\nTo apply, you must file three copies of a tree removal permit application with the approval authority, including details such as your name, address, purpose of removal, and photographs of the area (§ 203-5A).\n\nThe approving authority reviews the application, considering factors like ecological impact and stability of slopes (§ 203-4B, § 203-5C). They will approve, deny, or approve with conditions within 60 days of receiving a complete application (§ 203-4D).",
+      "confidence": 60,
+      "sourceRefs": [
+        "§ 203-5",
+        "§ 203-4B"
+      ],
+      "score": 0.9,
+      "gap": "The statute seems to lack specific details on the fee schedule for the tree removal permit application, including any potential exemptions or payment options available to applicants."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit are specified in § 203-8. The owner of the property or any person removing trees without a permit, or in violation of permit conditions, is guilty of a violation and subject to a fine between $250 and $500. Each tree removed without a permit or in violation of permit conditions constitutes a separate offense.",
+      "confidence": 62,
+      "sourceRefs": [
+        "§ 203-8",
+        "§ 203-6"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "Yes, there are fees associated with removing individual trees. According to § 203-7, a tree removal application must be accompanied by a fee as set forth in the Fee Schedule of the Town of Lewisboro, which may be amended from time to time by resolution of the Town Board.",
+      "confidence": 58,
+      "sourceRefs": [
+        "§ 203-7",
+        "§ 203-8"
+      ],
+      "score": 0.88,
+      "gap": "The statute seems to lack a detailed fee schedule, including specific amounts, payment options, and any potential exemptions for tree removal applications."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Not specified in the statute.",
+      "confidence": 49,
+      "sourceRefs": [
+        "§ 203-6",
+        "§ 203-4A"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack replacement requirements - municipality should mandate tree replacement with specific ratios, native species preferences, and survival monitoring."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 55,
+      "sourceRefs": [
+        "§ 203-4",
+        "§ 203-4B"
+      ],
+      "score": 0,
+      "gap": "The statute seems to be missing notification requirements - municipality should require advance notice to adjacent property owners for significant tree removal projects."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. Section § 203-1 highlights the inherent value and necessity of preserving and protecting trees due to their environmental benefits, such as carbon dioxide absorption, protection of natural wetlands and drinking water, and reduction of storm runoff and erosion.",
+      "confidence": 45,
+      "sourceRefs": [
+        "§ 203-1",
+        "§ 203-4B"
+      ],
+      "score": 0.65,
+      "gap": "The statute seems to lack specific coverage targets and measurement methods for maintaining a healthy tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Not specified in the statute.",
+      "confidence": 54,
+      "sourceRefs": [
+        "§ 203-4B",
+        "§ 203-4A"
+      ],
+      "score": 0,
+      "gap": "The statute seems to have unclear maintenance standards - municipality should define property owner responsibilities for tree care, pruning schedules, and hazard management."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute call for data collection on tree removals and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 56,
+      "sourceRefs": [
+        "§ 203-4A",
+        "§ 203-4B"
+      ],
+      "score": 0,
+      "gap": "The statute seems to be missing reporting framework - municipality should require annual tree removal data collection and public reporting to track urban forest changes."
+    }
+  ],
+  "lastUpdated": "2025-08-27T02:33:40.257Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.55,
+    "normalizedScore": 1.8221874999999998,
+    "averageConfidence": 55,
+    "questionsAnswered": 4,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.9,
+        1,
+        0.88,
+        0,
+        0,
+        0.65,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.42874999999999996,
+      "weightedScore": 0.36443749999999997
+    }
+  },
+  "overallScore": 1.8221874999999998,
+  "normalizedScore": 1.8221874999999998,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.590Z"
+}

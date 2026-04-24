@@ -1,0 +1,20 @@
+{
+  "municipality": "Pleasantville",
+  "municipalityType": "Village",
+  "domain": "Weeds",
+  "domainId": "weeds",
+  "originalCellValue": "R- https://ecode360.com/35156689",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:04.449Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Chapter 140",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-05T16:32:22.382Z",
+      "contentLength": 7440,
+      "sourceUrl": "https://ecode360.com/35156689",
+      "title": "Property Maintenance",
+      "type": "statute"
+    }
+  ]
+}

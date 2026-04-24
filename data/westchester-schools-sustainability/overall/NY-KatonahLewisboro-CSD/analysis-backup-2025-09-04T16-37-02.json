@@ -1,0 +1,57 @@
+{
+  "municipality": "NY-KatonahLewisboro-SD",
+  "domain": "overall",
+  "analyzedAt": "2025-09-04T16:37:02.514Z",
+  "answers": [
+    {
+      "id": "1",
+      "question": "Does the school district have a policy sustainability?",
+      "answer": "Yes, the school district has a sustainability policy. The Sustainability Committee, a sub-committee of the Board of Education, focuses on educating for a sustainable future by reducing the district's environmental impacts, promoting awareness of environmental and sustainability issues, and encouraging consideration of sustainability in decision-making.",
+      "confidence": 80,
+      "sourceRefs": [],
+      "score": 0.55,
+      "analyzedAt": "2025-09-04T16:37:00.861Z"
+    },
+    {
+      "id": "2",
+      "question": "Does the school district have a sustainability committee?",
+      "answer": "Yes, the school district has a Sustainability Committee. It is a sub-committee of the Board of Education.",
+      "confidence": 80,
+      "sourceRefs": [],
+      "score": 0.5,
+      "analyzedAt": "2025-09-04T16:37:01.565Z"
+    },
+    {
+      "id": "3",
+      "question": "Does the school district have a comprehensive plan for sustainability?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-04T16:37:02.514Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.53,
+    "normalizedScore": 1.7249999999999999,
+    "averageConfidence": 53,
+    "questionsAnswered": 2,
+    "totalQuestions": 3,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.55,
+        0.5,
+        0.1
+      ],
+      "averageQuestionScore": 0.38333333333333336,
+      "weightedScore": 0.345
+    }
+  },
+  "overallScore": 1.7249999999999999,
+  "averageConfidence": 53,
+  "questionsAnswered": 2,
+  "totalQuestions": 3,
+  "gapAnalysis": "",
+  "wenGrade": null,
+  "usesStateCode": false
+}

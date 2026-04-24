@@ -1,0 +1,15 @@
+{
+  "municipality": "Irvington",
+  "municipalityType": "Village",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "GG-CH-148-Nuisances",
+  "downloadedAt": "2025-09-05T16:35:40.093Z",
+  "contentLength": 28152,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:58.398Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/11799047",
+  "statuteNumber": "Ch 148",
+  "statuteTitle": "Advertising devices — See Ch"
+}

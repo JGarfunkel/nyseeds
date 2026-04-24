@@ -1,0 +1,92 @@
+{
+  "municipality": {
+    "id": "NY-Pleasantville-Village",
+    "displayName": "Pleasantville - Village"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents are required to keep their properties free from overgrown and unsightly conditions resulting from overgrown grass or vegetation on established lawns. This means they must regularly maintain their lawns to prevent them from becoming overgrown.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 140-2"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding specific height limits for grass and vegetation, such as a maximum allowable height in inches, to provide clear and enforceable standards for what constitutes \"overgrown\" conditions."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute. The statute does not mention any exceptions or allowances for cultivated pollinator gardens.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "Consider adding explicit provisions or exceptions in the property maintenance code that define and permit cultivated pollinator gardens, including specific guidelines on acceptable plant species, garden maintenance standards, and any necessary permits or notifications to ensure these gardens are recognized and protected within the municipality."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute. The statute does not provide details about whether the property maintenance law extends beyond the property lot lines to areas such as the curb.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "Consider adding explicit language to the statute that defines the extent of property maintenance responsibilities beyond the property lot lines, including specific requirements for maintaining areas such as the curb, sidewalks, and adjacent public spaces."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "If someone fails to comply with property maintenance regulations, they can be fined up to $200 for each day the violation continues. Additionally, if the Village has to correct the issue themselves, the costs incurred by the Village will be charged to the property owner and may become a lien on the property if not paid.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 140-3",
+        "§ 140-4"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding specific escalation measures for repeat offenses, such as increased fines or additional penalties, to deter ongoing non-compliance with property maintenance regulations."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "When a property owner is notified of a violation, they have 30 days to correct it. If they fail to comply within this period, a public hearing is held. After the public hearing, if the violation is not resolved within 10 days, the Village may take further action to correct the issue. Penalties and costs may be charged if the Village has to intervene.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 140-4"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding specific fine amounts for initial and subsequent violations, detailed escalation procedures for repeat offenses, and clear enforcement mechanisms to ensure compliance and transparency in the penalty process."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.85,
+    "normalizedScore": 2.25,
+    "averageConfidence": 85,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.65,
+        0.5,
+        0.5,
+        0.3,
+        0.3
+      ],
+      "averageQuestionScore": 0.45,
+      "weightedScore": 0.45
+    }
+  },
+  "overallScore": 2.25,
+  "averageConfidence": 85,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:06:38.022Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

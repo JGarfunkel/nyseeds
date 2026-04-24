@@ -1,0 +1,66 @@
+{
+  "municipality": {
+    "id": "NY-Yorktown-Town",
+    "displayName": "Yorktown - Town"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations of the statute are enforced by the Building Department Code Enforcement Officer, the Yorktown Fire Marshal, and the Yorktown Police Department.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 216-12"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "lastUpdated": "2025-09-05T18:22:37.809Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

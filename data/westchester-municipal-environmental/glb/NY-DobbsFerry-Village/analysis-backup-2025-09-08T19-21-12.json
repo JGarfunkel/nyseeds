@@ -1,0 +1,106 @@
+{
+  "municipality": {
+    "id": "NY-DobbsFerry-Village",
+    "displayName": "Dobbs Ferry - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts for a total of four months each year. It starts on March 15 and ends on May 15, and then again from October 15 to December 15.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 234-26I"
+      ],
+      "score": 0.45
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers are permitted to operate from 8:00 a.m. to 6:00 p.m. on Monday through Friday, and from 10:00 a.m. to 5:00 p.m. on Saturday, Sunday, and holidays.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 234-26I"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "A person violating the gas leaf blower regulations (§ 234-26I(1)) will be guilty of an offense punishable by a fine of $50 for the first offense and $250 for each subsequent offense in the same calendar year.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 234-28B"
+      ],
+      "score": 0.75
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions. School and government employees can perform work that causes noise beyond the specified limits when they are engaged in their regular duties beyond 100 feet from the nearest residence, and utility companies or contractors performing emergency repairs are also exempt.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 234-26I"
+      ],
+      "score": 0.8
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.53,
+    "normalizedScore": 1.8,
+    "averageConfidence": 53,
+    "questionsAnswered": 4,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.45,
+        0.6,
+        0.75,
+        0.8,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.4142857142857143,
+      "weightedScore": 0.36
+    }
+  },
+  "overallScore": 1.8,
+  "averageConfidence": 53,
+  "questionsAnswered": 4,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:21:12.147Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

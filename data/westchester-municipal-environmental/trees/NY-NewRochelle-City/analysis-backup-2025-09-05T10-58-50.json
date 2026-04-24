@@ -1,0 +1,106 @@
+{
+  "municipality": {
+    "id": "NY-NewRochelle-City",
+    "displayName": "New Rochelle - City"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property. The application for a tree removal permit should be made to the New Rochelle Bureau of Buildings using forms available from the Bureau (§ 301-22). The Building Official reviews the application, and you must notify all abutting property owners by certified mail at least 15 days before a decision is made (§ 331-121).",
+      "confidence": 59,
+      "sourceRefs": [
+        "§ 331-121",
+        "§ 301-22"
+      ],
+      "score": 0.89,
+      "gap": "The statute seems to lack specific details on the criteria used by the Building Official to review and approve or deny tree removal permit applications."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit are specified in § 301-32. Upon conviction, the violator may be fined up to $1,000, imprisoned for up to 15 days, or both. Each tree removed, cut down, or destroyed in violation of the statute, and each day the violation continues, constitutes a separate violation. Additionally, the violator is required to replace each tree removed or pay a fee in lieu of replacement.",
+      "confidence": 61,
+      "sourceRefs": [
+        "§ 301-32",
+        "§ 301-4"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "Yes, there are fees associated with removing individual trees if the tree is determined to interfere with proposed construction or development of the lot(s), as specified in Chapter 133, Fees, of the Code of the City of New Rochelle (Statute Chunk 2). Additionally, if replacement trees are not planted and it is technically impractical or impossible to do so, a fee must be paid to the City Tree Fund (Statute Chunk 3).",
+      "confidence": 62,
+      "sourceRefs": [
+        "§ 301-25"
+      ],
+      "score": 0.92,
+      "gap": "The statute seems to lack a detailed fee schedule outlining the specific amounts for tree removal and contributions to the City Tree Fund, as well as any potential exemptions or reductions for certain circumstances."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "You can replant new trees to replace those removed, but they must be from the official list of acceptable trees as issued by the Commissioner of Public Works (§ 301-24). The statute does not specify whether non-native species are allowed as replacements, but it implies that only approved species from the official list can be used.",
+      "confidence": 58,
+      "sourceRefs": [
+        "§ 301-24"
+      ],
+      "score": 0.88,
+      "gap": "The statute seems to lack explicit guidance on whether non-native species are permissible as replacements, as it only implies the use of approved species from the official list without directly addressing the allowance or prohibition of non-native species."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "You must notify all abutting property owners by certified mail, return receipt requested, at least 15 days before a decision on the tree removal application may be rendered by the Building Official (§ 331-121).",
+      "confidence": 57,
+      "sourceRefs": [
+        "§ 331-121",
+        "§ 301-19"
+      ],
+      "score": 0.87,
+      "gap": "The statute seems to lack specific details on the distance within which neighbors must be notified about tree removal, potentially leading to ambiguity in compliance."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. According to § 301-19, the planting and maintenance of trees are directly related to the health, safety, and welfare of the community. Trees provide numerous benefits such as shade, pollution absorption, oxygen production, soil stabilization, erosion and flooding reduction, noise barriers, and aesthetic enhancement. The statute also notes that excessive cutting of trees can lead to negative conditions like increased surface drainage problems and reduced property values.",
+      "confidence": 45,
+      "sourceRefs": [
+        "§ 301-19"
+      ],
+      "score": 0.65,
+      "gap": "The statute seems to lack specific coverage targets and measurement methods for maintaining a healthy tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "According to § 301-12, as a property owner, you are responsible for trimming trees, bushes, or vegetation on your property that stand adjacent to any public highway or public place. You must ensure that the lowest branches of trees and vegetation are not less than seven feet in height, and bushes and vegetation do not exceed three feet in height. The Commissioner of the Department of Public Works may alter these height requirements if necessary due to geometric road conditions.",
+      "confidence": 56,
+      "sourceRefs": [
+        "§ 301-12",
+        "§ 301-25"
+      ],
+      "score": 0.76,
+      "gap": "The statute seems to lack specific details on the inspection schedules and standards for ensuring compliance with the tree and vegetation maintenance requirements."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "lastUpdated": "2025-09-05T10:58:50.955Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

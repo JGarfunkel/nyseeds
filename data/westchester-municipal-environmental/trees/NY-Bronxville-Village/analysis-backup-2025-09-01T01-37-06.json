@@ -1,0 +1,92 @@
+{
+  "municipality": {
+    "id": "NY-Bronxville-Village",
+    "displayName": "Bronxville - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "The statute does not specify whether you need a permit to remove a tree on your private property. It only outlines regulations and penalties concerning trees, shrubs, and plants on public property or those that pose a hazard or host harmful insects, as per sections like §282-3 and §282-4.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The statute specifies that any person violating any of the provisions in Chapter 282, which may include unauthorized removal of trees on public property, is subject to a fine of up to $250 or imprisonment for no more than 15 days, or both, as per §282-8. However, it does not specifically mention penalties for removing trees without a permit on private property.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§282-8"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "The statute does not specify any fees associated with the removal of individual trees. It only mentions that if work on public trees, such as pruning or removing, is permitted, it must be performed at the cost of the person desiring it, as per §282-1(B)(2).",
+      "confidence": 85,
+      "sourceRefs": [
+        "§282-1"
+      ],
+      "score": 1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "The statute does not specify whether you can replant new trees as a replacement instead of making a payment, nor does it address the allowance of planting non-native species as replacements. The focus of the statute is on the maintenance and protection of existing trees, shrubs, and plants.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 1
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "The statute does not specify any requirements for notifying neighbors when you remove trees. It contains regulations mostly concerning public property and responses to hazardous conditions or pests.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.85,
+      "gap": "Consider adding specific requirements for notifying neighbors within a certain distance, detailing the timing and methods of notification, and identifying which parties are affected when trees are removed on private property."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "While the statute outlines rules for protecting trees, shrubs, and plants from damage and pests and ensuring public safety by managing dangerous or obstructive plants, it does not explicitly mention the importance of maintaining a healthy tree canopy.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.95,
+      "gap": "Consider adding explicit language that sets specific coverage targets for the tree canopy, outlines measurement methods for assessing canopy health, and establishes maintenance plans and long-term preservation strategies to ensure the sustainability of the urban forest."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As a property owner, tenant, occupant, or leaseholder, you are responsible for keeping all trees, shrubs, and plants on your land trimmed and in such a condition that they do not obstruct vision or pose a danger to public spaces. Specifically, tree limbs must be at least eight feet above sidewalks and thirteen feet above streets (§282-3). You are also required to keep your trees, shrubs, and plants free from insects that can cause destruction or spread to public areas (§282-4).",
+      "confidence": 85,
+      "sourceRefs": [
+        "§282-3",
+        "§282-4"
+      ],
+      "score": 1
+    },
+    {
+      "id": 9,
+      "question": "Does the statute call for data collection on tree removals and presentation in a report to the public?",
+      "answer": "The statute does not mention any requirement for data collection on tree removals or the presentation of such data in a report to the public. It focuses primarily on the regulations and maintenance concerning trees, shrubs, and plants and the penalties for violations.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.95,
+      "gap": "Consider adding a requirement for systematic data collection on tree removals, including the reasons for removal and the number of trees removed, and mandate the annual publication of this data in a publicly accessible report to enhance transparency and accountability."
+    }
+  ],
+  "lastUpdated": "2025-09-01T01:34:34.178Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

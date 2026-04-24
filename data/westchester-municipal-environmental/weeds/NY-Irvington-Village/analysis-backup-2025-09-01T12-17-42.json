@@ -1,0 +1,25 @@
+{
+  "municipality": "NY-Irvington-Village",
+  "domain": "weeds",
+  "analyzedAt": "2025-09-01T12:17:42.237Z",
+  "answers": [],
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 0,
+    "scoreBreakdown": {
+      "questionScores": [],
+      "averageQuestionScore": 0,
+      "weightedScore": 0
+    }
+  },
+  "overallScore": 0,
+  "averageConfidence": 0,
+  "questionsAnswered": 0,
+  "totalQuestions": 0,
+  "gapAnalysis": "",
+  "wenGrade": "R-",
+  "usesStateCode": false
+}

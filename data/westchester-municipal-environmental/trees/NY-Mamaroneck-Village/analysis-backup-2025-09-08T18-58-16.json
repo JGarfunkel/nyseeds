@@ -1,0 +1,121 @@
+{
+  "municipality": {
+    "id": "NY-Mamaroneck-Village",
+    "displayName": "Mamaroneck - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property if the tree has a diameter at breast height (DBH) of eight inches or more. You can apply for the permit in writing using the form prescribed by the Building Inspector. The Building Inspector will review and either approve or deny your application within 21 days from the date you submit a completed application.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 318-8A",
+        "§ 318-8F"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove a tree without a permit, you may be subject to a fine of not less than $1,050 and not more than $5,000 for the removal of one or two trees. For each additional tree removed, the fine increases to not less than $1,500 and not more than $7,500.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 318-9B"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those that have been removed. However, the replanting must consist of non-invasive tree species. The species choice is determined based on a list established by the Tree Committee, and you cannot plant non-native species unless they are specified as suitable by that list.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 318-8G",
+        "§ 318-6A"
+      ],
+      "score": 0.85
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. It states that a minimum tree canopy cover of 40% is needed to reap the full benefits of trees, and it is a goal of the Board of Trustees to maintain this coverage on an ongoing basis.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 318-1B"
+      ],
+      "score": 0.7
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As the owner of private property, you are responsible for pruning each tree, shrub, or other planting to ensure they do not obstruct any right-of-way, interfere with street lighting, or obstruct views of intersections or traffic control devices. You must also remove any dangerous trees or tree limbs on your property.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 318-7A"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Yes, the statute requires the Tree Committee to review and document violation conditions, which includes data on tree removals, in its annual report presented to the Board of Trustees.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 318-4E"
+      ],
+      "score": 0.7
+    }
+  ],
+  "scores": {
+    "overallScore": 0.68,
+    "normalizedScore": 2.5,
+    "averageConfidence": 68,
+    "questionsAnswered": 6,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        0.3,
+        0.1,
+        0.85,
+        0.1,
+        0.7,
+        0.6,
+        0.7
+      ],
+      "averageQuestionScore": 0.54375,
+      "weightedScore": 0.5
+    }
+  },
+  "overallScore": 2.5,
+  "averageConfidence": 68,
+  "questionsAnswered": 6,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T18:58:16.209Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

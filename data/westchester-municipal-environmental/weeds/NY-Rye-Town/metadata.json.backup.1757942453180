@@ -1,0 +1,15 @@
+{
+  "municipality": "Rye",
+  "municipalityType": "Town",
+  "domain": "Weeds",
+  "domainId": "weeds",
+  "originalCellValue": "https://ecode360.com/34281497",
+  "downloadedAt": "2025-09-05T16:32:39.680Z",
+  "contentLength": 5415,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:04.605Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/34281497",
+  "statuteNumber": "Chapter 48",
+  "statuteTitle": "Property Maintenance, Dumping and Littering"
+}

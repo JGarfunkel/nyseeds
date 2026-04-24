@@ -1,0 +1,15 @@
+{
+  "municipality": "Briarcliff Manor",
+  "municipalityType": "Village",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "R-CH-146-Noise",
+  "downloadedAt": "2025-09-05T17:07:49.781Z",
+  "contentLength": 17173,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:57.877Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/7689790",
+  "statuteNumber": "Ch 146",
+  "statuteTitle": "Excavations — See Ch"
+}

@@ -1,0 +1,191 @@
+{
+  "municipality": {
+    "id": "NY-Rye-City",
+    "displayName": "Rye - City"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Gas leaf blowers are prohibited for 167 days each year from May 1 to September 30 and again from December 16 to the end of February. They are only allowed during the Fall and Spring cleanup seasons, from October 1 to December 15 and from March 1 to April 30.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 122-4"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding a clear definition of \"Fall and Spring cleanup seasons\" to avoid ambiguity and ensure consistent enforcement of the gas leaf blower usage periods."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers can be operated between 8:00 a.m. and 6:00 p.m. on weekdays and between 10:00 a.m. and 4:00 p.m. on weekends.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 122-5"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding specific penalties or enforcement measures for violations of the permitted hours for gas leaf blower operation to strengthen compliance and clarity in the statute."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Violating gas leaf blower regulations results in a fine not to exceed $250 for the first offense, $350 for the second violation, and $1,500 for a third violation.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 122-7"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding specific enforcement mechanisms, such as detailing which municipal department is responsible for issuing fines and how violations are tracked to ensure consistent application of penalties for repeat offenses."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, the restrictions do not apply to municipal, schools, religious institutions, membership clubs, golf courses, hospital and retirement communities, cemeteries, and driveway/road paving and sealing activities.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 122-5"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific environmental impact assessments and mitigation plans for exempted properties, such as golf courses and cemeteries, to ensure sustainable practices and minimize ecological disruption."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations are enforced by the City of Rye Police Department, the Rye Building Department, or any other City employee designated by the City Manager.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 122-6"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific procedures for how violations can be reported by the public, including data collection requirements, transparency measures for public access to violation reports, and mechanisms for tracking the status and resolution of reported violations."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to implement a public education program that promotes the environmental benefits of leaving leaf debris and mulching, including guidelines for residents on how to effectively incorporate these practices into their yard maintenance routines."
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report that includes comprehensive data collection on relevant activities, transparency measures, and tracking mechanisms to ensure accountability and public awareness."
+    }
+  ],
+  "scores": {
+    "overallScore": 5.79,
+    "normalizedScore": 5.79,
+    "averageConfidence": 64,
+    "questionsAnswered": 5,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.75,
+        0.5,
+        0.7,
+        0.55,
+        0.6,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.4714285714285715,
+      "weightedScore": 0.5792,
+      "totalWeightedScore": 6.949999999999998,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "Gas leaf blowers are prohibited for 167 days each year from May 1 to September 30 and again from December 16 to the end of February. They are only allowed during the Fall and Spring cleanup seasons, from October 1 to December 15 and from March 1 to April 30.",
+          "score": 0.75,
+          "weight": 4,
+          "weightedScore": 3,
+          "maxWeightedScore": 4,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Gas leaf blowers can be operated between 8:00 a.m. and 6:00 p.m. on weekdays and between 10:00 a.m. and 4:00 p.m. on weekends.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "Violating gas leaf blower regulations results in a fine not to exceed $250 for the first offense, $350 for the second violation, and $1,500 for a third violation.",
+          "score": 0.7,
+          "weight": 3,
+          "weightedScore": 2.0999999999999996,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Yes, the restrictions do not apply to municipal, schools, religious institutions, membership clubs, golf courses, hospital and retirement communities, cemeteries, and driveway/road paving and sealing activities.",
+          "score": 0.55,
+          "weight": 1,
+          "weightedScore": 0.55,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Violations are enforced by the City of Rye Police Department, the Rye Building Department, or any other City employee designated by the City Manager.",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        }
+      ]
+    }
+  },
+  "overallScore": 5.79,
+  "averageConfidence": 64,
+  "questionsAnswered": 5,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-09T20:07:35.628Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 5.79,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.267Z"
+}

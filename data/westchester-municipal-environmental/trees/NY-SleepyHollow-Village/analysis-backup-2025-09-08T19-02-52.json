@@ -1,0 +1,122 @@
+{
+  "municipality": {
+    "id": "NY-SleepyHollow-Village",
+    "displayName": "Sleepy Hollow - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you generally need a permit to remove a tree on your private property unless it falls under specific exceptions such as being within 10 feet of a building, smaller than eight inches in diameter, a hazardous tree, a dead tree, or if it's on an approved site plan. To apply, you must submit a written application on a prescribed form along with all applicable fees, and it must include details such as proof of notice to adjacent landowners. The application is reviewed by the Tree Officer, and if it involves more than three trees, the Tree Commission will also review it during a public hearing.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 385-3",
+        "§ 385-8",
+        "§ 385-9"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove trees without a permit, you can face criminal penalties, which may include a fine up to $2,000 and/or imprisonment for up to 15 days. Each tree removed without a permit is considered a separate offense. Additionally, you could face civil penalties of $2,000 per day, per tree, and may be required to replace the destroyed trees.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 385-14"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed. You are required to replace a removed tree with two trees either on the same property or in another location as determined by the Tree Officer. However, you should note that you cannot plant non-native species as replacements, as planting invasive species is prohibited.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 385-11",
+        "§ 385-4B"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "You must notify landowners adjacent to your property and those directly across the street from the property on which the tree(s) are located.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 385-8A"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. It states that the intent of the chapter is to regulate the quantity and quality of trees, as well as the distribution of trees within the Village, to promote community stewardship of the full Village tree canopy and enhance the total urban forest.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 385-1"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "You are responsible for keeping trees on your property pruned so that any branches extending over public streets or sidewalks are at least 15 feet above the ground. You do not need to prune trees during their first two years unless they interfere with pedestrians using the sidewalk or obstruct streetlights or traffic signals. If you fail to maintain your trees properly, the Village has the right to prune or remove them and may assess the costs against you.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 385-12"
+      ],
+      "score": 0.8
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Yes, the statute requires the Tree Officer to prepare an annual report that includes the current inventory of trees on Village property, the number of applications received for tree removal permits, the number of denials, and the number of trees removed in the Village during the calendar year. This report is to be submitted to the Board of Trustees by March 1 each year.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 385-6C"
+      ],
+      "score": 0.65
+    }
+  ],
+  "scores": {
+    "overallScore": 0.76,
+    "normalizedScore": 2.1,
+    "averageConfidence": 76,
+    "questionsAnswered": 7,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.3,
+        0.3,
+        0.1,
+        0.3,
+        0.5,
+        0.55,
+        0.8,
+        0.65
+      ],
+      "averageQuestionScore": 0.43749999999999994,
+      "weightedScore": 0.42
+    }
+  },
+  "overallScore": 2.1,
+  "averageConfidence": 76,
+  "questionsAnswered": 7,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T19:02:52.894Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

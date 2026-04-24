@@ -1,0 +1,92 @@
+{
+  "municipality": {
+    "id": "NY-Pleasantville-Village",
+    "displayName": "Pleasantville - Village"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents are required to maintain their property and prevent overgrown and unsightly conditions resulting from overgrown grass or vegetation on established lawns.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 140-2"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific height limits for grass and vegetation, as well as clear definitions of what constitutes \"overgrown\" or \"unsightly\" conditions, to provide residents with measurable standards for compliance."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, defining clear criteria such as plant species, maintenance standards, and designated garden areas to distinguish them from unmanaged weed growth."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the statute that requires property owners to maintain the area between their property lot lines and the curb, including the removal of weeds, to ensure a consistent and well-kept appearance throughout the municipality."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "The penalty for failing to comply with property maintenance regulations is up to $200 for each day the violation continues.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 140-3"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding specific escalation measures for repeat offenses, such as increased fines or additional penalties, to strengthen deterrence and ensure compliance with property maintenance regulations."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The owner or occupant must correct the violation within 30 days after receiving a notice of violation. If they fail to comply, further actions including a public hearing and additional corrective measures may occur, but penalties in terms of fines apply for each day the violation is not addressed starting from the time specified in the notice.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 140-4",
+        "§ 140-3"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding specific fine amounts for each day the violation is not addressed, clear escalation procedures for repeat offenses, detailed enforcement mechanisms, and distinct categories of violations to ensure clarity and consistency in the application of penalties."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.59,
+    "normalizedScore": 1.4,
+    "averageConfidence": 59,
+    "questionsAnswered": 3,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.6,
+        0.1,
+        0.1,
+        0.7,
+        0.1
+      ],
+      "averageQuestionScore": 0.32,
+      "weightedScore": 0.28
+    }
+  },
+  "overallScore": 1.4,
+  "averageConfidence": 59,
+  "questionsAnswered": 3,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:34:57.392Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

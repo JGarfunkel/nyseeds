@@ -1,0 +1,114 @@
+{
+  "municipality": {
+    "id": "NY-Scarsdale-Town",
+    "displayName": "Scarsdale - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property if the tree is greater than six inches DBH or if it is a small caliper native tree as identified in § 281-3A. To apply, you must submit a written application on forms prescribed by the Village Engineer. The Village Engineer will review the application and issue a permit or deny it within 30 days from the date the application is submitted in final form.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 281-4"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove trees without a permit, you may be fined not less than $250 and not more than $1,000 for the first two trees. For each additional tree, the fine increases to not less than $500 and not more than $2,500. Additionally, if someone knowingly removes an excessive number of trees without a permit, the court may impose a higher fine.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 281-11"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed instead of making a payment. However, the replacement trees must be native to the Northeast United States and cannot be invasive species.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 281-5"
+      ],
+      "score": 0.8
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As a property owner, you are responsible for maintaining any trees that you plant on your property. Additionally, if you remove trees, you must restore the area by backfilling any holes and maintaining an acceptable grade, and you must also ensure that any replacement trees survive as required by the statute.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 281-9",
+        "§ 281-10"
+      ],
+      "score": 0.85
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.48,
+    "normalizedScore": 1.8,
+    "averageConfidence": 48,
+    "questionsAnswered": 4,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        0.3,
+        0.1,
+        0.8,
+        0.1,
+        0.1,
+        0.85,
+        0.1
+      ],
+      "averageQuestionScore": 0.41875000000000007,
+      "weightedScore": 0.36
+    }
+  },
+  "overallScore": 1.8,
+  "averageConfidence": 48,
+  "questionsAnswered": 4,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T19:02:26.860Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

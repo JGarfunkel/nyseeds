@@ -1,0 +1,110 @@
+{
+  "municipality": "NY-Bronxville-Village",
+  "domain": "trees",
+  "analyzedAt": "2025-09-08T18:55:12.696Z",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:55:04.660Z"
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:55:05.109Z"
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:55:05.701Z"
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:55:07.716Z"
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:55:08.289Z"
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:55:08.742Z"
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Your responsibilities for maintaining trees on your property include:\n\n1. Keeping all trees, shrubs, and plants trimmed and in a condition that does not interfere with or obstruct the vision at intersections or endanger the safety of persons using public streets, sidewalks, or other public places (§ 282-3).\n2. Ensuring that all trees, shrubs, and plants on your land are free from insects that may cause disease, destruction, or damage, or that may spread to public trees, shrubs, or plants (§ 282-4).",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 282-3",
+        "§ 282-4"
+      ],
+      "score": 0.5,
+      "analyzedAt": "2025-09-08T18:55:12.031Z"
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:55:12.696Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.11,
+    "normalizedScore": 0.55,
+    "averageConfidence": 11,
+    "questionsAnswered": 1,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.5,
+        0.1
+      ],
+      "averageQuestionScore": 0.15000000000000002,
+      "weightedScore": 0.11
+    }
+  },
+  "overallScore": 0.55,
+  "averageConfidence": 11,
+  "questionsAnswered": 1,
+  "totalQuestions": 8,
+  "gapAnalysis": "",
+  "wenGrade": "G-",
+  "usesStateCode": false
+}

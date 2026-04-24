@@ -1,0 +1,122 @@
+{
+  "municipality": {
+    "id": "NY-Yorktown-Town",
+    "displayName": "Yorktown - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Whether you need a permit to remove a tree on your private property depends on specific conditions. A permit is required if you are removing 10 or more protected trees in a year, more than two protected trees within a regulated buffer zone, any specimen tree, or if there is land conversion or a woodland disturbance of a certain size. To apply for a permit, you need to complete an application form, include a plan or sketch of the proposed removal and mitigation, and pay a permit fee according to the Master Fee Schedule. The application will be reviewed by the Town Engineer or an appropriate approval authority such as the Planning Board or Town Board, depending on the nature of the application. The approval authority will assess the application to determine if it meets the required standards.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-6",
+        "§ 270-8",
+        "§ 270-7"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove trees without a permit, you may face administrative sanctions such as a stop-work order, and you could also be liable for civil damages caused by the violation. Specifically, removal of a protected tree without a permit could incur a fine of $1,000 per tree for the first offense. For a second or subsequent offense within three years, the fine could double, or you might face imprisonment for up to 15 days, or both. If the tree removal resulted in land conversion, the fine for that first offense would be $2,500.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-15"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "The fee for removing a protected tree without a replacement is $100 for each protected tree removed. Additionally, if you disturb 5,000 square feet of protected woodland, the fee would be $300 for that area. These payments go into the Tree Bank Fund.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-10D"
+      ],
+      "score": 0.8
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed instead of making a payment. However, if replanting is required, the statute specifies that you should use native species of trees, understory shrubs, and herbaceous ground cover. Planting non-native species is not allowed as replacements.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-10C"
+      ],
+      "score": 0.95
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "The statute does not specify which neighbors must be notified if you remove trees. It only mentions that public notice and notice to interested parties must be provided for tree removal permits sought in conjunction with a site plan, subdivision, parking plan, or special permit approval. However, it does not elaborate on specific requirements for notifying neighbors under other circumstances.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of maintaining a healthy tree canopy. It states that protecting the integrity of woodlands, which includes the canopy, is vital for regulating the removal of any of these layers in ecological communities. The findings also highlight the benefits provided by trees, including their contribution to ecological systems, which implies that a healthy canopy is necessary for environmental balance.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-3"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Your responsibilities for maintaining trees on your property include performing normal maintenance activities such as removal of leaf litter, pruning, trimming, and preserving live trees. It is encouraged to employ best management practices as recommended by the American National Standards Institute (ANSI) standards. However, beyond this general maintenance, specific responsibilities may vary based on the activity and whether a permit is involved.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-4",
+        "§ 270-9B"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Yes, the statute requires an annual report that describes the status of the implementation of the Town-wide forest management plan to be presented to the Town Board. This implies that data collection regarding tree removals and other activities related to the management of trees is necessary, and the findings should be reported publicly. However, the specifics of what data must be collected on tree removals are not clearly outlined in the statute.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-16C"
+      ],
+      "score": 0.65
+    }
+  ],
+  "scores": {
+    "overallScore": 0.76,
+    "normalizedScore": 3.4,
+    "averageConfidence": 76,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        1,
+        0.8,
+        0.95,
+        0.1,
+        0.6,
+        0.3,
+        0.65
+      ],
+      "averageQuestionScore": 0.675,
+      "weightedScore": 0.68
+    }
+  },
+  "overallScore": 3.4,
+  "averageConfidence": 76,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T19:04:13.775Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

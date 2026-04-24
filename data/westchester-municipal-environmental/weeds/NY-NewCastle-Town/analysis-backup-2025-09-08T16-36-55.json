@@ -1,0 +1,95 @@
+{
+  "municipality": {
+    "id": "NY-NewCastle-Town",
+    "displayName": "New Castle - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents in residential districts are required to maintain the area up to 15 feet around their main structure, ensuring it is free from uncultivated vegetation like grasses, brush, and briars if they exceed 10 inches in height. This requirement does not include trees, shrubs, or cultivated plants such as flowers and gardens.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-2"
+      ],
+      "score": 1
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Yes, the property maintenance code allows exceptions for cultivated vegetation, which includes pollinator gardens, as well as trees, shrubs, and other plants that are grown or cared for in a controlled environment.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-2"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific guidelines or standards for the design, maintenance, and size of pollinator gardens to ensure they are distinguishable from neglected properties and do not attract pests or create safety hazards."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "The statute specifically addresses the maintenance of areas up to 15 feet around the main structure on a property, but does not mention any requirements that extend maintenance responsibilities beyond the property lot lines, such as to the curb.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-2"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding explicit language to the statute that defines maintenance responsibilities for areas beyond the property lot lines, such as the curb and adjacent sidewalks, to ensure clarity and comprehensive coverage of property maintenance obligations."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "If an owner or occupant violates the property maintenance regulations, they can be fined up to $200 for each day the violation continues. Additionally, if the Town has to correct the violation, all incurred costs and expenses, including penalties, will be charged to the owner. If these costs are not paid within 30 days, they become a lien against the property and are added to the property taxes.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-3",
+        "§ 93-4"
+      ],
+      "score": 0.9,
+      "gap": "Consider adding specific escalation measures for repeat offenses, such as increased fines or additional penalties, to deter ongoing non-compliance with property maintenance regulations."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Once a violation notice is issued, the owner or occupant has 30 days to correct the violation. If not resolved within this period and the violation poses a public nuisance or danger to public safety, a public hearing will be held. After the hearing, if the violation is still not corrected within 10 days, the Town may intervene to correct the issue, resulting in additional penalties and costs for the property owner.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-4"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding specific fine amounts for initial and subsequent violations, as well as clear escalation procedures for repeat offenses, to strengthen the enforcement mechanisms and provide clarity to property owners."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.85,
+    "normalizedScore": 4.1,
+    "averageConfidence": 85,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        0.6,
+        0.75,
+        0.9,
+        0.85
+      ],
+      "averageQuestionScore": 0.82,
+      "weightedScore": 0.82
+    }
+  },
+  "overallScore": 4.1,
+  "averageConfidence": 85,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T16:36:55.789Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

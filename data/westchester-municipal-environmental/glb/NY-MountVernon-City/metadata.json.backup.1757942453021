@@ -1,0 +1,15 @@
+{
+  "municipality": "Mount Vernon",
+  "municipalityType": "City",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "G- CH-191-Noise",
+  "downloadedAt": "2025-09-05T16:36:21.733Z",
+  "contentLength": 3504,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:58.830Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/39039302",
+  "statuteNumber": "Ch 191",
+  "statuteTitle": "Gas-Powered Leaf and Lawn Blowers"
+}

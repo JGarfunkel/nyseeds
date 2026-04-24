@@ -1,0 +1,47 @@
+{
+  "domains": [
+    {
+      "id": "trees",
+      "name": "trees",
+      "displayName": "Trees & Urban Forestry",
+      "description": "Tree removal, planting, and maintenance regulations"
+    },
+    {
+      "id": "zoning",
+      "name": "zoning",
+      "displayName": "Zoning & Land Use",
+      "description": "Land use regulations and zoning ordinances"
+    },
+    {
+      "id": "parking",
+      "name": "parking",
+      "displayName": "Parking Regulations",
+      "description": "Parking rules and enforcement"
+    },
+    {
+      "id": "noise",
+      "name": "noise",
+      "displayName": "Noise Control",
+      "description": "Noise ordinances and quiet hours"
+    },
+    {
+      "id": "building",
+      "name": "building",
+      "displayName": "Building Codes",
+      "description": "Construction and building regulations"
+    },
+    {
+      "id": "environmental",
+      "name": "environmental",
+      "displayName": "Environmental Protection",
+      "description": "Environmental protection and conservation"
+    },
+    {
+      "id": "business",
+      "name": "business",
+      "displayName": "Business Licensing",
+      "description": "Business permits and licensing requirements"
+    }
+  ],
+  "lastUpdated": "2026-04-12T02:27:06.379Z"
+}

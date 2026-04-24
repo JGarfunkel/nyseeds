@@ -1,0 +1,57 @@
+{
+  "municipality": "NY-KatonahLewisboro-SD",
+  "domain": "food",
+  "analyzedAt": "2025-09-04T19:35:14.615Z",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Does the district have composting?",
+      "answer": "Yes, the district has composting. John Jay Middle School implemented a food scrap composting program from 2013 to 2016, and the district made significant gains on composting in 2018-2019.",
+      "confidence": 80,
+      "sourceRefs": [],
+      "score": 0.5,
+      "analyzedAt": "2025-09-04T19:35:11.214Z"
+    },
+    {
+      "id": "2",
+      "question": "How much recycling do the schools do?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-04T19:35:11.784Z"
+    },
+    {
+      "id": "3",
+      "question": "How does the district work to reduce waste?",
+      "answer": "The district works to reduce waste by taking food scraps out of the waste stream in all KLSD elementary schools (2012-2013) and implementing a food scrap composting program at John Jay Middle School (2013-2016). Additionally, the district has made significant gains in composting and recycling (2018-2019).",
+      "confidence": 80,
+      "sourceRefs": [],
+      "score": 0.55,
+      "analyzedAt": "2025-09-04T19:35:14.615Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.53,
+    "normalizedScore": 1.7,
+    "averageConfidence": 53,
+    "questionsAnswered": 2,
+    "totalQuestions": 3,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.5,
+        0.1,
+        0.55
+      ],
+      "averageQuestionScore": 0.3833333333333333,
+      "weightedScore": 0.34
+    }
+  },
+  "overallScore": 1.7,
+  "averageConfidence": 53,
+  "questionsAnswered": 2,
+  "totalQuestions": 3,
+  "gapAnalysis": "",
+  "wenGrade": null,
+  "usesStateCode": false
+}

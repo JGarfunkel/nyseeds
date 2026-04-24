@@ -1,0 +1,88 @@
+{
+  "municipality": {
+    "id": "NY-Hastings-on-Hudson-Village",
+    "displayName": "undefined - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees & Urban Forestry"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "score": 0,
+      "sourceRefs": [],
+      "relevantSections": []
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "score": 0,
+      "sourceRefs": [],
+      "relevantSections": []
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with tree removal permits or for removing individual trees?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "score": 0,
+      "sourceRefs": [],
+      "relevantSections": []
+    },
+    {
+      "id": 4,
+      "question": "Can I replant trees to replace removed trees, and are they required to be of certain species?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "score": 0,
+      "sourceRefs": [],
+      "relevantSections": []
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "score": 0,
+      "sourceRefs": [],
+      "relevantSections": []
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "score": 0,
+      "sourceRefs": [],
+      "relevantSections": []
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "score": 0,
+      "sourceRefs": [],
+      "relevantSections": []
+    },
+    {
+      "id": 9,
+      "question": "Is data collected on the reasons for tree removals?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "score": 0,
+      "sourceRefs": [],
+      "relevantSections": []
+    }
+  ],
+  "overallScore": 0,
+  "lastUpdated": "2025-08-26T11:57:39.050Z",
+  "processingMethod": "improved-vector-analysis-v2",
+  "usesStateCode": false
+}

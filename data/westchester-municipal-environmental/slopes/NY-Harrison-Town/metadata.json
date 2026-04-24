@@ -1,0 +1,11 @@
+{
+  "municipality": "Harrison",
+  "municipalityType": "Town",
+  "domain": "Slopes",
+  "domainId": "slopes",
+  "originalCellValue": "Not available",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T13:58:52.376Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sources": []
+}

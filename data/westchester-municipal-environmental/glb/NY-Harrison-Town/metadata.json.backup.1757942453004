@@ -1,0 +1,15 @@
+{
+  "municipality": "Harrison",
+  "municipalityType": "Town",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "R-CH-177-Noise",
+  "downloadedAt": "2025-09-05T16:35:34.262Z",
+  "contentLength": 8040,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:58.305Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/8312594#8312596",
+  "statuteNumber": "Ch 177",
+  "statuteTitle": "Alarms — See Ch"
+}

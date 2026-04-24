@@ -1,0 +1,82 @@
+{
+  "domain": "test-domain",
+  "generatedAt": "2025-08-28T00:54:07.984Z",
+  "questionsCount": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to conduct a noise test for my business?",
+      "order": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the regulations regarding water quality testing for private wells?",
+      "order": 2
+    },
+    {
+      "id": 3,
+      "question": "Are there specific guidelines for air quality testing around residential areas?",
+      "order": 3
+    },
+    {
+      "id": 4,
+      "question": "How often must businesses conduct safety tests on public playground equipment?",
+      "order": 4
+    },
+    {
+      "id": 5,
+      "question": "What is the process for reporting a failed safety test for a public swimming pool?",
+      "order": 5
+    },
+    {
+      "id": 6,
+      "question": "Are there any fees associated with conducting soil contamination tests on private land?",
+      "order": 6
+    },
+    {
+      "id": 7,
+      "question": "What standards must be met when testing for lead in residential water supplies?",
+      "order": 7
+    },
+    {
+      "id": 8,
+      "question": "Which department is responsible for overseeing noise testing regulations?",
+      "order": 8
+    },
+    {
+      "id": 9,
+      "question": "Can residents request air quality tests from the municipality?",
+      "order": 9
+    },
+    {
+      "id": 10,
+      "question": "What are the steps to apply for a permit to conduct environmental impact tests?",
+      "order": 10
+    },
+    {
+      "id": 11,
+      "question": "Are there penalties for non-compliance with required safety tests for rental properties?",
+      "order": 11
+    },
+    {
+      "id": 12,
+      "question": "How can I find certified professionals to conduct noise pollution tests?",
+      "order": 12
+    },
+    {
+      "id": 13,
+      "question": "What are the requirements for testing the structural integrity of commercial buildings?",
+      "order": 13
+    },
+    {
+      "id": 14,
+      "question": "Are there exemptions for small businesses from certain environmental testing regulations?",
+      "order": 14
+    },
+    {
+      "id": 15,
+      "question": "How do I appeal a decision related to a failed municipal compliance test?",
+      "order": 15
+    }
+  ]
+}

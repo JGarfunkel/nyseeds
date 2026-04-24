@@ -8,6 +8,8 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+export const ORDINIZER_CONTEXT_PATH = process.env.ORDINIZER_CONTEXT_PATH || "/ordinizer";
+
 app.use((req, res, next) => {
   const start = Date.now();
   const path = req.path;
@@ -44,6 +46,16 @@ app.use((req, res, next) => {
     const server = await registerRoutes(app);
     console.log("Routes registered.");
 
+    app.get('*', (req, res, next) => {
+      if (req.path.includes('.') || req.path.startsWith('/api')) {
+        return next();
+      }
+      const path = require("path");
+      
+      const ordinizerDist = path.resolve(process.cwd(), "dist", "public");
+      res.sendFile(path.join(ordinizerDist, "index.html"));
+    });
+
   app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
     const status = err.status || err.statusCode || 500;
     const message = err.message || "Internal Server Error";
@@ -67,9 +79,9 @@ app.use((req, res, next) => {
     const ordinizerDist = path.resolve(process.cwd(), "dist", "public");
 
     // Serve static assets under /ordinizer
-    app.use("/ordinizer", expressStatic(ordinizerDist));
+    app.use(ORDINIZER_CONTEXT_PATH, expressStatic(ordinizerDist));
     // Catch-all for client-side routing under /ordinizer
-    app.get("/ordinizer/*", (_req, res) => {
+    app.get(`${ORDINIZER_CONTEXT_PATH}/*`, (_req, res) => {
       res.sendFile(path.join(ordinizerDist, "index.html"));
     });
 
@@ -80,7 +92,7 @@ app.use((req, res, next) => {
     //   res.sendFile(path.join(docsDist, "index.html"));
     // });
 
-    console.log("Static serving setup for /ordinizer (and more if added).");
+    console.log(`Static serving setup for ${ORDINIZER_CONTEXT_PATH} (and more if added).`);
   }
 
   // ALWAYS serve the app on the port specified in the environment variable PORT

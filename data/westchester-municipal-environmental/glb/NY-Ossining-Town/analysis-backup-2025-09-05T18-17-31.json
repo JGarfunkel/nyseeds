@@ -1,0 +1,80 @@
+{
+  "municipality": {
+    "id": "NY-Ossining-Town",
+    "displayName": "Ossining - Town"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas-powered leaf blowers lasts for four months each year. It starts on May 31 and ends on September 30.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 130-7.1"
+      ],
+      "score": 0.45
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers can be operated during the following hours: Monday through Friday, excluding federal holidays, from 8:00 a.m. to 5:30 p.m.; on Saturdays, from 9:00 a.m. to 6:00 p.m.; and on Sundays and federal holidays from 10:00 a.m. to 5:00 p.m.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 130-7.1"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Any person operating a gas leaf blower in violation of the regulations will first receive a warning. For any subsequent violations after the warning, the penalties will be as specified in § 130-10B. This includes fines of $100 for the first offense, $250 for the second offense, and $1,500 or imprisonment for up to 15 days, or both, for the third and subsequent offenses.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 130-7.1",
+        "§ 130-10B"
+      ],
+      "score": 0.9
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions. Leaf blowers at cemeteries and on pavement or impervious surfaces are permitted if operated at half-speed. Also, the statute allows exemptions for sounds created by governmental agencies using public warning devices. Additionally, music from school education programs, and sounds from any organ, bell, chimes, or similar instruments used by churches or schools in connection with religious rites or school activities are exempt. Temporary permits could also be issued for special circumstances not related to regular maintenance, with a fee applicable.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 130-7.1",
+        "§ 130-8"
+      ],
+      "score": 0.75
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations are typically reported by an affected person who lodges a complaint with an authorized enforcement agency. An investigation is conducted based on these complaints. Sound levels are measured using sound-level meters, and evidence of noise exceeding maximum permissible sound-pressure levels can be used in court as proof of a violation. Enforcement includes issuing warnings for initial violations, followed by fines or possible imprisonment for repeated violations.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 130-3",
+        "§ 130-9",
+        "§ 130-10"
+      ],
+      "score": 0.7
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5
+    }
+  ],
+  "lastUpdated": "2025-09-05T18:17:31.214Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

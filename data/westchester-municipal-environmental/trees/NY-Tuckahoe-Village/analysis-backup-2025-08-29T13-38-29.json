@@ -1,0 +1,130 @@
+{
+  "municipality": {
+    "id": "NY-Tuckahoe-Village",
+    "displayName": "Tuckahoe - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "For trees on private property:\n\n1. **No Permit Required**: If the tree is less than 10 inches in diameter at breast height (DBH), no permit or registration is needed for removal (§ 1(a)).\n\n2. **Notification Required**: For trees 10 inches DBH or greater, you can remove up to two trees in any twenty-four-month period with a two-week prior notification to the Building Department. This notification must include the size, location, type of tree(s), and reason for removal (§ 1(b)).\n\n3. **Permit Required**: If you wish to remove more than two trees measuring 10 inches DBH or greater within a twenty-four-month period, you must obtain a permit from the Building Department (§ 1(c)).\n\nThe Building Department reviews the permit applications, and their decision is based on factors such as the condition of the tree, necessity for a building project, and ecological impact (§ 1(a) and § 1(b) in chunk 12).\n\nFor trees 20 inches DBH or greater, additional compliance with the Village's insurance requirements is necessary (§ 1(d)).",
+      "confidence": 57,
+      "sourceRefs": [
+        "§ 1"
+      ],
+      "score": 0.87,
+      "gap": "The statute seems to lack specific details on the application process for obtaining a tree removal permit, such as the required forms, submission methods, and any associated fees."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit include the requirement to plant one or more replacement trees. If restoration is deemed impractical by the Village, an additional fine may be imposed. According to § 1, any person violating the provisions of this chapter shall be fined $500 for each offense, and each week's continued violation may result in fines of up to $500 per day. These fines will be deposited into the Tree Preservation Fund. (See STATUTE CHUNK 1 and STATUTE CHUNK 3)",
+      "confidence": 61,
+      "sourceRefs": [
+        "§ 1"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "Yes, there are fees associated with removing individual trees under certain conditions. Specifically, for the removal of more than two trees measuring 10 inches DBH or greater in any twenty-four-month period, a permit is required, and the fee for this permit is set by the Village Board and will be posted in the Building Department (§ 1(c)).",
+      "confidence": 54,
+      "sourceRefs": [
+        "§ 1"
+      ],
+      "score": 0.84,
+      "gap": "The statute seems to lack a detailed fee schedule, including specific amounts and payment options, which should be clearly outlined and accessible to the public."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed, as specified in §1(a) and (b). However, the replacement trees must not be invasive species, and they must be at least three inches in caliper (§1(a), chunk 18). The statute does not specify whether non-native species are allowed, only that invasive species are prohibited.",
+      "confidence": 52,
+      "sourceRefs": [
+        "§ 1"
+      ],
+      "score": 0.82,
+      "gap": "The statute seems to lack specific guidance on whether non-native species are permissible as replacement trees, which could lead to ambiguity in compliance."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 54,
+      "sourceRefs": [
+        "§ 1"
+      ],
+      "score": 0,
+      "gap": "The statute seems to be missing notification requirements - municipality should require advance notice to adjacent property owners for significant tree removal projects."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. It states that the Village of Tuckahoe has a vital interest in the planting and preservation of trees, highlighting their benefits such as providing shade, green space, aesthetic appeal, impeding soil erosion, reducing air pollution, and other environmental benefits (§ 1).",
+      "confidence": 47,
+      "sourceRefs": [
+        "§ 1"
+      ],
+      "score": 0.67,
+      "gap": "The statute seems to lack specific coverage targets and measurement methods for maintaining a healthy tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Not specified in the statute.",
+      "confidence": 57,
+      "sourceRefs": [
+        "§ 1"
+      ],
+      "score": 0,
+      "gap": "The statute seems to have unclear maintenance standards - municipality should define property owner responsibilities for tree care, pruning schedules, and hazard management."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute call for data collection on tree removals and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 56,
+      "sourceRefs": [
+        "§ 21A",
+        "§ 1"
+      ],
+      "score": 0,
+      "gap": "The statute seems to be missing reporting framework - municipality should require annual tree removal data collection and public reporting to track urban forest changes."
+    }
+  ],
+  "lastUpdated": "2025-08-27T02:34:32.691Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.55,
+    "normalizedScore": 2.3296875,
+    "averageConfidence": 55,
+    "questionsAnswered": 5,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.87,
+        1,
+        0.84,
+        0.82,
+        0,
+        0.67,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.525,
+      "weightedScore": 0.4659375
+    }
+  },
+  "overallScore": 2.3296875,
+  "normalizedScore": 2.3296875,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.671Z"
+}

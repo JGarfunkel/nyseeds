@@ -1,0 +1,109 @@
+{
+  "municipality": {
+    "id": "NY-RyeBrook-Village",
+    "displayName": "Rye Brook - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts from May 1 through September 30 each year.",
+      "confidence": 95,
+      "sourceRefs": [
+        "§ 158-2.1"
+      ],
+      "score": 0.45
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers can be operated during the hours set forth in § 158-2D, which are between 8:00 a.m. and 9:00 p.m. on weekdays, and from 9:00 a.m. to 9:00 p.m. on weekends.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 158-2.1"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "If someone violates the gas leaf blower regulations, they will first receive a warning. After that, they can be penalized as stated in § 158-6, which means they can be guilty of an offense and subject to fines for each violation. Each day the violation continues counts as a separate offense.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 158-6"
+      ],
+      "score": 0.65
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions. The restrictions do not apply to operations conducted by the Village of Rye Brook as part of its municipal functions, and specific operations such as those conducted by utility companies or related to driveway/road paving and sealing activities are also exempt.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 158-2.1",
+        "§ 158-5"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations are reported and enforced by giving a warning to the violator first. After the warning, further violations will lead to penalties as outlined in the statute.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 158-2.1"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.63,
+    "normalizedScore": 1.95,
+    "averageConfidence": 63,
+    "questionsAnswered": 5,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.45,
+        0.5,
+        0.65,
+        0.55,
+        0.6,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.42142857142857154,
+      "weightedScore": 0.39
+    }
+  },
+  "overallScore": 1.95,
+  "averageConfidence": 63,
+  "questionsAnswered": 5,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:26:41.381Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

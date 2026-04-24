@@ -1,0 +1,111 @@
+{
+  "municipality": {
+    "id": "NY-Tuckahoe-Village",
+    "displayName": "Tuckahoe - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts for four months each year. It starts on June 1 and ends on September 30 (§ 1(a)).",
+      "confidence": 45,
+      "sourceRefs": [
+        "§ 1",
+        "Section 15-52"
+      ],
+      "score": 0.55,
+      "gap": "The statute seems to lack a clear enforcement mechanism or penalties for non-compliance with the prohibition of gas leaf blowers, which could undermine its effectiveness."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gasoline-powered leaf blowers are prohibited from June 1 through September 30 each year (§ 1(a)). During the period from October 1 through May 31, they may be used during the following hours:\n\n- Monday through Friday: 8:00 a.m. through 7:00 p.m.\n- Saturday: 9:00 a.m. through 5:00 p.m.\n- Sunday and holidays: 12:00 noon through 5:00 p.m. (§ 1(c)).",
+      "confidence": 58,
+      "sourceRefs": [
+        "§ 1",
+        "Section 15-52"
+      ],
+      "score": 0.78,
+      "gap": "The statute seems to lack specific enforcement mechanisms or penalties for violations of the permitted hours for gas leaf blower operation."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating gas leaf blower regulations are a fine not exceeding $350 or imprisonment not exceeding 15 days, or both. This is enforceable by the Code Enforcement Officer, Building Inspector, the Superintendent of Public Works, and any police officer in the Village Police Department. Additionally, all persons are entitled to one warning before prosecution under this article (§ 1(a)). If the operator is an employee using the equipment as part of their employment duties, the employer is deemed in violation and subject to the same penalties (§ 1(b)).",
+      "confidence": 57,
+      "sourceRefs": [
+        "§ 1",
+        "Section 15-52"
+      ],
+      "score": 0.87,
+      "gap": "The statute seems to lack specific provisions for escalating penalties for repeat offenses, which could strengthen deterrence and enforcement."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 35,
+      "sourceRefs": [
+        "Section 15-52",
+        "§ 1"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack provisions for exceptions related to school, government, and commercial properties. The municipality should establish a regulatory framework that clearly defines and outlines specific exceptions or requirements for school, government, and commercial properties, ensuring these entities are either exempt or subject to tailored standards that consider their unique operational needs and community impact."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations are enforced by the Code Enforcement Officer, Building Inspector, the Superintendent of Public Works, and any police officer in the Village Police Department. Upon conviction, penalties for violations can include a fine not exceeding $350, imprisonment not exceeding 15 days, or both. Additionally, all persons are entitled to one warning before prosecution. Enforcement can also include other remedies such as summary action, injunctive relief, and civil actions for environmental damages (§ 1(a), § 1(c)). \n\nNot specified in the statute how violations are reported.",
+      "confidence": 41,
+      "sourceRefs": [
+        "§ 1"
+      ],
+      "score": 0.71,
+      "gap": "The statute seems to lack specific procedures and mechanisms for how violations are reported, including data collection requirements, public reporting, and tracking mechanisms to ensure transparency and accountability in the enforcement process."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 49,
+      "sourceRefs": [
+        "Section 15-52",
+        "§ 1"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack guidance on the environmental benefits of leaf debris and mulching; the municipality should establish a regulatory framework that encourages residents to leave leaf debris on their lawns or use mulching techniques by providing educational resources and incentives for sustainable yard waste management practices."
+    }
+  ],
+  "lastUpdated": "2025-08-28T17:38:21.753Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.48,
+    "normalizedScore": 2.1825,
+    "averageConfidence": 48,
+    "questionsAnswered": 4,
+    "totalQuestions": 6,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.55,
+        0.78,
+        0.87,
+        0,
+        0.71,
+        0
+      ],
+      "averageQuestionScore": 0.48500000000000004,
+      "weightedScore": 0.4365
+    }
+  },
+  "overallScore": 2.1825,
+  "normalizedScore": 2.1825,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.049Z"
+}

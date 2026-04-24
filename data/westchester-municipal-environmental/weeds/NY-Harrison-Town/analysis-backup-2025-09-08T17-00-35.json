@@ -1,0 +1,91 @@
+{
+  "municipality": {
+    "id": "NY-Harrison-Town",
+    "displayName": "Harrison - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "The statute requires that all business premises' yards and courts, not residential properties, be kept clean from physical hazards and that any heavy undergrowth and accumulation of plants or plant growth that are noxious and detrimental to health be eliminated. Grass and grass plots must be cut and trimmed. These requirements apply only to business premises.",
+      "confidence": 85,
+      "sourceRefs": [
+        "Section 188-6"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific property maintenance requirements for residential properties regarding the control and removal of weeds, including definitions of what constitutes \"noxious\" or \"detrimental\" plant growth, to ensure clarity and consistency in enforcement across all property types."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "The statute does not specify any exceptions for cultivated pollinator gardens in the property maintenance code.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding explicit provisions in the property maintenance code that define and permit cultivated pollinator gardens, including guidelines for acceptable plant species, maintenance standards, and any necessary permits or notifications to ensure they are recognized and managed appropriately."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "The statute does not specify regulations or maintenance requirements that extend beyond the property lot lines, such as to the curb.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding explicit regulations or maintenance requirements that address the responsibilities of property owners for areas extending to the curb, including standards for sidewalk maintenance, snow removal, and vegetation control to ensure public safety and accessibility."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Failing to comply with the property maintenance regulations results in penalties that include a fine of not more than $250 or imprisonment for a period not exceeding 15 days, or both. Each day a violation persists is considered a separate violation.",
+      "confidence": 85,
+      "sourceRefs": [
+        "Section 188-11"
+      ],
+      "score": 0.9,
+      "gap": "Consider adding specific escalation measures for repeat offenses, such as increased fines or longer imprisonment terms, to deter ongoing non-compliance and clearly define enforcement mechanisms to ensure consistent application of penalties."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Once a notice of violation is issued, the property owner has a ten-day limit to comply with the order to remedy the conditions found to be in violation before penalties are applied.",
+      "confidence": 85,
+      "sourceRefs": [
+        "Section 188-9"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding specific details about the fine amounts, escalation procedures for repeat offenses, and the enforcement mechanisms to strengthen the clarity and effectiveness of the statute."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.85,
+    "normalizedScore": 2.35,
+    "averageConfidence": 85,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.6,
+        0.1,
+        0.1,
+        0.9,
+        0.65
+      ],
+      "averageQuestionScore": 0.47000000000000003,
+      "weightedScore": 0.47
+    }
+  },
+  "overallScore": 2.35,
+  "averageConfidence": 85,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:00:35.220Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

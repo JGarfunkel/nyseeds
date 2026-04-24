@@ -1,0 +1,99 @@
+{
+  "municipality": "NY-Peekskill-City",
+  "domain": "wetland-protection",
+  "analyzedAt": "2025-09-08T19:34:17.618Z",
+  "questions": [
+    {
+      "id": 3,
+      "question": "What are the setback requirements from wetland boundaries?",
+      "answer": "The setback requirement from wetland boundaries is up to 100 feet from the boundary of such wetland, as stated in § 294-1.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 294-1"
+      ],
+      "score": 0.75,
+      "analyzedAt": "2025-09-08T19:34:11.516Z"
+    },
+    {
+      "id": 4,
+      "question": "What are the penalties for unauthorized wetland disturbance?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:34:12.173Z"
+    },
+    {
+      "id": 5,
+      "question": "How do I apply for a wetland permit or variance?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:34:13.102Z"
+    },
+    {
+      "id": 6,
+      "question": "Are there mitigation requirements for permitted wetland impacts?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:34:14.253Z"
+    },
+    {
+      "id": 7,
+      "question": "What types of development are completely prohibited in wetlands?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:34:15.601Z"
+    },
+    {
+      "id": 9,
+      "question": "Are there tax incentives for wetland preservation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:34:17.104Z"
+    },
+    {
+      "id": 10,
+      "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:34:17.617Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.13,
+    "normalizedScore": 0.7,
+    "averageConfidence": 13,
+    "questionsAnswered": 1,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.75,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.1928571428571429,
+      "weightedScore": 0.14
+    }
+  },
+  "overallScore": 0.7,
+  "averageConfidence": 13,
+  "questionsAnswered": 1,
+  "totalQuestions": 7,
+  "gapAnalysis": "",
+  "wenGrade": "G-",
+  "usesStateCode": false
+}

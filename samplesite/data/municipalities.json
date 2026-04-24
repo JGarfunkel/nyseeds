@@ -1,0 +1,125 @@
+{
+  "municipalities": [
+    {
+      "id": "a9a0709a-9aea-40a3-a05a-f5a3a9baa29d",
+      "name": "Albany",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Albany - City",
+      "singular": "albany"
+    },
+    {
+      "id": "228e9a09-4c12-4a84-a646-240dff627449",
+      "name": "Bedford",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Bedford - Town",
+      "singular": "bedford"
+    },
+    {
+      "id": "e5322717-1d40-4a50-b368-9032aa122ecf",
+      "name": "Buffalo",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Buffalo - City",
+      "singular": "buffalo"
+    },
+    {
+      "id": "6d7d7447-197d-4257-a0e8-106c4f3cb68b",
+      "name": "Eastchester",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Eastchester - Town",
+      "singular": "eastchester"
+    },
+    {
+      "id": "0a1fd164-1374-4ea4-8723-1fd3f46f760f",
+      "name": "Harrison",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Harrison - Town",
+      "singular": "harrison"
+    },
+    {
+      "id": "eb2b8159-99d0-4879-84bf-d8472c7cefb4",
+      "name": "Larchmont",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Larchmont - Village",
+      "singular": "larchmont"
+    },
+    {
+      "id": "1fdb6c9a-fa66-49c2-a790-19d891f49163",
+      "name": "Mamaroneck",
+      "type": "Town",
+      "state": "NY",
+      "displayName": "Mamaroneck - Town",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "d63437fd-f4c9-4e0c-a8ed-695896f59581",
+      "name": "Mamaroneck",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Mamaroneck - Village",
+      "singular": "mamaroneck"
+    },
+    {
+      "id": "26f3136f-c353-41c9-8b3d-5df88250977d",
+      "name": "Mount Vernon",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Mount Vernon - City",
+      "singular": "mountvernon"
+    },
+    {
+      "id": "74ea41cd-cdf2-4271-9572-fdd3656b3b03",
+      "name": "New Rochelle",
+      "type": "City",
+      "state": "NY",
+      "displayName": "New Rochelle - City",
+      "singular": "newrochelle"
+    },
+    {
+      "id": "2dec1644-9099-468a-8bce-0cfa33722d34",
+      "name": "Pelham",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Pelham - Village",
+      "singular": "pelham"
+    },
+    {
+      "id": "fe978e3e-e0ae-4bd5-8a98-4d7f8e5e4add",
+      "name": "Rye",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Rye - City",
+      "singular": "rye"
+    },
+    {
+      "id": "45cfd82a-4aa3-4d4b-8b07-d96ee9de59e0",
+      "name": "Scarsdale",
+      "type": "Village",
+      "state": "NY",
+      "displayName": "Scarsdale - Village",
+      "singular": "scarsdale"
+    },
+    {
+      "id": "73f3d3ae-c343-49e3-a866-fb608042534f",
+      "name": "White Plains",
+      "type": "City",
+      "state": "NY",
+      "displayName": "White Plains - City",
+      "singular": "whiteplains"
+    },
+    {
+      "id": "907e00f0-c800-4d09-9593-da2af851a3e0",
+      "name": "Yonkers",
+      "type": "City",
+      "state": "NY",
+      "displayName": "Yonkers - City",
+      "singular": "yonkers"
+    }
+  ],
+  "lastUpdated": "2026-04-12T02:27:06.270Z"
+}

@@ -1,0 +1,99 @@
+{
+  "municipality": "NY-Larchmont-Village",
+  "domain": "glb",
+  "analyzedAt": "2025-09-08T19:22:16.681Z",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of internal combustion leaf blowers lasts for the entire year, starting from January 1, 2022. There is no end date specified in the statute, as they are prohibited at any time after that date.",
+      "confidence": 80,
+      "sourceRefs": [],
+      "score": 0.65,
+      "analyzedAt": "2025-09-08T19:22:13.044Z"
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:22:13.565Z"
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating gas leaf blower regulations in the Village of Larchmont are as follows: a fine not exceeding $250 for the first offense, $500 for the second offense, and $1,000 for the third offense and any subsequent offenses, as stated in § 180-7B.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 180-7B"
+      ],
+      "score": 0.75,
+      "analyzedAt": "2025-09-08T19:22:14.792Z"
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:22:15.554Z"
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:22:15.897Z"
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:22:16.194Z"
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:22:16.681Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.24,
+    "normalizedScore": 1.05,
+    "averageConfidence": 24,
+    "questionsAnswered": 2,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.65,
+        0.1,
+        0.75,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.27142857142857146,
+      "weightedScore": 0.21
+    }
+  },
+  "overallScore": 1.05,
+  "averageConfidence": 24,
+  "questionsAnswered": 2,
+  "totalQuestions": 7,
+  "gapAnalysis": "",
+  "wenGrade": null,
+  "usesStateCode": false
+}

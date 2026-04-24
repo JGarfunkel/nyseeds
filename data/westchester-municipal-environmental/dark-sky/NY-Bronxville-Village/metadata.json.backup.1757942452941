@@ -1,0 +1,13 @@
+{
+  "municipality": "Bronxville",
+  "municipalityType": "Village",
+  "domain": "Dark Sky",
+  "domainId": "dark-sky",
+  "sourceUrl": "",
+  "originalCellValue": "https://ecode360.com/9450866#9450866",
+  "downloadedAt": "2025-08-12T20:11:50.496Z",
+  "contentLength": 67852,
+  "source": "WEN Ordinance Library",
+  "lastConverted": "2025-08-15T20:28:01.317Z",
+  "sourceType": "HTML"
+}

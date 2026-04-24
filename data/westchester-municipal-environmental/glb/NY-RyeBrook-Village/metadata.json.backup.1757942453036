@@ -1,0 +1,15 @@
+{
+  "municipality": "Rye Brook",
+  "municipalityType": "Village",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "G- CH-158-Noise",
+  "downloadedAt": "2025-09-05T16:37:37.358Z",
+  "contentLength": 8845,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:59.627Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/10842773",
+  "statuteNumber": "Ch 158",
+  "statuteTitle": "Alarm systems — See Ch"
+}

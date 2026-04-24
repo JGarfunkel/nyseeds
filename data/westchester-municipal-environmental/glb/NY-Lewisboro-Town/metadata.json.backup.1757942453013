@@ -1,0 +1,15 @@
+{
+  "municipality": "Lewisboro",
+  "municipalityType": "Town",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "CH-160-Noise",
+  "downloadedAt": "2025-09-05T16:34:13.975Z",
+  "contentLength": 7943,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:58.504Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/11022880",
+  "statuteNumber": "Ch 160",
+  "statuteTitle": "Dog control — See Ch"
+}

@@ -1,0 +1,17 @@
+{
+  "districtName": "Katonah-Lewisboro School District",
+  "entityId": "NY-KatonahLewisboro-CSD",
+  "domain": "stormwater",
+  "policyNumber": null,
+  "realm": "westchester-schools-sustainability",
+  "lastConverted": "2025-09-04T15:42:25.419Z",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-04T15:42:24.092Z",
+      "contentLength": 1546,
+      "sourceUrl": "https://www.klschools.org/page/sustainability",
+      "title": "Stormwater Management Compliance",
+      "type": "policy"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "municipality": {
+    "id": "NY-Somers-Town",
+    "displayName": "Somers - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property if it meets certain criteria, such as being in a regulated buffer zone, near a scenic road, or if you plan to remove more than a specified number of trees based on your property's zoning. To apply, you must file a tree removal permit application with the Town Engineer, which includes details like your name, address, the purpose of removal, photographs, and a survey. The Town Engineer reviews the application and will approve, approve with conditions, or deny it within 21 days of receiving a complete application.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§156-4",
+        "§156-5"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit include being guilty of a misdemeanor, which can result in a fine of up to $1,000 for individuals or $5,000 for corporations per tree. There may also be imprisonment for up to one year. Additionally, offenders may be required to restore the site to its previous condition, which includes submitting a replanting plan that requires multiple trees to be replanted based on the diameter of the removed trees.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§156-8"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "The specific fee for removing each tree is not stated in the statute. It mentions that a tree removal application shall be accompanied by a fee determined by a fee schedule set by the Town Board, but the exact amount of the fee is not provided.",
+      "confidence": 15,
+      "sourceRefs": [
+        "§156-7"
+      ],
+      "score": 0.8
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed as part of the conditions for a tree removal permit. However, the statute does not specify whether non-native species are allowed as replacements, so it is unclear if they would be permitted.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§156-6"
+      ],
+      "score": 0.1
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "The statute does not specify which neighbors must be notified if you remove trees. It does indicate that the Town Engineer may impose conditions regarding tree removal, but does not provide explicit details about neighbor notification requirements.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "The statute emphasizes the importance of preserving trees for ecological health, but it doesn't specifically mention the term 'tree canopy' or outline detailed provisions for maintaining a healthy tree canopy. Instead, it focuses on the general benefits trees provide and the need to prevent their indiscriminate destruction.",
+      "confidence": 15,
+      "sourceRefs": [
+        "§156-1"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "The statute does not explicitly detail individual responsibilities for maintaining trees on your property. It primarily focuses on the removal process and permitting. However, it mentions that the proper felling of trees should include professional techniques to control soil erosion and sediment-laden runoff, implying a responsibility to manage tree removal responsibly.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.65
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "The statute does not explicitly require data collection on tree removals or the presentation of a report to the public. However, it does mention that the Town Engineer shall keep accurate records of tree removal permit applications and inspect trees, but there are no specific reporting requirements outlined for public presentation.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.6
+    }
+  ],
+  "scores": {
+    "overallScore": 0.32,
+    "normalizedScore": 2.4,
+    "averageConfidence": 32,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        0.3,
+        0.8,
+        0.1,
+        0.1,
+        0.3,
+        0.65,
+        0.6
+      ],
+      "averageQuestionScore": 0.48125,
+      "weightedScore": 0.48
+    }
+  },
+  "overallScore": 2.4,
+  "averageConfidence": 32,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T19:03:13.767Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

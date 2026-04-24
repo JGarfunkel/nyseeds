@@ -1,0 +1,121 @@
+{
+  "municipality": {
+    "id": "NY-Tarrytown-Village",
+    "displayName": "Tarrytown - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree exceeding four inches in diameter at a height of four feet six inches from the ground on private property. To apply, you must follow the procedures set forth by the Tree Commission. The Tree Commission, along with the Planning Board or Zoning Board of Appeals, reviews the application depending on the circumstances. The specific procedures are detailed in § 281-11.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 281-4",
+        "§ 281-11"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove trees without a permit, you can be fined $500 or the replacement cost of the tree(s) improperly removed, whichever is greater. You may also be imprisoned for up to 15 days. Each day the violation continues counts as a separate offense. The replacement cost is based on the cost to replace the removed or damaged tree(s) with ones having the same characteristics and species.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 281-15"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "The specific fee for removing each tree without a replacement is not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.75
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed instead of making a payment. However, the statute does not specify whether non-native species are allowed as replacements, so that information is not provided.",
+      "confidence": 65,
+      "sourceRefs": [
+        "§ 281-12"
+      ],
+      "score": 0.1
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "All decisions or determinations made by the Tree Warden approving tree removal applications must be sent to adjoining property owners and to the Environmental Advisory Committee.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 281-11D"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy, as it states that trees provide various benefits such as shade, controlling pollution, and preventing erosion. Additionally, it establishes standards for tree protection to maintain the community's health and welfare.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 281-1"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As a property owner, you are responsible for keeping trees that are on your land trimmed so that the lowest branches are at least 15 feet from the road and eight feet from the sidewalk. Additionally, you must ensure that any tree or shrub that poses a danger to public safety or is diseased be addressed. If you neglect to trim trees after being notified by the Village, they have the right to trim them and charge you for the expense.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 281-10",
+        "§ 281-12B"
+      ],
+      "score": 0.85
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "The statute does not specify a requirement for data collection on tree removals or for presentation in a report to the public. However, the Tree Commission reviews tree permit applications and activities but detailed reporting to the public is not mentioned.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.64,
+    "normalizedScore": 3.1,
+    "averageConfidence": 64,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        1,
+        0.75,
+        0.1,
+        0.6,
+        0.55,
+        0.85,
+        0.1
+      ],
+      "averageQuestionScore": 0.6187499999999999,
+      "weightedScore": 0.62
+    }
+  },
+  "overallScore": 3.1,
+  "averageConfidence": 64,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T19:03:32.535Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

@@ -1,0 +1,212 @@
+{
+  "municipality": {
+    "id": "NY-MountPleasant-Town",
+    "displayName": "Mount Pleasant - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "The statute specifies that a permit is required to remove a tree on streets or town-owned property, and permits for trees on private property are not explicitly discussed. Permits for other tree-related activities require applications to be made at the office of the Town Arborist at least 48 hours in advance. The Town Arborist has authority over issuing permits.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 201-6"
+      ],
+      "score": 0.95,
+      "gap": "Consider adding explicit guidelines for when a permit is required for tree removal on private property, including detailed application procedures, review criteria, timelines for decision-making, and an appeal process for denied permits."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove trees without a permit, you may be fined between $25 and $500, or face imprisonment for up to 60 days, or both.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 201-13"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding specific guidelines on the application procedures for obtaining a tree removal permit, including detailed timelines for submission and review, criteria for approval, and a clear appeal process for denied applications."
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific costs per tree, available payment options, any applicable exemptions, and provisions to ensure the fees cover administrative costs associated with enforcement and processing."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant trees to replace those removed. Replacements should be in accordance with the Arboricultural Specifications, and the replacement trees must meet the standards of size, species, and placement as provided in a permit issued by the Municipal Arborist. The statute does not specify whether non-native species are allowed.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 201-6"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding specific guidelines on the allowance and conditions for planting non-native species as replacements, including any required approval processes or restrictions to ensure ecological compatibility and biodiversity preservation."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement that property owners must notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail or direct delivery, to ensure all potentially affected parties are informed."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the statute recognizes the importance of keeping a healthy tree canopy. It defines Canopy Tree Protection Zones and requires tree protection and reforestation plans to ensure tree coverage and replacement of removed trees. The importance of trees is noted in maintaining environmental quality and aesthetics.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 201-3",
+        "§ 201-11"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding specific coverage targets and measurement methods for tree canopy to ensure clear goals and accountability in maintaining and enhancing the tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Property owners are responsible for pruning trees on their property that border on any street to prevent obstruction of streetlights, pedestrian sidewalks, traffic signs, and intersections. Trees must maintain a minimum clearance of 10 feet over sidewalks and 12 feet over streets. Owners must comply with written notices to prune within three days, or the municipality will conduct the pruning at the owner's expense.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 201-7"
+      ],
+      "score": 0.9,
+      "gap": "Consider adding a provision that specifies a regular inspection schedule for property owners to assess tree health and potential hazards, ensuring proactive maintenance and hazard management."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to systematically collect data on all tree removals, including the location, species, size, and reason for removal, and to compile this information into an annual public report to enhance transparency and accountability."
+    }
+  ],
+  "scores": {
+    "overallScore": 4.4,
+    "normalizedScore": 4.4,
+    "averageConfidence": 59,
+    "questionsAnswered": 5,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.95,
+        0.3,
+        0.1,
+        0.1,
+        0.1,
+        0.85,
+        0.9,
+        0.1
+      ],
+      "averageQuestionScore": 0.42500000000000004,
+      "weightedScore": 0.44,
+      "totalWeightedScore": 6.6,
+      "totalPossibleWeight": 15,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+          "answer": "The statute specifies that a permit is required to remove a tree on streets or town-owned property, and permits for trees on private property are not explicitly discussed. Permits for other tree-related activities require applications to be made at the office of the Town Arborist at least 48 hours in advance. The Town Arborist has authority over issuing permits.",
+          "score": 0.95,
+          "weight": 1,
+          "weightedScore": 0.95,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the penalties for removing trees without a permit?",
+          "answer": "If you remove trees without a permit, you may be fined between $25 and $500, or face imprisonment for up to 60 days, or both.",
+          "score": 0.3,
+          "weight": 2,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What is the fee for removing each tree without a replacement?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 15
+        },
+        {
+          "id": "4",
+          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+          "answer": "Yes, you can replant trees to replace those removed. Replacements should be in accordance with the Arboricultural Specifications, and the replacement trees must meet the standards of size, species, and placement as provided in a permit issued by the Municipal Arborist. The statute does not specify whether non-native species are allowed.",
+          "score": 0.1,
+          "weight": 3,
+          "weightedScore": 0.30000000000000004,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "Which neighbors must be notified if I remove trees? ",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 15
+        },
+        {
+          "id": "6",
+          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+          "answer": "Yes, the statute recognizes the importance of keeping a healthy tree canopy. It defines Canopy Tree Protection Zones and requires tree protection and reforestation plans to ensure tree coverage and replacement of removed trees. The importance of trees is noted in maintaining environmental quality and aesthetics.",
+          "score": 0.85,
+          "weight": 3,
+          "weightedScore": 2.55,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "8",
+          "question": "What are my responsibilities for maintaining trees on my property?",
+          "answer": "Property owners are responsible for pruning trees on their property that border on any street to prevent obstruction of streetlights, pedestrian sidewalks, traffic signs, and intersections. Trees must maintain a minimum clearance of 10 feet over sidewalks and 12 feet over streets. Owners must comply with written notices to prune within three days, or the municipality will conduct the pruning at the owner's expense.",
+          "score": 0.9,
+          "weight": 2,
+          "weightedScore": 1.8,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "9",
+          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 15
+        }
+      ]
+    }
+  },
+  "overallScore": 4.4,
+  "averageConfidence": 59,
+  "questionsAnswered": 5,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-09T18:23:08.380Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4.4,
+  "scoresUpdatedAt": "2025-10-10T17:18:10.191Z"
+}

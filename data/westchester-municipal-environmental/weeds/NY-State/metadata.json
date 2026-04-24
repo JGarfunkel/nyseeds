@@ -1,0 +1,11 @@
+{
+  "municipality": "NY-State",
+  "municipalityType": "Unknown",
+  "domain": "Weeds",
+  "domainId": "weeds",
+  "originalCellValue": "Not available",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:04.987Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sources": []
+}

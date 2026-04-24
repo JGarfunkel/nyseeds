@@ -1,0 +1,97 @@
+{
+  "municipality": {
+    "id": "NY-Bedford-Town",
+    "displayName": "Bedford - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents in the Town of Bedford are required to maintain their properties in a sanitary and well-maintained condition. Specifically, they must avoid overgrown and unsightly conditions resulting from overgrown grass or vegetation on established lawns, as specified in the statute. This means keeping the lawn and vegetation trimmed and neat to avoid negatively affecting the neighborhood's appearance and property values.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 90-2"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding specific height limits for grass and vegetation to clearly define what constitutes \"overgrown\" conditions, ensuring consistent enforcement and understanding among residents."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "The statute does not specify any exceptions for cultivated pollinator gardens. It requires properties to avoid overgrown and unsightly conditions but does not mention allowances or considerations for pollinator gardens.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding explicit provisions in the statute that define and permit cultivated pollinator gardens, including specific criteria such as plant species, maintenance standards, and designated areas, to ensure they are recognized and not mistaken for overgrown or unsightly conditions."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 42,
+      "sourceRefs": [
+        "§ 90-4",
+        "§ 90-1"
+      ],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T16:58:13.820Z",
+      "gap": "Consider adding a provision to the statute that requires property owners to maintain the area between their property lot lines and the curb, including the removal of weeds, to ensure a consistent and well-kept appearance of public spaces."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "According to § 90-3, any owner or occupant who violates any provisions of the Property Maintenance Code of the State of New York or the local chapter shall be subject to a penalty of up to $200 for each day during which such violation continues. Additionally, if the Town incurs costs and expenses in correcting or removing the violation, these costs will be charged to the owner and can become a lien on the property if not paid within 30 days, as specified in § 90-4 and the subsequent sections.",
+      "confidence": 59,
+      "sourceRefs": [
+        "§ 90-3",
+        "§ 90-4"
+      ],
+      "score": 0.89,
+      "gap": "The statute seems to lack specific provisions for escalating penalties for repeat offenses, which could deter habitual non-compliance by imposing higher fines for subsequent violations."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The timeline for resolving a property maintenance violation before penalties are applied is as follows:\n\n1. The owner or occupant is served with a written notice of violation and an order to correct the violation within 30 days (§ 90-4 A).\n2. If the owner or occupant fails to comply within those 30 days, the Building Inspector reports to the Town Board, which then holds a public hearing (§ 90-4 B).\n3. If the violation is not corrected within 10 days after the public hearing, the Town may correct or remove the violation (§ 90-4 C).\n\nPenalties of up to $200 per day may be applied for each day the violation continues (§ 90-3).",
+      "confidence": 50,
+      "sourceRefs": [
+        "§ 90-4",
+        "§ 90-3"
+      ],
+      "score": 0.7,
+      "gap": "The statute seems to lack a clear escalation mechanism for repeat offenses, such as increasing penalty amounts for subsequent violations by the same owner or occupant."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.64,
+    "normalizedScore": 2.35,
+    "averageConfidence": 64,
+    "questionsAnswered": 4,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.7,
+        0.1,
+        0.1,
+        0.89,
+        0.7
+      ],
+      "averageQuestionScore": 0.49800000000000005,
+      "weightedScore": 0.47
+    }
+  },
+  "overallScore": 2.35,
+  "averageConfidence": 64,
+  "questionsAnswered": 4,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T16:58:16.211Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

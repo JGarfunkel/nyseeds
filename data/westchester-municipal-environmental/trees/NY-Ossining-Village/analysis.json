@@ -1,0 +1,30 @@
+{
+  "municipality": {
+    "id": "NY-Ossining-Village",
+    "displayName": "Unknown - Village"
+  },
+  "domain": "Trees & Urban Forestry",
+  "grade": null,
+  "gradeColor": "#6b7280",
+  "lastUpdated": "2025-08-26T11:35:16.218Z",
+  "overallScore": 0,
+  "processingMethod": "vector-search-with-scoring",
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 0,
+    "scoreBreakdown": {
+      "questionScores": [],
+      "averageQuestionScore": 0,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
+      "totalPossibleWeight": 0,
+      "questionsWithScores": []
+    }
+  },
+  "normalizedScore": 0,
+  "scoresUpdatedAt": "2025-10-10T17:18:10.202Z",
+  "questions": []
+}

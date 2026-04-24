@@ -1,0 +1,185 @@
+{
+  "municipality": {
+    "id": "NY-Buchanan-Village",
+    "displayName": "Buchanan - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a clear regulatory framework that specifies the exact start and end dates for the prohibition of gas leaf blowers, such as a seasonal ban from May 1st to September 30th, to ensure clarity and compliance."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blower operation is not explicitly mentioned, but landscape maintenance equipment, which may include gas leaf blowers, is prohibited between 7:00 p.m. and 8:00 a.m. on all days, and until 10:00 a.m. on Sundays.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 119-5"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding explicit mention of gas leaf blowers in the statute to clarify their permitted hours of operation and eliminate ambiguity regarding their classification under landscape maintenance equipment."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Violations of noise regulations, which may include gas leaf blower regulations, are punishable by a fine of $250 for the first offense. Each day constitutes a separate offense. For subsequent violations, the fine increases to $500.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 119-7"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding specific enforcement mechanisms, such as detailing which municipal department is responsible for issuing fines and how violations are reported and verified, to strengthen the regulation's clarity and effectiveness."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that explicitly outlines exceptions or specific requirements for school, government, and commercial properties, including criteria for eligibility and any conditions that must be met to qualify for these exceptions."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations can be substantiated by sworn affidavits from two or more unrelated persons who reside in different residences or by direct observation by an enforcement officer, which may include reviewing a Police Officer's body worn camera. Enforcement is carried out by the Police Department of the Village of Buchanan.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 119-6"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding a requirement for a centralized digital platform where residents can report violations anonymously, track the status of their reports, and access aggregated data on enforcement actions to enhance transparency and public engagement."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for public education programs that promote the environmental benefits of leaving leaf debris and mulching, including guidelines for residents on how to effectively implement these practices to enhance soil health and reduce waste."
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for an annual public report that includes comprehensive data collection on relevant municipal activities, transparency measures detailing how the data is gathered and used, and tracking mechanisms to monitor progress and ensure accountability."
+    }
+  ],
+  "scores": {
+    "overallScore": 3.42,
+    "normalizedScore": 3.42,
+    "averageConfidence": 48,
+    "questionsAnswered": 3,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.6,
+        0.7,
+        0.1,
+        0.7,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.3428571428571429,
+      "weightedScore": 0.3417,
+      "totalWeightedScore": 4.1,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 4,
+          "weightedScore": 0.4,
+          "maxWeightedScore": 4,
+          "confidence": 20
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Gas leaf blower operation is not explicitly mentioned, but landscape maintenance equipment, which may include gas leaf blowers, is prohibited between 7:00 p.m. and 8:00 a.m. on all days, and until 10:00 a.m. on Sundays.",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "Violations of noise regulations, which may include gas leaf blower regulations, are punishable by a fine of $250 for the first offense. Each day constitutes a separate offense. For subsequent violations, the fine increases to $500.",
+          "score": 0.7,
+          "weight": 3,
+          "weightedScore": 2.0999999999999996,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Violations can be substantiated by sworn affidavits from two or more unrelated persons who reside in different residences or by direct observation by an enforcement officer, which may include reviewing a Police Officer's body worn camera. Enforcement is carried out by the Police Department of the Village of Buchanan.",
+          "score": 0.7,
+          "weight": 1,
+          "weightedScore": 0.7,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        }
+      ]
+    }
+  },
+  "overallScore": 3.42,
+  "averageConfidence": 48,
+  "questionsAnswered": 3,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-09T19:59:07.570Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 3.42,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.222Z"
+}

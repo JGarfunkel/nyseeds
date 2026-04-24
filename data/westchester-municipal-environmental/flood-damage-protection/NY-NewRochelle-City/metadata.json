@@ -1,0 +1,11 @@
+{
+  "municipality": "New Rochelle",
+  "municipalityType": "City",
+  "domain": "Flood damage protection",
+  "domainId": "flood-damage-protection",
+  "originalCellValue": "Not available",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T15:44:13.231Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sources": []
+}

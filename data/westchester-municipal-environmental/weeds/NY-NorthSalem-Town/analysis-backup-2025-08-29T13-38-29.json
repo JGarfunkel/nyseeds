@@ -1,0 +1,94 @@
+{
+  "municipality": {
+    "id": "NY-NorthSalem-Town",
+    "displayName": "North Salem - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weed Management"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding yard and landscape conditions?",
+      "answer": "Not specified in the statute.",
+      "confidence": 44,
+      "sourceRefs": [
+        "§ 171-4"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack clear guidelines on property maintenance concerning yard and landscape conditions. The municipality should establish a regulatory framework that mandates residents to maintain their yards by regularly mowing lawns, trimming overgrown vegetation, and ensuring that landscapes are free from debris and hazardous materials to promote community aesthetics and safety."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator garddens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 40,
+      "sourceRefs": [
+        "§ 171-4"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack provisions for cultivated pollinator gardens. The municipality should establish a regulatory framework that explicitly permits and defines standards for cultivated pollinator gardens, including guidelines for plant selection, maintenance practices, and size limitations to ensure they do not interfere with property aesthetics or safety."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "The penalties for failing to comply with property maintenance regulations include the cost of removal of the violation by the Town, which will be charged and assessed against the property owner. This expense will constitute a lien on the property until it is paid or otherwise satisfied. Additionally, the owner, tenant, or occupant may still be subject to other penalties as specified in the chapter. (§ 171-4)",
+      "confidence": 55,
+      "sourceRefs": [
+        "§ 171-4"
+      ],
+      "score": 0.75,
+      "gap": "The statute seems to lack specific details on the fine amounts, escalation procedures for repeat offenses, and clear categorization of different types of violations, which could enhance clarity and enforcement consistency."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the statute.",
+      "confidence": 46,
+      "sourceRefs": [
+        "§ 171-4"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack a clear timeline for resolving property maintenance violations before penalties are applied. The municipality should establish a regulatory framework that specifies a 30-day period for property owners to address maintenance violations, with escalating fines for non-compliance and repeat offenses, categorized by the severity of the violation."
+    },
+    {
+      "id": "11",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 48,
+      "sourceRefs": [
+        "§ 171-4"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack clarity on the extent of property maintenance responsibilities beyond the lot lines, such as to the curb. The municipality should establish a regulatory framework that clearly defines property owner responsibilities for maintaining the area from their property line to the curb, including standards for sidewalk cleanliness, snow removal, and vegetation control."
+    }
+  ],
+  "lastUpdated": "2025-08-29T01:35:02.408Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.47,
+    "normalizedScore": 0.57,
+    "averageConfidence": 47,
+    "questionsAnswered": 1,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0,
+        0.75,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.15,
+      "weightedScore": 0.11399999999999999
+    }
+  },
+  "overallScore": 0.57,
+  "normalizedScore": 0.57,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.751Z"
+}

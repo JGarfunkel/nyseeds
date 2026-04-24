@@ -1,0 +1,98 @@
+{
+  "municipality": {
+    "id": "NY-Cortlandt-Town",
+    "displayName": "Cortlandt - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you'll generally need a permit to remove a tree on your private property unless certain exceptions apply. If your property is a residential area not greater than four acres, you can remove up to three non-protected trees within a twelve-month period without a permit, provided they are not within 10 feet of the property line on lots greater than 20,000 square feet. To apply for a permit, you'll need to submit an application to the appropriate approving authority, which depends on your specific situation. If no other permits are involved, the Director of Technical Services would review your application. You'll need to provide detailed information such as your name, property details, reasons for tree removal, and other relevant details as outlined in § 283-6.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 283-3",
+        "§ 283-6",
+        "§ 283-5"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove trees without a required permit, you could face civil penalties, criminal penalties, or both. Civil penalties include a fine of up to $1,000 for the first offense, $2,000 for a second offense, and $3,000 for each subsequent violation. Each week that the violating condition continues is considered a separate offense. Additionally, criminal penalties include being guilty of a violation with a fine of up to $500, and for subsequent offenses, it can escalate to a misdemeanor with a fine of up to $1,000 or up to 30 days in jail, or both. On top of these penalties, the Town Board and Director of Code Enforcement can seek legal action to remedy the situation. The Director of Code Enforcement also has the power to order restoration of the affected area.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 283-12"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "The statute does not specify any fees directly associated with permits for removing individual trees. It mentions that the applicant is responsible for costs related to hiring an ISA-certified arborist for tree inventory and protection plan assessments when applicable, but it doesn't list specific fees for the permit itself.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed, instead of making a payment. If trees are removed without a permit, the responsible party must replant trees, and the replacements should be of similar species or as advised by the approving authority. The statute suggests using native species for replanting since non-native species might not be acceptable when considering the tree removal conditions. The replanted trees should comply with the standards set forth in the statute, and you should follow the tree planting list provided in Appendix B.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 283-9"
+      ],
+      "score": 1
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "If you are required to apply for a permit to remove trees, notice must be provided to adjoining property owners and those directly across the street from your property. For applications reviewed by the Zoning Board of Appeals, Planning Board, or Town Board, property owners have 20 days from the notice date or until public hearings are closed to submit comments. For applications reviewed by the Director of Technical Services or when public hearings are not necessary, property owners have 20 days from receiving the notice to provide written comments.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 283-6C"
+      ],
+      "score": 1
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of a healthy tree canopy. In § 283-1, the findings emphasize the ecological benefits of trees, including their role in stabilizing soil, controlling water pollution, and contributing to air quality. Additionally, § 283-3 restricts activities such as tree topping which harms the canopy, thereby underscoring the importance of maintaining healthy tree canopies.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 283-1",
+        "§ 283-3"
+      ],
+      "score": 1
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As a property owner, you are responsible for maintaining the trees on your property, which involves regular activities like trimming, pruning, and ensuring that dead or diseased trees are removed if they pose a threat to the health of other trees or property. You can remove up to three non-protected trees within a twelve-month period without a permit. It's also your responsibility to submit documentation to the Director of Technical Services if you remove trees under certain conditions outlined in the statute. Moreover, if you remove trees without proper permissions, you must restore the affected area and replant trees according to the guidelines in the statute.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 283-3",
+        "§ 283-9"
+      ],
+      "score": 1
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "lastUpdated": "2025-09-05T10:58:29.677Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

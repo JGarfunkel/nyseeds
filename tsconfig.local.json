@@ -4,7 +4,7 @@
     "paths": {
       "@/*": ["./client/src/*"],
       "@ordinizer/core": ["../ordinizer/packages/core/src"],
-      "@ordinizer/client/ui": ["../ordinizer/client/src/ui/index.ts"],
+      "@ordinizer/client/ui": ["../ordinizer/app/client/src/ui/index.ts"],
       "@ordinizer/app/*": ["../ordinizer/app/client/src/*"],
       "@ordinizer/client": ["../ordinizer/client/src/index.ts"]
     }

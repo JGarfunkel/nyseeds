@@ -1,0 +1,15 @@
+{
+  "municipality": "Bedford",
+  "municipalityType": "Town",
+  "domain": "Wetland protection",
+  "domainId": "wetland-protection",
+  "originalCellValue": "G-https://ecode360.com/6236985",
+  "downloadedAt": "2025-09-05T16:15:09.161Z",
+  "contentLength": 53302,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T20:33:18.128Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/6236985",
+  "statuteNumber": "Ch 122",
+  "statuteTitle": "Environmental quality review — See Ch"
+}

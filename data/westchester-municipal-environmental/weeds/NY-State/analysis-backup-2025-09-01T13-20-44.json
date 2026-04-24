@@ -1,0 +1,83 @@
+{
+  "municipality": "NY-State",
+  "domain": "weeds",
+  "analyzedAt": "2025-09-01T13:20:44.615Z",
+  "answers": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents are required to maintain all developed areas of their premises that are intended for use by building occupants or the public free from weeds exceeding 10 inches (254 mm) in height. Additionally, noxious weeds are prohibited. Weeds are defined as uncultivated vegetation such as grasses, brush, briars, and annual plants, excluding trees and cultivated vegetation like shrubs, flowers, gardens, and vegetation used for agricultural purposes.",
+      "confidence": 80,
+      "sourceRefs": [],
+      "score": 1,
+      "analyzedAt": "2025-09-01T13:20:42.162Z"
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-09-01T13:20:42.654Z"
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-09-01T13:20:43.436Z"
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-09-01T13:20:44.053Z"
+    },
+    {
+      "id": "11",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "analyzedAt": "2025-09-01T13:20:44.614Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.16,
+    "normalizedScore": 0.7600000000000001,
+    "averageConfidence": 16,
+    "questionsAnswered": 1,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.2,
+      "weightedScore": 0.15200000000000002
+    }
+  },
+  "overallScore": 0.7600000000000001,
+  "averageConfidence": 16,
+  "questionsAnswered": 1,
+  "totalQuestions": 5,
+  "gapAnalysis": [
+    "Consider adding specific statewide standards for weed control on residential properties",
+    "Consider adding uniform enforcement mechanisms across municipalities",
+    "Consider adding guidance for property owners on integrated weed management practices",
+    "Consider adding provisions for coordination between state and local weed management efforts",
+    "Consider adding environmental protection standards for herbicide use in residential areas"
+  ],
+  "wenGrade": null,
+  "usesStateCode": false
+}

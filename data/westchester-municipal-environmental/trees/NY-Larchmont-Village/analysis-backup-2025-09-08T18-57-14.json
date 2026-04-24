@@ -1,0 +1,121 @@
+{
+  "municipality": {
+    "id": "NY-Larchmont-Village",
+    "displayName": "Larchmont - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "Any person violating provisions of this chapter shall be guilty of a violation and can be fined up to $500. Each day the violation continues counts as a separate offense. Additionally, there is a civil penalty of $200 for each day the violation continues for every tree. If a park tree or street tree is removed or damaged, the person responsible must pay the Village the cost to replace the tree or multiple trees if it cannot be replaced in kind.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 263-18"
+      ],
+      "score": 0.8
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "The statute specifies that if a tree is removed or damaged to the extent that it must be replaced, the person responsible must pay the cost the Village will incur to replace the tree in kind or, if it cannot be reasonably replaced in kind, the cost of planting multiple trees. The exact fee for removing each tree without a replacement is not clearly defined in a specific dollar amount.",
+      "confidence": 70,
+      "sourceRefs": [
+        "§ 263-18"
+      ],
+      "score": 0.95
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "The statute allows for the removal of trees and indicates that the Village has the authority to require replacement. However, it does not explicitly state that you can replant new trees in lieu of payment or whether non-native species are permitted as replacements. The Parks and Trees Committee maintains a list of recommended species, which would guide suitable plantings.",
+      "confidence": 60,
+      "sourceRefs": [
+        "§ 263-18",
+        "§ 263-10"
+      ],
+      "score": 0.9
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "The statute emphasizes the preservation and maintenance of trees for public safety, environmental benefits, and overall welfare, indicating the importance of keeping a healthy tree canopy. Specifically, it mentions the need for a plan for care, preservation, and maintenance of trees, which supports the idea of maintaining a healthy tree canopy.",
+      "confidence": 80,
+      "sourceRefs": [
+        "§ 263-1",
+        "§ 263-14"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As the owner of any tree or bush overhanging or affecting any street or right-of-way, you are responsible for maintaining it at your own expense. This includes ensuring that it does not obstruct street lamp light, create a traffic safety hazard, or hinder passage on streets or sidewalks, with a clear space of eight feet above the street or the full width of the sidewalk. Additionally, you must remove any dead, diseased, or dangerous trees or bushes that pose a danger to the public.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 263-15"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "The statute requires the Village to study, investigate, and develop an annual plan for the care and maintenance of trees, which must be presented to the Village Board for approval. However, it does not explicitly mention a requirement for public reporting of data on tree removals.",
+      "confidence": 70,
+      "sourceRefs": [
+        "§ 263-14"
+      ],
+      "score": 0.65
+    }
+  ],
+  "scores": {
+    "overallScore": 0.56,
+    "normalizedScore": 2.7,
+    "averageConfidence": 56,
+    "questionsAnswered": 6,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.8,
+        0.95,
+        0.9,
+        0.1,
+        0.6,
+        0.6,
+        0.65
+      ],
+      "averageQuestionScore": 0.5875,
+      "weightedScore": 0.54
+    }
+  },
+  "overallScore": 2.7,
+  "averageConfidence": 56,
+  "questionsAnswered": 6,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T18:57:14.479Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

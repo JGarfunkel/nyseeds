@@ -1,0 +1,17 @@
+{
+  "districtName": "Chappaqua Central School District",
+  "entityId": "NY-Chappaqua-CSD",
+  "domain": "curriculum",
+  "policyNumber": null,
+  "realm": "westchester-schools-sustainability",
+  "lastConverted": "2025-09-04T15:42:06.959Z",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-04T15:42:06.404Z",
+      "contentLength": 1294,
+      "sourceUrl": "https://sites.google.com/chappaquaschools.org/chappaquacentralschooldistrict/science/sustainability",
+      "title": "Student Sustainability Learning Standards (K–12)",
+      "type": "policy"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "municipality": {
+    "id": "NY-Larchmont-Village",
+    "displayName": "Unknown - Village"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weed Management"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding yard and landscape conditions?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "gap": "The statute seems to lack clear guidelines on property maintenance for yards and landscapes. The municipality should establish a regulatory framework that mandates residents to maintain their yards by keeping grass below a specified height, removing debris, and ensuring that landscaping does not obstruct sidewalks or roadways."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator garddens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 36,
+      "sourceRefs": [
+        "§ 115-1"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack provisions for cultivated pollinator gardens; the municipality should establish a regulatory framework that explicitly permits and defines standards for pollinator gardens, including guidelines for plant selection, maintenance practices, and size limitations to ensure they do not interfere with property aesthetics or safety."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "The penalties/fees for failing to comply with property maintenance regulations include the cost of the village performing the necessary work, plus an administrative charge of 20%. If the village or a third party does the work, the cost may become a lien against the property after a hearing before the Village Board of Trustees (§ 115-1).",
+      "confidence": 40,
+      "sourceRefs": [
+        "§ 115-1"
+      ],
+      "score": 0.6,
+      "gap": "The statute seems to lack specific fine amounts for initial and repeat offenses, which could provide clearer guidance on the financial consequences of non-compliance."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The timeline for resolving a property maintenance violation before penalties are applied is as follows:\n\n1. The village gives the owner 15 days' notice by certified mail to correct the condition (§ 115-1 A).\n2. If the owner fails to correct the condition within those 15 days, the village sends an additional 15 days' notice, including an estimate of the cost to cure the condition and an administrative charge of 20% (§ 115-1 B).\n3. The owner must commence the work within five days of receiving the second notice and promptly complete it to avoid the village performing the work at the owner's expense (§ 115-1 B).\n\nThe village may grant a reasonable extension of time if requested by the owner (§ 115-1 B).",
+      "confidence": 35,
+      "sourceRefs": [
+        "§ 115-1"
+      ],
+      "score": 0.55,
+      "gap": "The statute seems to lack specific details on the penalties for non-compliance with property maintenance violations. The municipality should establish a clear schedule of fines that escalate for repeat offenses, categorize violations by severity, and outline enforcement mechanisms to ensure compliance."
+    },
+    {
+      "id": "11",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law extends beyond the property lot lines to include the unpaved portion of any street or roadway between the owner's property line and the pavement of such street or roadway (§ 115-1).",
+      "confidence": 41,
+      "sourceRefs": [
+        "§ 115-1"
+      ],
+      "score": 0.61,
+      "gap": "The statute seems to lack specific guidelines or standards for the maintenance responsibilities of property owners regarding the unpaved portion of the street or roadway, such as requirements for debris removal, vegetation control, or snow and ice management."
+    }
+  ],
+  "lastUpdated": "2025-08-29T01:33:34.785Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.3,
+    "normalizedScore": 1.5487999999999995,
+    "averageConfidence": 30,
+    "questionsAnswered": 3,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0,
+        0.6,
+        0.55,
+        0.61
+      ],
+      "averageQuestionScore": 0.352,
+      "weightedScore": 0.3097599999999999
+    }
+  },
+  "overallScore": 1.5487999999999995,
+  "normalizedScore": 1.5487999999999995,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.726Z"
+}

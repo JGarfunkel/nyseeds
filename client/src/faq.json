@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Who is responsible for this website?",
+    "answer": "Ordinizer is developed and maintained by NY Seeds, led by Jon Garfunkel of Civilly Engaged. We are actively working with regional partners and advisory groups."
+  },
+  {
+    "question": "Where does the data come from?",
+    "answer": "The ordinance links were initially assembled by NYSACC (New York State Association of Conservation Commissions) and have been further curated and updated by Westchester Healthy Yards. The ordinance text itself is sourced directly from official municipal code publishers."
+  },
+  {
+    "question": "How do you access municipal codes?",
+    "answer": "We retrieve municipal code data directly from publicly available code hosting platforms. These codes are intended for public use. We are also exploring formal data-sharing arrangements with code publishers."
+  },
+  {
+    "question": "How often is the data updated?",
+    "answer": "The current dataset reflects ordinances as of October 2025. We plan to update the data at least annually and are exploring options for more frequent updates over time."
+  },
+  {
+    "question": "How is the ordinance analysis performed?",
+    "answer": "Analysis is conducted using the Ordinizer framework, which applies structured prompts tailored to each policy domain (e.g., tree preservation, wetlands). These prompts are iteratively refined to produce consistent, comparable summaries across municipalities."
+  },
+  {
+    "question": "How are ratings such as score, confidence, and gap determined?",
+    "answer": "Each analysis includes three evaluative fields: Confidence reflects how certain the system is in the interpretation; Score reflects how well the ordinance addresses a given issue; Gap identifies potential areas where the ordinance could be strengthened. These are generated through structured AI analysis and reviewed for consistency."
+  },
+  {
+    "question": "Why use AI for this work?",
+    "answer": "Ideally, this kind of comparative legal analysis would be performed collaboratively by subject-matter experts. In practice, local boards and municipalities often lack the time and resources for that level of coordination. AI enables a first-pass analysis that reduces the burden on volunteers and professionals, making it easier to identify gaps, compare approaches, and focus human expertise where it is most needed."
+  },
+  {
+    "question": "What is the environmental impact of using AI?",
+    "answer": "AI does consume energy, as does all modern computing. However, Ordinizer is designed to perform analysis once and serve many users through static results. This significantly reduces the marginal energy cost per user. In many cases, this approach may be more efficient than repeated manual research, meetings, or travel."
+  },
+  {
+    "question": "Can this be expanded to other regions or topics?",
+    "answer": "Yes. Ordinizer is designed to be extended to additional counties, states, and policy areas. We are actively seeking partners—such as municipalities, nonprofits, and regional organizations—to help expand the scope of the platform."
+  },
+  {
+    "question": "What are the broader goals of the project?",
+    "answer": "The goal of Ordinizer is to make local laws more transparent, comparable, and actionable. By helping officials, board members, and residents better understand existing regulations, we aim to support more informed decision-making and more effective environmental policy."
+  }
+]

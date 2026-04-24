@@ -1,0 +1,12 @@
+{
+  "municipality": "New Rochelle",
+  "municipalityType": "City",
+  "domain": "Cac cb etc",
+  "domainId": "cac-cb-etc",
+  "originalCellValue": "Not available",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:57.425Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Ch 9",
+  "sources": []
+}

@@ -1,0 +1,10 @@
+{
+  "districtName": "Croton-Harmon UFSD",
+  "entityId": "NY-CrotonHarmon-UFSD",
+  "domain": "stormwater",
+  "sourceUrl": "FAILED HTTP 404 https://www.chufsd.org/departments/stormwater-management",
+  "policyNumber": null,
+  "policyTitle": "Stormwater Management Program",
+  "downloadedAt": "2025-09-04T15:42:09.247Z",
+  "realm": "westchester-schools-sustainability"
+}

@@ -1,0 +1,19 @@
+{
+  "municipality": "Eastchester",
+  "municipalityType": "Town",
+  "domain": "Weeds",
+  "domainId": "weeds",
+  "originalCellValue": "R -https://cms5.revize.com/revize/eastchester/departments/docs/FinalZoningLawAndChartsPublicCopy.pdf",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:03.245Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-05T16:29:39.463Z",
+      "contentLength": 0,
+      "sourceUrl": "https://cms5.revize.com/revize/eastchester/departments/docs/FinalZoningLawAndChartsPublicCopy.pdf",
+      "title": "Weeds",
+      "type": "statute"
+    }
+  ]
+}

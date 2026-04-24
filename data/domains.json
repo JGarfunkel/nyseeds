@@ -3,18 +3,22 @@
     {
       "id": "trees",
       "name": "trees",
+      "show": true,
       "displayName": "Trees & Urban Forestry",
       "description": "Tree removal, planting, and maintenance regulations"
     },
     {
       "id": "glb",
       "name": "glb",
+      "show": true,
       "displayName": "Gas Leaf Blowers",
       "description": "Gas-powered leaf blower regulations and restrictions"
     },
     {
       "id": "wetland-protection",
       "name": "wetland-protection",
+            "show": true,
+
       "displayName": "Wetland Protection",
       "description": "Wetland conservation and protection ordinances"
     },

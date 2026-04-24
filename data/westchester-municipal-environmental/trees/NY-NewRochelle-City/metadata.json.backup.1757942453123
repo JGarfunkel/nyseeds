@@ -1,0 +1,15 @@
+{
+  "municipality": "New Rochelle",
+  "municipalityType": "City",
+  "domain": "Trees",
+  "domainId": "trees",
+  "originalCellValue": "G- https://ecode360.com/6737881",
+  "downloadedAt": "2025-09-05T16:39:00.415Z",
+  "contentLength": 40405,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:01.751Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/6737881",
+  "statuteNumber": "Chapter 301",
+  "statuteTitle": "Trees and Shrubs"
+}

@@ -1,0 +1,12 @@
+{
+  "municipality": "Croton-on- Hudson",
+  "municipalityType": "Village",
+  "domain": "Solar 1",
+  "domainId": "solar-1",
+  "originalCellValue": "Not available",
+  "downloadedAt": "2025-08-29T14:47:43.055Z",
+  "contentLength": 47606,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T15:44:13.281Z",
+  "note": "Metadata created retroactively for existing statute file"
+}

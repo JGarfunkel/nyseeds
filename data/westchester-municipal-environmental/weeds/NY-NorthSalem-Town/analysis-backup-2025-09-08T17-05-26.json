@@ -1,0 +1,94 @@
+{
+  "municipality": {
+    "id": "NY-NorthSalem-Town",
+    "displayName": "North Salem - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "The statute does not specify the exact property maintenance requirements or regulations regarding weeds. It only outlines the process for how the Town handles violations once they occur.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 171-4"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding specific property maintenance requirements that define acceptable weed height, types of prohibited weeds, and regular maintenance schedules to prevent violations and ensure clarity for residents."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute. The provided statute does not mention any exceptions for cultivated pollinator gardens.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 171-4"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding explicit provisions or exceptions in the property maintenance code that define and permit the establishment and maintenance of cultivated pollinator gardens, including specific guidelines on acceptable plant species, garden size, and maintenance practices to ensure they are distinguishable from neglected properties."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 45,
+      "sourceRefs": [
+        "§ 171-4"
+      ],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T17:05:26.277Z",
+      "gap": "Consider adding a provision to the statute that requires property owners to maintain the area between their property lot lines and the curb, including the removal of weeds, to ensure a consistent and well-kept appearance of public spaces."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "The penalties for failing to comply include the costs of removal of any vermin, nuisance, hazard, debris, litter, or property maintenance violations by the Town. These costs are charged to the property owner and become a lien on the property until paid. The statute does not specify exact fees or fines beyond covering the removal costs.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 171-4"
+      ],
+      "score": 1
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The statute requires the Town Board to provide a notice to the property owner, tenant, or occupant to correct the violation within a specified number of days that are not explicitly mentioned. If the violation is not corrected within this unspecified period, a public hearing is held with at least 10 days' notice before the date of the hearing.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 171-4"
+      ],
+      "score": 1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.77,
+    "normalizedScore": 3.55,
+    "averageConfidence": 77,
+    "questionsAnswered": 4,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.85,
+        0.85,
+        0.1,
+        1,
+        1
+      ],
+      "averageQuestionScore": 0.76,
+      "weightedScore": 0.71
+    }
+  },
+  "overallScore": 3.55,
+  "averageConfidence": 77,
+  "questionsAnswered": 4,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:05:26.277Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

@@ -1,0 +1,131 @@
+{
+  "municipality": {
+    "id": "NY-Hastings-on-Hudson-Village",
+    "displayName": "Hastings-on- Hudson - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a tree removal permit to cut down, destroy, or injure any designated tree. You must apply in writing to the Building Inspector. The application process involves consultation with the Tree Preservation Board before the permit is issued or denied.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 273-4",
+        "§ 273-7"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding specific timelines for the application review process and decision-making to provide clarity on how long applicants should expect to wait for a permit decision."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove trees without a permit, you can be fined between $250 and $5,000. Each tree removed is considered a separate offense. Additionally, you are required to replace any tree removed with one of the same species, size, and/or value, unless the Building Inspector approves a different size.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-12"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§ 273-8"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific charges per tree, available payment options, any applicable exemptions, and provisions to cover administrative costs."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "You can replant new trees as a form of mitigation for removed trees. The statute does not specify whether the replacement trees must be native or non-native species.",
+      "confidence": 80,
+      "sourceRefs": [
+        "§ 273-7",
+        "§ 273-12"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding specific requirements for the species of replacement trees, including a preference for native species, as well as guidelines for survival monitoring and replacement ratios to ensure ecological balance and compliance."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Neighbors that must be notified include those with properties adjacent to the property where the tree grows or properties that lie within 50 yards of the tree in question.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-7"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding specific timing requirements for when notifications must be sent to neighbors, such as a minimum number of days before tree removal, to ensure adequate notice is provided."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of trees by addressing the negative impacts of tree destruction on health, safety, the environment, and the general welfare of the community. It seeks to prevent barren conditions and deterioration of the community, which suggests an emphasis on maintaining a healthy tree canopy.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-1"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding specific coverage targets for tree canopy, detailed measurement methods for assessing canopy health, and comprehensive maintenance and long-term preservation strategies to strengthen the statute's emphasis on maintaining a healthy tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "You are responsible for ensuring that your actions, or those of your contractors, do not injure or destroy designated trees unless you have a tree removal permit. This includes preventing harmful substances from affecting the trees and avoiding damage during construction activities.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-4",
+        "§ 273-5"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding specific guidelines for regular inspection schedules and care standards for tree maintenance, including details on how often inspections should occur and what constitutes proper care to prevent hazards."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to collect detailed data on all tree removals, including location, species, size, and reason for removal, and to compile this information into an annual public report to enhance transparency and facilitate community engagement."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.69,
+    "normalizedScore": 1.95,
+    "averageConfidence": 69,
+    "questionsAnswered": 6,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.65,
+        1,
+        0.1,
+        0.1,
+        0.5,
+        0.3,
+        0.65,
+        0.1
+      ],
+      "averageQuestionScore": 0.425,
+      "weightedScore": 0.39
+    }
+  },
+  "overallScore": 1.95,
+  "averageConfidence": 69,
+  "questionsAnswered": 6,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T18:30:32.852Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

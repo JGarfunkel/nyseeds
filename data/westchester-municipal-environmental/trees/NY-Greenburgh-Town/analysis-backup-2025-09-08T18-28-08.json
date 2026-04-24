@@ -1,0 +1,123 @@
+{
+  "municipality": {
+    "id": "NY-Greenburgh-Town",
+    "displayName": "Greenburgh - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:27:54.829Z",
+      "gap": "Consider adding a clear regulatory framework that requires a permit for tree removal on private property, detailing the application procedures, review criteria, timelines for decision-making, an appeal process for denied applications, and specific standards for approval to ensure environmental and community considerations are met."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:27:56.123Z",
+      "gap": "Consider adding a section to the statute that specifies penalties for removing trees without a permit, including fines, mandatory replanting requirements, and potential legal action, to ensure compliance and protect urban forestry."
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:27:57.437Z",
+      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific costs per tree, available payment options, potential exemptions for certain cases, and provisions to ensure the fees cover administrative costs associated with enforcement and processing."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:27:59.591Z",
+      "gap": "Consider adding a regulation that mandates the replanting of native tree species at a minimum replacement ratio of 2:1 for every tree removed, with a requirement for a two-year survival monitoring period to ensure successful establishment."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:28:01.983Z",
+      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and clearly identifying any parties whose property may be affected by the removal."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:28:05.382Z",
+      "gap": "Consider adding a regulatory framework that establishes specific tree canopy coverage targets, outlines standardized methods for measuring canopy coverage, mandates regular maintenance plans, and implements long-term preservation strategies to ensure a healthy and sustainable urban forest."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:28:06.887Z",
+      "gap": "Consider adding a regulation that requires property owners to conduct annual inspections of trees on their property, adhere to established care standards, and promptly address any identified hazards to ensure public safety and prevent property damage."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T18:28:08.430Z",
+      "gap": "Consider adding a requirement for the municipality to systematically collect data on all tree removals, including location, species, and reason for removal, and to compile this information into an annual public report to enhance transparency and facilitate community engagement in urban forestry management."
+    }
+  ],
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0.35,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.09999999999999999,
+      "weightedScore": 0.07
+    }
+  },
+  "overallScore": 0.35,
+  "averageConfidence": 0,
+  "questionsAnswered": 0,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T18:28:08.430Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

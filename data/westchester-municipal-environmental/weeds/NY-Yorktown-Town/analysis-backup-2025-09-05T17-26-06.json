@@ -1,0 +1,96 @@
+{
+  "municipality": {
+    "id": "NY-Yorktown-Town",
+    "displayName": "Yorktown - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weed Management"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding yard and landscape conditions?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0,
+      "gap": "The statute seems to lack clear guidelines on property maintenance for yards and landscapes. The municipality should establish a regulatory framework that mandates residents to maintain their yards by keeping grass and weeds below a specified height, ensuring the removal of dead or diseased plants, and prohibiting the accumulation of debris to promote community aesthetics and environmental health."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator garddens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 46,
+      "sourceRefs": [
+        "§ 225-3",
+        "§ 216-10"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack provisions for cultivated pollinator gardens. The municipality should establish a regulatory framework that explicitly permits and defines standards for cultivated pollinator gardens, including guidelines on plant species, maintenance practices, and size limitations to ensure they do not interfere with property aesthetics or safety."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 46,
+      "sourceRefs": [
+        "§ 225-3",
+        "§ 216-10"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack clear penalties and enforcement mechanisms for non-compliance with property maintenance regulations. The municipality should establish a tiered penalty system that includes specific fine amounts for first-time and repeat offenses, categorizes violations by severity, and outlines enforcement procedures to ensure compliance."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the statute.",
+      "confidence": 34,
+      "sourceRefs": [
+        "§ 138-4",
+        "§ 216-10"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack a clear timeline for resolving property maintenance violations before penalties are applied. The municipality should establish a regulatory framework that specifies a standard resolution period, such as 30 days, after which penalties escalate for repeat offenses, with clear fine amounts and enforcement mechanisms categorized by the severity of the violation."
+    },
+    {
+      "id": "11",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law extends beyond the property lot lines to include the portion of public land between the property line and the traveled portion of any right-of-way fronting the property. This area must be maintained by the abutting owner in a condition that is neat, mowed as necessary, and free of litter (§ 225-3(A)(5)).",
+      "confidence": 51,
+      "sourceRefs": [
+        "§ 225-3",
+        "§ 216-10"
+      ],
+      "score": 0.71,
+      "gap": "The statute seems to lack specific guidelines or standards for the acceptable height of grass or vegetation in the area between the property line and the traveled portion of the right-of-way, which could lead to inconsistent enforcement and maintenance practices."
+    }
+  ],
+  "lastUpdated": "2025-08-29T01:37:00.534Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.35,
+    "normalizedScore": 0.5396,
+    "averageConfidence": 35,
+    "questionsAnswered": 1,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0,
+        0,
+        0,
+        0.71
+      ],
+      "averageQuestionScore": 0.142,
+      "weightedScore": 0.10791999999999999
+    }
+  },
+  "overallScore": 0.5396,
+  "normalizedScore": 0.5396,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.837Z"
+}

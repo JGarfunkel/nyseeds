@@ -1,0 +1,135 @@
+{
+  "municipality": {
+    "id": "NY-Bedford-Town",
+    "displayName": "Bedford - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property if it meets certain criteria. A tree removal permit is required for any tree 18 inches and over in diameter at breast height (dbh), any tree designated as a protected native plant, landmark or special trees, and others as specified in § 112-4A. To apply, you must submit a tree removal permit application with the required information outlined in § 112-5, such as the property details, purpose of removal, and other specifics depending on the rationale for removal. The Enforcement Officer will review the application, and they have 21 days to approve, approve with conditions, or deny it.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 112-4",
+        "§ 112-5"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If trees are removed without a permit or in violation of permit conditions, the owner of the property or the person removing the trees can be penalized. The penalties include a fine of not more than $350, imprisonment for not more than 15 days, and/or an order to restore the property and replace the removed trees according to a plan approved by the Enforcement Officer. Each unlawfully removed tree counts as a separate offense. Additionally, no other permits will be issued for the property until the replacement is completed and approved.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 112-8"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement? Are non-native trees exempt from requiring a removal permit?",
+      "answer": "The specific fee for removing each tree without a replacement is not detailed in the statute or the form document. The removal permit application fee structure is set by a fee schedule determined by the Town Board, which is not included in the documents provided. Additionally, the statute and form document do not specify whether non-native trees are exempt from requiring a removal permit.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 112-7"
+      ],
+      "score": 1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "The statute allows for the possibility of replanting as a condition for granting a tree removal permit to prevent erosion, provide screening, or remediate effects on neighboring properties, as mentioned in § 112-6C. However, it does not specify whether replanting can be done in lieu of a payment or if non-native species are allowed as replacements.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 112-6"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding explicit guidelines on whether replanting can be done in lieu of a payment, specifying acceptable replacement species, including any preferences for native species, and establishing requirements for survival monitoring and replacement ratios to ensure ecological balance and compliance."
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional",
+      "answer": "The statute designates that the Town Board will appoint an Enforcement Officer to administer and enforce the chapter, but it does not specify whether the Enforcement Officer is a trained arborist or environmental professional.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 112-3A"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a requirement that the Enforcement Officer must possess specific qualifications, such as certification as a trained arborist or environmental professional, to ensure they have the necessary expertise to effectively administer and enforce the chapter."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "The statute does not specify any requirement to notify neighbors when removing trees.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement that property owners must notify neighbors within a 100-foot radius at least 14 days in advance of tree removal, using certified mail or direct delivery, to ensure all potentially affected parties are informed."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code acknowledges the importance of trees by highlighting their benefits, such as stabilizing soil, reducing pollution, providing wildlife habitats, and supporting the ecological systems of the town. The purpose of the chapter is to prevent the indiscriminate destruction of trees while maintaining these benefits, which indicates an emphasis on preserving a healthy tree canopy.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 112-1A"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific coverage targets for tree canopy, detailed measurement methods for assessing canopy health, and comprehensive maintenance plans to ensure long-term preservation and enhancement of the tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "The statute does not explicitly outline specific responsibilities for maintaining trees on private property, other than the requirements for obtaining a permit if certain trees are to be removed.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.6,
+      "gap": "Consider adding a regulation that requires property owners to conduct annual inspections of trees on their property, adhere to established care standards to ensure tree health, and promptly address any identified hazards to prevent potential risks to public safety."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "The statute requires the Tree Advisory Board to make an annual report to the Town Board. This report should include recommendations to protect and enhance the town's trees, but it does not explicitly mandate data collection on tree removals or the presentation of such data in a report to the public.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 112-10C"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding a requirement for the Tree Advisory Board to systematically collect data on all tree removals, including the reasons for removal and the location, and to include this data in a publicly accessible annual report to enhance transparency and accountability."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.71,
+    "normalizedScore": 2.75,
+    "averageConfidence": 71,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        1,
+        1,
+        0.1,
+        0.1,
+        0.1,
+        0.55,
+        0.6,
+        0.5
+      ],
+      "averageQuestionScore": 0.55,
+      "weightedScore": 0.55
+    }
+  },
+  "overallScore": 2.75,
+  "averageConfidence": 71,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2025-09-16T00:37:05.411Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

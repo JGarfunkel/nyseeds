@@ -1,0 +1,47 @@
+{
+  "municipality": "NY-Irvington-UFSD",
+  "domain": "gardens",
+  "analyzedAt": "2025-09-04T16:36:44.370Z",
+  "answers": [
+    {
+      "id": "1",
+      "question": "Does the school district have school gardens, and how are they used",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-04T16:36:43.098Z"
+    },
+    {
+      "id": "2",
+      "question": "Does the school district follow any practices for using native perennials or controlling invasive weeds in landscaping?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-04T16:36:44.370Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0.35,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 2,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.1,
+      "weightedScore": 0.06999999999999999
+    }
+  },
+  "overallScore": 0.35,
+  "averageConfidence": 0,
+  "questionsAnswered": 0,
+  "totalQuestions": 2,
+  "gapAnalysis": "",
+  "wenGrade": null,
+  "usesStateCode": false
+}

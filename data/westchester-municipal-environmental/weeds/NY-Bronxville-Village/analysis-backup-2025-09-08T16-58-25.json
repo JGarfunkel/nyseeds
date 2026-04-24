@@ -1,0 +1,94 @@
+{
+  "municipality": {
+    "id": "NY-Bronxville-Village",
+    "displayName": "Bronxville - Village"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents in Bronxville Village are required to maintain their properties by ensuring that brush, grass, weeds, debris, rubbish, or other materials are cut, trimmed, and removed as necessary. If property owners fail to comply with these maintenance requirements, the Village Administrator will issue a notice requiring compliance within seven days. If the owner is not a resident, the notice will be sent to their last known address.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.75,
+      "gap": "Consider adding specific height limits for grass and weeds to provide clear guidelines for residents and ensure consistent enforcement of maintenance standards."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "Consider adding explicit provisions in the property maintenance code that define and permit cultivated pollinator gardens, including specific guidelines on acceptable plant species, maintenance standards, and any necessary permits or notifications to ensure they are distinguishable from neglected properties."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 46,
+      "sourceRefs": [
+        "§ 252-7"
+      ],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T16:58:22.921Z",
+      "gap": "Consider adding a provision to the statute that requires property owners to maintain the area between their property lot lines and the curb, including the removal of weeds, to ensure a consistent and well-kept appearance throughout the municipality."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "The penalties for failing to comply with property maintenance regulations include a fine of not more than $250, imprisonment for not more than 15 days, or both (§ 252-7). Additionally, if compliance is not achieved within seven days of notice, the Village Administrator may arrange for the necessary maintenance, and the cost will be assessed against the property as a lien, collected like delinquent taxes (§ 252-3).",
+      "confidence": 50,
+      "sourceRefs": [
+        "§ 252-7",
+        "§ 252-6"
+      ],
+      "score": 0.8,
+      "gap": "The statute seems to lack specific provisions for escalating penalties for repeat offenses, which could strengthen enforcement by deterring habitual non-compliance."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The timeline for resolving a property maintenance violation before penalties are applied is seven days from the date of mailing of the notice. If compliance is not achieved within this period, the Village Administrator is authorized to take corrective action, and the costs will be assessed against the property. (Referenced from STATUTE CHUNK 1 and STATUTE CHUNK 2, Section E).",
+      "confidence": 42,
+      "sourceRefs": [
+        "§ 252-7",
+        "§ 252-3"
+      ],
+      "score": 0.62,
+      "gap": "The statute seems to lack specific details on the fine amounts, escalation procedures for repeat offenses, and clear categorization of different types of property maintenance violations."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.62,
+    "normalizedScore": 2.6,
+    "averageConfidence": 62,
+    "questionsAnswered": 4,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.75,
+        0.5,
+        0.1,
+        0.8,
+        0.62
+      ],
+      "averageQuestionScore": 0.554,
+      "weightedScore": 0.52
+    }
+  },
+  "overallScore": 2.6,
+  "averageConfidence": 62,
+  "questionsAnswered": 4,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T16:58:25.729Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

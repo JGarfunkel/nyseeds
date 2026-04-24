@@ -1,0 +1,20 @@
+{
+  "municipality": "Rye Brook",
+  "municipalityType": "Village",
+  "domain": "Trees",
+  "domainId": "trees",
+  "originalCellValue": "G- https://ecode360.com/10844273",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:02.266Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Ch 235",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-05T16:42:04.721Z",
+      "contentLength": 35528,
+      "sourceUrl": "https://ecode360.com/10844273",
+      "title": "Erosion and sediment control — See Ch",
+      "type": "statute"
+    }
+  ]
+}

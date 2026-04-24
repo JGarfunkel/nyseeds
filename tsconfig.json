@@ -18,10 +18,11 @@
     "types": ["node", "vite/client"],
     "paths": {
       "@/*": ["./client/src/*"],
-      "@ordinizer/core": ["./node_modules/ordinizer/packages/core/src", "../ordinizer/packages/core/src"],
-      "@ordinizer/client/ui": ["./node_modules/ordinizer/client/src/ui/index.ts", "../ordinizer/client/src/ui/index.ts"],
-      "@ordinizer/app/*": ["./node_modules/ordinizer/app/client/src/*", "../ordinizer/app/client/src/*"],
-      "@ordinizer/client": ["./node_modules/ordinizer/client/src/index.ts", "../ordinizer/client/src/index.ts"]
+      "@ordinizer/core": ["./node_modules/ordinizer/packages/core/dist"],
+      "@ordinizer/servercore": ["./node_modules/ordinizer/packages/servercore/dist"],
+      "@ordinizer/client/ui": ["./node_modules/ordinizer/client/dist/ui/index.js"],
+      "@ordinizer/app/*": ["./node_modules/ordinizer/app/client/dist/*"],
+      "@ordinizer/client": ["./node_modules/ordinizer/client/dist/index.js"]
     }
   }
 }

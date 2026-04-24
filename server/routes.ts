@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import path from "path";
-import { registerRoutes as registerOrdinizerRoutes } from "ordinizer/app/server/routes";
+import { registerAllRoutes as registerOrdinizerRoutes } from "ordinizer/app/server/routes";
 
 /**
  * NYSeeds Server Routes
@@ -17,8 +17,8 @@ import { registerRoutes as registerOrdinizerRoutes } from "ordinizer/app/server/
 export async function registerRoutes(app: Express): Promise<Server> {
   // Mount Ordinizer application routes at /api/ordinizer
   // Pass nyseeds/data as the data directory path
-  const dataPath = path.join(process.cwd(), "data");
-  await registerOrdinizerRoutes(app, "/api/ordinizer", dataPath);
+  //const dataPath = path.join(process.cwd(), "data");
+  await registerOrdinizerRoutes(app, "/api/ordinizer");
   
   // Future: Add other application routes here
   // Example:

@@ -1,0 +1,179 @@
+{
+  "municipality": "NY-MountVernon-City",
+  "domain": "glb",
+  "analyzedAt": "2025-09-09T20:03:38.950Z",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas-powered leaf blowers lasts for 5 months of the year. It starts on May 1 and ends on September 30. (See § 191-42 A)",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 191-42"
+      ],
+      "score": 0.45,
+      "analyzedAt": "2025-09-09T20:03:34.011Z"
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "The permitted hours for gas leaf blower operation are Monday through Saturday from 9:00 a.m. to 5:00 p.m. (§ 191-42 B).",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 191-42"
+      ],
+      "score": 0.6,
+      "analyzedAt": "2025-09-09T20:03:34.544Z"
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating gas leaf blower regulations are as follows:\n\n1. For operating a gas-powered leaf blower outside the permitted months (March 1 through April 30 and October 1 through December 31) or outside the permitted hours (Monday through Saturday from 9:00 a.m. to 5:00 p.m.):\n   - First offense: Written warning\n   - Second offense: Fine not to exceed $250\n   - Third offense: Fine not to exceed $500\n   - Fourth and subsequent offenses: Fine not to exceed $1,000\n   - Both the operator of the leaf blower and the homeowner are subject to the fine (§ 191-42 A, B).\n\n2. For a landscaper operating a gas-powered leaf blower without a permit:\n   - First offense: Fine not to exceed $500\n   - Second offense: Fine not to exceed $750\n   - Every offense thereafter: Fine not to exceed $1,000 (§ 191-42 G).",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 191-42"
+      ],
+      "score": 0.9,
+      "analyzedAt": "2025-09-09T20:03:37.024Z"
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T20:03:37.579Z"
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T20:03:38.120Z"
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T20:03:38.464Z"
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T20:03:38.950Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 4.58,
+    "normalizedScore": 4.58,
+    "averageConfidence": 39,
+    "questionsAnswered": 3,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.45,
+        0.6,
+        0.9,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.3357142857142858,
+      "weightedScore": 0.4583,
+      "totalWeightedScore": 5.499999999999998,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "The prohibition of gas-powered leaf blowers lasts for 5 months of the year. It starts on May 1 and ends on September 30. (See § 191-42 A)",
+          "score": 0.45,
+          "weight": 4,
+          "weightedScore": 1.8,
+          "maxWeightedScore": 4,
+          "confidence": 90
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "The permitted hours for gas leaf blower operation are Monday through Saturday from 9:00 a.m. to 5:00 p.m. (§ 191-42 B).",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 90
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "The penalties for violating gas leaf blower regulations are as follows:\n\n1. For operating a gas-powered leaf blower outside the permitted months (March 1 through April 30 and October 1 through December 31) or outside the permitted hours (Monday through Saturday from 9:00 a.m. to 5:00 p.m.):\n   - First offense: Written warning\n   - Second offense: Fine not to exceed $250\n   - Third offense: Fine not to exceed $500\n   - Fourth and subsequent offenses: Fine not to exceed $1,000\n   - Both the operator of the leaf blower and the homeowner are subject to the fine (§ 191-42 A, B).\n\n2. For a landscaper operating a gas-powered leaf blower without a permit:\n   - First offense: Fine not to exceed $500\n   - Second offense: Fine not to exceed $750\n   - Every offense thereafter: Fine not to exceed $1,000 (§ 191-42 G).",
+          "score": 0.9,
+          "weight": 3,
+          "weightedScore": 2.7,
+          "maxWeightedScore": 3,
+          "confidence": 90
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 4.58,
+  "averageConfidence": 39,
+  "questionsAnswered": 3,
+  "totalQuestions": 7,
+  "gapAnalysis": "",
+  "wenGrade": "G-",
+  "usesStateCode": false,
+  "normalizedScore": 4.58,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.252Z"
+}

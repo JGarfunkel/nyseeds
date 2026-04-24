@@ -1,0 +1,109 @@
+{
+  "municipality": {
+    "id": "NY-NewCastle-Town",
+    "displayName": "New Castle - Town"
+  },
+  "domain": {
+    "id": "wetland-protection",
+    "displayName": "Wetland Protection"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 3,
+      "question": "What are the setback requirements from wetland boundaries?",
+      "answer": "The approving authority may require that structures and activities on the property be set back more than 150 feet from the boundary of a wetland if it determines that such additional setback is required.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 64-7A"
+      ],
+      "score": 0.85
+    },
+    {
+      "id": 4,
+      "question": "What are the penalties for unauthorized wetland disturbance?",
+      "answer": "Any person who disturbs wetlands without authorization may face a civil penalty not to exceed $3,000 for each violation, with each consecutive day considered a separate offense. Additionally, for the first offense, a person may be fined between $500 and $1,000, and for subsequent offenses, fines can be between $1,000 and $2,000 or a term of imprisonment for up to 15 days, or both.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 64-9A",
+        "§ 64-9D"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 5,
+      "question": "How do I apply for a wetland permit or variance?",
+      "answer": "To apply for a wetland permit, you must submit an application for land use or environmental permit or approval for development on property that is partially or wholly within an Environmental Protection Overlay District. This application must comply with the existing provisions of the Town Code governing such permits.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 64-6A"
+      ],
+      "score": 0.75
+    },
+    {
+      "id": 6,
+      "question": "Are there mitigation requirements for permitted wetland impacts?",
+      "answer": "Yes, there are mitigation requirements. When development impacts wetlands or wetland buffers, the applicant must submit a mitigation plan to create replacement wetlands or restore, recreate, or enhance existing wetlands or wetland buffers equal to twice the area of the impact. This 2:1 mitigation ratio can be modified by the approving authority based on special circumstances.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 64-7A"
+      ],
+      "score": 0.75
+    },
+    {
+      "id": 7,
+      "question": "What types of development are completely prohibited in wetlands?",
+      "answer": "Crossing of watercourses and/or wetlands is prohibited, except for a single crossing required to provide primary access to a property. Additional crossings may be allowed only if undue hardship would result from strict compliance.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 64-7A"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 9,
+      "question": "Are there tax incentives for wetland preservation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 10,
+      "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.61,
+    "normalizedScore": 2.05,
+    "averageConfidence": 61,
+    "questionsAnswered": 5,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.85,
+        0.3,
+        0.75,
+        0.75,
+        0.3,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.45,
+      "weightedScore": 0.41
+    }
+  },
+  "overallScore": 2.05,
+  "averageConfidence": 61,
+  "questionsAnswered": 5,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:33:58.176Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

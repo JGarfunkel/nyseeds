@@ -1,0 +1,12 @@
+{
+  "municipality": "Bedford",
+  "municipalityType": "Town",
+  "domain": "Flood damage protection",
+  "domainId": "flood-damage-protection",
+  "originalCellValue": "Not available",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T20:33:17.709Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Ch 107",
+  "sources": []
+}

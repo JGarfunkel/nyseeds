@@ -1,0 +1,127 @@
+{
+  "municipality": {
+    "id": "NY-NewCastle-Town",
+    "displayName": "New Castle - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, if the tree falls under regulated activities as described in the statute, such as if it's within the regulated landscape buffer zone and has a DBH of four inches or more, or if it's a specimen tree. To apply, you need to file a tree removal permit application with the Town's approving authority, which is typically the Environmental Coordinator unless it's associated with a site plan or special permit, then it would be the Planning Board or Zoning Board. The application must be submitted in hard copy and electronic format, and requires information such as a detailed description of the removal, a tree replacement plan, and a fee. Applications involving the removal of three or more trees also require neighbor notifications within 100 feet.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 121-3",
+        "§ 121-5"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove a tree without a permit, the penalties include fines based on the tree's diameter at breast height (DBH). The fines are $250 per tree for 4 to 12 inches DBH, $750 per tree for 12 to 18 inches DBH, $1,500 per tree for 18 to 24 inches DBH, and $2,500 per tree for trees 24 inches or more in DBH. Additionally, the court may order you to replant trees that were improperly removed. No building, temporary certificate of occupancy, or certificate of occupancy will be issued for the property until the violation is resolved.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 121-17"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "The required contribution to the Tree Bank Fund for removing a tree without replacement is $200 per tree, plus a fifteen-percent contingency. This payment must be made prior to the issuance of any tree, building, or other applicable permit.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 121-8D"
+      ],
+      "score": 1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed unless the approving authority determines it is impracticable or impossible due to site constraints, in which case a payment to the Tree Bank Fund may be considered. Replanted trees should generally be of the same or similar species as those removed and must be ecologically compatible with the site and neighboring properties. Non-native invasive species are not allowed. Deviations from the recommended species list are acceptable with prior approval from the approving authority.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 121-6B",
+        "§ 121-6E"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding specific guidelines for the monitoring and maintenance of replanted trees to ensure their survival, including a required survival rate over a set period and actions to be taken if the trees do not survive."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "If you are applying to remove three or more trees, you must notify all property owners of record within 100 feet of the boundaries of your property by certified mail, return receipt requested.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 121-5A"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding a requirement for a specific timeframe within which the notifications must be sent prior to the tree removal, to ensure neighbors have adequate time to respond or raise concerns."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy by requiring that at least 50% of the replacement trees be canopy (overstory) trees with a mature height greater than 40 feet. This ensures that the tree canopy is maintained and contributes to the environmental benefits provided by larger, mature trees.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 121-6F"
+      ],
+      "score": 1
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a regulation that requires property owners to conduct annual inspections of trees on their property, adhere to specified care standards, and promptly address any identified hazards to ensure public safety and tree health."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Yes, the statute requires the Director of Planning, in consultation with the Environmental Coordinator, to provide an annual report of the Tree Bank Fund. This report includes an itemized list of receipts and expenses, a list of projects completed, and the current balance remaining in the fund. It also includes a list of proposed projects and an estimated budget for the following year. This report must be submitted to the Town Board annually by November 15 for review and approval.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 121-8C"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding a requirement for the annual report to include specific data on the number and location of tree removals, reasons for removal, and any replanting efforts, to enhance transparency and accountability in tree management practices."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.77,
+    "normalizedScore": 3.6,
+    "averageConfidence": 77,
+    "questionsAnswered": 7,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        1,
+        1,
+        0.3,
+        0.75,
+        1,
+        0.1,
+        0.85
+      ],
+      "averageQuestionScore": 0.7499999999999999,
+      "weightedScore": 0.72
+    }
+  },
+  "overallScore": 3.6,
+  "averageConfidence": 77,
+  "questionsAnswered": 7,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-09T18:24:07.381Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

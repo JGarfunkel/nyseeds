@@ -1,0 +1,20 @@
+{
+  "municipality": "Elmsford",
+  "municipalityType": "Village",
+  "domain": "Weeds",
+  "domainId": "weeds",
+  "originalCellValue": "R-https://ecode360.com/8652041",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:03.247Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "§ 105-3",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-05T16:30:55.817Z",
+      "contentLength": 2819,
+      "sourceUrl": "https://ecode360.com/8652041",
+      "title": "Notice to Owners",
+      "type": "statute"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "municipality": "Harrison",
+  "municipalityType": "Town",
+  "domain": "Trees",
+  "domainId": "trees",
+  "originalCellValue": "G- https://ecode360.com/8313657",
+  "downloadedAt": "2025-09-05T16:40:10.541Z",
+  "contentLength": 22612,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:01.025Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/8313657",
+  "statuteNumber": "Chapter 220",
+  "statuteTitle": "Trees"
+}

@@ -1,0 +1,92 @@
+{
+  "municipality": {
+    "id": "NY-MountKisco-Town",
+    "displayName": "Mount Kisco - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents must ensure that outdoor areas, vacant lots, and the sidewalks next to their property are free from poisonous, noxious, or offensive weeds. This includes eliminating weeds like ragweed, poison ivy, poison oak, and poison sumac when determined by the Code Enforcement Officer to be dangerous to public health. They must also clear accumulations of weeds that could harbor rodents, are unsightly, or potentially dangerous or unhealthy.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 87-7"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific height or growth limits for weeds to provide clear guidelines for residents and Code Enforcement Officers, ensuring consistent enforcement and compliance."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute. The code does not mention exceptions for cultivated pollinator gardens or any provisions that would allow them under the property maintenance standards.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "Consider adding explicit provisions or exceptions in the property maintenance code that define and permit cultivated pollinator gardens, including specific guidelines on acceptable plant species, garden maintenance standards, and any necessary permits or approvals to ensure they align with community aesthetics and environmental goals."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law applies to the areas beyond the property lot lines, including the abutting sidewalks. Specifically, the statute requires that these areas be free from noxious and offensive weeds, indicating that maintenance responsibilities extend to the sidewalks next to one's property.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 87-7"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding explicit guidelines for the maintenance of the curb area itself, including responsibilities for snow removal, debris clearance, and repair obligations, to ensure comprehensive coverage of all areas beyond the property lot lines."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "If someone violates the property maintenance regulations, they are charged with a Class III violation. The punishment for this is specified in § 1-17C of the Code. If neglected, the Village can correct the violation at the owner's expense, and if not paid within 20 days, the costs can become a lien against the property, accruing interest and potentially penalties similar to unpaid taxes.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 87-21",
+        "§ 87-22"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding specific fine amounts for initial and repeat offenses, as well as detailed escalation procedures for non-compliance, to provide clarity and ensure consistent enforcement of the property maintenance regulations."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Once a notice of violation is issued, it must prescribe a reasonable time for the person to cease, desist, and abate the violation. The specific timeline is not mentioned, but it should be reasonable. Immediate penalties may apply for subsequent violations within a twelve-month period without issuing another notice of violation.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 87-20"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a specific timeline for resolving property maintenance violations to ensure clarity and consistency in enforcement, such as a standard 30-day period for compliance before penalties are applied."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.85,
+    "normalizedScore": 2.5,
+    "averageConfidence": 85,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.55,
+        0.5,
+        0.55,
+        0.8,
+        0.1
+      ],
+      "averageQuestionScore": 0.5000000000000001,
+      "weightedScore": 0.5
+    }
+  },
+  "overallScore": 2.5,
+  "averageConfidence": 85,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:03:55.986Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

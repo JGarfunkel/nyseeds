@@ -1,0 +1,92 @@
+{
+  "municipality": {
+    "id": "NY-Scarsdale-Town",
+    "displayName": "Scarsdale - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents are required to ensure that their property does not have harmful flora or fauna that can damage trees, shrubs, or create hazards or nuisances. They must also prevent the growth or spread of any poisonous or harmful weeds or plants that could spread to other properties or be considered a public nuisance.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 281-14",
+        "§ 281-15"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific height or density limits for weeds to provide clear guidelines for residents on when maintenance is required, as well as a list of prohibited plant species to prevent ambiguity in enforcement."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "Consider adding explicit provisions in the property maintenance code that define and permit cultivated pollinator gardens, including specific guidelines on acceptable plant species, maintenance standards, and any necessary permits or notifications to ensure clarity and support for biodiversity initiatives."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "The statute does not specify if the property maintenance requirements extend beyond the property lot lines, such as to the curb.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a clear provision in the statute that explicitly defines the extent of property maintenance responsibilities beyond the property lot lines, including specific requirements for areas such as the curb, sidewalks, and adjacent public spaces."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "If a property owner fails to comply with the property maintenance regulations, they may be found guilty of a violation under New York State Penal Law. Upon conviction, they can be fined up to $250. Moreover, each day the violation continues is considered a separate offense, potentially leading to additional fines.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 281-17"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding specific escalation measures for repeat offenses, such as increased fines or additional penalties, to deter ongoing non-compliance with property maintenance regulations."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The statute does not specify a timeline for resolving a property maintenance violation before penalties are applied. It mentions that the Village Engineer will issue a notice of correction, but does not provide a specific timeframe for compliance after the notice is issued.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 281-16"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a specific timeframe for compliance after the notice of correction is issued to ensure clarity and consistency in enforcement, as well as detailing the fine amounts, escalation procedures for repeat offenses, and categorizing different types of violations to enhance the statute's effectiveness."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.85,
+    "normalizedScore": 1.6,
+    "averageConfidence": 85,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.6,
+        0.5,
+        0.1,
+        0.3,
+        0.1
+      ],
+      "averageQuestionScore": 0.32000000000000006,
+      "weightedScore": 0.32
+    }
+  },
+  "overallScore": 1.6,
+  "averageConfidence": 85,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:08:34.762Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

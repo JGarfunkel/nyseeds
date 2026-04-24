@@ -1,0 +1,130 @@
+{
+  "municipality": {
+    "id": "NY-Ardsley-Village",
+    "displayName": "Ardsley - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "The statute describes the need for a permit to plant, remove, destroy, or injure any tree or shrub within the lines of any public street or place in the village, but it does not specify requirements for removing a tree on private property.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§ 185-3"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a clear regulatory framework that requires property owners to obtain a permit for tree removal on private property, detailing the application procedures, review criteria, appeal processes, timelines, and approval standards to ensure environmental protection and community safety."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalty for violating the provisions of this chapter, which would include removing trees without a permit where applicable, is a fine that shall not exceed $250.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 185-11"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding specific details about the application procedures for obtaining a tree removal permit, including the required documentation, review criteria, timelines for decision-making, and any appeal processes available to applicants."
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "The statute does not specify a fee for removing a tree without a replacement.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific fees based on tree size and species, along with payment options, possible exemptions for certain circumstances, and provisions to cover administrative costs."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "You can replant trees to replace those removed in a subdivided area, as the statute mentions the need for restoration with planting new trees. The variety of trees to be planted must be selected or approved by the Street Commissioner, which suggests that non-native species might not be allowed unless specifically approved.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 185-9",
+        "§ 185-10",
+        "§ 185-4K"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding explicit guidelines on the acceptable replacement ratios for removed trees, detailed criteria for selecting non-native species, and a requirement for survival monitoring to ensure the long-term success of the replanted trees."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "The statute does not specify any requirement to notify neighbors if you remove trees.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement that property owners must notify neighbors within a 100-foot radius at least 14 days in advance of tree removal, using certified mail to ensure all affected parties are informed."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "The statute implicitly recognizes the importance of keeping a healthy tree canopy through its intent to address the destruction and damage of trees, which adversely affect the community's health, safety, environment, and general welfare. It also details care and maintenance requirements, suggesting an intention to preserve the tree canopy.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 185-1",
+        "§ 185-2",
+        "§ 185-4"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding specific coverage targets for the tree canopy, along with defined measurement methods and detailed long-term maintenance and preservation strategies to ensure the statute effectively supports a healthy tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "You are responsible for trimming trees on your property so that branches do not project into the public street or place less than 15 feet from the roadbed and 9 feet from the sidewalk. If you fail to do this after being notified, the Street Commissioner can do it and charge you. You must also remove any dead trees or branches that create a hazard, following a similar notification process.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 185-6",
+        "§ 185-7"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding a requirement for property owners to conduct regular inspections of their trees, with a suggested frequency (e.g., annually), to proactively identify and address potential hazards before they necessitate municipal intervention."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "The statute does not require data collection on tree removals or the presentation of such data in a report to the public.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "Consider adding a requirement for the municipality to systematically collect data on all tree removals, including location, species, and reason for removal, and to publish an annual report accessible to the public that details this information to enhance transparency and accountability."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.53,
+    "normalizedScore": 2.2,
+    "averageConfidence": 53,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.8,
+        0.1,
+        0.8,
+        0.1,
+        0.3,
+        0.8,
+        0.5
+      ],
+      "averageQuestionScore": 0.4375,
+      "weightedScore": 0.44
+    }
+  },
+  "overallScore": 2.2,
+  "averageConfidence": 53,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T18:19:39.881Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

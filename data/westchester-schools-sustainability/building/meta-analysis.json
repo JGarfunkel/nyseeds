@@ -1,0 +1,38 @@
+{
+  "domain": {
+    "id": "building",
+    "displayName": "building"
+  },
+  "analysisDate": "2025-09-04T19:37:07.544Z",
+  "totalMunicipalitiesAnalyzed": 1,
+  "averageScore": 0.35,
+  "highestScoringMunicipality": {
+    "score": 0.35
+  },
+  "bestPractices": [
+    {
+      "questionId": "1",
+      "question": "How does the district apply sustainability to facilities management?",
+      "bestAnswer": "The statute does not require t specified in the statute.",
+      "bestScore": 0.1,
+      "bestMunicipality": "NY-KatonahLewisboro-SD",
+      "quantitativeHighlights": [],
+      "supportingExamples": [
+        {
+          "municipality": "NY-KatonahLewisboro-SD",
+          "score": 0.1,
+          "confidence": 0
+        }
+      ],
+      "commonGaps": []
+    }
+  ],
+  "overallRecommendations": {
+    "commonWeaknesses": [
+      "1 questions consistently score below 0.8 across municipalities"
+    ],
+    "keyImprovements": [],
+    "modelMunicipalities": []
+  },
+  "version": "1.0"
+}

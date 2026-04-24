@@ -1,0 +1,64 @@
+{
+  "municipality": "Bronxville",
+  "municipalityType": "Village",
+  "domain": "Gas Leaf Blowers",
+  "domainId": "glb",
+  "originalCellValue": "https://ecode360.com/9449110#9449110",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:57.926Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Ch 210",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-15T14:43:03.043Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/9449152#9449152",
+      "title": "Article VI",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2025-09-15T14:43:03.043Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/37960574#37960574",
+      "title": "Article V",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2025-09-15T14:43:03.043Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/37521524#37521524",
+      "title": "Article IV",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2025-09-15T14:43:03.043Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/9449147#9449147",
+      "title": "Article III",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2025-09-15T14:43:03.043Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/9449137#9449137",
+      "title": "Article II",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2025-09-15T14:43:03.043Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/9449111#9449111",
+      "title": "Article I",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2025-09-15T14:43:03.043Z",
+      "contentLength": 18529,
+      "sourceUrl": "https://ecode360.com/9449110#9449110",
+      "title": "Appearance tickets — See Ch",
+      "type": "statute"
+    }
+  ],
+  "originalHtmlLength": 98257,
+  "isArticleBased": true
+}

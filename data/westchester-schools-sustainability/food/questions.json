@@ -1,0 +1,19 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "category": "Composting",
+      "question": "Does the district have composting?"
+    },
+    {
+      "id": "2",
+      "category": "Recycling",
+      "question": "How much recycling do the schools do?"
+    },
+    {
+      "id": "3",
+      "category": "Waste Reduction",
+      "question": "How does the district work to reduce waste?"
+    }
+  ]
+}

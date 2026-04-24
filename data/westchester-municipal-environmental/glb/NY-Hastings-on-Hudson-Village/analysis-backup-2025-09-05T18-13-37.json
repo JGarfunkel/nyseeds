@@ -1,0 +1,72 @@
+{
+  "municipality": {
+    "id": "NY-Hastings-on-Hudson-Village",
+    "displayName": "Hastings-on- Hudson - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas-powered leaf blowers lasts from January 1 to October 14 each year. Gas-powered leaf blowers can only be used from October 15 through December 31.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 176-4"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers are permitted to be operated between the hours of 9:00 a.m. and 5:00 p.m.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 176-5"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating gas leaf blower regulations are $250 for the first offense, $500 for the second offense, and $1,000 for any subsequent offenses.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 176-6"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "lastUpdated": "2025-09-05T18:13:37.065Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

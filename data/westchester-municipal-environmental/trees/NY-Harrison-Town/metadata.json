@@ -1,0 +1,21 @@
+{
+  "municipality": "Harrison",
+  "municipalityType": "Town",
+  "domain": "Trees & Urban Forestry",
+  "domainId": "trees",
+  "originalCellValue": "https://ecode360.com/8313657",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:01.025Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Chapter 220",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-15T23:45:26.369Z",
+      "contentLength": 22612,
+      "sourceUrl": "https://ecode360.com/8313657",
+      "title": "Trees",
+      "type": "statute"
+    }
+  ],
+  "originalHtmlLength": 120669
+}

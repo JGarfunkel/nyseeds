@@ -1,0 +1,103 @@
+{
+  "municipality": "NY-Somers-Town",
+  "domain": "glb",
+  "analyzedAt": "2025-09-08T19:27:19.996Z",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:27:13.235Z"
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "The permitted hours for gas leaf blower operation are between 7:00 a.m. and 8:00 p.m. as specified in § 123-4 of the statute.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 123-4"
+      ],
+      "score": 0.6,
+      "analyzedAt": "2025-09-08T19:27:15.082Z"
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating gas leaf blower regulations are the same as for any violation of this chapter, which is punishable by a fine not exceeding $250 or imprisonment not exceeding 15 days, or both, as stated in § 123-7.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 123-7"
+      ],
+      "score": 0.9,
+      "analyzedAt": "2025-09-08T19:27:16.101Z"
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions for school and government activities as specified in § 123-5. The provisions of this chapter do not apply to:\n\nC. Noise or sound generated in connection with the activities of any school licensed or chartered by the State of New York, including school-sponsored celebrations or events.\n\nB. Noise or sound from municipal activities, including municipally sponsored celebrations or events.\n\nFor commercial properties, the statute does not specify any exceptions.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 123-5"
+      ],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:27:17.911Z"
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:27:18.971Z"
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:27:19.605Z"
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:27:19.996Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 0.39,
+    "normalizedScore": 1.2,
+    "averageConfidence": 39,
+    "questionsAnswered": 3,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.6,
+        0.9,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.28571428571428575,
+      "weightedScore": 0.24
+    }
+  },
+  "overallScore": 1.2,
+  "averageConfidence": 39,
+  "questionsAnswered": 3,
+  "totalQuestions": 7,
+  "gapAnalysis": "",
+  "wenGrade": null,
+  "usesStateCode": false
+}

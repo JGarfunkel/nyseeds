@@ -1,0 +1,17 @@
+{
+  "districtName": "Katonah-Lewisboro School District",
+  "entityId": "NY-KatonahLewisboro-CSD",
+  "domain": "building",
+  "policyNumber": null,
+  "realm": "westchester-schools-sustainability",
+  "lastConverted": "2025-09-04T15:42:23.091Z",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-04T15:42:21.697Z",
+      "contentLength": 1546,
+      "sourceUrl": "https://www.klschools.org/page/sustainability",
+      "title": "Three-Year Sustainability Vision & Plan (2024–2027)",
+      "type": "policy"
+    }
+  ]
+}

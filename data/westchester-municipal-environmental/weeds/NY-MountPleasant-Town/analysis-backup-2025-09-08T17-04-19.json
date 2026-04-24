@@ -1,0 +1,95 @@
+{
+  "municipality": {
+    "id": "NY-MountPleasant-Town",
+    "displayName": "Mount Pleasant - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "The statute specifies that all landscaping, including lawns, hedges, bushes, and trees, must be well-maintained to prevent them from becoming overgrown and unsightly, especially in areas exposed to public view. This requirement is to ensure these elements do not constitute a blighting factor that could depreciate adjoining property values. Additionally, residents are responsible for maintaining the area between the property line and the curb, or up to 10 feet outside the property line if there is no curb, which involves basic lawn maintenance, debris removal, and upkeep of shrubs and bushes.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 162-4"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding specific height limits for weeds and grass to provide clear guidelines for what constitutes \"overgrown\" and ensure consistent enforcement across the municipality."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute. There are no specific mentions of exceptions for cultivated pollinator gardens in the property maintenance code.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "Consider adding explicit provisions in the property maintenance code that define and permit cultivated pollinator gardens, including guidelines for acceptable plant species, maintenance standards, and any necessary permits or notifications to ensure these gardens are recognized and protected within the municipality."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law extends beyond the property lot lines. Residents are responsible for maintaining the area between the property line and the curb, or for up to 10 feet outside the property line if there is no curb. This maintenance includes basic lawn care, debris removal, and upkeep of shrubs and bushes.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 162-4"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding specific guidelines for the types of acceptable landscaping and maintenance practices, such as permissible plant species, height restrictions for shrubs and bushes, and frequency of maintenance activities, to ensure uniformity and prevent potential disputes between residents and the municipality."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 45,
+      "sourceRefs": [
+        "§ 149-35",
+        "§ 149-36"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack clear penalties for non-compliance with property maintenance regulations. The municipality should establish a tiered fine system starting at $100 for first offenses, with escalating fines for repeat violations, and clearly define categories of violations to ensure consistent enforcement."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the statute.",
+      "confidence": 35,
+      "sourceRefs": [
+        "§ 149-35",
+        "§ 149-37"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack a clear timeline for resolving property maintenance violations before penalties are applied. The municipality should establish a regulatory framework that specifies a standard resolution period, such as 30 days, after which escalating fines are imposed for non-compliance, with higher penalties for repeat offenses and clear enforcement mechanisms for different categories of violations."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.67,
+    "normalizedScore": 1.85,
+    "averageConfidence": 67,
+    "questionsAnswered": 3,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.8,
+        0.5,
+        0.8,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.42000000000000004,
+      "weightedScore": 0.37
+    }
+  },
+  "overallScore": 1.85,
+  "averageConfidence": 67,
+  "questionsAnswered": 3,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:04:19.465Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

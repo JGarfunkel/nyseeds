@@ -3,29 +3,12 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import fs from "fs";
 
-// Helper to resolve ordinizer paths - prefer local dev repo if it exists
-const resolveOrdinizerPath = (subpath: string) => {
-  const localPath = path.resolve(import.meta.dirname, `../ordinizer/${subpath}`);
-  const nodeModulesPath = path.resolve(import.meta.dirname, `node_modules/ordinizer/${subpath}`);
-  
-  // Check multiple candidates (file itself, with extensions, as directory with index)
-  const candidates = [
-    localPath,
-    `${localPath}.ts`,
-    `${localPath}.tsx`,
-    `${localPath}/index.ts`,
-    `${localPath}/index.tsx`,
-  ];
-  
-  for (const candidate of candidates) {
-    if (fs.existsSync(candidate)) {
-      return localPath;
-    }
-  }
-  
-  // Fall back to node_modules
-  return nodeModulesPath;
-};
+// Auto-detect whether ordinizer was installed from the local monorepo (app/client/src/ui)
+// or from GitHub (client/src/ui at package root).
+const ordinizerRoot = path.resolve(import.meta.dirname, "node_modules/ordinizer");
+const ordinizerClientUi = fs.existsSync(path.join(ordinizerRoot, "app/client/src/ui"))
+  ? path.join(ordinizerRoot, "app/client/src/ui")
+  : path.join(ordinizerRoot, "client/src/ui");
 
 export default defineConfig({
   base: "./",
@@ -42,11 +25,12 @@ export default defineConfig({
         import.meta.dirname,
         "node_modules/@tanstack/react-query",
       ),
-      "@ordinizer/client/ui": resolveOrdinizerPath("client/src/ui"),
-      "@ordinizer/app": resolveOrdinizerPath("app/client/src"),
-      "@ordinizer/core": resolveOrdinizerPath("packages/core/src/index.ts"),
+      "@ordinizer/client/ui": ordinizerClientUi,
+      "@ordinizer/app": path.resolve(import.meta.dirname, "node_modules/ordinizer/app/client/src"),
+      "@ordinizer/core": path.resolve(import.meta.dirname, "node_modules/ordinizer/packages/core/src/index.ts"),
     },
     dedupe: ["react", "react-dom", "@tanstack/react-query"],
+    preserveSymlinks: true,
   },
   root: path.resolve(import.meta.dirname, "client"),
   build: {
@@ -63,8 +47,12 @@ export default defineConfig({
   },
   server: {
     fs: {
-      strict: true,
-      deny: ["**/.*"],
+      strict: false,
+      allow: [
+        path.resolve(import.meta.dirname),
+        path.resolve(import.meta.dirname, "node_modules/ordinizer"),
+        path.resolve(import.meta.dirname, "../ordinizer"),
+      ],
     },
-  },
+  }
 });

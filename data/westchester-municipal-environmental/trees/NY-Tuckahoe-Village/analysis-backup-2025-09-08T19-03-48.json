@@ -1,0 +1,115 @@
+{
+  "municipality": {
+    "id": "NY-Tuckahoe-Village",
+    "displayName": "Tuckahoe - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property if the tree is 10 inches DBH (Diameter Breast Height) or greater. You must notify the Building Department two weeks prior to removal and provide information about the size, location, type of tree(s), and the reason for removal. The Building Department reviews the permit application.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 21A"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalty for removing trees without a permit can result in a fine of $500 for each offense. Additionally, each week's continued violation can lead to additional fines of up to $500 per day.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 21A"
+      ],
+      "score": 0.8
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed. However, you are not allowed to plant non-native species as replacements. Replacement trees must be at least three inches in diameter and cannot be invasive species.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 21A"
+      ],
+      "score": 0.95
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As a property owner, you are responsible for pruning branches of trees or shrubs that overhang any right-of-way to ensure they do not obstruct streetlamp light, views of intersections, or traffic control devices. You must also remove dead, diseased, or dangerous trees or broken limbs. If you fail to do this after receiving written notification from the Building Department, they may prune the trees and bill you for the work.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 21A"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.5,
+    "normalizedScore": 1.95,
+    "averageConfidence": 50,
+    "questionsAnswered": 4,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        0.8,
+        0.1,
+        0.95,
+        0.1,
+        0.1,
+        0.55,
+        0.1
+      ],
+      "averageQuestionScore": 0.4625000000000001,
+      "weightedScore": 0.39
+    }
+  },
+  "overallScore": 1.95,
+  "averageConfidence": 50,
+  "questionsAnswered": 4,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T19:03:48.722Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

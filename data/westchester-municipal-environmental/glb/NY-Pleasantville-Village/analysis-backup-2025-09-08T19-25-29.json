@@ -1,0 +1,108 @@
+{
+  "municipality": {
+    "id": "NY-Pleasantville-Village",
+    "displayName": "Pleasantville - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of fuel-powered motorized leaf blowers lasts for a period from May 15 through September 30 each year.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 123-5.1"
+      ],
+      "score": 0.45
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "During the period from October 1 through May 14, the use of fuel-powered motorized leaf blowers is permitted only during the hours specified in § 123-5L. However, the specific permitted hours for these dates are not detailed in the provided statute.",
+      "confidence": 15,
+      "sourceRefs": [
+        "§ 123-5.1"
+      ],
+      "score": 0.6
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating any provision of the chapter, which includes regulations about gas leaf blowers, are punishable by a fine of not more than $500, imprisonment not to exceed 15 days, or both a fine and imprisonment.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 123-11"
+      ],
+      "score": 0.9
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions. The provisions regarding fuel-powered motorized leaf blowers do not apply to the Pleasantville Union Free School District when redistributing infill back on playing surfaces after heavy rain.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 123-5.1"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations of the noise regulations, including those related to gas leaf blowers, are enforced by the Police Department and Building Inspector of the Village of Pleasantville. An investigating police officer or designated official can issue a summons if they witness a noise violation.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 123-10"
+      ],
+      "score": 0.65
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.56,
+    "normalizedScore": 2.2,
+    "averageConfidence": 56,
+    "questionsAnswered": 5,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.45,
+        0.6,
+        0.9,
+        0.55,
+        0.65,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.4785714285714286,
+      "weightedScore": 0.44
+    }
+  },
+  "overallScore": 2.2,
+  "averageConfidence": 56,
+  "questionsAnswered": 5,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:25:29.224Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

@@ -1,0 +1,189 @@
+{
+  "municipality": {
+    "id": "NY-Bronxville-Village",
+    "displayName": "Bronxville - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts for a total of 7 months each year, from December 15 through March 15 and from May 15 through October 15.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 210-21"
+      ],
+      "score": 0.45,
+      "gap": "Consider adding a clear definition of what constitutes a \"gas leaf blower\" to avoid ambiguity and ensure consistent enforcement of the prohibition."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers are permitted to be operated from 8:00 a.m. to 6:00 p.m., Monday through Saturday, excluding holidays.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 210-22"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific provisions for enforcement mechanisms and penalties for non-compliance with the permitted hours of gas leaf blower operation to strengthen the statute."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Penalties for violating gas leaf blower regulations include a fine not exceeding $250 for the first offense, $500 for the second offense, and $1,000 for the third and any subsequent offenses. Additionally, the Village Administrator may suspend the gardener's license of any responsible party holding such a license if they violate the provisions.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 210-24"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding a provision that specifies the duration of the gardener's license suspension for repeat offenses to enhance clarity and enforcement consistency."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that explicitly outlines exceptions or specific requirements for school, government, and commercial properties, including criteria for eligibility and any conditions that must be met to qualify for these exceptions."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Any parking enforcement officer or member of the Village of Bronxville Police Department is authorized to issue and serve an appearance ticket for violations.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 210-16"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding a requirement for a centralized digital system to log and track all reported violations, ensuring transparency and enabling public access to data on enforcement actions and outcomes."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to promote and educate residents on the environmental benefits of leaving leaf debris and practicing leaf mulching, including guidelines for proper mulching techniques and the positive impact on soil health and local ecosystems."
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report that includes comprehensive data collection, transparency measures, and tracking mechanisms to ensure accountability and inform the community about the ordinance's implementation and impact."
+    }
+  ],
+  "scores": {
+    "overallScore": 4.5,
+    "normalizedScore": 4.5,
+    "averageConfidence": 57,
+    "questionsAnswered": 4,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.45,
+        0.6,
+        0.7,
+        0.1,
+        0.6,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.3785714285714286,
+      "weightedScore": 0.45,
+      "totalWeightedScore": 5.399999999999999,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "The prohibition of gas leaf blowers lasts for a total of 7 months each year, from December 15 through March 15 and from May 15 through October 15.",
+          "score": 0.45,
+          "weight": 4,
+          "weightedScore": 1.8,
+          "maxWeightedScore": 4,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Gas leaf blowers are permitted to be operated from 8:00 a.m. to 6:00 p.m., Monday through Saturday, excluding holidays.",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "Penalties for violating gas leaf blower regulations include a fine not exceeding $250 for the first offense, $500 for the second offense, and $1,000 for the third and any subsequent offenses. Additionally, the Village Administrator may suspend the gardener's license of any responsible party holding such a license if they violate the provisions.",
+          "score": 0.7,
+          "weight": 3,
+          "weightedScore": 2.0999999999999996,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Any parking enforcement officer or member of the Village of Bronxville Police Department is authorized to issue and serve an appearance ticket for violations.",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        }
+      ]
+    }
+  },
+  "overallScore": 4.5,
+  "averageConfidence": 57,
+  "questionsAnswered": 4,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-09T19:58:48.783Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4.5,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.221Z"
+}

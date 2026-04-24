@@ -1,0 +1,105 @@
+{
+  "municipality": {
+    "id": "NY-MountVernon-City",
+    "displayName": "Mount Vernon - City"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "You do not need a permit to remove a tree on your private property if the tree is less than 10 inches DBH or if the removal is necessary due to an actual emergency for the protection of life or property, provided there is supporting documentation (§ 252-4B(1)(a) and (b)). For other cases, you need to apply for a tree removal permit through the Department of Public Works, which requires a 20 business day notice for inspection (§ 252-5A). The application must include details such as the applicant's name and address, the property address, and information about the trees to be removed (§ 252-5B).",
+      "confidence": 64,
+      "sourceRefs": [
+        "§ 252-5",
+        "§ 252-4A"
+      ],
+      "score": 0.94,
+      "gap": "The statute seems to lack specific details on the appeal process for denied tree removal permits, including timelines and procedures for submitting an appeal."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "Not specified in the statute.",
+      "confidence": 65,
+      "sourceRefs": [
+        "§ 252-11",
+        "§ 252-4B"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack permit requirements - municipality should establish clear application procedures, review criteria, and approval standards for tree removal."
+    },
+    {
+      "id": 3,
+      "question": "Are there fees associated with removing individual trees?",
+      "answer": "Yes, there are fees associated with removing individual trees. According to § 252-5, the permit fee for each tree to be removed is $50, unless the tree is determined by the City Tree Surgeon to be diseased, infested, or dangerous, in which case no fee is charged. Additionally, § 252-18 mentions a fee-in-lieu of $500 per tree that is removed and not replaced, which must be paid at the time of the issuance of a tree removal permit.",
+      "confidence": 61,
+      "sourceRefs": [
+        "§ 252-18",
+        "§ 252-5"
+      ],
+      "score": 0.91,
+      "gap": "The statute seems to lack specific details on the application process for tree removal permits, including the necessary documentation, review criteria, and timelines for approval or denial."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "You can replant new trees to replace those removed, as specified in § 252-2. Each tree removed must be replaced by at least one tree of a species that is on the official list of permitted trees, as issued by the Commissioner of Public Works. Therefore, you are not allowed to plant non-native species unless they are included on this official list.",
+      "confidence": 58,
+      "sourceRefs": [
+        "§ 252-2",
+        "§ 252-10"
+      ],
+      "score": 0.98,
+      "gap": "The statute seems to lack specific details on the survival monitoring of the replanted trees to ensure they thrive and adequately replace the removed trees."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 58,
+      "sourceRefs": [
+        "§ 252-4"
+      ],
+      "score": 0,
+      "gap": "The statute seems to be missing notification requirements - municipality should require advance notice to adjacent property owners for significant tree removal projects."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. It highlights the various benefits trees provide, such as aesthetic appeal, shade, soil erosion prevention, water absorption, air quality improvement, noise reduction, wildlife habitat, property value enhancement, and overall aesthetic quality of the community (Statute Chunk 1). Additionally, the City acknowledges the negative impacts of indiscriminate tree removal on municipal costs, property values, and the health, safety, and welfare of its inhabitants (Statute Chunk 2). The City's intent to protect and preserve trees as community assets is also emphasized (Statute Chunk 4).",
+      "confidence": 49,
+      "sourceRefs": [],
+      "score": 0.69,
+      "gap": "The statute seems to lack specific coverage targets and measurement methods for maintaining a healthy tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Your responsibilities for maintaining trees on your property include:\n\n1. Pruning trees in a way that does not damage their basic nature or reduce their size by more than 1/4 (§ 252-4 A(1)).\n\n2. If your trees have branches or roots that project over or underneath an adjacent lot, sidewalk, or roadway, you must trim them to prevent interference, ensuring that the trimming does not adversely affect the tree's viability or appearance. However, the owner of the adjacent lot must notify you to perform this trimming (§ 252-4 A(2)).",
+      "confidence": 65,
+      "sourceRefs": [
+        "§ 252-4"
+      ],
+      "score": 0.85,
+      "gap": "The statute seems to lack specific inspection schedules or standards for ensuring compliance with tree maintenance responsibilities on private property."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "lastUpdated": "2025-09-05T10:58:48.324Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

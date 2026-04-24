@@ -1,0 +1,17 @@
+{
+  "districtName": "Pelham UFSD",
+  "entityId": "NY-Pelham-UFSD",
+  "domain": "food",
+  "policyNumber": null,
+  "realm": "westchester-schools-sustainability",
+  "lastConverted": "2025-09-04T15:42:42.992Z",
+  "sources": [
+    {
+      "downloadedAt": "2025-09-04T15:42:34.573Z",
+      "contentLength": 1666,
+      "sourceUrl": "https://thepelmelpmhs.com/3694/news/pelham-school-district-signs-compost-deal-for-all-six-schools/",
+      "title": "Districtwide Composting Program",
+      "type": "policy"
+    }
+  ]
+}

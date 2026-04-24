@@ -1,0 +1,185 @@
+{
+  "municipality": {
+    "id": "NY-NewRochelle-City",
+    "displayName": "New Rochelle - City"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts for four months, starting on June 1 and ending on September 30.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 213-5"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding specific penalties or enforcement mechanisms for violations of the gas leaf blower prohibition to ensure compliance and address potential non-compliance effectively."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers are permitted to operate from October 1 to May 31 on weekdays between 8:00 a.m. and 5:00 p.m., and on Saturdays and Sundays between 10:00 a.m. and 5:00 p.m.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 213-5"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific noise level restrictions for gas leaf blowers to ensure compliance with local noise ordinances and address potential noise pollution concerns."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a tiered penalty structure that includes an initial fine of $100 for first-time offenses, escalating to $250 for second offenses and $500 for subsequent violations, along with clear enforcement mechanisms such as warnings and citations issued by designated municipal officers."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that explicitly outlines exceptions or specific requirements for school, government, and commercial properties, including criteria for eligibility and any conditions or limitations that apply to these exceptions."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a regulatory framework that mandates the establishment of a centralized reporting system for violations, requiring detailed data collection, public accessibility to reports, and a transparent process for tracking and addressing each reported violation."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that mandates the promotion of leaf mulching and the retention of leaf debris in public education campaigns, highlighting their environmental benefits such as soil enrichment and reduced landfill waste."
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report detailing data collection methods, key findings, and progress on relevant initiatives, ensuring transparency and accountability to the community."
+    }
+  ],
+  "scores": {
+    "overallScore": 2.71,
+    "normalizedScore": 2.71,
+    "averageConfidence": 39,
+    "questionsAnswered": 2,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.5,
+        0.55,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.2214285714285715,
+      "weightedScore": 0.2708,
+      "totalWeightedScore": 3.25,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "The prohibition of gas leaf blowers lasts for four months, starting on June 1 and ending on September 30.",
+          "score": 0.5,
+          "weight": 4,
+          "weightedScore": 2,
+          "maxWeightedScore": 4,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Gas leaf blowers are permitted to operate from October 1 to May 31 on weekdays between 8:00 a.m. and 5:00 p.m., and on Saturdays and Sundays between 10:00 a.m. and 5:00 p.m.",
+          "score": 0.55,
+          "weight": 1,
+          "weightedScore": 0.55,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 3,
+          "weightedScore": 0.30000000000000004,
+          "maxWeightedScore": 3,
+          "confidence": 20
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        }
+      ]
+    }
+  },
+  "overallScore": 2.71,
+  "averageConfidence": 39,
+  "questionsAnswered": 2,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-09T20:04:18.611Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 2.71,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.255Z"
+}

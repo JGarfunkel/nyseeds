@@ -1,0 +1,15 @@
+{
+  "municipality": "Mamaroneck",
+  "municipalityType": "Town",
+  "domain": "Glb",
+  "domainId": "glb",
+  "originalCellValue": "GG-CH-141-Noise",
+  "downloadedAt": "2025-09-05T16:35:59.105Z",
+  "contentLength": 16190,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:50:58.538Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/9159223#9159239",
+  "statuteNumber": "Ch 141",
+  "statuteTitle": "Alarm systems — See Ch"
+}

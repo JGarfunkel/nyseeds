@@ -1,0 +1,32 @@
+{
+  "municipality": {
+    "id": "NY-PocanticoHills-CSD",
+    "displayName": "Unknown - Municipality"
+  },
+  "domain": {
+    "id": "gardens",
+    "displayName": "Gardens"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "Does the school district have school gardens, and how are they used",
+      "answer": "The statute does not specifically mention whether the school district has school gardens or how they are used. It primarily discusses a policy giving preference to native plants on campus.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.65
+    },
+    {
+      "id": "2",
+      "question": "Does the school district follow any practices for using native perennials or controlling invasive weeds in landscaping?",
+      "answer": "Yes, the school district has a policy to give preference to native plants, which likely includes native perennials, and to replace existing non-native and invasive plants to an appropriate and practicable extent. Decisions on using native plants are based on site conditions.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.7
+    }
+  ],
+  "lastUpdated": "2025-09-04T16:36:49.605Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

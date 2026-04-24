@@ -1,0 +1,175 @@
+{
+  "municipality": "NY-Peekskill-City",
+  "domain": "wetland-protection",
+  "analyzedAt": "2025-09-08T19:39:21.117Z",
+  "questions": [
+    {
+      "id": 3,
+      "question": "What are the setback requirements from wetland boundaries?",
+      "answer": "The setback requirement from wetland boundaries is up to 100 feet from the boundary of such wetland, as stated in § 294-1.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 294-1"
+      ],
+      "score": 0.75,
+      "analyzedAt": "2025-09-08T19:39:16.839Z"
+    },
+    {
+      "id": 4,
+      "question": "What are the penalties for unauthorized wetland disturbance?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:39:17.461Z"
+    },
+    {
+      "id": 5,
+      "question": "How do I apply for a wetland permit or variance?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:39:18.212Z"
+    },
+    {
+      "id": 6,
+      "question": "Are there mitigation requirements for permitted wetland impacts?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:39:18.794Z"
+    },
+    {
+      "id": 7,
+      "question": "What types of development are completely prohibited in wetlands?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:39:19.433Z"
+    },
+    {
+      "id": 9,
+      "question": "Are there tax incentives for wetland preservation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:39:19.869Z"
+    },
+    {
+      "id": 10,
+      "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-08T19:39:21.117Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 1.93,
+    "normalizedScore": 1.93,
+    "averageConfidence": 13,
+    "questionsAnswered": 1,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.75,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.1928571428571429,
+      "weightedScore": 0.1929,
+      "totalWeightedScore": 1.3500000000000003,
+      "totalPossibleWeight": 7,
+      "questionsWithScores": [
+        {
+          "id": "3",
+          "question": "What are the setback requirements from wetland boundaries?",
+          "answer": "The setback requirement from wetland boundaries is up to 100 feet from the boundary of such wetland, as stated in § 294-1.",
+          "score": 0.75,
+          "weight": 1,
+          "weightedScore": 0.75,
+          "maxWeightedScore": 1,
+          "confidence": 90
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties for unauthorized wetland disturbance?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "question": "How do I apply for a wetland permit or variance?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "question": "Are there mitigation requirements for permitted wetland impacts?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "7",
+          "question": "What types of development are completely prohibited in wetlands?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "9",
+          "question": "Are there tax incentives for wetland preservation?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "10",
+          "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 1.93,
+  "averageConfidence": 13,
+  "questionsAnswered": 1,
+  "totalQuestions": 7,
+  "gapAnalysis": "",
+  "wenGrade": "G-",
+  "usesStateCode": false,
+  "normalizedScore": 1.93,
+  "scoresUpdatedAt": "2025-10-10T17:19:07.248Z"
+}

@@ -1,0 +1,121 @@
+{
+  "municipality": {
+    "id": "NY-Hastings-on-Hudson-Village",
+    "displayName": "Hastings-on- Hudson - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a tree removal permit to cut down or injure any designated tree on your private property. To apply, you must make a written application to the Building Inspector. This application must include specific information about the tree(s) and the reason for removal. After submitting the application, it will be reviewed by the Tree Preservation Board, who will give input to the Building Inspector, who will then issue or deny the permit.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-4",
+        "§ 273-7"
+      ],
+      "score": 0.8
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit include being guilty of an offense punishable by a fine of no less than $250 and not exceeding $5,000. Additionally, each violation related to an individual designated tree constitutes a separate offense. You may also be required to replace any tree removed with a tree of the same species, size, or value as determined by the Building Inspector.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-12"
+      ],
+      "score": 0.3
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "The specific fee for removing a tree is not stated in the statute. It mentions that the fee will be determined by the Village Board by resolution and set in the fee schedule, which is on file in the Village offices.",
+      "confidence": 15,
+      "sourceRefs": [
+        "§ 273-8"
+      ],
+      "score": 0.7
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can propose to plant one or more new trees as mitigation measures for the removal of designated trees. However, the statute does not specifically state whether you can plant non-native species as replacements; it only mentions that the replacement trees must be as required by the Village.",
+      "confidence": 70,
+      "sourceRefs": [
+        "§ 273-7C",
+        "§ 273-10"
+      ],
+      "score": 0.9
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "You must notify neighbors whose properties are adjacent to the property on which the tree is located or those that lie within 50 yards of the tree in question.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 273-7A"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Your responsibilities include being held accountable for the actions of any contractors or subcontractors that you hire in relation to tree maintenance and removal. The statute does not specify additional responsibilities for individual tree maintenance.",
+      "confidence": 50,
+      "sourceRefs": [
+        "§ 273-5"
+      ],
+      "score": 0.1
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1
+    }
+  ],
+  "scores": {
+    "overallScore": 0.51,
+    "normalizedScore": 2,
+    "averageConfidence": 51,
+    "questionsAnswered": 6,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.8,
+        0.3,
+        0.7,
+        0.9,
+        0.5,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.43750000000000006,
+      "weightedScore": 0.4
+    }
+  },
+  "overallScore": 2,
+  "averageConfidence": 51,
+  "questionsAnswered": 6,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T18:56:35.295Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

@@ -1,0 +1,121 @@
+{
+  "municipality": {
+    "id": "NY-NorthCastle-Town",
+    "displayName": "North Castle - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property if the tree removal is a regulated activity as specified in § 308-13. To apply for the permit, you must submit an application that includes details such as your name, property address, a tree survey, a detailed action statement, and any necessary plans. The application will be reviewed by the 'Approving Authority', which can be the Building Inspector or their designee, or the Planning Board if it's related to a site plan or subdivision application.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 308-13",
+        "§ 308-15",
+        "§ 308-12"
+      ],
+      "score": 0.85
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit include a fine of up to $1,000, imprisonment for up to 15 days, or both. The individual may also be directed to restore the property and replace the removed trees according to a plan approved by the approving authority. Each tree removed without a permit constitutes a separate offense.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 308-25"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "The statute does not specify a fee for removing each tree without a replacement. However, it does mention that a cash payment may be accepted in lieu of providing some or any required tree replacement, and the amount of this payment is set forth in the Master Fee Schedule.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed instead of making a payment. The statute specifies that replanted trees should be of the same or similar species as those removed when practical. It also states that invasive trees are not allowed under any circumstances, implying that non-native species that are considered invasive cannot be used as replacements.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 308-25"
+      ],
+      "score": 0.85
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "The statute does not specify which neighbors must be notified if you remove trees. It does mention a tree survey and an evaluation of the relationship of the tree removal to neighboring properties in the permit application process, but specific notification requirements for neighbors are not detailed.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "The code highlights the importance of trees for environmental benefits such as providing shade, enhancing air quality, and preserving beauty, which implies the significance of maintaining a healthy tree canopy. However, it does not explicitly state specific requirements or measures related to maintaining the tree canopy.",
+      "confidence": 70,
+      "sourceRefs": [
+        "§ 308-11"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As a property owner, your responsibilities include pruning branches of any tree overhanging a street or right-of-way so that they do not obstruct streetlights or views of intersections. You must also remove any dead, diseased, or dangerous trees or broken limbs that could pose a safety threat to the public. Additionally, the Town has the right to prune trees on private property if they interfere with street light visibility or traffic control devices.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 308-8"
+      ],
+      "score": 0.55
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "The statute does not explicitly require data collection on tree removals or the presentation of such data in a report to the public. However, it states that the Tree Board is responsible for developing and administering a written plan for the care, preservation, and removal of trees, which may imply some level of data management, but specific reporting requirements to the public are not detailed.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§ 308-3"
+      ],
+      "score": 0.5
+    }
+  ],
+  "scores": {
+    "overallScore": 0.58,
+    "normalizedScore": 2.8,
+    "averageConfidence": 58,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.85,
+        1,
+        0.1,
+        0.85,
+        0.1,
+        0.5,
+        0.55,
+        0.5
+      ],
+      "averageQuestionScore": 0.55625,
+      "weightedScore": 0.56
+    }
+  },
+  "overallScore": 2.8,
+  "averageConfidence": 58,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-08T19:00:21.383Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

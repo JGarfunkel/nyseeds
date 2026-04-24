@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "category": "Gardens",
+      "question": "Does the school district have school gardens, and how are they used"
+    },
+    {
+      "id": "2",
+      "category": "Gardens",
+      "question": "Does the school district follow any practices for using native perennials or controlling invasive weeds in landscaping?"
+    }
+  ]
+}

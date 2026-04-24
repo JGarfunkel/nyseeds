@@ -1,0 +1,28 @@
+{
+  "municipality": {
+    "id": "NY-Scarsdale-Town",
+    "displayName": "Scarsdale - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "You can replant new trees to replace those removed, but the replacement trees must be native to the Northeast United States, excluding invasive species, unless specifically approved as part of a tree replacement plan (§ 281-3). Therefore, planting non-native species as replacements is not generally allowed unless there is specific approval for such a plan.",
+      "confidence": 51,
+      "sourceRefs": [
+        "§ 281-9",
+        "§ 281-3"
+      ],
+      "score": 0.81,
+      "gap": "Consider adding specific guidelines for the monitoring and survival rate of the replanted trees to ensure they thrive, as well as clear replacement ratios to maintain ecological balance."
+    }
+  ],
+  "lastUpdated": "2025-09-01T01:29:12.413Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

@@ -1,0 +1,108 @@
+{
+  "municipality": {
+    "id": "NY-PoundRidge-Town",
+    "displayName": "Pound Ridge - Town"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts from May 15 to October 15 each year. (§ 75-4(B))",
+      "confidence": 42,
+      "sourceRefs": [
+        "§ 75-4"
+      ],
+      "score": 0.52,
+      "gap": "The statute seems to lack specific enforcement mechanisms or penalties for non-compliance with the prohibition of gas leaf blowers, which could strengthen adherence to the regulation."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "The permitted hours for gas leaf blower operation by commercial operators are from 8:00 a.m. to 6:00 p.m., Monday through Saturday. It is unlawful to operate them from 6:00 p.m. to 8:00 a.m., Monday through Saturday; from 6:00 p.m. on Saturday until 8:00 a.m. on Monday; and on all holidays. Additionally, it is unlawful to operate an internal combustion leaf blower between May 15 and October 15 (§ 75-4).",
+      "confidence": 56,
+      "sourceRefs": [
+        "§ 75-4"
+      ],
+      "score": 0.86,
+      "gap": "The statute seems to lack clarity on whether the prohibition of internal combustion leaf blowers between May 15 and October 15 applies to both commercial and residential operators, which could lead to confusion and inconsistent enforcement."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating gas leaf blower regulations are specified in § 75-9. They are as follows:\n\n1. First offense conviction: issuance of a warning citation.\n2. Second offense within one year of the issuance of a warning citation: a fine of no less than $100 and not exceeding $250.\n3. Third offense within one year of a prior conviction or any subsequent convictions within one year of a prior conviction: a fine of not less than $250 and not exceeding $1,000.",
+      "confidence": 53,
+      "sourceRefs": [
+        "§ 75-4",
+        "§ 75-9"
+      ],
+      "score": 0.83,
+      "gap": "The statute seems to lack clarity on the enforcement mechanisms and responsible authorities for issuing citations and collecting fines for violations of gas leaf blower regulations."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "The statute provides specific exemptions for certain activities related to school, government, and commercial properties:\n\n1. **Schools**: The use of any organ, bell, chimes, or similar instruments by a school on its premises in connection with a school education program is exempt from the limitations of this chapter (§ 75-6C).\n\n2. **Government**: Sounds created by any governmental agency using public warning devices are exempt from the limitations of this chapter (§ 75-6D). Additionally, sounds created by contractors performing public duties under government direction are also exempt (§ 75-6G).\n\n3. **Commercial Properties**: Not specified in the statute.",
+      "confidence": 45,
+      "sourceRefs": [
+        "§ 75-6",
+        "§ 75-3"
+      ],
+      "score": 0.65,
+      "gap": "The statute seems to lack specific exemptions or regulations for commercial properties, which could lead to ambiguity and inconsistent enforcement regarding noise limitations for these entities."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations are enforced by the Police Department of the Town of Pound Ridge or any other police official as defined in the chapter (§ 75-8). The penalties for offenses include a warning citation for the first offense, a fine between $100 and $250 for a second offense within one year, and a fine between $250 and $1,000 for a third or subsequent offense within one year of a prior conviction (§ 75-9). Reporting procedures are not specified in the statute.",
+      "confidence": 41,
+      "sourceRefs": [
+        "§ 75-9"
+      ],
+      "score": 0.71,
+      "gap": "The statute seems to lack specific procedures for reporting violations, including data collection requirements, public reporting mechanisms, and transparency measures to ensure accountability and effective tracking of enforcement actions."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 42,
+      "sourceRefs": [
+        "§ 75-4"
+      ],
+      "score": 0,
+      "gap": "The statute seems to lack provisions on the environmental benefits of leaving leaf debris and leaf mulching. The municipality should establish a regulatory framework that mandates public education campaigns and incentives for residents to adopt leaf mulching practices to enhance soil health and reduce waste."
+    }
+  ],
+  "lastUpdated": "2025-08-28T17:37:42.871Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0.47,
+    "normalizedScore": 2.8262499999999995,
+    "averageConfidence": 47,
+    "questionsAnswered": 5,
+    "totalQuestions": 6,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.52,
+        0.86,
+        0.83,
+        0.65,
+        0.71,
+        0
+      ],
+      "averageQuestionScore": 0.595,
+      "weightedScore": 0.5652499999999999
+    }
+  },
+  "overallScore": 2.8262499999999995,
+  "normalizedScore": 2.8262499999999995,
+  "scoresUpdatedAt": "2025-08-29T13:38:29.019Z"
+}

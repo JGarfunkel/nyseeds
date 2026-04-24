@@ -1,0 +1,15 @@
+{
+  "municipality": "Scarsdale",
+  "municipalityType": "Town",
+  "domain": "Wetland protection",
+  "domainId": "wetland-protection",
+  "originalCellValue": "G- https://ecode360.com/6438454",
+  "downloadedAt": "2025-09-05T16:46:18.980Z",
+  "contentLength": 22562,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:06.494Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "sourceUrl": "https://ecode360.com/6438454",
+  "statuteNumber": "Ch 171",
+  "statuteTitle": "Building construction and fire prevention — See C"
+}

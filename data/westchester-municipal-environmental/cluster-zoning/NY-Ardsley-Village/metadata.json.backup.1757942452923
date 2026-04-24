@@ -1,0 +1,12 @@
+{
+  "municipality": "Ardsley",
+  "municipalityType": "Village",
+  "domain": "Cluster zoning",
+  "domainId": "cluster-zoning",
+  "originalCellValue": "Not available",
+  "downloadedAt": "2025-08-29T14:46:51.660Z",
+  "contentLength": 20301,
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T15:44:13.217Z",
+  "note": "Metadata created retroactively for existing statute file"
+}

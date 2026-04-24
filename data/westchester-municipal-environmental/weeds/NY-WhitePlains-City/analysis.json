@@ -1,0 +1,134 @@
+{
+  "municipality": {
+    "id": "NY-WhitePlains-City",
+    "displayName": "Unknown - City"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents must ensure that any growth of weeds, grass, or other vegetation does not exceed an average height of 12 inches. Poisonous plants like poison ivy or ragweed must not grow in a way that they extend into or affect public spaces. Additionally, between May 15 and September 15, residents should cut and remove such vegetation at least once every three weeks to comply with the rules.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.75
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "Consider adding explicit provisions in the property maintenance code that define and permit cultivated pollinator gardens, including specific guidelines on acceptable plant species, maintenance standards, and any necessary permits or notifications to ensure clarity and support for biodiversity initiatives."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "If you fail to comply with the property maintenance regulations, you may face multiple consequences. The city can perform the necessary work to remove or cut the weeds and charge you for the actual cost plus a 5% additional fee for inspection and other costs. If the bill remains unpaid, it will be added to your property tax. Additionally, violations can result in fines: up to $2,500 for the first offense, and up to $5,000 or 15 days of imprisonment (or both) for subsequent offenses. Continuing violations are treated as separate offenses for each day they persist.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 1
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "After you receive a written notice from the commissioner of building regarding a property maintenance violation, you have ten days to resolve the issue by cutting or removing the weeds, grass, or other specified vegetation. If you fail to address the violation within this timeframe, the commissioner may arrange for the necessary work to be done, and penalties will begin to apply.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.65,
+      "gap": "Consider adding specific details about the fine amounts, escalation procedures for repeat offenses, and clear enforcement mechanisms to strengthen the regulation and ensure consistent application of penalties."
+    },
+    {
+      "id": "11",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law extends beyond the property lot lines. Owners, lessees, or occupants are responsible for maintaining the area along the sidewalk, street, or alley adjacent to their property. This includes the space between the property line and the curb or middle of the alley, or up to ten feet outside the property line if there is no curb.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.65,
+      "gap": "Consider adding specific guidelines for the maintenance of vegetation, debris removal, and snow clearance in the areas beyond the property lot lines to ensure clarity and consistency in enforcement."
+    }
+  ],
+  "lastUpdated": "2025-09-03T00:29:40.755Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 6.75,
+    "normalizedScore": 6.75,
+    "averageConfidence": 85,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.75,
+        0.5,
+        1,
+        0.65,
+        0.65
+      ],
+      "averageQuestionScore": 0.71,
+      "weightedScore": 0.675,
+      "totalWeightedScore": 4.05,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "Residents must ensure that any growth of weeds, grass, or other vegetation does not exceed an average height of 12 inches. Poisonous plants like poison ivy or ragweed must not grow in a way that they extend into or affect public spaces. Additionally, between May 15 and September 15, residents should cut and remove such vegetation at least once every three weeks to comply with the rules.",
+          "score": 0.75,
+          "weight": 1,
+          "weightedScore": 0.75,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Not specified in the statute",
+          "score": 0.5,
+          "weight": 2,
+          "weightedScore": 1,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "If you fail to comply with the property maintenance regulations, you may face multiple consequences. The city can perform the necessary work to remove or cut the weeds and charge you for the actual cost plus a 5% additional fee for inspection and other costs. If the bill remains unpaid, it will be added to your property tax. Additionally, violations can result in fines: up to $2,500 for the first offense, and up to $5,000 or 15 days of imprisonment (or both) for subsequent offenses. Continuing violations are treated as separate offenses for each day they persist.",
+          "score": 1,
+          "weight": 1,
+          "weightedScore": 1,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "After you receive a written notice from the commissioner of building regarding a property maintenance violation, you have ten days to resolve the issue by cutting or removing the weeds, grass, or other specified vegetation. If you fail to address the violation within this timeframe, the commissioner may arrange for the necessary work to be done, and penalties will begin to apply.",
+          "score": 0.65,
+          "weight": 1,
+          "weightedScore": 0.65,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "11",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "Yes, the property maintenance law extends beyond the property lot lines. Owners, lessees, or occupants are responsible for maintaining the area along the sidewalk, street, or alley adjacent to their property. This includes the space between the property line and the curb or middle of the alley, or up to ten feet outside the property line if there is no curb.",
+          "score": 0.65,
+          "weight": 1,
+          "weightedScore": 0.65,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 6.75,
+  "normalizedScore": 6.75,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.567Z"
+}

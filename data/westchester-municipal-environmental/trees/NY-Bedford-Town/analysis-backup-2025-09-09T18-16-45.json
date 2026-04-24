@@ -1,0 +1,129 @@
+{
+  "municipality": {
+    "id": "NY-Bedford-Town",
+    "displayName": "Bedford - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property if it falls under certain categories, such as being over 18 inches in diameter, designated as a protected native plant, or if it's a landmark/special tree, among others listed in the statute. To apply, you must file a tree removal permit application with the Enforcement Officer, including the required information as outlined in the statute. The Enforcement Officer will review the application.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 112-4",
+        "§ 112-5"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit include a fine of not more than $350, imprisonment for not more than 15 days, and/or a court order to restore the property and replace the removed trees. Each tree removed without a permit is considered a separate offense. Additionally, no new permits or approvals for development will be issued until the replacement is completed and approved.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 112-8"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§ 112-7",
+        "§ 112-8"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a clear fee schedule to the statute that specifies the cost for removing each tree without a replacement, including payment options, potential exemptions for certain property owners, and provisions to ensure the fee covers administrative costs associated with enforcement and environmental impact mitigation."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "The statute allows for replanting or other mitigation to prevent erosion, provide screening, preserve ecological systems, or remediate effects on neighboring properties. However, it does not specify whether non-native species can be used as replacements.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 112-6C"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding explicit guidelines on the use of native versus non-native species for replanting, including any preferences or restrictions, as well as requirements for monitoring the survival of replanted trees and specifying replacement ratios to ensure ecological balance and compliance."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§ 112-5"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a requirement that property owners must notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and include details of the removal plan and potential impacts."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of trees in stabilizing soil, controlling pollution, yielding microclimatic effects, and contributing to the ecological systems of the town. This is reflected in its purpose to prevent indiscriminate tree removal while maintaining the town's rural character, which includes its tree canopy.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 112-1"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific coverage targets for the tree canopy, along with detailed measurement methods and maintenance plans to ensure long-term preservation and enhancement of the town's ecological systems."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "The statute does not explicitly detail the responsibilities for maintaining trees on private property. It primarily focuses on the requirements for tree removal and the need for permits.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.6,
+      "gap": "Consider adding a regulation that requires property owners to conduct annual inspections of trees on their property, adhere to established care standards for pruning and disease management, and promptly address any identified hazards to ensure public safety and tree health."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "The statute requires that the Tree Advisory Board make an annual report to the Town Board. This report may include recommendations for actions regarding tree preservation, an inventory of significant trees, and a community forestry work plan, but it does not specifically mention data collection on tree removals being reported to the public.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 112-10C"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding a requirement for the Tree Advisory Board to collect and publicly report data on tree removals, including the number, location, and reasons for removal, to enhance transparency and accountability in community forestry management."
+    }
+  ],
+  "scores": {
+    "overallScore": 0.61,
+    "normalizedScore": 2.3,
+    "averageConfidence": 61,
+    "questionsAnswered": 6,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        1,
+        0.1,
+        0.1,
+        0.1,
+        0.55,
+        0.6,
+        0.5
+      ],
+      "averageQuestionScore": 0.4937500000000001,
+      "weightedScore": 0.46
+    }
+  },
+  "overallScore": 2.3,
+  "averageConfidence": 61,
+  "questionsAnswered": 6,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-09T18:16:45.255Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

@@ -1,0 +1,215 @@
+{
+  "municipality": {
+    "id": "NY-Yorktown-Town",
+    "displayName": "Yorktown - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit if you plan to remove 10 or more protected trees in a calendar year, or more than two protected trees within a regulated buffer zone, remove any specimen tree, conduct land conversion, or disturb 10,000 square feet or more of protected woodlands. To apply, you need to submit an application form and required documents to the Town's Planning or Engineering Departments. The review is handled by the appropriate approval authority, which could be the Planning Board, Town Board, Zoning Board of Appeals, or Town Engineer, depending on the specifics of your project.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-6",
+        "§ 270-7",
+        "§ 270-8"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing protected trees without a permit include a fine of $1,000 per tree for the first offense. For a second offense within three years, the fine is doubled or up to 15 days of imprisonment, or both. For unauthorized disturbance of protected woodlands, penalties include $2,500 for a land conversion or $1,000 per 1,000 square feet disturbed for the first offense. A second offense within three years also results in doubled fines or up to 15 days of imprisonment, or both.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-15"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "If a tree is removed without replacement, you must pay into the Tree Bank Fund. The payment is $100 for every protected tree removed, and $300 for every 5,000 square feet of protected woodland disturbed.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-10"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding a detailed fee schedule that includes specific payment options, potential exemptions for certain types of tree removals, and a breakdown of how administrative costs are covered to ensure clarity and transparency in the regulation."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed as part of a mitigation plan, which is the preferred approach whenever feasible. If replanting is required, the use of native species of trees, understory shrubs, and herbaceous ground cover is encouraged.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-10"
+      ],
+      "score": 0.95,
+      "gap": "Consider adding specific guidelines on the required replacement ratios for removed trees, as well as a monitoring plan to ensure the survival and establishment of the newly planted trees, with a preference for native species."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement that property owners must notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and include details about the removal plan and potential impacts."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code emphasizes the importance of preserving trees and woodlands, including the woodland canopy. It outlines the benefits of a healthy tree canopy such as providing ecological stability, wildlife habitat, and aesthetic value. The code seeks to avoid ecological degradation through irresponsible tree cutting.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-2",
+        "§ 270-3"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific coverage targets for the tree canopy, detailed measurement methods for assessing canopy health, and comprehensive maintenance plans to ensure long-term preservation and ecological stability."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Your responsibilities include normal maintenance activities such as removal of leaf litter, pruning, trimming, or otherwise preserving live trees, ideally using best management practices as recommended by the American National Standards Institute. If trees become hazardous, damaged, or diseased, you may remove them without a permit under certain conditions.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-5",
+        "§ 270-4"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific guidelines for inspection schedules and frequency to ensure property owners regularly assess the health and safety of trees on their property."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "The statute does not specify the requirement for data collection on tree removals or the presentation of such data in a report to the public. However, it does require an annual report on the status of implementing the Town-wide forest management plan to be presented to the Town Board.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 270-16"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a specific requirement for the collection and public reporting of data on tree removals, including the number, location, and reasons for removal, to enhance transparency and accountability in the Town-wide forest management plan."
+    }
+  ],
+  "scores": {
+    "overallScore": 6.53,
+    "normalizedScore": 6.53,
+    "averageConfidence": 76,
+    "questionsAnswered": 7,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        1,
+        0.8,
+        0.95,
+        0.1,
+        0.55,
+        0.6,
+        0.1
+      ],
+      "averageQuestionScore": 0.6375,
+      "weightedScore": 0.6533,
+      "totalWeightedScore": 9.799999999999997,
+      "totalPossibleWeight": 15,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+          "answer": "Yes, you need a permit if you plan to remove 10 or more protected trees in a calendar year, or more than two protected trees within a regulated buffer zone, remove any specimen tree, conduct land conversion, or disturb 10,000 square feet or more of protected woodlands. To apply, you need to submit an application form and required documents to the Town's Planning or Engineering Departments. The review is handled by the appropriate approval authority, which could be the Planning Board, Town Board, Zoning Board of Appeals, or Town Engineer, depending on the specifics of your project.",
+          "score": 1,
+          "weight": 1,
+          "weightedScore": 1,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the penalties for removing trees without a permit?",
+          "answer": "The penalties for removing protected trees without a permit include a fine of $1,000 per tree for the first offense. For a second offense within three years, the fine is doubled or up to 15 days of imprisonment, or both. For unauthorized disturbance of protected woodlands, penalties include $2,500 for a land conversion or $1,000 per 1,000 square feet disturbed for the first offense. A second offense within three years also results in doubled fines or up to 15 days of imprisonment, or both.",
+          "score": 1,
+          "weight": 2,
+          "weightedScore": 2,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What is the fee for removing each tree without a replacement?",
+          "answer": "If a tree is removed without replacement, you must pay into the Tree Bank Fund. The payment is $100 for every protected tree removed, and $300 for every 5,000 square feet of protected woodland disturbed.",
+          "score": 0.8,
+          "weight": 1,
+          "weightedScore": 0.8,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+          "answer": "Yes, you can replant new trees to replace those removed as part of a mitigation plan, which is the preferred approach whenever feasible. If replanting is required, the use of native species of trees, understory shrubs, and herbaceous ground cover is encouraged.",
+          "score": 0.95,
+          "weight": 3,
+          "weightedScore": 2.8499999999999996,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "Which neighbors must be notified if I remove trees? ",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        },
+        {
+          "id": "6",
+          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+          "answer": "Yes, the code emphasizes the importance of preserving trees and woodlands, including the woodland canopy. It outlines the benefits of a healthy tree canopy such as providing ecological stability, wildlife habitat, and aesthetic value. The code seeks to avoid ecological degradation through irresponsible tree cutting.",
+          "score": 0.55,
+          "weight": 3,
+          "weightedScore": 1.6500000000000001,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "8",
+          "question": "What are my responsibilities for maintaining trees on my property?",
+          "answer": "Your responsibilities include normal maintenance activities such as removal of leaf litter, pruning, trimming, or otherwise preserving live trees, ideally using best management practices as recommended by the American National Standards Institute. If trees become hazardous, damaged, or diseased, you may remove them without a permit under certain conditions.",
+          "score": 0.6,
+          "weight": 2,
+          "weightedScore": 1.2,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "9",
+          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+          "answer": "The statute does not specify the requirement for data collection on tree removals or the presentation of such data in a report to the public. However, it does require an annual report on the status of implementing the Town-wide forest management plan to be presented to the Town Board.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 6.53,
+  "averageConfidence": 76,
+  "questionsAnswered": 7,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-09T18:31:01.665Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 6.53,
+  "scoresUpdatedAt": "2025-10-10T17:18:10.222Z"
+}

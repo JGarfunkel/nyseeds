@@ -1,0 +1,185 @@
+{
+  "municipality": {
+    "id": "NY-Elmsford-Village",
+    "displayName": "Elmsford - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The statute does not specify a prohibition period for gas leaf blowers. It only prohibits the operation of power lawnmowers, rakers, or leaf blowers between 8:00 p.m. and 8:00 a.m. on weekdays, and between 8:00 p.m. and 9:00 a.m. on weekends and holidays, as per § 228-3(H).",
+      "confidence": 50,
+      "sourceRefs": [
+        "§ 228-3"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a specific prohibition period for gas leaf blowers, detailing the start and end dates within the year, to provide clarity and enforceability regarding their use."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers can be operated from 8:00 a.m. to 8:00 p.m. on weekdays, and from 9:00 a.m. to 8:00 p.m. on Saturdays, Sundays, and federal holidays.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 228-3"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding specific enforcement mechanisms and penalties for non-compliance with the permitted hours of gas leaf blower operation to strengthen the statute."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Any person violating the regulations for gas leaf blowers, as part of the general noise regulations, shall be punished by a fine of not less than $100 nor more than $250. Each day that a violation continues is considered a separate offense.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 228-4"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding a provision that specifies increased fines or additional penalties for repeat offenses to deter ongoing violations and strengthen enforcement."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "The statute does not specify any exceptions for school, government, or commercial properties regarding the operation of gas leaf blowers or other noise restrictions.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding explicit exemptions or conditions under which school, government, or commercial properties may operate gas leaf blowers, such as during specific hours or for emergency maintenance, to address potential operational needs while maintaining noise control."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 50,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a clear regulatory framework that mandates the establishment of a centralized reporting system for violations, including detailed data collection requirements, public access to violation reports, transparency measures for how reports are handled, and mechanisms for tracking the resolution and enforcement of reported violations."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 50,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that mandates the promotion of leaf mulching and the ecological benefits of leaving leaf debris through public education campaigns and incentives for residents who adopt sustainable leaf management practices."
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "The statute does not require any report to be presented to the public.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "Consider adding a requirement for periodic public reports that detail the data collection methods, findings, and any actions taken, to enhance transparency and accountability in the ordinance."
+    }
+  ],
+  "scores": {
+    "overallScore": 2.17,
+    "normalizedScore": 2.17,
+    "averageConfidence": 70,
+    "questionsAnswered": 5,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.5,
+        0.3,
+        0.1,
+        0.1,
+        0.1,
+        0.5
+      ],
+      "averageQuestionScore": 0.24285714285714285,
+      "weightedScore": 0.2167,
+      "totalWeightedScore": 2.6,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "The statute does not specify a prohibition period for gas leaf blowers. It only prohibits the operation of power lawnmowers, rakers, or leaf blowers between 8:00 p.m. and 8:00 a.m. on weekdays, and between 8:00 p.m. and 9:00 a.m. on weekends and holidays, as per § 228-3(H).",
+          "score": 0.1,
+          "weight": 4,
+          "weightedScore": 0.4,
+          "maxWeightedScore": 4,
+          "confidence": 50
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Gas leaf blowers can be operated from 8:00 a.m. to 8:00 p.m. on weekdays, and from 9:00 a.m. to 8:00 p.m. on Saturdays, Sundays, and federal holidays.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "Any person violating the regulations for gas leaf blowers, as part of the general noise regulations, shall be punished by a fine of not less than $100 nor more than $250. Each day that a violation continues is considered a separate offense.",
+          "score": 0.3,
+          "weight": 3,
+          "weightedScore": 0.8999999999999999,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "The statute does not specify any exceptions for school, government, or commercial properties regarding the operation of gas leaf blowers or other noise restrictions.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 50
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 50
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "The statute does not require any report to be presented to the public.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 2.17,
+  "averageConfidence": 70,
+  "questionsAnswered": 5,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-09T20:00:26.330Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 2.17,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.231Z"
+}

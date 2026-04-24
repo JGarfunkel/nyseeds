@@ -1,0 +1,40 @@
+{
+  "municipality": {
+    "id": "NY-Pelham-UFSD",
+    "displayName": "Unknown - Municipality"
+  },
+  "domain": {
+    "id": "food",
+    "displayName": "Food"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "Does the district have composting?",
+      "answer": "Yes, the Pelham School District has implemented composting in all six schools. This initiative began on November 18, with the help of a new company that the district has partnered with to manage composting efforts. Each school has 64-gallon compost bins that are used daily and collected weekly for processing.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.55
+    },
+    {
+      "id": "2",
+      "question": "How much recycling do the schools do?",
+      "answer": "The statute does not specify how much recycling the schools in the Pelham School District do. It mentions the implementation of composting but does not provide specific details about recycling efforts.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.1
+    },
+    {
+      "id": "3",
+      "question": "How does the district work to reduce waste?",
+      "answer": "The district works to reduce waste by introducing composting in all its schools. There are 64-gallon bins in each school for composting, and a hauler picks up the waste weekly for processing. Furthermore, students are encouraged to participate in these efforts, such as working on educational signage and being part of the Student Sustainability Committee to promote environmental conservation and replace harmful practices like using plastic bottles with more sustainable ones.",
+      "confidence": 85,
+      "sourceRefs": [],
+      "score": 0.6
+    }
+  ],
+  "lastUpdated": "2025-09-04T16:36:39.944Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}
