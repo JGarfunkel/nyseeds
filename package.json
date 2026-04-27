@@ -6,7 +6,6 @@
   "description": "NY Seeds - Environmental statute analysis application using the Ordinizer library",
   "scripts": {
     "dev": "cross-env NODE_ENV=development npx tsx server/index.ts",
-    "postinstall": "cd node_modules/ordinizer && npm install && npm run build",
     "build-local": "npx vite build && esbuild server/index.ts --platform=node --bundle --packages=bundle --external:vite --format=cjs --outdir=dist --out-extension:.js=.cjs",
     "build": "npx vite build --base=/ordinizer/ && esbuild server/index.ts --platform=node --bundle --packages=bundle --external:vite --format=cjs --outdir=dist --out-extension:.js=.cjs",
     "gcp-build":  "npm run build --workspaces --if-present && npm run build",
@@ -44,7 +43,8 @@
     "memorystore": "^1.6.7",
     "nanoid": "^5.1.5",
     "openai": "^5.12.2",
-    "ordinizer": "github:JGarfunkel/ordinizer#main",
+    "@civillyengaged/ordinizer-client": "1.0.2",
+    "@civillyengaged/ordinizer-server": "1.0.1",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "react": "^18.3.1",

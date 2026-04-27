@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import path from "path";
-import { registerAllRoutes as registerOrdinizerRoutes } from "ordinizer/app/server/routes";
+import { registerAllRoutes as registerOrdinizerRoutes } from "@civillyengaged/ordinizer-server";
 
 /**
  * NYSeeds Server Routes

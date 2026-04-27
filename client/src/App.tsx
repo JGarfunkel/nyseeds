@@ -6,8 +6,7 @@
  */
 import { Switch, Route } from "wouter";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { Toaster, TooltipProvider } from "@ordinizer/client/ui";
-import { OrdinizerApp } from "@ordinizer/app/App";
+import { Toaster, TooltipProvider, OrdinizerApp } from "@civillyengaged/ordinizer-client";
 import { queryClient } from "./lib/queryClient";
 import AboutPage from "./AboutPage";
 

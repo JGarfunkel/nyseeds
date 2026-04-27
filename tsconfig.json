@@ -18,11 +18,11 @@
     "types": ["node", "vite/client"],
     "paths": {
       "@/*": ["./client/src/*"],
-      "@ordinizer/core": ["./node_modules/ordinizer/packages/core/dist"],
-      "@ordinizer/servercore": ["./node_modules/ordinizer/packages/servercore/dist"],
-      "@ordinizer/client/ui": ["./node_modules/ordinizer/client/dist/ui/index.js"],
-      "@ordinizer/app/*": ["./node_modules/ordinizer/app/client/dist/*"],
-      "@ordinizer/client": ["./node_modules/ordinizer/client/dist/index.js"]
+      "@civillyengaged/ordinizer-core": ["./node_modules/@civillyengaged/ordinizer-core/dist"],
+      "@civillyengaged/ordinizer-servercore": ["./node_modules/@civillyengaged/ordinizer-servercore/dist"],
+      "@civillyengaged/ordinizer-client/ui": ["./node_modules/@civillyengaged/ordinizer-client/dist/ui/index.js"],
+      "@civillyengaged/ordinizer-app/*": ["./node_modules/@civillyengaged/ordinizer-app/client/dist/*"],
+      "@civillyengaged/ordinizer-client": ["./node_modules/@civillyengaged/ordinizer-client/dist/index.js"]
     }
   }
 }
