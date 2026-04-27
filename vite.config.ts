@@ -11,7 +11,7 @@ const ordinizerClientUi = fs.existsSync(path.join(ordinizerRoot, "app/client/src
   : path.join(ordinizerRoot, "client/src/ui");
 
 export default defineConfig({
-  base: "./",
+  base: "./ordinizer/",
   plugins: [
     react()
   ],
