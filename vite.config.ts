@@ -50,7 +50,7 @@ export default defineConfig({
       strict: false,
       allow: [
         path.resolve(import.meta.dirname),
-        path.resolve(import.meta.dirname, "node_modules/ordinizer"),
+        path.resolve(import.meta.dirname, "node_modules/@civillyengaged/ordinizer-client/"),
         path.resolve(import.meta.dirname, "../ordinizer"),
       ],
     },
