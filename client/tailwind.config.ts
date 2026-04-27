@@ -13,8 +13,7 @@ export default {
     path.resolve(baseDir, "../../ordinizer/app/client/src/**/*.{js,jsx,ts,tsx}"),
     path.resolve(baseDir, "../../ordinizer/client/src/**/*.{js,jsx,ts,tsx}"),
     // Production: ordinizer installed as npm package
-    path.resolve(baseDir, "../node_modules/ordinizer/app/client/src/**/*.{js,jsx,ts,tsx}"),
-    path.resolve(baseDir, "../node_modules/ordinizer/client/src/**/*.{js,jsx,ts,tsx}"),
+    path.resolve(baseDir, "../node_modules/@civillyengaged/ordinizer-client/**/*.{js,ts,jsx,tsx}"),
   ],
   safelist: [
     {
