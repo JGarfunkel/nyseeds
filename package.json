@@ -11,10 +11,12 @@
     "start": "cross-env NODE_ENV=production node dist/index.cjs",
     "check": "tsc",
     "db:push": "drizzle-kit push",
-    "load-local": "npm install ../ordinizer",
-    "load-from-git": "npm install github:JGarfunkel/ordinizer#main"
+    "load-local": "npm install ../ordinizer/app/client ../ordinizer/app/server",
+    "load-latest": "npm install @civillyengaged/ordinizer-client@latest @civillyengaged/ordinizer-server@latest"
   },
   "dependencies": {
+    "@civillyengaged/ordinizer-client": "^1.0.3",
+    "@civillyengaged/ordinizer-server": "^1.0.2",
     "@pinecone-database/pinecone": "^6.1.2",
     "@radix-ui/react-collapsible": "^1.1.4",
     "@radix-ui/react-popover": "^1.1.7",
@@ -42,8 +44,6 @@
     "memorystore": "^1.6.7",
     "nanoid": "^5.1.5",
     "openai": "^5.12.2",
-    "@civillyengaged/ordinizer-client": "1.0.2",
-    "@civillyengaged/ordinizer-server": "1.0.2",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "react": "^18.3.1",
