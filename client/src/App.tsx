@@ -9,6 +9,7 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster, TooltipProvider, OrdinizerApp } from "@civillyengaged/ordinizer-client";
 import { queryClient } from "./lib/queryClient";
 import AboutPage from "./AboutPage";
+import BotPage from "./BotPage";
 
 function Router() {
   // Check if path starts with /ordinizer and render accordingly
@@ -30,6 +31,7 @@ function Router() {
       
       {/* About route */}
       <Route path="/about" component={AboutPage} />
+      <Route path="/bot" component={BotPage} />
       
       {/* 404 fallback */}
       <Route>
