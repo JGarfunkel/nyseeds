@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Harrison-Town-trees-1779067771576",
+  "entityId": "NY-Harrison-Town",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Harrison-Town",
     "displayName": "Harrison - Town"
   },
@@ -7,20 +10,27 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a tree removal permit to remove a tree on your private property. You must apply to the Building Department with a tree removal application that includes your name and address, the site of proposed tree removal, the purpose of the removal, and a plan showing existing trees and the location and size of trees to be removed. The Building Department reviews this application.",
-      "confidence": 95,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Yes, a permit is required to remove any live tree on private property within the Town's jurisdiction, regardless of whether a building permit is needed (§220-5A).\n\n**Application Process:** Apply to the Building Department. The application must include: (1) applicant's name and address, (2) site of proposed removal, (3) purpose of removal, and (4) a site plan showing wooded areas with tree types/sizes and the location/size of trees to be removed (§220-5B).\n\n**Who Reviews It:** The Building Department reviews and decides on the application based on criteria including tree condition/disease/hazard, necessity of removal, ecological impact, site character, and good horticultural practices (§220-5C). The Town Tree Committee also plays a role in recommending trees for preservation (§220-5D).\n\n**Fees:** The fee is set by the most current resolution of the Town Board (§220-5F). A specific dollar amount per tree is not stated in the provided sources.\n\n**Additional Cost:** For extensive cutting, the Building Department may require the applicant to pay for a Town-assigned inspector to supervise the work (§220-7A).",
+      "confidence": 72,
       "sourceRefs": [
-        "§ 220-5"
+        "§220-5A",
+        "§220-5B",
+        "§220-5C",
+        "§220-5D",
+        "§220-5F",
+        "§220-7A"
       ],
-      "score": 0.8,
-      "gap": "Consider adding specific timelines for the application review process and criteria for approval or denial to provide clarity and predictability for applicants."
+      "gap": "The statute lacks a size/diameter threshold (e.g., 18-inch DBH) triggering permit requirements, does not specify a per-tree fee amount, and does not provide exceptions for limited removal without a permit on smaller residential lots. Score reflects partial alignment with best practices.",
+      "score": 0.5,
+      "nextPrompts": [
+        "What is the current Town Board fee resolution amount per tree for a tree removal permit?",
+        "Are there any exemptions or thresholds (e.g., tree diameter or number of trees) that allow removal without a permit?"
+      ]
     },
     {
       "id": 2,
@@ -35,12 +45,19 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a clear fee schedule to the statute that outlines the specific cost for removing each tree without a replacement, including payment options, potential exemptions for certain cases, and provisions to ensure the fee covers administrative costs associated with enforcement and processing."
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies the following exemptions or circumstances permitting tree removal without standard prohibition:\n\n1. **Commercial nurseries**: Legally established commercial nurseries are exempt from the prohibition when acting in furtherance of normal business activities (§220-4).\n\n2. **Approved subdivision/building permits**: Work done as specified in an accepted subdivision or approved building permit is exempt (§220-4).\n\n3. **Customary trimming/pruning**: Trimming, pruning, and shaping in accordance with customarily accepted ornamental procedures is exempt (§220-4).\n\n4. **Hazardous/hardship trees**: Trees whose presence would cause hardship or endanger the public or adjoining property owners may be removed (§220-5D).\n\n5. **Construction zones**: Trees in areas to be occupied by buildings, driveways, or recreation areas, and within 15 feet of such structures, depending on species and conditions (§220-5D).\n\n6. **Excessive cut/fill areas**: Trees in areas with excessive land grading deemed harmful to tree survival (§220-5D).\n\n7. **Selective thinning**: Trees removed to encourage development of prime specimen trees, based on Town Tree Committee recommendation (§220-5D).\n\nNo size thresholds, species-based, or native/non-native exemptions are specified.",
+      "confidence": 82,
+      "sourceRefs": [
+        "§220-4",
+        "§220-5D"
+      ],
+      "gap": "Significant gaps exist compared to best practices: no DBH size thresholds trigger permit requirements, no distinction between native and non-native/invasive species, no ISA-certified arborist certification requirement, and no reduced replacement obligations for invasive species removal. The statute lacks NYS DEC protected native plant designations as a denial criterion.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Does the Town have any supplemental regulations or resolutions establishing DBH thresholds for tree removal permit applicability?",
+        "Are there any provisions addressing invasive or non-native species removal, or arborist certification requirements, in related Town codes or Tree Committee guidelines?"
+      ]
     },
     {
       "id": 4,
@@ -55,12 +72,35 @@
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement that property owners must notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and include details about the removal plan and potential impacts."
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "Not specified in the provided sources. The statute excerpts provided do not contain any provisions regarding neighbor notification procedures, the number of neighbors to be notified, notification methods (such as certified mail), posting of permit signs, or any public notice requirements related to tree removal applications.",
+      "confidence": 15,
+      "sourceRefs": [
+        "§ 220-6",
+        "§ 220-7"
+      ],
+      "gap": "The statute contains no neighbor/resident notification requirements for tree removal applications. Best practices call for: (1) certified mail notification to adjoining and directly opposite property owners and those within a specified distance (e.g., 300 feet); (2) notification at least 15 days before any decision or public hearing; and (3) on-site permit sign posting visible from the street at least 3 days before removal begins. None of these elements are present in the provided statute.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Town have a separate public notice or hearing procedure ordinance that applies to tree removal permit applications?",
+        "Are there any Town Tree Committee procedural rules or regulations that specify neighbor notification requirements for tree removal permits?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement officers identified in the statute are the **Building Inspector** and the **Commissioner of Public Works**, along with the **Town Tree Committee**. These officers are responsible for notifying property owners of dangerous or diseased trees and may seek penalties for non-compliance (§ 220-13).\n\nThe Town Tree Committee consists of five members: a Planning Board member, a Town staff member, a Town Board member or representative, and two Town residents appointed by the Town Board (§ 220-3). The statute does not designate these individuals as trained arborists or environmental professionals.\n\nHowever, the Committee is authorized to obtain assistance from \"persons qualified by reason of training or experience in tree planting, preservation and landscaping\" when necessary, subject to Town Board approval. This suggests that while the enforcement officers themselves are not required to be certified arborists, qualified professionals can be brought in as needed.",
+      "confidence": 82,
+      "sourceRefs": [
+        "§ 220-13",
+        "§ 220-3"
+      ],
+      "gap": "The answer identifies enforcement officers but does not address the lack of mandatory ISA-certified arborist consultation for technical decisions like hazard assessments or removal approvals. The statute's reliance on Building Inspector and Public Works Commissioner without required arboricultural credentials represents a significant gap compared to best practices.",
+      "score": 0.55,
+      "nextPrompts": [
+        "Does the statute require ISA-certified arborist consultation for hazard tree assessments?",
+        "What qualifications must the Town Tree Committee members possess under the statute?"
+      ]
     },
     {
       "id": 6,
@@ -76,61 +116,64 @@
     {
       "id": 8,
       "question": "What are my responsibilities for maintaining trees on my property?",
-      "answer": "The statute does not specify detailed responsibilities for maintaining trees on your property, but it prohibits the removal, destruction, or substantial alteration of trees without a permit. It also requires that any tree removal be conducted following certain criteria and conditions.",
-      "confidence": 85,
+      "answer": "Based on the provided sources, the statute focuses primarily on public trees rather than private property maintenance responsibilities. For public trees, property owners and others are prohibited from: securing ropes, wires, or signs to public trees; injuring, mutilating, or destroying public trees; allowing toxic chemicals, gas, smoke, salt, or oil to seep near public trees; excavating ditches or trenches within the branch limits of public trees; erecting or razing buildings without placing suitable protective guards around nearby public trees; allowing unprotected electric service wires to contact public trees; and removing protective guards or obstructing air/water access around public tree bases. These prohibitions apply without a written permit from the Town Tree Committee (§220-11). The statute's declaration of policy (§220-1) emphasizes tree preservation generally, noting that indiscriminate removal causes drainage issues, soil erosion, and reduced property values.",
+      "confidence": 52,
       "sourceRefs": [
-        "§ 220-4",
-        "§ 220-5"
+        "§220-11",
+        "§220-1"
       ],
-      "score": 0.1,
-      "gap": "Consider adding specific guidelines for property owners regarding regular inspection schedules, care standards, and hazard management responsibilities to ensure proper maintenance and safety of trees on private property."
+      "gap": "The statute does not specify private property maintenance responsibilities such as trimming overhanging branches to height clearances above roads/sidewalks, removing hazardous trees promptly, or regular pruning obligations — all of which are identified in best practices.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the statute specify clearance height requirements for tree branches overhanging public roads or sidewalks?",
+        "Are there provisions requiring property owners to remove dead or hazardous trees on private property?"
+      ]
     },
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to systematically collect data on all tree removals, including location, species, reason for removal, and number of trees removed, and to compile this information into an annual public report to enhance transparency and facilitate community engagement."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 220-5",
+        "§ 220-7",
+        "§ 220-6"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 3.9,
-    "normalizedScore": 3.9,
+    "overallScore": 3.93,
+    "normalizedScore": 3.93,
     "averageConfidence": 63,
-    "questionsAnswered": 5,
-    "totalQuestions": 8,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        0.8,
+        0.5,
         0.95,
-        0.1,
         0.3,
-        0.1,
+        0.3,
+        0,
         0.55,
-        0.1,
-        0.1
+        0.55,
+        0.2,
+        0
       ],
-      "averageQuestionScore": 0.375,
-      "weightedScore": 0.39,
-      "totalWeightedScore": 5.8500000000000005,
+      "averageQuestionScore": 0.37,
+      "weightedScore": 0.3933,
+      "totalWeightedScore": 5.9,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a tree removal permit to remove a tree on your private property. You must apply to the Building Department with a tree removal application that includes your name and address, the site of proposed tree removal, the purpose of the removal, and a plan showing existing trees and the location and size of trees to be removed. The Building Department reviews this application.",
-          "score": 0.8,
+          "score": 0.5,
           "weight": 1,
-          "weightedScore": 0.8,
+          "weightedScore": 0.5,
           "maxWeightedScore": 1,
-          "confidence": 95
+          "confidence": 72
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "If you remove trees without a permit, you can be fined up to $250 or face imprisonment for up to 15 days, or both. Each week's continued violation is considered an additional violation.",
           "score": 0.95,
           "weight": 2,
           "weightedScore": 1.9,
@@ -139,74 +182,69 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 20
+          "score": 0.3,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 82
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed. The replacement trees can be of the same kind or suitable alternate species as determined by the Town Tree Committee. Non-native species may be planted at the discretion of the Town Tree Committee.",
           "score": 0.3,
           "weight": 3,
-          "weightedScore": 0.8999999999999999,
+          "weightedScore": 0.9,
           "maxWeightedScore": 3,
           "confidence": 90
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 15
+        },
+        {
+          "id": "5.1",
+          "score": 0.55,
+          "weight": 1,
+          "weightedScore": 0.55,
+          "maxWeightedScore": 1,
+          "confidence": 82
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of trees for the community's health, safety, and welfare, including their role in stabilizing soil, controlling water pollution, absorbing air pollution, and providing a natural habitat for wildlife. The statute emphasizes the protection of trees against destructive practices and indiscriminate removal which impairs the benefits to the community.",
           "score": 0.55,
           "weight": 3,
-          "weightedScore": 1.6500000000000001,
+          "weightedScore": 1.65,
           "maxWeightedScore": 3,
           "confidence": 90
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "The statute does not specify detailed responsibilities for maintaining trees on your property, but it prohibits the removal, destruction, or substantial alteration of trees without a permit. It also requires that any tree removal be conducted following certain criteria and conditions.",
-          "score": 0.1,
+          "score": 0.2,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0.4,
           "maxWeightedScore": 2,
-          "confidence": 85
+          "confidence": 52
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 20
+          "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 3.9,
+  "overallScore": 3.93,
   "averageConfidence": 63,
-  "questionsAnswered": 5,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:19:34.727Z",
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:29:31.576Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3.9,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.182Z"
+  "sources": []
 }

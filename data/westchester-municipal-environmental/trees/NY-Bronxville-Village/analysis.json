@@ -1,16 +1,31 @@
 {
-  "municipality": "NY-Bronxville-Village",
-  "domain": "trees",
-  "analyzedAt": "2025-09-09T18:17:24.446Z",
+  "id": "NY-Bronxville-Village-trees-1779067532949",
+  "entityId": "NY-Bronxville-Village",
+  "domainId": "trees",
+  "entity": {
+    "id": "NY-Bronxville-Village",
+    "displayName": "Bronxville - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T18:17:15.440Z"
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "The provided statute does not address permits for tree removal on private property. The permit requirement described in Chapter 282 applies only to trees on public streets, sidewalks, or other public places — not private property. For those public trees, written permission must be obtained from the Superintendent of Public Works prior to any work, and any permitted work is performed at the cost of the person requesting it. No application process, review timeline, or fee schedule for private property tree removal is specified in the provided sources.",
+      "confidence": 85,
+      "sourceRefs": [
+        "Chapter 282 Trees, Shrubs and Plants"
+      ],
+      "gap": "Significant gap exists. The statute contains no private property tree removal permit requirement, no DBH thresholds, no formal application process, no designated reviewing officer for private removals, no decision timelines, no Tree Commission referral process, no neighbor notification requirements, and no tiered fee structure. Best practice calls for all of these elements, including permit requirements for trees meeting minimum DBH thresholds, written applications with site plans, decisions within 21–30 days, and fee schedules set by resolution.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does the village have a separate tree preservation ordinance or local law addressing private property tree removal permits and fees?",
+        "Are there any village resolutions or fee schedules establishing permit costs for tree work on private or public property?"
+      ]
     },
     {
       "id": 2,
@@ -25,39 +40,83 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T18:17:17.645Z"
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies one explicit exemption: the insect control requirement (§282-4) does not apply to insects which cause the spread of Dutch elm disease. This carve-out means property owners are not obligated under §282-4 to control insects responsible for Dutch elm disease spread, as Dutch elm disease is separately addressed through New York Agriculture and Markets Law §§164, 165, and 167. No other exemptions based on tree size, species (native vs. non-native), tree condition (hazardous/sick), or location are specified in the provided sources.",
+      "confidence": 82,
+      "sourceRefs": [
+        "https://ecode360.com/9449726"
+      ],
+      "gap": "Significant gaps exist compared to best practices. The statute lacks: DBH-based size thresholds triggering permit requirements, exemptions or reduced obligations for invasive/non-native species removal, ISA-certified arborist certification requirements, native species replacement obligations, and NYS DEC protected plant designations as denial criteria. The only exemption present is the Dutch elm disease insect control carve-out, which is narrowly procedural rather than a comprehensive exemption framework.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does the village have any separate administrative code or regulations specifying size thresholds (DBH) for tree removal permits on private property?",
+        "Are there any village policies or Superintendent of Public Works guidelines addressing invasive or non-native species removal exemptions not captured in Chapter 282?"
+      ]
     },
     {
       "id": 4,
       "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T18:17:18.018Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 282-3",
+        "§ 282-6"
+      ],
+      "gap": "The statute does not address replanting requirements, replacement tree options, native vs. non-native species allowances, or in-lieu payment alternatives. Best practices recommend allowing replanting as an alternative to fees, preferring native species, requiring approval of replanting plans, and establishing a tree fund for cases where on-site replanting is impractical. None of these elements are present in Chapter 282.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the village have a separate tree replacement or mitigation policy outside of Chapter 282 that addresses replanting requirements and species selection?",
+        "Are there any village administrative guidelines or Superintendent of Public Works directives that govern tree replacement standards, including native species preferences?"
+      ]
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 282-3",
+        "§ 282-6"
+      ],
+      "gap": "The statute contains no provisions for neighbor notification or resident notification procedures related to tree removal applications. Best practices call for certified mail notification to adjoining and directly opposite property owners within a specified distance (e.g., 300 feet), at least 15 days before any decision or hearing, plus on-site permit signage posted at least 3 days before removal begins.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the village have a separate tree permit or tree removal application ordinance that specifies notification requirements?",
+        "Are there any public hearing or notice requirements in the village code related to tree removal on private or public property?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement officer is the Superintendent of Public Works, or a person or persons designated by him or her. The statute does not specify any arboricultural credentials, ISA certification, or environmental professional qualifications for this role. The Superintendent has authority to inspect private land, issue written notices of violations, and take corrective measures including spraying, trimming, or cutting trees.",
+      "confidence": 92,
+      "sourceRefs": [
+        "§ 282-5: Superintendent of Public Works may enter privately owned land for inspection",
+        "§ 282-6: Superintendent of Public Works may take corrective measures after 15-day notice period"
+      ],
+      "gap": "The statute designates the Superintendent of Public Works as enforcement authority with no requirement for arboricultural credentials, ISA certification, or consultation with a qualified tree expert. There is no Tree Commission, dedicated Forestry Officer, or provision to retain a certified arborist for technical determinations. This falls short of best practices, which recommend a designated Forestry Officer or Tree Warden with arboricultural qualifications, or mandatory consultation with an ISA-Certified Arborist for hazard assessments and removal approvals.",
       "score": 0.1,
-      "analyzedAt": "2025-09-09T18:17:19.035Z"
+      "nextPrompts": [
+        "Does the village have any separate ordinance or policy requiring ISA-certified arborist consultation for tree removal or hazard assessments?",
+        "Are there any designated persons under the Superintendent of Public Works with arboricultural credentials identified in village administrative records?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T18:17:20.854Z"
+      "answer": "The statute does not explicitly articulate the importance of maintaining a healthy tree canopy in terms of ecological or community benefits. However, it implicitly recognizes tree preservation through several protective measures: requiring written permission from the Superintendent of Public Works before any work is performed on public trees, prohibiting harmful activities such as pouring injurious substances near trees, and mandating property owners keep trees free from damaging insects. The code also addresses Dutch elm disease control under New York Agriculture and Markets Law, indicating awareness of tree health threats. These provisions collectively suggest a regulatory intent to protect existing trees on public streets and public places, though the underlying rationale is framed around public safety rather than canopy health or ecological value.",
+      "confidence": 55,
+      "sourceRefs": [
+        "Chapter 282 Trees, Shrubs and Plants, §282-1",
+        "§282-4",
+        "§282-2 (Dutch elm disease provision)"
+      ],
+      "gap": "Significant gap exists. The statute lacks explicit recognition of tree canopy importance, ecological benefits, species diversity requirements, replanting mandates, or tree topping restrictions. It focuses on safety and pest control rather than proactive canopy preservation.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the municipality have a separate urban forestry plan or tree canopy policy outside of Chapter 282?",
+        "Are there any replanting or replacement requirements triggered by permitted tree removal under this code?"
+      ]
     },
     {
       "id": 8,
@@ -75,49 +134,52 @@
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T18:17:24.446Z"
+      "answer": "The statute requires the Superintendent of Public Works to keep an accurate record of the cost to the village of correcting violations (§282-7), and to certify that amount to the Village Clerk, who then mails a cost statement to the land owner. This constitutes internal recordkeeping related to enforcement actions. No requirement for data collection on tree removals specifically, nor any mandate for compiling or presenting such data in a public report, is specified in the provided sources.",
+      "confidence": 72,
+      "sourceRefs": [
+        "§282-7"
+      ],
+      "gap": "The statute lacks any requirement for systematic data collection on tree removals (e.g., permit applications, denials, trees removed) and does not mandate an annual or public-facing report to the governing board or public. Only internal cost-recovery recordkeeping is required. This falls significantly short of best practices, which call for a designated Tree Officer, formal annual reporting to the governing board with a specified deadline, and public disclosure of removal permits and any associated mitigation fund activity.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does the village have any administrative code or separate ordinance establishing a Tree Officer or urban forestry reporting requirement?",
+        "Are there any village board resolutions or policies requiring annual urban forestry or tree removal reports outside of Chapter 282?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 3.07,
-    "normalizedScore": 3.07,
-    "averageConfidence": 23,
-    "questionsAnswered": 2,
-    "totalQuestions": 8,
+    "overallScore": 2.9,
+    "normalizedScore": 2.9,
+    "averageConfidence": 65,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        0.1,
+        0.05,
         1,
+        0.05,
+        0,
+        0,
         0.1,
-        0.1,
-        0.1,
-        0.1,
+        0.2,
         0.75,
-        0.1
+        0.05
       ],
-      "averageQuestionScore": 0.29375000000000007,
-      "weightedScore": 0.3067,
-      "totalWeightedScore": 4.6000000000000005,
+      "averageQuestionScore": 0.24,
+      "weightedScore": 0.29,
+      "totalWeightedScore": 4.35,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.05,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 85
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "Any person violating any of the provisions of this chapter, which includes removing trees without a permit, shall, upon conviction, be subject to a fine of not more than $250 or to imprisonment for not more than 15 days, or to both such fine and imprisonment (§ 282-8).",
           "score": 1,
           "weight": 2,
           "weightedScore": 2,
@@ -126,48 +188,46 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 0
+          "score": 0.05,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 82
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Not specified in the statute.",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        },
+        {
+          "id": "5.1",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 92
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.2,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0.6,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 55
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "Your responsibilities for maintaining trees on your property include:\n\n1. Keeping all trees, shrubs, and plants trimmed and in a condition that does not interfere with or obstruct vision or endanger the safety of persons using any public street, sidewalk, or other public place (§ 282-3). Specifically, tree limbs overhanging a public sidewalk must be at least eight feet above it, and limbs overhanging a public street must be at least 13 feet above it.\n\n2. Ensuring that all trees, shrubs, and plants are free from insects that cause or tend to cause disease, destruction, or damage, and that may spread to public areas (§ 282-4). This does not apply to insects causing Dutch elm disease.\n\nFailure to comply with these responsibilities may result in the village taking corrective action and assessing the costs to you (§ 282-6, § 282-7).",
           "score": 0.75,
           "weight": 2,
           "weightedScore": 1.5,
@@ -176,24 +236,21 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0.1,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 72
         }
       ]
     }
   },
-  "overallScore": 3.07,
-  "averageConfidence": 23,
-  "questionsAnswered": 2,
-  "totalQuestions": 8,
-  "gapAnalysis": "",
-  "wenGrade": "G-",
+  "overallScore": 2.9,
+  "averageConfidence": 65,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:25:32.949Z",
+  "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3.07,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.162Z"
+  "sources": []
 }

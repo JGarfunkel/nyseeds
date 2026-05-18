@@ -10,11 +10,14 @@
   "statuteNumber": "Chapter 156",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:29:28.085Z",
-      "contentLength": 13314,
+      "downloadedAt": "2026-05-15T19:05:50.334Z",
+      "contentLength": 119373,
       "sourceUrl": "https://ecode360.com/5112183#5112183",
       "title": "Property Maintenance",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Ardsley-Village",
+  "homePage": "https://www.ardsleyvillage.gov/",
+  "isArticleBased": false
 }

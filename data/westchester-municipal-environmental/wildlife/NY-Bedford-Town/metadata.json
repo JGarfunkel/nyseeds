@@ -1,0 +1,20 @@
+{
+  "entityId": "NY-Bedford-Town",
+  "domainId": "wildlife",
+  "domain": "wildlife",
+  "homePage": "https://www.bedfordny.gov",
+  "metadataCreated": "2026-05-03T04:53:42.791Z",
+  "stateCodeApplies": false,
+  "sources": [
+    {
+      "sourceUrl": "https://bedfordny.gov/583/Permitting-and-Land-Use-Boards",
+      "downloadedAt": "2026-05-15T18:45:15.852Z",
+      "type": "form",
+      "primeDomainSource": "boards",
+      "contentLength": 94719
+    }
+  ],
+  "municipality": "Bedford",
+  "municipalityType": "Town",
+  "isArticleBased": false
+}

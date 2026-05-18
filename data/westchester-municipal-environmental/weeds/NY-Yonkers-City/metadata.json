@@ -10,11 +10,14 @@
   "statuteNumber": "Ch 69",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:33:08.148Z",
-      "contentLength": 2211,
+      "downloadedAt": "2026-05-15T19:35:37.403Z",
+      "contentLength": 49467,
       "sourceUrl": "https://ecode360.com/15089291",
       "title": "Art I  [Adopted 5-9-1961 by G",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Yonkers-City",
+  "homePage": "",
+  "isArticleBased": false
 }

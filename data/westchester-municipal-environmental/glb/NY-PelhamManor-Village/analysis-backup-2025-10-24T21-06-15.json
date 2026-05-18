@@ -1,0 +1,182 @@
+{
+  "municipality": "NY-PelhamManor-Village",
+  "domain": "glb",
+  "analyzedAt": "2025-09-09T20:06:05.811Z",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts for the entire year, with specific exceptions for limited hours on certain days. The prohibition starts on January 1 and ends on December 31. According to § 139-10, internal combustion leaf blowers are prohibited:\n\n- Between April 16 and October 14.\n- Between December 16 and March 14.\n- Between March 15 and April 15, except during specified hours on certain days.\n- Between October 15 and December 15, except during specified hours on certain days.\n\nThus, the prohibition effectively covers the entire year with limited exceptions for specific days and times.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 139-10"
+      ],
+      "score": 0.6,
+      "analyzedAt": "2025-09-09T20:05:59.271Z"
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "The permitted hours for gas leaf blower operation in the Village of Pelham Manor are as follows:\n\n- From October 15 through December 15, gas leaf blowers can be operated between 8:00 a.m. and 5:30 p.m. on any Tuesday, Wednesday, Thursday, or Friday that is not a legal holiday, and on any Saturday between 12:00 noon and 4:00 p.m.\n- From March 15 through April 15, gas leaf blowers can be operated between 8:00 a.m. and 5:30 p.m. on any Tuesday, Wednesday, Thursday, or Friday that is not a legal holiday, and on any Saturday between 12:00 noon and 4:00 p.m.\n\nGas leaf blowers are not permitted to be operated between April 16 and October 14, and between December 16 and March 14. (§ 139-10 A)",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 139-10"
+      ],
+      "score": 0.7,
+      "analyzedAt": "2025-09-09T20:06:01.570Z"
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating gas leaf blower regulations are a fine of not less than $250 or more than $1,000 and/or imprisonment for not more than 15 days. Each violation is considered a separate offense (§ 139-12).",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 139-12"
+      ],
+      "score": 0.9,
+      "analyzedAt": "2025-09-09T20:06:02.654Z"
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "The statute specifies that the restrictions imposed by § 139-10 do not apply to utility companies and municipal and/or school district emergency operations (§ 139-11 A). However, it does not mention any exceptions specifically for commercial properties.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 139-10",
+        "§ 139-11"
+      ],
+      "score": 0.5,
+      "analyzedAt": "2025-09-09T20:06:04.192Z"
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T20:06:05.024Z"
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T20:06:05.352Z"
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T20:06:05.811Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 5.5,
+    "normalizedScore": 5.5,
+    "averageConfidence": 51,
+    "questionsAnswered": 4,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.6,
+        0.7,
+        0.9,
+        0.5,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.42857142857142855,
+      "weightedScore": 0.55,
+      "totalWeightedScore": 6.599999999999999,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "The prohibition of gas leaf blowers lasts for the entire year, with specific exceptions for limited hours on certain days. The prohibition starts on January 1 and ends on December 31. According to § 139-10, internal combustion leaf blowers are prohibited:\n\n- Between April 16 and October 14.\n- Between December 16 and March 14.\n- Between March 15 and April 15, except during specified hours on certain days.\n- Between October 15 and December 15, except during specified hours on certain days.\n\nThus, the prohibition effectively covers the entire year with limited exceptions for specific days and times.",
+          "score": 0.6,
+          "weight": 4,
+          "weightedScore": 2.4,
+          "maxWeightedScore": 4,
+          "confidence": 90
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "The permitted hours for gas leaf blower operation in the Village of Pelham Manor are as follows:\n\n- From October 15 through December 15, gas leaf blowers can be operated between 8:00 a.m. and 5:30 p.m. on any Tuesday, Wednesday, Thursday, or Friday that is not a legal holiday, and on any Saturday between 12:00 noon and 4:00 p.m.\n- From March 15 through April 15, gas leaf blowers can be operated between 8:00 a.m. and 5:30 p.m. on any Tuesday, Wednesday, Thursday, or Friday that is not a legal holiday, and on any Saturday between 12:00 noon and 4:00 p.m.\n\nGas leaf blowers are not permitted to be operated between April 16 and October 14, and between December 16 and March 14. (§ 139-10 A)",
+          "score": 0.7,
+          "weight": 1,
+          "weightedScore": 0.7,
+          "maxWeightedScore": 1,
+          "confidence": 90
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "The penalties for violating gas leaf blower regulations are a fine of not less than $250 or more than $1,000 and/or imprisonment for not more than 15 days. Each violation is considered a separate offense (§ 139-12).",
+          "score": 0.9,
+          "weight": 3,
+          "weightedScore": 2.7,
+          "maxWeightedScore": 3,
+          "confidence": 90
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "The statute specifies that the restrictions imposed by § 139-10 do not apply to utility companies and municipal and/or school district emergency operations (§ 139-11 A). However, it does not mention any exceptions specifically for commercial properties.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 90
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 5.5,
+  "averageConfidence": 51,
+  "questionsAnswered": 4,
+  "totalQuestions": 7,
+  "gapAnalysis": "",
+  "wenGrade": "G-",
+  "usesStateCode": false,
+  "normalizedScore": 5.5,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.263Z"
+}

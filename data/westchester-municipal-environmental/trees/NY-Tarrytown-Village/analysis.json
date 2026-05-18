@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Tarrytown-Village-trees-1779068474345",
+  "entityId": "NY-Tarrytown-Village",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Tarrytown-Village",
     "displayName": "Tarrytown - Village"
   },
@@ -7,20 +10,23 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a permit to remove any tree exceeding four inches in diameter at a height of four feet six inches from the ground on your private property. You must apply through the procedures outlined in § 281-11. The Tree Warden makes the determination, and you may need to consult with the Tree Commission as per the situation described in § 281-4. Permit applications related to zoning or site plan approvals are also reviewed by the Planning Board or Zoning Board of Appeals.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Yes, a permit is required to remove trees on private property in Tarrytown. Permits may be granted if: (1) the tree causes hardship or endangers public/property safety; (2) trees are within 10 feet of a building perimeter; (3) trees substantially interfere with a permitted use of the property; or (4) for properties under zoning/planning review.\n\nTo apply, written applications must be submitted on forms prescribed by the Superintendent of Public Works, their designee, Tree Warden, or Landscape Architectural Consultant. Applications require a site plan showing existing/proposed contours, tree locations, types, sizes, conditions, and reasons for removal. Plans must identify all trees within the site disturbance area and up to 50 feet beyond it.\n\nThe Tree Warden reviews applications, with their determination being final but subject to appeal. For zoning variances, the Zoning Board of Appeals has advisory jurisdiction; for site plan approvals, the Planning Board has sole jurisdiction. The Superintendent of Public Works may grant immediate approval for hazardous trees, waiving notice requirements.\n\nRegarding fees, the cost of the tree permit application is set by the Village Board. No specific fee amounts per tree are stated in the provided sources.",
+      "confidence": 72,
       "sourceRefs": [
-        "§ 281-4",
-        "§ 281-11"
+        "§ 281-11",
+        "§ 281-12"
       ],
-      "score": 1
+      "gap": "The statute lacks specificity on: (1) a minimum tree size threshold (e.g., DBH) triggering permit requirements; (2) any exemptions allowing limited removal without a permit; (3) specific fee amounts per tree. Best practices recommend these elements for clarity and balance between property rights and environmental protection.",
+      "score": 0.55,
+      "nextPrompts": [
+        "What is the current permit application fee schedule as set by the Tarrytown Village Board for tree removal?",
+        "Does Tarrytown's code specify a minimum diameter at breast height (DBH) that triggers the tree removal permit requirement on private property?"
+      ]
     },
     {
       "id": 2,
@@ -35,34 +41,67 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 50,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific costs per tree, available payment options, potential exemptions for certain property owners, and provisions to ensure fees cover administrative costs associated with enforcement and processing."
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The Tarrytown code specifies the following exemptions or conditions under which tree removal permits may be granted:\n\n1. **Hazard/hardship**: If the tree endangers the public, the owner, or property (§281-11).\n2. **Proximity to structures**: Trees within 10 feet of a building or structure perimeter, subject to Tree Warden determination (§281-11).\n3. **Interference with permitted use**: Trees that substantially interfere with a permitted property use may be selectively removed (§281-11).\n4. **Size threshold**: Trees must exceed four inches in diameter at 4.5 feet height to require a permit, implying smaller trees are exempt (§281-4).\n5. **Specimen species exception**: Even the most protected specimen species (e.g., American beech, Eastern white pine, American elm, Ginkgo) may be removed if the Tree Commission determines they are a danger to persons/property or are diseased and cannot be saved (§281-14).\n\nNo exemptions based on non-native or invasive species status are specified in the provided sources.",
+      "confidence": 82,
+      "sourceRefs": [
+        "§281-4",
+        "§281-11",
+        "§281-14"
+      ],
+      "gap": "The statute lacks exemptions or reduced replacement obligations for invasive/non-native species, does not reference ISA-certified arborist certification for hazard determinations, and does not reference NYS DEC protected native plant designations. No invasive species framework is present.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Does Tarrytown's code address invasive or non-native species differently in terms of permit requirements or replacement obligations?",
+        "Is there a provision requiring ISA-certified arborist assessment for hazardous or diseased tree determinations prior to removal?"
+      ]
     },
     {
       "id": 4,
       "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-      "answer": "Yes, you can replant new trees to replace those removed. If trees are removed or damaged, they must be replaced in kind, or multiple trees can be planted if large mature trees cannot be replaced. However, the statute does not specify whether non-native species can be used as replacements.",
-      "confidence": 85,
+      "answer": "Yes, replanting trees in replacement of those removed is the primary requirement under the code. Payment to the Village Tree Fund is only permitted when the Tree Commission approves it upon proof that on-site replanting is not feasible, in whole or in part (§281-13). The payment must equal the value of destroyed trees per ISA Guidelines.\n\nRegarding replacement trees that fail to survive: any tree that does not survive within two years of planting must be replaced by the permit holder at no cost to the Village, within 60 days of written demand from the Tree Commission (§281-11).\n\nThe sources do not specify whether native or non-native species are permitted or required as replacements.",
+      "confidence": 72,
       "sourceRefs": [
-        "§ 281-12"
+        "§281-13",
+        "§281-11"
       ],
-      "score": 0.1,
-      "gap": "Consider adding specific guidelines on the use of native versus non-native species for replacement, including a preference for native species, as well as requirements for monitoring the survival of newly planted trees and establishing replacement ratios for different sizes and types of trees."
+      "gap": "The statute allows on-site replanting or fund payment when infeasible, which aligns partially with best practice. However, there is no mention of native species preference, an approved species list, or a requirement that replacement trees match removed trees in species. These are notable gaps compared to best practice.",
+      "score": 0.45,
+      "nextPrompts": [
+        "Does the Tarrytown code include an approved or preferred tree species list for replacement plantings?",
+        "Are there any native species requirements or restrictions on non-native/invasive species in the Tarrytown tree ordinance?"
+      ]
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Adjoining property owners must be notified of decisions regarding tree removal applications.",
-      "confidence": 85,
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "The sources do not detail a specific neighbor notification process for tree removal applications in Tarrytown. However, the statute does indicate that notices are generally required under the chapter, as evidenced by the provision allowing the Superintendent of Public Works to waive \"all notices as required under this chapter\" in hazardous tree situations. The specific mechanics of neighbor notification — such as the number of neighbors to be notified, the method of notification (e.g., certified mail), or required distances — are not described in the provided excerpts.",
+      "confidence": 25,
       "sourceRefs": [
-        "§ 281-11D"
+        "Village of Tarrytown Trees & Urban Forestry Chapter, Hazardous Tree Provision (Amended 9-16-2019 by L.L. No. 9-2019)"
       ],
-      "score": 0.6,
-      "gap": "Consider adding specific details about the required distance within which neighbors must be notified, the timeframe for notification prior to tree removal, acceptable methods of notification (e.g., mail, email, in-person), and a clear definition of who qualifies as an \"adjoining property owner\" to ensure comprehensive understanding and compliance."
+      "gap": "The statute references notices being required but does not specify: (1) how many neighbors must be notified, (2) the method of notification (e.g., certified mail), (3) the required distance from the tree, or (4) any on-site posting requirements. Best practice calls for certified mail to adjoining and opposite property owners within a set distance, at least 15 days before a decision, plus a visible on-site permit sign posted at least 3 days before removal.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does Tarrytown's code specify the number of neighbors or distance radius for notification of tree removal applications?",
+        "Are there any public hearing or posting requirements outlined elsewhere in Tarrytown's municipal code for tree removal permits?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement officer is the Superintendent of Public Works (or their designee), who oversees all trees within public streets and places, including planting, removal, care, and maintenance. Additionally, the Tree Warden holds authority, particularly as the final decision-maker when there is doubt about whether a tree is unsafe or infected. A Landscape Architectural Consultant may also be involved in site plan reviews.\n\nThe statute does not explicitly state that the Superintendent of Public Works must be a trained arborist or environmental professional. However, the Tree Commission is authorized to obtain assistance from 'persons especially qualified by reason of training or experience in tree planting, preservation and landscaping' when necessary. The Tree Warden is a distinct role involved in technical determinations, suggesting specialized expertise, though specific credentials are not defined in the provided excerpts. [§ 281-2, § 281-5]",
+      "confidence": 72,
+      "sourceRefs": [
+        "§ 281-2",
+        "§ 281-5"
+      ],
+      "gap": "The municipality lacks explicit ISA-Certified Arborist requirements or mandatory consultation for technical determinations; the Tree Warden and Superintendent roles have no defined arboricultural credentials, and cost recovery mechanisms for expert consultation are absent.",
+      "score": 0.45,
+      "nextPrompts": [
+        "Does the ordinance define 'Tree Expert' or require ISA certification for any role?",
+        "Are there mandatory arborist consultation requirements for hazard assessments or removals?"
+      ]
     },
     {
       "id": 6,
@@ -90,49 +129,48 @@
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 50,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to collect detailed data on all tree removals, including location, species, size, and reason for removal, and to compile this information into an annual public report to enhance transparency and facilitate community engagement."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 281-12",
+        "§ 281-11",
+        "§ 281-4"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 3.37,
-    "normalizedScore": 3.37,
-    "averageConfidence": 76,
-    "questionsAnswered": 6,
-    "totalQuestions": 8,
+    "overallScore": 3.5,
+    "normalizedScore": 3.5,
+    "averageConfidence": 64,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        1,
-        0.3,
-        0.1,
-        0.1,
-        0.6,
         0.55,
         0.3,
-        0.1
+        0.3,
+        0.45,
+        0.05,
+        0.45,
+        0.55,
+        0.3,
+        0
       ],
-      "averageQuestionScore": 0.38125000000000003,
-      "weightedScore": 0.3367,
-      "totalWeightedScore": 5.05,
+      "averageQuestionScore": 0.33,
+      "weightedScore": 0.35,
+      "totalWeightedScore": 5.25,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a permit to remove any tree exceeding four inches in diameter at a height of four feet six inches from the ground on your private property. You must apply through the procedures outlined in § 281-11. The Tree Warden makes the determination, and you may need to consult with the Tree Commission as per the situation described in § 281-4. Permit applications related to zoning or site plan approvals are also reviewed by the Planning Board or Zoning Board of Appeals.",
-          "score": 1,
+          "score": 0.55,
           "weight": 1,
-          "weightedScore": 1,
+          "weightedScore": 0.55,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 72
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "If you remove trees without a permit, you can be fined the greater of $500 or the replacement cost of the improperly removed trees. Additionally, you may be imprisoned for up to 15 days. Each day the violation continues counts as a separate offense. There is also a civil penalty of $200 for each day the violation continues, applicable for every tree.",
           "score": 0.3,
           "weight": 2,
           "weightedScore": 0.6,
@@ -141,48 +179,46 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 50
+          "score": 0.3,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 82
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed. If trees are removed or damaged, they must be replaced in kind, or multiple trees can be planted if large mature trees cannot be replaced. However, the statute does not specify whether non-native species can be used as replacements.",
-          "score": 0.1,
+          "score": 0.45,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 1.35,
           "maxWeightedScore": 3,
-          "confidence": 85
+          "confidence": 72
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Adjoining property owners must be notified of decisions regarding tree removal applications.",
-          "score": 0.6,
+          "score": 0.05,
           "weight": 1,
-          "weightedScore": 0.6,
+          "weightedScore": 0.05,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 25
+        },
+        {
+          "id": "5.1",
+          "score": 0.45,
+          "weight": 1,
+          "weightedScore": 0.45,
+          "maxWeightedScore": 1,
+          "confidence": 72
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code emphasizes the importance of maintaining a healthy tree canopy. It establishes minimum standards for tree protection due to the benefits they provide, such as shade, pollution control, and soil stabilization. Additionally, specific pruning guidelines are set to avoid harming tree health, and topping is to be avoided unless necessary for safety, recognizing the canopy's significance.",
           "score": 0.55,
           "weight": 3,
-          "weightedScore": 1.6500000000000001,
+          "weightedScore": 1.65,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "You are responsible for trimming trees so that branches do not hang lower than 15 feet above the roadbed and 8 feet above the sidewalk. You must also ensure any trees, shrubs, or plants do not obstruct the vision of motorists or pedestrian traffic. Trees posing a danger to public safety or utilities are considered a public nuisance, and you may be required to address these issues. If you neglect these duties after receiving written notice, the Village may trim the trees and charge the expense to you.",
           "score": 0.3,
           "weight": 2,
           "weightedScore": 0.6,
@@ -191,24 +227,26 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 50
+          "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 3.37,
-  "averageConfidence": 76,
-  "questionsAnswered": 6,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:30:00.307Z",
+  "overallScore": 3.5,
+  "averageConfidence": 64,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:41:14.345Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3.37,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.216Z"
+  "sources": [
+    {
+      "url": "https://www.tarrytownny.gov/home/events/54991",
+      "title": "Tree Commission | Tarrytown NY"
+    }
+  ]
 }

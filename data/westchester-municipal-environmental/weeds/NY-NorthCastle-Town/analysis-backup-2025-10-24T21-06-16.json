@@ -1,0 +1,149 @@
+{
+  "municipality": {
+    "id": "NY-NorthCastle-Town",
+    "displayName": "North Castle - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents must maintain all immediate exterior property free from weeds or plant growth in excess of 10 inches. All noxious weeds are prohibited. Weeds are defined as all grasses, annual plants, and vegetation, excluding trees, shrubs, cultivated flowers, and gardens.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 241-4"
+      ],
+      "score": 0.95,
+      "gap": "Consider adding a clear definition or list of what constitutes \"noxious weeds\" to ensure residents understand which specific plants are prohibited, thereby reducing ambiguity and improving compliance."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "The statute allows for cultivated flowers and gardens, which could include pollinator gardens, as they are excluded from the definition of weeds.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 241-4"
+      ],
+      "score": 0.45,
+      "gap": "Consider adding explicit definitions and guidelines for what constitutes a \"cultivated pollinator garden,\" including plant species, maintenance standards, and size limitations, to ensure clarity and prevent potential disputes over what is permissible under the property maintenance code."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law requires persons owning or occupying property to keep the sidewalk in front of their premises free from litter, which extends responsibilities beyond the property lot lines.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 241-4"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding explicit guidelines for the maintenance of the curb area itself, including responsibilities for snow removal, weed control, and repair of any damage, to ensure comprehensive coverage beyond the sidewalk."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Penalties for failing to comply with property maintenance regulations include a fine not exceeding $1,000 or imprisonment for up to 15 days, or both. Continued non-compliance results in separate offenses for each day.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 241-6"
+      ],
+      "score": 0.9,
+      "gap": "Consider adding specific escalation measures for repeat offenses, such as increased fines or longer imprisonment terms, to deter ongoing non-compliance effectively."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The timeline for resolving a property maintenance violation is 30 days from the service of written notice by the Building Inspector or his representative.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 241-9"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding specific details about the fine amounts for non-compliance, escalation procedures for repeat offenses, and a clear categorization of violation types to enhance clarity and enforcement of the statute."
+    }
+  ],
+  "scores": {
+    "overallScore": 6.92,
+    "normalizedScore": 6.92,
+    "averageConfidence": 85,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.95,
+        0.45,
+        0.55,
+        0.9,
+        0.85
+      ],
+      "averageQuestionScore": 0.74,
+      "weightedScore": 0.6917,
+      "totalWeightedScore": 4.15,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "Residents must maintain all immediate exterior property free from weeds or plant growth in excess of 10 inches. All noxious weeds are prohibited. Weeds are defined as all grasses, annual plants, and vegetation, excluding trees, shrubs, cultivated flowers, and gardens.",
+          "score": 0.95,
+          "weight": 1,
+          "weightedScore": 0.95,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "The statute allows for cultivated flowers and gardens, which could include pollinator gardens, as they are excluded from the definition of weeds.",
+          "score": 0.45,
+          "weight": 2,
+          "weightedScore": 0.9,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "Yes, the property maintenance law requires persons owning or occupying property to keep the sidewalk in front of their premises free from litter, which extends responsibilities beyond the property lot lines.",
+          "score": 0.55,
+          "weight": 1,
+          "weightedScore": 0.55,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "Penalties for failing to comply with property maintenance regulations include a fine not exceeding $1,000 or imprisonment for up to 15 days, or both. Continued non-compliance results in separate offenses for each day.",
+          "score": 0.9,
+          "weight": 1,
+          "weightedScore": 0.9,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "The timeline for resolving a property maintenance violation is 30 days from the service of written notice by the Building Inspector or his representative.",
+          "score": 0.85,
+          "weight": 1,
+          "weightedScore": 0.85,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 6.92,
+  "averageConfidence": 85,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:47:34.242Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 6.92,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.534Z"
+}

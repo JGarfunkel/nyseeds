@@ -1,4 +1,5 @@
 {
+  "id": "NY-Hastings-on-Hudson-Village-glb-1778856979938",
   "municipality": "NY-Hastings-on-Hudson-Village",
   "domain": "glb",
   "analyzedAt": "2025-09-09T20:01:26.128Z",
@@ -175,5 +176,20 @@
   "wenGrade": "G-",
   "usesStateCode": false,
   "normalizedScore": 4.37,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.235Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.235Z",
+  "entityId": "NY-Hastings-on-Hudson-Village",
+  "domainId": "glb",
+  "sources": [
+    {
+      "url": "https://www.greenburghny.com/DocumentCenter/View/14483/2024-CAC-Newsletter-4-Thank-You",
+      "title": "https://www.greenburghny.com/DocumentCenter/View/14483/2024-CAC-Newsletter-4-Thank-You",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Hastings-on-Hudson-Village\\2024-cac-newsletter-4-thank-you.txt"
+    },
+    {
+      "url": "https://www.greenburghny.com/DocumentCenter/View/14656/2024-CAC-Newsletter-5-Green-for-Fall-V2",
+      "title": "https://www.greenburghny.com/DocumentCenter/View/14656/2024-CAC-Newsletter-5-Green-for-Fall-V2",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Hastings-on-Hudson-Village\\2024-cac-newsletter-5-green-for-fall-v2.txt"
+    }
+  ],
+  "lastUpdated": "2026-05-15T14:56:19.938Z"
 }

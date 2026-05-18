@@ -1,4 +1,5 @@
 {
+  "id": "NY-MountKisco-Town-glb-1778856980037",
   "municipality": {
     "id": "NY-MountKisco-Town",
     "displayName": "Mount Kisco - Town"
@@ -181,9 +182,10 @@
   "averageConfidence": 57,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T20:03:26.223Z",
+  "lastUpdated": "2026-05-15T14:56:20.037Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 5.54,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.248Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.248Z",
+  "domainId": "glb"
 }

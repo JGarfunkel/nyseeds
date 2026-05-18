@@ -1,4 +1,5 @@
 {
+  "id": "NY-Ardsley-Village-weeds-1778856982715",
   "municipality": {
     "id": "NY-Ardsley-Village",
     "displayName": "Ardsley - Village"
@@ -141,9 +142,17 @@
   "averageConfidence": 72,
   "questionsAnswered": 4,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:36:44.818Z",
+  "lastUpdated": "2026-05-15T14:56:22.716Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 4.5,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.483Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.483Z",
+  "domainId": "weeds",
+  "sources": [
+    {
+      "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee",
+      "title": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Ardsley-Village\\ardsley-pollinator-pathway-committee-2.txt"
+    }
+  ]
 }

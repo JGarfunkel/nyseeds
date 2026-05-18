@@ -3,5 +3,10 @@
   "municipalityType": "Town",
   "domain": "Slopes",
   "lastConverted": "2025-08-15T20:28:24.392Z",
-  "sources": []
+  "sources": [],
+  "entityId": "NY-MountPleasant-Town",
+  "domainId": "slopes",
+  "homePage": "https://www.mtpleasantny.gov/",
+  "metadataCreated": "2026-05-06T19:13:00.925Z",
+  "municipality": "Mount Pleasant"
 }

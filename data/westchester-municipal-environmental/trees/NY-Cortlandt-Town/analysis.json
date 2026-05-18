@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Cortlandt-Town-trees-1779067566653",
+  "entityId": "NY-Cortlandt-Town",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Cortlandt-Town",
     "displayName": "Cortlandt - Town"
   },
@@ -7,22 +10,22 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you will need a permit to remove a tree on your private property if you plan to remove four or more trees or if the activity does not fall under the specified exemptions. For applying, you must submit an application to the Approving Authority, which could be the Zoning Board of Appeals, the Planning Board, the Town Board, or the Director of Technical Services, depending on the specific situation. The application should include detailed plans and reasons for tree removal. However, you are allowed to remove three or fewer trees on a single lot within a twelve-month period without a permit, provided they are not protected trees and are not within 10 feet of the property line on larger lots.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Under Chapter 283, a permit is required to remove trees on private property. Applications must be submitted to the Enforcement Officer and include: property owner information, location/address, number and species of trees to be removed, diameter at breast height (DBH), reason for removal, and a site plan. The Enforcement Officer reviews applications, though the Planning Board or Zoning Board of Appeals may also be involved depending on the application type. Certain exemptions exist, such as removal of up to three trees per year on residential lots under two acres, provided the trees are not protected or landmark trees. Protected trees generally include those above a certain DBH threshold or located in sensitive areas. Fees are not specified in the provided sources.",
+      "confidence": 62,
       "sourceRefs": [
-        "§ 283-3",
-        "§ 283-5",
-        "§ 283-6"
+        "Chapter 283 Trees"
       ],
-      "score": 0.9,
-      "gap": "Consider adding specific timelines for the application review process to ensure applicants know how long the approval or denial of their permit will take."
+      "gap": "The statute appears to lack explicit fee schedules for tree removal permits, and the DBH threshold triggering permit requirements is not clearly confirmed in the provided excerpts. Best practices suggest specifying a clear DBH threshold (e.g., 18 inches) and a defined fee structure per tree.",
+      "score": 0.55,
+      "nextPrompts": [
+        "What is the specific DBH threshold that triggers the permit requirement for tree removal in Chapter 283?",
+        "Are there any fee schedules or permit costs associated with tree removal applications under Chapter 283?"
+      ]
     },
     {
       "id": 2,
@@ -36,35 +39,55 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 15,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific charges per tree, available payment options, potential exemptions for certain cases, and provisions to ensure the fees cover administrative costs associated with enforcement and processing."
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies that removal of a regulated tree may be favored (i.e., exempted from typical restrictions) when the tree is located within three feet of an existing or proposed sidewalk or driveway. Additionally, Town departments are exempt from permit requirements for trees on Town highways and public rights-of-way. The permit requirement threshold for Town property is triggered only when more than five trees within 2,500 square feet, or a single tree exceeding 18 inches DBH at 4.5 feet above ground, are affected — implying smaller removals below these thresholds on Town property may not require the same review. No explicit exemptions based on species origin (native vs. non-native), tree health/hazard status, or size thresholds for private property trees are specified in the provided sources.",
+      "confidence": 62,
+      "sourceRefs": [
+        "https://ecode360.com/7695873"
+      ],
+      "gap": "The statute lacks explicit exemptions for hazardous/dead trees, invasive or non-native species, or DBH-based thresholds for private property trees. Best practice calls for written arborist certification for invasive species removals, reduced replacement obligations for non-native species, and clear DBH thresholds (4–12 inches) triggering permit requirements. None of these elements are present in the provided sources.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the statute include any provisions for emergency or hazardous tree removal without a permit?",
+        "Are there any species-specific exemptions or invasive species provisions elsewhere in Chapter 283?"
+      ]
     },
     {
       "id": 4,
       "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-      "answer": "Yes, you can replant new trees to replace those removed. The statute allows for a replanting plan and specifies that replacement trees should conform to certain standards, including being of a similar species to those removed. However, it does not specify that non-native species may be used as replacements, and emphasis is placed on the genus and cultivar of trees that have been removed.",
-      "confidence": 85,
-      "sourceRefs": [
-        "§ 283-3",
-        "§ 283-9"
-      ],
-      "score": 0.1,
-      "gap": "Consider adding explicit guidelines on the use of non-native species for replacement, including any restrictions or conditions under which they may be used, to ensure clarity and ecological compatibility."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "For applications to the Zoning Board of Appeals, Planning Board, or Town Board, notice must be sent by first-class mail to adjoining property owners and those across the street adjoining the property involved. For applications to the Director of Technical Services, notice must be given to adjacent property owners. In the case of single-lot applications not involving the Planning Board, notice is also to be given to property owners across any street or right-of-way abutting the involved property.",
-      "confidence": 85,
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "For single lot applications or those not involving the Planning Board, the approval authority notifies property owners abutting the involved property and those across any street or right-of-way abutting the property. These notified property owners have 20 days from the date of notice to submit written comments to the approval authority. The approval authority may waive this notice procedure if responses from all applicable property owners have been received prior to taking action. The statute does not specify a minimum number of neighbors to be notified beyond those abutting the property and those across any street or right-of-way.",
+      "confidence": 82,
       "sourceRefs": [
-        "§ 283-6"
+        "https://ecode360.com/7695873"
       ],
-      "score": 0.8,
-      "gap": "Consider adding a specific timeframe for when the notification must be sent prior to the tree removal, such as requiring notices to be mailed at least 10 days before the planned removal date, to ensure adequate time for neighbors to respond or raise concerns."
+      "gap": "The statute does not specify notification by certified mail or return receipt, does not require notification within a set distance beyond abutting properties (e.g., 300 feet), and does not mandate on-site posting of a permit sign visible from the street prior to tree removal. The 20-day comment period partially aligns with the 15-day best practice minimum.",
+      "score": 0.35,
+      "nextPrompts": [
+        "Does the statute specify the method of delivery (e.g., certified mail, posted notice) for neighbor notifications regarding tree removal applications?",
+        "Is there any requirement for on-site signage or public posting when a tree removal permit application is submitted or approved?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The statute references an 'administrator' as the enforcement authority responsible for requiring tree protection measures and overseeing compliance. The administrator is authorized to require protective fencing and trunk boards for trees during construction. The 'approving authority' is referenced as the entity that issues permits for tree removal. However, the statute does not specify the qualifications, credentials, or professional background of the administrator or approving authority — such as whether they are an ISA-Certified Arborist, licensed engineer, or other environmental professional.",
+      "confidence": 52,
+      "sourceRefs": [
+        "https://ecode360.com/7695873"
+      ],
+      "gap": "The statute identifies an 'administrator' and 'approving authority' but does not define their qualifications, arboricultural credentials, or require consultation with an ISA-Certified Arborist or equivalent professional. There is no Tree Warden, Forestry Officer, or advisory Tree Commission established. No provision exists for mandatory engagement of a credentialed arborist for technical determinations, hazard assessments, or appeals.",
+      "score": 0.1,
+      "nextPrompts": [
+        "Does the statute or municipal code elsewhere define the qualifications or credentials required for the 'administrator' or 'approving authority' overseeing tree permits?",
+        "Is there a Tree Commission, advisory board, or provision for retaining a certified arborist consultant referenced elsewhere in the municipal code?"
+      ]
     },
     {
       "id": 6,
@@ -102,41 +125,38 @@
     }
   ],
   "scores": {
-    "overallScore": 5.5,
-    "normalizedScore": 5.5,
-    "averageConfidence": 68,
-    "questionsAnswered": 7,
-    "totalQuestions": 8,
+    "overallScore": 4.77,
+    "normalizedScore": 4.77,
+    "averageConfidence": 59,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        0.9,
+        0.55,
         1,
+        0.2,
+        0,
+        0.35,
         0.1,
-        0.1,
-        0.8,
         0.55,
         0.75,
         0.5
       ],
-      "averageQuestionScore": 0.5875,
-      "weightedScore": 0.55,
-      "totalWeightedScore": 8.25,
+      "averageQuestionScore": 0.44,
+      "weightedScore": 0.4767,
+      "totalWeightedScore": 7.15,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you will need a permit to remove a tree on your private property if you plan to remove four or more trees or if the activity does not fall under the specified exemptions. For applying, you must submit an application to the Approving Authority, which could be the Zoning Board of Appeals, the Planning Board, the Town Board, or the Director of Technical Services, depending on the specific situation. The application should include detailed plans and reasons for tree removal. However, you are allowed to remove three or fewer trees on a single lot within a twelve-month period without a permit, provided they are not protected trees and are not within 10 feet of the property line on larger lots.",
-          "score": 0.9,
+          "score": 0.55,
           "weight": 1,
-          "weightedScore": 0.9,
+          "weightedScore": 0.55,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 62
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "The penalties for removing trees without a permit include a civil penalty not to exceed $1,000 for the first offense, $2,000 for the second offense, and $3,000 for each subsequent violation. Additionally, any person violating this chapter can also be found guilty of a violation pursuant to the Penal Law, punishable by a fine of up to $500 or, for subsequent offenses, up to $1,000 or 30 days' imprisonment, or both. Each week's continuation of the violation is deemed a separate offense.",
           "score": 1,
           "weight": 2,
           "weightedScore": 2,
@@ -145,48 +165,46 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
+          "score": 0.2,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 62
+        },
+        {
+          "id": "4",
+          "score": 0,
+          "weight": 3,
+          "weightedScore": 0,
+          "maxWeightedScore": 3,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "score": 0.35,
+          "weight": 1,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 1,
+          "confidence": 82
+        },
+        {
+          "id": "5.1",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 15
-        },
-        {
-          "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed. The statute allows for a replanting plan and specifies that replacement trees should conform to certain standards, including being of a similar species to those removed. However, it does not specify that non-native species may be used as replacements, and emphasis is placed on the genus and cultivar of trees that have been removed.",
-          "score": 0.1,
-          "weight": 3,
-          "weightedScore": 0.30000000000000004,
-          "maxWeightedScore": 3,
-          "confidence": 85
-        },
-        {
-          "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "For applications to the Zoning Board of Appeals, Planning Board, or Town Board, notice must be sent by first-class mail to adjoining property owners and those across the street adjoining the property involved. For applications to the Director of Technical Services, notice must be given to adjacent property owners. In the case of single-lot applications not involving the Planning Board, notice is also to be given to property owners across any street or right-of-way abutting the involved property.",
-          "score": 0.8,
-          "weight": 1,
-          "weightedScore": 0.8,
-          "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 52
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. It specifies that the canopy formed by the leafy upper branches of trees is essential, and it outlines requirements to protect and preserve trees, including measures to prevent damage to the canopy during construction or other activities.",
           "score": 0.55,
           "weight": 3,
-          "weightedScore": 1.6500000000000001,
+          "weightedScore": 1.65,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "Your responsibilities for maintaining trees on your property include not engaging in activities such as cutting, uprooting, or otherwise damaging trees without a permit, except for normal maintenance such as trimming and pruning. If a tree is dead or substantially diseased, you can remove it without a permit, but you need to report the removal to the Director of Technical Services within 10 days. You are also responsible for ensuring that tree removal does not exceed allowed limits unless a permit is obtained.",
           "score": 0.75,
           "weight": 2,
           "weightedScore": 1.5,
@@ -195,8 +213,6 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "The statute does not explicitly require data collection on tree removals for the purpose of presenting a report to the public. However, it does require individuals to submit documentation to the Director of Technical Services after removing trees under certain conditions, such as when removing trees due to being dead or diseased.",
           "score": 0.5,
           "weight": 2,
           "weightedScore": 1,
@@ -206,13 +222,12 @@
       ]
     }
   },
-  "overallScore": 5.5,
-  "averageConfidence": 68,
-  "questionsAnswered": 7,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:18:00.253Z",
+  "overallScore": 4.77,
+  "averageConfidence": 59,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:26:06.653Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 5.5,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.169Z"
+  "sources": []
 }

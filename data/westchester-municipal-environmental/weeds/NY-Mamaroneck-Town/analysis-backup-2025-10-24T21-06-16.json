@@ -1,0 +1,149 @@
+{
+  "municipality": {
+    "id": "NY-Mamaroneck-Town",
+    "displayName": "Mamaroneck - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents are required to cut, trim, or remove all brush, grass, rubbish, noxious weeds, litter, or other similar unsightly or objectionable material from their property at their own expense.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 161-3"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific height limits for grass and weeds, as well as a clear definition of \"noxious weeds\" to ensure consistent enforcement and understanding among residents."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, specifying guidelines for plant selection, maintenance standards, and maximum allowable height to ensure they are distinguishable from unmanaged weed growth."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "The law requires maintenance on the property and doesn't explicitly mention extending beyond property lot lines to areas like the curb.",
+      "confidence": 70,
+      "sourceRefs": [
+        "§ 161-3"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding explicit language to the statute that clarifies maintenance responsibilities for areas beyond property lot lines, such as the curb, to ensure comprehensive property upkeep and prevent ambiguity in enforcement."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Penalties for offenses include a fine of $250 for violations and a civil penalty not to exceed $25 for each violation of certain sections, in addition to fines. Each day the violation continues is considered a separate offense.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 161-5"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding specific escalation measures for repeat offenses to ensure that penalties increase for subsequent violations, thereby deterring ongoing non-compliance."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The property owner, tenant, or occupant must resolve the violation within a timeframe that is not less than 10 days from the date of receiving a written notice.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 161-3"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding specific details about the fine amounts for unresolved violations, the escalation process for repeat offenses, and the enforcement mechanisms to ensure compliance, as well as clearly defining the categories of violations to provide clarity and consistency in enforcement."
+    }
+  ],
+  "scores": {
+    "overallScore": 4.75,
+    "normalizedScore": 4.75,
+    "averageConfidence": 67,
+    "questionsAnswered": 4,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.6,
+        0.1,
+        0.5,
+        0.75,
+        0.8
+      ],
+      "averageQuestionScore": 0.55,
+      "weightedScore": 0.475,
+      "totalWeightedScore": 2.8499999999999996,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "Residents are required to cut, trim, or remove all brush, grass, rubbish, noxious weeds, litter, or other similar unsightly or objectionable material from their property at their own expense.",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 10
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "The law requires maintenance on the property and doesn't explicitly mention extending beyond property lot lines to areas like the curb.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 70
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "Penalties for offenses include a fine of $250 for violations and a civil penalty not to exceed $25 for each violation of certain sections, in addition to fines. Each day the violation continues is considered a separate offense.",
+          "score": 0.75,
+          "weight": 1,
+          "weightedScore": 0.75,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "The property owner, tenant, or occupant must resolve the violation within a timeframe that is not less than 10 days from the date of receiving a written notice.",
+          "score": 0.8,
+          "weight": 1,
+          "weightedScore": 0.8,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 4.75,
+  "averageConfidence": 67,
+  "questionsAnswered": 4,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:43:58.882Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4.75,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.522Z"
+}

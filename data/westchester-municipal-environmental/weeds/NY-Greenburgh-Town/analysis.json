@@ -1,4 +1,5 @@
 {
+  "id": "NY-Greenburgh-Town-weeds-1778856982905",
   "municipality": "NY-Greenburgh-Town",
   "domain": "weeds",
   "analyzedAt": "2025-09-08T17:40:51.758Z",
@@ -129,5 +130,20 @@
   "wenGrade": null,
   "usesStateCode": false,
   "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.506Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.506Z",
+  "entityId": "NY-Greenburgh-Town",
+  "domainId": "weeds",
+  "sources": [
+    {
+      "url": "https://www.greenburghny.com/DocumentCenter/View/14655/2024-CAC-Newsletter-3-Invasive-Plants",
+      "title": "https://www.greenburghny.com/DocumentCenter/View/14655/2024-CAC-Newsletter-3-Invasive-Plants",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Greenburgh-Town\\2024-cac-newsletter-3-invasive-plants.txt"
+    },
+    {
+      "url": "https://www.greenburghny.com/DocumentCenter/View/14657/2024-CAC-Winter-Letter",
+      "title": "https://www.greenburghny.com/DocumentCenter/View/14657/2024-CAC-Winter-Letter",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Greenburgh-Town\\2024-cac-winter-letter.txt"
+    }
+  ],
+  "lastUpdated": "2026-05-15T14:56:22.905Z"
 }

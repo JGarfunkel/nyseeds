@@ -1,4 +1,5 @@
 {
+  "id": "NY-MountPleasant-Town-weeds-1778856983567",
   "municipality": {
     "id": "NY-MountPleasant-Town",
     "displayName": "Mount Pleasant - Town"
@@ -139,9 +140,17 @@
   "averageConfidence": 59,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:45:40.037Z",
+  "lastUpdated": "2026-05-15T14:56:23.567Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 2.5,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.527Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.527Z",
+  "domainId": "weeds",
+  "sources": [
+    {
+      "url": "https://www.mtpleasantny.gov/DocumentCenter/View/240/2020-Native-Plant-Resource-Guide-PDF",
+      "title": "https://www.mtpleasantny.gov/DocumentCenter/View/240/2020-Native-Plant-Resource-Guide-PDF",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-MountPleasant-Town\\2020-native-plant-resource-guide-pdf.txt"
+    }
+  ]
 }

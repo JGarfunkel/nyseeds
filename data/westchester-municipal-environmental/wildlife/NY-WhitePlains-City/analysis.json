@@ -1,0 +1,206 @@
+{
+  "id": "NY-WhitePlains-City-wildlife-1778620265135",
+  "entityId": "NY-WhitePlains-City",
+  "domainId": "wildlife",
+  "entity": {
+    "id": "NY-WhitePlains-City",
+    "displayName": "White Plains - City"
+  },
+  "domain": {
+    "id": "wildlife",
+    "displayName": "Wildlife"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What wildlife protection and habitat conservation regulations apply in this area, and how are they enforced?",
+      "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n    \"recommendation\": \"Consider adding a comprehensive wildlife protection ordinance that includes habitat conservation zones, species protection lists, and enforcement mechanisms such as fines and regular inspections to ensure compliance.\"\n}"
+    },
+    {
+      "id": 2,
+      "question": "Are there designated protected habitats, reserves, or conservation areas, and what activities are restricted there?",
+      "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n  \"recommendation\": \"Consider adding a statute that designates specific areas as protected habitats or conservation reserves, outlining prohibited activities such as construction, hunting, and logging, and establishing guidelines for sustainable use and conservation efforts.\"\n}"
+    },
+    {
+      "id": 3,
+      "question": "Are any wildlife corridors identified, protected, or required in planning, and how are they maintained?",
+      "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n    \"recommendation\": \"Consider adding a statute that requires the identification and protection of wildlife corridors in municipal planning, including property owner duties for maintaining these corridors, regular inspection schedules, care standards, and responsibilities for managing potential hazards to ensure ecological connectivity and biodiversity conservation.\"\n}"
+    },
+    {
+      "id": 4,
+      "question": "Are there specific protections for amphibians, such as breeding-site safeguards, seasonal restrictions, or migration measures?",
+      "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n    \"recommendation\": \"Consider adding a statute that mandates the protection of amphibian breeding sites through seasonal restrictions on land development and construction activities, as well as the creation of designated migration corridors to ensure safe passage during critical periods.\"\n}"
+    },
+    {
+      "id": 5,
+      "question": "Are there specific protections for birds, including nesting, roosting, migration, or disturbance limits?",
+      "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n    \"recommendation\": \"Consider adding a comprehensive wildlife protection ordinance that includes specific provisions for the protection of bird habitats, such as restrictions on disturbing nesting sites, guidelines for managing roosting areas, and measures to safeguard migratory pathways.\"\n}"
+    },
+    {
+      "id": 6,
+      "question": "Are there specific protections for turtles, such as nesting beach protections, road-crossing measures, or harvest bans?",
+      "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n    \"recommendation\": \"Consider adding a statute that establishes protected nesting areas for turtles on beaches, implements road-crossing structures or signage to prevent turtle fatalities, and enforces a ban on the harvest of turtles to ensure their conservation and safety.\"\n}"
+    },
+    {
+      "id": 7,
+      "question": "What biodiversity conservation requirements exist for development, land use, or resource projects in this area?",
+      "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n  \"recommendation\": \"Consider adding a requirement for developers to conduct a biodiversity impact assessment prior to project approval, including measures for habitat preservation and species protection, to ensure sustainable development practices.\"\n}"
+    },
+    {
+      "id": 8,
+      "question": "How are habitat loss, fragmentation, and degradation assessed and minimized before project approval?",
+      "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n  \"recommendation\": \"Consider adding a requirement for comprehensive environmental impact assessments that specifically evaluate habitat loss, fragmentation, and degradation, including mandatory mitigation strategies and public consultation processes before project approval.\"\n}"
+    }
+  ],
+  "scores": {
+    "overallScore": 5,
+    "normalizedScore": 5,
+    "averageConfidence": 0,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "averageQuestionScore": 0.5,
+      "weightedScore": 0.5,
+      "totalWeightedScore": 3.5,
+      "totalPossibleWeight": 7,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What wildlife protection and habitat conservation regulations apply in this area, and how are they enforced?",
+          "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "2",
+          "question": "Are there designated protected habitats, reserves, or conservation areas, and what activities are restricted there?",
+          "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.95,
+          "weightedScore": 0.475,
+          "maxWeightedScore": 0.95,
+          "confidence": 0
+        },
+        {
+          "id": "3",
+          "question": "Are any wildlife corridors identified, protected, or required in planning, and how are they maintained?",
+          "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.9,
+          "weightedScore": 0.45,
+          "maxWeightedScore": 0.9,
+          "confidence": 0
+        },
+        {
+          "id": "4",
+          "question": "Are there specific protections for amphibians, such as breeding-site safeguards, seasonal restrictions, or migration measures?",
+          "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.8,
+          "weightedScore": 0.4,
+          "maxWeightedScore": 0.8,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "question": "Are there specific protections for birds, including nesting, roosting, migration, or disturbance limits?",
+          "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.8,
+          "weightedScore": 0.4,
+          "maxWeightedScore": 0.8,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "question": "Are there specific protections for turtles, such as nesting beach protections, road-crossing measures, or harvest bans?",
+          "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.8,
+          "weightedScore": 0.4,
+          "maxWeightedScore": 0.8,
+          "confidence": 0
+        },
+        {
+          "id": "7",
+          "question": "What biodiversity conservation requirements exist for development, land use, or resource projects in this area?",
+          "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.9,
+          "weightedScore": 0.45,
+          "maxWeightedScore": 0.9,
+          "confidence": 0
+        },
+        {
+          "id": "8",
+          "question": "How are habitat loss, fragmentation, and degradation assessed and minimized before project approval?",
+          "answer": "Analysis skipped: there are no known statutes for Wildlife & Habitat and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.85,
+          "weightedScore": 0.425,
+          "maxWeightedScore": 0.85,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 5,
+  "averageConfidence": 0,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2026-05-15T13:48:16.031Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://www.cityofwhiteplains.com/149/Conservation-Board",
+      "title": "https://www.cityofwhiteplains.com/149/Conservation-Board"
+    }
+  ]
+}

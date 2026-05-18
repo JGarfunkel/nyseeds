@@ -1,0 +1,262 @@
+{
+  "id": "NY-Bedford-Town-wildlife-1778522436896",
+  "entityId": "NY-Bedford-Town",
+  "domainId": "wildlife",
+  "entity": {
+    "id": "NY-Bedford-Town",
+    "displayName": "Bedford - Town"
+  },
+  "domain": {
+    "id": "wildlife",
+    "displayName": "Wildlife"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What wildlife protection and habitat conservation regulations apply in this area, and how are they enforced?",
+      "answer": "Bedford’s wildlife protection and habitat conservation framework is primarily policy- and land-use-based rather than a single standalone wildlife ordinance. The main protections identified in the statute and related sources are:\n\n- Wetlands and watercourse protection: Chapter 122 (Freshwater Wetlands Law) regulates wetlands, ponds, lakes, reservoirs, marshes, swamps, bogs, rivers, streams, brooks, and associated floodplains. It establishes a 100-foot upland buffer around wetlands/watercourses and requires permits for regulated acts, with public notice, hearings, and enforcement procedures. (§ 122; CPP Part 3, Item 8)\n- Zoning protections for sensitive areas: Chapter 125 includes the Aquifer Protection Zone (§ 125-29.4), limits on land under water or mapped as wetland (§ 125-14), development in flood-prone areas (§ 125-46), development in wetland areas (§ 125-47), and conservation development (§§ 125-51 to 125-55). Conservation development must permanently preserve open space with meaningful scenic, ecological, environmental, flood control, recreational, or similar characteristics. (§ 125-29.4; §§ 125-51 to 125-55)\n- Steep slopes and ridgelines: Chapter 102 protects scenic views, waterways, open bodies of water, wetlands, and wildlife habitat by regulating disturbance on steep slopes and ridgelines, requiring erosion controls, vegetation minimization, and Planning Board review. (§ 102)\n- Scenic and historic roadways/open space: Chapter 71 Article IV requires buffer zones along designated scenic and historic roadways and restricts significant disturbance unless approved. Chapter 85 creates the Open Spaces and Areas, Park and Water Protection Debt Reserve Fund for acquiring and maintaining open space and water protection lands. (§ 71 Article IV; § 85)\n- Subdivision review: Chapter 107 requires subdivisions to comply with the Comprehensive Plan and Greenway Compact, and conservation subdivisions must preserve ecological areas, scenic qualities, and open space. (§ 107)\n- SEQR Critical Environmental Areas (CEAs): Bedford’s aquifer area is a CEA, and Westchester County has designated Byram Lake, the Mianus River, and Mianus River Gorge Preserve as CEAs. CEA designation adds an extra layer of environmental review; adverse impacts can support denial if not outweighed by other considerations. (CPP Part 3, Item 18)\n- Community Preservation Plan priorities: The CPP identifies habitats, wetlands/riparian areas, intact forests, rare and important habitats, and wildlife corridors as preservation priorities, and it uses parcel scoring to guide voluntary conservation acquisitions and easements. (CPP Part 2)\n\nEnforcement is carried out through the relevant Town boards and officials:\n- Wetlands Control Commission / Wetlands Permit Official for Chapter 122 permits and enforcement.\n- Planning Board for subdivision approvals, conservation development approvals, aquifer special permits, and steep slope/ridgeline permits.\n- Town Board for scenic roadway approvals, local law adoption, and reserve fund authorization.\n- Town Engineer and Illegal Discharge Management Officer for floodplain and stormwater/MS4 enforcement under Chapters 62 and 103.\n- Historic District Review Commission / Historic Building Preservation Commission for historic-resource protections that also support habitat-linked open space preservation.\n\nThe statute and CPP also state that SEQR review applies to relevant actions, and that CEAs do not replace zoning or acquisition tools but can justify denial or modification of actions with unavoidable adverse impacts. The CPP further notes that the Conservation Board provides recommendations on projects, plans, and policies, and that wildlife corridor mapping is being used to inform future protection efforts. (CPP Part 1 and Part 3; Additional Source 2; Additional Source 3-4)",
+      "confidence": 93,
+      "sourceRefs": [],
+      "score": 1,
+      "analyzedAt": "2026-05-11T18:00:26.884Z"
+    },
+    {
+      "id": 2,
+      "question": "Are there designated protected habitats, reserves, or conservation areas, and what activities are restricted there?",
+      "answer": "Yes. Bedford’s Community Preservation Plan identifies several preservation categories that function as protected habitats, reserves, or conservation areas, including: Recreation/Open Space, Drinking Water, Wetlands & Riparian Areas, Intact Forests, Rare & Important Habitats, Scenic Areas, Agriculture, Historic Properties, and Large Parcels (Part 2; Table 2.1; Table 2.2). The Plan also notes existing protected lands such as state and municipal parks, land trust properties, private lands under conservation easement, and designated open space, including nature preserves and parkland (Part 1; Table 1.2).\n\nActivities restricted there include, depending on the area: development and subdivision intensity, disturbance of wetlands and their 100-foot buffers, filling/grading/dredging and other floodplain or wetland impacts, new septic systems in aquifer or wetland areas, storage/disposal of hazardous materials in aquifer protection zones, and significant disturbance in scenic/historic roadway buffers such as tree removal, clearing, grading, filling, or building structures without approval (Ch. 122; Ch. 125-29.4; Ch. 125-14; Ch. 125-51 to 125-55; Ch. 71 Article IV; Ch. 102). The Plan also states that conservation developments must preserve open space lands and maintain them through a property owners’ association, and that CEAs receive additional SEQR review but are not themselves a direct development control (Part 3, Item 18).",
+      "confidence": 93,
+      "sourceRefs": [],
+      "score": 0.85,
+      "analyzedAt": "2026-05-11T18:00:27.953Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding specific guidelines for monitoring and enforcement mechanisms to ensure compliance with restricted activities in protected habitats and conservation areas.\"\n}"
+    },
+    {
+      "id": 3,
+      "question": "Are any wildlife corridors identified, protected, or required in planning, and how are they maintained?",
+      "answer": "Yes. Bedford identifies and plans for wildlife corridors, but the statute does not create a standalone corridor-protection ordinance. The 2024 Community Preservation Plan says its methodology “emphasizes intact, connected resources such as large core habitats and wildlife corridors” and that the Town completed a wildlife corridor mapping project, with Phase 1 delineating areas used by wildlife as movement pathways between larger undeveloped patches; Phase 2 is to develop policies and plans based on that mapping (Part 2.C, Intact Forests; Part 2.E). The Plan also states that parcels with a corridor or part of a core area present receive a corridor score, and that the conservation hubs and corridors can serve as focus areas for initial research and outreach to landowners (Part 2.C, Rare & Important Habitats; Part 2.E). In the 2003 Comprehensive Plan policies summarized in the CPP, the Town should vest boards with authority to protect areas that would eliminate or adversely affect wildlife corridors, and consider adverse impacts on endangered or threatened species and their habitat (2003 Plan summary in Part 1, Land Use and Development Goals). Maintenance is not assigned to a specific corridor-maintenance entity; instead, protection is maintained through acquisition or conservation easements, zoning/conservation development, SEQR/CEA review, and, for conservation developments, a property owners’ association or owner that must permanently preserve, maintain, and protect common lands and improvements (Part 3, §§ 125-51 to 125-55; Part 3, CEA section). The additional wildlife corridor mapping study also describes least-cost corridor mapping, core areas, riparian zones, and field work to evaluate pinch points and road crossings, but it does not specify a separate maintenance regime.",
+      "confidence": 92,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2026-05-11T18:00:29.026Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding specific maintenance responsibilities for property owners, including regular inspection schedules, care standards, and hazard management protocols to ensure the long-term viability of wildlife corridors.\"\n}"
+    },
+    {
+      "id": 4,
+      "question": "Are there specific protections for amphibians, such as breeding-site safeguards, seasonal restrictions, or migration measures?",
+      "answer": "Yes, but only indirectly. The statute and related plan do not specify amphibian-specific breeding-site safeguards, seasonal restrictions, or migration measures as standalone rules. However, they do identify vernal pools as crucial breeding and larval-stage habitat for amphibians and prioritize protection of wetlands, buffers, riparian areas, and vernal pools. The plan also emphasizes preserving wildlife corridors and connected habitat, which would support amphibian movement. Relevant sections include Chapter 122 (Wetlands) and Chapter 125-47 / 125-51 to 125-55 (wetland areas and conservation development), plus the CPP’s Rare & Important Habitats section and Table 2.1 / Table 3.2. The 2024 CPP specifically notes that vernal pools are “a safe refuge for breeding amphibians” and that when pools dry, many animals migrate into surrounding forest and return the following year.",
+      "confidence": 91,
+      "sourceRefs": [],
+      "score": 0.65,
+      "analyzedAt": "2026-05-11T18:00:31.895Z",
+      "gap": "{\n  \"recommendation\": \"Consider adding explicit amphibian-specific breeding-site safeguards, seasonal restrictions, and migration measures to ensure targeted protection beyond general wetland and habitat conservation efforts.\"\n}"
+    },
+    {
+      "id": 5,
+      "question": "Are there specific protections for birds, including nesting, roosting, migration, or disturbance limits?",
+      "answer": "Yes, but only indirectly. Bedford’s materials protect bird habitat and movement corridors rather than setting bird-specific nesting, roosting, migration, or disturbance rules. The strongest relevant protections are: (1) preservation of wildlife habitats and wildlife refuges in the Community Preservation Plan and the Hudson Valley Community Preservation Act criteria (e.g., wildlife refuges for native species diversity and habitat essential to rare/threatened/endangered species); (2) protection of wetlands, buffers, riparian areas, and intact forests, which the Plan says support birds and other wildlife; (3) the Wildlife Corridor Mapping project and corridor protection to maintain movement pathways; and (4) local land-use controls that limit disturbance in sensitive areas, such as Chapter 102 (Steep Slopes and Ridgelines), Chapter 122 (Wetlands), and Chapter 125-51 to 125-55 (Conservation Development), plus Chapter 71 Article IV scenic/historic roadway buffer limits on significant disturbance. However, the statute/source set does not specify bird-only nesting, roosting, migration-season, or bird-disturbance setback rules.",
+      "confidence": 91,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2026-05-11T18:00:33.483Z",
+      "gap": "{\n  \"recommendation\": \"Consider adding explicit regulations for bird-specific nesting, roosting, and migration protections, including defined disturbance setback rules during critical periods.\"\n}"
+    },
+    {
+      "id": 6,
+      "question": "Are there specific protections for turtles, such as nesting beach protections, road-crossing measures, or harvest bans?",
+      "answer": "Not specified in the statute. The discovered Bedford sources describe broad wildlife habitat protection, wetlands/riparian buffers, wildlife corridors, and a 100-foot buffer for scenic/historic roadways, but they do not identify turtle-specific protections such as nesting beach protections, road-crossing measures for turtles, or a turtle harvest ban. See CPP Part 2, §§ 2.C.3, 2.C.5, and Part 3, §§ 122, 125-51 to 125-55, and the wildlife corridor study/agenda materials for general habitat and corridor work only.",
+      "confidence": 92,
+      "sourceRefs": [
+        "§ 2",
+        "§ 122"
+      ],
+      "score": 0.3,
+      "analyzedAt": "2026-05-11T18:00:34.763Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding explicit turtle-specific protections, such as designated nesting beach protections, road-crossing measures, and a turtle harvest ban, to ensure comprehensive conservation efforts.\"\n}"
+    },
+    {
+      "id": 7,
+      "question": "What biodiversity conservation requirements exist for development, land use, or resource projects in this area?",
+      "answer": "Bedford’s statute and related planning sources do not impose a single, standalone biodiversity-impact permitting standard for all development. Instead, biodiversity conservation is addressed through several land-use controls and review requirements:\n\n- **Conservation development / conservation subdivision**: development must be designed to preserve natural and scenic qualities, protect areas of meaningful ecological value, reduce flood hazards, minimize negative environmental impacts, and permanently preserve open space with meaningful scenic, ecological, environmental, flood-control, recreational, or similar characteristics (§§ 125-51 to 125-55; Chapter 107). Open space in a subdivision should be contiguous where appropriate and possible to neighboring undeveloped lands, preserves, parks, and other open space.\n- **Wetlands and buffers**: wetlands and associated watercourses are regulated, with a **100-foot upland buffer** around wetlands/watercourses intended to protect them from human activity and development encroachment (Chapter 122; § 125-47 references Chapter 122).\n- **Steep slopes and ridgelines**: disturbance on steep slopes and ridgelines is regulated; new construction must avoid disturbing these areas and existing vegetation, and applications involving slopes over 25% must include erosion controls, vegetation-minimization measures, engineering review, and completion of controls before occupancy (Chapter 102).\n- **Aquifer protection**: special permits in the Aquifer Protection Zone require an **aquifer impact assessment** by a qualified hydrogeologist, with peer review paid by the applicant; certain hazardous uses are prohibited (§ 125-29.4).\n- **Stormwater controls**: land development activities cannot be approved until a **stormwater pollution prevention plan (SWPPP)** is approved, and BMPs may be required to prevent pollutant discharges (Chapter 103).\n- **SEQR / Critical Environmental Areas**: Bedford’s CEAs receive additional environmental review, and the plan states that unavoidable adverse impacts on a designated CEA may be grounds for denial if not outweighed by other essential considerations (Part 3, Item 18).\n- **Wildlife habitat / corridors**: the Town’s planning policies specifically call for protecting wildlife habitats and corridors, and the Conservation Board’s wildlife corridor mapping is used to identify areas for conservation; the plan recommends that permitting boards consider adverse impacts on endangered or threatened species and habitat supporting such species (2003 Plan policies summarized in the CPP; Part 1 and Part 3).\n\nIn short, Bedford’s biodiversity requirements are mainly **avoidance, buffering, impact review, erosion/stormwater control, and permanent open-space preservation**, rather than offsets or mandatory biodiversity compensation.",
+      "confidence": 92,
+      "sourceRefs": [],
+      "score": 0.3,
+      "analyzedAt": "2026-05-11T18:00:36.891Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding specific biodiversity compensation or offset requirements for developments that unavoidably impact critical habitats, ensuring that any loss of biodiversity is adequately compensated through restoration or enhancement projects elsewhere.\"\n}"
+    },
+    {
+      "id": 8,
+      "question": "How are habitat loss, fragmentation, and degradation assessed and minimized before project approval?",
+      "answer": "Habitat loss, fragmentation, and degradation are assessed through a data-driven parcel scoring and mapping process, and minimized by prioritizing intact, connected resources and using avoidance-first land use controls before approval. The CPP uses GIS-based criteria across nine preservation categories and 18 mapped criteria to score parcels, including forest fragmentation/quality, wildlife corridors, wetlands/buffers, meadows, vernal pools, trout-spawning areas, and adjacency to protected lands or scenic roads (Part 2, §§ 2.B–2.D; Table 2.1). For forests, the Hudson Valley Forest Condition Index is used, which is based on patch size, fragmentation, species diversity, and other ecological characteristics; parcels score if forest index is >50 (§ 2.C.4). For wildlife habitats, the plan explicitly emphasizes intact, connected resources, large core habitats, and wildlife corridors, and assigns points where corridors or core areas are present (§ 2.C.5). The Wildlife Corridor Mapping Study also treats development as high resistance, with fragmentation and steep slopes increasing resistance, while forest/wetland cover, riparian areas, and natural edges lower resistance.\n\nMinimization before approval occurs through SEQR review and local land use controls that can avoid or reduce impacts before a project is approved. The plan states that SEQR considers environmental factors early so projects can be modified to avoid adverse impacts, and that CEAs warrant specific consideration and can support denial if unavoidable adverse impacts remain (§ 3.18). Bedford’s tools include conservation easements, purchase of development rights, fee simple acquisition, conservation development, wetlands and steep-slope protections, and subdivision design standards. In particular, conservation development must preserve open space lands with meaningful scenic, ecological, environmental, flood control, recreational or similar characteristics, minimize land required for roads and utilities, and maintain natural/scenic qualities (§ 3.16; Chapter 107). The Steep Slopes and Ridgelines law requires new construction to avoid disturbing steep slopes and ridgelines and to minimize vegetation removal, with erosion controls required before occupancy (§ 3.5). The Wetlands Law requires a 100-foot upland buffer and regulates activities around wetlands and watercourses (§ 3.8).",
+      "confidence": 93,
+      "sourceRefs": [
+        "§ 2",
+        "§ 3.5"
+      ],
+      "score": 1,
+      "analyzedAt": "2026-05-11T18:00:36.892Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 5.51,
+    "normalizedScore": 5.51,
+    "averageConfidence": 92,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        0.85,
+        0.1,
+        0.65,
+        0.1,
+        0.3,
+        0.3,
+        1
+      ],
+      "averageQuestionScore": 0.5375,
+      "weightedScore": 0.5511,
+      "totalWeightedScore": 3.857500000000001,
+      "totalPossibleWeight": 7,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What wildlife protection and habitat conservation regulations apply in this area, and how are they enforced?",
+          "answer": "Bedford’s wildlife protection and habitat conservation framework is primarily policy- and land-use-based rather than a single standalone wildlife ordinance. The main protections identified in the statute and related sources are:\n\n- Wetlands and watercourse protection: Chapter 122 (Freshwater Wetlands Law) regulates wetlands, ponds, lakes, reservoirs, marshes, swamps, bogs, rivers, streams, brooks, and associated floodplains. It establishes a 100-foot upland buffer around wetlands/watercourses and requires permits for regulated acts, with public notice, hearings, and enforcement procedures. (§ 122; CPP Part 3, Item 8)\n- Zoning protections for sensitive areas: Chapter 125 includes the Aquifer Protection Zone (§ 125-29.4), limits on land under water or mapped as wetland (§ 125-14), development in flood-prone areas (§ 125-46), development in wetland areas (§ 125-47), and conservation development (§§ 125-51 to 125-55). Conservation development must permanently preserve open space with meaningful scenic, ecological, environmental, flood control, recreational, or similar characteristics. (§ 125-29.4; §§ 125-51 to 125-55)\n- Steep slopes and ridgelines: Chapter 102 protects scenic views, waterways, open bodies of water, wetlands, and wildlife habitat by regulating disturbance on steep slopes and ridgelines, requiring erosion controls, vegetation minimization, and Planning Board review. (§ 102)\n- Scenic and historic roadways/open space: Chapter 71 Article IV requires buffer zones along designated scenic and historic roadways and restricts significant disturbance unless approved. Chapter 85 creates the Open Spaces and Areas, Park and Water Protection Debt Reserve Fund for acquiring and maintaining open space and water protection lands. (§ 71 Article IV; § 85)\n- Subdivision review: Chapter 107 requires subdivisions to comply with the Comprehensive Plan and Greenway Compact, and conservation subdivisions must preserve ecological areas, scenic qualities, and open space. (§ 107)\n- SEQR Critical Environmental Areas (CEAs): Bedford’s aquifer area is a CEA, and Westchester County has designated Byram Lake, the Mianus River, and Mianus River Gorge Preserve as CEAs. CEA designation adds an extra layer of environmental review; adverse impacts can support denial if not outweighed by other considerations. (CPP Part 3, Item 18)\n- Community Preservation Plan priorities: The CPP identifies habitats, wetlands/riparian areas, intact forests, rare and important habitats, and wildlife corridors as preservation priorities, and it uses parcel scoring to guide voluntary conservation acquisitions and easements. (CPP Part 2)\n\nEnforcement is carried out through the relevant Town boards and officials:\n- Wetlands Control Commission / Wetlands Permit Official for Chapter 122 permits and enforcement.\n- Planning Board for subdivision approvals, conservation development approvals, aquifer special permits, and steep slope/ridgeline permits.\n- Town Board for scenic roadway approvals, local law adoption, and reserve fund authorization.\n- Town Engineer and Illegal Discharge Management Officer for floodplain and stormwater/MS4 enforcement under Chapters 62 and 103.\n- Historic District Review Commission / Historic Building Preservation Commission for historic-resource protections that also support habitat-linked open space preservation.\n\nThe statute and CPP also state that SEQR review applies to relevant actions, and that CEAs do not replace zoning or acquisition tools but can justify denial or modification of actions with unavoidable adverse impacts. The CPP further notes that the Conservation Board provides recommendations on projects, plans, and policies, and that wildlife corridor mapping is being used to inform future protection efforts. (CPP Part 1 and Part 3; Additional Source 2; Additional Source 3-4)",
+          "score": 1,
+          "weight": 1,
+          "weightedScore": 1,
+          "maxWeightedScore": 1,
+          "confidence": 93
+        },
+        {
+          "id": "2",
+          "question": "Are there designated protected habitats, reserves, or conservation areas, and what activities are restricted there?",
+          "answer": "Yes. Bedford’s Community Preservation Plan identifies several preservation categories that function as protected habitats, reserves, or conservation areas, including: Recreation/Open Space, Drinking Water, Wetlands & Riparian Areas, Intact Forests, Rare & Important Habitats, Scenic Areas, Agriculture, Historic Properties, and Large Parcels (Part 2; Table 2.1; Table 2.2). The Plan also notes existing protected lands such as state and municipal parks, land trust properties, private lands under conservation easement, and designated open space, including nature preserves and parkland (Part 1; Table 1.2).\n\nActivities restricted there include, depending on the area: development and subdivision intensity, disturbance of wetlands and their 100-foot buffers, filling/grading/dredging and other floodplain or wetland impacts, new septic systems in aquifer or wetland areas, storage/disposal of hazardous materials in aquifer protection zones, and significant disturbance in scenic/historic roadway buffers such as tree removal, clearing, grading, filling, or building structures without approval (Ch. 122; Ch. 125-29.4; Ch. 125-14; Ch. 125-51 to 125-55; Ch. 71 Article IV; Ch. 102). The Plan also states that conservation developments must preserve open space lands and maintain them through a property owners’ association, and that CEAs receive additional SEQR review but are not themselves a direct development control (Part 3, Item 18).",
+          "score": 0.85,
+          "weight": 0.95,
+          "weightedScore": 0.8075,
+          "maxWeightedScore": 0.95,
+          "confidence": 93
+        },
+        {
+          "id": "3",
+          "question": "Are any wildlife corridors identified, protected, or required in planning, and how are they maintained?",
+          "answer": "Yes. Bedford identifies and plans for wildlife corridors, but the statute does not create a standalone corridor-protection ordinance. The 2024 Community Preservation Plan says its methodology “emphasizes intact, connected resources such as large core habitats and wildlife corridors” and that the Town completed a wildlife corridor mapping project, with Phase 1 delineating areas used by wildlife as movement pathways between larger undeveloped patches; Phase 2 is to develop policies and plans based on that mapping (Part 2.C, Intact Forests; Part 2.E). The Plan also states that parcels with a corridor or part of a core area present receive a corridor score, and that the conservation hubs and corridors can serve as focus areas for initial research and outreach to landowners (Part 2.C, Rare & Important Habitats; Part 2.E). In the 2003 Comprehensive Plan policies summarized in the CPP, the Town should vest boards with authority to protect areas that would eliminate or adversely affect wildlife corridors, and consider adverse impacts on endangered or threatened species and their habitat (2003 Plan summary in Part 1, Land Use and Development Goals). Maintenance is not assigned to a specific corridor-maintenance entity; instead, protection is maintained through acquisition or conservation easements, zoning/conservation development, SEQR/CEA review, and, for conservation developments, a property owners’ association or owner that must permanently preserve, maintain, and protect common lands and improvements (Part 3, §§ 125-51 to 125-55; Part 3, CEA section). The additional wildlife corridor mapping study also describes least-cost corridor mapping, core areas, riparian zones, and field work to evaluate pinch points and road crossings, but it does not specify a separate maintenance regime.",
+          "score": 0.1,
+          "weight": 0.9,
+          "weightedScore": 0.09000000000000001,
+          "maxWeightedScore": 0.9,
+          "confidence": 92
+        },
+        {
+          "id": "4",
+          "question": "Are there specific protections for amphibians, such as breeding-site safeguards, seasonal restrictions, or migration measures?",
+          "answer": "Yes, but only indirectly. The statute and related plan do not specify amphibian-specific breeding-site safeguards, seasonal restrictions, or migration measures as standalone rules. However, they do identify vernal pools as crucial breeding and larval-stage habitat for amphibians and prioritize protection of wetlands, buffers, riparian areas, and vernal pools. The plan also emphasizes preserving wildlife corridors and connected habitat, which would support amphibian movement. Relevant sections include Chapter 122 (Wetlands) and Chapter 125-47 / 125-51 to 125-55 (wetland areas and conservation development), plus the CPP’s Rare & Important Habitats section and Table 2.1 / Table 3.2. The 2024 CPP specifically notes that vernal pools are “a safe refuge for breeding amphibians” and that when pools dry, many animals migrate into surrounding forest and return the following year.",
+          "score": 0.65,
+          "weight": 0.8,
+          "weightedScore": 0.52,
+          "maxWeightedScore": 0.8,
+          "confidence": 91
+        },
+        {
+          "id": "5",
+          "question": "Are there specific protections for birds, including nesting, roosting, migration, or disturbance limits?",
+          "answer": "Yes, but only indirectly. Bedford’s materials protect bird habitat and movement corridors rather than setting bird-specific nesting, roosting, migration, or disturbance rules. The strongest relevant protections are: (1) preservation of wildlife habitats and wildlife refuges in the Community Preservation Plan and the Hudson Valley Community Preservation Act criteria (e.g., wildlife refuges for native species diversity and habitat essential to rare/threatened/endangered species); (2) protection of wetlands, buffers, riparian areas, and intact forests, which the Plan says support birds and other wildlife; (3) the Wildlife Corridor Mapping project and corridor protection to maintain movement pathways; and (4) local land-use controls that limit disturbance in sensitive areas, such as Chapter 102 (Steep Slopes and Ridgelines), Chapter 122 (Wetlands), and Chapter 125-51 to 125-55 (Conservation Development), plus Chapter 71 Article IV scenic/historic roadway buffer limits on significant disturbance. However, the statute/source set does not specify bird-only nesting, roosting, migration-season, or bird-disturbance setback rules.",
+          "score": 0.1,
+          "weight": 0.8,
+          "weightedScore": 0.08000000000000002,
+          "maxWeightedScore": 0.8,
+          "confidence": 91
+        },
+        {
+          "id": "6",
+          "question": "Are there specific protections for turtles, such as nesting beach protections, road-crossing measures, or harvest bans?",
+          "answer": "Not specified in the statute. The discovered Bedford sources describe broad wildlife habitat protection, wetlands/riparian buffers, wildlife corridors, and a 100-foot buffer for scenic/historic roadways, but they do not identify turtle-specific protections such as nesting beach protections, road-crossing measures for turtles, or a turtle harvest ban. See CPP Part 2, §§ 2.C.3, 2.C.5, and Part 3, §§ 122, 125-51 to 125-55, and the wildlife corridor study/agenda materials for general habitat and corridor work only.",
+          "score": 0.3,
+          "weight": 0.8,
+          "weightedScore": 0.24,
+          "maxWeightedScore": 0.8,
+          "confidence": 92
+        },
+        {
+          "id": "7",
+          "question": "What biodiversity conservation requirements exist for development, land use, or resource projects in this area?",
+          "answer": "Bedford’s statute and related planning sources do not impose a single, standalone biodiversity-impact permitting standard for all development. Instead, biodiversity conservation is addressed through several land-use controls and review requirements:\n\n- **Conservation development / conservation subdivision**: development must be designed to preserve natural and scenic qualities, protect areas of meaningful ecological value, reduce flood hazards, minimize negative environmental impacts, and permanently preserve open space with meaningful scenic, ecological, environmental, flood-control, recreational, or similar characteristics (§§ 125-51 to 125-55; Chapter 107). Open space in a subdivision should be contiguous where appropriate and possible to neighboring undeveloped lands, preserves, parks, and other open space.\n- **Wetlands and buffers**: wetlands and associated watercourses are regulated, with a **100-foot upland buffer** around wetlands/watercourses intended to protect them from human activity and development encroachment (Chapter 122; § 125-47 references Chapter 122).\n- **Steep slopes and ridgelines**: disturbance on steep slopes and ridgelines is regulated; new construction must avoid disturbing these areas and existing vegetation, and applications involving slopes over 25% must include erosion controls, vegetation-minimization measures, engineering review, and completion of controls before occupancy (Chapter 102).\n- **Aquifer protection**: special permits in the Aquifer Protection Zone require an **aquifer impact assessment** by a qualified hydrogeologist, with peer review paid by the applicant; certain hazardous uses are prohibited (§ 125-29.4).\n- **Stormwater controls**: land development activities cannot be approved until a **stormwater pollution prevention plan (SWPPP)** is approved, and BMPs may be required to prevent pollutant discharges (Chapter 103).\n- **SEQR / Critical Environmental Areas**: Bedford’s CEAs receive additional environmental review, and the plan states that unavoidable adverse impacts on a designated CEA may be grounds for denial if not outweighed by other essential considerations (Part 3, Item 18).\n- **Wildlife habitat / corridors**: the Town’s planning policies specifically call for protecting wildlife habitats and corridors, and the Conservation Board’s wildlife corridor mapping is used to identify areas for conservation; the plan recommends that permitting boards consider adverse impacts on endangered or threatened species and habitat supporting such species (2003 Plan policies summarized in the CPP; Part 1 and Part 3).\n\nIn short, Bedford’s biodiversity requirements are mainly **avoidance, buffering, impact review, erosion/stormwater control, and permanent open-space preservation**, rather than offsets or mandatory biodiversity compensation.",
+          "score": 0.3,
+          "weight": 0.9,
+          "weightedScore": 0.27,
+          "maxWeightedScore": 0.9,
+          "confidence": 92
+        },
+        {
+          "id": "8",
+          "question": "How are habitat loss, fragmentation, and degradation assessed and minimized before project approval?",
+          "answer": "Habitat loss, fragmentation, and degradation are assessed through a data-driven parcel scoring and mapping process, and minimized by prioritizing intact, connected resources and using avoidance-first land use controls before approval. The CPP uses GIS-based criteria across nine preservation categories and 18 mapped criteria to score parcels, including forest fragmentation/quality, wildlife corridors, wetlands/buffers, meadows, vernal pools, trout-spawning areas, and adjacency to protected lands or scenic roads (Part 2, §§ 2.B–2.D; Table 2.1). For forests, the Hudson Valley Forest Condition Index is used, which is based on patch size, fragmentation, species diversity, and other ecological characteristics; parcels score if forest index is >50 (§ 2.C.4). For wildlife habitats, the plan explicitly emphasizes intact, connected resources, large core habitats, and wildlife corridors, and assigns points where corridors or core areas are present (§ 2.C.5). The Wildlife Corridor Mapping Study also treats development as high resistance, with fragmentation and steep slopes increasing resistance, while forest/wetland cover, riparian areas, and natural edges lower resistance.\n\nMinimization before approval occurs through SEQR review and local land use controls that can avoid or reduce impacts before a project is approved. The plan states that SEQR considers environmental factors early so projects can be modified to avoid adverse impacts, and that CEAs warrant specific consideration and can support denial if unavoidable adverse impacts remain (§ 3.18). Bedford’s tools include conservation easements, purchase of development rights, fee simple acquisition, conservation development, wetlands and steep-slope protections, and subdivision design standards. In particular, conservation development must preserve open space lands with meaningful scenic, ecological, environmental, flood control, recreational or similar characteristics, minimize land required for roads and utilities, and maintain natural/scenic qualities (§ 3.16; Chapter 107). The Steep Slopes and Ridgelines law requires new construction to avoid disturbing steep slopes and ridgelines and to minimize vegetation removal, with erosion controls required before occupancy (§ 3.5). The Wetlands Law requires a 100-foot upland buffer and regulates activities around wetlands and watercourses (§ 3.8).",
+          "score": 1,
+          "weight": 0.85,
+          "weightedScore": 0.85,
+          "maxWeightedScore": 0.85,
+          "confidence": 93
+        }
+      ]
+    }
+  },
+  "overallScore": 5.51,
+  "averageConfidence": 92,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2026-05-15T13:48:15.294Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://bedfordny.gov/1882/Understanding-Wildlife-Corridors-and-The",
+      "title": "https://bedfordny.gov/1882/Understanding-Wildlife-Corridors-and-The"
+    },
+    {
+      "url": "https://bedfordny.gov/189/Maps-Plans-Zoning",
+      "title": "https://bedfordny.gov/189/Maps-Plans-Zoning"
+    },
+    {
+      "url": "https://bedfordny.gov/275/Amphibian-Migration",
+      "title": "https://bedfordny.gov/275/Amphibian-Migration"
+    },
+    {
+      "url": "https://bedfordny.gov/277/Vine-Cutters",
+      "title": "https://bedfordny.gov/277/Vine-Cutters"
+    },
+    {
+      "url": "https://bedfordny.gov/282/View-Sunflowers-Gallery-from-2020",
+      "title": "https://bedfordny.gov/282/View-Sunflowers-Gallery-from-2020"
+    },
+    {
+      "url": "https://bedfordny.gov/589/Wildlife-Corridor-Project",
+      "title": "https://bedfordny.gov/589/Wildlife-Corridor-Project"
+    },
+    {
+      "url": "https://bedfordny.gov/796/Green-Award",
+      "title": "https://bedfordny.gov/796/Green-Award"
+    },
+    {
+      "url": "https://bedfordny.gov/DocumentCenter/View/1881/DRAFT-BEDFORD-CPP-2024-05-17",
+      "title": "https://bedfordny.gov/DocumentCenter/View/1881/DRAFT-BEDFORD-CPP-2024-05-17"
+    },
+    {
+      "url": "https://bedfordny.gov/DocumentCenter/View/399/Wildlife-Corridor-Mapping-Study-PDF",
+      "title": "https://bedfordny.gov/DocumentCenter/View/399/Wildlife-Corridor-Mapping-Study-PDF"
+    },
+    {
+      "url": "https://bedfordny.gov/QuickLinks.aspx",
+      "title": "https://bedfordny.gov/QuickLinks.aspx"
+    },
+    {
+      "url": "https://www.bedfordny.gov/AgendaCenter/ViewFile/Agenda/_02122026-356",
+      "title": "https://www.bedfordny.gov/AgendaCenter/ViewFile/Agenda/_02122026-356"
+    },
+    {
+      "url": "https://www.bedfordny.gov/AgendaCenter/ViewFile/Agenda/_03122026-369",
+      "title": "https://www.bedfordny.gov/AgendaCenter/ViewFile/Agenda/_03122026-369"
+    }
+  ]
+}

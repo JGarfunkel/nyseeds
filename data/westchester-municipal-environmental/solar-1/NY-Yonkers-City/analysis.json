@@ -1,4 +1,5 @@
 {
+  "id": "NY-Yonkers-City-solar-1-1778856981666",
   "municipality": {
     "id": "NY-Yonkers-City",
     "displayName": "Yonkers - City"
@@ -9,7 +10,7 @@
   },
   "grades": {},
   "questions": [],
-  "lastUpdated": "2025-08-15T21:06:32.679Z",
+  "lastUpdated": "2026-05-15T14:56:21.666Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "scores": {
@@ -26,5 +27,6 @@
   },
   "overallScore": 0,
   "normalizedScore": 0,
-  "scoresUpdatedAt": "2025-08-29T13:38:29.407Z"
+  "scoresUpdatedAt": "2025-08-29T13:38:29.407Z",
+  "domainId": "solar-1"
 }

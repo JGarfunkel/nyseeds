@@ -6,7 +6,7 @@
     {
       "id": 1,
       "category": "Tree Removal",
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
       "scoreInstructions": "The score should be higher if permits are required.",
       "order": 1
     },
@@ -19,9 +19,10 @@
     },
     {
       "id": 3,
-      "category": "Fees",
-      "question": "What is the fee for removing each tree without a replacement? Are non-native trees exempt from requiring a removal permit?",
+      "category": "Exemptions",
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
       "additionalSource": "form",
+      "weight": 0,
       "order": 3
     },
     {
@@ -34,28 +35,28 @@
       "order": 4
     },
     {
+      "id": 5,
+      "category": "Neighbor Notification",
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "additionalSource": "form",
+      "scoreInstructions": "The score should be higher for the more neighbors need to be notified. Extra points if there is a searchable public database of applications.",
+      "order": 5
+    },
+    {
       "id": 5.1,
       "category": "Enforcement Officer",
       "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
       "additionalSource": "form",
-      "scoreInstructions": "There should be points if the statute references a dedicated enforcement officer, and more points if an environmental professional, and the most points for a trained arborist.",
-      "order": 5
-    },
-    {
-      "id": 5,
-      "category": "Neighbor Notification",
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "additionalSource": "form",
-      "scoreInstructions": "The score should be higher for the more neighbors need to be notified.",
-      "order": 5
+      "scoreInstructions": "There should be points for an enforcement officer. Extra points if the statute references a dedicated enforcement officer, and more points if an environmental professional or trained arborist.",
+      "order": 6
     },
     {
       "id": 6,
       "category": "Tree Canopy",
       "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-      "scoreInstructions": "The score should be higher based on how detailed the statute is about the canopy",
+      "scoreInstructions": "The score should be higher based on canopy coverage targets, measurement methods, species diversity goals, and other provisions that promote a healthy tree canopy.",
       "weight": 3,
-      "order": 6
+      "order": 7
     },
     {
       "id": 8,

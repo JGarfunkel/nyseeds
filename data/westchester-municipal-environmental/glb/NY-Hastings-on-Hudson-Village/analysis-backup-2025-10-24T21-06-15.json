@@ -1,0 +1,179 @@
+{
+  "municipality": "NY-Hastings-on-Hudson-Village",
+  "domain": "glb",
+  "analyzedAt": "2025-09-09T20:01:26.128Z",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas-powered leaf blowers lasts from January 1 through October 14. It starts on January 1 and ends on October 14. (§ 176-4)",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 176-4"
+      ],
+      "score": 0.5,
+      "analyzedAt": "2025-09-09T20:01:20.284Z"
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "The permitted hours for gas leaf blower operation are between 9:00 a.m. and 5:00 p.m. (§ 176-5).",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 176-5"
+      ],
+      "score": 0.6,
+      "analyzedAt": "2025-09-09T20:01:21.053Z"
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating gas leaf blower regulations are as follows: Any person found guilty of violating any provision of this article shall be subject to a penalty of $250 for the first offense, $500 for a second offense, and $1,000 for any subsequent offense (§ 176-6 B).",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 176-6"
+      ],
+      "score": 0.75,
+      "analyzedAt": "2025-09-09T20:01:22.236Z"
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T20:01:22.877Z"
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T20:01:23.678Z"
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T20:01:25.193Z"
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.1,
+      "analyzedAt": "2025-09-09T20:01:26.127Z"
+    }
+  ],
+  "scores": {
+    "overallScore": 4.37,
+    "normalizedScore": 4.37,
+    "averageConfidence": 39,
+    "questionsAnswered": 3,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.5,
+        0.6,
+        0.75,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.3214285714285715,
+      "weightedScore": 0.4375,
+      "totalWeightedScore": 5.249999999999998,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "The prohibition of gas-powered leaf blowers lasts from January 1 through October 14. It starts on January 1 and ends on October 14. (§ 176-4)",
+          "score": 0.5,
+          "weight": 4,
+          "weightedScore": 2,
+          "maxWeightedScore": 4,
+          "confidence": 90
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "The permitted hours for gas leaf blower operation are between 9:00 a.m. and 5:00 p.m. (§ 176-5).",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 90
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "The penalties for violating gas leaf blower regulations are as follows: Any person found guilty of violating any provision of this article shall be subject to a penalty of $250 for the first offense, $500 for a second offense, and $1,000 for any subsequent offense (§ 176-6 B).",
+          "score": 0.75,
+          "weight": 3,
+          "weightedScore": 2.25,
+          "maxWeightedScore": 3,
+          "confidence": 90
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 4.37,
+  "averageConfidence": 39,
+  "questionsAnswered": 3,
+  "totalQuestions": 7,
+  "gapAnalysis": "",
+  "wenGrade": "G-",
+  "usesStateCode": false,
+  "normalizedScore": 4.37,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.235Z"
+}

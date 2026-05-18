@@ -10,11 +10,14 @@
   "statuteNumber": "Ch 254",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:36:04.986Z",
-      "contentLength": 17747,
+      "downloadedAt": "2026-05-15T19:03:42.260Z",
+      "contentLength": 134382,
       "sourceUrl": "https://ecode360.com/7711269#7711272",
       "title": "Alarm systems — See Ch",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Mamaroneck-Village",
+  "homePage": "https://www.villageofmamaroneckny.gov",
+  "isArticleBased": false
 }

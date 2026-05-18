@@ -1,0 +1,13 @@
+{
+  "entityId": "NY-NewCastle-Town",
+  "domainId": "boards",
+  "domain": "boards",
+  "homePage": "https://www.mynewcastleny.gov/",
+  "metadataCreated": "2026-05-03T04:08:23.756Z",
+  "stateCodeApplies": false,
+  "sources": [
+    
+  ],
+  "municipality": "New Castle",
+  "municipalityType": "Town"
+}

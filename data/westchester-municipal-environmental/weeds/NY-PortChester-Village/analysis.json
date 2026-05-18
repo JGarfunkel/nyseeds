@@ -1,4 +1,5 @@
 {
+  "id": "NY-PortChester-Village-weeds-1778856983908",
   "municipality": {
     "id": "NY-PortChester-Village",
     "displayName": "Port Chester - Village"
@@ -139,9 +140,10 @@
   "averageConfidence": 59,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:49:43.757Z",
+  "lastUpdated": "2026-05-15T14:56:23.908Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 3.92,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.546Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.546Z",
+  "domainId": "weeds"
 }

@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-BriarcliffManor-Village-trees-1779067472186",
+  "entityId": "NY-BriarcliffManor-Village",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-BriarcliffManor-Village",
     "displayName": "Briarcliff Manor - Village"
   },
@@ -7,20 +10,22 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a permit to remove a tree on your private property if it fits certain conditions. Specifically, you need a permit for tree removal defined as 'clearing,' commercial timber harvesting, or if you're removing a tree with a DBH of seven inches or greater within certain zones or that is significant. You apply by submitting a written application to the Village office, including details like the purpose and method of removal. The application will be reviewed by the Building Inspector and possibly the Tree Preservation Board.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Yes, a permit is required to remove trees on private property in the Village. To apply, you must submit a written application to the Enforcement Officer that includes: the location and description of the tree(s), the reason for removal, and a site plan showing the tree's location. The Enforcement Officer reviews the application and may refer it to the Tree Committee or Planning Board for recommendation. For trees located along scenic roads or on steep slopes, additional review may apply. Fees are not specified in the provided sources for individual tree removal permits.",
+      "confidence": 62,
       "sourceRefs": [
-        "§ 202-3A",
-        "§ 202-6"
+        "Chapter 202 Trees"
       ],
-      "score": 1
+      "gap": "The statute appears to lack explicit fee schedules for tree removal permits and does not specify a diameter threshold (e.g., 18 inches DBH) that triggers permit requirements. There is no mention of exceptions allowing limited removal without a permit (e.g., up to three non-protected trees annually on smaller residential lots), which is considered a best practice for balancing property rights and environmental protection.",
+      "score": 0.45,
+      "nextPrompts": [
+        "Does the Village have a separate fee schedule ordinance that specifies permit fees for tree removal on private property?",
+        "Are there any exemptions or thresholds (e.g., tree size or number) that allow tree removal on private property without a permit?"
+      ]
     },
     {
       "id": 2,
@@ -35,34 +40,55 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 10,
-      "sourceRefs": [],
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies one notable factor that may favor tree removal without elaborating on full exemptions: trees located within three feet of an existing or proposed sidewalk or driveway may be favored for removal. Beyond this proximity-based consideration, the statute does not explicitly enumerate categorical exemptions such as those for hazardous/dead trees, trees below a certain DBH threshold, non-native or invasive species, or trees in specific locations. The approving authority considers multiple factors but retains discretion in each case.",
+      "confidence": 42,
+      "sourceRefs": [
+        "https://ecode360.com/7690650"
+      ],
+      "gap": "The statute lacks explicit exemptions for hazardous or dead trees, DBH-based thresholds triggering permit requirements, invasive/non-native species exemptions with arborist certification requirements, and reduced replacement obligations for non-native species. There is no reference to NYS DEC protected native plant designations or ISA-certified arborist certification for any exemption pathway. This represents a significant gap compared to best practices.",
       "score": 0.1,
-      "gap": "Consider adding a clear fee schedule to the statute that specifies the cost for removing each tree without a replacement, including payment options, potential exemptions for certain circumstances, and provisions to ensure the fee covers administrative costs associated with enforcement and compliance monitoring."
+      "nextPrompts": [
+        "Does the statute define 'regulated tree' by a minimum DBH or other size threshold that would effectively exempt smaller trees from permit requirements?",
+        "Are there any provisions elsewhere in the statute addressing hazardous, dead, or diseased trees that may allow removal without a standard permit?"
+      ]
     },
     {
       "id": 4,
       "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-      "answer": "Yes, you can replant new trees to replace those removed. The replanting should conform to a reforestation plan that includes planting shade and/or decorative trees at a specific ratio. The statute does not specify whether non-native species are allowed as replacements.",
-      "confidence": 85,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
       "sourceRefs": [
-        "§ 202-3B"
-      ],
-      "score": 0.1,
-      "gap": "Consider adding specific guidelines on the allowance of non-native species as replacements, including any restrictions or conditions under which they may be planted, to ensure ecological compatibility and prevent invasive species issues."
+        "§ 202-4C"
+      ]
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Neighbors within 300 feet of the subject property must be notified of any public hearings for tree removal on public property, but there is no specification about notifying neighbors for tree removal on private property.",
-      "confidence": 85,
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The statute does not address neighbor notification requirements for tree removal applications. Best practices call for certified mail notification to adjoining and directly opposite property owners within a specified distance (e.g., 300 feet), at least 15 days before a decision or hearing, plus on-site permit signage posted at least 3 days before removal begins.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village code contain any public notice or hearing requirements related to tree removal permit applications?",
+        "Are there any posting or signage requirements mandated before tree removal work begins on private property?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The statute designates the **Village Arborist** as the enforcement officer responsible for administering and enforcing Chapter 202. The title itself indicates this is an arborist position, suggesting professional tree expertise. The Village Arborist has authority to issue permits, inspect properties, and enforce the provisions of the tree ordinance.",
+      "confidence": 72,
       "sourceRefs": [
-        "§ 202-3C"
+        "Chapter 202 Trees - Full Statute Text"
       ],
-      "score": 0.85,
-      "gap": "Consider adding a requirement for notifying neighbors within a specified distance (e.g., 300 feet) for tree removal on private property, including clear guidelines on the timing and methods of notification to ensure all affected parties are adequately informed."
+      "gap": "The answer confirms a Village Arborist title but does not specify ISA certification requirements, mandatory consultation protocols, or a Tree Commission/advisory committee for technical oversight. There is no mention of credential standards, cost recovery mechanisms, or fallback provisions if the position lacks formal arboricultural certification.",
+      "score": 0.55,
+      "nextPrompts": [
+        "Does Chapter 202 require ISA certification for the Village Arborist position?",
+        "Is there a Tree Commission or advisory committee established under Chapter 202?"
+      ]
     },
     {
       "id": 6,
@@ -89,49 +115,46 @@
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "The statute does not specify any requirements for data collection on tree removals or presenting reports to the public.",
-      "confidence": 10,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to establish a comprehensive data collection system that tracks all tree removals, including the reason for removal and location, and mandates the publication of an annual report accessible to the public detailing these activities to ensure transparency and accountability."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 202-4C"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 4.47,
-    "normalizedScore": 4.47,
-    "averageConfidence": 66,
-    "questionsAnswered": 7,
-    "totalQuestions": 8,
+    "overallScore": 3.5,
+    "normalizedScore": 3.5,
+    "averageConfidence": 49,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        1,
+        0.45,
         1,
         0.1,
-        0.1,
-        0.85,
+        0,
+        0,
+        0.55,
         0.55,
         0.3,
-        0.1
+        0
       ],
-      "averageQuestionScore": 0.5,
-      "weightedScore": 0.4467,
-      "totalWeightedScore": 6.7,
+      "averageQuestionScore": 0.33,
+      "weightedScore": 0.35,
+      "totalWeightedScore": 5.25,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a permit to remove a tree on your private property if it fits certain conditions. Specifically, you need a permit for tree removal defined as 'clearing,' commercial timber harvesting, or if you're removing a tree with a DBH of seven inches or greater within certain zones or that is significant. You apply by submitting a written application to the Village office, including details like the purpose and method of removal. The application will be reviewed by the Building Inspector and possibly the Tree Preservation Board.",
-          "score": 1,
+          "score": 0.45,
           "weight": 1,
-          "weightedScore": 1,
+          "weightedScore": 0.45,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 62
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "If you remove trees without a permit, you could be fined up to $350 for the first offense and up to $700 for subsequent offenses within a year. For clear-cutting, additional fines up to $5,000 may apply. You might also be ordered by the Court to replant the improperly removed trees, and further construction approvals like site plans or permits could be withheld until restoration measures are completed.",
           "score": 1,
           "weight": 2,
           "weightedScore": 2,
@@ -140,48 +163,46 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 42
+        },
+        {
+          "id": "4",
+          "score": 0,
+          "weight": 3,
+          "weightedScore": 0,
+          "maxWeightedScore": 3,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 10
         },
         {
-          "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed. The replanting should conform to a reforestation plan that includes planting shade and/or decorative trees at a specific ratio. The statute does not specify whether non-native species are allowed as replacements.",
-          "score": 0.1,
-          "weight": 3,
-          "weightedScore": 0.30000000000000004,
-          "maxWeightedScore": 3,
-          "confidence": 85
-        },
-        {
-          "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Neighbors within 300 feet of the subject property must be notified of any public hearings for tree removal on public property, but there is no specification about notifying neighbors for tree removal on private property.",
-          "score": 0.85,
+          "id": "5.1",
+          "score": 0.55,
           "weight": 1,
-          "weightedScore": 0.85,
+          "weightedScore": 0.55,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 72
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the statute emphasizes maintaining the existing character of the Village, which includes preserving trees for their environmental benefits. This is reflected in the legislative intent to preserve trees due to their various benefits, including shade, energy efficiency, and habitat provision.",
           "score": 0.55,
           "weight": 3,
-          "weightedScore": 1.6500000000000001,
+          "weightedScore": 1.65,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "The statute specifies that if you are applying for subdivisions or site plans, you must submit a tree protection plan which includes plans to protect and preserve trees during and after construction. This includes steps to protect trees, roots, and crowns from damage for two years after construction. There are no specific responsibilities outlined for general tree maintenance on private property without related development activities.",
           "score": 0.3,
           "weight": 2,
           "weightedScore": 0.6,
@@ -190,24 +211,21 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "The statute does not specify any requirements for data collection on tree removals or presenting reports to the public.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 10
+          "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 4.47,
-  "averageConfidence": 66,
-  "questionsAnswered": 7,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:17:13.740Z",
+  "overallScore": 3.5,
+  "averageConfidence": 49,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:24:32.186Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 4.47,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.161Z"
+  "sources": []
 }

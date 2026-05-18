@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Ossining-Town-wetland-protection-1778621042705",
+  "entityId": "NY-Ossining-Town",
+  "domainId": "wetland-protection",
+  "entity": {
     "id": "NY-Ossining-Town",
     "displayName": "Ossining - Town"
   },
@@ -7,9 +10,7 @@
     "id": "wetland-protection",
     "displayName": "Wetland Protection"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 3,
@@ -180,9 +181,13 @@
   "averageConfidence": 0,
   "questionsAnswered": 0,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-08T19:39:14.594Z",
+  "lastUpdated": "2026-05-15T13:48:14.970Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:19:07.247Z"
+  "sources": [
+    {
+      "url": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/253-wetlands-and-drainage",
+      "title": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/253-wetlands-and-drainage"
+    }
+  ]
 }

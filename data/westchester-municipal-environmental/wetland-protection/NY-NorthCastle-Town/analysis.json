@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-NorthCastle-Town-wetland-protection-1778621025918",
+  "entityId": "NY-NorthCastle-Town",
+  "domainId": "wetland-protection",
+  "entity": {
     "id": "NY-NorthCastle-Town",
     "displayName": "North Castle - Town"
   },
@@ -7,9 +10,7 @@
     "id": "wetland-protection",
     "displayName": "Wetland Protection"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 3,
@@ -180,9 +181,37 @@
   "averageConfidence": 0,
   "questionsAnswered": 0,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-08T19:38:59.536Z",
+  "lastUpdated": "2026-05-15T13:48:14.939Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:19:07.239Z"
+  "sources": [
+    {
+      "url": "https://www.northcastleny.com/655/Conservation-Board-Awards",
+      "title": "https://www.northcastleny.com/655/Conservation-Board-Awards"
+    },
+    {
+      "url": "https://www.northcastleny.com/656/Conservation-Board-Brochures-Reports",
+      "title": "https://www.northcastleny.com/656/Conservation-Board-Brochures-Reports"
+    },
+    {
+      "url": "https://www.northcastleny.com/665/Trees",
+      "title": "https://www.northcastleny.com/665/Trees"
+    },
+    {
+      "url": "https://www.northcastleny.com/669/Wetlands",
+      "title": "https://www.northcastleny.com/669/Wetlands"
+    },
+    {
+      "url": "https://www.northcastleny.com/AgendaCenter/Conservation-Board-5",
+      "title": "https://www.northcastleny.com/AgendaCenter/Conservation-Board-5"
+    },
+    {
+      "url": "https://www.northcastleny.com/DocumentCenter/View/1877/Conservation-Board_-Submission-Checklist-PDF",
+      "title": "https://www.northcastleny.com/DocumentCenter/View/1877/Conservation-Board_-Submission-Checklist-PDF"
+    },
+    {
+      "url": "https://www.northcastleny.com/DocumentCenter/View/190/Wetlands-Permit-PDF",
+      "title": "https://www.northcastleny.com/DocumentCenter/View/190/Wetlands-Permit-PDF"
+    }
+  ]
 }

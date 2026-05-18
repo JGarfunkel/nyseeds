@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Croton-on-Hudson-Village-trees-1779067599719",
+  "entityId": "NY-Croton-on-Hudson-Village",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Croton-on-Hudson-Village",
     "displayName": "Croton-on- Hudson - Village"
   },
@@ -7,21 +10,24 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, a tree removal permit is required before removing certain trees on your private property. The permit application must be filed with the Village Engineer or their designee, who is generally the approving authority, unless the application is also the subject of a pending site plan or other specified applications in which case the Planning Board reviews it. You need to include information such as your name, address, property details, the purpose of tree removal, and tree specifics in the application.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Under Chapter 208, a permit is required to remove trees on private property. The application must be submitted to the Enforcement Officer, who reviews it. The statute references amendments from L.L. No. 13-2025 and L.L. No. 15-2025, but specific application details (forms, required information), fee schedules per tree, and any exemptions for smaller residential lots or non-protected trees are not detailed in the provided excerpts. The reviewing authority is the Enforcement Officer based on context from related questions.",
+      "confidence": 35,
       "sourceRefs": [
-        "§ 208-16",
-        "§ 208-17"
+        "Chapter 208 Trees",
+        "L.L. No. 13-2025",
+        "L.L. No. 15-2025"
       ],
+      "gap": "The statute lacks detail on the application process (required forms/information), fee schedules per tree, and exemptions for limited removal without a permit (e.g., up to three non-protected trees annually on smaller lots). It is unclear whether a Planning Board or other body is involved in review beyond the Enforcement Officer.",
       "score": 0.3,
-      "gap": "Consider adding detailed timelines for the application review process, including specific deadlines for both the initial review by the Village Engineer and any subsequent review by the Planning Board, to ensure clarity and predictability for applicants."
+      "nextPrompts": [
+        "What are the specific application requirements and fee schedules for tree removal permits under Chapter 208, as amended by L.L. No. 13-2025 and L.L. No. 15-2025?",
+        "Are there any exemptions allowing removal of a limited number of trees without a permit on residential properties under Chapter 208?"
+      ]
     },
     {
       "id": 2,
@@ -35,34 +41,58 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 10,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a clear fee schedule to the statute that outlines the specific cost for removing each tree without a replacement, including payment options, potential exemptions for certain circumstances, and provisions to ensure the fee covers administrative costs associated with enforcement and processing."
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies one explicit pruning exemption: trees severely damaged by storm or other causes, or certain trees under utility wires or other obstructions where other pruning practices are impractical, may be exempted from pruning restrictions at the Department's determination. Regarding tree removal permits, a designated tree may qualify for removal if its location substantially interferes with a permitted use of the property and construction cannot be reasonably modified to accommodate it. For large development sites (100+ acres with erosion control and environmental impact statements), a sampling technique may substitute for individual tree surveys, though trees 22 inches DBH or greater in disturbed areas must still be individually identified. No exemptions based on species origin (native vs. non-native), specific size thresholds below which permits are not required, or invasive species status are specified in the provided sources.",
+      "confidence": 62,
+      "sourceRefs": [
+        "https://ecode360.com/9144257#9144257"
+      ],
+      "gap": "The statute lacks exemptions or reduced replacement obligations for invasive/non-native species, does not reference ISA-certified arborist certification requirements for any exemptions, and does not cite NYS DEC protected native plant designations. No DBH-based size thresholds triggering permit exemptions are specified.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the statute define a minimum DBH threshold below which trees are exempt from permit requirements?",
+        "Are there any provisions addressing invasive or non-native species and their treatment under the permit or replacement framework?"
+      ]
     },
     {
       "id": 4,
       "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-      "answer": "You can be required to plant replacement trees for those removed. The statute does not specify whether the replacement trees must be native species or not.",
-      "confidence": 85,
+      "answer": "The provided sources indicate that the Planning Board has the power to direct violators to replace illegally removed trees and restore affected land to its prior condition. For clear-cutting situations, restoration plans must include a description of proposed vegetative cover, including dominant species before and after tree removal, certified by a recognized tree expert. However, the sources do not specify whether replanting can be done in lieu of payment, nor do they address whether non-native species are permitted or restricted as replacements.",
+      "confidence": 35,
       "sourceRefs": [
-        "§ 208-18"
+        "https://ecode360.com/9144257#9144257"
       ],
-      "score": 0.1,
-      "gap": "Consider adding specific requirements for the species of replacement trees, including a preference for native species, as well as guidelines for survival monitoring and replacement ratios to ensure ecological balance and compliance."
+      "gap": "The statute does not address voluntary replanting as an alternative to monetary payment, does not specify native vs. non-native species requirements for replacement trees, does not reference an approved species list, and does not mention a dedicated tree fund for cases where on-site replanting is impractical. These are significant gaps compared to best practices.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the statute include an approved or preferred species list for replacement trees, and are native species required?",
+        "Is there a tree fund or fee-in-lieu provision that allows property owners to pay into a fund instead of replanting on-site?"
+      ]
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Notification of neighbors is not required for a tree removal permit, except in cases involving site plan, subdivision, or similar applications where the Planning Board is involved.",
-      "confidence": 85,
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "According to the Village of Croton-on-Hudson code, tree removal permit applications are explicitly NOT subject to a public hearing, and notification of adjoining or other property owners is NOT required — except as otherwise required in connection with the review of subdivision, site plan, minor site plan, steep slope, or wetlands applications by the Planning Board. In those cases, notification requirements follow the Planning Board's standard procedures for those applications. For hazardous or diseased trees on private property, the Department notifies only the property owner in writing, with removal required within 30 days (diseased/dead trees) or three days (imminent hazard trees).",
+      "confidence": 92,
       "sourceRefs": [
-        "§ 208-16C"
+        "https://ecode360.com/9144257#9144257"
       ],
-      "score": 0.75,
-      "gap": "Consider adding specific requirements for neighbor notification, including defining a distance radius for affected neighbors, specifying a timeline for when notifications should be sent prior to tree removal, detailing acceptable methods of notification (e.g., mail, email, in-person), and identifying which parties are considered affected, to ensure clarity and consistency in the process."
+      "gap": "Significant gap: The statute does not require neighbor notification, certified mail notice, a specified notification radius, or on-site posting for standard tree removal permit applications. These best practices are entirely absent from the standard permit process.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Do the Planning Board's subdivision or site plan procedures include specific neighbor notification requirements (distance, method, timing) that would apply when tree removal is reviewed as part of those applications?",
+        "Are there any other sections of the Village of Croton-on-Hudson code that require on-site posting or public notice for tree removal permits outside of Planning Board review?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 208-16A",
+        "§ 208-16"
+      ]
     },
     {
       "id": 6,
@@ -91,49 +121,52 @@
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 10,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to collect detailed data on all tree removals, including location, species, and reason for removal, and mandate the publication of an annual report accessible to the public that summarizes this data and tracks trends over time."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 15,
+      "sourceRefs": [
+        "https://ecode360.com/9144257#9144257"
+      ],
+      "gap": "The statute does not appear to require systematic data collection on tree removals or formal public-facing reporting. Best practice includes mandating annual reports to the governing board covering permit applications received, permits denied, trees removed, and Tree Bank Fund activity, prepared by a designated Tree Officer in conjunction with an advisory tree commission, with a specified submission deadline such as March 1.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does the statute designate a Tree Officer or similar official responsible for recordkeeping and reporting on tree removal permits?",
+        "Is there any requirement in the code for an annual report on urban forestry activities, including tree removals and mitigation fund expenditures, to be submitted to the governing board?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 3.9,
-    "normalizedScore": 3.9,
-    "averageConfidence": 66,
-    "questionsAnswered": 6,
-    "totalQuestions": 8,
+    "overallScore": 3.5,
+    "normalizedScore": 3.5,
+    "averageConfidence": 55,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
         0.3,
         1,
-        0.1,
-        0.1,
-        0.75,
+        0.2,
+        0.2,
+        0.05,
+        0,
         0.3,
         0.65,
-        0.1
+        0.05
       ],
-      "averageQuestionScore": 0.4125,
-      "weightedScore": 0.39,
-      "totalWeightedScore": 5.85,
+      "averageQuestionScore": 0.31,
+      "weightedScore": 0.35,
+      "totalWeightedScore": 5.249999999999999,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, a tree removal permit is required before removing certain trees on your private property. The permit application must be filed with the Village Engineer or their designee, who is generally the approving authority, unless the application is also the subject of a pending site plan or other specified applications in which case the Planning Board reviews it. You need to include information such as your name, address, property details, the purpose of tree removal, and tree specifics in the application.",
           "score": 0.3,
           "weight": 1,
           "weightedScore": 0.3,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 35
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "Penalties for removing trees without a permit include a fine of up to $250 for a first offense and up to $1,000 or a term of up to 15 days imprisonment for subsequent offenses within a year. For a specific violation mentioned in § 208-16A(6), the fine can be up to $5,000. Each illegally removed tree is considered a separate offense, and each day of a continuing violation is a separate offense. Civil penalties can also be imposed up to $3,000 per violation, along with requirements to restore and replace illegally removed trees.",
           "score": 1,
           "weight": 2,
           "weightedScore": 2,
@@ -142,48 +175,46 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 10
+          "score": 0.2,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 62
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "You can be required to plant replacement trees for those removed. The statute does not specify whether the replacement trees must be native species or not.",
-          "score": 0.1,
+          "score": 0.2,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0.6,
           "maxWeightedScore": 3,
-          "confidence": 85
+          "confidence": 35
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Notification of neighbors is not required for a tree removal permit, except in cases involving site plan, subdivision, or similar applications where the Planning Board is involved.",
-          "score": 0.75,
+          "score": 0.05,
           "weight": 1,
-          "weightedScore": 0.75,
+          "weightedScore": 0.05,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 92
+        },
+        {
+          "id": "5.1",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of preserving trees for their benefits, including soil stabilization, air pollution reduction, and provision of wildlife habitat, as these contribute to the community's health, safety, and general welfare.",
           "score": 0.3,
           "weight": 3,
-          "weightedScore": 0.8999999999999999,
+          "weightedScore": 0.9,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "As a property owner, you must prune tree branches on your property so they do not obstruct street lights, street intersections, or traffic control devices, and ensure there is a clear space of eight feet above streets or sidewalks. You must also remove any dead, diseased, or dangerous trees and broken or decayed limbs that pose a risk to public safety.",
           "score": 0.65,
           "weight": 2,
           "weightedScore": 1.3,
@@ -192,24 +223,21 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0.1,
           "maxWeightedScore": 2,
-          "confidence": 10
+          "confidence": 15
         }
       ]
     }
   },
-  "overallScore": 3.9,
-  "averageConfidence": 66,
-  "questionsAnswered": 6,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:18:30.802Z",
+  "overallScore": 3.5,
+  "averageConfidence": 55,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:26:39.720Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3.9,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.174Z"
+  "sources": []
 }

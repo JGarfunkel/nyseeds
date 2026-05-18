@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Ardsley-Village-trees-1779067422828",
+  "entityId": "NY-Ardsley-Village",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Ardsley-Village",
     "displayName": "Ardsley - Village"
   },
@@ -7,20 +10,14 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "The statute does not specify a requirement for a permit to remove a tree on private property unless it's related to subdivision approvals. For subdivision-related removals, application is made to the Planning Board, which reviews the proposal. However, for trees not related to a subdivision, permit requirements are not mentioned.",
-      "confidence": 85,
-      "sourceRefs": [
-        "§ 185-8"
-      ],
-      "score": 0.1,
-      "gap": "Consider adding detailed application procedures for tree removal permits on private property, including specific review criteria, timelines for decision-making, and an appeal process to ensure clarity and consistency in enforcement."
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 2,
@@ -35,32 +32,63 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "The statute does not specify a fee for removing each tree without a replacement.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific charges per tree, available payment options, any applicable exemptions, and provisions to cover administrative costs associated with enforcement and processing."
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies that certain tree species are prohibited from being planted in public streets or places: poplar (Populus species), willow (Salix species), tree of heaven (Ailanthus species), female gingko (Gingko biloba), and wild cherry (Prunus and Padus species). These species are also prohibited on private grounds if roots could penetrate public street or place areas.\n\nFor development/construction plans, trees must be six inches or more in diameter (measured at four feet height) to require documentation on submitted plans — implying smaller trees may not require the same level of review.\n\nNewly planted street trees are allowed an exemption from trimming requirements, provided they do not interfere with pedestrian use or obstruct streetlights or traffic signals.\n\nNo explicit exemptions are specified for sick, hazardous, or dead trees, nor are there exemptions based on native versus non-native species status for removal permitting purposes.",
+      "confidence": 62,
+      "sourceRefs": [
+        "https://ecode360.com/5113138"
+      ],
+      "gap": "The statute lacks exemptions for hazardous or dead trees, DBH-based removal thresholds triggering permits, native/non-native species distinctions for replacement obligations, and requirements for ISA-certified arborist certification. No invasive species removal pathway with reduced replacement obligations is established.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the statute or related code sections provide any expedited or exempted permit process for removal of dead, diseased, or hazardous trees?",
+        "Are there any provisions specifying replacement obligations that differ based on native versus non-native or invasive species status?"
+      ]
     },
     {
       "id": 4,
       "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-      "answer": "Yes, the statute allows for replanting new trees to replace those removed during the development of a subdivision. The new trees must replace the existing trees in kind, and if existing trees are too mature to be replaced, multiple new trees may be required. The statute does not specify whether non-native species are allowed as replacements.",
-      "confidence": 85,
+      "answer": "The provided sources address replacement trees in the context of developer obligations: trees that fail to survive within two calendar years of planting must be replaced by the developer at no expense to the village or landowner, within 60 days of written demand from the Planning Board. If the developer fails to comply, the Planning Board may declare the maintenance bond in default and use escrow funds or bond proceeds to replace the required trees. The sources do not specify provisions allowing property owners to replant trees in lieu of payment for removed trees, nor do they address whether native or non-native species are permitted as replacements.",
+      "confidence": 30,
       "sourceRefs": [
-        "§ 185-10"
+        "https://ecode360.com/5113138"
       ],
+      "gap": "The statute does not address: (1) replanting as an alternative to monetary payment for removed trees, (2) species requirements (native vs. non-native) for replacement trees, (3) an approved species list, or (4) a dedicated tree fund for cases where on-site replanting is impractical. These are significant gaps compared to best practices.",
       "score": 0.1,
-      "gap": "Consider adding specific guidelines on the allowance or prohibition of non-native species as replacements, including criteria for acceptable species, to ensure ecological compatibility and biodiversity preservation."
+      "nextPrompts": [
+        "Does the statute provide an approved or preferred tree species list for replacements, and does it distinguish between native and non-native species?",
+        "Is there a provision allowing property owners to replant trees in lieu of paying a fee or penalty for tree removal?"
+      ]
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "The statute does not specify any requirement to notify neighbors if you remove trees.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement that property owners must notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail or direct hand delivery, to ensure all potentially affected parties are informed."
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "Not specified in the provided sources. The excerpts focus on subdivision-related tree removal applications submitted to the Planning Board of the Village of Ardsley, addressing the Planning Board's authority, consultation with a landscape consultant, and restoration requirements. No notification procedures for neighbors or other residents are described in the provided statute excerpts.",
+      "confidence": 15,
+      "sourceRefs": [
+        "https://ecode360.com/5113138"
+      ],
+      "gap": "The statute does not address neighbor notification requirements, certified mail procedures, posting of permit signs, or the number of neighbors to be notified prior to tree removal decisions — all of which are considered best practices.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Ardsley code contain any public notice or neighbor notification requirements specifically for tree removal permit applications outside of subdivision contexts?",
+        "Are there any posting or signage requirements mandated by the Village of Ardsley for tree removal permits visible from public streets?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement officer is the Village Manager, who is designated as Street Commissioner. The Street Commissioner has supervision over all public trees and authority to issue permits, direct tree work, and enforce the chapter's provisions. The statute does not describe the Street Commissioner as a trained arborist or environmental professional. However, the Street Commissioner is required to work in conjunction with the Conservation Advisory Commission and a Landscape Consultant, who provide recommendations on permit applications before the Street Commissioner issues written permits.",
+      "confidence": 85,
+      "sourceRefs": [
+        "https://ecode360.com/5113138"
+      ],
+      "gap": "The statute designates a general administrative officer (Village Manager/Street Commissioner) as the enforcement authority rather than a dedicated, credentialed arborist or tree warden. While a Landscape Consultant is consulted, there is no requirement that the enforcement officer hold ISA certification or equivalent arboricultural credentials, nor is there a defined 'Tree Expert' standard for hazard assessments or removal approvals. This falls short of best practices, which call for a designated Forestry Officer with arboricultural qualifications or mandatory ISA-Certified Arborist consultation built into the enforcement process.",
+      "score": 0.35,
+      "nextPrompts": [
+        "What qualifications or credentials, if any, are required of the Landscape Consultant referenced in the statute?",
+        "Does the Conservation Advisory Commission include members with arboricultural or environmental professional credentials?"
+      ]
     },
     {
       "id": 6,
@@ -88,49 +116,50 @@
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "The statute does not specify a requirement for data collection on tree removals or presentation in a report to the public.",
-      "confidence": 20,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 15,
       "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to establish a comprehensive data collection system that tracks all tree removals, including the reason for removal and location, and mandates the publication of an annual report accessible to the public to ensure transparency and accountability."
+      "gap": "The statute does not appear to require systematic data collection on tree removals or mandate any formal public-facing report (e.g., annual report to a governing board). Best practice calls for tracking permit applications received, permits denied, and trees removed, compiled into an annual report submitted by a designated official (e.g., Tree Officer) to the governing board by a specified deadline, along with reporting on any Tree Bank Fund activity.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the statute designate a Tree Officer or similar official responsible for recordkeeping or reporting on tree permits and removals?",
+        "Does the statute establish a Tree Bank Fund or mitigation fund, and if so, are there any reporting requirements associated with it?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 3.93,
-    "normalizedScore": 3.93,
-    "averageConfidence": 61,
-    "questionsAnswered": 8,
-    "totalQuestions": 8,
+    "overallScore": 3.83,
+    "normalizedScore": 3.83,
+    "averageConfidence": 51,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        0.1,
+        0,
         0.8,
+        0.2,
         0.1,
-        0.1,
-        0.1,
+        0,
+        0.35,
         0.6,
         0.85,
-        0.1
+        0
       ],
-      "averageQuestionScore": 0.34375000000000006,
-      "weightedScore": 0.3933,
-      "totalWeightedScore": 5.9,
+      "averageQuestionScore": 0.32,
+      "weightedScore": 0.3833,
+      "totalWeightedScore": 5.75,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "The statute does not specify a requirement for a permit to remove a tree on private property unless it's related to subdivision approvals. For subdivision-related removals, application is made to the Planning Board, which reviews the proposal. However, for trees not related to a subdivision, permit requirements are not mentioned.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 0
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "The penalty for violating the provisions of this chapter, which would include removing trees without a permit, is a fine not exceeding $250.",
           "score": 0.8,
           "weight": 2,
           "weightedScore": 1.6,
@@ -139,48 +168,46 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "The statute does not specify a fee for removing each tree without a replacement.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 20
+          "score": 0.2,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 62
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, the statute allows for replanting new trees to replace those removed during the development of a subdivision. The new trees must replace the existing trees in kind, and if existing trees are too mature to be replaced, multiple new trees may be required. The statute does not specify whether non-native species are allowed as replacements.",
           "score": 0.1,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0.3,
           "maxWeightedScore": 3,
-          "confidence": 85
+          "confidence": 30
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "The statute does not specify any requirement to notify neighbors if you remove trees.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 15
+        },
+        {
+          "id": "5.1",
+          "score": 0.35,
+          "weight": 1,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 1,
+          "confidence": 85
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the statute recognizes the importance of keeping a healthy tree canopy by regulating the planting, maintenance, and removal of trees to avoid barren and unsightly conditions, control drainage, protect property values, and maintain the community's health and safety.",
           "score": 0.6,
           "weight": 3,
-          "weightedScore": 1.7999999999999998,
+          "weightedScore": 1.8,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "Property owners are responsible for trimming trees on their property that have branches projecting into public streets or places. The lowest branches must be at least 15 feet from the roadbed and 9 feet from the sidewalk level. Owners are also responsible for removing trees that are completely dead or have dead branches posing a hazard. If the owner refuses after being notified, the Street Commissioner can perform the work and charge the cost to the owner.",
           "score": 0.85,
           "weight": 2,
           "weightedScore": 1.7,
@@ -189,24 +216,21 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "The statute does not specify a requirement for data collection on tree removals or presentation in a report to the public.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 20
+          "confidence": 15
         }
       ]
     }
   },
-  "overallScore": 3.93,
-  "averageConfidence": 61,
-  "questionsAnswered": 8,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:16:15.363Z",
+  "overallScore": 3.83,
+  "averageConfidence": 51,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:23:42.828Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3.93,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.152Z"
+  "sources": []
 }

@@ -10,11 +10,49 @@
   "statuteNumber": "Chapter 318",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:41:01.228Z",
-      "contentLength": 30033,
+      "downloadedAt": "2026-05-17T19:59:12.503Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/38719881#38719881",
+      "title": "Article V",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T19:59:12.503Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/38719843#38719843",
+      "title": "Article IV",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T19:59:12.503Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/38719823#38719823",
+      "title": "Article III",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T19:59:12.503Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/38719805#38719805",
+      "title": "Article II",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T19:59:12.503Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/38719764#38719764",
+      "title": "Article I",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-15T18:58:33.627Z",
+      "contentLength": 97615,
       "sourceUrl": "https://ecode360.com/7712214",
       "title": "Trees",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Mamaroneck-Village",
+  "homePage": "https://www.villageofmamaroneckny.gov",
+  "isArticleBased": true
 }

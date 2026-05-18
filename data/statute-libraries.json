@@ -8,6 +8,7 @@
         "ecode360.com"
       ],
       "download": true,
+      "useCurl": true,
       "extractionSupported": true,
       "anchorSupported": true,
       "notes": "Supports direct downloads and anchor-based extraction"
@@ -34,7 +35,8 @@
       "download": true,
       "extractionSupported": true,
       "anchorSupported": false,
-      "notes": "Supports downloads but may have different HTML structure"
+      "notes": "Supports downloads but may have different HTML structure",
+      "useCurl": true
     }
   ],
   "defaultLibrary": "ecode360",

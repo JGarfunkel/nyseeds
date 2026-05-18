@@ -8,5 +8,9 @@
   "improvedConversionAt": "2025-08-12T01:13:34.213Z",
   "filteredAt": "2025-08-12T01:17:17.530Z",
   "unicodeEnhancedAt": "2025-08-12T01:18:13.929Z",
-  "sources": []
+  "sources": [],
+  "entityId": "NY-Greenburgh-Town",
+  "domainId": "cluster-zoning",
+  "homePage": "https://www.greenburghny.com/",
+  "metadataCreated": "2026-05-06T18:51:08.371Z"
 }

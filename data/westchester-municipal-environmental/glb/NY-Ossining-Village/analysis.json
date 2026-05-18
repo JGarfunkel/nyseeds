@@ -1,4 +1,5 @@
 {
+  "id": "NY-Ossining-Village-glb-1778856980205",
   "municipality": {
     "id": "NY-Ossining-Village",
     "displayName": "Ossining - Village"
@@ -181,9 +182,10 @@
   "averageConfidence": 70,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T20:05:23.530Z",
+  "lastUpdated": "2026-05-15T14:56:20.205Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 4.25,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.260Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.260Z",
+  "domainId": "glb"
 }

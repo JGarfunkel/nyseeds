@@ -1,0 +1,46 @@
+{
+  "domain": {
+    "id": "boards",
+    "displayName": "boards"
+  },
+  "analysisDate": "2026-05-14T19:46:44.335Z",
+  "totalMunicipalitiesAnalyzed": 45,
+  "averageScore": 0,
+  "highestScoringEntity": {
+    "id": "",
+    "displayName": "",
+    "score": 0
+  },
+  "bestPractices": [
+    {
+      "questionId": 1,
+      "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
+      "bestAnswer": "The sources list 12 named members of the Conservation Board (Victoria Alzapiedi, June Boyle, Marie Boster, Brandon Cavanagh, Jon Garfunkel, Roma Huggahalli as Student Member, TR Kelly, Stephen Kovari, Laura Lennihan, Angela Morgan, Belinda Rowsell, and Sara Weissman), plus a Town Board Liaison and a Staff Liaison.",
+      "quantitativeHighlights": []
+    },
+    {
+      "questionId": 2,
+      "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
+      "bestAnswer": "The statute does not require t specified in the provided sources.",
+      "quantitativeHighlights": []
+    },
+    {
+      "questionId": 3,
+      "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
+      "bestAnswer": "The statute does not require t specified in the provided sources.",
+      "quantitativeHighlights": []
+    },
+    {
+      "questionId": 6,
+      "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
+      "bestAnswer": "The source references a draft Master and Comprehensive Plan that was currently under review by the Town at the time of the document, indicating ongoing planning work.",
+      "quantitativeHighlights": []
+    }
+  ],
+  "overallRecommendations": {
+    "commonWeaknesses": [],
+    "keyImprovements": [],
+    "modelMunicipalities": []
+  },
+  "version": "1.0"
+}

@@ -1,7 +1,16 @@
 {
-  "municipality": "NY-Pelham-Town",
-  "domain": "wetland-protection",
-  "analyzedAt": "2025-09-08T19:39:27.996Z",
+  "id": "NY-Pelham-Town-wetland-protection-1778621074465",
+  "entityId": "NY-Pelham-Town",
+  "domainId": "wetland-protection",
+  "entity": {
+    "id": "NY-Pelham-Town",
+    "displayName": "Pelham - Town"
+  },
+  "domain": {
+    "id": "wetland-protection",
+    "displayName": "Wetland Protection"
+  },
+  "grades": {},
   "questions": [
     {
       "id": 3,
@@ -10,7 +19,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:22.748Z"
+      "analyzedAt": "2025-09-08T19:39:22.748Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding a requirement for a minimum setback distance of 50 feet from wetland boundaries to protect ecological integrity and prevent potential environmental impacts from development activities.\"\n}"
     },
     {
       "id": 4,
@@ -19,7 +29,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:23.205Z"
+      "analyzedAt": "2025-09-08T19:39:23.205Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding a tiered penalty structure that includes fines starting at $500 for first-time offenses, escalating to $2,000 for repeat offenses, with clear enforcement mechanisms and defined categories of violations such as minor, moderate, and severe disturbances.\"\n}"
     },
     {
       "id": 5,
@@ -28,7 +39,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:23.577Z"
+      "analyzedAt": "2025-09-08T19:39:23.577Z",
+      "gap": "{\n  \"recommendation\": \"Consider adding a section detailing the application procedures for a wetland permit or variance, including required documentation, submission methods, and contact information for the relevant municipal department.\"\n}"
     },
     {
       "id": 6,
@@ -37,7 +49,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:23.897Z"
+      "analyzedAt": "2025-09-08T19:39:23.897Z",
+      "gap": "{\n  \"recommendation\": \"Consider adding a requirement for a detailed mitigation plan as part of the application process for permits involving wetland impacts, specifying criteria for acceptable mitigation measures, timelines for implementation, and standards for monitoring and compliance to ensure no net loss of wetland functions and values.\"\n}"
     },
     {
       "id": 7,
@@ -48,7 +61,8 @@
         "§ 49-3"
       ],
       "score": 0.65,
-      "analyzedAt": "2025-09-08T19:39:27.032Z"
+      "analyzedAt": "2025-09-08T19:39:27.032Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding specific criteria or thresholds for what constitutes 'substantial impairment' to provide clearer guidance on prohibited activities in wetlands.\"\n}"
     },
     {
       "id": 9,
@@ -57,7 +71,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:27.523Z"
+      "analyzedAt": "2025-09-08T19:39:27.523Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding a provision that offers property tax reductions or credits to landowners who actively engage in wetland preservation and restoration efforts, with specific criteria and guidelines for eligibility and compliance.\"\n}"
     },
     {
       "id": 10,
@@ -66,7 +81,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:27.996Z"
+      "analyzedAt": "2025-09-08T19:39:27.996Z",
+      "gap": "{\n  \"recommendation\": \"Consider adding a requirement for periodic monitoring reports and maintenance plans to ensure compliance with environmental standards and project objectives for permitted wetland projects.\"\n}"
     }
   ],
   "scores": {
@@ -167,9 +183,7 @@
   "averageConfidence": 13,
   "questionsAnswered": 1,
   "totalQuestions": 7,
-  "gapAnalysis": "",
-  "wenGrade": "G-",
-  "usesStateCode": false,
-  "normalizedScore": 1.79,
-  "scoresUpdatedAt": "2025-10-10T17:19:07.249Z"
+  "lastUpdated": "2026-05-12T21:24:34.465Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
 }

@@ -1,0 +1,200 @@
+{
+  "id": "NY-NorthSalem-Town-planting-1778682448947",
+  "entityId": "NY-NorthSalem-Town",
+  "domainId": "planting",
+  "entity": {
+    "id": "NY-NorthSalem-Town",
+    "displayName": "North Salem - Town"
+  },
+  "domain": {
+    "id": "planting",
+    "displayName": "Planting"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What regulations or ordinances promote the use of native plants in landscaping, public spaces, or development projects?",
+      "answer": "Analysis skipped: no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n    \"recommendation\": \"Consider adding a regulation that mandates the use of a minimum percentage of native plant species in all new public landscaping projects and private development plans, with specific guidelines for plant selection and maintenance to ensure ecological compatibility and sustainability.\"\n}"
+    },
+    {
+      "id": 2,
+      "question": "Are there specific protections for pollinators such as bees, butterflies, or nesting habitat in local rules or plans?",
+      "answer": "Analysis skipped: no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n    \"recommendation\": \"Consider adding a requirement for the creation and maintenance of pollinator-friendly habitats, including native flowering plants and nesting sites, in all new public landscaping projects and private developments exceeding a certain size.\"\n}"
+    },
+    {
+      "id": 3,
+      "question": "Do landscaping standards require or encourage pollinator-friendly and low-mow native planting in new or renovated sites?",
+      "answer": "Analysis skipped: no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n  \"recommendation\": \"Consider adding a requirement for new or renovated sites to incorporate a minimum percentage of pollinator-friendly and low-mow native plant species in their landscaping plans, with specific guidelines on plant selection and maintenance to support local biodiversity and reduce maintenance costs.\"\n}"
+    },
+    {
+      "id": 4,
+      "question": "Are there designated areas for habitat restoration, native meadows, or pollinator corridors in parks, rights-of-way, or public lands?",
+      "answer": "Analysis skipped: no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n  \"recommendation\": \"Consider adding a regulation that mandates the designation of specific areas within parks, rights-of-way, and public lands for habitat restoration, native meadows, and pollinator corridors, including guidelines for their maintenance and protection to enhance biodiversity and ecological health.\"\n}"
+    },
+    {
+      "id": 5,
+      "question": "What community projects currently promote native plants and pollinators, such as planting programs, garden grants, or restoration events?",
+      "answer": "Analysis skipped: no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n  \"recommendation\": \"Consider adding a regulatory framework that mandates the creation and funding of community-based programs focused on native plant and pollinator conservation, including specific standards for planting programs, garden grants, and restoration events to enhance local biodiversity.\"\n}"
+    },
+    {
+      "id": 6,
+      "question": "Do maintenance practices support pollinators, such as reduced mowing, seasonal timing, pesticide limits, or leaving nesting habitat?",
+      "answer": "Analysis skipped: no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n  \"recommendation\": \"Consider adding a regulation that mandates reduced mowing schedules, restricts pesticide use, and preserves natural nesting habitats to support pollinator populations.\"\n}"
+    },
+    {
+      "id": 7,
+      "question": "Are there incentives, rebates, or technical assistance for residents or developers to install native and pollinator-friendly landscapes?",
+      "answer": "Analysis skipped: no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n  \"recommendation\": \"Consider adding a provision that offers tax incentives or grants for residents and developers who incorporate native and pollinator-friendly plants into their landscaping projects, along with guidelines for eligible plant species and maintenance standards to ensure ecological benefits.\"\n}"
+    },
+    {
+      "id": 8,
+      "question": "Is there monitoring or reporting on native plant coverage, pollinator habitat, or pollinator population outcomes over time?",
+      "answer": "Analysis skipped: no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n  \"recommendation\": \"Consider adding a requirement for annual surveys and public reports on native plant coverage, pollinator habitat quality, and pollinator population trends, including specific metrics and transparency measures to track progress over time.\"\n}"
+    }
+  ],
+  "scores": {
+    "overallScore": 5,
+    "normalizedScore": 5,
+    "averageConfidence": 0,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "averageQuestionScore": 0.5,
+      "weightedScore": 0.5,
+      "totalWeightedScore": 2.6500000000000004,
+      "totalPossibleWeight": 5.300000000000001,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What regulations or ordinances promote the use of native plants in landscaping, public spaces, or development projects?",
+          "answer": "Analysis skipped: no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.7,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 0.7,
+          "confidence": 0
+        },
+        {
+          "id": "2",
+          "question": "Are there specific protections for pollinators such as bees, butterflies, or nesting habitat in local rules or plans?",
+          "answer": "Analysis skipped: no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.7,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 0.7,
+          "confidence": 0
+        },
+        {
+          "id": "3",
+          "question": "Do landscaping standards require or encourage pollinator-friendly and low-mow native planting in new or renovated sites?",
+          "answer": "Analysis skipped: no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.6,
+          "weightedScore": 0.3,
+          "maxWeightedScore": 0.6,
+          "confidence": 0
+        },
+        {
+          "id": "4",
+          "question": "Are there designated areas for habitat restoration, native meadows, or pollinator corridors in parks, rights-of-way, or public lands?",
+          "answer": "Analysis skipped: no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.5,
+          "weightedScore": 0.25,
+          "maxWeightedScore": 0.5,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "question": "What community projects currently promote native plants and pollinators, such as planting programs, garden grants, or restoration events?",
+          "answer": "Analysis skipped: no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.7,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 0.7,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "question": "Do maintenance practices support pollinators, such as reduced mowing, seasonal timing, pesticide limits, or leaving nesting habitat?",
+          "answer": "Analysis skipped: no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.7,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 0.7,
+          "confidence": 0
+        },
+        {
+          "id": "7",
+          "question": "Are there incentives, rebates, or technical assistance for residents or developers to install native and pollinator-friendly landscapes?",
+          "answer": "Analysis skipped: no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.7,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 0.7,
+          "confidence": 0
+        },
+        {
+          "id": "8",
+          "question": "Is there monitoring or reporting on native plant coverage, pollinator habitat, or pollinator population outcomes over time?",
+          "answer": "Analysis skipped: no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 0.7,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 0.7,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 5,
+  "averageConfidence": 0,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2026-05-13T14:27:28.947Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

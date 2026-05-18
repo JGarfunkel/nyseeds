@@ -1,4 +1,5 @@
 {
+  "id": "NY-Pelham-Town-glb-1778856980277",
   "municipality": "NY-Pelham-Town",
   "domain": "glb",
   "analyzedAt": "2025-09-09T20:05:48.125Z",
@@ -169,5 +170,8 @@
   "wenGrade": null,
   "usesStateCode": false,
   "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.262Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.262Z",
+  "entityId": "NY-Pelham-Town",
+  "domainId": "glb",
+  "lastUpdated": "2026-05-15T14:56:20.277Z"
 }

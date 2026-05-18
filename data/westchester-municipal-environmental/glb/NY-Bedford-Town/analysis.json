@@ -1,15 +1,16 @@
 {
-  "municipality": {
+  "id": "NY-Bedford-Town-glb-1778510282761",
+  "entityId": "NY-Bedford-Town",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-Bedford-Town",
-    "displayName": "Bedford - Town"
+    "displayName": "Unknown - Town"
   },
   "domain": {
     "id": "glb",
     "displayName": "Glb"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
@@ -188,9 +189,29 @@
   "averageConfidence": 81,
   "questionsAnswered": 6,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T19:58:03.093Z",
+  "lastUpdated": "2026-05-15T13:48:08.808Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 5.83,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.218Z"
+  "sources": [
+    {
+      "url": "https://bedfordny.gov/189/Maps-Plans-Zoning",
+      "title": "https://bedfordny.gov/189/Maps-Plans-Zoning"
+    },
+    {
+      "url": "https://bedfordny.gov/DocumentCenter/View/833/Leafblower-Ban-Information-Card-PDF",
+      "title": "https://bedfordny.gov/DocumentCenter/View/833/Leafblower-Ban-Information-Card-PDF"
+    },
+    {
+      "url": "https://bedfordny.gov/DocumentCenter/View/834/Transitioning-to-Electric-Leaf-Blowers-PDF",
+      "title": "https://bedfordny.gov/DocumentCenter/View/834/Transitioning-to-Electric-Leaf-Blowers-PDF"
+    },
+    {
+      "url": "https://bedfordny.gov/QuickLinks.aspx",
+      "title": "https://bedfordny.gov/QuickLinks.aspx"
+    },
+    {
+      "url": "https://www.bedfordny.gov/459/Leaf-Blower-Ban",
+      "title": "https://www.bedfordny.gov/459/Leaf-Blower-Ban"
+    }
+  ]
 }

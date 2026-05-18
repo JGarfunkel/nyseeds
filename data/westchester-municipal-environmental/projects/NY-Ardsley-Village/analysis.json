@@ -1,0 +1,170 @@
+{
+  "id": "NY-Ardsley-Village-projects-1778785662213",
+  "entityId": "NY-Ardsley-Village",
+  "domainId": "projects",
+  "entity": {
+    "id": "NY-Ardsley-Village",
+    "displayName": "Ardsley - Village"
+  },
+  "domain": {
+    "id": "projects",
+    "displayName": "Projects"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What conservation projects or events are currently advertised?",
+      "answer": "The following conservation projects and events are advertised:\n\n• **Monarch Meadow Garden planting** at Pascone Park – Saturday, October 4, 9am–noon (rain date October 11), volunteers welcome, with DPW support.\n• **Ardsley Arbor Day celebration** – planned for October 11 at 9am.\n• **Volunteer Thank You Event** – Saturday, December 6, 2–5pm, open house at Carol's house.\n• **Native plants installations** at Pascone Park and Bicentennial Park (ongoing).\n• **Ardsley Pollinator Day** (past event referenced) – gave away 650+ plants.\n• **Webinars** on topics including garden consults, pollinator gardens, sustainable landscaping, and growing food.\n• **Climate Smart Communities** Bronze recertification/Silver certification projects are underway.\n• **Village Stormwater Projects** and a **Natural Resource Inventory** are listed as active initiatives on the village website.",
+      "confidence": 72,
+      "sourceRefs": [
+        "Ardsley Pollinator Pathway Minutes",
+        "Village website stormwater/public works section"
+      ],
+      "gap": "Listed events lack full details on goals, precise locations, open eligibility, and recurrence frequency — not fully aligned with best practice.",
+      "score": 0.45,
+      "nextPrompts": [
+        "What are the specific goals and locations for the Monarch Meadow Garden and other habitat creation projects?",
+        "Are there recurring volunteer opportunities or scheduled future webinars listed with dates and registration details?"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What documentation or photo/videos showing past projects exists online?",
+      "answer": "The Village of Ardsley's online sources include several photo and video resources related to past projects and activities: a 'Video Footage Of Our New Highway Garage' under Public Works, a '2023 Fire Department Inspection Photo Gallery,' an 'Ardsley Parks Virtual Tour,' a '2023 Ice Cream Social Photo Gallery' under the Police Department, and 'Event Galleries' for years 2022, 2023, 2024, and 2025 under the Multicultural, Diversity, and Inclusion Committee. Board of Trustees 'Meeting Videos' are also available. Additionally, 'Stormwater Village Projects' and related stormwater documentation are listed online. The CSC Task Force Progress Report (January 2025–May 2026) and the NYU Capstone Study on municipal vehicle emissions represent project documentation available online.",
+      "confidence": 62,
+      "sourceRefs": [
+        "Public Works section",
+        "Fire Department section",
+        "Parks & Recreation section",
+        "Police Department section",
+        "Multicultural, Diversity, and Inclusion Committee section",
+        "Board of Trustees section",
+        "Ardsley Green Task Force section"
+      ],
+      "gap": "The sources show event galleries and some facility/department photos, but no dedicated public project portfolio with dated before-and-after conservation or infrastructure project photos, narratives, or systematic visual documentation of completed on-the-ground projects as recommended by best practice.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Does the Village of Ardsley maintain a dedicated capital projects or infrastructure project page with before-and-after photos?",
+        "Are there stormwater or environmental project photo galleries available on the Village website or linked platforms?"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
+      "answer": "The sources describe volunteer opportunities including garden maintenance orientations at AFV, Hart's Brook, and Ardsley Library gardens; planting at AHS Memorial Garden; volunteer social gatherings focused on topics like identifying weeds; and volunteer events to address invasive vines on Village property. Carol and Steve are noted as coordinating with DPW on invasive vine removal. Signage and educational efforts are also mentioned, with Linda Caldwell taking on professional signage for gardens. Participation appears accessible through organized orientation events and social gatherings, though specific instructions for how individuals can sign up or donate resources are not detailed in the provided sources.",
+      "confidence": 42,
+      "sourceRefs": [
+        "Ardsley Pollinator Pathway Minutes - 7 of 8",
+        "Ardsley Pollinator Pathway Minutes - 4 of 7"
+      ],
+      "gap": "The sources cover shared space maintenance and some volunteer engagement but do not address home landscaping guidance, surveillance and reporting roles, or clear instructions for how the average person can donate time or resources. A full spectrum of engagement pathways with onboarding details is absent.",
+      "score": 0.25,
+      "nextPrompts": [
+        "Is there a volunteer sign-up process, contact list, or resource donation mechanism published for Ardsley Pollinator Pathway participants?",
+        "Does the Ardsley Pollinator Pathway provide guidance or programs for residents to improve their own home landscaping for pollinators?"
+      ]
+    }
+  ],
+  "scores": {
+    "overallScore": 3.62,
+    "normalizedScore": 3.62,
+    "averageConfidence": 59,
+    "questionsAnswered": 3,
+    "totalQuestions": 3,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.45,
+        0.3,
+        0.25
+      ],
+      "averageQuestionScore": 0.33,
+      "weightedScore": 0.3625,
+      "totalWeightedScore": 0.58,
+      "totalPossibleWeight": 1.6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0.45,
+          "weight": 0.8,
+          "weightedScore": 0.36,
+          "maxWeightedScore": 0.8,
+          "confidence": 72
+        },
+        {
+          "id": "2",
+          "score": 0.3,
+          "weight": 0.4,
+          "weightedScore": 0.12,
+          "maxWeightedScore": 0.4,
+          "confidence": 62
+        },
+        {
+          "id": "3",
+          "score": 0.25,
+          "weight": 0.4,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 0.4,
+          "confidence": 42
+        }
+      ]
+    }
+  },
+  "overallScore": 3.62,
+  "averageConfidence": 59,
+  "questionsAnswered": 3,
+  "totalQuestions": 3,
+  "lastUpdated": "2026-05-15T13:48:10.527Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee",
+      "title": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee"
+    },
+    {
+      "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/minutes/ardsley-pollinator-pathway-meeting-minutes-1",
+      "title": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/minutes/ardsley-pollinator-pathway-meeting-minutes-1"
+    },
+    {
+      "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/minutes/ardsley-pollinator-pathway-meeting-minutes-2",
+      "title": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/minutes/ardsley-pollinator-pathway-meeting-minutes-2"
+    },
+    {
+      "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/minutes/ardsley-pollinator-pathway-meeting-minutes-3",
+      "title": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/minutes/ardsley-pollinator-pathway-meeting-minutes-3"
+    },
+    {
+      "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/minutes/ardsley-pollinator-pathway-meeting-minutes-4",
+      "title": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/minutes/ardsley-pollinator-pathway-meeting-minutes-4"
+    },
+    {
+      "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/news/ardsley-pollinator-pathway-message",
+      "title": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/news/ardsley-pollinator-pathway-message"
+    },
+    {
+      "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/news/were-kicking-off-another-exiting-year",
+      "title": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/news/were-kicking-off-another-exiting-year"
+    },
+    {
+      "url": "https://www.ardsleyvillage.gov/comprehensive-plan-implementation-ongoing-projects",
+      "title": "https://www.ardsleyvillage.gov/comprehensive-plan-implementation-ongoing-projects"
+    },
+    {
+      "url": "https://www.ardsleyvillage.gov/home/events/47961",
+      "title": "https://www.ardsleyvillage.gov/home/events/47961"
+    },
+    {
+      "url": "https://www.ardsleyvillage.gov/print/36811",
+      "title": "https://www.ardsleyvillage.gov/print/36811"
+    },
+    {
+      "url": "https://www.ardsleyvillage.gov/village-ongoing-projects/new-village-planning-process/files/village-of-ardsley-community-update-on-0",
+      "title": "https://www.ardsleyvillage.gov/village-ongoing-projects/new-village-planning-process/files/village-of-ardsley-community-update-on-0"
+    },
+    {
+      "url": "https://www.ardsleyvillage.gov/village-ongoing-projects/new-village-planning-process/pages/on-line-community-survey-results",
+      "title": "https://www.ardsleyvillage.gov/village-ongoing-projects/new-village-planning-process/pages/on-line-community-survey-results"
+    }
+  ]
+}

@@ -2,5 +2,10 @@
   "municipalityName": "Cortlandt",
   "municipalityType": "Town",
   "domain": "Slopes",
-  "sources": []
+  "sources": [],
+  "entityId": "NY-Cortlandt-Town",
+  "domainId": "slopes",
+  "homePage": "https://www.townofcortlandt.com/",
+  "metadataCreated": "2026-05-06T13:57:02.080Z",
+  "municipality": "Cortlandt"
 }

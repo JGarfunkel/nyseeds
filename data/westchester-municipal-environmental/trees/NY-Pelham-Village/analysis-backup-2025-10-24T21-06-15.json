@@ -1,0 +1,211 @@
+{
+  "municipality": {
+    "id": "NY-Pelham-Village",
+    "displayName": "Pelham - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "The statute does not specify a requirement for a permit to remove a tree on private property. However, it states that if a tree on private property is dead or diseased and poses a threat, the Village Tree Committee will notify the owner to remove it at their own expense within 60 days.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-15"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a clear requirement for a permit to remove any tree on private property, detailing the application procedures, review criteria, timelines for decision-making, and an appeal process to ensure transparency and consistency in enforcement."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The statute does not specify penalties for removing trees without a permit.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a section to the statute that clearly outlines specific penalties for removing trees without a permit, including fines, mandatory replanting requirements, and potential legal actions to ensure compliance and protect the municipality's tree resources."
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "The statute does not specify a fee for removing a tree without a replacement.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific fees based on tree size and species, along with payment options, exemptions for certain circumstances, and provisions to cover administrative costs."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "You are allowed to plant new trees on Village property between your property line and the street, but the species and location must comply with specific regulations. Only species listed in §93-7 may be planted without written permission from the Village Tree Committee, so non-native species not listed require permission.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§93-7",
+        "§93-12"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding a requirement for a survival monitoring period to ensure that newly planted trees, especially non-native species, thrive and are maintained, with specific guidelines on replacement ratios if the trees do not survive."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "The statute does not specify a requirement to notify neighbors if you remove trees.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days in advance of tree removal, using certified mail or direct hand delivery, to ensure all potentially affected parties are informed."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "The code recognizes the importance of maintaining trees for public safety and aesthetic reasons, and it prohibits topping of trees on public property to preserve their canopy. However, it does not explicitly mention the importance of keeping a healthy tree canopy.",
+      "confidence": 80,
+      "sourceRefs": [
+        "§93-12",
+        "§93-13"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding explicit language that sets specific coverage targets for the tree canopy, outlines measurement methods to assess canopy health, and details maintenance plans and long-term preservation strategies to ensure a healthy and sustainable tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As a property owner, you must prune any overhanging tree branches to avoid obstruction of street lamps, street intersections, and ensure there is a clear space of eight feet above streets or sidewalks. You must also prune hedges and bushes so there is a clear space of six lateral inches from any Village sidewalk and remove dead, diseased, or dangerous trees that pose a safety risk.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§93-14"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding specific guidelines for regular inspection schedules that property owners must follow to ensure timely identification and management of potential tree hazards."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "The statute does not specify a requirement for data collection on tree removals or presentation in a report to the public.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to systematically collect data on all tree removals, including location, species, and reason for removal, and to publish an annual report accessible to the public that details these findings to ensure transparency and accountability."
+    }
+  ],
+  "scores": {
+    "overallScore": 2.93,
+    "normalizedScore": 2.93,
+    "averageConfidence": 52,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.1,
+        0.3,
+        0.1,
+        0.5,
+        0.65,
+        0.1
+      ],
+      "averageQuestionScore": 0.24375000000000002,
+      "weightedScore": 0.2933,
+      "totalWeightedScore": 4.4,
+      "totalPossibleWeight": 15,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+          "answer": "The statute does not specify a requirement for a permit to remove a tree on private property. However, it states that if a tree on private property is dead or diseased and poses a threat, the Village Tree Committee will notify the owner to remove it at their own expense within 60 days.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the penalties for removing trees without a permit?",
+          "answer": "The statute does not specify penalties for removing trees without a permit.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        },
+        {
+          "id": "3",
+          "question": "What is the fee for removing each tree without a replacement?",
+          "answer": "The statute does not specify a fee for removing a tree without a replacement.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "4",
+          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+          "answer": "You are allowed to plant new trees on Village property between your property line and the street, but the species and location must comply with specific regulations. Only species listed in §93-7 may be planted without written permission from the Village Tree Committee, so non-native species not listed require permission.",
+          "score": 0.3,
+          "weight": 3,
+          "weightedScore": 0.8999999999999999,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "Which neighbors must be notified if I remove trees? ",
+          "answer": "The statute does not specify a requirement to notify neighbors if you remove trees.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "6",
+          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+          "answer": "The code recognizes the importance of maintaining trees for public safety and aesthetic reasons, and it prohibits topping of trees on public property to preserve their canopy. However, it does not explicitly mention the importance of keeping a healthy tree canopy.",
+          "score": 0.5,
+          "weight": 3,
+          "weightedScore": 1.5,
+          "maxWeightedScore": 3,
+          "confidence": 80
+        },
+        {
+          "id": "8",
+          "question": "What are my responsibilities for maintaining trees on my property?",
+          "answer": "As a property owner, you must prune any overhanging tree branches to avoid obstruction of street lamps, street intersections, and ensure there is a clear space of eight feet above streets or sidewalks. You must also prune hedges and bushes so there is a clear space of six lateral inches from any Village sidewalk and remove dead, diseased, or dangerous trees that pose a safety risk.",
+          "score": 0.65,
+          "weight": 2,
+          "weightedScore": 1.3,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "9",
+          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+          "answer": "The statute does not specify a requirement for data collection on tree removals or presentation in a report to the public.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        }
+      ]
+    }
+  },
+  "overallScore": 2.93,
+  "averageConfidence": 52,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-09T18:26:36.134Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 2.93,
+  "scoresUpdatedAt": "2025-10-10T17:18:10.206Z"
+}

@@ -3,5 +3,10 @@
   "municipalityType": "Town",
   "domain": "Slopes",
   "lastConverted": "2025-08-15T20:28:21.873Z",
-  "sources": []
+  "sources": [],
+  "entityId": "NY-Lewisboro-Town",
+  "domainId": "slopes",
+  "homePage": "https://www.lewisborony.gov/",
+  "metadataCreated": "2026-05-06T19:08:33.007Z",
+  "municipality": "Lewisboro"
 }

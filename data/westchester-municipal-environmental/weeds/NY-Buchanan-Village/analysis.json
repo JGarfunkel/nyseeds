@@ -1,4 +1,5 @@
 {
+  "id": "NY-Buchanan-Village-weeds-1778856982765",
   "municipality": {
     "id": "NY-Buchanan-Village",
     "displayName": "Buchanan - Village"
@@ -140,9 +141,10 @@
   "averageConfidence": 72,
   "questionsAnswered": 4,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T18:03:29.833Z",
+  "lastUpdated": "2026-05-15T14:56:22.765Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 4.92,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.491Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.491Z",
+  "domainId": "weeds"
 }

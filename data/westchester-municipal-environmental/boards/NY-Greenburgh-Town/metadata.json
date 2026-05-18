@@ -1,0 +1,11 @@
+{
+  "entityId": "NY-Greenburgh-Town",
+  "domainId": "boards",
+  "domain": "boards",
+  "homePage": "https://www.greenburghny.com/",
+  "metadataCreated": "2026-05-03T04:08:23.705Z",
+  "stateCodeApplies": false,
+  "sources": [],
+  "municipality": "Greenburgh",
+  "municipalityType": "Town"
+}

@@ -1,4 +1,5 @@
 {
+  "id": "NY-Harrison-Town-glb-1778856979898",
   "municipality": {
     "id": "NY-Harrison-Town",
     "displayName": "Harrison - Town"
@@ -177,9 +178,10 @@
   "averageConfidence": 42,
   "questionsAnswered": 3,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T20:01:17.207Z",
+  "lastUpdated": "2026-05-15T14:56:19.898Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 3.87,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.233Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.233Z",
+  "domainId": "glb"
 }

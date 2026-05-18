@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Ossining-Town-trees-1779068194646",
+  "entityId": "NY-Ossining-Town",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Ossining-Town",
     "displayName": "Ossining - Town"
   },
@@ -7,21 +10,22 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a permit to remove a tree on your private property if the tree meets certain criteria. You must apply for a tree removal permit if you plan to remove a tree with a DBH of three inches or greater within a property's regulated buffer zone, an ornamental tree with a DBH of three inches or greater, a significant tree, or any tree with a DBH of six inches or greater. The application process includes submitting various information, such as owner details, tree details, and plans for replacement if needed. The review will be conducted by either the Building Inspector or the Planning Board, depending on whether the removal is associated with site plans or subdivisions.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "A permit is required to remove trees on private property per the statute. The application involves paying both an **application fee** and an **inspection fee**, with amounts set by the Town Board via resolution (fee schedule). One exception: if you are simultaneously applying for a building permit, the building permit fee replaces the tree removal permit application fee — however, the inspection fee is still required in both cases. The specific dollar amounts for fees are not stated in the provided excerpts but are established by Town Board resolution. The reviewing authority is referenced as the **Tree Warden** (Chapter 183), though detailed application submission procedures and reviewer specifics beyond this are not further described in the provided sources.",
+      "confidence": 62,
       "sourceRefs": [
-        "§ 183-5",
-        "§ 183-10",
-        "§ 183-8"
+        "https://ecode360.com/8410336"
       ],
-      "score": 1
+      "gap": "Significant gaps exist compared to best practices: no DBH threshold triggering permit requirement is specified, no application form/site plan requirements are described, no decision timeline is stated, no tiered fee structure is detailed (only that fees are set by resolution), no referral process to a Tree Commission or Planning Board is mentioned, no neighbor notification requirement is described, and no exemptions for dead/hazardous/invasive trees are noted.",
+      "score": 0.2,
+      "nextPrompts": [
+        "What is the minimum tree size (DBH) that triggers a permit requirement for removal on private property?",
+        "Are there any exemptions from the permit requirement, such as for dead, hazardous, or invasive trees?"
+      ]
     },
     {
       "id": 2,
@@ -35,12 +39,18 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 15,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific fees per tree, available payment options, potential exemptions for certain property types or situations, and provisions to ensure fees cover administrative costs associated with enforcement and processing."
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies the following exemptions or favorable removal conditions:\n\n1. **Invasive Species**: Removal of any tree listed on the New York State Prohibited or Regulated Invasive Species List is exempt, provided it is identified in writing on the business letterhead of a tree specialist and submitted to the Building Inspector.\n\n2. **Proximity to Improvements**: Removal may be favored if a tree is within 3 feet of an existing or proposed sidewalk or driveway, within 10 feet of a cesspool, dry well, septic tank, or other subsurface improvement, or within 10 feet of any other existing or proposed structure.\n\nConversely, removal may be **denied** if the tree is a significant tree, is an endangered species or tree of special concern per NYS lists, or if removal would negatively affect erosion, drainage, adjacent vegetation, property values, solar access, or wildlife habitat.\n\nReplacement trees must not be from the NYS Prohibited or Regulated Invasive Species List. [Source: https://ecode360.com/8410336]",
+      "confidence": 82,
+      "sourceRefs": [
+        "https://ecode360.com/8410336"
+      ],
+      "gap": "The statute lacks DBH-based size thresholds triggering permit requirements, does not require ISA-certified arborist certification for invasive species removal (only 'tree specialist' letterhead), and does not specify that replacement trees must be native species—only that they cannot be invasive.",
+      "score": 0.5,
+      "nextPrompts": [
+        "Does the statute define 'regulated tree' by a minimum DBH or size threshold that would exempt smaller trees from permit requirements?",
+        "Are there any exemptions for dead, dying, or hazardous trees that pose an imminent safety risk, separate from the invasive species exemption?"
+      ]
     },
     {
       "id": 4,
@@ -55,13 +65,33 @@
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "If the tree removal application is subject to a Planning Board public hearing, notice must be mailed to all owners of property within 500 feet of any lot line of the property for which the permit is sought. The notice must be mailed at least 10 days before the hearing.",
-      "confidence": 85,
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "For tree removal applications referred to the Planning Board (typically involving clear cutting), notification is done in two ways:\n\n1. **Published Notice**: Notice is published in the official Town newspaper at least 10 days before the public hearing.\n\n2. **Mailed Notice**: The Planning Board mails notice at least 10 days before the hearing to all property owners within **500 feet of any lot line** of the subject property. Owner names are taken from the last completed tax roll.\n\n3. **On-Site Sign Posting**: The applicant must post notification sign(s) on the property within three days of application acceptance. Signs must be placed within 10 feet of each boundary abutting a public road, at a height of 14–36 inches above ground, and maintained until the Planning Board renders its final decision.\n\nIf the property abuts multiple roads, additional signs must face each road. Signs must be removed within 10 days after the final decision. [Source: https://ecode360.com/8410336]",
+      "confidence": 88,
       "sourceRefs": [
-        "§ 183-10"
+        "https://ecode360.com/8410336"
       ],
-      "score": 1
+      "gap": "The statute uses mailed notice to all owners within 500 feet (broader than best practice's 300 feet) but does not specify certified mail with return receipt. The sign posting requirement is 3 days before acceptance rather than 15 days before removal. No certified mail requirement is mentioned.",
+      "score": 0.65,
+      "nextPrompts": [
+        "Does the statute specify the method of mailing (e.g., certified mail, return receipt) for neighbor notifications?",
+        "Are there notification requirements for tree removal permits handled by the Building Inspector rather than the Planning Board?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement officer is the **Tree Warden**, as referenced in Chapter 183. However, the statute does not specify whether the Tree Warden is required to be a trained arborist or environmental professional. No qualifications, certifications, or professional credentials are outlined for this role in the provided sources.",
+      "confidence": 52,
+      "sourceRefs": [
+        "Chapter 183 Tree Protection"
+      ],
+      "gap": "The answer identifies the Tree Warden but lacks any mention of required qualifications, ISA certification, or provisions for consulting a certified arborist for technical decisions. No advisory committee, Tree Commission, or mandatory expert consultation mechanism is referenced.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does Chapter 183 allow Tree Warden to retain certified arborist consultants?",
+        "Are there any qualification requirements for Tree Warden elsewhere in municipal code?"
+      ]
     },
     {
       "id": 6,
@@ -89,49 +119,52 @@
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 15,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to collect detailed data on all tree removals, including location, species, reason for removal, and replacement plans, and to compile this information into an annual public report to enhance transparency and accountability."
+      "answer": "The statute requires that a bond or other security may be required prior to tree removal under a permit, but there is no mention of systematic data collection on tree removals or any requirement to compile and present such data in a public report. The only recordkeeping-related provision found pertains to permit conditions and financial security requirements.",
+      "confidence": 30,
+      "sourceRefs": [
+        "https://ecode360.com/8410336"
+      ],
+      "gap": "The statute does not appear to require systematic data collection on tree removals (e.g., number of permits issued, trees removed, permits denied) nor any formal annual report to the public or governing board. Best practice calls for a designated official to compile such data into an annual report submitted by a specified deadline, covering permit activity and any Tree Bank Fund transactions.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does the statute designate a Tree Warden or Tree Officer responsible for maintaining records of permits issued and trees removed?",
+        "Is there any provision in the statute establishing a Tree Bank Fund or mitigation fund that would require financial reporting to the public or governing board?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 6.47,
-    "normalizedScore": 6.47,
-    "averageConfidence": 68,
-    "questionsAnswered": 6,
-    "totalQuestions": 8,
+    "overallScore": 5.7,
+    "normalizedScore": 5.7,
+    "averageConfidence": 73,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
+        0.2,
         1,
-        1,
-        0.1,
+        0.5,
         0.95,
-        1,
+        0.65,
+        0.2,
         0.55,
         0.45,
-        0.1
+        0.05
       ],
-      "averageQuestionScore": 0.6437499999999999,
-      "weightedScore": 0.6467,
-      "totalWeightedScore": 9.7,
+      "averageQuestionScore": 0.51,
+      "weightedScore": 0.57,
+      "totalWeightedScore": 8.55,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a permit to remove a tree on your private property if the tree meets certain criteria. You must apply for a tree removal permit if you plan to remove a tree with a DBH of three inches or greater within a property's regulated buffer zone, an ornamental tree with a DBH of three inches or greater, a significant tree, or any tree with a DBH of six inches or greater. The application process includes submitting various information, such as owner details, tree details, and plans for replacement if needed. The review will be conducted by either the Building Inspector or the Planning Board, depending on whether the removal is associated with site plans or subdivisions.",
-          "score": 1,
+          "score": 0.2,
           "weight": 1,
-          "weightedScore": 1,
+          "weightedScore": 0.2,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 62
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "If you remove trees without a permit, you could face a fine of up to $1,000 for a first offense. For a second and subsequent offense within a one-year period, the fine can be up to $2,000 or you could face a term of imprisonment of not more than 15 days, or both. Each tree removed unlawfully is considered a separate offense. Additionally, there is a civil penalty of $500 per tree, and you will be required to replace the tree or trees. New construction on the property can be delayed until compliance is achieved.",
           "score": 1,
           "weight": 2,
           "weightedScore": 2,
@@ -140,48 +173,46 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 15
+          "score": 0.5,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 82
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed. The statute requires the replanting of an equal or greater number of trees of the same or similar species as those removed. Non-native species are not explicitly prohibited as replacements, but the use of invasive species is restricted.",
           "score": 0.95,
           "weight": 3,
-          "weightedScore": 2.8499999999999996,
+          "weightedScore": 2.85,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "If the tree removal application is subject to a Planning Board public hearing, notice must be mailed to all owners of property within 500 feet of any lot line of the property for which the permit is sought. The notice must be mailed at least 10 days before the hearing.",
-          "score": 1,
+          "score": 0.65,
           "weight": 1,
-          "weightedScore": 1,
+          "weightedScore": 0.65,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 88
+        },
+        {
+          "id": "5.1",
+          "score": 0.2,
+          "weight": 1,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 1,
+          "confidence": 52
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. The legislative findings and intent highlight that trees provide valuable benefits to the community, such as shading, cooling, reducing erosion and stormwater runoff, and maintaining ecological and aesthetic qualities. The regulations aim to protect and regulate tree use to prevent loss of these benefits.",
           "score": 0.55,
           "weight": 3,
-          "weightedScore": 1.6500000000000001,
+          "weightedScore": 1.65,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "You are responsible for keeping trees trimmed so that their branches do not interfere with pedestrian or vehicular traffic in public streets. Additionally, if branches from your trees project over a neighbor's property, the neighbor may trim them to avoid interference, provided the trimming does not harm the trees' health.",
           "score": 0.45,
           "weight": 2,
           "weightedScore": 0.9,
@@ -190,24 +221,26 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0.1,
           "maxWeightedScore": 2,
-          "confidence": 15
+          "confidence": 30
         }
       ]
     }
   },
-  "overallScore": 6.47,
-  "averageConfidence": 68,
-  "questionsAnswered": 6,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:25:36.434Z",
+  "overallScore": 5.7,
+  "averageConfidence": 73,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:36:34.646Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 6.47,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.201Z"
+  "sources": [
+    {
+      "url": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/250-minutes-2009-0526-resj-iclei",
+      "title": "250 Minutes 2009 0526 Resj Iclei"
+    }
+  ]
 }

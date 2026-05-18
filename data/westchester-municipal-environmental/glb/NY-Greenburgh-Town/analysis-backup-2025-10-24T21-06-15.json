@@ -1,0 +1,186 @@
+{
+  "municipality": {
+    "id": "NY-Greenburgh-Town",
+    "displayName": "Greenburgh - Town"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a specific regulatory framework that establishes a clear prohibition period for gas leaf blowers, such as from May 1st to September 30th, to address seasonal air quality and noise concerns."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers can be operated between 8:00 a.m. and 8:00 p.m. on weekdays, from 9:00 a.m. to 6:00 p.m. on Saturdays, and from 11:00 a.m. to 6:00 p.m. on Sundays.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 380-7I"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding specific penalties or fines for non-compliance with the permitted hours of gas leaf blower operation to strengthen enforcement and ensure adherence to the regulation."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "For the first offense, the penalty is a criminal violation with a fine of not less than $50 and not more than $500. For a second offense within three years, it is a misdemeanor with a fine of not less than $250 and not more than $1,500.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 380-9A",
+        "§ 380-9B"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding specific enforcement mechanisms, such as detailing which municipal department is responsible for issuing fines and how violations are reported and processed, to strengthen the regulation's clarity and effectiveness."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that explicitly outlines exceptions or specific requirements for school, government, and commercial properties, including criteria for eligibility and any conditions or limitations that apply to these exceptions."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations are enforced by the Town Police, and sound measurements are taken using a sound-level meter. The enforcing officer records the sound-level readings and documents other details. Sound-level readings can be taken from the nearest consenting adjacent property. The Chief of Police may designate another enforcement officer with the Town Board’s consent.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 380-8"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding a requirement for a public reporting mechanism that allows residents to easily report violations online or via a dedicated hotline, ensuring transparency and efficient data collection for tracking and addressing noise complaints."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the ordinance that mandates public education campaigns on the environmental benefits of leaving leaf debris and mulching, including guidelines for best practices to enhance soil health and reduce waste."
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report that includes comprehensive data collection on relevant activities, transparency measures, and tracking mechanisms to ensure accountability and public awareness."
+    }
+  ],
+  "scores": {
+    "overallScore": 3.37,
+    "normalizedScore": 3.37,
+    "averageConfidence": 42,
+    "questionsAnswered": 3,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.5,
+        0.75,
+        0.1,
+        0.6,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.3214285714285715,
+      "weightedScore": 0.3375,
+      "totalWeightedScore": 4.05,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 4,
+          "weightedScore": 0.4,
+          "maxWeightedScore": 4,
+          "confidence": 10
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Gas leaf blowers can be operated between 8:00 a.m. and 8:00 p.m. on weekdays, from 9:00 a.m. to 6:00 p.m. on Saturdays, and from 11:00 a.m. to 6:00 p.m. on Sundays.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "For the first offense, the penalty is a criminal violation with a fine of not less than $50 and not more than $500. For a second offense within three years, it is a misdemeanor with a fine of not less than $250 and not more than $1,500.",
+          "score": 0.75,
+          "weight": 3,
+          "weightedScore": 2.25,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Violations are enforced by the Town Police, and sound measurements are taken using a sound-level meter. The enforcing officer records the sound-level readings and documents other details. Sound-level readings can be taken from the nearest consenting adjacent property. The Chief of Police may designate another enforcement officer with the Town Board’s consent.",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        }
+      ]
+    }
+  },
+  "overallScore": 3.37,
+  "averageConfidence": 42,
+  "questionsAnswered": 3,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-09T20:00:53.695Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 3.37,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.232Z"
+}

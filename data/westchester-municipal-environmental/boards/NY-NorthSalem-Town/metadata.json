@@ -1,0 +1,11 @@
+{
+  "entityId": "NY-NorthSalem-Town",
+  "domainId": "boards",
+  "domain": "boards",
+  "homePage": "https://www.northsalemny.gov/",
+  "metadataCreated": "2026-05-03T04:08:23.769Z",
+  "stateCodeApplies": false,
+  "sources": [],
+  "municipality": "North Salem",
+  "municipalityType": "Town"
+}

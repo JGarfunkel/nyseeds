@@ -1,0 +1,213 @@
+{
+  "municipality": {
+    "id": "NY-NorthCastle-Town",
+    "displayName": "North Castle - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your property if it falls under regulated activities such as being in a regulated setback zone, significant trees, or other specific areas like wetlands. To apply, you must submit an application to the approving authority, which can be the Building Inspector or another designated authority. The application should include information like owner consent, an application fee, property survey, tree survey, and plans related to the removal and replacement. The approving authority reviews and either grants, denies, or grants with conditions the permit.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 308-13",
+        "§ 308-15"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit include fines not exceeding $1,000, imprisonment for up to 15 days, and a requirement to restore the property and replace the removed trees according to an approved plan. Each tree removed without a permit is considered a separate offense. Additionally, the Town may withhold the issuance of any permits or occupancy certificates until the violation is resolved. A tree replacement plan will also be required, and trees removed without a permit will be subject to this plan.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 308-25"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "The fee in lieu of providing replacement trees is determined by a cash payment to the Town of North Castle Tree Mitigation Bank. The specific amount for tree removal without replacement is set forth in the Master Fee Schedule, but the exact fee is not detailed in the statute provided.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 308-25",
+        "§ 308-15C"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding a clear reference or hyperlink to the Master Fee Schedule within the statute to ensure easy access to the specific fee amount for tree removal without replacement."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed. The replacement trees should be a variety of species and should be ecologically compatible with the site and neighboring properties. Invasive trees are not allowed, and replanted trees should be of the same or similar species as those removed when practical. Planting non-native, incompatible species is discouraged.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 308-25C"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding specific guidelines for a replacement ratio, such as requiring a certain number of new trees to be planted for each tree removed, and include a monitoring period to ensure the survival and establishment of the replanted trees."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 50,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement that property owners must notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and include information on the type and number of trees to be removed."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of preserving trees to protect the health, safety, and general welfare of the Town because trees provide various environmental and aesthetic benefits. This intention is expressed in the legislative intent to preserve trees.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 308-11"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding specific coverage targets for tree canopy, detailed measurement methods to assess canopy health, and comprehensive maintenance plans to ensure long-term preservation and enhancement of the tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As a property owner, you must prune branches of any trees overhanging a street or right-of-way to avoid obstructing streetlamps, street intersections, and maintaining an eight-foot clearance above sidewalks or streets. You should also remove any dead, diseased, or dangerous trees or limbs that are a safety hazard. Additionally, the Town may prune trees on private property if they interfere with streetlights or traffic signs.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 308-8"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding a requirement for property owners to conduct regular inspections of their trees, with a suggested frequency (e.g., annually or biannually), to proactively identify and address potential hazards before they become safety issues."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 50,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for systematic data collection on all tree removals, including the reason for removal and location, with an annual public report that details these activities and is accessible online to ensure transparency and accountability."
+    }
+  ],
+  "scores": {
+    "overallScore": 5.8,
+    "normalizedScore": 5.8,
+    "averageConfidence": 76,
+    "questionsAnswered": 6,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        1,
+        0.85,
+        0.85,
+        0.1,
+        0.3,
+        0.55,
+        0.1
+      ],
+      "averageQuestionScore": 0.59375,
+      "weightedScore": 0.58,
+      "totalWeightedScore": 8.7,
+      "totalPossibleWeight": 15,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+          "answer": "Yes, you need a permit to remove a tree on your property if it falls under regulated activities such as being in a regulated setback zone, significant trees, or other specific areas like wetlands. To apply, you must submit an application to the approving authority, which can be the Building Inspector or another designated authority. The application should include information like owner consent, an application fee, property survey, tree survey, and plans related to the removal and replacement. The approving authority reviews and either grants, denies, or grants with conditions the permit.",
+          "score": 1,
+          "weight": 1,
+          "weightedScore": 1,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the penalties for removing trees without a permit?",
+          "answer": "The penalties for removing trees without a permit include fines not exceeding $1,000, imprisonment for up to 15 days, and a requirement to restore the property and replace the removed trees according to an approved plan. Each tree removed without a permit is considered a separate offense. Additionally, the Town may withhold the issuance of any permits or occupancy certificates until the violation is resolved. A tree replacement plan will also be required, and trees removed without a permit will be subject to this plan.",
+          "score": 1,
+          "weight": 2,
+          "weightedScore": 2,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What is the fee for removing each tree without a replacement?",
+          "answer": "The fee in lieu of providing replacement trees is determined by a cash payment to the Town of North Castle Tree Mitigation Bank. The specific amount for tree removal without replacement is set forth in the Master Fee Schedule, but the exact fee is not detailed in the statute provided.",
+          "score": 0.85,
+          "weight": 1,
+          "weightedScore": 0.85,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+          "answer": "Yes, you can replant new trees to replace those removed. The replacement trees should be a variety of species and should be ecologically compatible with the site and neighboring properties. Invasive trees are not allowed, and replanted trees should be of the same or similar species as those removed when practical. Planting non-native, incompatible species is discouraged.",
+          "score": 0.85,
+          "weight": 3,
+          "weightedScore": 2.55,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "Which neighbors must be notified if I remove trees? ",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 50
+        },
+        {
+          "id": "6",
+          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+          "answer": "Yes, the code recognizes the importance of preserving trees to protect the health, safety, and general welfare of the Town because trees provide various environmental and aesthetic benefits. This intention is expressed in the legislative intent to preserve trees.",
+          "score": 0.3,
+          "weight": 3,
+          "weightedScore": 0.8999999999999999,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "8",
+          "question": "What are my responsibilities for maintaining trees on my property?",
+          "answer": "As a property owner, you must prune branches of any trees overhanging a street or right-of-way to avoid obstructing streetlamps, street intersections, and maintaining an eight-foot clearance above sidewalks or streets. You should also remove any dead, diseased, or dangerous trees or limbs that are a safety hazard. Additionally, the Town may prune trees on private property if they interfere with streetlights or traffic signs.",
+          "score": 0.55,
+          "weight": 2,
+          "weightedScore": 1.1,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "9",
+          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 50
+        }
+      ]
+    }
+  },
+  "overallScore": 5.8,
+  "averageConfidence": 76,
+  "questionsAnswered": 6,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-09T18:25:03.686Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 5.8,
+  "scoresUpdatedAt": "2025-10-10T17:18:10.198Z"
+}

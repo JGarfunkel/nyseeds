@@ -40,3 +40,9 @@ pnpm-debug.log*
 .cache/
 .temp/
 tmp/
+logs/
+
+# this is the cache for our webcrawling
+EntityDownloads/
+
+local/

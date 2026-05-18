@@ -1,0 +1,147 @@
+{
+  "municipality": {
+    "id": "NY-RyeBrook-Village",
+    "displayName": "Rye Brook - Village"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents must eradicate all poisonous and noxious weeds from their properties. This includes maintaining both private property and the public property between the property line and the curb or edge of the street.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 186-2"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific definitions for \"poisonous\" and \"noxious\" weeds to ensure clarity and consistency in enforcement, as well as establishing a timeline or frequency for inspections and compliance checks to ensure ongoing adherence to the maintenance requirements."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, defining clear criteria such as plant species, maintenance standards, and designated areas to ensure they are distinguishable from unmanaged weed growth."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the maintenance requirements apply to both private property and the public property located between the property line and the curb or edge of the street.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 186-2"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding specific guidelines or standards for the maintenance of the public property area between the property line and the curb, such as requirements for landscaping, snow removal, and debris clearance, to ensure clarity and consistency in enforcement."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "If an owner fails to comply with property maintenance regulations, the Village may correct the violations and the owner must pay all associated costs within 30 days. If not paid, the costs become a lien on the property and are added to the property taxes, bearing the same interest and collected in the same manner as taxes. This is in addition to any penalty imposed by the Code.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 186-2"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding specific fine amounts for initial and repeat offenses, as well as detailed categories of violations to ensure clarity and consistency in enforcement."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The owner has five days to comply with the property maintenance regulations after receiving a written notice from the Village. If they fail to comply within this timeframe, the Village may take corrective action and impose costs as penalties.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 186-2"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific details about the fine amounts for non-compliance, escalation procedures for repeat offenses, and a clear categorization of violation types to strengthen the enforcement mechanisms of the statute."
+    }
+  ],
+  "scores": {
+    "overallScore": 4.25,
+    "normalizedScore": 4.25,
+    "averageConfidence": 70,
+    "questionsAnswered": 4,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.55,
+        0.1,
+        0.5,
+        0.75,
+        0.55
+      ],
+      "averageQuestionScore": 0.49000000000000005,
+      "weightedScore": 0.425,
+      "totalWeightedScore": 2.55,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "Residents must eradicate all poisonous and noxious weeds from their properties. This includes maintaining both private property and the public property between the property line and the curb or edge of the street.",
+          "score": 0.55,
+          "weight": 1,
+          "weightedScore": 0.55,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 10
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "Yes, the maintenance requirements apply to both private property and the public property located between the property line and the curb or edge of the street.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "If an owner fails to comply with property maintenance regulations, the Village may correct the violations and the owner must pay all associated costs within 30 days. If not paid, the costs become a lien on the property and are added to the property taxes, bearing the same interest and collected in the same manner as taxes. This is in addition to any penalty imposed by the Code.",
+          "score": 0.75,
+          "weight": 1,
+          "weightedScore": 0.75,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "The owner has five days to comply with the property maintenance regulations after receiving a written notice from the Village. If they fail to comply within this timeframe, the Village may take corrective action and impose costs as penalties.",
+          "score": 0.55,
+          "weight": 1,
+          "weightedScore": 0.55,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 4.25,
+  "averageConfidence": 70,
+  "questionsAnswered": 4,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:51:10.725Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4.25,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.555Z"
+}

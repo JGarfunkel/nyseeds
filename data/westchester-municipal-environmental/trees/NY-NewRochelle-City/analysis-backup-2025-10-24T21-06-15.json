@@ -1,0 +1,216 @@
+{
+  "municipality": {
+    "id": "NY-NewRochelle-City",
+    "displayName": "New Rochelle - City"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you do need a Tree Removal Permit to remove a tree on private property if the property is one acre or more or if it's an unimproved lot less than one acre with more than three trees removed in a 12-month period. To apply, you need to submit a request to the New Rochelle Bureau of Buildings on the provided forms. The Planning Board reviews applications related to subdivisions and site plans, while the Building Official handles all other applications.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 301-21",
+        "§ 301-22"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding detailed timelines for the application review process and decision-making to provide clarity on how long applicants should expect to wait for a permit decision."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove trees without a permit, you may be fined up to $1,000, or face imprisonment for up to 15 days, or both. Additionally, you will be required to replace each removed tree in kind or pay a fee in lieu of replacement. Until these conditions are met, no building permits or certificates of occupancy will be issued for new construction on the property.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 301-32"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding specific details about the application procedures for obtaining a tree removal permit, including the required documentation, review criteria, timelines for decision-making, and the appeal process for denied permits, to ensure clarity and transparency in the enforcement of the statute."
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§ 301-24"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a clear fee schedule to the statute that specifies the cost for removing each tree without a replacement, including payment options, potential exemptions for certain cases, and provisions to ensure the fee covers administrative costs associated with enforcement and processing."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed. The replacement trees must come from the official list of acceptable trees issued by the Commissioner of Public Works, so non-native species not on the list are not allowed. If replanting is technically impractical or impossible, you can pay a fee to the City Tree Fund instead.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 301-24"
+      ],
+      "score": 0.95,
+      "gap": "Consider adding specific guidelines for monitoring the survival of replanted trees over a set period and requiring replacement if they do not survive, to ensure long-term compliance and ecological benefits."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "If you apply for a tree removal permit that is granted by the Building Official, you must notify all abutting property owners by certified mail, return receipt requested, at least 15 days before a decision may be rendered on the application.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 301-22"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding a requirement to notify neighbors within a specific distance beyond just abutting properties, as well as clarifying the method of notification for those who may not have a mailing address, to ensure all potentially affected parties are adequately informed."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code acknowledges the importance of trees for the community's health, safety, and welfare. Trees provide shade, reduce air conditioning needs, absorb air pollution, and provide oxygen, among other benefits, which points to the importance of maintaining a healthy tree canopy.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 301-19"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific coverage targets for the tree canopy, detailed measurement methods to assess canopy health, and comprehensive maintenance plans to ensure long-term preservation and enhancement of the tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "The statute does not specify responsibilities for maintaining trees on private property within the reviewed sections, except for when trees pose a danger or interfere with construction, where removal is regulated. However, general responsibilities for trees on public property include trimming them under the supervision of the Department of Public Works if they overhang public spaces.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 301-12"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding specific guidelines for property owners regarding regular inspection schedules, care standards, and hazard management responsibilities for trees on private property to ensure safety and compliance with municipal regulations."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to collect detailed data on all tree removals, including location, species, reason for removal, and replacement plans, and to compile this information into an annual public report to enhance transparency and accountability."
+    }
+  ],
+  "scores": {
+    "overallScore": 4.5,
+    "normalizedScore": 4.5,
+    "averageConfidence": 69,
+    "questionsAnswered": 6,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.85,
+        0.3,
+        0.1,
+        0.95,
+        0.3,
+        0.55,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.40625,
+      "weightedScore": 0.45,
+      "totalWeightedScore": 6.75,
+      "totalPossibleWeight": 15,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+          "answer": "Yes, you do need a Tree Removal Permit to remove a tree on private property if the property is one acre or more or if it's an unimproved lot less than one acre with more than three trees removed in a 12-month period. To apply, you need to submit a request to the New Rochelle Bureau of Buildings on the provided forms. The Planning Board reviews applications related to subdivisions and site plans, while the Building Official handles all other applications.",
+          "score": 0.85,
+          "weight": 1,
+          "weightedScore": 0.85,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the penalties for removing trees without a permit?",
+          "answer": "If you remove trees without a permit, you may be fined up to $1,000, or face imprisonment for up to 15 days, or both. Additionally, you will be required to replace each removed tree in kind or pay a fee in lieu of replacement. Until these conditions are met, no building permits or certificates of occupancy will be issued for new construction on the property.",
+          "score": 0.3,
+          "weight": 2,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What is the fee for removing each tree without a replacement?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "4",
+          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+          "answer": "Yes, you can replant new trees to replace those removed. The replacement trees must come from the official list of acceptable trees issued by the Commissioner of Public Works, so non-native species not on the list are not allowed. If replanting is technically impractical or impossible, you can pay a fee to the City Tree Fund instead.",
+          "score": 0.95,
+          "weight": 3,
+          "weightedScore": 2.8499999999999996,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "Which neighbors must be notified if I remove trees? ",
+          "answer": "If you apply for a tree removal permit that is granted by the Building Official, you must notify all abutting property owners by certified mail, return receipt requested, at least 15 days before a decision may be rendered on the application.",
+          "score": 0.3,
+          "weight": 1,
+          "weightedScore": 0.3,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+          "answer": "Yes, the code acknowledges the importance of trees for the community's health, safety, and welfare. Trees provide shade, reduce air conditioning needs, absorb air pollution, and provide oxygen, among other benefits, which points to the importance of maintaining a healthy tree canopy.",
+          "score": 0.55,
+          "weight": 3,
+          "weightedScore": 1.6500000000000001,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "8",
+          "question": "What are my responsibilities for maintaining trees on my property?",
+          "answer": "The statute does not specify responsibilities for maintaining trees on private property within the reviewed sections, except for when trees pose a danger or interfere with construction, where removal is regulated. However, general responsibilities for trees on public property include trimming them under the supervision of the Department of Public Works if they overhang public spaces.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "9",
+          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        }
+      ]
+    }
+  },
+  "overallScore": 4.5,
+  "averageConfidence": 69,
+  "questionsAnswered": 6,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-09T18:24:35.657Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4.5,
+  "scoresUpdatedAt": "2025-10-10T17:18:10.196Z"
+}

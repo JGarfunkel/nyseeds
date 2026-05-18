@@ -1,7 +1,10 @@
 {
-  "municipality": {
+  "id": "NY-Bedford-Town-wetland-protection-1777724108829",
+  "entityId": "NY-Bedford-Town",
+  "domainId": "wetland-protection",
+  "entity": {
     "id": "NY-Bedford-Town",
-    "displayName": "Bedford - Town"
+    "displayName": "Unknown - Town"
   },
   "domain": {
     "id": "wetland-protection",
@@ -12,175 +15,209 @@
     {
       "id": 3,
       "question": "What are the setback requirements from wetland boundaries?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:37:43.875Z",
-      "gap": "Consider adding a specific setback requirement of at least 50 feet from wetland boundaries to protect water quality and habitat integrity, along with provisions for variances based on site-specific assessments."
+      "answer": "The wetland/watercourse buffer extends **100 feet horizontally away from and parallel to the wetland boundary or bank of the watercourse**. (§ 122-8)\n\nAlso, some listed activities are allowed only if they are located **more than 50 feet from a wetland or watercourse**. (See the exemptions in the provided text.)",
+      "confidence": 54,
+      "sourceRefs": [
+        "§ 122-8",
+        "§ 122-2B"
+      ],
+      "score": 0.8,
+      "analyzedAt": "2026-05-02T12:14:46.779Z",
+      "gap": "Consider adding a clear definition of \"wetland boundary\" and \"watercourse\" to ensure consistent interpretation and application of setback requirements."
     },
     {
       "id": 4,
       "question": "What are the penalties for unauthorized wetland disturbance?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:37:44.982Z",
-      "gap": "Consider adding a tiered penalty structure that imposes fines starting at $500 for first offenses, escalating to $1,000 for second offenses and $2,500 for subsequent violations, along with provisions for enforcement through local environmental agencies."
+      "answer": "Under § 122-12, unauthorized wetland disturbance is punishable as a violation by:\n\n- a fine of up to $250,\n- imprisonment for up to 15 days,\n- or both.\n\nEach day the violation continues counts as a separate offense. In addition, the court may order restoration of the affected freshwater wetland to its prior condition, if possible. The Town may also seek an injunction to stop the violation.",
+      "confidence": 57,
+      "sourceRefs": [
+        "§ 122-12",
+        "§ 122-8B"
+      ],
+      "score": 0.85,
+      "analyzedAt": "2026-05-02T12:14:49.838Z",
+      "gap": "Consider adding specific escalation measures for repeat offenses, such as increased fines or longer imprisonment terms, to deter ongoing violations."
     },
     {
       "id": 5,
       "question": "How do I apply for a wetland permit or variance?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:37:47.015Z",
-      "gap": "Consider adding a detailed section outlining the application procedures for wetland permits or variances, including specific forms required, submission deadlines, review criteria, timelines for processing applications, and a clear outline of the appeal process for denied applications."
+      "answer": "To apply for a wetland permit, the statute says an **application for a permit subscribed by the owner or agent must be filed with the Commission**. The application must include the information listed in **§ 122-9(A)**, including:\n\n- owner and applicant name, address, and telephone number;\n- property street address and Tax Map designation;\n- owner consent if an agent is applying;\n- statement of the proposed work and its purpose;\n- owner permission for site visits;\n- plans for the proposed regulated activities, certified by a licensed engineer, architect, land surveyor, or landscape architect, and showing the required wetland, site, drainage, contour, and related details. **§ 122-9(A)(1)-(6)**\n\nFor a **variance**, the provided text does **not** describe a separate variance application procedure. It only states that the applicant is responsible for obtaining the necessary approvals or permits, and that no operations may begin until they are issued. The fee schedule for wetlands applications is adopted by the Town Board.  \n\n**§ 122-9; Fees provision in the text**",
+      "confidence": 62,
+      "sourceRefs": [
+        "§ 122-9",
+        "§ 122-8B"
+      ],
+      "score": 0.3,
+      "analyzedAt": "2026-05-02T12:14:54.944Z",
+      "gap": "Consider adding detailed information on the review criteria and timelines for the wetland permit application process to ensure applicants understand how their submissions will be evaluated and when they can expect a decision."
     },
     {
       "id": 6,
       "question": "Are there mitigation requirements for permitted wetland impacts?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:37:48.113Z",
-      "gap": "Consider adding clear mitigation requirements for permitted wetland impacts, including specific application procedures, review criteria for assessing mitigation plans, and defined timelines for approval and appeal processes to ensure comprehensive wetland protection."
+      "answer": "Yes. The statute requires mitigation for permitted wetland impacts in certain cases.\n\n- If losses or impacts to the wetland, watercourse, or wetland/watercourse buffer are **necessary, unavoidable, and minimized to the maximum extent practicable**, the applicant **shall be required to prepare and implement a mitigation plan acceptable to the Commission** (§ 122-2B(B)(1)-(2)).\n- The statute also says **acceptable mitigation must be provided to minimize impacts to the maximum extent practicable** (§ 122-2B(B)(4)).\n- For mitigation, **on-site mitigation is preferred**; **off-site mitigation is allowed only if on-site mitigation is not possible and the applicant controls the off-site property** (§ 122-2B(B)(3)).\n- The mitigation plan must follow an order of preference: **minimize impacts, preserve remaining wetlands, restore/repair damaged areas, and then construct replacement wetlands/buffer areas** (§ 122-2B(B)(4)(a)-(d)).\n- Any approved mitigation plan becomes part of the permit (§ 122-2B(B)(5)).",
+      "confidence": 63,
+      "sourceRefs": [
+        "§ 122-2B"
+      ],
+      "score": 1,
+      "analyzedAt": "2026-05-02T12:14:58.056Z"
     },
     {
       "id": 7,
       "question": "What types of development are completely prohibited in wetlands?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:37:51.325Z",
-      "gap": "Consider adding a clear regulatory framework that explicitly prohibits all types of development in wetlands, including but not limited to construction, land clearing, and drainage activities, to protect these critical ecosystems."
+      "answer": "The statute does not list a separate category of development as “completely prohibited” in wetlands, but it does prohibit certain activities in wetlands without a permit. Under **§ 122-8C**, the following are barred unless a permit is issued:\n\n- placing or constructing structures, accessory structures, swimming pools, or tennis courts;\n- draining, dredging, dewatering, excavation, or removal of material;\n- dumping, filling, or depositing material;\n- altering or grading natural features/contours or diverting water flow;\n- constructing docks, dams, water control devices, pilings, or bridges;\n- installing service lines, cable conduits, pipes, or wells;\n- constructing driveways or roads; and\n- cutting or removing healthy plants, except certain invasive species.",
+      "confidence": 56,
+      "sourceRefs": [
+        "§ 122-8C",
+        "§ 122-8B"
+      ],
+      "score": 0.85,
+      "analyzedAt": "2026-05-02T12:15:01.652Z",
+      "gap": "Consider adding explicit definitions and criteria for what constitutes a \"permit\" and the process for obtaining one, to ensure clarity and consistency in the application of the statute's requirements for activities in wetlands."
     },
     {
       "id": 9,
       "question": "Are there tax incentives for wetland preservation?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:37:52.363Z",
-      "gap": "Consider adding a section to the municipal statute that outlines specific tax incentives for landowners who engage in wetland preservation, including property tax reductions or credits based on the area of wetlands preserved."
+      "answer": "Not specified in the statute. The provided text discusses wetlands preservation, regulation, permits, fees, mitigation, and acquisition, but it does not mention any tax incentives for wetland preservation.",
+      "confidence": 46,
+      "sourceRefs": [
+        "§ 122-2B"
+      ],
+      "score": 0.7,
+      "analyzedAt": "2026-05-02T12:15:04.781Z",
+      "gap": "Consider adding explicit provisions for tax incentives related to wetland preservation to encourage private landowners and developers to engage in conservation efforts."
     },
     {
       "id": 10,
       "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:37:53.554Z",
-      "gap": "Consider adding a section that outlines specific monitoring and maintenance requirements for permitted wetland projects, including timelines for reporting, criteria for assessing project success, and penalties for non-compliance."
+      "answer": "Permitted wetland projects must include:\n\n- **A mitigation plan**, if required and accepted by the Commission; it becomes part of the permit. (§ 122-2B(B)(5))\n- **A monitoring and inspection schedule** for a specified period of time, as agreed to by the Commission, and it must be implemented. (§ 122-2B(B)(6))\n- **Applicant-funded monitoring and inspection costs**: town-incurred costs for monitoring and inspection of applicant projects must be paid by the applicant as required by the chapter. (§ 122-2B(B)(6))\n\nSo, the statute requires both a Commission-approved monitoring/inspection schedule and payment of related town costs by the applicant.",
+      "confidence": 62,
+      "sourceRefs": [
+        "§ 122-8B",
+        "§ 122-2B"
+      ],
+      "score": 0.95,
+      "analyzedAt": "2026-05-02T12:15:08.777Z",
+      "gap": "Consider adding specific criteria for evaluating the adequacy of the mitigation plan to ensure consistent and transparent decision-making by the Commission."
     }
   ],
   "scores": {
-    "overallScore": 1,
-    "normalizedScore": 1,
-    "averageConfidence": 0,
-    "questionsAnswered": 0,
+    "overallScore": 7.79,
+    "normalizedScore": 7.79,
+    "averageConfidence": 57,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1
+        0.8,
+        0.85,
+        0.3,
+        1,
+        0.85,
+        0.7,
+        0.95
       ],
-      "averageQuestionScore": 0.09999999999999999,
-      "weightedScore": 0.1,
-      "totalWeightedScore": 0.7,
+      "averageQuestionScore": 0.7785714285714286,
+      "weightedScore": 0.7786,
+      "totalWeightedScore": 5.45,
       "totalPossibleWeight": 7,
       "questionsWithScores": [
         {
           "id": "3",
           "question": "What are the setback requirements from wetland boundaries?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "answer": "The wetland/watercourse buffer extends **100 feet horizontally away from and parallel to the wetland boundary or bank of the watercourse**. (§ 122-8)\n\nAlso, some listed activities are allowed only if they are located **more than 50 feet from a wetland or watercourse**. (See the exemptions in the provided text.)",
+          "score": 0.8,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.8,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 54
         },
         {
           "id": "4",
           "question": "What are the penalties for unauthorized wetland disturbance?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "answer": "Under § 122-12, unauthorized wetland disturbance is punishable as a violation by:\n\n- a fine of up to $250,\n- imprisonment for up to 15 days,\n- or both.\n\nEach day the violation continues counts as a separate offense. In addition, the court may order restoration of the affected freshwater wetland to its prior condition, if possible. The Town may also seek an injunction to stop the violation.",
+          "score": 0.85,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.85,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 57
         },
         {
           "id": "5",
           "question": "How do I apply for a wetland permit or variance?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "answer": "To apply for a wetland permit, the statute says an **application for a permit subscribed by the owner or agent must be filed with the Commission**. The application must include the information listed in **§ 122-9(A)**, including:\n\n- owner and applicant name, address, and telephone number;\n- property street address and Tax Map designation;\n- owner consent if an agent is applying;\n- statement of the proposed work and its purpose;\n- owner permission for site visits;\n- plans for the proposed regulated activities, certified by a licensed engineer, architect, land surveyor, or landscape architect, and showing the required wetland, site, drainage, contour, and related details. **§ 122-9(A)(1)-(6)**\n\nFor a **variance**, the provided text does **not** describe a separate variance application procedure. It only states that the applicant is responsible for obtaining the necessary approvals or permits, and that no operations may begin until they are issued. The fee schedule for wetlands applications is adopted by the Town Board.  \n\n**§ 122-9; Fees provision in the text**",
+          "score": 0.3,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.3,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 62
         },
         {
           "id": "6",
           "question": "Are there mitigation requirements for permitted wetland impacts?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "answer": "Yes. The statute requires mitigation for permitted wetland impacts in certain cases.\n\n- If losses or impacts to the wetland, watercourse, or wetland/watercourse buffer are **necessary, unavoidable, and minimized to the maximum extent practicable**, the applicant **shall be required to prepare and implement a mitigation plan acceptable to the Commission** (§ 122-2B(B)(1)-(2)).\n- The statute also says **acceptable mitigation must be provided to minimize impacts to the maximum extent practicable** (§ 122-2B(B)(4)).\n- For mitigation, **on-site mitigation is preferred**; **off-site mitigation is allowed only if on-site mitigation is not possible and the applicant controls the off-site property** (§ 122-2B(B)(3)).\n- The mitigation plan must follow an order of preference: **minimize impacts, preserve remaining wetlands, restore/repair damaged areas, and then construct replacement wetlands/buffer areas** (§ 122-2B(B)(4)(a)-(d)).\n- Any approved mitigation plan becomes part of the permit (§ 122-2B(B)(5)).",
+          "score": 1,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 63
         },
         {
           "id": "7",
           "question": "What types of development are completely prohibited in wetlands?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "answer": "The statute does not list a separate category of development as “completely prohibited” in wetlands, but it does prohibit certain activities in wetlands without a permit. Under **§ 122-8C**, the following are barred unless a permit is issued:\n\n- placing or constructing structures, accessory structures, swimming pools, or tennis courts;\n- draining, dredging, dewatering, excavation, or removal of material;\n- dumping, filling, or depositing material;\n- altering or grading natural features/contours or diverting water flow;\n- constructing docks, dams, water control devices, pilings, or bridges;\n- installing service lines, cable conduits, pipes, or wells;\n- constructing driveways or roads; and\n- cutting or removing healthy plants, except certain invasive species.",
+          "score": 0.85,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.85,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 56
         },
         {
           "id": "9",
           "question": "Are there tax incentives for wetland preservation?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "answer": "Not specified in the statute. The provided text discusses wetlands preservation, regulation, permits, fees, mitigation, and acquisition, but it does not mention any tax incentives for wetland preservation.",
+          "score": 0.7,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.7,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 46
         },
         {
           "id": "10",
           "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "answer": "Permitted wetland projects must include:\n\n- **A mitigation plan**, if required and accepted by the Commission; it becomes part of the permit. (§ 122-2B(B)(5))\n- **A monitoring and inspection schedule** for a specified period of time, as agreed to by the Commission, and it must be implemented. (§ 122-2B(B)(6))\n- **Applicant-funded monitoring and inspection costs**: town-incurred costs for monitoring and inspection of applicant projects must be paid by the applicant as required by the chapter. (§ 122-2B(B)(6))\n\nSo, the statute requires both a Commission-approved monitoring/inspection schedule and payment of related town costs by the applicant.",
+          "score": 0.95,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.95,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 62
         }
       ]
     }
   },
-  "overallScore": 1,
-  "averageConfidence": 0,
-  "questionsAnswered": 0,
+  "overallScore": 7.79,
+  "averageConfidence": 57,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-08T19:37:53.555Z",
+  "lastUpdated": "2026-05-15T13:48:14.755Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:19:07.226Z"
+  "sources": [
+    {
+      "url": "https://bedfordny.gov/1882/Understanding-Wildlife-Corridors-and-The",
+      "title": "https://bedfordny.gov/1882/Understanding-Wildlife-Corridors-and-The"
+    },
+    {
+      "url": "https://bedfordny.gov/277/Vine-Cutters",
+      "title": "https://bedfordny.gov/277/Vine-Cutters"
+    },
+    {
+      "url": "https://bedfordny.gov/589/Wildlife-Corridor-Project",
+      "title": "https://bedfordny.gov/589/Wildlife-Corridor-Project"
+    },
+    {
+      "url": "https://www.bedfordny.gov/AgendaCenter",
+      "title": "https://www.bedfordny.gov/AgendaCenter"
+    }
+  ]
 }

@@ -1,14 +1,17 @@
 {
-  "municipality": {
+  "id": "NY-Bedford-Town-weeds-1778519361108",
+  "entityId": "NY-Bedford-Town",
+  "domainId": "weeds",
+  "entity": {
     "id": "NY-Bedford-Town",
-    "displayName": "Bedford - Town"
+    "displayName": "Unknown - Town"
   },
   "domain": {
     "id": "weeds",
     "displayName": "Weeds"
   },
   "grades": {
-    "WEN": "R-"
+    "${GRADING_ID}": "R-"
   },
   "questions": [
     {
@@ -139,9 +142,21 @@
   "averageConfidence": 59,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:37:39.522Z",
+  "lastUpdated": "2026-05-15T13:48:14.148Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3.5,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.485Z"
+  "sources": [
+    {
+      "url": "https://bedfordny.gov/189/Maps-Plans-Zoning",
+      "title": "https://bedfordny.gov/189/Maps-Plans-Zoning"
+    },
+    {
+      "url": "https://bedfordny.gov/277/Vine-Cutters",
+      "title": "https://bedfordny.gov/277/Vine-Cutters"
+    },
+    {
+      "url": "https://bedfordny.gov/DocumentCenter/View/422/Town-of-Bedford-Tree-Management-Report-PDF",
+      "title": "https://bedfordny.gov/DocumentCenter/View/422/Town-of-Bedford-Tree-Management-Report-PDF"
+    }
+  ]
 }

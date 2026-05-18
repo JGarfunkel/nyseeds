@@ -10,11 +10,14 @@
   "statuteNumber": "Ch 283",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:39:28.450Z",
-      "contentLength": 33826,
+      "downloadedAt": "2026-05-15T18:57:32.986Z",
+      "contentLength": 179986,
       "sourceUrl": "https://ecode360.com/7695873",
       "title": "Freshwater wetlands — See Ch",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Cortlandt-Town",
+  "homePage": "",
+  "isArticleBased": false
 }

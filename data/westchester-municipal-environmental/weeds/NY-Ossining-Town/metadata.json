@@ -10,11 +10,14 @@
   "statuteNumber": "Ch 60",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:30:08.704Z",
-      "contentLength": 2921,
+      "downloadedAt": "2026-05-15T19:09:36.540Z",
+      "contentLength": 85292,
       "sourceUrl": "https://ecode360.com/8407304",
       "title": "Garbage, rubbish and refuse — See Ch",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Ossining-Town",
+  "homePage": "https://www.townofossining.com/",
+  "isArticleBased": false
 }

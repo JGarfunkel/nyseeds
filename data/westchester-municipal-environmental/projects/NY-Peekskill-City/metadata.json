@@ -1,0 +1,11 @@
+{
+  "entityId": "NY-Peekskill-City",
+  "domainId": "projects",
+  "domain": "projects",
+  "homePage": "https://www.cityofpeekskill.com/",
+  "metadataCreated": "2026-05-03T04:08:13.903Z",
+  "stateCodeApplies": false,
+  "sources": [],
+  "municipality": "Peekskill",
+  "municipalityType": "City"
+}

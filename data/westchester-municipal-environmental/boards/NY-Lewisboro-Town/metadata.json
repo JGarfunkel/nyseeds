@@ -1,0 +1,11 @@
+{
+  "entityId": "NY-Lewisboro-Town",
+  "domainId": "boards",
+  "domain": "boards",
+  "homePage": "https://www.lewisborony.gov/",
+  "metadataCreated": "2026-05-03T04:08:23.731Z",
+  "stateCodeApplies": false,
+  "sources": [],
+  "municipality": "Lewisboro",
+  "municipalityType": "Town"
+}

@@ -1,4 +1,5 @@
 {
+  "id": "NY-NewCastle-Town-weeds-1778856983688",
   "municipality": {
     "id": "NY-NewCastle-Town",
     "displayName": "New Castle - Town"
@@ -142,9 +143,32 @@
   "averageConfidence": 85,
   "questionsAnswered": 5,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:46:21.112Z",
+  "lastUpdated": "2026-05-15T14:56:23.688Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 6.75,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.530Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.530Z",
+  "domainId": "weeds",
+  "sources": [
+    {
+      "url": "https://www.mynewcastleny.gov/DocumentCenter/View/3555/NYS-DEC-Plant-List-PDF",
+      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/3555/NYS-DEC-Plant-List-PDF",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NewCastle-Town\\nys-dec-plant-list-pdf.txt"
+    },
+    {
+      "url": "https://www.mynewcastleny.gov/DocumentCenter/View/3788/Town-of-New-Castle-2022-Natural-Resource-Inventory-PDF",
+      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/3788/Town-of-New-Castle-2022-Natural-Resource-Inventory-PDF",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NewCastle-Town\\town-of-new-castle-2022-natural-resource-inventory-pdf.txt"
+    },
+    {
+      "url": "https://www.mynewcastleny.gov/DocumentCenter/View/4751/Protect-Our-Trees-Combatting-the-Spotted-Lanternfly-Town-of-New-Castle-PDF",
+      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/4751/Protect-Our-Trees-Combatting-the-Spotted-Lanternfly-Town-of-New-Castle-PDF",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NewCastle-Town\\protect-our-trees-combatting-the-spotted-lanternfly-town-of-new-castle-pdf.txt"
+    },
+    {
+      "url": "https://www.mynewcastleny.gov/DocumentCenter/View/5221/Fall-Native-Plants-Companion-PDF",
+      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/5221/Fall-Native-Plants-Companion-PDF",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NewCastle-Town\\fall-native-plants-companion-pdf.txt"
+    }
+  ]
 }

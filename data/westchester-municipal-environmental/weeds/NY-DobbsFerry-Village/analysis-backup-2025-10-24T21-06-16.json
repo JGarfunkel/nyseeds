@@ -1,0 +1,141 @@
+{
+  "municipality": {
+    "id": "NY-DobbsFerry-Village",
+    "displayName": "Dobbs Ferry - Village"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "The statute does not specify any property maintenance requirements specifically related to weeds.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a regulation that requires residents to maintain their properties by ensuring that weeds do not exceed a height of 8 inches, with penalties for non-compliance to encourage adherence."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, defining them as intentional plantings of native or non-invasive species beneficial to pollinators, and exempting them from weed height restrictions, provided they are maintained to prevent the spread of invasive species."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the statute that requires property owners to maintain the area between their property lot lines and the curb, including the removal of weeds, to ensure consistent upkeep and aesthetic standards across the municipality."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a tiered penalty system that imposes an initial fine of $100 for the first offense of failing to comply with property maintenance regulations related to weeds, with fines doubling for each subsequent offense within a 12-month period, and include provisions for enforcement through municipal inspections and liens on properties for unpaid fines."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a clear timeline of 14 days for property owners to resolve a weeds-related maintenance violation before penalties are applied, with specified fine amounts starting at $100 for first offenses and escalating for repeat offenses, along with defined enforcement mechanisms and violation categories."
+    }
+  ],
+  "scores": {
+    "overallScore": 1,
+    "normalizedScore": 1,
+    "averageConfidence": 0,
+    "questionsAnswered": 1,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.1,
+      "weightedScore": 0.1,
+      "totalWeightedScore": 0.6,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "The statute does not specify any property maintenance requirements specifically related to weeds.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0.1
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 0.1
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0.1
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0.1
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0.1
+        }
+      ]
+    }
+  },
+  "overallScore": 1,
+  "averageConfidence": 0,
+  "questionsAnswered": 1,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:40:13.310Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 1,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.496Z"
+}

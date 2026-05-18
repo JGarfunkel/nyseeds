@@ -1,7 +1,16 @@
 {
-  "municipality": "NY-Pelham-Village",
-  "domain": "wetland-protection",
-  "analyzedAt": "2025-09-08T19:39:33.862Z",
+  "id": "NY-Pelham-Village-wetland-protection-1778621083760",
+  "entityId": "NY-Pelham-Village",
+  "domainId": "wetland-protection",
+  "entity": {
+    "id": "NY-Pelham-Village",
+    "displayName": "Pelham - Village"
+  },
+  "domain": {
+    "id": "wetland-protection",
+    "displayName": "Wetland Protection"
+  },
+  "grades": {},
   "questions": [
     {
       "id": 3,
@@ -10,7 +19,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:29.316Z"
+      "analyzedAt": "2025-09-08T19:39:29.316Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding a requirement for a minimum setback distance of 50 feet from wetland boundaries to protect ecological integrity and prevent potential environmental impacts, with provisions for increased setbacks based on the sensitivity of the wetland area.\"\n}"
     },
     {
       "id": 4,
@@ -19,7 +29,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:29.708Z"
+      "analyzedAt": "2025-09-08T19:39:29.708Z",
+      "gap": "{\n  \"recommendation\": \"Consider adding a section specifying penalties for unauthorized wetland disturbance, including a base fine of $5,000 for first offenses, doubling for repeat offenses, with enforcement through municipal environmental officers and categorization of violations by severity of ecological impact.\"\n}"
     },
     {
       "id": 5,
@@ -28,7 +39,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:30.176Z"
+      "analyzedAt": "2025-09-08T19:39:30.176Z",
+      "gap": "{\n  \"recommendation\": \"Consider adding a section detailing the application procedures for obtaining a wetland permit or variance, including submission requirements, review criteria, timelines for decision-making, and an appeal process for denied applications.\"\n}"
     },
     {
       "id": 6,
@@ -37,7 +49,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:30.515Z"
+      "analyzedAt": "2025-09-08T19:39:30.515Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding a requirement for a detailed mitigation plan as part of the permit application, outlining specific actions to compensate for wetland impacts, including timelines, success criteria, and monitoring protocols.\"\n}"
     },
     {
       "id": 7,
@@ -48,7 +61,8 @@
         "§ 49-3"
       ],
       "score": 0.65,
-      "analyzedAt": "2025-09-08T19:39:32.857Z"
+      "analyzedAt": "2025-09-08T19:39:32.857Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding specific criteria or thresholds for what constitutes 'substantial impairment' to the natural functions of wetlands to provide clearer guidance for enforcement and compliance.\"\n}"
     },
     {
       "id": 9,
@@ -57,7 +71,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:33.475Z"
+      "analyzedAt": "2025-09-08T19:39:33.475Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding a provision that offers property tax reductions or credits to landowners who actively engage in wetland preservation and restoration efforts, with specific criteria and guidelines for eligibility and compliance.\"\n}"
     },
     {
       "id": 10,
@@ -66,7 +81,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:33.861Z"
+      "analyzedAt": "2025-09-08T19:39:33.861Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding a requirement for regular monitoring reports and maintenance plans to be submitted by permit holders, detailing the ecological health and compliance status of the wetland project, with specific timelines and criteria for evaluation by municipal authorities.\"\n}"
     }
   ],
   "scores": {
@@ -167,9 +183,7 @@
   "averageConfidence": 13,
   "questionsAnswered": 1,
   "totalQuestions": 7,
-  "gapAnalysis": "",
-  "wenGrade": "G-",
-  "usesStateCode": false,
-  "normalizedScore": 1.79,
-  "scoresUpdatedAt": "2025-10-10T17:19:07.250Z"
+  "lastUpdated": "2026-05-12T21:24:43.760Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
 }

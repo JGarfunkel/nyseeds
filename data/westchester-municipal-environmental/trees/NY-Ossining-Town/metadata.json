@@ -10,11 +10,14 @@
   "statuteNumber": "Ch 183",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:39:22.575Z",
-      "contentLength": 41315,
+      "downloadedAt": "2026-05-15T18:59:18.110Z",
+      "contentLength": 211964,
       "sourceUrl": "https://ecode360.com/8410336",
       "title": "Environmental quality review — See Ch",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Ossining-Town",
+  "homePage": "https://www.townofossining.com/",
+  "isArticleBased": false
 }

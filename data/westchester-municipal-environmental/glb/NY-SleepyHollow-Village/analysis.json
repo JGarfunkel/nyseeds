@@ -1,4 +1,5 @@
 {
+  "id": "NY-SleepyHollow-Village-glb-1778856980565",
   "municipality": {
     "id": "NY-SleepyHollow-Village",
     "displayName": "Sleepy Hollow - Village"
@@ -181,9 +182,37 @@
   "averageConfidence": 57,
   "questionsAnswered": 4,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T20:09:15.944Z",
+  "lastUpdated": "2026-05-15T14:56:20.565Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 5.75,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.270Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.270Z",
+  "domainId": "glb",
+  "sources": [
+    {
+      "url": "https://sustainablesleepyhollow.org/2025/11/13/november-updates-a-cornucopia-of-waste-free-tips",
+      "title": "https://sustainablesleepyhollow.org/2025/11/13/november-updates-a-cornucopia-of-waste-free-tips",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-SleepyHollow-Village\\november-updates-a-cornucopia-of-waste-free-tips.txt"
+    },
+    {
+      "url": "https://sustainablesleepyhollow.org/2026/02/05/tell-the-mayor-board-of-trustees-where-you-stand-february-10th-public-hearing-on-gas-powered-leaf-blowers",
+      "title": "https://sustainablesleepyhollow.org/2026/02/05/tell-the-mayor-board-of-trustees-where-you-stand-february-10th-public-hearing-on-gas-powered-leaf-blowers",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-SleepyHollow-Village\\tell-the-mayor-board-of-trustees-where-you-stand-february-10th-public-hearing-on.txt"
+    },
+    {
+      "url": "https://sustainablesleepyhollow.org/category/uncategorized",
+      "title": "https://sustainablesleepyhollow.org/category/uncategorized",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-SleepyHollow-Village\\uncategorized.txt"
+    },
+    {
+      "url": "https://sustainablesleepyhollow.org/wp-content/uploads/2025/11/103025-gas-powered-leaf-blower-considerations.pdf",
+      "title": "https://sustainablesleepyhollow.org/wp-content/uploads/2025/11/103025-gas-powered-leaf-blower-considerations.pdf",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-SleepyHollow-Village\\103025-gas-powered-leaf-blower-considerations.txt"
+    },
+    {
+      "url": "https://sustainablesleepyhollow.org/wp-content/uploads/2026/02/jan-2026-gas-powered-leaf-blower-considerations-1.pdf",
+      "title": "https://sustainablesleepyhollow.org/wp-content/uploads/2026/02/jan-2026-gas-powered-leaf-blower-considerations-1.pdf",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-SleepyHollow-Village\\jan-2026-gas-powered-leaf-blower-considerations-1.txt"
+    }
+  ]
 }

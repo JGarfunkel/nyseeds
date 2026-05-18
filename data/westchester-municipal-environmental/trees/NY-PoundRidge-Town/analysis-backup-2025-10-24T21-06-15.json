@@ -1,0 +1,212 @@
+{
+  "municipality": {
+    "id": "NY-PoundRidge-Town",
+    "displayName": "Pound Ridge - Town"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property if the tree is six inches dbh or greater and is located on slopes over 15%, within 25 feet of any property line, on designated wetland setbacks, or if it is a specimen tree 24 inches dbh or greater or a protected tree regardless of size. You also need a permit for clear-cutting or removing trees on subdividable acreage. To apply, file three copies of the tree removal permit application with the Building Inspector. The application should include your name, address, and other specific details about the trees and the purpose of removal. The Building Inspector reviews the application.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-4",
+        "§ 93-5"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "The penalties for removing trees without a permit include a fine of not more than $500 for each regulated tree removed, cut down, or damaged. Additionally, the Building Inspector may direct the violator to replace any trees removed or damaged with native and/or noninvasive nursery stock trees, and these must be maintained in a healthy condition for at least two years. No building permit, certificate of occupancy, or certificate of compliance will be issued until such replacement has been completed.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-8"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§ 93-7",
+        "§ 93-8"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific fees per tree, available payment options, potential exemptions for certain property types or situations, and ensuring the fees cover administrative costs associated with enforcement and processing."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed instead of making a payment. However, the statute specifies that the replacement trees should be native and/or noninvasive nursery stock trees. Therefore, planting non-native species as replacements is not allowed.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-8"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding a requirement for a survival monitoring period to ensure that the replanted native and/or noninvasive nursery stock trees thrive, with specific guidelines on replacement ratios if initial plantings fail."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure all affected parties are informed."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. It aims to prevent the indiscriminate or unnecessary destruction of trees as they provide important ecological benefits such as stabilizing soil, reducing pollution, and offering habitat for wildlife. The code considers the effect of tree removal on ecological systems and promotes proper crown development through accepted tree management practices.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-1",
+        "§ 93-4C"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific coverage targets for tree canopy, detailed measurement methods for assessing canopy health, and comprehensive maintenance plans to ensure long-term preservation and enhancement of the tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a regulation that requires property owners to conduct annual inspections of trees on their property, adhere to specified care standards, and promptly address any identified hazards to ensure public safety and tree health."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to collect detailed data on all tree removals, including location, species, and reason for removal, and to compile this information into an annual public report to enhance transparency and facilitate community engagement."
+    }
+  ],
+  "scores": {
+    "overallScore": 5.3,
+    "normalizedScore": 5.3,
+    "averageConfidence": 53,
+    "questionsAnswered": 4,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        1,
+        0.1,
+        0.85,
+        0.1,
+        0.6,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.48125000000000007,
+      "weightedScore": 0.53,
+      "totalWeightedScore": 7.95,
+      "totalPossibleWeight": 15,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+          "answer": "Yes, you need a permit to remove a tree on your private property if the tree is six inches dbh or greater and is located on slopes over 15%, within 25 feet of any property line, on designated wetland setbacks, or if it is a specimen tree 24 inches dbh or greater or a protected tree regardless of size. You also need a permit for clear-cutting or removing trees on subdividable acreage. To apply, file three copies of the tree removal permit application with the Building Inspector. The application should include your name, address, and other specific details about the trees and the purpose of removal. The Building Inspector reviews the application.",
+          "score": 1,
+          "weight": 1,
+          "weightedScore": 1,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the penalties for removing trees without a permit?",
+          "answer": "The penalties for removing trees without a permit include a fine of not more than $500 for each regulated tree removed, cut down, or damaged. Additionally, the Building Inspector may direct the violator to replace any trees removed or damaged with native and/or noninvasive nursery stock trees, and these must be maintained in a healthy condition for at least two years. No building permit, certificate of occupancy, or certificate of compliance will be issued until such replacement has been completed.",
+          "score": 1,
+          "weight": 2,
+          "weightedScore": 2,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What is the fee for removing each tree without a replacement?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "4",
+          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+          "answer": "Yes, you can replant new trees to replace those removed instead of making a payment. However, the statute specifies that the replacement trees should be native and/or noninvasive nursery stock trees. Therefore, planting non-native species as replacements is not allowed.",
+          "score": 0.85,
+          "weight": 3,
+          "weightedScore": 2.55,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "Which neighbors must be notified if I remove trees? ",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "6",
+          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+          "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. It aims to prevent the indiscriminate or unnecessary destruction of trees as they provide important ecological benefits such as stabilizing soil, reducing pollution, and offering habitat for wildlife. The code considers the effect of tree removal on ecological systems and promotes proper crown development through accepted tree management practices.",
+          "score": 0.6,
+          "weight": 3,
+          "weightedScore": 1.7999999999999998,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "8",
+          "question": "What are my responsibilities for maintaining trees on my property?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        },
+        {
+          "id": "9",
+          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        }
+      ]
+    }
+  },
+  "overallScore": 5.3,
+  "averageConfidence": 53,
+  "questionsAnswered": 4,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-09T18:27:38.165Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 5.3,
+  "scoresUpdatedAt": "2025-10-10T17:18:10.209Z"
+}

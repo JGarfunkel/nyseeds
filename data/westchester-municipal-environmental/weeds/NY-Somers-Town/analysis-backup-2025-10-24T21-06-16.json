@@ -1,0 +1,149 @@
+{
+  "municipality": {
+    "id": "NY-Somers-Town",
+    "displayName": "Somers - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "The statute does not specify any maintenance requirements strictly concerning weeds. It generally requires properties to be clean, properly maintained, and free from vermin, nuisances, hazards, debris, and litter, according to § 135-1.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 135-1"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding specific language to the statute that defines acceptable weed height and density, establishes a regular inspection schedule, and outlines penalties for non-compliance to ensure consistent property maintenance standards."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, defining clear criteria such as plant species, maintenance standards, and designated areas to ensure they are distinguishable from unmanaged weed growth."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law addresses offenses affecting public streets or other public property, requiring removal within 30 days when ordered by the Building Inspector, as stated in § 135-2B.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 135-2B"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding specific guidelines or standards for the maintenance of areas between the property lot lines and the curb, such as requirements for snow removal, debris clearance, and vegetation management, to ensure clarity and consistency in enforcement."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Penalties for failing to comply with property maintenance regulations include fines ranging from $250 to $7,500, depending on the offense frequency. The first offense is fined between $250 and $500, the second offense within 18 months is fined between $500 and $1,000, the third offense within 18 months is fined between $2,500 and $5,000, and the fourth or subsequent offenses within 18 months are fined between $5,000 and $7,500.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 135-3A"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding specific enforcement mechanisms, such as timelines for payment, options for contesting fines, or additional penalties for non-payment, to strengthen the statute's effectiveness and ensure compliance."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The timeline for resolving a property maintenance violation is 30 days from the service of written notice by the Building Inspector before penalties are applied.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 135-2A"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding specific details about the fine amounts, escalation procedures for repeat offenses, and clear enforcement mechanisms to strengthen the statute's clarity and effectiveness in addressing property maintenance violations."
+    }
+  ],
+  "scores": {
+    "overallScore": 4.33,
+    "normalizedScore": 4.33,
+    "averageConfidence": 72,
+    "questionsAnswered": 4,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.65,
+        0.8,
+        0.85
+      ],
+      "averageQuestionScore": 0.5,
+      "weightedScore": 0.4333,
+      "totalWeightedScore": 2.6,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "The statute does not specify any maintenance requirements strictly concerning weeds. It generally requires properties to be clean, properly maintained, and free from vermin, nuisances, hazards, debris, and litter, according to § 135-1.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "Yes, the property maintenance law addresses offenses affecting public streets or other public property, requiring removal within 30 days when ordered by the Building Inspector, as stated in § 135-2B.",
+          "score": 0.65,
+          "weight": 1,
+          "weightedScore": 0.65,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "Penalties for failing to comply with property maintenance regulations include fines ranging from $250 to $7,500, depending on the offense frequency. The first offense is fined between $250 and $500, the second offense within 18 months is fined between $500 and $1,000, the third offense within 18 months is fined between $2,500 and $5,000, and the fourth or subsequent offenses within 18 months are fined between $5,000 and $7,500.",
+          "score": 0.8,
+          "weight": 1,
+          "weightedScore": 0.8,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "The timeline for resolving a property maintenance violation is 30 days from the service of written notice by the Building Inspector before penalties are applied.",
+          "score": 0.85,
+          "weight": 1,
+          "weightedScore": 0.85,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 4.33,
+  "averageConfidence": 72,
+  "questionsAnswered": 4,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:53:17.855Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4.33,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.560Z"
+}

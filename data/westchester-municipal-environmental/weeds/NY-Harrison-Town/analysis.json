@@ -1,4 +1,5 @@
 {
+  "id": "NY-Harrison-Town-weeds-1778856982935",
   "municipality": {
     "id": "NY-Harrison-Town",
     "displayName": "Harrison - Town"
@@ -139,9 +140,10 @@
   "averageConfidence": 59,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:41:10.883Z",
+  "lastUpdated": "2026-05-15T14:56:22.935Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 4.08,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.512Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.512Z",
+  "domainId": "weeds"
 }

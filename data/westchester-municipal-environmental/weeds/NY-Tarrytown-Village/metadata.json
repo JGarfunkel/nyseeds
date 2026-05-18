@@ -9,11 +9,14 @@
   "stateCodePath": "../NY-State/statute.txt",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T17:50:45.496Z",
-      "contentLength": 0,
+      "downloadedAt": "2026-05-15T19:35:36.350Z",
+      "contentLength": 81208,
       "sourceUrl": "https://up.codes/viewer/new_york/ny-property-maintenance-code-2020",
-      "title": "Weed Management",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Tarrytown-Village",
+  "homePage": "",
+  "metadataCreated": "2026-05-15T19:35:36.090Z",
+  "isArticleBased": false
 }

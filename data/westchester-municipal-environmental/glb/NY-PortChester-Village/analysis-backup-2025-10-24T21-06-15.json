@@ -1,0 +1,189 @@
+{
+  "municipality": {
+    "id": "NY-PortChester-Village",
+    "displayName": "Port Chester - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts from November 16 to April 14, which is the period not included between April 15 and November 15.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 224-2C"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding a clear rationale or environmental impact statement to the statute to explain the benefits of the prohibition period, which could enhance public understanding and compliance."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers can be operated between 8:00 a.m. and 8:00 p.m. on weekdays and between 10:00 a.m. and 7:00 p.m. on weekends and legal holidays.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 224-2C"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding specific noise level restrictions for gas leaf blower operation to address potential noise pollution concerns during the permitted hours."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "For the first conviction, the fine is between $250 and $500. For a second conviction within one year, the fine is between $500 and $750. For a third or subsequent conviction within one year, the fine is between $750 and $1,000.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 224-4A"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding specific enforcement mechanisms, such as detailing who is responsible for issuing fines and how violations are reported and processed, to strengthen the regulation's clarity and effectiveness."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that explicitly outlines exceptions for school, government, and commercial properties, detailing specific criteria and conditions under which these exceptions apply, to ensure clarity and consistency in the application of the statute."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations can lead to the Village Attorney, with the authorization of the Village Manager, commencing the appropriate action or proceeding to prevent the continued violation of this chapter.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 224-4B"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding specific procedures for how violations are reported by the public, including a dedicated hotline or online portal, and ensure transparency by requiring regular public reports on the number and types of violations reported and actions taken."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the statute that mandates the promotion of leaf mulching practices by requiring the municipality to provide educational resources and workshops for residents on the environmental benefits and techniques of leaving leaf debris and mulching."
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report that includes comprehensive data collection on relevant activities, transparency measures, and tracking mechanisms to ensure accountability and public awareness."
+    }
+  ],
+  "scores": {
+    "overallScore": 4.79,
+    "normalizedScore": 4.79,
+    "averageConfidence": 57,
+    "questionsAnswered": 4,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.5,
+        0.5,
+        0.75,
+        0.1,
+        0.7,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.39285714285714285,
+      "weightedScore": 0.4792,
+      "totalWeightedScore": 5.749999999999999,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "The prohibition of gas leaf blowers lasts from November 16 to April 14, which is the period not included between April 15 and November 15.",
+          "score": 0.5,
+          "weight": 4,
+          "weightedScore": 2,
+          "maxWeightedScore": 4,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Gas leaf blowers can be operated between 8:00 a.m. and 8:00 p.m. on weekdays and between 10:00 a.m. and 7:00 p.m. on weekends and legal holidays.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "For the first conviction, the fine is between $250 and $500. For a second conviction within one year, the fine is between $500 and $750. For a third or subsequent conviction within one year, the fine is between $750 and $1,000.",
+          "score": 0.75,
+          "weight": 3,
+          "weightedScore": 2.25,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Violations can lead to the Village Attorney, with the authorization of the Village Manager, commencing the appropriate action or proceeding to prevent the continued violation of this chapter.",
+          "score": 0.7,
+          "weight": 1,
+          "weightedScore": 0.7,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        }
+      ]
+    }
+  },
+  "overallScore": 4.79,
+  "averageConfidence": 57,
+  "questionsAnswered": 4,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-09T20:06:52.027Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4.79,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.265Z"
+}

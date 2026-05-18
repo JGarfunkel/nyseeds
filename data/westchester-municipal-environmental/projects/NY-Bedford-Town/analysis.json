@@ -1,0 +1,163 @@
+{
+  "id": "NY-Bedford-Town-projects-1778785683403",
+  "entityId": "NY-Bedford-Town",
+  "domainId": "projects",
+  "entity": {
+    "id": "NY-Bedford-Town",
+    "displayName": "Bedford - Town"
+  },
+  "domain": {
+    "id": "projects",
+    "displayName": "Projects"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What conservation projects or events are currently advertised?",
+      "answer": "The Conservation Board's Rain Garden is currently advertised as an active conservation project. It is located in front of the Town House and features native plants and sustainable landscaping practices. Community members may visit at any time. The garden includes pollinator-friendly plants that thrive in sunny conditions, with a full plant species list (PDF) available including details on flowering times, colors, and pollinator suitability. Additional information on native, natural, nontoxic gardening is referenced via Westchester Pollinators on Healthy Yards.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://bedfordny.gov/276/Rain-Garden",
+        "https://bedfordny.gov/DocumentCenter/View/386/List-of-Plant-Species-Rain-Garden-PDF"
+      ],
+      "gap": "The Rain Garden project lacks stated goals, specific dates or events, frequency of programming, and clarity on who can participate beyond general public visitation. Best practice calls for all of these elements to be explicitly listed.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Are there any scheduled Conservation Board events, volunteer days, or educational programs associated with the Rain Garden or other conservation initiatives?",
+        "Does Bedford's Conservation Board publish an annual project list with goals, timelines, and participation details?"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What documentation or photo/videos showing past projects exists online?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The sources contain only a plant species list for a rain garden with no public project portfolio, dated photos/videos, before-and-after documentation, or narratives of completed conservation work. The entity does not appear to maintain publicly documented visual project records based on available excerpts.",
+      "score": 0,
+      "nextPrompts": [
+        "Search Bedford NY's official website or social media channels for project photo galleries or conservation project updates.",
+        "Check Bedford NY's environmental or conservation department pages for any linked reports, newsletters, or multimedia documenting past green infrastructure or conservation projects."
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The sources provide no information about volunteer opportunities, shared space maintenance programs, home landscaping guidance for residents, surveillance/reporting mechanisms, or pathways for community members to donate time or resources. A full best-practice response would include a range of engagement options with clear instructions for participation.",
+      "score": 0,
+      "nextPrompts": [
+        "Does Bedford NY have a community volunteer or stewardship program for parks, green infrastructure, or public spaces?",
+        "Are there resident-facing guides or programs in Bedford NY for home landscaping, stormwater management participation, or neighborhood reporting initiatives?"
+      ]
+    }
+  ],
+  "scores": {
+    "overallScore": 1.5,
+    "normalizedScore": 1.5,
+    "averageConfidence": 31,
+    "questionsAnswered": 3,
+    "totalQuestions": 3,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.3,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.1,
+      "weightedScore": 0.15,
+      "totalWeightedScore": 0.24,
+      "totalPossibleWeight": 1.6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0.3,
+          "weight": 0.8,
+          "weightedScore": 0.24,
+          "maxWeightedScore": 0.8,
+          "confidence": 72
+        },
+        {
+          "id": "2",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 10
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 10
+        }
+      ]
+    }
+  },
+  "overallScore": 1.5,
+  "averageConfidence": 31,
+  "questionsAnswered": 3,
+  "totalQuestions": 3,
+  "lastUpdated": "2026-05-15T13:48:10.558Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://bedfordny.gov/1882/Understanding-Wildlife-Corridors-and-The",
+      "title": "https://bedfordny.gov/1882/Understanding-Wildlife-Corridors-and-The"
+    },
+    {
+      "url": "https://bedfordny.gov/275/Amphibian-Migration",
+      "title": "https://bedfordny.gov/275/Amphibian-Migration"
+    },
+    {
+      "url": "https://bedfordny.gov/276/Rain-Garden",
+      "title": "https://bedfordny.gov/276/Rain-Garden"
+    },
+    {
+      "url": "https://bedfordny.gov/277/Vine-Cutters",
+      "title": "https://bedfordny.gov/277/Vine-Cutters"
+    },
+    {
+      "url": "https://bedfordny.gov/282/View-Sunflowers-Gallery-from-2020",
+      "title": "https://bedfordny.gov/282/View-Sunflowers-Gallery-from-2020"
+    },
+    {
+      "url": "https://bedfordny.gov/372/Historic-Barn-Rehabilitation-Tax-Credit-",
+      "title": "https://bedfordny.gov/372/Historic-Barn-Rehabilitation-Tax-Credit-"
+    },
+    {
+      "url": "https://bedfordny.gov/589/Wildlife-Corridor-Project",
+      "title": "https://bedfordny.gov/589/Wildlife-Corridor-Project"
+    },
+    {
+      "url": "https://bedfordny.gov/796/Green-Award",
+      "title": "https://bedfordny.gov/796/Green-Award"
+    },
+    {
+      "url": "https://bedfordny.gov/DocumentCenter/View/386/List-of-Plant-Species-Rain-Garden-PDF",
+      "title": "https://bedfordny.gov/DocumentCenter/View/386/List-of-Plant-Species-Rain-Garden-PDF"
+    },
+    {
+      "url": "https://www.bedfordny.gov/219/Sustainability",
+      "title": "https://www.bedfordny.gov/219/Sustainability"
+    },
+    {
+      "url": "https://www.bedfordny.gov/233/Bedford-Hills-Community-House-Emissions-",
+      "title": "https://www.bedfordny.gov/233/Bedford-Hills-Community-House-Emissions-"
+    },
+    {
+      "url": "https://www.bedfordny.gov/459/Leaf-Blower-Ban",
+      "title": "https://www.bedfordny.gov/459/Leaf-Blower-Ban"
+    },
+    {
+      "url": "https://www.bedfordny.gov/683/Visitor-Guide",
+      "title": "https://www.bedfordny.gov/683/Visitor-Guide"
+    }
+  ]
+}

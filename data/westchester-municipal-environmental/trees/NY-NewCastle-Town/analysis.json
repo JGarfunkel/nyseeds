@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-NewCastle-Town-trees-1779068075865",
+  "entityId": "NY-NewCastle-Town",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-NewCastle-Town",
     "displayName": "New Castle - Town"
   },
@@ -11,27 +14,19 @@
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a permit to remove a tree on your private property if it meets certain criteria. According to § 121-3, you need a tree removal permit for clearing any area, removing a tree with a DBH of four inches or more within a regulated landscape buffer zone, removing a tree with a DBH of eight inches or more outside of this zone, removing a specimen tree, removing any street tree, or working within the critical root zone of a street tree. To apply, you need to file an application in both hard copy and electronic formats to the approving authority, as detailed in § 121-5. The Environmental Coordinator reviews these applications unless it's associated with a site plan or other permit pending before the Planning Board or Zoning Board.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Yes, a permit is required to remove regulated trees on private property in New Castle. Regulated trees include: trees 4\" DBH or greater within the regulated landscape buffer zone, trees 8\" DBH or greater outside the buffer zone, and specimen trees 24\" DBH or greater.\n\nTo apply, submit a hard copy and electronic application to the Town Building and Engineering Department including: property owner name/address, Tax Map designation, agent authorization (if applicable), description of removal purpose, tree inventory (species, size, condition), tree replacement plan, and site sketch/photos. For 3+ trees, certified mail notice to property owners within 100 feet is required.\n\nThe approving authority is the Town's Environmental Coordinator, except when the application is associated with a pending site plan, subdivision, special permit, or other environmental permit — in which case the Planning Board or Zoning Board reviews it. Decisions are made within 21 business days of a complete application.\n\nFees consist of an application fee and inspection fee as set by the Town Board in the Master Fee Schedule. Specific per-tree dollar amounts are not stated in the provided sources — they are determined by separate Town Board resolution.",
+      "confidence": 72,
       "sourceRefs": [
-        {
-          "type": "statute",
-          "name": "§ 121-3, § 121-5",
-          "url": "https://ecode360.com/11750063",
-          "sections": [
-            "§ 121-3",
-            "§ 121-5"
-          ]
-        },
-        {
-          "type": "form",
-          "name": "Tree Removal Permit Application",
-          "url": "https://www.mynewcastleny.gov/DocumentCenter/View/959/Tree-Removal-Permit-Application-PDF"
-        }
+        "§ 121-5, Town of New Castle Code, Chapter 121",
+        "https://www.mynewcastleny.gov/DocumentCenter/View/959/Tree-Removal-Permit-Application"
       ],
-      "score": 0.95,
-      "gap": "Consider adding specific timelines for the review and approval process of tree removal permits to ensure applicants have clear expectations on how long the process will take."
+      "gap": "The statute lacks a clear exemption allowing limited removal without a permit (e.g., up to 3 non-protected trees annually on smaller lots), and specific per-tree fee amounts are not codified in the statute itself but deferred to a separate Master Fee Schedule.",
+      "score": 0.7,
+      "nextPrompts": [
+        "What are the current application and inspection fee amounts listed in the Town of New Castle Master Fee Schedule for tree removal permits?",
+        "Are there any exemptions that allow removal of trees on private property without a permit in New Castle?"
+      ]
     },
     {
       "id": 2,
@@ -58,26 +53,21 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement? Are non-native trees exempt from requiring a removal permit?",
-      "answer": "The fee for removing trees without replacement can involve payment to the Tree Bank Fund, which requires a contribution of $200 per tree. Non-native trees are not specifically mentioned as being exempt from requiring a removal permit, but invasive species may be subject to reduced tree replacement requirements (§ 121-6J).",
-      "confidence": 85,
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The Town of New Castle statute specifies the following exemptions from permit requirements:\n\n1. **Acts of God/Natural occurrences**: Tree removal, injury, or pruning caused by acts of God or natural occurrences is excluded from the definition of \"removal,\" as is salvaging/repair of such damaged trees and removal of dead trees caused by such damage.\n\n2. **Forest management programs**: Trees removed on property enrolled under NYS Real Property Tax Law §480-a with a NYSDEC certificate of approval, or on property participating in a NYSDEC-approved forest management/stewardship program.\n\n3. **Town of New Castle removals**: Any removal done by or on behalf of the Town.\n\n4. **Public entities/utilities**: Removals required by public entities, agencies, or electrical utilities exempt by operation of law (with prior notification required to the Town Arborist and property owner).\n\n5. **Size thresholds**: Trees under 4\" DBH in the regulated landscape buffer zone, and trees under 8\" DBH outside the buffer zone, are not regulated.\n\nInvasive trees are explicitly prohibited from being used as replacement trees but are not listed as exempt from permit requirements.",
+      "confidence": 82,
       "sourceRefs": [
-        {
-          "type": "statute",
-          "name": "§ 121-6J",
-          "url": "https://ecode360.com/11750063",
-          "sections": [
-            "§ 121-6J"
-          ]
-        },
-        {
-          "type": "form",
-          "name": "Tree Removal Permit Application",
-          "url": "https://www.mynewcastleny.gov/DocumentCenter/View/959/Tree-Removal-Permit-Application-PDF"
-        }
+        "§ 121-5",
+        "§ 121-6",
+        "REMOVAL definition section",
+        "https://www.mynewcastleny.gov/DocumentCenter/View/959/Tree-Removal-Permit-Application"
       ],
-      "score": 0.3,
-      "gap": "Consider adding explicit language regarding whether non-native trees require a removal permit to eliminate ambiguity and ensure clarity in the application process."
+      "gap": "The statute does not provide explicit reduced replacement obligations for invasive/non-native species removal, nor does it reference NYS DEC protected native plant designations as a permit denial criterion. There is no ISA-certified arborist certification requirement specifically for invasive tree exemptions.",
+      "score": 0.5,
+      "nextPrompts": [
+        "Does the statute specify any exemptions or reduced replacement requirements specifically for invasive or non-native tree species removal?",
+        "Are there any provisions referencing NYS DEC protected native plant designations as criteria for permit denial or heightened protection?"
+      ]
     },
     {
       "id": 4,
@@ -98,6 +88,22 @@
       "gap": "Consider adding specific guidelines for survival monitoring of replanted trees to ensure they thrive, including a required monitoring period and criteria for assessing tree health and success."
     },
     {
+      "id": 5,
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "For applications involving removal of three or more trees, the applicant must mail notice to all property owners of record within 100 feet of the property boundaries using certified mail, return receipt requested. The notice is sent using Attachment A (Neighbor Notification Form), which includes details about the proposed removal, tree types, number of trees, location, purpose, and application submission date. The applicant must submit a list of names notified and proof of mailing as part of the application. There is no specified minimum number of neighbors — all property owners within 100 feet must be notified. The notice clarifies that the application is not subject to a public hearing and is described as a 'professional courtesy.' Recipients are informed they may appeal the Environmental Coordinator's determination within 10 business days to the Environmental Review Board. [§121-5; Tree Removal Permit Application, Attachment A]",
+      "confidence": 95,
+      "sourceRefs": [
+        "§121-5",
+        "https://www.mynewcastleny.gov/DocumentCenter/View/959/Tree-Removal-Permit-Application"
+      ],
+      "gap": "The statute requires certified mail notification to owners within 100 feet (vs. best practice of 300 feet), does not require notification at least 15 days before a decision, and does not require a publicly posted permit sign on-site before removal begins.",
+      "score": 0.5,
+      "nextPrompts": [
+        "Does New Castle require any on-site posting or signage before tree removal begins?",
+        "Is there a minimum advance notice period required before the approving authority makes its determination after neighbor notification is sent?"
+      ]
+    },
+    {
       "id": 5.1,
       "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
       "answer": "The enforcement officer is the Environmental Coordinator of the Town of New Castle, who also serves as the Town Arborist if they are an arborist as defined in the chapter. This person is responsible for the enforcement of the chapter, and they should have arborist certification if serving as the Town Arborist.",
@@ -111,26 +117,6 @@
       ],
       "score": 0.7,
       "gap": "Consider adding a requirement for the Environmental Coordinator to possess specific qualifications or certifications in arboriculture or environmental science to ensure they are adequately trained for the role, thereby strengthening the enforcement and expertise in managing town arborist responsibilities."
-    },
-    {
-      "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "If you are removing three or more trees, you must notify all property owners within 100 feet of the boundaries of your property. This notification must be mailed by certified mail, return receipt requested, as part of the tree removal permit application process.",
-      "confidence": 85,
-      "sourceRefs": [
-        {
-          "type": "statute",
-          "name": "Ch 121",
-          "url": "https://ecode360.com/11750063"
-        },
-        {
-          "type": "form",
-          "name": "Tree Removal Permit Application",
-          "url": "https://www.mynewcastleny.gov/DocumentCenter/View/959/Tree-Removal-Permit-Application-PDF"
-        }
-      ],
-      "score": 0.9,
-      "gap": "Consider adding a requirement for a public notice to be posted on the property itself to ensure that all potentially affected parties, including those who may not receive mail, are adequately informed about the tree removal."
     },
     {
       "id": 6,
@@ -154,17 +140,18 @@
     {
       "id": 8,
       "question": "What are my responsibilities for maintaining trees on my property?",
-      "answer": "The statute does not specify detailed responsibilities for maintaining trees on private property. However, it outlines your responsibilities if you intend to remove trees, such as obtaining a tree removal permit and adhering to tree replacement requirements. It implies some level of responsibility towards assessing tree conditions if involved in removal or replacement processes. While specific maintenance routines aren't defined, maintaining healthy trees could be implied as part of sustaining compliance with broader health, safety, and environmental objectives.",
-      "confidence": 20,
+      "answer": "The provided sources do not detail specific ongoing maintenance responsibilities for property owners beyond what relates to tree removal permits and replanting requirements. However, property owners in New Castle are responsible for maintaining landscape buffers along property lines, with required setback distances based on lot size: 5 feet for ¼ acre, 10 feet for ½ acre, 15 feet for 1 acre, and 25 feet for over 2 acres. Property owners must also comply with the Tree Ordinance when removing regulated trees, obtain proper permits, and may be required to replant trees removed without authorization. Violations of the chapter result in fines ranging from $250 to $2,500 per tree depending on DBH size. (§121-17; Planting-Along-the-Lines Landscape Buffers PDF)",
+      "confidence": 35,
       "sourceRefs": [
-        {
-          "type": "statute",
-          "name": "Ch 121",
-          "url": "https://ecode360.com/11750063"
-        }
+        "§121-17",
+        "https://www.mynewcastleny.gov/DocumentCenter/View/372/Planting-Along-the-Lines---Landscape-Buffers-PDF"
       ],
-      "score": 0.1,
-      "gap": "Consider adding a regulation that requires property owners to conduct annual inspections of trees on their property by a certified arborist, adhere to established care standards for tree health, and promptly address any identified hazards to ensure public safety and environmental compliance."
+      "gap": "The statute does not address clearance heights above roads/sidewalks, hazardous tree removal obligations, or routine trimming and pruning responsibilities — all identified in best practices.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the New Castle code specify requirements for maintaining tree clearance heights above public roads and sidewalks?",
+        "Are property owners required to remove dead or hazardous trees under the New Castle Tree Ordinance?"
+      ]
     },
     {
       "id": 9,
@@ -191,42 +178,38 @@
     }
   ],
   "scores": {
-    "overallScore": 5.53,
-    "normalizedScore": 5.53,
-    "averageConfidence": 78,
+    "overallScore": 5.4,
+    "normalizedScore": 5.4,
+    "averageConfidence": 79,
     "questionsAnswered": 9,
     "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        0.95,
+        0.7,
         0.3,
+        0.5,
         0.3,
-        0.3,
+        0.5,
         0.7,
         0.9,
-        0.9,
-        0.1,
+        0.2,
         0.8
       ],
-      "averageQuestionScore": 0.5833333333333333,
-      "weightedScore": 0.5531,
-      "totalWeightedScore": 8.850000000000001,
-      "totalPossibleWeight": 16,
+      "averageQuestionScore": 0.54,
+      "weightedScore": 0.54,
+      "totalWeightedScore": 8.1,
+      "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a permit to remove a tree on your private property if it meets certain criteria. According to § 121-3, you need a tree removal permit for clearing any area, removing a tree with a DBH of four inches or more within a regulated landscape buffer zone, removing a tree with a DBH of eight inches or more outside of this zone, removing a specimen tree, removing any street tree, or working within the critical root zone of a street tree. To apply, you need to file an application in both hard copy and electronic formats to the approving authority, as detailed in § 121-5. The Environmental Coordinator reviews these applications unless it's associated with a site plan or other permit pending before the Planning Board or Zoning Board.",
-          "score": 0.95,
+          "score": 0.7,
           "weight": 1,
-          "weightedScore": 0.95,
+          "weightedScore": 0.7,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 72
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "The penalties for removing trees without a permit include fines ranging from $250 to $2,500 per tree, depending on the tree's diameter at breast height (DBH). Specifically, you can be fined $250 per tree for trees between four and 12 inches DBH, $750 per tree for trees between 12 and 18 inches DBH, $1,500 per tree for trees between 18 and 24 inches DBH, and $2,500 per tree for trees 24 inches or more DBH. In addition to fines, offenders may be ordered to replant trees that were improperly removed. The Town can also withhold other permits for properties with violations until resolved. These penalties are detailed in § 121-17.",
           "score": 0.3,
           "weight": 2,
           "weightedScore": 0.6,
@@ -235,28 +218,30 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement? Are non-native trees exempt from requiring a removal permit?",
-          "answer": "The fee for removing trees without replacement can involve payment to the Tree Bank Fund, which requires a contribution of $200 per tree. Non-native trees are not specifically mentioned as being exempt from requiring a removal permit, but invasive species may be subject to reduced tree replacement requirements (§ 121-6J).",
-          "score": 0.3,
-          "weight": 1,
-          "weightedScore": 0.3,
-          "maxWeightedScore": 1,
-          "confidence": 85
+          "score": 0.5,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 82
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed as part of the permit requirements. According to § 121-6, tree replacement should occur on-site unless determined otherwise by the approving authority. While you are generally required to plant ecologically compatible species, you can plant non-native species with prior approval. Invasive trees are not allowed. Replacement plans must include a mix of tree genera and types.",
           "score": 0.3,
           "weight": 3,
-          "weightedScore": 0.8999999999999999,
+          "weightedScore": 0.9,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
+          "id": "5",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 95
+        },
+        {
           "id": "5.1",
-          "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
-          "answer": "The enforcement officer is the Environmental Coordinator of the Town of New Castle, who also serves as the Town Arborist if they are an arborist as defined in the chapter. This person is responsible for the enforcement of the chapter, and they should have arborist certification if serving as the Town Arborist.",
           "score": 0.7,
           "weight": 1,
           "weightedScore": 0.7,
@@ -264,19 +249,7 @@
           "confidence": 85
         },
         {
-          "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "If you are removing three or more trees, you must notify all property owners within 100 feet of the boundaries of your property. This notification must be mailed by certified mail, return receipt requested, as part of the tree removal permit application process.",
-          "score": 0.9,
-          "weight": 1,
-          "weightedScore": 0.9,
-          "maxWeightedScore": 1,
-          "confidence": 85
-        },
-        {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy. The legislative intent in § 121-1 emphasizes the role of trees in providing shade, reducing air-conditioning costs, and contributing to energy efficiency. Additionally, § 121-6F specifies that at least 50% of replacement trees must be canopy (overstory) trees, indicating the importance placed on maintaining a healthy tree canopy.",
           "score": 0.9,
           "weight": 3,
           "weightedScore": 2.7,
@@ -285,18 +258,14 @@
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "The statute does not specify detailed responsibilities for maintaining trees on private property. However, it outlines your responsibilities if you intend to remove trees, such as obtaining a tree removal permit and adhering to tree replacement requirements. It implies some level of responsibility towards assessing tree conditions if involved in removal or replacement processes. While specific maintenance routines aren't defined, maintaining healthy trees could be implied as part of sustaining compliance with broader health, safety, and environmental objectives.",
-          "score": 0.1,
+          "score": 0.2,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0.4,
           "maxWeightedScore": 2,
-          "confidence": 20
+          "confidence": 35
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Yes, the statute requires the collection of data related to tree removals for applicants, as indicated by the requirements for applications which need detailed information about the trees to be removed. Additionally, § 121-8C states that there must be an annual report about the Tree Bank Fund, which includes a list of projects completed and is submitted to the Town Board for review and approval. However, it does not specifically mention a report on tree removals presented to the public.",
           "score": 0.8,
           "weight": 2,
           "weightedScore": 1.6,
@@ -306,13 +275,33 @@
       ]
     }
   },
-  "overallScore": 5.53,
-  "averageConfidence": 78,
+  "overallScore": 5.4,
+  "averageConfidence": 79,
   "questionsAnswered": 9,
   "totalQuestions": 9,
-  "lastUpdated": "2025-09-16T01:41:41.840Z",
+  "lastUpdated": "2026-05-18T01:34:35.865Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 5.53,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.194Z"
+  "sources": [
+    {
+      "url": "https://www.mynewcastleny.gov/269/Conservation-Board",
+      "title": "Conservation Board | New Castle, NY"
+    },
+    {
+      "url": "https://www.mynewcastleny.gov/DocumentCenter/View/372/Planting-Along-the-Lines---Landscape-Buffers-PDF",
+      "title": "Planting Along The Lines Landscape Buffers PDF"
+    },
+    {
+      "url": "https://www.mynewcastleny.gov/DocumentCenter/View/3788/Town-of-New-Castle-2022-Natural-Resource-Inventory-PDF",
+      "title": "Town Of New Castle 2022 Natural Resource Inventory PDF"
+    },
+    {
+      "url": "https://www.mynewcastleny.gov/DocumentCenter/View/4751/Protect-Our-Trees-Combatting-the-Spotted-Lanternfly-Town-of-New-Castle-PDF",
+      "title": "Protect Our Trees Combatting The Spotted Lanternfly Town Of New Castle PDF"
+    },
+    {
+      "url": "https://www.mynewcastleny.gov/DocumentCenter/View/959/Tree-Removal-Permit-Application",
+      "title": "Tree Removal Permit Application"
+    }
+  ]
 }

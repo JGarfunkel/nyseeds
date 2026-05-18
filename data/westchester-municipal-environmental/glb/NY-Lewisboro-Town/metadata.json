@@ -10,11 +10,14 @@
   "statuteNumber": "Ch 160",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:34:13.975Z",
-      "contentLength": 7943,
+      "downloadedAt": "2026-05-15T19:03:31.883Z",
+      "contentLength": 89651,
       "sourceUrl": "https://ecode360.com/11022880",
       "title": "Dog control — See Ch",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Lewisboro-Town",
+  "homePage": "",
+  "isArticleBased": false
 }

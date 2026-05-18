@@ -10,11 +10,14 @@
   "statuteNumber": "Ch 130",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:34:31.342Z",
-      "contentLength": 19639,
+      "downloadedAt": "2026-05-15T19:03:48.803Z",
+      "contentLength": 139592,
       "sourceUrl": "https://ecode360.com/8409056#8409110",
       "title": "Cabarets — See Ch",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Ossining-Town",
+  "homePage": "",
+  "isArticleBased": false
 }

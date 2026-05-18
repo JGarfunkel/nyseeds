@@ -10,11 +10,27 @@
   "statuteNumber": "Ch 272",
   "sources": [
     {
+      "sourceUrl": "https://sustainablesleepyhollow.org/wp-content/uploads/2025/11/103025-gas-powered-leaf-blower-considerations.pdf",
+      "downloadedAt": "2026-05-06T21:33:53.903Z",
+      "title": "103025-gas-powered-leaf-blower-considerations.pdf",
+      "type": "form",
+      "downloadedFilename": "NY-SleepyHollow-Village/103025-gas-powered-leaf-blower-considerations.txt"
+    },
+    {
+      "sourceUrl": "https://sustainablesleepyhollow.org/wp-content/uploads/2026/02/jan-2026-gas-powered-leaf-blower-considerations-1.pdf",
+      "downloadedAt": "2026-05-06T21:33:53.874Z",
+      "title": "jan-2026-gas-powered-leaf-blower-considerations-1.pdf",
+      "type": "form",
+      "downloadedFilename": "NY-SleepyHollow-Village/jan-2026-gas-powered-leaf-blower-considerations-1.txt"
+    },
+    {
       "downloadedAt": "2025-09-05T16:37:48.612Z",
       "contentLength": 12324,
       "sourceUrl": "https://ecode360.com/15070090",
       "title": "Alarm systems — See Ch",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-SleepyHollow-Village",
+  "homePage": "https://www.sleepyhollowny.gov/"
 }

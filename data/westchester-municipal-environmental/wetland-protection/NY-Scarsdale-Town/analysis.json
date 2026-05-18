@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Scarsdale-Town-wetland-protection-1778621133166",
+  "entityId": "NY-Scarsdale-Town",
+  "domainId": "wetland-protection",
+  "entity": {
     "id": "NY-Scarsdale-Town",
     "displayName": "Scarsdale - Town"
   },
@@ -7,9 +10,7 @@
     "id": "wetland-protection",
     "displayName": "Wetland Protection"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 3,
@@ -186,9 +187,7 @@
   "averageConfidence": 68,
   "questionsAnswered": 6,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-08T19:41:09.150Z",
+  "lastUpdated": "2026-05-12T21:25:33.166Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false,
-  "normalizedScore": 4.93,
-  "scoresUpdatedAt": "2025-10-10T17:19:07.266Z"
+  "usesStateCode": false
 }

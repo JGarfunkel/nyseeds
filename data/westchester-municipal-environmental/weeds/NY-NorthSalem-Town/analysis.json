@@ -1,4 +1,5 @@
 {
+  "id": "NY-NorthSalem-Town-weeds-1778856983767",
   "municipality": {
     "id": "NY-NorthSalem-Town",
     "displayName": "North Salem - Town"
@@ -142,9 +143,10 @@
   "averageConfidence": 72,
   "questionsAnswered": 4,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:48:04.746Z",
+  "lastUpdated": "2026-05-15T14:56:23.767Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 4,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.537Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.537Z",
+  "domainId": "weeds"
 }

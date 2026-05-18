@@ -10,11 +10,14 @@
   "statuteNumber": "Chapter 380",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:34:02.444Z",
-      "contentLength": 17810,
+      "downloadedAt": "2026-05-15T19:03:24.142Z",
+      "contentLength": 124542,
       "sourceUrl": "https://ecode360.com/6818653#6818686",
       "title": "Noise",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Greenburgh-Town",
+  "homePage": "https://www.greenburghny.com/",
+  "isArticleBased": false
 }

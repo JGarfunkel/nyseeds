@@ -10,11 +10,14 @@
   "statuteNumber": "Ch 90",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:15:20.628Z",
-      "contentLength": 7810,
+      "downloadedAt": "2026-05-15T19:05:55.895Z",
+      "contentLength": 101210,
       "sourceUrl": "https://ecode360.com/30850200",
       "title": "Unsafe buildings — See Ch",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Bedford-Town",
+  "homePage": "https://www.bedfordny.gov",
+  "isArticleBased": false
 }

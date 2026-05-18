@@ -1,4 +1,5 @@
 {
+  "id": "NY-BriarcliffManor-Village-weeds-1778856982742",
   "municipality": "NY-BriarcliffManor-Village",
   "domain": "weeds",
   "analyzedAt": "2025-09-08T17:37:44.138Z",
@@ -129,5 +130,8 @@
   "wenGrade": null,
   "usesStateCode": false,
   "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.488Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.488Z",
+  "entityId": "NY-BriarcliffManor-Village",
+  "domainId": "weeds",
+  "lastUpdated": "2026-05-15T14:56:22.742Z"
 }

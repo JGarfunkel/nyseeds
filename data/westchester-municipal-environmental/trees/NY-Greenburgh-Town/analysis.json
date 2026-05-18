@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Greenburgh-Town-trees-1779067743679",
+  "entityId": "NY-Greenburgh-Town",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Greenburgh-Town",
     "displayName": "Greenburgh - Town"
   },
@@ -7,203 +10,248 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T18:18:55.852Z",
-      "gap": "Consider adding a clear regulatory framework that requires a permit for tree removal on private property, detailing the application procedures, review criteria, appeal processes, timelines, and approval standards to ensure transparency and consistency in decision-making."
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "In Greenburgh, tree removal permits are required for regulated trees. Applications are submitted to the Department of Community Development and Conservation on Town-prescribed forms. For trees in designated buffer areas or conservation easements, the application goes to the Board with jurisdiction over that area.\n\nReview Authority: The Forestry Officer reviews standard applications. For 10 or more trees, the Approval Authority may engage a professional consultant at the applicant's expense.\n\nFees: For applications involving 50 or more trees, or properties of 5+ acres, a surcharge equal to the greater of $500 per tree proposed for removal or 1% of the collected Building Permit application fee applies, deposited into the Town Tree Fund.\n\nEmergency/Hazardous Removal: If a regulated tree is removed for immediate public health/safety protection, a hazardous tree removal permit application must be submitted within five business days.\n\nContractor Requirement: Trees exceeding 12 inches DBH or 30 feet in height require a Licensed Professional Tree Care Company, with proof of insurance naming the Town as additionally insured.",
+      "confidence": 62,
+      "sourceRefs": [
+        "https://ecode360.com/6817633#6817633"
+      ],
+      "gap": "The statute does not specify a standard per-tree fee for typical applications, threshold DBH triggering permit requirements for private property, or a general application form description. Best practices recommend clear size thresholds (e.g., 18-inch DBH) and defined per-tree fees for all removals, not just large-scale projects.",
+      "score": 0.5,
+      "nextPrompts": [
+        "What is the minimum tree size (DBH or height) that triggers a permit requirement for removal on private residential property in Greenburgh?",
+        "Are there any exemptions allowing removal of a limited number of trees annually without a permit on smaller residential lots in Greenburgh?"
+      ]
     },
     {
       "id": 2,
       "question": "What are the penalties for removing trees without a permit?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T18:18:57.083Z",
-      "gap": "Consider adding a clear section outlining penalties for removing trees without a permit, including fines, restoration requirements, and potential legal actions, to ensure compliance and protect municipal tree resources."
+      "answer": "For Licensed Professional Tree Care Companies or contractors who remove regulated trees without a permit, fines are up to **$5,000 per tree**, in addition to any fines levied against the property owner. The Forestry Officer must also notify Westchester County of any violating company or contractor.\n\nFines per tree are **doubled** when:\n- More than five regulated trees on a site are removed without a permit\n- Clear cutting has been determined to have taken place\n- Any tree is removed while a permit application is pending\n\n**Maximum fines** are issued to repeat offenders.\n\nThese penalties apply to acts including cutting down, removing, topping, excessively pruning, injuring, damaging, wounding, breaking, killing, destroying, or any act leading to eventual removal of a tree without a permit.",
+      "confidence": 85,
+      "sourceRefs": [
+        "https://ecode360.com/6817633#6817633"
+      ],
+      "gap": "The statute specifies fines up to $5,000 per tree for contractors (doubled in aggravated cases), but does not appear to include imprisonment provisions, mandatory restoration/replanting requirements as a penalty, or withholding of building permits/certificates of occupancy as enforcement tools — all of which are best practice elements.",
+      "score": 0.5,
+      "nextPrompts": [
+        "Does the statute include any restoration or replanting requirements as part of the penalty for unauthorized tree removal?",
+        "Are there provisions withholding building permits or certificates of occupancy pending compliance with tree ordinance violations?"
+      ]
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T18:18:58.446Z",
-      "gap": "Consider adding a clear fee schedule to the statute that outlines the specific cost for removing each tree without a replacement, including payment options, potential exemptions for certain cases, and provisions to ensure the fee covers administrative costs associated with enforcement and processing."
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies the following exemptions or modified procedures:\n\n1. **Diseased, dead, invasive, or hazardous trees** in designated buffer areas or conservation easements are exempt from the standard board approval process; instead, §260-5 and §260-6 apply (emergency/hazard provisions).\n\n2. **Size thresholds**: Trees are only regulated if greater than 8 inches DBH (25-inch circumference) generally, or greater than 4 inches DBH in wetlands/watercourse buffers, or greater than 6 inches DBH on excessively steep slopes. Trees below these thresholds are not subject to permit requirements.\n\n3. **NYS DEC protected native plants**: If a tree approved for removal is a DEC-designated protected native plant, replacement must be with a native tree, and DEC approvals are additionally required — this functions as a heightened protection rather than an exemption.\n\nNo explicit exemption is stated for non-native or invasive species as a general category outside of the buffer area context.",
+      "confidence": 82,
+      "sourceRefs": [
+        "https://ecode360.com/6817633#6817633"
+      ],
+      "gap": "The statute lacks a general invasive/non-native species exemption with arborist certification requirements outside buffer areas. There is no explicit ISA-certified arborist certification process for hazardous or invasive tree removal, and no reduced replacement obligation specifically for invasive species removal.",
+      "score": 0.5,
+      "nextPrompts": [
+        "Does the statute define 'hazardous' or 'invasive' trees, and is arborist certification required to qualify for those exemptions?",
+        "Are there additional exemptions for emergency removals or utility work specified elsewhere in Chapter 260?"
+      ]
     },
     {
       "id": 4,
       "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T18:19:00.065Z",
-      "gap": "Consider adding a regulation that requires replanting with native species at a minimum replacement ratio of 2:1, along with a mandatory survival monitoring period of three years to ensure successful establishment."
+      "answer": "Yes, replanting replacement trees on-site is allowed in lieu of payment. Replacement trees must equal at least 90% of the environmental value of removed trees (or 30% for Undeveloped Forested Properties with building/site plan permits). All new trees must be selected from the Town of Greenburgh Official Replacement Planting List, and **at least 50% must be native trees** as identified on that list. Invasive species may never be planted as replacements. Non-native species may comprise up to 50% of replacements, provided they appear on the Official Replacement Planting List. Minimum sizes are 1.5-inch caliper for deciduous and 5 feet height for coniferous trees. If site conditions (shallow soil, property size) prevent full on-site planting, alternate shrub plantings satisfactory to the Forestry Officer may substitute. Replacement trees are not required when removal is for good forestry practice, under § 260-5, or for invasive species removal. [Source: https://ecode360.com/6817633#6817633]",
+      "confidence": 88,
+      "sourceRefs": [
+        "https://ecode360.com/6817633#6817633"
+      ],
+      "gap": "The statute does not explicitly address an in-lieu fee/payment option into a dedicated tree fund when on-site replanting is impractical — only alternate shrub plantings are mentioned as a substitute.",
+      "score": 0.75,
+      "nextPrompts": [
+        "Does Greenburgh's tree ordinance provide an in-lieu fee or tree fund option when on-site replanting cannot be fully achieved?",
+        "What species are included on the Town of Greenburgh Official Replacement Planting List, and how are non-native species designated?"
+      ]
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T18:19:03.141Z",
-      "gap": "Consider adding a requirement that property owners must notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and clearly identify any parties whose property may be affected by the removal."
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "For non-hazardous tree removal applications, the applicant must send a copy of the application and a Forestry Officer cover letter via U.S. Postal Service regular mail within five business days to: (1) all property owners adjoining the perimeter of the site, (2) owners of property directly across the street, and (3) the Chairperson of the Conservation Advisory Council. For cooperatives or condominiums adjoining or across the street, notice goes to the managing agent. Written comments may be submitted within 10 business days of mailing. The applicant must provide an affidavit of mailing. After a permit decision, the same parties must again be notified by mail within five business days, and no tree removal may occur until 10 business days after the Forestry Officer confirms receipt of mailing evidence. For applications before the Town Board, Planning Board, ZBA, or Historic and Landmarks Preservation Board, tree removal notification is incorporated into the public hearing notification process. Hazardous tree removal permits allow the Forestry Officer to waive all notification requirements.",
+      "confidence": 92,
+      "sourceRefs": [
+        "https://ecode360.com/6817633#6817633"
+      ],
+      "gap": "The statute uses regular U.S. mail rather than certified mail with return receipt. There is no specified distance radius (e.g., 300 feet) beyond adjoining/across-street properties, no requirement for on-site posted signage, and notification is not required 15 days before a decision.",
+      "score": 0.45,
+      "nextPrompts": [
+        "Does Greenburgh require any on-site posting or signage during the tree removal permit process?",
+        "Are there any distance-based notification requirements (e.g., 300 feet) beyond adjoining and directly opposite property owners?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement officer is the **Forestry Officer**, appointed by the Town Board to administer and enforce the chapter. The statute describes the Forestry Officer as \"qualified\" but does not specify that this position requires certification as an arborist or environmental professional. However, the Forestry Officer is authorized to hire a **Certified Arborist** (with Town Board approval) to assist in advising the Town Board on tree management related to public safety. Additional enforcement authority is shared with the Greenburgh Police Department, Building Inspector, Department of Public Works, and Department of Parks and Recreation, as appropriate, plus any others the Town Board may designate.",
+      "confidence": 82,
+      "sourceRefs": [
+        "https://ecode360.com/6817633#6817633"
+      ],
+      "gap": "The Forestry Officer position lacks explicit ISA-Certified Arborist credentialing requirements, and arborist consultation is optional rather than mandatory for hazard assessments, removals, and appeals. No Tree Commission or advisory committee with qualified arboricultural expertise is established to support enforcement decisions.",
+      "score": 0.62,
+      "nextPrompts": [
+        "Does the ordinance require mandatory arborist consultation for removal approvals or appeals?",
+        "Is there a Tree Commission or advisory board with arboricultural credentials established?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T18:19:04.719Z",
-      "gap": "Consider adding a regulatory framework that establishes specific tree canopy coverage targets, outlines standardized methods for measuring canopy coverage, mandates regular maintenance plans, and implements long-term preservation strategies to ensure a healthy and sustainable urban forest."
+      "answer": "Yes. The Town of Greenburgh's code explicitly recognizes the importance of a healthy tree canopy in multiple ways. The stated intent of the chapter is to regulate the 'quantity, quality, canopy, and distribution of trees' to maximize their function (ecode360.com/6817633). The code promotes canopy health through: (1) species diversity requirements using a Plant Diversity Table to reduce monoculture vulnerability to pests and disease; (2) preservation of mature trees and trees of significance; (3) mandatory tree canopy cover in parking lots, requiring medium and large canopy trees per shading guidelines; and (4) a 120% environmental value replacement standard for trees damaged or removed in violation of the chapter, with surcharges deposited into the Town Tree Fund for shortfalls. These provisions collectively reflect a policy commitment to sustaining a diverse, healthy, and distributed urban tree canopy.",
+      "confidence": 95,
+      "sourceRefs": [
+        "https://ecode360.com/6817633#6817633"
+      ],
+      "gap": "The code addresses diversity, preservation, replacement, and canopy cover requirements, but the provided sources do not explicitly reference ecological benefits such as soil stabilization or air quality improvement as stated rationale, which are noted in best practices.",
+      "score": 0.8,
+      "nextPrompts": [
+        "Does the code include a statement of findings or purpose citing ecological or environmental benefits of trees such as air quality or stormwater management?",
+        "Are there specific maintenance standards or guidelines referenced in the code that address long-term canopy health beyond planting requirements?"
+      ]
     },
     {
       "id": 8,
       "question": "What are my responsibilities for maintaining trees on my property?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T18:19:06.660Z",
-      "gap": "Consider adding a regulation that requires property owners to conduct annual inspections of trees on their property, adhere to established care standards, and promptly address any identified hazards to ensure public safety and prevent property damage."
+      "answer": "Property owners, lessees, or occupants in Greenburgh have the following tree maintenance responsibilities:\n\n1. **Infected/Infested Trees**: You must not permit trees, shrubs, or bushes infected with organisms that cannot be treated by conventional methods and that can spread to other properties. Upon written notice from the Town, you must destroy and remove such organisms within a reasonable time, even if it requires full removal. Non-compliance allows the Town to remove the trees at your expense, charged as a tax lien on your property.\n\n2. **Replacement Planting Warranty**: If you have replacement plantings under a permit, you must ensure they survive and remain healthy through the third anniversary of provisional acceptance by the Forestry Officer. Any plantings that fail must be replanted during the next April–November growing season. Failure to comply may result in a summons or forfeiture of any maintenance bond or escrow deposit.\n\n3. **Streetscape Trees**: For commercial developments or new residential construction, trees must be planted on the private property side of the lot line fronting the roadway, per Town of Greenburgh Tree Technical Manual standards.\n\nSources: https://ecode360.com/6817633#6817633",
+      "confidence": 82,
+      "sourceRefs": [
+        "https://ecode360.com/6817633#6817633"
+      ],
+      "gap": "The statute does not address overhanging trees above roads/sidewalks at specified heights, regular trimming/pruning obligations, or prompt removal of dead/hazardous trees — all identified as best practices. The statute focuses on infected trees and replacement planting warranties rather than general ongoing maintenance standards.",
+      "score": 0.4,
+      "nextPrompts": [
+        "Does Greenburgh's code specify height clearance requirements for trees overhanging public roads or sidewalks?",
+        "Are there provisions requiring removal of dead or hazardous trees on private property before they pose a public safety risk?"
+      ]
     },
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "answer": "The Greenburgh statute requires written permit applications for tree removals, submitted to the Department of Community Development and Conservation on prescribed forms. For hazardous tree removals, applications must be filed within five business days after removal. The Approval Authority may require additional information beyond standard forms. For applications involving 10 or more trees, a professional consultant may be engaged to evaluate the application. However, no requirement for systematic data collection on tree removals or compilation of a public-facing report is specified in the provided sources.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://ecode360.com/6817633#6817633"
+      ],
+      "gap": "The statute lacks requirements for systematic data collection on tree removals (e.g., number of permits received, denied, or trees removed) and does not mandate an annual public report to the governing board or public. There is no designated Tree Officer responsible for preparing such a report, no reference to a Tree Bank Fund reporting requirement, and no formal public-facing disclosure mechanism beyond departmental recordkeeping of permit applications.",
       "score": 0.1,
-      "analyzedAt": "2025-09-09T18:19:07.972Z",
-      "gap": "Consider adding a requirement for the municipality to collect detailed data on all tree removals, including location, species, and reason for removal, and to compile this information into an annual public report to enhance transparency and facilitate community engagement."
+      "nextPrompts": [
+        "Does the Greenburgh statute establish any Tree Bank Fund or mitigation fund with associated reporting requirements?",
+        "Is there any provision in the Greenburgh code requiring the Forestry Officer or Approval Authority to submit periodic reports to the Town Board on urban forestry activities?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 1,
-    "normalizedScore": 1,
-    "averageConfidence": 0,
-    "questionsAnswered": 0,
-    "totalQuestions": 8,
+    "overallScore": 5.48,
+    "normalizedScore": 5.48,
+    "averageConfidence": 82,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
+        0.5,
+        0.5,
+        0.5,
+        0.75,
+        0.45,
+        0.62,
+        0.8,
+        0.4,
         0.1
       ],
-      "averageQuestionScore": 0.09999999999999999,
-      "weightedScore": 0.1,
-      "totalWeightedScore": 1.5,
+      "averageQuestionScore": 0.51,
+      "weightedScore": 0.548,
+      "totalWeightedScore": 8.22,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.5,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.5,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 62
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.5,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 1,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 85
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 0
+          "score": 0.5,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 82
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.75,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 2.25,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 88
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.45,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.45,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 92
+        },
+        {
+          "id": "5.1",
+          "score": 0.62,
+          "weight": 1,
+          "weightedScore": 0.62,
+          "maxWeightedScore": 1,
+          "confidence": 82
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.8,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 2.4,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 95
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.4,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0.8,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 82
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 2,
           "weightedScore": 0.2,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 72
         }
       ]
     }
   },
-  "overallScore": 1,
-  "averageConfidence": 0,
-  "questionsAnswered": 0,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:19:07.972Z",
+  "overallScore": 5.48,
+  "averageConfidence": 82,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:29:03.679Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.181Z"
+  "sources": []
 }

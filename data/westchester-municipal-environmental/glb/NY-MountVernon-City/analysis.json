@@ -1,4 +1,5 @@
 {
+  "id": "NY-MountVernon-City-glb-1778856980066",
   "municipality": "NY-MountVernon-City",
   "domain": "glb",
   "analyzedAt": "2025-09-09T20:03:38.950Z",
@@ -175,5 +176,8 @@
   "wenGrade": "G-",
   "usesStateCode": false,
   "normalizedScore": 4.58,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.252Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.252Z",
+  "entityId": "NY-MountVernon-City",
+  "domainId": "glb",
+  "lastUpdated": "2026-05-15T14:56:20.066Z"
 }

@@ -1,0 +1,26 @@
+{
+  "municipality": "Mount Vernon - City",
+  "domain": "Wetland Protection",
+  "grade": null,
+  "gradeColor": "#6b7280",
+  "lastUpdated": "2025-08-14T15:03:24.001Z",
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 0,
+    "scoreBreakdown": {
+      "questionScores": [],
+      "averageQuestionScore": 0,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
+      "totalPossibleWeight": 0,
+      "questionsWithScores": []
+    }
+  },
+  "overallScore": 0,
+  "normalizedScore": 0,
+  "scoresUpdatedAt": "2025-10-10T17:19:07.235Z",
+  "questions": []
+}

@@ -1,0 +1,130 @@
+{
+  "id": "NY-Ossining-Town-projects-1778785875221",
+  "entityId": "NY-Ossining-Town",
+  "domainId": "projects",
+  "entity": {
+    "id": "NY-Ossining-Town",
+    "displayName": "Ossining - Town"
+  },
+  "domain": {
+    "id": "projects",
+    "displayName": "Projects"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What conservation projects or events are currently advertised?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The sources contain no listing of current conservation projects or events with goals, locations, dates, participation details, or frequency. The available documents reference general stormwater education outreach, climate protection recommendations, and a public questionnaire, but no specific advertised conservation projects or events are described.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Town of Ossining website list current environmental or conservation events with dates, locations, and participation details?",
+        "Are there any Town of Ossining Environmental Advisory Committee announcements or calendars advertising upcoming conservation projects or volunteer events?"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What documentation or photo/videos showing past projects exists online?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "No online project portfolio with dated photos/videos, before-and-after documentation, or narratives of completed conservation work is referenced in the provided sources. The sources only contain stormwater questionnaire content and links to general stormwater information websites.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Town of Ossining maintain a dedicated project gallery or photo documentation page on its official website or social media channels?",
+        "Are there annual stormwater reports or newsletters published by the Town that include project photos or before-and-after documentation?"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
+      "answer": "The sources describe homeowner-level native plant landscaping as a meaningful opportunity for environmental stewardship, noting that backyards and subdivision perimeters represent significant potential for native plant preservation. Homeowners on lots as small as a quarter acre can participate by replacing invasive non-native plants with native alternatives available at local nurseries. Additional information is available through the Native Plant Center at Westchester Community College.",
+      "confidence": 30,
+      "sourceRefs": [
+        "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/252-native-plant-resource-guide"
+      ],
+      "gap": "The sources only address home landscaping with native plants. No information is provided on shared space maintenance programs, surveillance and reporting mechanisms, volunteer coordination, or how residents can donate time or resources across a broader range of civic environmental activities.",
+      "score": 0.15,
+      "nextPrompts": [
+        "Does the Town of Ossining have a volunteer or stewardship program for shared green spaces, parks, or street trees that outlines how residents can participate?",
+        "Are there any Town of Ossining environmental or sustainability programs that include invasive species reporting, community cleanups, or resource donation opportunities?"
+      ]
+    }
+  ],
+  "scores": {
+    "overallScore": 0.38,
+    "normalizedScore": 0.38,
+    "averageConfidence": 17,
+    "questionsAnswered": 3,
+    "totalQuestions": 3,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0,
+        0.15
+      ],
+      "averageQuestionScore": 0.05,
+      "weightedScore": 0.0375,
+      "totalWeightedScore": 0.06,
+      "totalPossibleWeight": 1.6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0,
+          "weight": 0.8,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.8,
+          "confidence": 10
+        },
+        {
+          "id": "2",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 10
+        },
+        {
+          "id": "3",
+          "score": 0.15,
+          "weight": 0.4,
+          "weightedScore": 0.06,
+          "maxWeightedScore": 0.4,
+          "confidence": 30
+        }
+      ]
+    }
+  },
+  "overallScore": 0.38,
+  "averageConfidence": 17,
+  "questionsAnswered": 3,
+  "totalQuestions": 3,
+  "lastUpdated": "2026-05-15T13:48:11.235Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://www.townofossiningny.gov/cms/projects/projects-archive/old-albany-post-road-restoration",
+      "title": "https://www.townofossiningny.gov/cms/projects/projects-archive/old-albany-post-road-restoration"
+    },
+    {
+      "url": "https://www.townofossiningny.gov/cms/projects/stormwater-management",
+      "title": "https://www.townofossiningny.gov/cms/projects/stormwater-management"
+    },
+    {
+      "url": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/251-minutes-2009-0609-resj-climatesmart",
+      "title": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/251-minutes-2009-0609-resj-climatesmart"
+    },
+    {
+      "url": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/252-native-plant-resource-guide",
+      "title": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/252-native-plant-resource-guide"
+    },
+    {
+      "url": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management/406-town-of-ossining-stormwater-screen-fillable-questionnaire-updated-2018",
+      "title": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management/406-town-of-ossining-stormwater-screen-fillable-questionnaire-updated-2018"
+    }
+  ]
+}

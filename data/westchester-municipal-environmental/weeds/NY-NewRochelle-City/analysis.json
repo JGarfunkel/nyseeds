@@ -1,4 +1,5 @@
 {
+  "id": "NY-NewRochelle-City-weeds-1778856983718",
   "municipality": {
     "id": "NY-NewRochelle-City",
     "displayName": "New Rochelle - City"
@@ -145,9 +146,10 @@
   "averageConfidence": 59,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:46:52.110Z",
+  "lastUpdated": "2026-05-15T14:56:23.718Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 3.83,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.532Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.532Z",
+  "domainId": "weeds"
 }

@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Tuckahoe-Village-trees-1779068496526",
+  "entityId": "NY-Tuckahoe-Village",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Tuckahoe-Village",
     "displayName": "Tuckahoe - Village"
   },
@@ -7,19 +10,25 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a permit to remove a tree on your private property if the tree is 10 inches DBH or greater. You must notify the Building Department with two weeks' prior notice for the removal of up to two trees 10 inches DBH or greater in a twenty-four-month period per residential lot. The permit requires a fee set by the Village Board and will be reviewed by the Building Department.",
-      "confidence": 90,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "**Permit Requirements by Tree Size:**\n- Trees under 10 inches DBH: No permit or registration required.\n- Trees 10 inches DBH or greater: Removal of up to two trees per 24-month period per residential lot requires two-week prior notification to the Building Department (including size, location, type, and reason). Beyond that, a permit from the Building Department is required.\n- Trees 20 inches DBH or greater: Must also comply with the Village's insurance requirements.\n\n**Application Process:**\nNotification/application is submitted to the Building Department, including tree size, location, species, and reason for removal. Additional information such as subdivision plans or site plans may be required.\n\n**Who Reviews:**\nThe Building Department reviews and grants or denies permits, and may consult a certified arborist. The Planning Board may also be involved if trees were designated to be saved.\n\n**Fees:**\nThe fee is set by the Village Board and posted at the Building Department. Specific dollar amounts are not stated in the provided sources.\n\n**Emergency Removal:**\nImmediate removal without a permit is allowed during actual emergencies when there is insufficient time to obtain authorization.",
+      "confidence": 82,
       "sourceRefs": [
-        "§ 21A"
+        "§1(a)",
+        "§1(b)",
+        "§1(d)",
+        "§1 Building Department review criteria"
       ],
-      "score": 1
+      "gap": "The statute lacks a specific fee amount per tree and does not require permits for trees under 10 inches DBH. Best practice suggests permit requirements for trees over 18 inches DBH with detailed application criteria, which this statute partially meets but at a lower threshold (10 inches). No mention of sensitive area overlays or landmark tree designations in the permit process.",
+      "score": 0.65,
+      "nextPrompts": [
+        "What are the current permit fees as posted by the Village Board for tree removal?",
+        "Are there additional permit requirements for trees in sensitive areas such as steep slopes or scenic roads?"
+      ]
     },
     {
       "id": 2,
@@ -34,14 +43,22 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies the following exemptions:\n\n1. **Trees under 10 inches DBH**: Removal is permitted with no registration or permit required.\n\n2. **Unsafe/hazardous public trees**: The Village may remove any public tree that is in an unsafe condition or harmful to sewers, electric power lines, gas lines, waterlines, or other public improvements.\n\n3. **Storm-damaged or obstructed trees**: Trees severely damaged by storms or other causes, or trees under utility wires where pruning is impractical, may be exempted from restrictions on removal or alteration.\n\n4. **Planning Board-designated trees**: A permit may be issued for removal of trees designated to be saved if the tree is determined to be dead, dying, diseased, or hazardous to life or property.\n\n5. **Emergency conditions**: An 'Actual Ongoing Emergency Condition' (severe weather or natural causes posing immediate threat to life or property) is defined, implying exemption applicability.\n\nNo explicit exemptions are specified for non-native or invasive species removal, nor are location-based exemptions (beyond utility lines) detailed beyond the above conditions. [§1]",
+      "confidence": 82,
       "sourceRefs": [
-        "§ 21A"
+        "§1(a)",
+        "§1(b)",
+        "§1 Trees less than 10 inches DBH",
+        "§1 Heritage Tree/Invasive Species definitions",
+        "§1 Planning Board designated trees"
       ],
-      "score": 0.1,
-      "gap": "Consider adding a clear fee schedule to the statute that specifies the cost for removing each tree without a replacement, including payment options, potential exemptions for certain cases, and provisions to ensure the fee covers administrative costs associated with enforcement and environmental impact mitigation."
+      "gap": "The statute lacks an explicit exemption or reduced replacement obligation for invasive/non-native species removal, does not require arborist certification prior to emergency removals, and does not reference NYS DEC protected native plant designations as a denial criterion.",
+      "score": 0.4,
+      "nextPrompts": [
+        "Does the statute address any reduced or waived replacement requirements specifically for removal of invasive species?",
+        "Are there any provisions requiring ISA-certified arborist documentation before invoking emergency or hazard-based exemptions?"
+      ]
     },
     {
       "id": 4,
@@ -56,14 +73,34 @@
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
       "sourceRefs": [
-        "§ 21A"
+        "§ 1"
       ],
-      "score": 0.1,
-      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and identifying any parties whose property may be affected by potential changes in landscape or drainage."
+      "gap": "The statute does not address neighbor notification requirements for tree removal applications. Best practices recommend notifying all adjoining and directly opposite property owners plus those within a specified distance (e.g., 300 feet) via certified mail at least 15 days before a decision, and posting a visible permit sign on-site at least 3 days before removal begins.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the municipality have a public hearing or notice requirement for tree removal permit applications elsewhere in the municipal code?",
+        "Are there any posting or signage requirements associated with tree removal permits in the Village's zoning or land use regulations?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement officer is the Superintendent of the Department of Public Works. The statute does not explicitly state that the Superintendent is a trained arborist or environmental professional. However, the Superintendent is authorized to work 'with the assistance of experts in forestry and arboriculture' when establishing a register of historic trees, suggesting the role relies on outside expertise rather than in-house arboricultural credentials. Additionally, decisions regarding replacement trees may be made by the Building Inspector, Superintendent of the Department of Public Works, or the Planning Board.",
+      "confidence": 72,
+      "sourceRefs": [
+        "§ 1 (Heritage Tree/Historic Tree Register provision)",
+        "§ 1 (Replacement Tree definition)"
+      ],
+      "gap": "The municipality lacks a dedicated Forestry Officer or ISA-Certified Arborist as primary enforcement authority, relying instead on a Public Works Superintendent without arboricultural credentials and fragmenting decisions across multiple officials. There is no mandatory consultation requirement with a certified arborist for technical determinations, only optional outside expertise for the limited purpose of registering historic trees.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the municipality require ISA-certified arborist consultation for removal approvals?",
+        "Is there a Tree Commission or advisory body with arboricultural expertise?"
+      ]
     },
     {
       "id": 6,
@@ -90,49 +127,52 @@
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to collect detailed data on all tree removals, including location, species, size, and reason for removal, and to compile this information into an annual public report that is easily accessible online to ensure transparency and accountability."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 15,
+      "sourceRefs": [
+        "§ 1"
+      ],
+      "gap": "The statute does not appear to require systematic data collection on tree removals or mandate any formal public-facing annual report. Best practice calls for tracking permit applications received, permits denied, and trees removed, compiled into an annual report submitted to the governing board by a specified deadline (e.g., March 1), prepared by a designated Tree Officer in conjunction with an advisory tree commission, and encompassing mitigation fund activity such as a Tree Bank Fund.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the statute establish any recordkeeping or administrative reporting requirements for the Department of Public Works related to tree permits or removals?",
+        "Is there any provision for a Tree Advisory Commission or similar body that might receive or publish data on tree removals?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 4.97,
-    "normalizedScore": 4.97,
-    "averageConfidence": 61,
-    "questionsAnswered": 5,
-    "totalQuestions": 8,
+    "overallScore": 4.6,
+    "normalizedScore": 4.6,
+    "averageConfidence": 67,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        1,
+        0.65,
         0.85,
-        0.1,
+        0.4,
         0.95,
-        0.1,
+        0,
+        0.2,
         0.3,
         0.3,
-        0.1
+        0
       ],
-      "averageQuestionScore": 0.4625,
-      "weightedScore": 0.4967,
-      "totalWeightedScore": 7.45,
+      "averageQuestionScore": 0.41,
+      "weightedScore": 0.46,
+      "totalWeightedScore": 6.9,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a permit to remove a tree on your private property if the tree is 10 inches DBH or greater. You must notify the Building Department with two weeks' prior notice for the removal of up to two trees 10 inches DBH or greater in a twenty-four-month period per residential lot. The permit requires a fee set by the Village Board and will be reviewed by the Building Department.",
-          "score": 1,
+          "score": 0.65,
           "weight": 1,
-          "weightedScore": 1,
+          "weightedScore": 0.65,
           "maxWeightedScore": 1,
-          "confidence": 90
+          "confidence": 82
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "The penalty for removing trees without a permit is a fine of $500 for each offense. Each week's continued violation can result in additional fines of up to $500 per day. The fines are deposited into the Tree Preservation Fund.",
           "score": 0.85,
           "weight": 2,
           "weightedScore": 1.7,
@@ -141,48 +181,46 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 20
+          "score": 0.4,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 82
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed. Replacement trees must be at a minimum three-inch caliper, and invasive species are prohibited. You are not allowed to plant invasive species as replacements.",
           "score": 0.95,
           "weight": 3,
-          "weightedScore": 2.8499999999999996,
+          "weightedScore": 2.85,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 10
+        },
+        {
+          "id": "5.1",
+          "score": 0.2,
+          "weight": 1,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 1,
+          "confidence": 72
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy as it aims to preserve trees, minimize damage and removal to enhance the health, property values, and general welfare of residents.",
           "score": 0.3,
           "weight": 3,
-          "weightedScore": 0.8999999999999999,
+          "weightedScore": 0.9,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "As a property owner, you are responsible for pruning branches of trees on your property that overhang any right-of-way in the Village to prevent obstruction of light from streetlamps, views of street intersections, or traffic control devices. You must also remove all dead, diseased, or dangerous trees or broken limbs that may be unsafe. If you fail to comply, the Department of Public Works may prune your trees and bill you for the work.",
           "score": 0.3,
           "weight": 2,
           "weightedScore": 0.6,
@@ -191,24 +229,21 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 20
+          "confidence": 15
         }
       ]
     }
   },
-  "overallScore": 4.97,
-  "averageConfidence": 61,
-  "questionsAnswered": 5,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:30:32.724Z",
+  "overallScore": 4.6,
+  "averageConfidence": 67,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:41:36.526Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 4.97,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.220Z"
+  "sources": []
 }

@@ -3,5 +3,18 @@
   "municipalityType": "Town",
   "domain": "Slopes",
   "lastConverted": "2025-08-15T20:28:17.558Z",
-  "sources": []
+  "sources": [
+    {
+      "sourceUrl": "https://bedfordny.gov/583/Permitting-and-Land-Use-Boards",
+      "downloadedAt": "2026-05-03T14:47:24.978Z",
+      "title": "Permitting and Land Use Boards | Town of Bedford, NY",
+      "type": "form",
+      "primeDomainSource": "boards"
+    }
+  ],
+  "entityId": "NY-Bedford-Town",
+  "domainId": "slopes",
+  "homePage": "https://www.bedfordny.gov",
+  "metadataCreated": "2026-05-03T14:47:24.990Z",
+  "municipality": "Bedford"
 }

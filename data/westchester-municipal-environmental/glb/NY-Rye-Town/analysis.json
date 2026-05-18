@@ -1,4 +1,5 @@
 {
+  "id": "NY-Rye-Town-glb-1778856980484",
   "municipality": {
     "id": "NY-Rye-Town",
     "displayName": "Rye - Town"
@@ -171,9 +172,17 @@
   "averageConfidence": 10,
   "questionsAnswered": 0,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T20:07:57.489Z",
+  "lastUpdated": "2026-05-15T14:56:20.484Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.267Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.267Z",
+  "domainId": "glb",
+  "sources": [
+    {
+      "url": "https://www.townofryeny.com/parks/rye_town_park/rules_regulations.php",
+      "title": "https://www.townofryeny.com/parks/rye_town_park/rules_regulations.php",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Rye-Town\\rules-regulations.txt"
+    }
+  ]
 }

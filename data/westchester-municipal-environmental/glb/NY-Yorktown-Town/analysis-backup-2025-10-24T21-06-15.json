@@ -1,0 +1,181 @@
+{
+  "municipality": {
+    "id": "NY-Yorktown-Town",
+    "displayName": "Yorktown - Town"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a specific regulatory framework that clearly defines the start and end dates of the prohibition period for gas leaf blowers, such as from May 1st to September 30th, to ensure clarity and compliance."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a regulation that specifies the permitted hours for gas leaf blower operation, including clear guidelines on application procedures for exceptions, review criteria, appeal processes, timelines, and approval standards to ensure compliance and address community concerns."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a tiered penalty structure that includes an initial fine of $100 for first-time offenses, escalating to $250 for second offenses and $500 for subsequent violations, along with clear enforcement mechanisms such as warnings, citations, and potential equipment confiscation for repeat offenders."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that explicitly outlines exceptions or specific requirements for school, government, and commercial properties, including criteria for eligibility and any conditions or limitations that apply to these exceptions."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations of the statute are enforced by the Building Department Code Enforcement Officer, the Yorktown Fire Marshal, and/or the Yorktown Police Department.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 216-12"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding a requirement for a centralized, publicly accessible online platform where violations can be reported by citizens, tracked by the municipality, and where enforcement actions and outcomes are transparently documented and updated regularly."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for public education programs that inform residents about the environmental benefits of leaving leaf debris and practicing leaf mulching, including guidelines for proper implementation to enhance soil health and reduce waste."
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report detailing key data metrics, progress updates, and outcomes related to the ordinance, ensuring transparency and accountability to the community."
+    }
+  ],
+  "scores": {
+    "overallScore": 1.42,
+    "normalizedScore": 1.42,
+    "averageConfidence": 29,
+    "questionsAnswered": 1,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.6,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.17142857142857146,
+      "weightedScore": 0.1417,
+      "totalWeightedScore": 1.7000000000000002,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 4,
+          "weightedScore": 0.4,
+          "maxWeightedScore": 4,
+          "confidence": 20
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 3,
+          "weightedScore": 0.30000000000000004,
+          "maxWeightedScore": 3,
+          "confidence": 20
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Violations of the statute are enforced by the Building Department Code Enforcement Officer, the Yorktown Fire Marshal, and/or the Yorktown Police Department.",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        }
+      ]
+    }
+  },
+  "overallScore": 1.42,
+  "averageConfidence": 29,
+  "questionsAnswered": 1,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-09T20:10:24.380Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 1.42,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.280Z"
+}

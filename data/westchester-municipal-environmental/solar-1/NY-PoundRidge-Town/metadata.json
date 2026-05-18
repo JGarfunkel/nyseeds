@@ -2,5 +2,10 @@
   "municipalityName": "Pound Ridge",
   "municipalityType": "Town",
   "domain": "Solar 1",
-  "sources": []
+  "sources": [],
+  "entityId": "NY-PoundRidge-Town",
+  "domainId": "solar-1",
+  "homePage": "https://www.townofpoundridge.com/",
+  "metadataCreated": "2026-05-06T20:29:25.036Z",
+  "municipality": "Pound Ridge"
 }

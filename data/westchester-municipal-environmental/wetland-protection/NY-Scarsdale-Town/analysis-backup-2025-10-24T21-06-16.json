@@ -1,0 +1,194 @@
+{
+  "municipality": {
+    "id": "NY-Scarsdale-Town",
+    "displayName": "Scarsdale - Town"
+  },
+  "domain": {
+    "id": "wetland-protection",
+    "displayName": "Wetland Protection"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 3,
+      "question": "What are the setback requirements from wetland boundaries?",
+      "answer": "There are no specific setback requirements from wetland boundaries mentioned in the statute. However, it is noted that controlled activities are generally not permitted within the freshwater wetlands/watercourse buffer, which usually extends 25 feet horizontally from the wetland boundary.",
+      "confidence": 70,
+      "sourceRefs": [
+        "§ 171-3"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding explicit setback requirements from wetland boundaries to enhance clarity and enforceability, specifying minimum distances based on wetland type and ecological sensitivity to protect water quality and habitat."
+    },
+    {
+      "id": 4,
+      "question": "What are the penalties for unauthorized wetland disturbance?",
+      "answer": "Any person committing an offense against the wetland protection provisions may face a violation punishable by a fine not exceeding $250 or imprisonment for a term not exceeding 15 days, or both. Each day the offense is continued constitutes a separate offense.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 171-13"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding a tiered penalty structure that increases fines for repeat offenses and establishes specific enforcement mechanisms, such as mandatory restoration of disturbed wetlands or community service requirements for violators."
+    },
+    {
+      "id": 5,
+      "question": "How do I apply for a wetland permit or variance?",
+      "answer": "To apply for a wetland permit, you must submit an application for the conduct of any controlled activity within a freshwater wetlands controlled area. Applications are reviewed by the Village Engineer or the Planning Board, depending on the type of activity. The statute does not specify a detailed application process but mentions that fees must accompany the application.",
+      "confidence": 75,
+      "sourceRefs": [
+        "§ 171-4",
+        "§ 171-11"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a detailed step-by-step application procedure, including specific review criteria, timelines for processing applications, and information on the appeal process for denied permits to enhance clarity and transparency for applicants."
+    },
+    {
+      "id": 6,
+      "question": "Are there mitigation requirements for permitted wetland impacts?",
+      "answer": "Yes, if impacts to freshwater wetlands or the freshwater wetlands/watercourse buffer are determined to be necessary and unavoidable, a mitigation plan must be developed. This may include creating replacement wetlands that are at least 1.5 times larger than the original wetlands.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 171-7"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding a detailed outline of the application procedures for submitting a mitigation plan, including specific timelines for review and approval, as well as clear criteria for evaluating the adequacy of proposed mitigation measures."
+    },
+    {
+      "id": 7,
+      "question": "What types of development are completely prohibited in wetlands?",
+      "answer": "The statute does not explicitly list types of development that are completely prohibited in wetlands. However, it specifies that no controlled activities, which may impair wetlands functions, will be permitted within the freshwater wetlands/watercourse buffer, except under certain conditions approved by the Planning Board.",
+      "confidence": 70,
+      "sourceRefs": [
+        "§ 171-7"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding a clear and detailed list of specific types of development that are prohibited in wetlands, such as construction, mining, and landfills, to enhance clarity and enforceability of the regulations."
+    },
+    {
+      "id": 9,
+      "question": "Are there tax incentives for wetland preservation?",
+      "answer": "Not specified in the statute.",
+      "confidence": 0.1,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that establishes tax incentives for landowners who engage in wetland preservation practices, including property tax reductions or credits for maintaining and restoring wetland areas."
+    },
+    {
+      "id": 10,
+      "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+      "answer": "The statute mentions that if the Planning Board allows a controlled activity within the freshwater wetlands/watercourse buffer, they may require the applicant to post a bond or surety for hiring a qualified person to regularly inspect the project during construction. This ensures that all required mitigation measures are implemented throughout the construction process until a certificate of occupancy is issued.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 171-7"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding a requirement for a detailed monitoring and maintenance plan that outlines specific inspection frequencies, reporting protocols, and criteria for evaluating the success of mitigation measures post-construction, to ensure long-term compliance and effectiveness."
+    }
+  ],
+  "scores": {
+    "overallScore": 4.93,
+    "normalizedScore": 4.93,
+    "averageConfidence": 68,
+    "questionsAnswered": 6,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.3,
+        0.85,
+        0.1,
+        0.7,
+        0.7,
+        0.1,
+        0.7
+      ],
+      "averageQuestionScore": 0.4928571428571429,
+      "weightedScore": 0.4929,
+      "totalWeightedScore": 3.45,
+      "totalPossibleWeight": 7,
+      "questionsWithScores": [
+        {
+          "id": "3",
+          "question": "What are the setback requirements from wetland boundaries?",
+          "answer": "There are no specific setback requirements from wetland boundaries mentioned in the statute. However, it is noted that controlled activities are generally not permitted within the freshwater wetlands/watercourse buffer, which usually extends 25 feet horizontally from the wetland boundary.",
+          "score": 0.3,
+          "weight": 1,
+          "weightedScore": 0.3,
+          "maxWeightedScore": 1,
+          "confidence": 70
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties for unauthorized wetland disturbance?",
+          "answer": "Any person committing an offense against the wetland protection provisions may face a violation punishable by a fine not exceeding $250 or imprisonment for a term not exceeding 15 days, or both. Each day the offense is continued constitutes a separate offense.",
+          "score": 0.85,
+          "weight": 1,
+          "weightedScore": 0.85,
+          "maxWeightedScore": 1,
+          "confidence": 90
+        },
+        {
+          "id": "5",
+          "question": "How do I apply for a wetland permit or variance?",
+          "answer": "To apply for a wetland permit, you must submit an application for the conduct of any controlled activity within a freshwater wetlands controlled area. Applications are reviewed by the Village Engineer or the Planning Board, depending on the type of activity. The statute does not specify a detailed application process but mentions that fees must accompany the application.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 75
+        },
+        {
+          "id": "6",
+          "question": "Are there mitigation requirements for permitted wetland impacts?",
+          "answer": "Yes, if impacts to freshwater wetlands or the freshwater wetlands/watercourse buffer are determined to be necessary and unavoidable, a mitigation plan must be developed. This may include creating replacement wetlands that are at least 1.5 times larger than the original wetlands.",
+          "score": 0.7,
+          "weight": 1,
+          "weightedScore": 0.7,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "7",
+          "question": "What types of development are completely prohibited in wetlands?",
+          "answer": "The statute does not explicitly list types of development that are completely prohibited in wetlands. However, it specifies that no controlled activities, which may impair wetlands functions, will be permitted within the freshwater wetlands/watercourse buffer, except under certain conditions approved by the Planning Board.",
+          "score": 0.7,
+          "weight": 1,
+          "weightedScore": 0.7,
+          "maxWeightedScore": 1,
+          "confidence": 70
+        },
+        {
+          "id": "9",
+          "question": "Are there tax incentives for wetland preservation?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 0.1
+        },
+        {
+          "id": "10",
+          "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+          "answer": "The statute mentions that if the Planning Board allows a controlled activity within the freshwater wetlands/watercourse buffer, they may require the applicant to post a bond or surety for hiring a qualified person to regularly inspect the project during construction. This ensures that all required mitigation measures are implemented throughout the construction process until a certificate of occupancy is issued.",
+          "score": 0.7,
+          "weight": 1,
+          "weightedScore": 0.7,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 4.93,
+  "averageConfidence": 68,
+  "questionsAnswered": 6,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-08T19:41:09.150Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4.93,
+  "scoresUpdatedAt": "2025-10-10T17:19:07.266Z"
+}

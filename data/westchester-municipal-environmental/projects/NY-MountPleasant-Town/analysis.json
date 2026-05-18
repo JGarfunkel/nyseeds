@@ -1,0 +1,102 @@
+{
+  "id": "NY-MountPleasant-Town-projects-1778785815503",
+  "entityId": "NY-MountPleasant-Town",
+  "domainId": "projects",
+  "entity": {
+    "id": "NY-MountPleasant-Town",
+    "displayName": "Mount Pleasant - Town"
+  },
+  "domain": {
+    "id": "projects",
+    "displayName": "Projects"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What conservation projects or events are currently advertised?",
+      "answer": "The sources reference the Town of Mount Pleasant Conservation Advisory Council's 2020 Native Plant Resource Guide, which is a conservation-related resource compiled by council members GG Kopilak, Jo DiCostanzo, and Susan Cember. It provides guidance on native plants for homeowners and developers to support environmental services and habitat values. However, no specific conservation projects or events with goals, locations, dates, or participation details are advertised in the provided sources.",
+      "confidence": 40,
+      "sourceRefs": [
+        "https://www.mtpleasantny.gov/DocumentCenter/View/240/2020-Native-Plant-Resource-Guide-PDF"
+      ],
+      "gap": "The sources do not include any advertised conservation projects or events with stated goals, locations, dates, frequency, or participation information. The only conservation-related content is a static 2020 plant resource guide, which does not meet best practice standards for project/event listings.",
+      "score": 0.1,
+      "nextPrompts": [
+        "Does the Town of Mount Pleasant Conservation Advisory Council maintain a calendar or events page listing upcoming conservation projects or volunteer opportunities?",
+        "Are there any town board meeting minutes or news pages referencing active conservation initiatives, cleanups, or habitat restoration events?"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What documentation or photo/videos showing past projects exists online?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 3,
+      "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    }
+  ],
+  "scores": {
+    "overallScore": 0.5,
+    "normalizedScore": 0.5,
+    "averageConfidence": 13,
+    "questionsAnswered": 3,
+    "totalQuestions": 3,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.03,
+      "weightedScore": 0.05,
+      "totalWeightedScore": 0.08,
+      "totalPossibleWeight": 1.6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0.1,
+          "weight": 0.8,
+          "weightedScore": 0.08,
+          "maxWeightedScore": 0.8,
+          "confidence": 40
+        },
+        {
+          "id": "2",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 0
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 0.5,
+  "averageConfidence": 13,
+  "questionsAnswered": 3,
+  "totalQuestions": 3,
+  "lastUpdated": "2026-05-15T13:48:11.032Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://www.mtpleasantny.gov/DocumentCenter/View/240/2020-Native-Plant-Resource-Guide-PDF",
+      "title": "https://www.mtpleasantny.gov/DocumentCenter/View/240/2020-Native-Plant-Resource-Guide-PDF"
+    }
+  ]
+}

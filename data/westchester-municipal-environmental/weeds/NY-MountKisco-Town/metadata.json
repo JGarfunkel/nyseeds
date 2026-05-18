@@ -10,11 +10,14 @@
   "statuteNumber": "Chapter 87",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:31:31.176Z",
-      "contentLength": 13078,
+      "downloadedAt": "2026-05-15T19:06:30.667Z",
+      "contentLength": 135957,
       "sourceUrl": "https://ecode360.com/10861570",
       "title": "Property Maintenance Standards, Minimum",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-MountKisco-Town",
+  "homePage": "",
+  "isArticleBased": false
 }

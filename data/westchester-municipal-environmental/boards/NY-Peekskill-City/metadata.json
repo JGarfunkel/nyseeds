@@ -1,0 +1,12 @@
+{
+  "entityId": "NY-Peekskill-City",
+  "domainId": "boards",
+  "domain": "boards",
+  "homePage": "https://www.cityofpeekskill.com/",
+  "metadataCreated": "2026-05-03T04:08:23.782Z",
+  "stateCodeApplies": false,
+  "sources": [],
+  "municipality": "Peekskill",
+  "municipalityType": "City",
+  "statuteNumber": "Ch 24"
+}

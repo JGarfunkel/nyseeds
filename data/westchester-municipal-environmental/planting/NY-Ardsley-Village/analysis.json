@@ -1,0 +1,194 @@
+{
+  "id": "NY-Ardsley-Village-planting-1778715330658",
+  "entityId": "NY-Ardsley-Village",
+  "domainId": "planting",
+  "entity": {
+    "id": "NY-Ardsley-Village",
+    "displayName": "Ardsley - Village"
+  },
+  "domain": {
+    "id": "planting",
+    "displayName": "Planting"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What regulations or ordinances promote the use of native plants in landscaping, public spaces, or development projects?",
+      "answer": "Not specified in the provided sources. The excerpts describe the Ardsley Pollinator Pathway Project as a mission to \"raise awareness, educate, and encourage\" residents, businesses, government, and other organizations to create and maintain healthy pollinator habitats, but they do not identify any regulations, ordinances, or enforceable requirements promoting native plants in landscaping, public spaces, or development projects.",
+      "confidence": 92,
+      "sourceRefs": [],
+      "score": 0.75,
+      "gap": "{\"response\":\"Consider adding a native-plant landscaping ordinance that requires a minimum percentage of native species in new public landscaping, redevelopment, and site-plan approvals, with approved plant lists, invasive-species prohibitions, and maintenance standards to make the policy enforceable.\"}"
+    },
+    {
+      "id": 2,
+      "question": "Are there specific protections for pollinators such as bees, butterflies, or nesting habitat in local rules or plans?",
+      "answer": "The provided sources mention the importance of supporting pollinators and note declines in native bees, butterflies, and other pollinators, but they do not specify any local rules, protections, or habitat requirements for pollinators or nesting habitat. Not specified in the provided sources.",
+      "confidence": 92,
+      "sourceRefs": [],
+      "score": 0.65,
+      "gap": "{\"response\":\"Consider adding explicit pollinator-protection standards in the local code or plan, such as requiring native/pollinator-friendly plantings, prohibiting pesticide use during bloom periods, and preserving nesting habitat through setbacks or no-mow buffer zones in parks, rights-of-way, and development sites.\"}"
+    },
+    {
+      "id": 3,
+      "question": "Do landscaping standards require or encourage pollinator-friendly and low-mow native planting in new or renovated sites?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\"response\":\"Consider adding a landscaping ordinance that requires or incentivizes pollinator-friendly, low-mow native plantings on new and renovated sites by setting minimum native-plant coverage, limiting turf-only areas, and allowing reduced mowing and maintenance standards for approved habitat plantings.\"}"
+    },
+    {
+      "id": 4,
+      "question": "Are there designated areas for habitat restoration, native meadows, or pollinator corridors in parks, rights-of-way, or public lands?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\"response\":\"Consider adding a municipal habitat restoration and pollinator corridor ordinance that designates eligible parks, rights-of-way, and public lands for native meadow and habitat plantings, requires site-specific management plans with native species lists, invasive-species control, mowing/maintenance schedules, and public mapping/signage of designated areas.\"}"
+    },
+    {
+      "id": 5,
+      "question": "What community projects currently promote native plants and pollinators, such as planting programs, garden grants, or restoration events?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\"response\":\"Consider adding a native plant and pollinator support ordinance that creates a municipal grant-and-permit framework for community planting, garden restoration, and habitat events, with eligibility standards requiring locally native species, invasive-species controls, seasonal maintenance plans, and public reporting of project outcomes.\"}"
+    },
+    {
+      "id": 6,
+      "question": "Do maintenance practices support pollinators, such as reduced mowing, seasonal timing, pesticide limits, or leaving nesting habitat?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\"response\":\"Consider adding a pollinator-friendly vegetation management ordinance that requires reduced mowing schedules, seasonal mowing restrictions during peak bloom and nesting periods, limits on pesticide use near planted areas, and designated no-mow or habitat retention zones with native flowering plants and nesting cover.\"}"
+    },
+    {
+      "id": 7,
+      "question": "Are there incentives, rebates, or technical assistance for residents or developers to install native and pollinator-friendly landscapes?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\"response\":\"Consider adding a native and pollinator-friendly landscaping incentive ordinance that establishes rebate amounts, technical assistance eligibility, approved plant/seed standards, installation and maintenance requirements, and a simple application/inspection process for residents and developers.\"}"
+    },
+    {
+      "id": 8,
+      "question": "Is there monitoring or reporting on native plant coverage, pollinator habitat, or pollinator population outcomes over time?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\"response\":\"Consider adding a requirement that the municipality annually monitor and publicly report native plant coverage, pollinator habitat acreage, and pollinator population indicators across planted sites, using standardized metrics, baseline surveys, and a publicly accessible dashboard to track trends over time.\"}"
+    }
+  ],
+  "scores": {
+    "overallScore": 5.55,
+    "normalizedScore": 5.55,
+    "averageConfidence": 23,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.75,
+        0.65,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "averageQuestionScore": 0.55,
+      "weightedScore": 0.5547,
+      "totalWeightedScore": 2.9400000000000004,
+      "totalPossibleWeight": 5.300000000000001,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0.75,
+          "weight": 0.7,
+          "weightedScore": 0.53,
+          "maxWeightedScore": 0.7,
+          "confidence": 92
+        },
+        {
+          "id": "2",
+          "score": 0.65,
+          "weight": 0.7,
+          "weightedScore": 0.46,
+          "maxWeightedScore": 0.7,
+          "confidence": 92
+        },
+        {
+          "id": "3",
+          "score": 0.5,
+          "weight": 0.6,
+          "weightedScore": 0.3,
+          "maxWeightedScore": 0.6,
+          "confidence": 0
+        },
+        {
+          "id": "4",
+          "score": 0.5,
+          "weight": 0.5,
+          "weightedScore": 0.25,
+          "maxWeightedScore": 0.5,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "score": 0.5,
+          "weight": 0.7,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 0.7,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "score": 0.5,
+          "weight": 0.7,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 0.7,
+          "confidence": 0
+        },
+        {
+          "id": "7",
+          "score": 0.5,
+          "weight": 0.7,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 0.7,
+          "confidence": 0
+        },
+        {
+          "id": "8",
+          "score": 0.5,
+          "weight": 0.7,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 0.7,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 5.55,
+  "averageConfidence": 23,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2026-05-15T13:48:09.583Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee",
+      "title": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee"
+    },
+    {
+      "url": "https://www.ardsleyvillage.gov/print/36811",
+      "title": "https://www.ardsleyvillage.gov/print/36811"
+    }
+  ]
+}

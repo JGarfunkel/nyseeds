@@ -1,4 +1,5 @@
 {
+  "id": "NY-Somers-Town-weeds-1778856984073",
   "municipality": {
     "id": "NY-Somers-Town",
     "displayName": "Somers - Town"
@@ -141,9 +142,37 @@
   "averageConfidence": 72,
   "questionsAnswered": 4,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:53:17.855Z",
+  "lastUpdated": "2026-05-15T14:56:24.073Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 4.33,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.560Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.560Z",
+  "domainId": "weeds",
+  "sources": [
+    {
+      "url": "https://www.somersny.com/events/saint-lukes-episcopal-church-plant-sale",
+      "title": "https://www.somersny.com/events/saint-lukes-episcopal-church-plant-sale",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Somers-Town\\saint-lukes-episcopal-church-plant-sale.txt"
+    },
+    {
+      "url": "https://www.somersny.com/resources/environmental-reviews",
+      "title": "https://www.somersny.com/resources/environmental-reviews",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Somers-Town\\environmental-reviews.txt"
+    },
+    {
+      "url": "https://www.somersny.com/resources/stormwater-management-and-erosion-and-sediment-control-permit-application",
+      "title": "https://www.somersny.com/resources/stormwater-management-and-erosion-and-sediment-control-permit-application",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Somers-Town\\stormwater-management-and-erosion-and-sediment-control-permit-application.txt"
+    },
+    {
+      "url": "https://www.somersny.gov/events/saint-lukes-episcopal-church-plant-sale",
+      "title": "https://www.somersny.gov/events/saint-lukes-episcopal-church-plant-sale",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Somers-Town\\saint-lukes-episcopal-church-plant-sale-2.txt"
+    },
+    {
+      "url": "https://www.somersny.gov/resources/tree-inventory-community-forest-management-plan-project",
+      "title": "https://www.somersny.gov/resources/tree-inventory-community-forest-management-plan-project",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Somers-Town\\tree-inventory-community-forest-management-plan-project.txt"
+    }
+  ]
 }

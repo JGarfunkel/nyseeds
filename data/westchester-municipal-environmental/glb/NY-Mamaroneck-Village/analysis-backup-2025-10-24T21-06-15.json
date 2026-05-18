@@ -1,0 +1,187 @@
+{
+  "municipality": {
+    "id": "NY-Mamaroneck-Village",
+    "displayName": "Mamaroneck - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers in the Village of Mamaroneck lasts the entire year, starting on May 15, 2024, without a specified end date.",
+      "confidence": 100,
+      "sourceRefs": [
+        "§ 254-3"
+      ],
+      "score": 0.45,
+      "gap": "Consider adding a specific end date for the prohibition of gas leaf blowers to provide clarity and ensure enforceability throughout the year."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers are prohibited entirely starting May 15, 2024, so there are no permitted hours for their operation.",
+      "confidence": 100,
+      "sourceRefs": [
+        "§ 254-3"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding a provision detailing the enforcement mechanisms and penalties for non-compliance with the prohibition of gas leaf blowers to ensure clarity and effectiveness in upholding the regulation."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "The penalties for violating the noise regulations, including gas leaf blower regulations, are a fine of up to $250 for the first offense, $500 for the second offense within one year, and $1,000 for any subsequent offense within one year from the date of the first offense. Each day the violation continues is considered a separate offense.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 254-8"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding specific enforcement mechanisms, such as detailing which municipal department is responsible for issuing fines and how violations are reported and processed, to strengthen the regulation's clarity and effectiveness."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, the use of leaf blowers is permitted on Village properties and public school district properties at any time.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 254-3"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding specific time restrictions or noise level limits for the use of leaf blowers on Village and public school district properties to minimize disturbances to surrounding residential areas."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a clear regulatory framework that mandates the establishment of a centralized reporting system for violations, which includes detailed data collection requirements, public access to violation reports, transparency measures for how reports are handled, and mechanisms for tracking the resolution and enforcement of reported violations."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that mandates the promotion of leaf mulching and the ecological benefits of leaving leaf debris through public education campaigns and incentives for residents who adopt sustainable leaf management practices."
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report that includes comprehensive data collection on relevant activities, transparency measures, and tracking mechanisms to ensure accountability and public awareness."
+    }
+  ],
+  "scores": {
+    "overallScore": 4.67,
+    "normalizedScore": 4.67,
+    "averageConfidence": 61,
+    "questionsAnswered": 4,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.45,
+        0.65,
+        0.75,
+        0.6,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.3928571428571429,
+      "weightedScore": 0.4667,
+      "totalWeightedScore": 5.599999999999999,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "The prohibition of gas leaf blowers in the Village of Mamaroneck lasts the entire year, starting on May 15, 2024, without a specified end date.",
+          "score": 0.45,
+          "weight": 4,
+          "weightedScore": 1.8,
+          "maxWeightedScore": 4,
+          "confidence": 100
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Gas leaf blowers are prohibited entirely starting May 15, 2024, so there are no permitted hours for their operation.",
+          "score": 0.65,
+          "weight": 1,
+          "weightedScore": 0.65,
+          "maxWeightedScore": 1,
+          "confidence": 100
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "The penalties for violating the noise regulations, including gas leaf blower regulations, are a fine of up to $250 for the first offense, $500 for the second offense within one year, and $1,000 for any subsequent offense within one year from the date of the first offense. Each day the violation continues is considered a separate offense.",
+          "score": 0.75,
+          "weight": 3,
+          "weightedScore": 2.25,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Yes, the use of leaf blowers is permitted on Village properties and public school district properties at any time.",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        }
+      ]
+    }
+  },
+  "overallScore": 4.67,
+  "averageConfidence": 61,
+  "questionsAnswered": 4,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-09T20:02:59.093Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4.67,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.245Z"
+}

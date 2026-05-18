@@ -1,4 +1,5 @@
 {
+  "id": "NY-Tuckahoe-Village-glb-1778856980630",
   "municipality": "NY-Tuckahoe-Village",
   "domain": "glb",
   "analyzedAt": "2025-09-09T20:09:58.341Z",
@@ -177,5 +178,8 @@
   "wenGrade": "G-",
   "usesStateCode": false,
   "normalizedScore": 4.5,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.272Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.272Z",
+  "entityId": "NY-Tuckahoe-Village",
+  "domainId": "glb",
+  "lastUpdated": "2026-05-15T14:56:20.630Z"
 }

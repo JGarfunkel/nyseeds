@@ -1,4 +1,5 @@
 {
+  "id": "NY-Somers-Town-glb-1778856980592",
   "municipality": "NY-Somers-Town",
   "domain": "glb",
   "analyzedAt": "2025-09-09T20:09:25.948Z",
@@ -175,5 +176,8 @@
   "wenGrade": null,
   "usesStateCode": false,
   "normalizedScore": 3.58,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.270Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.270Z",
+  "entityId": "NY-Somers-Town",
+  "domainId": "glb",
+  "lastUpdated": "2026-05-15T14:56:20.592Z"
 }

@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-NewCastle-Town-wetland-protection-1778620988657",
+  "entityId": "NY-NewCastle-Town",
+  "domainId": "wetland-protection",
+  "entity": {
     "id": "NY-NewCastle-Town",
     "displayName": "New Castle - Town"
   },
@@ -7,9 +10,7 @@
     "id": "wetland-protection",
     "displayName": "Wetland Protection"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 3,
@@ -183,9 +184,17 @@
   "averageConfidence": 61,
   "questionsAnswered": 5,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-08T19:38:44.303Z",
+  "lastUpdated": "2026-05-15T13:48:14.828Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 5.5,
-  "scoresUpdatedAt": "2025-10-10T17:19:07.238Z"
+  "sources": [
+    {
+      "url": "https://www.mynewcastleny.gov/",
+      "title": "https://www.mynewcastleny.gov/"
+    },
+    {
+      "url": "https://www.mynewcastleny.gov/269/Conservation-Board",
+      "title": "https://www.mynewcastleny.gov/269/Conservation-Board"
+    }
+  ]
 }

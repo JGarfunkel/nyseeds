@@ -1,4 +1,5 @@
 {
+  "id": "NY-Pelham-Village-glb-1778856980305",
   "municipality": "NY-Pelham-Village",
   "domain": "glb",
   "analyzedAt": "2025-09-09T20:05:55.032Z",
@@ -171,5 +172,8 @@
   "wenGrade": "G-",
   "usesStateCode": false,
   "normalizedScore": 2.71,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.263Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.263Z",
+  "entityId": "NY-Pelham-Village",
+  "domainId": "glb",
+  "lastUpdated": "2026-05-15T14:56:20.305Z"
 }

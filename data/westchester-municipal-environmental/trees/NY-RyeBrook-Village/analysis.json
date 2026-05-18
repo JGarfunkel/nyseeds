@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-RyeBrook-Village-trees-1779068367207",
+  "entityId": "NY-RyeBrook-Village",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-RyeBrook-Village",
     "displayName": "Rye Brook - Village"
   },
@@ -7,20 +10,26 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a Tree Removal Permit to remove a tree on your private property if it has a diameter at breast height (DBH) of 10 inches or greater. To apply, you must submit an application to the Approving Authority on prescribed forms available in the Village office. The Approving Authority, usually the Superintendent of Public Works/Village Engineer or their designee, reviews the application.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Yes, a Tree Removal Permit is required on private property (both improved and unimproved) to remove any tree with a DBH of 10 inches or greater (§235-8A, §235-9A).\n\n**How to Apply:** Applications are submitted to the Approving Authority on prescribed forms available at the Village office. Submissions must include at least one signed original application form, three paper copies of all plans and surveys, and electronic file format acceptable to the Building Department (§235-13B).\n\n**Who Reviews It:** The Approving Authority has primary responsibility for administering the chapter and issuing, revoking, or denying permits. The Approving Authority may consult with the Village Arborist at the applicant's expense (§235-13A).\n\n**Fees:** No permit application fees are specified in the provided sources. Note that penalties for violations (not permit fees) range from $500–$750 per tree for first offenses (§235-24B).",
+      "confidence": 72,
       "sourceRefs": [
-        "§ 235-8",
-        "§ 235-13"
+        "§235-8A",
+        "§235-9A",
+        "§235-13A",
+        "§235-13B",
+        "§235-24B"
       ],
-      "score": 1
+      "gap": "The statute's DBH threshold for requiring a permit is 10 inches, which is lower than the best practice example of 18 inches, offering broader protection. However, no permit fees are specified, no exceptions for limited removal without a permit are provided, and there is no mention of special protections for landmark trees or sensitive areas such as steep slopes or scenic roads.",
+      "score": 0.55,
+      "nextPrompts": [
+        "Are there any exemptions or exceptions that allow tree removal without a permit on private property?",
+        "Are there designated landmark or heritage trees with additional protections beyond the standard DBH threshold?"
+      ]
     },
     {
       "id": 2,
@@ -34,12 +43,22 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific charges per tree, available payment options, potential exemptions for certain circumstances, and provisions to ensure the fees cover administrative costs associated with enforcement and processing."
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies the following exemptions from Tree Removal Permit requirements:\n\n1. **Size threshold**: Trees with a DBH under 10 inches are not subject to permit requirements on private improved or unimproved properties (§235-8, §235-9). No replanting is required for trees under 10 inches DBH (§235-18).\n\n2. **Emergency/hazard trees**: Removal of any tree, including Significant Trees, is permitted without a Tree Removal Permit under an \"actual or ongoing emergency condition\" where immediate removal is necessary to protect life or property and there is no time to obtain a permit. Within three days, a hazard tree report from a Certified Arborist, documented evidence, and a completed application must be submitted to the Superintendent of Public Works/Village Engineer (§235-19).\n\nNo exemptions based on species origin (native vs. non-native), location on property, or tree health status beyond the emergency condition definition are specified in the provided sources.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§235-8",
+        "§235-9",
+        "§235-18",
+        "§235-19",
+        "§235-2"
+      ],
+      "gap": "The statute lacks exemptions or differentiated treatment for invasive/non-native species, does not reference NYS DEC protected native plant designations, and does not require arborist certification prior to emergency removal (only within three days after). Best practice calls for pre-removal certification and species-origin considerations in the permit framework.",
+      "score": 0.4,
+      "nextPrompts": [
+        "Does the statute or appendix address invasive or non-native species differently in terms of permit requirements or replacement obligations?",
+        "Are there any additional exemptions for utility companies, municipal operations, or trees in specific zoning districts?"
+      ]
     },
     {
       "id": 4,
@@ -54,12 +73,36 @@
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and identifying all parties whose properties may be affected by potential changes in landscape or environmental impact."
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 235-13",
+        "§ 235-2",
+        "§ 235-18"
+      ],
+      "gap": "The statute does not address neighbor notification requirements for tree removal applications. Best practices call for certified mail notification to adjoining and directly opposite property owners within a specified distance (e.g., 300 feet), at least 15 days before a decision or hearing, plus on-site permit posting visible from the street at least 3 days before removal begins.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village code contain any public notice or posting requirements related to tree removal permit applications?",
+        "Are there any hearing procedures or community input provisions outlined in the Tree Removal Permit process?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The Superintendent of Public Works/Village Engineer serves as a key enforcement/administrative officer under the statute (§ 235-19). Additionally, the Village Board of Trustees may retain a Certified Arborist to perform hazard tree evaluations during appeals (§ 235-13C). The Superintendent of Public Works/Village Engineer is not identified as a Certified Arborist or environmental professional in the provided sources; however, a Certified Arborist may be engaged at the applicant's expense for specific evaluations.",
+      "confidence": 62,
+      "sourceRefs": [
+        "§ 235-19",
+        "§ 235-13C"
+      ],
+      "gap": "The municipality lacks a dedicated Forestry Officer or Tree Warden with defined arboricultural qualifications, and Certified Arborist consultation is optional rather than mandatory for removal approvals and hazard assessments. No Tree Commission or advisory committee with qualified professionals is established to systematically inform enforcement decisions.",
+      "score": 0.35,
+      "nextPrompts": [
+        "Does the ordinance define 'Tree Expert' or require mandatory arborist consultation?",
+        "Is there a Tree Commission or advisory board with arboricultural expertise?"
+      ]
     },
     {
       "id": 6,
@@ -87,49 +130,54 @@
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to systematically collect data on all tree removals, including the location, species, and reason for removal, and to compile this information into an annual public report to enhance transparency and accountability."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 15,
+      "sourceRefs": [
+        "§ 235-24",
+        "§ 235-2",
+        "§ 235-9"
+      ],
+      "gap": "The statute does not appear to require systematic data collection on tree removals or mandate preparation of any public-facing annual report. Best practice calls for tracking permit applications received, permits denied, and trees removed, compiled into an annual report submitted to the governing board by a specified deadline (e.g., March 1), prepared by a designated Tree Officer in conjunction with an advisory tree commission, and encompassing mitigation fund activity.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the statute designate a Tree Officer or similar official responsible for recordkeeping or reporting on tree removal permits issued?",
+        "Is there any provision in the statute establishing a Tree Bank Fund or similar mitigation fund that would require financial reporting or public disclosure?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 6.73,
-    "normalizedScore": 6.73,
-    "averageConfidence": 61,
-    "questionsAnswered": 5,
-    "totalQuestions": 8,
+    "overallScore": 6.4,
+    "normalizedScore": 6.4,
+    "averageConfidence": 65,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
+        0.55,
         1,
-        1,
-        0.1,
+        0.4,
         0.95,
-        0.1,
+        0,
+        0.35,
         0.85,
         0.65,
-        0.1
+        0
       ],
-      "averageQuestionScore": 0.59375,
-      "weightedScore": 0.6733,
-      "totalWeightedScore": 10.099999999999998,
+      "averageQuestionScore": 0.53,
+      "weightedScore": 0.64,
+      "totalWeightedScore": 9.600000000000001,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a Tree Removal Permit to remove a tree on your private property if it has a diameter at breast height (DBH) of 10 inches or greater. To apply, you must submit an application to the Approving Authority on prescribed forms available in the Village office. The Approving Authority, usually the Superintendent of Public Works/Village Engineer or their designee, reviews the application.",
-          "score": 1,
+          "score": 0.55,
           "weight": 1,
-          "weightedScore": 1,
+          "weightedScore": 0.55,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 72
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "Removing trees without a Tree Removal Permit can result in penalties including a fine of not less than $500 and not more than $750 per violation for the first offense. Each tree removed without a permit counts as a separate offense. For a second and each subsequent violation within a one-year period, fines range from $600 to $1,000, and may also include imprisonment for up to 15 days. Offenders may also be required to replant trees of similar DBH as those removed and may face additional legal actions or restrictions.",
           "score": 1,
           "weight": 2,
           "weightedScore": 2,
@@ -138,38 +186,38 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 20
+          "score": 0.4,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 85
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed. The statute requires planting native noninvasive trees as replacements, and it provides specific guidelines based on the diameter of the tree removed. Non-native species are not allowed as replacements.",
           "score": 0.95,
           "weight": 3,
-          "weightedScore": 2.8499999999999996,
+          "weightedScore": 2.85,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 10
+        },
+        {
+          "id": "5.1",
+          "score": 0.35,
+          "weight": 1,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 1,
+          "confidence": 62
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of preserving trees, which contribute to the tree canopy, by establishing standards to protect them, including detailing conditions under which tree removal is permitted and requiring replanting of trees to maintain the tree canopy.",
           "score": 0.85,
           "weight": 3,
           "weightedScore": 2.55,
@@ -178,8 +226,6 @@
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "You are responsible for pruning branches of trees or shrubs on your property that overhang public rights-of-way to ensure they do not obstruct streetlights, utilities, or traffic control devices. You must keep a clear space of at least eight feet above streets and sidewalks. You must also remove dead, diseased, or dangerous trees or limbs that pose a public safety hazard.",
           "score": 0.65,
           "weight": 2,
           "weightedScore": 1.3,
@@ -188,24 +234,21 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 20
+          "confidence": 15
         }
       ]
     }
   },
-  "overallScore": 6.73,
-  "averageConfidence": 61,
-  "questionsAnswered": 5,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:28:03.843Z",
+  "overallScore": 6.4,
+  "averageConfidence": 65,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:39:27.207Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 6.73,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.211Z"
+  "sources": []
 }

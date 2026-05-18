@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-SleepyHollow-Village-trees-1779068404369",
+  "entityId": "NY-SleepyHollow-Village",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-SleepyHollow-Village",
     "displayName": "Sleepy Hollow - Village"
   },
@@ -11,15 +14,20 @@
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a permit to remove a tree on your private property unless the tree is within 10 feet of a building, is smaller than eight inches DBH, is hazardous, dead, or is being removed as part of an approved site plan. You apply by submitting a written application on a prescribed form, available online or in person from the Building Department, and it should be accompanied by all applicable fees. The Tree Officer reviews the application. If you seek removal of more than three trees in a 365-day period, the Tree Commission will hold a hearing to review the application.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "A permit is required to remove trees on private property, with exceptions: trees within 10 feet of any building, trees smaller than 8 inches DBH, hazardous trees, dead trees, or trees on a Planning Board-approved site plan (§385-3).\n\n**Application (§385-8):** Submit a written form (available online or from the Building Department) with applicable fees. Required information includes: adjacent owner notice proof, number/type/height/DBH of trees, removal reasons, and tree locations. Removal of more than 10 trees requires contour maps.\n\n**Review Process (§385-9):** The Building Department refers completed applications to the Tree Officer within two days.\n- **3 or fewer trees:** Tree Officer decides within 30 days.\n- **More than 3 trees in 365 days:** Tree Commission holds a public hearing within 30 days; decision issued within 60 days.\n\nThe Tree Officer inspects the property prior to any decision. Permits for dead, hazardous, or invasive species trees are issued within 5 days.\n\n**Fees:** The statute references \"applicable fees\" accompanying the application but does not specify fee amounts per tree in the provided sources.",
+      "confidence": 82,
       "sourceRefs": [
-        "§ 385-3",
-        "§ 385-8",
-        "§ 385-9"
+        "§385-3",
+        "§385-8",
+        "§385-9"
       ],
-      "score": 1
+      "gap": "The statute does not specify a minimum DBH threshold as high as 18 inches (only 8 inches), and no fee schedule per tree is provided. The statute also lacks explicit provisions for landmark/specimen tree designations triggering permits or scenic road/slope overlays.",
+      "score": 0.65,
+      "nextPrompts": [
+        "What is the complete fee schedule for tree removal permit applications, including per-tree costs?",
+        "Are there any special protections or permit requirements for specimen trees or trees in environmentally sensitive areas such as steep slopes?"
+      ]
     },
     {
       "id": 2,
@@ -33,12 +41,19 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a clear fee schedule to the statute that specifies the cost for removing each tree without a replacement, including payment options, potential exemptions for certain cases, and provisions to ensure the fee covers administrative costs associated with enforcement and processing."
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "Per § 385-3, a tree removal permit is NOT required for the following:\n\n1. Any tree within 10 feet of any front, side, or back of any building (as determined by the Tree Officer)\n2. Any tree smaller than 8 inches DBH (as determined by the Tree Officer)\n3. A hazardous tree (as determined by the Tree Officer) — and such trees must be immediately removed by the property owner\n4. A dead tree (as determined by the Tree Officer)\n5. Any tree being removed as shown on a site plan approved by the Planning Board\n\nNotably, there are no exemptions based on native vs. non-native species status. The statute does not distinguish between invasive, non-native, or native trees for permit exemption purposes.",
+      "confidence": 95,
+      "sourceRefs": [
+        "§ 385-3",
+        "§ 385-2"
+      ],
+      "gap": "The statute lacks exemptions or reduced replacement obligations for invasive/non-native species, does not reference NYS DEC protected native plant designations, and does not require ISA-certified arborist written certification prior to removal of hazardous trees. There is no differentiation between native and non-native species in the permit framework.",
+      "score": 0.45,
+      "nextPrompts": [
+        "Does the statute specify any different replacement requirements when invasive or non-native species are removed?",
+        "Are there any provisions referencing NYS DEC protected plant designations or native species protections in the broader municipal code?"
+      ]
     },
     {
       "id": 4,
@@ -53,14 +68,35 @@
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "You must notify land owners adjacent to and across the street from the property on which the trees are located when applying for a tree removal permit.",
-      "confidence": 85,
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "Per § 385-9, when an applicant seeks removal of more than three trees in any 365-day period, the Tree Officer must publish notice of the public hearing on the Village website not less than seven days prior to the hearing date. The landowners adjacent to and across the street from the property are entitled to be heard at the public hearing. The applicant is advised in writing of the hearing date and time. No specific count of neighbors to be notified is stated beyond 'adjacent to and across the street from the property.' For removals of three or fewer trees, no neighbor notification process is specified in the provided sources.",
+      "confidence": 72,
       "sourceRefs": [
-        "§ 385-8"
+        "§ 385-9(B)(1)(c)",
+        "§ 385-9(B)(2)"
       ],
-      "score": 0.6,
-      "gap": "Consider adding specific requirements for the timing of notifications, such as a minimum number of days before the tree removal permit application is submitted, to ensure neighbors have adequate time to respond or raise concerns."
+      "gap": "The statute does not require certified mail notification to neighbors, does not specify a distance radius (e.g., 300 feet) for notification, does not mandate a minimum 15-day notice period to neighbors, and does not require on-site posting of a permit sign before removal begins. Notification is limited to website publication and hearing rights for adjacent/across-street owners only.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Does the statute require any on-site posting or signage before tree removal begins?",
+        "Are there any additional notification requirements specified elsewhere in the municipal code beyond § 385-9?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement officer is the Tree Officer, who is required to be a certified arborist. Per § 385-6, the Village was required to hire a certified arborist to serve as Tree Officer on or before January 1, 2022. The Tree Officer's enforcement responsibilities include reviewing tree removal permit applications and inspecting trees to determine whether a permit is required. The Tree Officer also sits as a member of the five-person Tree Commission (§ 385-5).",
+      "confidence": 97,
+      "sourceRefs": [
+        "§ 385-6",
+        "§ 385-5"
+      ],
+      "gap": "The answer does not address whether the Tree Officer can retain additional ISA-certified arborist consultants for technical determinations or cost recovery from applicants, nor does it clarify the Tree Commission members' qualifications in arboriculture or related fields.",
+      "score": 0.82,
+      "nextPrompts": [
+        "Can the Tree Officer retain outside arborist consultants at applicant expense?",
+        "What are the required qualifications for Tree Commission members?"
+      ]
     },
     {
       "id": 6,
@@ -97,41 +133,38 @@
     }
   ],
   "scores": {
-    "overallScore": 7.87,
-    "normalizedScore": 7.87,
-    "averageConfidence": 77,
-    "questionsAnswered": 7,
-    "totalQuestions": 8,
+    "overallScore": 7.91,
+    "normalizedScore": 7.91,
+    "averageConfidence": 86,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
+        0.65,
         1,
+        0.45,
         1,
-        0.1,
-        1,
-        0.6,
+        0.3,
+        0.82,
         0.7,
         0.85,
         0.65
       ],
-      "averageQuestionScore": 0.7375,
-      "weightedScore": 0.7867,
-      "totalWeightedScore": 11.799999999999999,
+      "averageQuestionScore": 0.71,
+      "weightedScore": 0.7913,
+      "totalWeightedScore": 11.870000000000001,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a permit to remove a tree on your private property unless the tree is within 10 feet of a building, is smaller than eight inches DBH, is hazardous, dead, or is being removed as part of an approved site plan. You apply by submitting a written application on a prescribed form, available online or in person from the Building Department, and it should be accompanied by all applicable fees. The Tree Officer reviews the application. If you seek removal of more than three trees in a 365-day period, the Tree Commission will hold a hearing to review the application.",
-          "score": 1,
+          "score": 0.65,
           "weight": 1,
-          "weightedScore": 1,
+          "weightedScore": 0.65,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 82
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "The penalties for removing trees without a permit include a criminal offense with a fine up to $2,000 and/or replacement of any trees destroyed, imprisonment for up to 15 days, and each tree's destruction or injury is deemed a separate offense. Additionally, a civil penalty of $2,000 per day, per tree, and/or replacement of any trees destroyed can be enforced and collected by the Village.",
           "score": 1,
           "weight": 2,
           "weightedScore": 2,
@@ -140,18 +173,14 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 20
+          "score": 0.45,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 95
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees as replacements for those removed. Trees removed from private property that required a permit must be replaced with two trees either on the same property or in a location determined by the Tree Officer. While the statute does not explicitly state the prohibition on non-native species as replacements, it requires consideration for replacing trees that will be similar in height and canopy potential to those removed. However, the planting of any species classified as prohibited invasive species by New York state is explicitly prohibited.",
           "score": 1,
           "weight": 3,
           "weightedScore": 3,
@@ -160,28 +189,30 @@
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "You must notify land owners adjacent to and across the street from the property on which the trees are located when applying for a tree removal permit.",
-          "score": 0.6,
+          "score": 0.3,
           "weight": 1,
-          "weightedScore": 0.6,
+          "weightedScore": 0.3,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 72
+        },
+        {
+          "id": "5.1",
+          "score": 0.82,
+          "weight": 1,
+          "weightedScore": 0.82,
+          "maxWeightedScore": 1,
+          "confidence": 97
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of maintaining a healthy tree canopy. It states that trees and their canopies act as infrastructure, providing numerous environmental benefits such as a natural noise barrier, oxygen production, soil erosion control, and species diversity. The intent of the chapter is to regulate the quantity, quality, and distribution of trees to promote stewardship of the full Village tree canopy and enhance the urban forest.",
           "score": 0.7,
           "weight": 3,
-          "weightedScore": 2.0999999999999996,
+          "weightedScore": 2.1,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "You are responsible for keeping the trees on your property pruned so that branches projecting over a public street or sidewalk are not less than 15 feet from ground level. Trees should also be pruned to prevent obstruction of traffic signs, streetlights, or traffic signals, and to not interfere with public sewers, water lines, or utility distribution lines. If you fail to meet these responsibilities, the Village has the right to prune or remove the trees and assess the cost against you.",
           "score": 0.85,
           "weight": 2,
           "weightedScore": 1.7,
@@ -190,8 +221,6 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Yes, the statute requires the Tree Officer to prepare an annual report, in conjunction with the Tree Commission, which includes the number of applications received for tree removal permits, the number of denials, and the number of trees removed in the Village within a calendar year. This report is submitted to the Board of Trustees by March 1 each year.",
           "score": 0.65,
           "weight": 2,
           "weightedScore": 1.3,
@@ -201,13 +230,17 @@
       ]
     }
   },
-  "overallScore": 7.87,
-  "averageConfidence": 77,
-  "questionsAnswered": 7,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:28:59.323Z",
+  "overallScore": 7.91,
+  "averageConfidence": 86,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:40:04.369Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 7.87,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.214Z"
+  "sources": [
+    {
+      "url": "https://sustainablesleepyhollow.org/2024/02/09/save-the-date-route-9-complete-streets-public-workshop-march-7th-from-6-8-pm",
+      "title": "Save the Date: Route 9 Complete Streets Public Workshop, March 7th from 6-8 pm – Sustainable Sleepy Hollow"
+    }
+  ]
 }

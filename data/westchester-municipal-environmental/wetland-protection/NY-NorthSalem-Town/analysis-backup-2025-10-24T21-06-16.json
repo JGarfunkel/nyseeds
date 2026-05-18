@@ -1,0 +1,26 @@
+{
+  "municipality": "North Salem - Town",
+  "domain": "Wetland Protection",
+  "grade": null,
+  "gradeColor": "#6b7280",
+  "lastUpdated": "2025-08-14T15:04:09.044Z",
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 0,
+    "scoreBreakdown": {
+      "questionScores": [],
+      "averageQuestionScore": 0,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
+      "totalPossibleWeight": 0,
+      "questionsWithScores": []
+    }
+  },
+  "overallScore": 0,
+  "normalizedScore": 0,
+  "scoresUpdatedAt": "2025-10-10T17:19:07.246Z",
+  "questions": []
+}

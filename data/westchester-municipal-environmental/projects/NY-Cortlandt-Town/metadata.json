@@ -1,0 +1,19 @@
+{
+  "entityId": "NY-Cortlandt-Town",
+  "domainId": "projects",
+  "domain": "projects",
+  "homePage": "https://www.townofcortlandt.com/",
+  "metadataCreated": "2026-05-03T04:08:13.808Z",
+  "stateCodeApplies": false,
+  "sources": [
+    {
+      "sourceUrl": "https://www.townofcortlandt.com/documents/Planning/CAC/cacfsheet.pdf",
+      "downloadedAt": "2026-05-06T13:57:02.199Z",
+      "title": "cacfsheet.pdf",
+      "type": "form",
+      "downloadedFilename": "NY-Cortlandt-Town/cacfsheet.txt"
+    }
+  ],
+  "municipality": "Cortlandt",
+  "municipalityType": "Town"
+}

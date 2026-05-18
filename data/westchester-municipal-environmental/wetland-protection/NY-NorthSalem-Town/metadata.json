@@ -2,5 +2,10 @@
   "municipalityName": "North Salem",
   "municipalityType": "Town",
   "domain": "Wetland Protection",
-  "sources": []
+  "sources": [],
+  "entityId": "NY-NorthSalem-Town",
+  "domainId": "wetland-protection",
+  "homePage": "https://www.northsalemny.gov/",
+  "metadataCreated": "2026-05-06T20:02:05.615Z",
+  "municipality": "North Salem"
 }

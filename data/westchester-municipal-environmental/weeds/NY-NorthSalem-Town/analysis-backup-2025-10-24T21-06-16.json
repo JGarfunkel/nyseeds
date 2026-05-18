@@ -1,0 +1,150 @@
+{
+  "municipality": {
+    "id": "NY-NorthSalem-Town",
+    "displayName": "North Salem - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "The statute requires properties in North Salem to be clean, properly maintained, and free from vermin, nuisances, hazards, debris, and litter for the health, safety, appearance, and general welfare of the residents. However, it does not specify requirements specifically for weeds.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 171-1"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding specific language to the statute that mandates regular trimming or removal of weeds to prevent them from exceeding a certain height, thereby ensuring properties are not only free from general nuisances but also specifically address the issue of overgrown weeds."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, defining clear criteria such as plant species, maintenance standards, and designated areas to ensure they are distinguishable from unmanaged weed growth."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the statute includes responsibilities for offenses affecting public streets or other public properties, requiring removal when ordered by the Building Inspector.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 171-2B"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding specific guidelines and standards for property owners regarding the maintenance of areas extending to the curb, including clear definitions of responsibilities, timelines for compliance, and penalties for non-compliance to ensure consistent enforcement and clarity."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Penalties for failing to comply with property maintenance regulations include a fine of not less than $250 to a maximum of $500 for the first offense. A second offense within 18 months leads to a fine of $500 to $1,000. A third offense within 18 months results in a fine of $2,500 to $5,000, and any further offenses within 18 months incur a fine of $5,000 to $7,500.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 171-3A"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding specific enforcement mechanisms, such as timelines for compliance after a violation is identified, to ensure timely rectification and clarity in the enforcement process."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The timeline for resolving a property maintenance violation is 30 days from the service of the written notice of violation.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 171-2A",
+        "§ 171-2B"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding specific details about the fine amounts for unresolved violations, escalation procedures for repeat offenses, and clear enforcement mechanisms to strengthen the statute's effectiveness and clarity."
+    }
+  ],
+  "scores": {
+    "overallScore": 4,
+    "normalizedScore": 4,
+    "averageConfidence": 72,
+    "questionsAnswered": 4,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.1,
+        0.5,
+        0.75,
+        0.85
+      ],
+      "averageQuestionScore": 0.45999999999999996,
+      "weightedScore": 0.4,
+      "totalWeightedScore": 2.4,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "The statute requires properties in North Salem to be clean, properly maintained, and free from vermin, nuisances, hazards, debris, and litter for the health, safety, appearance, and general welfare of the residents. However, it does not specify requirements specifically for weeds.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "Yes, the statute includes responsibilities for offenses affecting public streets or other public properties, requiring removal when ordered by the Building Inspector.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "Penalties for failing to comply with property maintenance regulations include a fine of not less than $250 to a maximum of $500 for the first offense. A second offense within 18 months leads to a fine of $500 to $1,000. A third offense within 18 months results in a fine of $2,500 to $5,000, and any further offenses within 18 months incur a fine of $5,000 to $7,500.",
+          "score": 0.75,
+          "weight": 1,
+          "weightedScore": 0.75,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "The timeline for resolving a property maintenance violation is 30 days from the service of the written notice of violation.",
+          "score": 0.85,
+          "weight": 1,
+          "weightedScore": 0.85,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 4,
+  "averageConfidence": 72,
+  "questionsAnswered": 4,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:48:04.746Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.537Z"
+}

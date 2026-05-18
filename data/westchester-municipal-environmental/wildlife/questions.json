@@ -1,0 +1,87 @@
+{
+  "domain": "wildlife",
+  "generatedAt": "2026-05-03T04:53:42.778Z",
+  "description": "Wildlife protection, habitat conservation, and biodiversity regulations",
+  "questions": [
+    {
+      "id": 1,
+      "domainId": "wildlife",
+      "title": "What wildlife protection and habitat conservation regulations apply in this area, and how are they enforced?",
+      "category": "Legal Rules",
+      "question": "What wildlife protection and habitat conservation regulations apply in this area, and how are they enforced?",
+      "scoreInstructions": "Score higher for clear identification of relevant laws, agencies, permits, penalties, and enforcement mechanisms.",
+      "order": "1",
+      "weight": 1
+    },
+    {
+      "id": 2,
+      "domainId": "wildlife",
+      "title": "Are there designated protected habitats, reserves, or conservation areas, and what activities are restricted there?",
+      "category": "Protected Areas",
+      "question": "Are there designated protected habitats, reserves, or conservation areas, and what activities are restricted there?",
+      "scoreInstructions": "Score higher for specific protected sites, boundaries, restriction types, and management rules.",
+      "order": "2",
+      "weight": 0.95
+    },
+    {
+      "id": 3,
+      "domainId": "wildlife",
+      "title": "Are any wildlife corridors identified, protected, or required in planning, and how are they maintained?",
+      "category": "Wildlife Corridors",
+      "question": "Are any wildlife corridors identified, protected, or required in planning, and how are they maintained?",
+      "scoreInstructions": "Score higher for named corridors, legal status, connectivity measures, and maintenance responsibilities.",
+      "order": "3",
+      "weight": 0.9
+    },
+    {
+      "id": 4,
+      "domainId": "wildlife",
+      "title": "Are there specific protections for amphibians, such as breeding-site safeguards, seasonal restrictions, or migration measures?",
+      "category": "Amphibians",
+      "question": "Are there specific protections for amphibians, such as breeding-site safeguards, seasonal restrictions, or migration measures?",
+      "scoreInstructions": "Score higher for explicit amphibian protections tied to habitat, timing, and compliance requirements.",
+      "order": "4",
+      "weight": 0.8
+    },
+    {
+      "id": 5,
+      "domainId": "wildlife",
+      "title": "Are there specific protections for birds, including nesting, roosting, migration, or disturbance limits?",
+      "category": "Birds",
+      "question": "Are there specific protections for birds, including nesting, roosting, migration, or disturbance limits?",
+      "scoreInstructions": "Score higher for detailed bird protections, especially nesting season rules and disturbance controls.",
+      "order": "5",
+      "weight": 0.8
+    },
+    {
+      "id": 6,
+      "domainId": "wildlife",
+      "title": "Are there specific protections for turtles, such as nesting beach protections, road-crossing measures, or harvest bans?",
+      "category": "Turtles",
+      "question": "Are there specific protections for turtles, such as nesting beach protections, road-crossing measures, or harvest bans?",
+      "scoreInstructions": "Score higher for concrete turtle protections, habitat safeguards, and seasonal or spatial restrictions.",
+      "order": "6",
+      "weight": 0.8
+    },
+    {
+      "id": 7,
+      "domainId": "wildlife",
+      "title": "What biodiversity conservation requirements exist for development, land use, or resource projects in this area?",
+      "category": "Biodiversity",
+      "question": "What biodiversity conservation requirements exist for development, land use, or resource projects in this area?",
+      "scoreInstructions": "Score higher for requirements like impact assessments, mitigation hierarchy, offsets, monitoring, and restoration.",
+      "order": "7",
+      "weight": 0.9
+    },
+    {
+      "id": 8,
+      "domainId": "wildlife",
+      "title": "How are habitat loss, fragmentation, and degradation assessed and minimized before project approval?",
+      "category": "Habitat Impact",
+      "question": "How are habitat loss, fragmentation, and degradation assessed and minimized before project approval?",
+      "scoreInstructions": "Score higher for clear assessment methods, avoidance-first measures, mitigation, and measurable thresholds.",
+      "order": "8",
+      "weight": 0.85
+    }
+  ]
+}

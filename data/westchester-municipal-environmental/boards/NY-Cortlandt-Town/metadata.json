@@ -1,0 +1,12 @@
+{
+  "entityId": "NY-Cortlandt-Town",
+  "domainId": "boards",
+  "domain": "boards",
+  "homePage": "https://www.townofcortlandt.com/",
+  "metadataCreated": "2026-05-03T04:08:23.674Z",
+  "stateCodeApplies": false,
+  "sources": [],
+  "municipality": "Cortlandt",
+  "municipalityType": "Town",
+  "statuteNumber": "Chapter 15"
+}

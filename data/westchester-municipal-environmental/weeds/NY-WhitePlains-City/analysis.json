@@ -1,4 +1,5 @@
 {
+  "id": "NY-WhitePlains-City-weeds-1778856984136",
   "municipality": {
     "id": "NY-WhitePlains-City",
     "displayName": "Unknown - City"
@@ -53,7 +54,7 @@
       "gap": "Consider adding specific guidelines for the maintenance of vegetation, debris removal, and snow clearance in the areas beyond the property lot lines to ensure clarity and consistency in enforcement."
     }
   ],
-  "lastUpdated": "2025-09-03T00:29:40.755Z",
+  "lastUpdated": "2026-05-15T14:56:24.136Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "scores": {
@@ -130,5 +131,6 @@
   },
   "overallScore": 6.75,
   "normalizedScore": 6.75,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.567Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.567Z",
+  "domainId": "weeds"
 }

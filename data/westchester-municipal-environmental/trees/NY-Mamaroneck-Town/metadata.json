@@ -10,11 +10,22 @@
   "statuteNumber": "Chapter 207",
   "sources": [
     {
+      "sourceUrl": "https://www.townofmamaroneckny.org/738/Tree-Permits",
+      "downloadedAt": "2026-05-15T18:58:11.232Z",
+      "title": "Trees",
+      "type": "form",
+      "downloadedFilename": "NY-Mamaroneck-Town/tree-permits.txt",
+      "contentLength": 178352
+    },
+    {
       "downloadedAt": "2025-09-05T16:40:41.914Z",
       "contentLength": 34878,
       "sourceUrl": "https://ecode360.com/9160516",
       "title": "Trees",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Mamaroneck-Town",
+  "homePage": "https://www.townofmamaroneckny.org",
+  "isArticleBased": false
 }

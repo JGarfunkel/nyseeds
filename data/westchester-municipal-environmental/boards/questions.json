@@ -1,0 +1,77 @@
+{
+  "domain": "boards",
+  "generatedAt": "2026-05-03T03:08:21.878Z",
+  "description": "Governance structure, authority, public access, and decision-making for boards and committees",
+  "questions": [
+    {
+      "id": 1,
+      "domainId": "boards",
+      "title": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
+      "category": "Board Makeup",
+      "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
+      "scoreInstructions": "Higher scores if the page clearly states total authorized seats, current members, and vacancies with current dates.",
+      "order": "1",
+      "weight": 0.1
+    },
+    {
+      "id": 2,
+      "domainId": "boards",
+      "title": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
+      "category": "Member Terms",
+      "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
+      "scoreInstructions": "Score higher when each member’s role, appointment basis, and term dates are easy to find and current.",
+      "order": "2",
+      "weight": 0.3
+    },
+    {
+      "id": 3,
+      "domainId": "boards",
+      "title": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
+      "category": "Meeting Notice",
+      "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
+      "scoreInstructions": "Higher scores if notices are prominent, complete, and posted far enough in advance to be useful.",
+      "order": "3",
+      "weight": 0.5
+    },
+    {
+      "id": 4,
+      "domainId": "boards",
+      "title": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
+      "category": "Agendas Access",
+      "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
+      "scoreInstructions": "Score higher when agendas are discoverable within a few clicks and posted before the meeting date.",
+      "order": "4",
+      "weight": 0.3
+    },
+    {
+      "id": 5,
+      "domainId": "boards",
+      "title": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
+      "category": "Minutes Access",
+      "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
+      "scoreInstructions": "Higher scores if minutes are complete, dated, and posted soon after approval or meeting close.",
+      "order": "5",
+      "weight": 0.3
+    },
+    {
+      "id": 6,
+      "domainId": "boards",
+      "title": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
+      "category": "Work Status",
+      "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
+      "scoreInstructions": "Higher scores if the page clearly communicates active initiatives, status, and recent actions.",
+      "order": "6",
+      "weight": 0.8
+    },
+    {
+      "id": 7,
+      "domainId": "boards",
+      "title": "Does the website provide clear, timely guidance for common user questions about meetings, agendas, minutes, or contacting the board?",
+      "category": "Public Help",
+      "question": "Does the website provide clear, timely guidance for common user questions about meetings, agendas, minutes, or contacting the board?",
+      "scoreInstructions": "Score higher when FAQs, contact info, and next-step guidance are easy to find and specific enough to help users quickly.",
+      "order": "7",
+      "weight": 0.8
+    }
+  ]
+}

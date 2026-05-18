@@ -10,11 +10,35 @@
   "statuteNumber": "Chapter 301",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:39:00.415Z",
-      "contentLength": 40405,
+      "downloadedAt": "2026-05-17T19:59:55.544Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/6737926#6737926",
+      "title": "Article III",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T19:59:55.544Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/6737885#6737885",
+      "title": "Article II",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T19:59:55.544Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/6737882#6737882",
+      "title": "Article I",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-15T18:59:05.657Z",
+      "contentLength": 67689,
       "sourceUrl": "https://ecode360.com/6737881",
       "title": "Trees and Shrubs",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-NewRochelle-City",
+  "homePage": "",
+  "isArticleBased": true
 }

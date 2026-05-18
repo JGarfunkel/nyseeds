@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-NewRochelle-City-trees-1779068114720",
+  "entityId": "NY-NewRochelle-City",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-NewRochelle-City",
     "displayName": "New Rochelle - City"
   },
@@ -7,21 +10,22 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you do need a Tree Removal Permit to remove a tree on private property if the property is one acre or more or if it's an unimproved lot less than one acre with more than three trees removed in a 12-month period. To apply, you need to submit a request to the New Rochelle Bureau of Buildings on the provided forms. The Planning Board reviews applications related to subdivisions and site plans, while the Building Official handles all other applications.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Under Chapter 301, a permit is required to remove trees on private property. Applications must be submitted to the Building Official, who is responsible for reviewing and granting tree removal permits. The statute does not specify detailed application requirements (such as forms or documentation needed) or fee amounts for each tree removed. The Building Official has authority to approve or deny the permit. Notably, once a permit is granted, the applicant must notify all abutting property owners prior to removal (covered separately in Q5). Violations of the permit requirement can result in fines up to $1,000 or imprisonment (covered in Q2).",
+      "confidence": 52,
       "sourceRefs": [
-        "§ 301-21",
-        "§ 301-22"
+        "Chapter 301 Trees and Shrubs"
       ],
-      "score": 0.85,
-      "gap": "Consider adding detailed timelines for the application review process and decision-making to provide clarity on how long applicants should expect to wait for a permit decision."
+      "gap": "Significant gaps exist compared to best practices: the statute does not specify a diameter threshold (e.g., 18 inches DBH) triggering permit requirements, does not detail the application process or required documentation, does not establish permit fees per tree, does not identify exceptions for limited removal without a permit, and does not reference review by a Planning Board or Enforcement Officer beyond the Building Official.",
+      "score": 0.25,
+      "nextPrompts": [
+        "Are there any size thresholds (e.g., diameter at breast height) or tree categories that determine when a removal permit is required under Chapter 301?",
+        "Does the municipality have a separate fee schedule or administrative regulation establishing permit fees for tree removal on private property?"
+      ]
     },
     {
       "id": 2,
@@ -36,14 +40,18 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies one notable exemption from the permit requirement: trees may be removed **upon order of the Commissioner of the Department of Public Works** without a separate written permit (§ 301, public highway/public place trees). Additionally, the Planning Board and Building Official have authority to determine which trees 'substantially interfere' with proposed construction or development, effectively exempting such trees from standard replacement constraints on a case-by-case basis. No explicit exemptions based on tree size (DBH thresholds), species origin (native vs. non-native), health/hazard status, or location type are specified in the provided sources.",
+      "confidence": 52,
       "sourceRefs": [
-        "§ 301-24"
+        "https://ecode360.com/6737926#6737926"
       ],
+      "gap": "Significant gaps exist compared to best practices. The statute lacks: (1) DBH-based size thresholds triggering permit requirements, (2) exemptions or reduced replacement obligations for invasive/non-native species, (3) hazardous/dead tree exemptions with arborist certification requirements, (4) native species protections referencing NYS DEC designations, and (5) any ISA-certified arborist involvement in exemption determinations.",
       "score": 0.1,
-      "gap": "Consider adding a clear fee schedule to the statute that specifies the cost for removing each tree without a replacement, including payment options, potential exemptions for certain cases, and provisions to ensure the fee covers administrative costs associated with enforcement and processing."
+      "nextPrompts": [
+        "Does the statute or any referenced administrative rules define a minimum tree size (DBH) below which no permit is required for removal?",
+        "Are there any provisions addressing hazardous, dead, or diseased trees that allow expedited or permit-free removal?"
+      ]
     },
     {
       "id": 4,
@@ -58,14 +66,33 @@
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "If you apply for a tree removal permit that is granted by the Building Official, you must notify all abutting property owners by certified mail, return receipt requested, at least 15 days before a decision may be rendered on the application.",
-      "confidence": 85,
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "For tree removal permits granted by the Building Official, the applicant must notify all **abutting property owners** by **certified mail, return receipt requested**, at least **15 days** before a decision may be rendered. All post office receipts must be returned to the Building Official prior to the decision. For permits granted by the Planning Board (in conjunction with subdivision or site plan approval), the applicant must comply with the public notification requirements of § A361-4 (Land Development) or § 331-121 (Zoning). The statute specifies notification to abutting property owners only, without specifying a broader distance radius or a minimum count of neighbors.",
+      "confidence": 88,
       "sourceRefs": [
-        "§ 301-22"
+        "https://ecode360.com/6737926#6737926"
       ],
-      "score": 0.3,
-      "gap": "Consider adding a requirement to notify neighbors within a specific distance beyond just abutting properties, as well as clarifying the method of notification for those who may not have a mailing address, to ensure all potentially affected parties are adequately informed."
+      "gap": "The statute only requires notification to directly abutting property owners, with no requirement for notifying owners within a broader distance (e.g., 300 feet). There is also no requirement for on-site posting of a permit sign visible from the street prior to tree removal beginning.",
+      "score": 0.55,
+      "nextPrompts": [
+        "Does New Rochelle's zoning code (§ 331-121) or land development code (§ A361-4) require notification to property owners beyond abutting parcels, such as within 300 feet?",
+        "Is there any requirement in New Rochelle's code for posting a visible permit sign on the property prior to tree removal?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement officer identified in the statute is the **Building Official**. The statute does not specify that this officer is a trained arborist or environmental professional. The Building Official is a standard municipal code enforcement role, not described with any arboricultural or environmental credentials in the provided sources.",
+      "confidence": 72,
+      "sourceRefs": [
+        "Chapter 301 Trees and Shrubs"
+      ],
+      "gap": "The answer correctly identifies the Building Official but does not address whether the municipality requires consultation with an ISA-Certified Arborist or has a Tree Commission/advisory body with arboricultural expertise to supplement the enforcement officer's lack of specialized credentials.",
+      "score": 0.35,
+      "nextPrompts": [
+        "Does the municipality require ISA-certified arborist consultation for tree removal decisions?",
+        "Is there a Tree Commission or advisory committee with arboricultural expertise in this municipality?"
+      ]
     },
     {
       "id": 6,
@@ -81,60 +108,67 @@
     {
       "id": 8,
       "question": "What are my responsibilities for maintaining trees on my property?",
-      "answer": "The statute does not specify responsibilities for maintaining trees on private property within the reviewed sections, except for when trees pose a danger or interfere with construction, where removal is regulated. However, general responsibilities for trees on public property include trimming them under the supervision of the Department of Public Works if they overhang public spaces.",
-      "confidence": 85,
+      "answer": "Property owners in New Rochelle have the following tree maintenance responsibilities:\n\n**Trimming Requirements:** Trees, bushes, or vegetation on lots adjacent to public highways must be kept trimmed so that the lowest branches are no less than **7 feet in height**. Bushes and vegetation must not exceed **3 feet in height**. If an owner neglects to trim after written notice from the Commissioner of Public Works, the City may perform the work and charge the owner.\n\n**Prohibited Tree Species:** Owners must remove poplar, box elder, bass wood, willow, or evergreen trees whose roots penetrate public highways or public places, within 20 days of receiving notice. Failure to comply allows the Commissioner to enter the property and remove the trees, with costs billed to the owner.\n\n**Planting Restrictions:** No tree may be planted closer than one foot from the curbline without a special permit, and only Commissioner-approved varieties may be planted on streets.\n\n**Bond Requirements:** For subdivisions or site plans, applicants must post a performance and maintenance bond to guarantee tree planting and maintenance for five years per approved plans.",
+      "confidence": 82,
       "sourceRefs": [
-        "§ 301-12"
+        "https://ecode360.com/6737926#6737926"
       ],
-      "score": 0.1,
-      "gap": "Consider adding specific guidelines for property owners regarding regular inspection schedules, care standards, and hazard management responsibilities for trees on private property to ensure safety and compliance with municipal regulations."
+      "gap": "The statute specifies a 7-foot minimum branch height over public areas, but does not match best practice standards of 15 feet over roads and 9 feet over sidewalks. There is no explicit mandate for prompt removal of dead or hazardous trees by private owners, nor specific restoration/replanting requirements after unpermitted removal.",
+      "score": 0.45,
+      "nextPrompts": [
+        "Does the statute specify any height clearance requirements for trees overhanging roads versus sidewalks beyond the 7-foot minimum?",
+        "Are there any provisions requiring property owners to address dead, diseased, or hazardous trees on private property proactively?"
+      ]
     },
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to collect detailed data on all tree removals, including location, species, reason for removal, and replacement plans, and to compile this information into an annual public report to enhance transparency and accountability."
+      "answer": "Not specified in the provided sources. The statute addresses permit requirements for tree removal and replacement obligations, but contains no provisions requiring systematic data collection on tree removals or the preparation and presentation of a public report summarizing removal activity.",
+      "confidence": 82,
+      "sourceRefs": [
+        "https://ecode360.com/6737926#6737926"
+      ],
+      "gap": "Significant gap: The statute contains no requirement for data collection on tree removals, no annual reporting mandate, no designated official responsible for compiling such data, and no public-facing report requirement. This falls well short of best practices, which call for annual reports submitted to a governing board by a specified deadline, tracking permit applications received, permits denied, trees removed, and any associated mitigation fund activity.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does the municipality have any administrative rules, departmental policies, or resolutions outside the tree statute that require tracking or reporting on tree removal permits?",
+        "Is there a Tree Officer, Tree Commission, or equivalent body established elsewhere in the municipal code that may have reporting responsibilities related to urban forestry?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 4.5,
-    "normalizedScore": 4.5,
-    "averageConfidence": 69,
-    "questionsAnswered": 6,
-    "totalQuestions": 8,
+    "overallScore": 4.83,
+    "normalizedScore": 4.83,
+    "averageConfidence": 76,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        0.85,
+        0.25,
         0.3,
         0.1,
         0.95,
-        0.3,
         0.55,
-        0.1,
-        0.1
+        0.35,
+        0.55,
+        0.45,
+        0.05
       ],
-      "averageQuestionScore": 0.40625,
-      "weightedScore": 0.45,
-      "totalWeightedScore": 6.75,
+      "averageQuestionScore": 0.39,
+      "weightedScore": 0.4833,
+      "totalWeightedScore": 7.25,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you do need a Tree Removal Permit to remove a tree on private property if the property is one acre or more or if it's an unimproved lot less than one acre with more than three trees removed in a 12-month period. To apply, you need to submit a request to the New Rochelle Bureau of Buildings on the provided forms. The Planning Board reviews applications related to subdivisions and site plans, while the Building Official handles all other applications.",
-          "score": 0.85,
+          "score": 0.25,
           "weight": 1,
-          "weightedScore": 0.85,
+          "weightedScore": 0.25,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 52
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "If you remove trees without a permit, you may be fined up to $1,000, or face imprisonment for up to 15 days, or both. Additionally, you will be required to replace each removed tree in kind or pay a fee in lieu of replacement. Until these conditions are met, no building permits or certificates of occupancy will be issued for new construction on the property.",
           "score": 0.3,
           "weight": 2,
           "weightedScore": 0.6,
@@ -143,74 +177,69 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 20
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 52
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed. The replacement trees must come from the official list of acceptable trees issued by the Commissioner of Public Works, so non-native species not on the list are not allowed. If replanting is technically impractical or impossible, you can pay a fee to the City Tree Fund instead.",
           "score": 0.95,
           "weight": 3,
-          "weightedScore": 2.8499999999999996,
+          "weightedScore": 2.85,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "If you apply for a tree removal permit that is granted by the Building Official, you must notify all abutting property owners by certified mail, return receipt requested, at least 15 days before a decision may be rendered on the application.",
-          "score": 0.3,
+          "score": 0.55,
           "weight": 1,
-          "weightedScore": 0.3,
+          "weightedScore": 0.55,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 88
+        },
+        {
+          "id": "5.1",
+          "score": 0.35,
+          "weight": 1,
+          "weightedScore": 0.35,
+          "maxWeightedScore": 1,
+          "confidence": 72
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code acknowledges the importance of trees for the community's health, safety, and welfare. Trees provide shade, reduce air conditioning needs, absorb air pollution, and provide oxygen, among other benefits, which points to the importance of maintaining a healthy tree canopy.",
           "score": 0.55,
           "weight": 3,
-          "weightedScore": 1.6500000000000001,
+          "weightedScore": 1.65,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "The statute does not specify responsibilities for maintaining trees on private property within the reviewed sections, except for when trees pose a danger or interfere with construction, where removal is regulated. However, general responsibilities for trees on public property include trimming them under the supervision of the Department of Public Works if they overhang public spaces.",
-          "score": 0.1,
+          "score": 0.45,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0.9,
           "maxWeightedScore": 2,
-          "confidence": 85
+          "confidence": 82
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0.1,
           "maxWeightedScore": 2,
-          "confidence": 20
+          "confidence": 82
         }
       ]
     }
   },
-  "overallScore": 4.5,
-  "averageConfidence": 69,
-  "questionsAnswered": 6,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:24:35.657Z",
+  "overallScore": 4.83,
+  "averageConfidence": 76,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:35:14.720Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 4.5,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.196Z"
+  "sources": []
 }

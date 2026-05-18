@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Pleasantville-Village-wetland-protection-1778621099763",
+  "entityId": "NY-Pleasantville-Village",
+  "domainId": "wetland-protection",
+  "entity": {
     "id": "NY-Pleasantville-Village",
     "displayName": "Pleasantville - Village"
   },
@@ -7,9 +10,7 @@
     "id": "wetland-protection",
     "displayName": "Wetland Protection"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 3,
@@ -180,9 +181,7 @@
   "averageConfidence": 53,
   "questionsAnswered": 4,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-08T19:40:04.101Z",
+  "lastUpdated": "2026-05-12T21:24:59.763Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false,
-  "normalizedScore": 5.14,
-  "scoresUpdatedAt": "2025-10-10T17:19:07.257Z"
+  "usesStateCode": false
 }

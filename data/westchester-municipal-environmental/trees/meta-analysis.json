@@ -3,8 +3,8 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "analysisDate": "2025-09-01T12:22:03.341Z",
-  "totalMunicipalitiesAnalyzed": 36,
+  "analysisDate": "2026-05-17T16:52:33.032Z",
+  "totalMunicipalitiesAnalyzed": 41,
   "averageScore": 1.84,
   "highestScoringMunicipality": {
     "id": "NY-SleepyHollow-Village",
@@ -14,44 +14,14 @@
   "bestPractices": [
     {
       "questionId": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "bestAnswer": "Best practices include requiring a permit for the removal of trees on private property, particularly for trees over a specific diameter at breast height (e.g., 18 inches), those designated as protected or landmark, or located within sensitive areas such as scenic roads or steep slopes. The statute should mandate a detailed application process, including property and tree specifics, to be reviewed by an appropriate authority such as an Enforcement Officer or Planning Board. Exceptions may allow limited removal without a permit, such as up to three non-protected trees annually on smaller residential lots, ensuring a balance between property rights and environmental protection.",
-      "bestScore": 1,
-      "bestMunicipality": {
-        "id": "NY-Ardsley-Village",
-        "displayName": "Ardsley - Village"
-      },
-      "quantitativeHighlights": [],
-      "supportingExamples": [
-        {
-          "municipality": {
-            "id": "NY-Ardsley-Village",
-            "displayName": "Ardsley - Village"
-          },
-          "score": 1,
-          "confidence": 85
-        },
-        {
-          "municipality": {
-            "id": "NY-Bedford-Town",
-            "displayName": "Bedford - Town"
-          },
-          "score": 1,
-          "confidence": 85
-        },
-        {
-          "municipality": {
-            "id": "NY-BriarcliffManor-Village",
-            "displayName": "Briarcliff Manor - Village"
-          },
-          "score": 1,
-          "confidence": 85
-        }
-      ],
-      "commonGaps": [
-        "Permit process improvements",
-        "Higher penalties needed",
-        "Mandatory replacement standards"
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "bestAnswer": "**Best practices include** requiring permits for removal of trees meeting a minimum DBH threshold (commonly 6–10 inches DBH for standard trees, with stricter thresholds of 4–8 inches DBH for trees in sensitive buffer zones or for native/specimen species), with applications submitted in writing to a designated reviewing officer — such as a Village/Town Engineer, Forestry Officer, or Building Department — accompanied by a site plan identifying tree species, size, condition, and removal rationale. **The statute should require** decisions within 21–30 days of a complete application, with referral to a Tree Commission or Planning Board for removals exceeding 3–10 trees, and mandatory neighbor notification (certified mail to owners within 100 feet) for larger-scale removals. **Best practices also include** tiered fee structures set by resolution of the governing board, with surcharges for large-scale removals (e.g., $500 per tree or 1% of the building permit fee for applications involving 50 or more trees), while exempting dead, hazardous, or invasive species trees from standard permit fees and allowing emergency removals without prior authorization provided a hazardous tree permit application is filed within five business days.",
+      "quantitativeHighlights": [
+        "Smallest protected trees: 3 inches DBH",
+        "Smallest protected trees: 10 inches DBH",
+        "Smallest protected trees: 8 inches DBH",
+        "Smallest protected trees: 12 inches DBH",
+        "Highest fine: $500"
       ]
     },
     {
@@ -102,45 +72,9 @@
     },
     {
       "questionId": 3,
-      "question": "Are there fees associated with removing individual trees?",
-      "bestAnswer": "Best practices include requiring a permit for tree removal on private property, with fees determined by a standardized fee schedule set by the governing body. The statute should require applicants to cover costs for professional assessments, such as hiring an ISA-certified arborist, when necessary for tree inventory or protection plans. Exemptions from fees should be considered for municipal projects to encourage public benefit initiatives.",
-      "bestScore": 1,
-      "bestMunicipality": {
-        "id": "NY-Ardsley-Village",
-        "displayName": "Ardsley - Village"
-      },
-      "quantitativeHighlights": [],
-      "supportingExamples": [
-        {
-          "municipality": {
-            "id": "NY-Ardsley-Village",
-            "displayName": "Ardsley - Village"
-          },
-          "score": 1,
-          "confidence": 85
-        },
-        {
-          "municipality": {
-            "id": "NY-Bedford-Town",
-            "displayName": "Bedford - Town"
-          },
-          "score": 1,
-          "confidence": 85
-        },
-        {
-          "municipality": {
-            "id": "NY-BriarcliffManor-Village",
-            "displayName": "Briarcliff Manor - Village"
-          },
-          "score": 1,
-          "confidence": 85
-        }
-      ],
-      "commonGaps": [
-        "Permit process improvements",
-        "Enforcement mechanisms",
-        "Higher penalties needed"
-      ]
+      "question": "Are non-native trees exempt from requiring a removal permit?",
+      "bestAnswer": "**Best Practice Summary:**\n\nBest practices indicate that tree removal permit requirements should apply broadly to all trees regardless of native or non-native status, typically triggered by DBH thresholds of 4–12 inches depending on location and context, without species-origin-based exemptions. The statute should require that invasive or non-native species, while not exempt from permitting, may qualify for reduced replacement obligations upon removal—with replacement trees specified as native, non-invasive species—and where an exemption for invasive trees is permitted, it should require written certification from an ISA-certified arborist submitted to the relevant authority prior to removal. Permit denial criteria should reference NYS DEC protected native plant designations as an additional layer of protection, ensuring that native species receive heightened consideration while non-native trees remain subject to the same baseline permit framework.",
+      "quantitativeHighlights": []
     },
     {
       "questionId": 4,
@@ -224,6 +158,12 @@
         "Neighbor notification requirements",
         "Permit process improvements"
       ]
+    },
+    {
+      "questionId": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "bestAnswer": "**Best Practices for Tree Enforcement Officer Qualifications:**\n\nThe statute should designate a dedicated Forestry Officer or Tree Warden as the primary enforcement authority, with the position defined as \"qualified\" in arboriculture and explicitly authorized to retain an ISA-Certified Arborist or similarly credentialed professional (e.g., certified by a nationally recognized arboricultural organization) to assist in technical determinations, with costs recoverable from applicants where appropriate. Best practices include establishing a Tree Commission or advisory committee empowered to engage \"persons qualified by reason of training or experience in tree planting, preservation, and landscaping,\" ensuring that specialized expertise informs enforcement decisions even when the designated officer holds a general engineering, planning, or public works credential. Where a dedicated arborist position is not feasible, the statute should at minimum define a \"Tree Expert\" as an ISA-certified arborist and require their mandatory consultation for hazard assessments, removal approvals, and appeals, rather than relying solely on building inspectors or public works officials without arboricultural credentials.",
+      "quantitativeHighlights": []
     },
     {
       "questionId": 6,
@@ -311,45 +251,9 @@
     },
     {
       "questionId": 9,
-      "question": "Does the statute call for data collection on tree removals and presentation in a report to the public?",
-      "bestAnswer": "The statute should require the establishment of a Tree Advisory Board or equivalent body responsible for advising on tree preservation and removal, with a mandate to produce an annual report to the governing body. This report should include data collection on tree removals, an inventory of significant trees, and a community forestry work plan, which should be made publicly accessible. Additionally, documentation related to tree removals, such as arborist reports and test results, should be maintained and available upon request to ensure transparency and informed decision-making.",
-      "bestScore": 1,
-      "bestMunicipality": {
-        "id": "NY-Scarsdale-Town",
-        "displayName": "Scarsdale - Town"
-      },
-      "quantitativeHighlights": [],
-      "supportingExamples": [
-        {
-          "municipality": {
-            "id": "NY-Scarsdale-Town",
-            "displayName": "Scarsdale - Town"
-          },
-          "score": 1,
-          "confidence": 85
-        },
-        {
-          "municipality": {
-            "id": "NY-Bedford-Town",
-            "displayName": "Bedford - Town"
-          },
-          "score": 0.95,
-          "confidence": 85
-        },
-        {
-          "municipality": {
-            "id": "NY-Cortlandt-Town",
-            "displayName": "Cortlandt - Town"
-          },
-          "score": 0.95,
-          "confidence": 85
-        }
-      ],
-      "commonGaps": [
-        "Mandatory replacement standards",
-        "Professional consultation required",
-        "Higher penalties needed"
-      ]
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "bestAnswer": "**Best Practice Summary:**\n\nThe statute should require systematic data collection on tree removals, including the number of permit applications received, permits denied, and trees removed, with this information compiled into an annual report submitted to the governing board by a specified deadline (best practices include a March 1 submission date, as seen in Sleepy Hollow). Best practices include designating a Tree Officer or equivalent official responsible for preparing this report in conjunction with an advisory tree commission, and ensuring the report encompasses both individual removal permits and any associated mitigation funds (such as a Tree Bank Fund), including a list of completed projects. While internal recordkeeping of permit issuance dates and regulated trees approved for removal is a baseline requirement across multiple municipalities, stronger statutes should mandate formal public-facing reporting rather than limiting disclosure solely to departmental records.",
+      "quantitativeHighlights": []
     }
   ],
   "overallRecommendations": {

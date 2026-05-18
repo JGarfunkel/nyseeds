@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-NorthCastle-Town-trees-1779068150618",
+  "entityId": "NY-NorthCastle-Town",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-NorthCastle-Town",
     "displayName": "North Castle - Town"
   },
@@ -7,20 +10,22 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a permit to remove a tree on your property if it falls under regulated activities such as being in a regulated setback zone, significant trees, or other specific areas like wetlands. To apply, you must submit an application to the approving authority, which can be the Building Inspector or another designated authority. The application should include information like owner consent, an application fee, property survey, tree survey, and plans related to the removal and replacement. The approving authority reviews and either grants, denies, or grants with conditions the permit.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Yes, a tree removal permit is required for trees subject to the article on private property. Removing trees without a permit or in violation of permit conditions is an offense punishable by fines up to $1,000, imprisonment up to 15 days, and/or a requirement to restore and replace removed trees. Each tree removed without a permit constitutes a separate offense. However, the provided sources do not specify the application process (e.g., how to apply, required documentation, or site plan requirements), the reviewing authority for permit applications, or any fee schedule for permit applications. The sources only address penalties for non-compliance.",
+      "confidence": 30,
       "sourceRefs": [
-        "§ 308-13",
-        "§ 308-15"
+        "https://ecode360.com/29140908"
       ],
-      "score": 1
+      "gap": "Significant gaps exist compared to best practices. The statute does not specify: minimum DBH thresholds triggering permit requirements, the application submission process or required documentation, the designated reviewing officer or body, decision timelines, referral thresholds to a Tree Commission or Planning Board, neighbor notification requirements, or any fee structure. None of these elements are addressed in the provided sources.",
+      "score": 0.1,
+      "nextPrompts": [
+        "What is the application process and required documentation for obtaining a tree removal permit, including any DBH thresholds?",
+        "What are the permit fees for tree removal, and is there a designated reviewing authority or Tree Commission that evaluates applications?"
+      ]
     },
     {
       "id": 2,
@@ -34,15 +39,18 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "The fee in lieu of providing replacement trees is determined by a cash payment to the Town of North Castle Tree Mitigation Bank. The specific amount for tree removal without replacement is set forth in the Master Fee Schedule, but the exact fee is not detailed in the statute provided.",
-      "confidence": 85,
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies the following exemptions:\n\n1. **Topping prohibition exemptions**: Trees severely damaged by storms or other causes, or trees under utility wires where other pruning practices are impractical, may be exempted from the anti-topping rule at the Town Tree Board's discretion.\n\n2. **Hazardous/injurious trees**: The Town Tree Board may remove any tree that is in an unsafe condition, injurious to sewers, power lines, gas lines, waterlines, or other public improvements, or affected by injurious fungus, insect, or other pest.\n\n3. **Utility line restrictions**: Only small tree species (per Appendix A) may be planted under overhead utility lines or within five lateral feet of overhead utility lines — implying larger trees in these locations are subject to removal without the same replacement constraints.\n\n4. **Invasive trees**: Invasive trees are explicitly prohibited as replacement trees under any circumstances, but no exemption from permitting is granted for their removal.\n\nNo explicit exemptions based on tree size (DBH thresholds) or non-native species status are specified in the provided sources.",
+      "confidence": 72,
       "sourceRefs": [
-        "§ 308-25",
-        "§ 308-15C"
+        "https://ecode360.com/29140908"
       ],
-      "score": 0.85,
-      "gap": "Consider adding a clear reference or hyperlink to the Master Fee Schedule within the statute to ensure easy access to the specific fee amount for tree removal without replacement."
+      "gap": "The statute lacks DBH-based permit exemption thresholds, lacks a reduced replacement obligation for invasive/non-native species removal, and does not require ISA-certified arborist certification for invasive tree removal. No reference to NYS DEC protected native plant designations is present.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Does the statute specify any DBH or size thresholds that trigger or exempt trees from permit requirements?",
+        "Are there provisions requiring arborist certification or documentation when removing invasive or hazardous trees?"
+      ]
     },
     {
       "id": 4,
@@ -57,12 +65,33 @@
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Not specified in the statute.",
-      "confidence": 50,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement that property owners must notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and include information on the type and number of trees to be removed."
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "The provided sources only specify written notification in one context: when the Town Tree Board notifies property owners in writing about dead or diseased trees on private property that must be removed within 60 days. No provisions are described in the sources regarding neighbor or resident notification for tree removal permit applications, nor is any specific number of neighbors required to be notified.",
+      "confidence": 30,
+      "sourceRefs": [
+        "https://ecode360.com/29140908"
+      ],
+      "gap": "The statute does not address neighbor/resident notification requirements for tree removal applications, including notification method (e.g., certified mail), notification radius or number of neighbors, advance notice timelines before decisions or hearings, or on-site permit posting requirements — all of which are considered best practices.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does the statute contain any public hearing or notice requirements tied to tree removal permit applications, including adjacency or distance-based neighbor notification rules?",
+        "Are there any provisions requiring on-site posting of tree removal permits visible from the street prior to commencement of removal activities?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The statute designates the **Tree Warden** as the enforcement officer responsible for administering Chapter 308. The Tree Warden is appointed by the Mayor. However, the statute does not specify that the Tree Warden must be a trained arborist or hold any particular environmental or forestry certification. No professional qualifications or credentials are outlined for this role in the provided sources.",
+      "confidence": 62,
+      "sourceRefs": [
+        "Chapter 308 Trees"
+      ],
+      "gap": "The Tree Warden lacks required arboricultural credentials (e.g., ISA certification) and the statute provides no mechanism for mandatory consultation with a qualified tree expert or advisory committee for technical determinations.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Does the municipality require ISA-certified arborist consultation for tree removal approvals?",
+        "Is there a Tree Commission or advisory body with arboricultural expertise in this municipality?"
+      ]
     },
     {
       "id": 6,
@@ -89,49 +118,52 @@
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 50,
-      "sourceRefs": [],
+      "answer": "The statute requires that permit applications include specific plans and information related to tree removal, such as site improvement plans, ground stabilization measures, and replacement/mitigation plans. However, there is no mention in the provided sources of a requirement for systematic data collection on tree removals or the preparation and public presentation of a formal report (e.g., annual report to a governing board) summarizing removal permits, trees removed, or related mitigation activities.",
+      "confidence": 35,
+      "sourceRefs": [
+        "https://ecode360.com/29140908"
+      ],
+      "gap": "The statute lacks requirements for systematic data collection on tree removals and formal public-facing reporting. Best practices include mandating an annual report submitted to the governing board by a specified deadline (e.g., March 1), prepared by a designated Tree Officer or equivalent, covering permit applications received, permits denied, trees removed, and any Tree Bank Fund activity. This entity appears to only require application-level documentation rather than aggregate reporting.",
       "score": 0.1,
-      "gap": "Consider adding a requirement for systematic data collection on all tree removals, including the reason for removal and location, with an annual public report that details these activities and is accessible online to ensure transparency and accountability."
+      "nextPrompts": [
+        "Does the statute designate a Tree Warden or Tree Officer with recordkeeping or reporting obligations to any governing board?",
+        "Is there any reference to a Tree Bank Fund or mitigation fund with reporting requirements in the statute?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 5.8,
-    "normalizedScore": 5.8,
-    "averageConfidence": 76,
-    "questionsAnswered": 6,
-    "totalQuestions": 8,
+    "overallScore": 4.8,
+    "normalizedScore": 4.8,
+    "averageConfidence": 63,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        1,
-        1,
-        0.85,
-        0.85,
         0.1,
+        1,
+        0.3,
+        0.85,
+        0.05,
+        0.3,
         0.3,
         0.55,
         0.1
       ],
-      "averageQuestionScore": 0.59375,
-      "weightedScore": 0.58,
-      "totalWeightedScore": 8.7,
+      "averageQuestionScore": 0.39,
+      "weightedScore": 0.48,
+      "totalWeightedScore": 7.2,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a permit to remove a tree on your property if it falls under regulated activities such as being in a regulated setback zone, significant trees, or other specific areas like wetlands. To apply, you must submit an application to the approving authority, which can be the Building Inspector or another designated authority. The application should include information like owner consent, an application fee, property survey, tree survey, and plans related to the removal and replacement. The approving authority reviews and either grants, denies, or grants with conditions the permit.",
-          "score": 1,
+          "score": 0.1,
           "weight": 1,
-          "weightedScore": 1,
+          "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 30
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "The penalties for removing trees without a permit include fines not exceeding $1,000, imprisonment for up to 15 days, and a requirement to restore the property and replace the removed trees according to an approved plan. Each tree removed without a permit is considered a separate offense. Additionally, the Town may withhold the issuance of any permits or occupancy certificates until the violation is resolved. A tree replacement plan will also be required, and trees removed without a permit will be subject to this plan.",
           "score": 1,
           "weight": 2,
           "weightedScore": 2,
@@ -140,18 +172,14 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "The fee in lieu of providing replacement trees is determined by a cash payment to the Town of North Castle Tree Mitigation Bank. The specific amount for tree removal without replacement is set forth in the Master Fee Schedule, but the exact fee is not detailed in the statute provided.",
-          "score": 0.85,
-          "weight": 1,
-          "weightedScore": 0.85,
-          "maxWeightedScore": 1,
-          "confidence": 85
+          "score": 0.3,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 72
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed. The replacement trees should be a variety of species and should be ecologically compatible with the site and neighboring properties. Invasive trees are not allowed, and replanted trees should be of the same or similar species as those removed when practical. Planting non-native, incompatible species is discouraged.",
           "score": 0.85,
           "weight": 3,
           "weightedScore": 2.55,
@@ -160,28 +188,30 @@
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.05,
           "maxWeightedScore": 1,
-          "confidence": 50
+          "confidence": 30
+        },
+        {
+          "id": "5.1",
+          "score": 0.3,
+          "weight": 1,
+          "weightedScore": 0.3,
+          "maxWeightedScore": 1,
+          "confidence": 62
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of preserving trees to protect the health, safety, and general welfare of the Town because trees provide various environmental and aesthetic benefits. This intention is expressed in the legislative intent to preserve trees.",
           "score": 0.3,
           "weight": 3,
-          "weightedScore": 0.8999999999999999,
+          "weightedScore": 0.9,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "As a property owner, you must prune branches of any trees overhanging a street or right-of-way to avoid obstructing streetlamps, street intersections, and maintaining an eight-foot clearance above sidewalks or streets. You should also remove any dead, diseased, or dangerous trees or limbs that are a safety hazard. Additionally, the Town may prune trees on private property if they interfere with streetlights or traffic signs.",
           "score": 0.55,
           "weight": 2,
           "weightedScore": 1.1,
@@ -190,24 +220,30 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 2,
           "weightedScore": 0.2,
           "maxWeightedScore": 2,
-          "confidence": 50
+          "confidence": 35
         }
       ]
     }
   },
-  "overallScore": 5.8,
-  "averageConfidence": 76,
-  "questionsAnswered": 6,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:25:03.686Z",
+  "overallScore": 4.8,
+  "averageConfidence": 63,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:35:50.618Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 5.8,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.198Z"
+  "sources": [
+    {
+      "url": "https://www.northcastleny.com/1045/Invasive-Vine-Cutting-Program",
+      "title": "Invasive Vine Cutting Program | North Castle, NY"
+    },
+    {
+      "url": "https://www.northcastleny.com/665/Trees",
+      "title": "Trees | North Castle, NY"
+    }
+  ]
 }

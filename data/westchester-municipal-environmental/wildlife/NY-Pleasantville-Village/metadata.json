@@ -1,0 +1,11 @@
+{
+  "entityId": "NY-Pleasantville-Village",
+  "domainId": "wildlife",
+  "domain": "wildlife",
+  "homePage": "https://www.pleasantville-ny.gov/",
+  "metadataCreated": "2026-05-03T04:53:42.940Z",
+  "stateCodeApplies": false,
+  "sources": [],
+  "municipality": "Pleasantville",
+  "municipalityType": "Village"
+}

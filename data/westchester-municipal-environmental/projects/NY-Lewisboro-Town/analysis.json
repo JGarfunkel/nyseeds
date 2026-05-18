@@ -1,0 +1,102 @@
+{
+  "id": "NY-Lewisboro-Town-projects-1778785775655",
+  "entityId": "NY-Lewisboro-Town",
+  "domainId": "projects",
+  "entity": {
+    "id": "NY-Lewisboro-Town",
+    "displayName": "Lewisboro - Town"
+  },
+  "domain": {
+    "id": "projects",
+    "displayName": "Projects"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What conservation projects or events are currently advertised?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://www.lewisborony.gov/cac/page/tree-preservation-ordinance"
+      ],
+      "gap": "The sources do not list any conservation projects or events with goals, locations, dates, eligibility, or frequency. Best practice recommends that projects be listed on the website with all of these details.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the Lewisboro town website for a conservation advisory council events or projects calendar page.",
+        "Check for any community stewardship, habitat restoration, or tree planting event listings on the town's environmental or parks pages."
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What documentation or photo/videos showing past projects exists online?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 3,
+      "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    }
+  ],
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 3,
+    "questionsAnswered": 3,
+    "totalQuestions": 3,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
+      "totalPossibleWeight": 1.6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0,
+          "weight": 0.8,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.8,
+          "confidence": 10
+        },
+        {
+          "id": "2",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 0
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 0,
+  "averageConfidence": 3,
+  "questionsAnswered": 3,
+  "totalQuestions": 3,
+  "lastUpdated": "2026-05-15T13:48:10.918Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://www.lewisborony.gov/cac/page/tree-preservation-ordinance",
+      "title": "https://www.lewisborony.gov/cac/page/tree-preservation-ordinance"
+    }
+  ]
+}

@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Scarsdale-Town-trees-1779068387582",
+  "entityId": "NY-Scarsdale-Town",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Scarsdale-Town",
     "displayName": "Scarsdale - Town"
   },
@@ -11,14 +14,22 @@
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a permit to remove a tree on private property if the tree is greater than six inches in diameter at breast height (DBH), among other specific conditions. You can apply for a tree removal permit in writing using forms prescribed by the Village Engineer, who will review and decide on the permit application.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "**Permit Requirement:** A tree removal permit is required for trees on nonpublic (private) property, except for certain as-of-right removals: trees 6 inches DBH or less (3 inches DBH for specific native species like Hawthorn, Crabapple, Redbud, Mountain Ash, Serviceberry, and Birch), emergency removals, invasive species, or up to two trees per property greater than 6 inches DBH and less than 24 inches DBH within a 12-month period (with written notification to the Village Engineer). [§281-3]\n\n**Application Process:** Applications must be submitted in writing on forms prescribed by the Village Engineer. Applicants may need to provide plans showing contours, existing trees with common/botanical names, DBH, condition, reasons for removal, replacement tree details, and tree protection measures. A performance bond or cash deposit (100% of planting/restoration costs) may be required. [§281-4E]\n\n**Reviewer:** The Village Engineer reviews and decides on applications within 30 days, and may grant, grant with conditions, or deny permits. Decisions may be appealed to the Planning Board. [§281-4E(6)]\n\n**Fees:** Dead, dying, diseased, or hazardous trees greater than 6 inches DBH are not subject to fees. Specific permit fees for other trees are not detailed in the provided sources.",
+      "confidence": 72,
       "sourceRefs": [
-        "§ 281-4"
+        "§281-3",
+        "§281-4E",
+        "§281-4E(6)",
+        "§281-5",
+        "§281-11"
       ],
-      "score": 0.85,
-      "gap": "Consider adding detailed information on the specific criteria used by the Village Engineer to review and decide on tree removal permit applications, including any environmental, safety, or community impact considerations."
+      "gap": "The statute provides robust permit requirements, application procedures, and reviewer identification. However, specific permit fee amounts per tree are not detailed (beyond the fee exemption for dead/dying/diseased trees), and the as-of-right threshold (6 inches DBH generally, with exceptions) differs from the best practice benchmark of 18 inches DBH. The statute also lacks explicit mention of landmark or scenic road designations as triggers.",
+      "score": 0.65,
+      "nextPrompts": [
+        "What is the complete fee schedule for tree removal permits, including per-tree costs?",
+        "Are there additional protections or permit requirements for trees on steep slopes or scenic roads?"
+      ]
     },
     {
       "id": 2,
@@ -33,12 +44,24 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a clear fee schedule within the statute that outlines the specific cost for removing each tree without a replacement, including payment options, potential exemptions for certain circumstances, and provisions to ensure the fee covers administrative costs associated with enforcement and processing."
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "Several exemptions are specified:\n\n**Size-based:** Trees 6 inches DBH or less may be removed without a permit, except certain small native species (Hawthorn, Crabapple, Redbud, Mountain Ash, Serviceberry, Birch) which require a permit if over 3 inches DBH (§281-3A).\n\n**Two-tree allowance:** Two trees per property greater than 6 inches DBH and less than 24 inches DBH may be removed within a 12-month period with written notification only (§281-3D).\n\n**Emergency:** Trees may be removed during an actual or ongoing emergency to protect life or property, with notice to the Village Engineer afterward (§281-3B).\n\n**Invasive species:** Trees classified as invasive species may be removed without a permit (§281-3C).\n\n**Dead/dying/diseased/hazardous trees:** Removal of trees greater than 6 inches DBH that are dead, dying, diseased, or hazardous (as determined by a tree expert) are not subject to fees or replacement requirements (§281-11(6)).\n\n**Wetlands:** Tree removals governed by Chapter 171 (Freshwater Wetlands) are exempt from this chapter's requirements (§281-11(7)).\n\n**Protected trees** may be removed if dead, dying, hazardous, or diseased as certified in writing by a tree expert (§281-6).",
+      "confidence": 92,
+      "sourceRefs": [
+        "§281-3A",
+        "§281-3B",
+        "§281-3C",
+        "§281-3D",
+        "§281-6",
+        "§281-11(6)",
+        "§281-11(7)"
+      ],
+      "gap": "The statute exempts invasive species from permitting entirely without requiring written arborist certification prior to removal. Non-native (non-invasive) species are not distinguished from native species in the permit framework. There is no reference to NYS DEC protected native plant designations as an additional protection layer, and no reduced replacement obligation specifically tied to invasive species removal is articulated.",
+      "score": 0.55,
+      "nextPrompts": [
+        "Does the statute define 'invasive species' and require any documentation or certification before removing an invasive tree?",
+        "Are there any reduced or waived replacement requirements specifically applicable to non-native or invasive species removals?"
+      ]
     },
     {
       "id": 4,
@@ -53,12 +76,37 @@
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail or direct delivery, to ensure all potentially affected parties are adequately informed."
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "Not specified in the provided sources. The statute excerpts provided do not contain any provisions regarding neighbor notification requirements, the number of neighbors to be notified, notification methods (such as certified mail), posting of permit signs, or any public notice procedures related to tree removal applications.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 281-4E",
+        "§ 281-4A",
+        "§ 281-5"
+      ],
+      "gap": "The statute does not appear to include any neighbor or public notification requirements for tree removal applications. Best practices call for certified mail notification to all adjoining and directly opposite property owners within a specified distance (e.g., 300 feet), at least 15 days before a decision or hearing, plus on-site permit sign posting at least 3 days before removal begins. None of these elements are present in the provided sources.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village code contain any public notice or neighbor notification provisions in other chapters (e.g., zoning, land use, or general permit procedures) that may apply to tree removal applications?",
+        "Are there any Village Engineer administrative rules or procedures that specify notification requirements for tree removal permit applications not captured in Chapter 281?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement officer is the Village Engineer and the Building Department (§ 281-11). The Village Engineer is defined as a person employed by the Village of Scarsdale, certified and licensed by the State of New York as a professional engineer or licensed architect, or his or her designee. This is an engineering/architectural credential, not an arborist or environmental certification. The statute separately defines a 'Tree Expert' as an ISA-certified arborist or other professional certified by a recognized program of higher education or governmental agency, but this role is distinct from the enforcement officer position.",
+      "confidence": 92,
+      "sourceRefs": [
+        "§ 281-11",
+        "VILLAGE ENGINEER definition",
+        "TREE EXPERT definition"
+      ],
+      "gap": "The enforcement officer (Village Engineer/Building Department) lacks arborist credentials, and while a 'Tree Expert' (ISA-certified arborist) is defined separately, the statute does not appear to mandate their consultation for removal approvals or hazard assessments. Best practice calls for mandatory arborist consultation or a dedicated forestry officer with arboricultural qualifications.",
+      "score": 0.55,
+      "nextPrompts": [
+        "Is Tree Expert consultation mandatory for removal approvals or hazard assessments?",
+        "Does Scarsdale have a Tree Commission with arboricultural advisory authority?"
+      ]
     },
     {
       "id": 6,
@@ -86,51 +134,48 @@
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "The statute requires the Village Engineer to maintain a written record of all tree removal permits but does not specify the requirement for data collection on tree removals or presentation in a public report.",
-      "confidence": 85,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
       "sourceRefs": [
-        "§ 281-4E"
-      ],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the Village Engineer to compile and present an annual public report detailing the number, location, and reasons for tree removals, along with any replanting efforts, to enhance transparency and public awareness."
+        "§ 281-4A",
+        "§ 281-11",
+        "§ 281-5"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 5.33,
-    "normalizedScore": 5.33,
-    "averageConfidence": 69,
-    "questionsAnswered": 6,
-    "totalQuestions": 8,
+    "overallScore": 5.3,
+    "normalizedScore": 5.3,
+    "averageConfidence": 67,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        0.85,
+        0.65,
         0.8,
-        0.1,
+        0.55,
         0.95,
-        0.1,
+        0,
+        0.55,
         0.3,
         0.7,
-        0.1
+        0
       ],
-      "averageQuestionScore": 0.4875,
-      "weightedScore": 0.5333,
-      "totalWeightedScore": 8,
+      "averageQuestionScore": 0.5,
+      "weightedScore": 0.53,
+      "totalWeightedScore": 7.949999999999999,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a permit to remove a tree on private property if the tree is greater than six inches in diameter at breast height (DBH), among other specific conditions. You can apply for a tree removal permit in writing using forms prescribed by the Village Engineer, who will review and decide on the permit application.",
-          "score": 0.85,
+          "score": 0.65,
           "weight": 1,
-          "weightedScore": 0.85,
+          "weightedScore": 0.65,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 72
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "The penalties for removing trees without a permit include a fine of not less than $250 or more than $1,000 for the first two trees, and not less than $500 or more than $2,500 for each additional tree. For willful violations, the Village Justice may impose a higher fine.",
           "score": 0.8,
           "weight": 2,
           "weightedScore": 1.6,
@@ -139,48 +184,46 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 20
+          "score": 0.55,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 92
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed. Replacement trees must be native to the Northeast United States, excluding invasive species, and be at least three inches DBH at the time of planting unless approved as part of a tree replacement plan.",
           "score": 0.95,
           "weight": 3,
-          "weightedScore": 2.8499999999999996,
+          "weightedScore": 2.85,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 10
+        },
+        {
+          "id": "5.1",
+          "score": 0.55,
+          "weight": 1,
+          "weightedScore": 0.55,
+          "maxWeightedScore": 1,
+          "confidence": 92
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of trees for their contributions to health, safety, aesthetics, and general welfare, as well as their environmental benefits. However, it does not explicitly mention maintaining a tree canopy.",
           "score": 0.3,
           "weight": 3,
-          "weightedScore": 0.8999999999999999,
+          "weightedScore": 0.9,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "The statute does not explicitly describe specific responsibilities for maintaining trees on your property. However, it does state that trees causing a public nuisance or those on nonpublic property may require removal or replacement as part of tree removal permits.",
           "score": 0.7,
           "weight": 2,
           "weightedScore": 1.4,
@@ -189,24 +232,21 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "The statute requires the Village Engineer to maintain a written record of all tree removal permits but does not specify the requirement for data collection on tree removals or presentation in a public report.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 85
+          "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 5.33,
-  "averageConfidence": 69,
-  "questionsAnswered": 6,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:28:30.616Z",
+  "overallScore": 5.3,
+  "averageConfidence": 67,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:39:47.582Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 5.33,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.212Z"
+  "sources": []
 }

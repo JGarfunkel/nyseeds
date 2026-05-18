@@ -10,11 +10,35 @@
   "statuteNumber": "Ch 137",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:30:38.772Z",
-      "contentLength": 29778,
+      "downloadedAt": "2026-05-17T20:02:08.480Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/15780184#15780184",
+      "title": "Article III",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T20:02:08.479Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/15780175#15780175",
+      "title": "Article II",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T20:02:08.479Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/15780160#15780160",
+      "title": "Article I",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-15T19:06:02.762Z",
+      "contentLength": 79359,
       "sourceUrl": "https://ecode360.com/15780159",
       "title": "Dangerous buildings and structures — See Ch",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Buchanan-Village",
+  "homePage": "",
+  "isArticleBased": true
 }

@@ -1,39 +1,140 @@
 {
   "domains": [
     {
+      "id": "boards",
+      "name": "boards",
+      "type": "general",
+      "displayName": "Governing Boards & Committees",
+      "description": "Governance structure, authority, public access, and decision-making for boards and committees",
+      "show": true,
+      "keywords": [
+        "meeting",
+        "committee",
+        "agenda",
+        "minutes",
+        "public notice",
+        "mission",
+        "appointment and terms"
+      ],
+      "questionPromptScope": "Focus on board member makeup, meetings, availability of agendas and minutes",
+      "questionPromptRequirements": [
+        "ask about how many people are on the board vs vacancies",
+        "are agendas easily findable?",
+        "does the board's web page indicate the ongoing projects and work",
+        "does the website provide clear and timely guidance for specific questions users may have"
+      ]
+      },
+  {
+    "id": "projects",
+    "name": "projects",
+    "type": "general",
+    "displayName": "Projects",
+    "description": "Conservation-focused projects & events",
+    "show": true,
+    "keywords": [
+    "habitat rehabilitation",
+    "garden maintenance",
+    "vine cuttings",
+    "educational programs",
+    "native plant restoration",
+    "community stewardship"
+    ],
+    "questionPromptScope": "Focus on planning, execution, upkeep, and outcomes for conservation-focused projects, including habitat rehabilitation, garden maintenance, vine cuttings, and educational programs.",
+    "questionPromptRequirements": [
+      "what projects are advertised",
+      "is there documentation/photographs about past projects",
+      "how easy is it for the average person to get involved"
+    ]
+    },
+    {
       "id": "trees",
       "name": "trees",
+      "type": "statutory",
       "displayName": "Trees & Urban Forestry",
       "description": "Tree removal, planting, and maintenance regulations"
     },
-    {
+  {
+    "id": "wildlife",
+    "name": "wildlife",
+    "type": "statutory",
+    "displayName": "Wildlife & Habitat",
+    "description": "Wildlife protection, habitat conservation, and biodiversity regulations",
+    "keywords": [
+      "wildlife protection",
+      "habitat conservation",
+      "wildlife corridors",
+      "amphibian",
+      "bird",
+      "turtle"
+    ],
+    "questionPromptScope": "Focus on wildlife protection, habitat conservation, and biodiversity regulations, including wildlife corridors and specific protections for amphibians, birds, and turtles.",
+    "questionPromptRequirements": [
+      "what regulations exist for wildlife protection and habitat conservation",
+      "are there specific protections for amphibians, birds, or turtles",
+      "are there any designated wildlife corridors or protected habitats"
+    ]
+  },
+  {
+    "id": "planting",
+    "name": "planting",
+    "type": "general",
+          "show": false,
+    "displayName": "Native habitat and Pollinator Promotion",
+    "description": "Native plant promotion, pollinator-friendly landscaping, and habitat restoration regulations",
+    "keywords": [
+      "native plants",
+      "pollinators",
+      "butterflies",
+      "bees",
+      "habitat restoration",
+      "landscaping"
+    ],
+    "questionPromptScope": "Focus on native plant promotion, pollinator-friendly landscaping, and habitat restoration regulations.",
+    "questionPromptRequirements": [
+      "what regulations exist for native plant promotion and pollinator-friendly landscaping",
+      "are there specific protections for pollinators",
+      "are there any designated areas for habitat restoration",
+      "what projects does your community have to promote native plants and pollinators"
+    ]
+    },
+      {
       "id": "glb",
       "name": "glb",
+      "type": "statutory",
       "displayName": "Gas Leaf Blowers",
       "description": "Gas-powered leaf blower regulations and restrictions"
     },
     {
       "id": "wetland-protection",
       "name": "wetland-protection",
+      "type": "statutory",
       "displayName": "Wetland Protection",
       "description": "Wetland conservation and protection ordinances"
     },
     {
       "id": "weeds",
       "name": "weeds",
+      "type": "statutory",
       "displayName": "Weed Management",
-      "description": "Weed control, noxious plant management, and vegetation regulations"
+      "description": "Weed control, noxious plant management, and vegetation regulations",
+      "keywords": [
+        "invasive vines",
+        "vegetation management",
+        "herbicide use"
+      ]
     },
     {
       "id": "dark-sky",
       "name": "dark-sky",
+      "type": "statutory",
       "show": false,
       "displayName": "Dark Sky Protection",
       "description": "Light pollution control and dark sky protection"
     },
     {
       "id": "cluster-zoning",
-      "name": "cluster-zoning", 
+      "name": "cluster-zoning",
+      "type": "statutory",
       "show": false,
       "displayName": "Cluster Zoning",
       "description": "Cluster development and conservation zoning regulations"
@@ -41,6 +142,7 @@
     {
       "id": "solar-1",
       "name": "solar-1",
+      "type": "statutory",
       "show": false,
       "displayName": "Solar Energy",
       "description": "Solar installation and renewable energy regulations"
@@ -48,10 +150,11 @@
     {
       "id": "slopes",
       "name": "slopes",
+      "type": "statutory",
       "show": false,
       "displayName": "Slope Protection",
       "description": "Steep slope development and erosion control regulations"
     }
   ],
-  "lastUpdated": "2025-08-14T21:53:00.000Z"
+  "lastUpdated": "2026-05-02T21:53:00.000Z"
 }

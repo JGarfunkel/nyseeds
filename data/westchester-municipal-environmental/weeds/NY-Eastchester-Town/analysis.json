@@ -1,4 +1,5 @@
 {
+  "id": "NY-Eastchester-Town-weeds-1778856982843",
   "municipality": "NY-Eastchester-Town",
   "domain": "weeds",
   "analyzedAt": "2025-09-08T17:40:17.256Z",
@@ -129,5 +130,8 @@
   "wenGrade": "R",
   "usesStateCode": false,
   "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.498Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.498Z",
+  "entityId": "NY-Eastchester-Town",
+  "domainId": "weeds",
+  "lastUpdated": "2026-05-15T14:56:22.843Z"
 }

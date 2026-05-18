@@ -1,0 +1,213 @@
+{
+  "municipality": {
+    "id": "NY-BriarcliffManor-Village",
+    "displayName": "Briarcliff Manor - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Yes, you need a permit to remove a tree on your private property if it fits certain conditions. Specifically, you need a permit for tree removal defined as 'clearing,' commercial timber harvesting, or if you're removing a tree with a DBH of seven inches or greater within certain zones or that is significant. You apply by submitting a written application to the Village office, including details like the purpose and method of removal. The application will be reviewed by the Building Inspector and possibly the Tree Preservation Board.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 202-3A",
+        "§ 202-6"
+      ],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "If you remove trees without a permit, you could be fined up to $350 for the first offense and up to $700 for subsequent offenses within a year. For clear-cutting, additional fines up to $5,000 may apply. You might also be ordered by the Court to replant the improperly removed trees, and further construction approvals like site plans or permits could be withheld until restoration measures are completed.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 202-8B",
+        "§ 202-8C"
+      ],
+      "score": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a clear fee schedule to the statute that specifies the cost for removing each tree without a replacement, including payment options, potential exemptions for certain circumstances, and provisions to ensure the fee covers administrative costs associated with enforcement and compliance monitoring."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Yes, you can replant new trees to replace those removed. The replanting should conform to a reforestation plan that includes planting shade and/or decorative trees at a specific ratio. The statute does not specify whether non-native species are allowed as replacements.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 202-3B"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding specific guidelines on the allowance of non-native species as replacements, including any restrictions or conditions under which they may be planted, to ensure ecological compatibility and prevent invasive species issues."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Neighbors within 300 feet of the subject property must be notified of any public hearings for tree removal on public property, but there is no specification about notifying neighbors for tree removal on private property.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 202-3C"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding a requirement for notifying neighbors within a specified distance (e.g., 300 feet) for tree removal on private property, including clear guidelines on the timing and methods of notification to ensure all affected parties are adequately informed."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the statute emphasizes maintaining the existing character of the Village, which includes preserving trees for their environmental benefits. This is reflected in the legislative intent to preserve trees due to their various benefits, including shade, energy efficiency, and habitat provision.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 202-1"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific coverage targets for tree canopy, detailed measurement methods for assessing canopy health, and comprehensive maintenance plans to ensure long-term preservation and enhancement of the tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "The statute specifies that if you are applying for subdivisions or site plans, you must submit a tree protection plan which includes plans to protect and preserve trees during and after construction. This includes steps to protect trees, roots, and crowns from damage for two years after construction. There are no specific responsibilities outlined for general tree maintenance on private property without related development activities.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 202-3B"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding specific guidelines for property owners on routine tree maintenance, including inspection schedules, care standards, and responsibilities for managing potential hazards such as dead or diseased trees to ensure safety and tree health."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "The statute does not specify any requirements for data collection on tree removals or presenting reports to the public.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to establish a comprehensive data collection system that tracks all tree removals, including the reason for removal and location, and mandates the publication of an annual report accessible to the public detailing these activities to ensure transparency and accountability."
+    }
+  ],
+  "scores": {
+    "overallScore": 4.47,
+    "normalizedScore": 4.47,
+    "averageConfidence": 66,
+    "questionsAnswered": 7,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        1,
+        0.1,
+        0.1,
+        0.85,
+        0.55,
+        0.3,
+        0.1
+      ],
+      "averageQuestionScore": 0.5,
+      "weightedScore": 0.4467,
+      "totalWeightedScore": 6.7,
+      "totalPossibleWeight": 15,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+          "answer": "Yes, you need a permit to remove a tree on your private property if it fits certain conditions. Specifically, you need a permit for tree removal defined as 'clearing,' commercial timber harvesting, or if you're removing a tree with a DBH of seven inches or greater within certain zones or that is significant. You apply by submitting a written application to the Village office, including details like the purpose and method of removal. The application will be reviewed by the Building Inspector and possibly the Tree Preservation Board.",
+          "score": 1,
+          "weight": 1,
+          "weightedScore": 1,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the penalties for removing trees without a permit?",
+          "answer": "If you remove trees without a permit, you could be fined up to $350 for the first offense and up to $700 for subsequent offenses within a year. For clear-cutting, additional fines up to $5,000 may apply. You might also be ordered by the Court to replant the improperly removed trees, and further construction approvals like site plans or permits could be withheld until restoration measures are completed.",
+          "score": 1,
+          "weight": 2,
+          "weightedScore": 2,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What is the fee for removing each tree without a replacement?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        },
+        {
+          "id": "4",
+          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+          "answer": "Yes, you can replant new trees to replace those removed. The replanting should conform to a reforestation plan that includes planting shade and/or decorative trees at a specific ratio. The statute does not specify whether non-native species are allowed as replacements.",
+          "score": 0.1,
+          "weight": 3,
+          "weightedScore": 0.30000000000000004,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "Which neighbors must be notified if I remove trees? ",
+          "answer": "Neighbors within 300 feet of the subject property must be notified of any public hearings for tree removal on public property, but there is no specification about notifying neighbors for tree removal on private property.",
+          "score": 0.85,
+          "weight": 1,
+          "weightedScore": 0.85,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+          "answer": "Yes, the statute emphasizes maintaining the existing character of the Village, which includes preserving trees for their environmental benefits. This is reflected in the legislative intent to preserve trees due to their various benefits, including shade, energy efficiency, and habitat provision.",
+          "score": 0.55,
+          "weight": 3,
+          "weightedScore": 1.6500000000000001,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "8",
+          "question": "What are my responsibilities for maintaining trees on my property?",
+          "answer": "The statute specifies that if you are applying for subdivisions or site plans, you must submit a tree protection plan which includes plans to protect and preserve trees during and after construction. This includes steps to protect trees, roots, and crowns from damage for two years after construction. There are no specific responsibilities outlined for general tree maintenance on private property without related development activities.",
+          "score": 0.3,
+          "weight": 2,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "9",
+          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+          "answer": "The statute does not specify any requirements for data collection on tree removals or presenting reports to the public.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 10
+        }
+      ]
+    }
+  },
+  "overallScore": 4.47,
+  "averageConfidence": 66,
+  "questionsAnswered": 7,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-09T18:17:13.740Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4.47,
+  "scoresUpdatedAt": "2025-10-10T17:18:10.161Z"
+}

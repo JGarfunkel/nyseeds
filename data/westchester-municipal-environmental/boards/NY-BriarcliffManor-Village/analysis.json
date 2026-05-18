@@ -1,0 +1,152 @@
+{
+  "id": "NY-BriarcliffManor-Village-boards-1778786146769",
+  "entityId": "NY-BriarcliffManor-Village",
+  "domainId": "boards",
+  "entity": {
+    "id": "NY-BriarcliffManor-Village",
+    "displayName": "Briarcliff Manor - Village"
+  },
+  "domain": {
+    "id": "boards",
+    "displayName": "Boards"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 2,
+      "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 3,
+      "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 4,
+      "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 5,
+      "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 6,
+      "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 7,
+      "question": "Does the website provide clear, timely guidance for common user questions about meetings, agendas, minutes, or contacting the board?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    }
+  ],
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 0,
+    "questionsAnswered": 7,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
+      "totalPossibleWeight": 3.0999999999999996,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0,
+          "weight": 0.1,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.1,
+          "confidence": 0
+        },
+        {
+          "id": "2",
+          "score": 0,
+          "weight": 0.3,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.3,
+          "confidence": 0
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 0.5,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.5,
+          "confidence": 0
+        },
+        {
+          "id": "4",
+          "score": 0,
+          "weight": 0.3,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.3,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "score": 0,
+          "weight": 0.3,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.3,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "score": 0,
+          "weight": 0.8,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.8,
+          "confidence": 0
+        },
+        {
+          "id": "7",
+          "score": 0,
+          "weight": 0.8,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.8,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 0,
+  "averageConfidence": 0,
+  "questionsAnswered": 7,
+  "totalQuestions": 7,
+  "lastUpdated": "2026-05-14T19:15:46.769Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
+}

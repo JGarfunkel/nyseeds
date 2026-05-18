@@ -1,7 +1,10 @@
 {
-  "municipality": {
+  "id": "NY-Yonkers-City-trees-1779071698816",
+  "entityId": "NY-Yonkers-City",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Yonkers-City",
-    "displayName": "Unknown - City"
+    "displayName": "undefined - City"
   },
   "domain": {
     "id": "trees",
@@ -11,326 +14,210 @@
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "The provided sources address permits for trees in **public highways or public places** in Yonkers, not private property. For public trees, any person wishing to remove, destroy, cut, prune, or trim a tree in a public highway or public place must:\n\n1. **Apply** using blanks furnished by the Commissioner of Parks, Recreation and Conservation, stating the number and kind of trees and condition of nearest trees on adjoining property.\n2. **Review**: Applications are referred to the **Shade Tree Commission** for approval or disapproval. If approved, the **Commissioner of Parks, Recreation and Conservation** issues a written permit.\n3. **Fees**: No charge is mentioned for removal permits (planting permits explicitly state 'no charge shall be made').\n\nNo information is provided regarding permits required for tree removal on **private property**, private property application procedures, or fees specific to private tree removal.",
+      "confidence": 30,
+      "sourceRefs": [
+        "https://ecode360.com/15089649"
+      ],
+      "gap": "Significant gaps exist: no private property tree removal permit requirement is addressed; no DBH thresholds, tiered fee structures, application timelines, neighbor notification requirements, or emergency removal provisions are specified. The statute only covers public highway/public place trees, falling well short of best practices.",
       "score": 0.1,
-      "gap": "The municipality needs to clearly define the circumstances under which a permit is required for tree removal on private property, including specific criteria such as tree size (e.g., diameter at breast height), species, or location, and outline the application process, fees, and any exemptions to achieve a 1.0 score."
+      "nextPrompts": [
+        "Does Yonkers have a separate ordinance or code section governing tree removal on private property, including permit thresholds and fees?",
+        "Are there any Yonkers zoning or land development regulations that require tree removal permits tied to construction or development on private lots?"
+      ]
     },
     {
       "id": 2,
       "question": "What are the penalties for removing trees without a permit?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "The municipality needs to specify clear penalties for removing trees without a permit, including defined fine amounts (e.g., $500-$2000 per tree) and potential additional requirements such as mandatory tree replacement or community service, to ensure effective enforcement and deterrence."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://ecode360.com/15089649"
+      ],
+      "gap": "The statute excerpts do not address penalties for removing trees without a permit. Best practices recommend fines up to $1,000 for first offenses, escalating fines for subsequent offenses, treating each unlawfully removed tree as a separate offense, potential imprisonment up to 30 days, mandatory restoration/replanting requirements, and withholding of building permits or certificates of occupancy until compliance is verified.",
+      "score": 0,
+      "nextPrompts": [
+        "Search for penalty or enforcement provisions in the municipal code related to unauthorized tree removal.",
+        "Search for sections referencing fines, violations, or misdemeanors associated with tree ordinance non-compliance."
+      ]
     },
     {
       "id": 3,
-      "question": "Are there distance requirements when planting trees near sidewalks or streets?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "\"Municipality needs to establish specific distance requirements (e.g., minimum 5 feet from sidewalks and 10 feet from streets) for tree planting, along with guidelines for species selection to prevent root damage and ensure public safety.\""
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The only exemption specified in the provided sources is for newly planted trees: the Commissioner of Parks, Recreation and Conservation may allow newly planted trees to remain untrimmed (i.e., exempt from the 15-foot/9-foot clearance trimming requirement), provided they do not interfere with persons using the sidewalk or obstruct street electric lamp light. No other exemptions—such as for sick or hazardous trees, trees below a certain size, trees in specific locations, or non-native/invasive species—are specified in the provided sources.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://ecode360.com/15089649"
+      ],
+      "gap": "Significant gaps exist compared to best practices. The statute lacks DBH-based permit thresholds, exemptions or reduced replacement obligations for invasive/non-native species, ISA-certified arborist certification requirements, and references to NYS DEC protected native plant designations. The only exemption present (newly planted trees from trimming clearance) is unrelated to the permit/removal framework described in best practices.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does the statute contain any tree removal permit provisions, including size thresholds (DBH) or species-based criteria that trigger or exempt permit requirements?",
+        "Are there any provisions addressing invasive or non-native species removal, replacement obligations, or arborist certification requirements elsewhere in the municipal code?"
+      ]
     },
     {
       "id": 4,
-      "question": "How do I apply for a tree removal permit?",
-      "answer": "Not specified in the statute.",
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "\"Municipality needs to clearly outline the application process for a tree removal permit, including required documentation, submission methods (e.g., online, in-person), and processing timelines to ensure transparency and accessibility for applicants.\""
+      "sourceRefs": []
     },
     {
       "id": 5,
-      "question": "Are there fees associated with tree removal permits?",
-      "answer": "Not specified in the statute.",
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "The municipality needs to explicitly state whether fees are required for tree removal permits, including the specific fee amounts or a fee structure, and outline the process for fee payment to ensure transparency and compliance."
+      "sourceRefs": []
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement officer is the Commissioner of Parks, Recreation and Conservation for the City of Yonkers. This Commissioner holds broad authority to order tree removal, issue permits, direct spraying or treatment of infected trees, and require removal of electrical wires near trees. The statute does not specify that the Commissioner must be a trained arborist, ISA-Certified Arborist, or any other environmental/arboricultural professional. Decisions are made based on the Commissioner's own judgment and opinion.",
+      "confidence": 85,
+      "sourceRefs": [
+        "https://ecode360.com/15089649"
+      ],
+      "gap": "The statute designates a general parks commissioner as enforcement authority without requiring arboricultural credentials (e.g., ISA Certification), mandatory consultation with a certified arborist for technical determinations, or an advisory Tree Commission with qualified forestry expertise. No provision exists for engaging credentialed tree experts for hazard assessments or removal approvals.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the Yonkers municipal code define qualifications or professional credentials required for the Commissioner of Parks, Recreation and Conservation?",
+        "Are there any provisions in the Yonkers tree ordinance for a Tree Commission, advisory board, or required consultation with certified arborists for technical decisions?"
+      ]
     },
     {
       "id": 6,
-      "question": "What is the procedure for emergency tree removal?",
-      "answer": "Not specified in the statute.",
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "The municipality needs to clearly define the procedure for emergency tree removal by specifying criteria for what constitutes an emergency, outlining the steps for obtaining immediate authorization, and detailing any necessary follow-up actions or documentation requirements to ensure accountability and safety."
-    },
-    {
-      "id": 7,
-      "question": "Which government department handles tree permits?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "The municipality needs to explicitly designate a specific government department responsible for handling tree permits within the statute, ensuring clarity and accountability in the permit process."
+      "sourceRefs": []
     },
     {
       "id": 8,
-      "question": "Are certain tree species protected or prohibited?",
-      "answer": "Not specified in the statute.",
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "The municipality needs to explicitly list protected and prohibited tree species within the statute, including criteria for protection (e.g., native species, endangered status) and clear guidelines for enforcement, such as penalties for unauthorized removal and requirements for replanting or mitigation."
+      "sourceRefs": []
     },
     {
       "id": 9,
-      "question": "What are my responsibilities for maintaining trees on my property?",
-      "answer": "Not specified in the statute.",
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "The municipality needs to clearly define property owner responsibilities for tree maintenance, including specific actions required (e.g., pruning, removal of dead branches), establish criteria for when these actions must be taken (e.g., proximity to power lines or structures), and outline enforcement mechanisms such as fines or required corrective actions for non-compliance."
-    },
-    {
-      "id": 10,
-      "question": "Can I appeal a tree removal decision?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "The municipality needs to explicitly include an appeals process in the statute, detailing the steps residents can take to contest a tree removal decision, including submission deadlines, required documentation, and a timeline for review and decision-making by an appointed board or official."
-    },
-    {
-      "id": 11,
-      "question": "What steps should I take if a neighbor's tree is damaging my property?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "The municipality needs to include a clear procedure for residents to follow when a neighbor's tree is causing property damage, such as requiring a formal complaint process, mediation options, and specific timelines for resolution. Additionally, the statute should outline the responsibilities of the tree owner, potential penalties for non-compliance, and any available municipal support or resources for resolving such disputes."
-    },
-    {
-      "id": 12,
-      "question": "Are there specific pruning regulations for trees on public land?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "The municipality needs to establish detailed pruning regulations for trees on public land, including specific guidelines on pruning techniques, seasonal timing, and safety standards, as well as a permit system for any significant pruning activities to ensure compliance and accountability. Additionally, the statute should include enforcement mechanisms such as fines for non-compliance and a process for public reporting of violations."
-    },
-    {
-      "id": 13,
-      "question": "How often should I inspect trees on my property for safety?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "\"Municipality needs to specify a mandatory inspection frequency (e.g., annually or biannually) for property owners, along with guidelines for identifying hazardous conditions and a requirement to document inspections to ensure compliance.\""
-    },
-    {
-      "id": 14,
-      "question": "What should I do if I suspect a tree is diseased or dying?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "The municipality needs to include a clear procedure for residents to follow when they suspect a tree is diseased or dying, such as contacting a designated municipal arborist or department for assessment, and outline specific steps for reporting and addressing the issue, including timelines for response and potential actions (e.g., treatment, removal)."
-    },
-    {
-      "id": 15,
-      "question": "Are there incentives or programs for planting new trees in my area?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "The municipality needs to introduce specific incentives or programs for planting new trees, such as offering financial rebates, providing free saplings, or establishing community planting events, along with clear eligibility criteria and application procedures to encourage participation and ensure effective implementation."
+      "sourceRefs": []
     }
   ],
-  "lastUpdated": "2025-08-26T11:35:16.268Z",
-  "processingMethod": "vector-search-with-scoring",
-  "usesStateCode": false,
-  "overallScore": 1,
   "scores": {
-    "overallScore": 1,
-    "normalizedScore": 1,
-    "averageConfidence": 0,
-    "questionsAnswered": 0,
-    "totalQuestions": 15,
+    "overallScore": 0.2,
+    "normalizedScore": 0.2,
+    "averageConfidence": 22,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
         0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1
+        0,
+        0.05,
+        0,
+        0,
+        0.2,
+        0,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.10000000000000002,
-      "weightedScore": 0.1,
-      "totalWeightedScore": 2.2000000000000006,
-      "totalPossibleWeight": 22,
+      "averageQuestionScore": 0.04,
+      "weightedScore": 0.02,
+      "totalWeightedScore": 0.30000000000000004,
+      "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 30
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "3",
-          "question": "Are there distance requirements when planting trees near sidewalks or streets?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 0
+          "score": 0.05,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 72
         },
         {
           "id": "4",
-          "question": "How do I apply for a tree removal permit?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0,
           "maxWeightedScore": 3,
           "confidence": 0
         },
         {
           "id": "5",
-          "question": "Are there fees associated with tree removal permits?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0
         },
         {
+          "id": "5.1",
+          "score": 0.2,
+          "weight": 1,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
           "id": "6",
-          "question": "What is the procedure for emergency tree removal?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0,
           "maxWeightedScore": 3,
           "confidence": 0
         },
         {
-          "id": "7",
-          "question": "Which government department handles tree permits?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 0
-        },
-        {
           "id": "8",
-          "question": "Are certain tree species protected or prohibited?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "9",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
-        },
-        {
-          "id": "10",
-          "question": "Can I appeal a tree removal decision?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 0
-        },
-        {
-          "id": "11",
-          "question": "What steps should I take if a neighbor's tree is damaging my property?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 0
-        },
-        {
-          "id": "12",
-          "question": "Are there specific pruning regulations for trees on public land?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 0
-        },
-        {
-          "id": "13",
-          "question": "How often should I inspect trees on my property for safety?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 0
-        },
-        {
-          "id": "14",
-          "question": "What should I do if I suspect a tree is diseased or dying?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 0
-        },
-        {
-          "id": "15",
-          "question": "Are there incentives or programs for planting new trees in my area?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
           "confidence": 0
         }
       ]
     }
   },
-  "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.221Z"
+  "overallScore": 0.2,
+  "averageConfidence": 22,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T02:42:57.262Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://ecode360.com/15089649",
+      "title": "Article III: Planting and Maintenance of Shade Trees - City of Yonkers, NY",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Yonkers-City\\15089649.txt"
+    }
+  ]
 }

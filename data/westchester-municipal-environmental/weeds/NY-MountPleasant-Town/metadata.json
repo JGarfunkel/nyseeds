@@ -10,11 +10,14 @@
   "statuteNumber": "Ch 162",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:31:36.960Z",
-      "contentLength": 9852,
+      "downloadedAt": "2026-05-15T19:06:31.885Z",
+      "contentLength": 96151,
       "sourceUrl": "https://ecode360.com/9607021#9607029",
       "title": "Garbage, rubbish and refuse — See Ch",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-MountPleasant-Town",
+  "homePage": "https://www.mtpleasantny.gov/",
+  "isArticleBased": false
 }

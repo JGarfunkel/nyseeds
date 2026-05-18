@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Mamaroneck-Town-trees-1779067918824",
+  "entityId": "NY-Mamaroneck-Town",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Mamaroneck-Town",
     "displayName": "Mamaroneck - Town"
   },
@@ -7,21 +10,23 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a permit to remove a regulated tree on private property. A regulated tree is defined as a tree with a DBH of six inches or more, a dead tree, or a hazardous tree. You must file an application for a tree removal permit with the approving authority. For applications to remove seven or fewer regulated trees, the Town Environmental Planner reviews it, while the Planning Board reviews applications involving more complex site plans.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Yes, a permit is required to remove trees on private property in the Town of Mamaroneck. Applications are submitted online via Viewpoint Cloud/OpenGov. For removal of up to 7 trees, use the 'Conservation' permit application. For 8 or more trees, or if related to Planning Board applications (Site Plan, Subdivision, Special Use, or Wetlands Permit), apply under 'Land Use Boards' to the Planning Board.\n\nThe application must include: property owner name/contact info, street address, owner authorization (if applicant differs), description of proposed removal, a planting plan per §207-7, contractor contact info, and the required fee.\n\nApplications for fewer trees are reviewed by the Environmental Planner; larger removals go to the Planning Board.\n\nPermit fees per tree:\n• $300/tree for DBH between 6–12 inches\n• $600/tree for DBH greater than 12 inches but not exceeding 18 inches\n• $900/tree for DBH larger than 18 inches\n\nNo permit is issued until fees are paid. Work commenced before permit issuance results in fines per §207-17A.",
+      "confidence": 82,
       "sourceRefs": [
-        "§ 207-3",
-        "§ 207-6",
-        "§ 207-2"
+        "https://www.townofmamaroneckny.org/738/Tree-Permits",
+        "https://www.townofmamaroneckny.org/DocumentCenter/View/7022/LL-10-2023-Tree-Law"
       ],
-      "score": 1
+      "gap": "The statute covers permit requirements, application process, reviewer roles, and fees well. However, it lacks explicit DBH thresholds that trigger permit requirements (e.g., minimum size), and does not clearly define exceptions for limited removal without a permit on smaller residential lots, as recommended by best practices.",
+      "score": 0.75,
+      "nextPrompts": [
+        "What is the minimum DBH or tree size that triggers the permit requirement in Mamaroneck?",
+        "Are there any exemptions allowing property owners to remove a limited number of trees annually without a permit?"
+      ]
     },
     {
       "id": 2,
@@ -36,14 +41,19 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "The fee for not planting replacement trees is $300 per replacement tree that will not be planted on-site, which must be paid into the Tree Planting Fund.",
-      "confidence": 85,
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The Town of Mamaroneck specifies the following exemptions or allowances for tree removal beyond standard permit limits:\n\n1. **Hazardous trees** – may be removed outside normal permit restrictions, including during periods when permits are otherwise prohibited.\n2. **Dead trees** – same allowance as hazardous trees.\n3. **Substantially interferes with permitted use** – in the opinion of the approving authority.\n4. **Anticipated hazard due to approved cut/fill** – when the Town arborist certifies a tree will likely become hazardous or die due to approved grading elsewhere on the property.\n5. **Emergency removal** – a permit is not required to remove a regulated tree for protection during an ongoing emergency (notification to the Environmental Planner is still required).\n6. **Non-regulated trees** – removal of any tree that is not a 'regulated tree' on property owned by the applicant is permitted without a tree removal permit.\n\nNo exemptions based on species origin (native vs. non-native) or specific size thresholds below the regulated DBH are mentioned in the sources.",
+      "confidence": 82,
       "sourceRefs": [
-        "§ 207-9A"
+        "https://www.townofmamaroneckny.org/738/Tree-Permits",
+        "https://www.townofmamaroneckny.org/DocumentCenter/View/7022/LL-10-2023-Tree-Law"
       ],
-      "score": 0.8,
-      "gap": "Consider adding a detailed fee schedule that outlines different fees based on tree size or species, payment options such as installment plans, potential exemptions for certain property types or situations, and a breakdown of how the fee covers administrative costs to ensure transparency and fairness."
+      "gap": "The statute does not address invasive or non-native species exemptions, does not reference ISA-certified arborist certification requirements for hazardous tree removal, and does not mention NYS DEC protected native plant designations. Replacement tree species requirements (native/non-invasive) for exempt removals are also unaddressed.",
+      "score": 0.4,
+      "nextPrompts": [
+        "Does the Town of Mamaroneck statute define 'regulated tree' by DBH threshold, and are any species explicitly excluded from regulation?",
+        "Are there any provisions in the statute addressing invasive species removal or reduced replacement obligations for non-native trees?"
+      ]
     },
     {
       "id": 4,
@@ -58,14 +68,33 @@
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "You are required to notify neighbors within 100 linear feet from each of the lot lines and corners of the subject property if you appeal a decision regarding tree removal.",
-      "confidence": 85,
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "The sources specify that properties within one hundred linear feet from each of the lot lines are subject to notification requirements for tree removal permit applications. However, the specific method of notification (e.g., certified mail, posted signs) and the exact number of neighbors to be notified are not detailed in the provided excerpts beyond identifying the geographic scope as properties within 100 linear feet of each lot line.",
+      "confidence": 45,
       "sourceRefs": [
-        "§ 207-15A"
+        "https://www.townofmamaroneckny.org/DocumentCenter/View/7022/LL-10-2023-Tree-Law"
       ],
-      "score": 0.75,
-      "gap": "Consider adding specific timing requirements for when the notification must be sent to neighbors, as well as acceptable methods of notification (e.g., mail, email, in-person delivery) to ensure clarity and compliance."
+      "gap": "The statute identifies properties within 100 linear feet of each lot line as the notification area, but does not specify the notification method (e.g., certified mail, return receipt), timing requirements (e.g., 15 days before decision), or on-site posting requirements. This falls short of best practices which require certified mail notification at least 15 days before any decision and a visible permit sign posted on-site at least 3 days before removal begins.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the Town of Mamaroneck code specify the method and timing of neighbor notification for tree removal applications?",
+        "Are there any on-site posting or signage requirements for tree removal permits in Mamaroneck's tree ordinance?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement officers identified in the statute include the Building Inspector, an Assistant Building Inspector, the Engineer, the Director of Building Code Enforcement and Land Use Administration, and the Environmental Planner. The Environmental Planner plays a particularly active enforcement role, conducting compliance inspections, issuing preliminary and final letters of completion, and notifying applicants of violations. The statute does not specify that any of these officers must be a trained arborist or hold a specific environmental certification.",
+      "confidence": 82,
+      "sourceRefs": [
+        "https://www.townofmamaroneckny.org/DocumentCenter/View/7022/LL-10-2023-Tree-Law"
+      ],
+      "gap": "The municipality lacks a dedicated Forestry Officer or ISA-Certified Arborist requirement, relying on general planning and building officials without mandated arboricultural credentials or required consultation with certified tree experts for technical decisions.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the statute allow hiring outside arborists for technical assessments?",
+        "Is there a Tree Commission or advisory body with arboricultural expertise?"
+      ]
     },
     {
       "id": 6,
@@ -93,51 +122,53 @@
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "The statute requires the Building Department to maintain a record of the lots for which tree removal permits are issued, the date of each permit, and the number of regulated trees approved for removal. However, it does not specify that this data must be presented in a report to the public.",
-      "confidence": 85,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 20,
       "sourceRefs": [
-        "§ 207-6D"
+        "https://www.townofmamaroneckny.org/738/Tree-Permits",
+        "https://www.townofmamaroneckny.org/DocumentCenter/View/7022/LL-10-2023-Tree-Law"
       ],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the Building Department to compile and publish an annual report detailing the data on tree removal permits, including the number of permits issued, the number of trees removed, and any replanting efforts, to enhance transparency and public awareness."
+      "gap": "The statute does not appear to require systematic data collection on tree removals or mandate a formal public-facing annual report. Best practices call for tracking permit applications received, permits denied, and trees removed, compiled into an annual report submitted to the governing board by a specified deadline (e.g., March 1), prepared by a designated Tree Officer in conjunction with an advisory tree commission, and encompassing mitigation fund activity.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does the Town of Mamaroneck have any administrative rules or departmental policies requiring annual reporting on tree permit activity to the Town Board?",
+        "Is there a Tree Officer or Tree Advisory Commission in Mamaroneck tasked with compiling and presenting urban forestry data to the public or governing board?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 5.73,
-    "normalizedScore": 5.73,
-    "averageConfidence": 85,
-    "questionsAnswered": 8,
-    "totalQuestions": 8,
+    "overallScore": 4.73,
+    "normalizedScore": 4.73,
+    "averageConfidence": 72,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        1,
-        0.3,
-        0.8,
-        0.85,
         0.75,
         0.3,
+        0.4,
+        0.85,
+        0.2,
+        0.2,
+        0.3,
         0.9,
-        0.1
+        0.05
       ],
-      "averageQuestionScore": 0.625,
-      "weightedScore": 0.5733,
-      "totalWeightedScore": 8.6,
+      "averageQuestionScore": 0.44,
+      "weightedScore": 0.4733,
+      "totalWeightedScore": 7.1,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a permit to remove a regulated tree on private property. A regulated tree is defined as a tree with a DBH of six inches or more, a dead tree, or a hazardous tree. You must file an application for a tree removal permit with the approving authority. For applications to remove seven or fewer regulated trees, the Town Environmental Planner reviews it, while the Planning Board reviews applications involving more complex site plans.",
-          "score": 1,
+          "score": 0.75,
           "weight": 1,
-          "weightedScore": 1,
+          "weightedScore": 0.75,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 82
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "Removing regulated trees without a permit results in a fine of $300 for each tree with a DBH between six and twelve inches, $600 for each tree with a DBH over twelve inches but not over eighteen inches, and $900 for each tree with a DBH larger than eighteen inches. Additionally, you may be required to plant replacement trees or make a payment to the Tree Planting Fund. The offender may also be barred from applying for tree removal permits on the property for 12 months and be subject to other penalties such as being prevented from obtaining building permits or certificates of occupancy until the violation is resolved.",
           "score": 0.3,
           "weight": 2,
           "weightedScore": 0.6,
@@ -146,18 +177,14 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "The fee for not planting replacement trees is $300 per replacement tree that will not be planted on-site, which must be paid into the Tree Planting Fund.",
-          "score": 0.8,
-          "weight": 1,
-          "weightedScore": 0.8,
-          "maxWeightedScore": 1,
-          "confidence": 85
+          "score": 0.4,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 82
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed instead of making a payment to the Tree Planting Fund. Replacement trees must be a species from the list of approved species maintained by the Environmental Planner, which excludes invasive species and implies that non-native species are not typically allowed as replacements.",
           "score": 0.85,
           "weight": 3,
           "weightedScore": 2.55,
@@ -166,28 +193,30 @@
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "You are required to notify neighbors within 100 linear feet from each of the lot lines and corners of the subject property if you appeal a decision regarding tree removal.",
-          "score": 0.75,
+          "score": 0.2,
           "weight": 1,
-          "weightedScore": 0.75,
+          "weightedScore": 0.2,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 45
+        },
+        {
+          "id": "5.1",
+          "score": 0.2,
+          "weight": 1,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 1,
+          "confidence": 82
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of a healthy tree canopy. It aims to preserve trees within the town to protect health, safety, and general welfare, including benefits like shade, air quality enhancement, and aesthetic quality, along with other ecological functions.",
           "score": 0.3,
           "weight": 3,
-          "weightedScore": 0.8999999999999999,
+          "weightedScore": 0.9,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "The statute specifies that routine care and maintenance, such as pruning less than 25% of the crown of a regulated tree within any 12-month period, does not require a permit. However, it is unlawful to injure a tree to the extent that it becomes a hazardous or dead tree. If a hazardous or dead tree is identified, it must be appropriately dealt with, potentially including removal or replacement.",
           "score": 0.9,
           "weight": 2,
           "weightedScore": 1.8,
@@ -196,24 +225,34 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "The statute requires the Building Department to maintain a record of the lots for which tree removal permits are issued, the date of each permit, and the number of regulated trees approved for removal. However, it does not specify that this data must be presented in a report to the public.",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0.1,
           "maxWeightedScore": 2,
-          "confidence": 85
+          "confidence": 20
         }
       ]
     }
   },
-  "overallScore": 5.73,
-  "averageConfidence": 85,
-  "questionsAnswered": 8,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:22:06.162Z",
+  "overallScore": 4.73,
+  "averageConfidence": 72,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:31:58.824Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 5.73,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.187Z"
+  "sources": [
+    {
+      "url": "https://www.townofmamaroneckny.org/738/Tree-Permits",
+      "title": "Tree Permits | Mamaroneck, NY"
+    },
+    {
+      "url": "https://www.townofmamaroneckny.org/DocumentCenter/View/6226/Tree-List",
+      "title": "Tree List"
+    },
+    {
+      "url": "https://www.townofmamaroneckny.org/DocumentCenter/View/7022/LL-10-2023-Tree-Law",
+      "title": "LL 10 2023 Tree Law"
+    }
+  ]
 }

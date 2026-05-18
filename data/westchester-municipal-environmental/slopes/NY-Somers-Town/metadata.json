@@ -3,5 +3,10 @@
   "municipalityType": "Town",
   "domain": "Slopes",
   "lastConverted": "2025-08-15T20:28:37.317Z",
-  "sources": []
+  "sources": [],
+  "entityId": "NY-Somers-Town",
+  "domainId": "slopes",
+  "homePage": "https://www.somersny.com/",
+  "metadataCreated": "2026-05-06T21:40:48.245Z",
+  "municipality": "Somers"
 }

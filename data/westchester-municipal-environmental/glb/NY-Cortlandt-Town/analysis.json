@@ -1,4 +1,5 @@
 {
+  "id": "NY-Cortlandt-Town-glb-1778856979790",
   "municipality": "NY-Cortlandt-Town",
   "domain": "glb",
   "analyzedAt": "2025-09-09T19:59:14.424Z",
@@ -171,5 +172,8 @@
   "wenGrade": null,
   "usesStateCode": false,
   "normalizedScore": 1.46,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.223Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.223Z",
+  "entityId": "NY-Cortlandt-Town",
+  "domainId": "glb",
+  "lastUpdated": "2026-05-15T14:56:19.790Z"
 }

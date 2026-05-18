@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Peekskill-City-trees-1779068240310",
+  "entityId": "NY-Peekskill-City",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Peekskill-City",
     "displayName": "Peekskill - City"
   },
@@ -7,21 +10,22 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a permit to remove a tree with a DBH of six inches or greater on your private property. To apply for a permit, you must use the forms provided by the Building Inspector, and your application must include specific information such as the owner’s details, number of trees involved, purpose of the permit, and a sketch plan. The Building Inspector reviews the application.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Yes, a Tree Removal Permit is required before removing any tree on private property in Peekskill. To apply, download the application at: https://www.cityofpeekskill.com/sites/g/files/vyhlif3656/f/uploads/tree_removal_permit_0.pdf. The application must include reports from ISA-certified Arborists and be submitted to the Building Inspector for review. Contact the Building Department at (914) 734-4140 for assistance. Regarding fees: specific per-tree fee amounts are not listed in the provided sources, but the city website maintains a current fee schedule. Notable fee structures mentioned include: a clear-cutting fee per tree for the first ten trees removed, an additional fee for each tree beyond ten, and a penalty fee per tree if replanting does not occur (deposited into the Tree Preservation Fund). Removing trees without a permit results in triple the original permit fees.",
+      "confidence": 62,
       "sourceRefs": [
-        "§ 530-4",
-        "§ 530-6"
+        "https://www.cityofpeekskill.com/DocumentCenter/View/2241/Tree-Ordinance-Fact-Sheet-2024"
       ],
-      "score": 0.9,
-      "gap": "Consider adding detailed timelines for the application review process and decision-making to provide clarity on how long applicants should expect to wait for a permit decision."
+      "gap": "The statute lacks specificity on: minimum tree size thresholds triggering permit requirements, explicit reviewer title/authority beyond 'Building Inspector,' exceptions allowing limited removal without a permit, and exact fee amounts. Best practice recommends diameter thresholds, named enforcement officers, and defined exemptions for small residential lots.",
+      "score": 0.5,
+      "nextPrompts": [
+        "What is the minimum tree diameter or size that triggers the permit requirement in Peekskill's Tree Ordinance?",
+        "Are there any exemptions allowing property owners to remove a limited number of trees annually without a permit in Peekskill?"
+      ]
     },
     {
       "id": 2,
@@ -36,14 +40,18 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "Based on the sources, the following exemptions are specified:\n\n1. **Emergency situations**: Trees creating a real or ongoing emergency affecting life or property safety may be removed without a permit.\n\n2. **Dead, dying, invasive, insect-infested, or otherwise hazardous trees**: A removal permit is not required if an ISA-certified arborist has completed a written letter and submitted it to the Building Inspector prior to removal.\n\n3. **Utility company removals**: Trees required to be removed by electrical utility companies are exempt, provided the utility company notifies the City.\n\nThese exemptions are documented in the Tree Ordinance Fact Sheet (2024).",
+      "confidence": 82,
       "sourceRefs": [
-        "§ 530-9"
+        "https://www.cityofpeekskill.com/DocumentCenter/View/2241/Tree-Ordinance-Fact-Sheet-2024"
       ],
-      "score": 0.1,
-      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific costs per tree, available payment options, any applicable exemptions, and provisions to ensure the fees cover administrative costs associated with enforcement and processing."
+      "gap": "The statute aligns with best practices regarding ISA-certified arborist certification for hazardous/invasive tree exemptions. However, no DBH size thresholds triggering permit requirements are specified in the provided sources, and there is no explicit mention of reduced replacement obligations for invasive/non-native species upon removal.",
+      "score": 0.65,
+      "nextPrompts": [
+        "Does the Peekskill tree ordinance specify a minimum DBH or size threshold below which trees are exempt from permit requirements?",
+        "Are there reduced or waived replacement obligations when invasive or non-native trees are removed under the hazardous tree exemption?"
+      ]
     },
     {
       "id": 4,
@@ -58,14 +66,34 @@
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
       "sourceRefs": [
-        "§ 530-5"
+        "§ 530-4"
       ],
+      "gap": "The Peekskill Tree Ordinance sources do not address neighbor notification requirements for tree removal applications. Best practices call for certified mail notification to adjoining and directly opposite property owners within a specified distance (e.g., 300 feet), at least 15 days before a decision or hearing, plus on-site permit signage posted at least 3 days before removal begins.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Peekskill Tree Ordinance or Building Department application process require any public notice or neighbor notification before issuing a tree removal permit?",
+        "Are there any public hearing or community input requirements outlined in Peekskill's tree removal permit process?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The City of Peekskill's Tree Ordinance (Chapter 530) references the Department of Public Works (914-734-4130) for city-owned tree concerns and the Department of Construction (914-734-4140) for permit questions. The fact sheet does not specify a dedicated enforcement officer title, nor does it indicate whether the enforcement role is held by an ISA-Certified Arborist or other credentialed environmental professional. The ordinance fact sheet references the International Society of Arboriculture and Cornell Cooperative Extension as informational resources, but does not assign enforcement authority to an arborist or similarly credentialed individual.",
+      "confidence": 35,
+      "sourceRefs": [
+        "https://www.cityofpeekskill.com/DocumentCenter/View/2241/Tree-Ordinance-Fact-Sheet-2024",
+        "https://ecode360.com/38211587"
+      ],
+      "gap": "The statute does not designate a dedicated Forestry Officer or Tree Warden, does not require ISA-Certified Arborist involvement in enforcement or technical determinations, and does not establish a Tree Commission with arboricultural expertise. Enforcement appears to rest with general Public Works and Construction departments without specified arboricultural credentials, which falls short of best practices.",
       "score": 0.1,
-      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and identifying any parties whose property may be impacted by the removal."
+      "nextPrompts": [
+        "Does Chapter 530 of the Peekskill Municipal Code define a 'Tree Expert' or require ISA-Certified Arborist consultation for permit approvals or hazard assessments?",
+        "Is there a Tree Commission or advisory body established under Peekskill's Tree Ordinance with authority to engage qualified arboricultural professionals?"
+      ]
     },
     {
       "id": 6,
@@ -81,60 +109,61 @@
     {
       "id": 8,
       "question": "What are my responsibilities for maintaining trees on my property?",
-      "answer": "The statute does not specify detailed responsibilities for maintaining trees on your property, but it does require any replanted trees to be maintained in healthy conditions for at least one year from the date of replanting.",
-      "confidence": 85,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
       "sourceRefs": [
-        "§ 530-9"
-      ],
-      "score": 0.1,
-      "gap": "Consider adding specific guidelines for property owners regarding regular inspection schedules, care standards for tree health, and responsibilities for managing potential hazards such as dead branches or diseased trees to ensure public safety and compliance."
+        "§ 530-4"
+      ]
     },
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for systematic data collection on all tree removals, including the reason for removal and location, with an annual public report that details these findings to ensure transparency and facilitate community engagement."
+      "answer": "The Peekskill Tree Ordinance sources do not specify requirements for systematic data collection on tree removals or the preparation and presentation of a formal public report. The sources reference the Tree Preservation Fund and permit requirements, but no mention is made of tracking removal statistics, annual reporting obligations, or submission of compiled data to a governing board or the public.",
+      "confidence": 55,
+      "sourceRefs": [
+        "https://www.cityofpeekskill.com/DocumentCenter/View/2241/Tree-Ordinance-Fact-Sheet-2024"
+      ],
+      "gap": "Peekskill's ordinance does not appear to require systematic data collection on tree removals or a formal public-facing annual report. Best practice calls for tracking permit applications, denials, and removals, compiling this into an annual report submitted to the governing board by a set deadline (e.g., March 1), prepared by a designated Tree Officer in conjunction with an advisory commission, and encompassing mitigation fund activity. Peekskill falls short of this standard based on available sources.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does Peekskill's full tree ordinance text (beyond the fact sheet) include any recordkeeping or reporting requirements for the Tree Warden or City Arborist?",
+        "Is there any annual report or public disclosure requirement tied to the Tree Preservation Fund in Peekskill's municipal code?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 5.03,
-    "normalizedScore": 5.03,
-    "averageConfidence": 61,
-    "questionsAnswered": 5,
-    "totalQuestions": 8,
+    "overallScore": 4.5,
+    "normalizedScore": 4.5,
+    "averageConfidence": 55,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        0.9,
+        0.5,
         0.85,
-        0.1,
+        0.65,
         0.9,
+        0,
         0.1,
         0.55,
-        0.1,
-        0.1
+        0,
+        0.05
       ],
-      "averageQuestionScore": 0.45000000000000007,
-      "weightedScore": 0.5033,
-      "totalWeightedScore": 7.550000000000001,
+      "averageQuestionScore": 0.4,
+      "weightedScore": 0.45,
+      "totalWeightedScore": 6.75,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a permit to remove a tree with a DBH of six inches or greater on your private property. To apply for a permit, you must use the forms provided by the Building Inspector, and your application must include specific information such as the owner’s details, number of trees involved, purpose of the permit, and a sketch plan. The Building Inspector reviews the application.",
-          "score": 0.9,
+          "score": 0.5,
           "weight": 1,
-          "weightedScore": 0.9,
+          "weightedScore": 0.5,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 62
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "The penalties for removing trees without a permit include being guilty of an offense punishable by a fine of $500. Each day the violation continues counts as a separate offense, and each tree removed illegally also counts as a separate offense.",
           "score": 0.85,
           "weight": 2,
           "weightedScore": 1.7,
@@ -143,18 +172,14 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 20
+          "score": 0.65,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 82
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed instead of making a payment. However, you are not allowed to plant non-native species as replacements. Replanted trees must be ecologically compatible with the site and neighboring properties and should be from the approved list of native species as specified by the Department of Environmental Conservation and Westchester Native Plants Center.",
           "score": 0.9,
           "weight": 3,
           "weightedScore": 2.7,
@@ -163,54 +188,62 @@
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Not specified in the statute.",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        },
+        {
+          "id": "5.1",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 35
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy by establishing minimum standards for tree protection to prevent indiscriminate destruction of trees. It highlights the benefits of trees, such as shade, pollution control, and aesthetic value, which are linked to a healthy tree canopy.",
           "score": 0.55,
           "weight": 3,
-          "weightedScore": 1.6500000000000001,
+          "weightedScore": 1.65,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "The statute does not specify detailed responsibilities for maintaining trees on your property, but it does require any replanted trees to be maintained in healthy conditions for at least one year from the date of replanting.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 85
+          "confidence": 0
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0.1,
           "maxWeightedScore": 2,
-          "confidence": 20
+          "confidence": 55
         }
       ]
     }
   },
-  "overallScore": 5.03,
-  "averageConfidence": 61,
-  "questionsAnswered": 5,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:26:06.718Z",
+  "overallScore": 4.5,
+  "averageConfidence": 55,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:37:20.310Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 5.03,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.205Z"
+  "sources": [
+    {
+      "url": "https://www.cityofpeekskill.com/DocumentCenter/View/2241/Tree-Ordinance-Fact-Sheet-2024",
+      "title": "Tree Ordinance Fact Sheet 2024"
+    },
+    {
+      "url": "https://www.cityofpeekskillny.gov/559/MacGregory-Brook-Restoration-Project",
+      "title": "MacGregory Brook Restoration Project | Peekskill, NY"
+    }
+  ]
 }

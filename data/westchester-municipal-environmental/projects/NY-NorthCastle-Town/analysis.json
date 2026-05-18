@@ -1,0 +1,132 @@
+{
+  "id": "NY-NorthCastle-Town-projects-1778785854211",
+  "entityId": "NY-NorthCastle-Town",
+  "domainId": "projects",
+  "entity": {
+    "id": "NY-NorthCastle-Town",
+    "displayName": "North Castle - Town"
+  },
+  "domain": {
+    "id": "projects",
+    "displayName": "Projects"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What conservation projects or events are currently advertised?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 15,
+      "sourceRefs": [],
+      "gap": "The sources do not list any currently advertised conservation projects or events. Best practice recommends that projects be listed on the website with goals, locations, dates, eligibility, and frequency. North Castle's available content covers historical awards and tree preservation policy, but no active or upcoming conservation projects or events are advertised.",
+      "score": 0,
+      "nextPrompts": [
+        "Does North Castle's Conservation Board have a calendar or events page listing upcoming projects or volunteer opportunities?",
+        "Are there any active conservation initiatives such as tree planting, stream cleanups, or habitat restoration programs currently promoted by the Town of North Castle?"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What documentation or photo/videos showing past projects exists online?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 3,
+      "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    }
+  ],
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 5,
+    "questionsAnswered": 3,
+    "totalQuestions": 3,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
+      "totalPossibleWeight": 1.6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0,
+          "weight": 0.8,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.8,
+          "confidence": 15
+        },
+        {
+          "id": "2",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 0
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 0,
+  "averageConfidence": 5,
+  "questionsAnswered": 3,
+  "totalQuestions": 3,
+  "lastUpdated": "2026-05-15T13:48:11.176Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://www.northcastleny.com/1045/Invasive-Vine-Cutting-Program",
+      "title": "https://www.northcastleny.com/1045/Invasive-Vine-Cutting-Program"
+    },
+    {
+      "url": "https://www.northcastleny.com/1046/North-Castles-Most-Aggressive-Invasive-V",
+      "title": "https://www.northcastleny.com/1046/North-Castles-Most-Aggressive-Invasive-V"
+    },
+    {
+      "url": "https://www.northcastleny.com/1048/Learn-More-About-Invasives",
+      "title": "https://www.northcastleny.com/1048/Learn-More-About-Invasives"
+    },
+    {
+      "url": "https://www.northcastleny.com/1055/Invasive-Vines---Quick-Reference-Guide",
+      "title": "https://www.northcastleny.com/1055/Invasive-Vines---Quick-Reference-Guide"
+    },
+    {
+      "url": "https://www.northcastleny.com/1059/Vines",
+      "title": "https://www.northcastleny.com/1059/Vines"
+    },
+    {
+      "url": "https://www.northcastleny.com/1061/Weeds",
+      "title": "https://www.northcastleny.com/1061/Weeds"
+    },
+    {
+      "url": "https://www.northcastleny.com/655/Conservation-Board-Awards",
+      "title": "https://www.northcastleny.com/655/Conservation-Board-Awards"
+    },
+    {
+      "url": "https://www.northcastleny.com/660/Plants",
+      "title": "https://www.northcastleny.com/660/Plants"
+    },
+    {
+      "url": "https://www.northcastleny.com/665/Trees",
+      "title": "https://www.northcastleny.com/665/Trees"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 {
+  "id": "NY-Peekskill-City-glb-1778856980239",
   "municipality": {
     "id": "NY-Peekskill-City",
     "displayName": "Peekskill - City"
@@ -173,9 +174,17 @@
   "averageConfidence": 25,
   "questionsAnswered": 1,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T20:05:43.142Z",
+  "lastUpdated": "2026-05-15T14:56:20.239Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 1.38,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.261Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.261Z",
+  "domainId": "glb",
+  "sources": [
+    {
+      "url": "https://www.cityofpeekskillny.gov/DocumentCenter/View/3488/Leaf-Blower-Presentation",
+      "title": "https://www.cityofpeekskillny.gov/DocumentCenter/View/3488/Leaf-Blower-Presentation",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Peekskill-City\\leaf-blower-presentation.txt"
+    }
+  ]
 }

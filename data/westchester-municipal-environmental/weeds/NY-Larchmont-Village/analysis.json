@@ -1,4 +1,5 @@
 {
+  "id": "NY-Larchmont-Village-weeds-1778856983258",
   "municipality": {
     "id": "NY-Larchmont-Village",
     "displayName": "Larchmont - Village"
@@ -141,9 +142,17 @@
   "averageConfidence": 72,
   "questionsAnswered": 4,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:43:11.908Z",
+  "lastUpdated": "2026-05-15T14:56:23.258Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 4.75,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.518Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.518Z",
+  "domainId": "weeds",
+  "sources": [
+    {
+      "url": "https://www.larchmontny.gov/government/advisory_committees",
+      "title": "https://www.larchmontny.gov/government/advisory_committees",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Larchmont-Village\\advisory-committees.txt"
+    }
+  ]
 }

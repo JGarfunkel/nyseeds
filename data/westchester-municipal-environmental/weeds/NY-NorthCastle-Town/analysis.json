@@ -1,4 +1,5 @@
 {
+  "id": "NY-NorthCastle-Town-weeds-1778856983752",
   "municipality": {
     "id": "NY-NorthCastle-Town",
     "displayName": "North Castle - Town"
@@ -141,9 +142,67 @@
   "averageConfidence": 85,
   "questionsAnswered": 5,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:47:34.242Z",
+  "lastUpdated": "2026-05-15T14:56:23.752Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 6.92,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.534Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.534Z",
+  "domainId": "weeds",
+  "sources": [
+    {
+      "url": "https://www.northcastleny.com/1045/Invasive-Vine-Cutting-Program",
+      "title": "https://www.northcastleny.com/1045/Invasive-Vine-Cutting-Program",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NorthCastle-Town\\invasive-vine-cutting-program.txt"
+    },
+    {
+      "url": "https://www.northcastleny.com/1046/North-Castles-Most-Aggressive-Invasive-V",
+      "title": "https://www.northcastleny.com/1046/North-Castles-Most-Aggressive-Invasive-V",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NorthCastle-Town\\north-castles-most-aggressive-invasive-v.txt"
+    },
+    {
+      "url": "https://www.northcastleny.com/1048/Learn-More-About-Invasives",
+      "title": "https://www.northcastleny.com/1048/Learn-More-About-Invasives",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NorthCastle-Town\\learn-more-about-invasives.txt"
+    },
+    {
+      "url": "https://www.northcastleny.com/1055/Invasive-Vines---Quick-Reference-Guide",
+      "title": "https://www.northcastleny.com/1055/Invasive-Vines---Quick-Reference-Guide",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NorthCastle-Town\\invasive-vines-quick-reference-guide.txt"
+    },
+    {
+      "url": "https://www.northcastleny.com/1059/Vines",
+      "title": "https://www.northcastleny.com/1059/Vines",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NorthCastle-Town\\vines.txt"
+    },
+    {
+      "url": "https://www.northcastleny.com/1061/Weeds",
+      "title": "https://www.northcastleny.com/1061/Weeds",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NorthCastle-Town\\weeds.txt"
+    },
+    {
+      "url": "https://www.northcastleny.com/655/Conservation-Board-Awards",
+      "title": "https://www.northcastleny.com/655/Conservation-Board-Awards",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NorthCastle-Town\\conservation-board-awards.txt"
+    },
+    {
+      "url": "https://www.northcastleny.com/656/Conservation-Board-Brochures-Reports",
+      "title": "https://www.northcastleny.com/656/Conservation-Board-Brochures-Reports",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NorthCastle-Town\\conservation-board-brochures-reports.txt"
+    },
+    {
+      "url": "https://www.northcastleny.com/660/Plants",
+      "title": "https://www.northcastleny.com/660/Plants",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NorthCastle-Town\\plants.txt"
+    },
+    {
+      "url": "https://www.northcastleny.com/665/Trees",
+      "title": "https://www.northcastleny.com/665/Trees",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NorthCastle-Town\\trees.txt"
+    },
+    {
+      "url": "https://www.northcastleny.com/760/NCTV-Meeting-Video-Portal",
+      "title": "https://www.northcastleny.com/760/NCTV-Meeting-Video-Portal",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NorthCastle-Town\\nctv-meeting-video-portal.txt"
+    }
+  ]
 }

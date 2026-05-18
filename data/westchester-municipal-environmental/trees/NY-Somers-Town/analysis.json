@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Somers-Town-trees-1779068440164",
+  "entityId": "NY-Somers-Town",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Somers-Town",
     "displayName": "Somers - Town"
   },
@@ -7,21 +10,25 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a permit to remove a tree on your private property if it meets certain criteria such as being within a regulated buffer zone, located near designated scenic roads, within common lands of a conservation easement, among others. To apply, you must file a tree removal permit application with the Town Engineer, and it must include details like your name, address, the purpose of removal, and photographs of the area. The Town Engineer reviews the application.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Yes, a permit is generally required to remove trees on private property. Applications are filed with the Town Engineer (§156-5) and must include: applicant name/address, property owner info, tax map designation, purpose of removal, color photographs of the area, and a survey/sketch showing number, location, common name, caliper, and distance from structures for each tree to be removed.\n\nThe Town Engineer administers and enforces the permit process (§156-3), reviewing applications and approving, approving with conditions, or denying within 21 days of a complete application. If no action is taken within 21 days, the permit is deemed approved. Permits expire 24 months after issuance.\n\nWhen tree removal is part of a Planning Board application, a separate permit is not required — the Planning Board's approval serves as the tree removal permit (§156-5D).\n\nFees per tree are not specified in the provided sources.",
+      "confidence": 72,
       "sourceRefs": [
-        "§ 156-4",
-        "§ 156-5"
+        "§156-3",
+        "§156-5",
+        "§156-5D",
+        "§156-6"
       ],
-      "score": 0.8,
-      "gap": "Consider adding specific timelines for the review process and decision-making to provide applicants with clear expectations on how long the permit approval process will take."
+      "gap": "The statute lacks specification of fees per tree and does not mention thresholds (e.g., DBH minimums) triggering permit requirements, nor any allowance for limited removal without a permit on residential lots. Best practices recommend these elements for balanced property rights and environmental protection.",
+      "score": 0.55,
+      "nextPrompts": [
+        "Are there any fee schedules or permit costs associated with tree removal applications in this municipality?",
+        "Does the statute specify a minimum tree size (DBH) or number of trees that trigger the permit requirement on private residential lots?"
+      ]
     },
     {
       "id": 2,
@@ -36,34 +43,66 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies the following exemptions from permit requirements (§156-4B):\n\n1. **Dead trees** – defined as lifeless trees showing unseasonable lack of foliage, brittle dry branches, or no growth during growing season.\n2. **Dangerous trees** – trees posing a danger to a structure or to vehicle/pedestrian traffic.\n3. **Fire control** – removal needed to control forest fires.\n4. **Utility rights-of-way** – removal necessary to maintain public utility rights-of-way, conducted per lawful easements and with a plan filed with the Town Engineer.\n5. **Applicant-planted trees** – trees planted by the applicant with proof of planting.\n\nAdditionally, trees below the size threshold are implicitly exempt, as the definition of \"TREE\" requires a minimum 12-inch combined DBH and mature height of at least 10 feet.\n\nTrees within wetlands/wetland buffers (Chapter 167) and on very steep slopes (Chapter 148) are also listed under §170-14 as regulated categories. Annual per-parcel limits by zoning district also apply, beyond which a permit is required.",
+      "confidence": 82,
       "sourceRefs": [
-        "§ 156-7"
+        "§156-4B",
+        "§156-2 (TREE definition)",
+        "§170-14"
       ],
-      "score": 0.1,
-      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific fees per tree, available payment options, potential exemptions for certain cases, and provisions to ensure the fees cover administrative costs associated with enforcement and processing."
+      "gap": "The statute lacks exemptions or differentiated treatment for invasive/non-native species, no ISA-arborist certification requirement for hazardous tree exemptions, and no reference to NYS DEC protected native plant designations for denial criteria.",
+      "score": 0.35,
+      "nextPrompts": [
+        "Does the Town of Somers code address invasive or non-native species differently in any other chapter, such as the wetlands or zoning chapters?",
+        "Is there a requirement for arborist certification when claiming the 'dangerous tree' exemption under §156-4B(2)?"
+      ]
     },
     {
       "id": 4,
       "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-      "answer": "Yes, replanting is mentioned as part of mitigation measures for tree removal and to remediate effects, but it does not specify details regarding the planting of non-native species.",
-      "confidence": 85,
+      "answer": "Under § 156-8, replanting is required as a penalty for unlawful tree removal. A replanting plan prepared by a licensed landscape architect must be submitted, and the number of replacement trees is determined by the DBH of the removed trees (e.g., three trees at 12\" DBH requires a minimum of 12 replacement trees at 3\" DBH). The Town Board may grant relief from this requirement for good cause. However, the statute does not specify whether replanting is an option in lieu of payment for permitted removals, nor does it address whether non-native species are permitted or restricted as replacements.",
+      "confidence": 52,
       "sourceRefs": [
-        "§ 156-6"
+        "§ 156-8(A)(2)"
       ],
-      "score": 0.1,
-      "gap": "Consider adding specific guidelines on the acceptable species for replanting, including a preference for native species, as well as requirements for survival monitoring and replacement ratios to ensure successful mitigation."
+      "gap": "The statute addresses replanting only as a penalty remedy for unlawful removal, not as a voluntary in-lieu-of-payment option for permitted removals. There is no mention of native vs. non-native species requirements, no approved species list, and no tree fund alternative if on-site replanting is impractical — all of which are best practice elements.",
+      "score": 0.25,
+      "nextPrompts": [
+        "Does the statute include any permit conditions or mitigation options (such as replanting or fee-in-lieu) for lawfully permitted tree removals?",
+        "Are there any species requirements or approved planting lists specified elsewhere in the Town of Somers tree ordinance or related regulations?"
+      ]
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and clearly identifying any parties whose property may be affected by potential changes in landscape or drainage."
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "Not specified in the provided sources. The statute (§ 156-5) outlines the requirements for a tree removal permit application — including applicant information, photographs, surveys, and purpose of removal — but contains no provisions regarding neighbor notification, the number of neighbors to be notified, or the method of notification for tree removal applications.",
+      "confidence": 92,
+      "sourceRefs": [
+        "§ 156-5"
+      ],
+      "gap": "The statute does not address neighbor/resident notification requirements for tree removal applications. Best practices call for certified mail notification to adjoining and directly opposite property owners and those within a specified distance (e.g., 300 feet), at least 15 days before a decision, plus on-site permit posting visible from the street at least 3 days before removal begins. None of these elements are present in the provided sources.",
+      "score": 0,
+      "nextPrompts": [
+        "Does any other section of Chapter 156 or related municipal code address public notice or neighbor notification requirements for tree removal permits?",
+        "Are there any general public notice provisions in the Town Code (e.g., zoning or planning sections) that would apply to tree removal permit applications?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The statute does not explicitly designate a specific enforcement officer by title or role. However, it does reference the involvement of an arborist certified by the International Society of Arboriculture (ISA) or a professional forester in the New York State cooperating consultant forester program, though these professionals are retained by the applicant rather than serving as enforcement officers. [§156-4A(7), Section F]",
+      "confidence": 42,
+      "sourceRefs": [
+        "§156-4A(7)",
+        "Section F"
+      ],
+      "gap": "The statute lacks a designated enforcement officer with arboricultural credentials, relying instead on applicant-retained professionals rather than a municipal Forestry Officer, Tree Warden, or mandatory ISA-certified arborist consultation for enforcement decisions.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the municipality have a Tree Warden or Forestry Officer role defined?",
+        "Who conducts hazard assessments and removal approvals under this statute?"
+      ]
     },
     {
       "id": 6,
@@ -79,58 +118,63 @@
     {
       "id": 8,
       "question": "What are my responsibilities for maintaining trees on my property?",
-      "answer": "The statute does not specify specific responsibilities for maintaining trees on your property. It focuses more on regulations regarding the removal of trees.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a regulation that requires property owners to conduct annual inspections of trees on their property, adhere to established care standards for pruning and watering, and promptly address any identified hazards to ensure public safety and tree health."
+      "answer": "The provided sources focus primarily on tree removal permit administration and enforcement rather than ongoing maintenance responsibilities for property owners. The statute designates the Town Engineer to administer and enforce the chapter, including inspecting trees before and after removal. Property owners are required to obtain permits before removing trees, and violations can result in misdemeanor charges with fines up to $1,000 per tree. Beyond the permit requirement for removal, specific ongoing maintenance obligations for private property owners (such as trimming, pruning, or managing overhanging branches) are not specified in the provided sources.",
+      "confidence": 30,
+      "sourceRefs": [
+        "§ 156-3"
+      ],
+      "gap": "Significant gaps exist compared to best practices. The statute does not address: (1) height clearance requirements for trees overhanging roads or sidewalks, (2) obligations to remove dead or hazardous trees promptly, (3) regular maintenance requirements such as trimming and pruning, or (4) replanting/restoration requirements after unauthorized removal.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the statute contain any provisions regarding hazardous or dead trees on private property and the owner's obligation to address them?",
+        "Are there any sections addressing tree trimming or pruning requirements near public rights-of-way, roads, or sidewalks?"
+      ]
     },
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "The statute does not specify requirements for data collection on tree removals or the presentation of this data in a report to the public.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to systematically collect data on all tree removals, including location, species, and reason for removal, and to publish an annual report accessible to the public detailing these findings to enhance transparency and accountability."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 156-5",
+        "§ 156-6",
+        "§ 305"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 2.53,
-    "normalizedScore": 2.53,
-    "averageConfidence": 53,
-    "questionsAnswered": 6,
-    "totalQuestions": 8,
+    "overallScore": 2.67,
+    "normalizedScore": 2.67,
+    "averageConfidence": 60,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        0.8,
+        0.55,
         0.3,
-        0.1,
-        0.1,
-        0.1,
+        0.35,
+        0.25,
+        0,
+        0.2,
         0.5,
-        0.1,
-        0.1
+        0.2,
+        0
       ],
-      "averageQuestionScore": 0.26250000000000007,
-      "weightedScore": 0.2533,
-      "totalWeightedScore": 3.8000000000000007,
+      "averageQuestionScore": 0.26,
+      "weightedScore": 0.2667,
+      "totalWeightedScore": 4,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a permit to remove a tree on your private property if it meets certain criteria such as being within a regulated buffer zone, located near designated scenic roads, within common lands of a conservation easement, among others. To apply, you must file a tree removal permit application with the Town Engineer, and it must include details like your name, address, the purpose of removal, and photographs of the area. The Town Engineer reviews the application.",
-          "score": 0.8,
+          "score": 0.55,
           "weight": 1,
-          "weightedScore": 0.8,
+          "weightedScore": 0.55,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 72
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "Removing trees without a permit can result in a misdemeanor charge, with fines up to $1,000 per tree for individuals and $5,000 per tree for corporations, or imprisonment for up to one year. Each day the offense continues is considered a separate offense. Additionally, violators may be required to restore the site, including replanting, and the Town may seek court action to enforce compliance.",
           "score": 0.3,
           "weight": 2,
           "weightedScore": 0.6,
@@ -139,38 +183,38 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 20
+          "score": 0.35,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 82
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, replanting is mentioned as part of mitigation measures for tree removal and to remediate effects, but it does not specify details regarding the planting of non-native species.",
-          "score": 0.1,
+          "score": 0.25,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0.75,
           "maxWeightedScore": 3,
-          "confidence": 85
+          "confidence": 52
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 92
+        },
+        {
+          "id": "5.1",
+          "score": 0.2,
+          "weight": 1,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 1,
+          "confidence": 42
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "The code recognizes the importance of trees for environmental and aesthetic reasons, such as providing shade, enhancing air quality, and impacting property values, but it does not specifically mention maintaining a tree canopy.",
           "score": 0.5,
           "weight": 3,
           "weightedScore": 1.5,
@@ -179,34 +223,38 @@
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "The statute does not specify specific responsibilities for maintaining trees on your property. It focuses more on regulations regarding the removal of trees.",
-          "score": 0.1,
+          "score": 0.2,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0.4,
           "maxWeightedScore": 2,
-          "confidence": 20
+          "confidence": 30
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "The statute does not specify requirements for data collection on tree removals or the presentation of this data in a report to the public.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 20
+          "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 2.53,
-  "averageConfidence": 53,
-  "questionsAnswered": 6,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:29:27.635Z",
+  "overallScore": 2.67,
+  "averageConfidence": 60,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:40:40.164Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 2.53,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.214Z"
+  "sources": [
+    {
+      "url": "https://www.somersny.com/resources/tree-preservation-permit-application",
+      "title": "Tree Preservation Permit Application"
+    },
+    {
+      "url": "https://www.somersny.gov/resources/tree-inventory-community-forest-management-plan-project",
+      "title": "Tree Inventory & Community Forest Management Plan Project"
+    }
+  ]
 }

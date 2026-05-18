@@ -1,4 +1,5 @@
 {
+  "id": "NY-PoundRidge-Town-glb-1778856980391",
   "municipality": {
     "id": "NY-PoundRidge-Town",
     "displayName": "Pound Ridge - Town"
@@ -183,9 +184,10 @@
   "averageConfidence": 64,
   "questionsAnswered": 5,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T20:07:14.289Z",
+  "lastUpdated": "2026-05-15T14:56:20.391Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 4.75,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.266Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.266Z",
+  "domainId": "glb"
 }

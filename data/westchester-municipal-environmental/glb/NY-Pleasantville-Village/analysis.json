@@ -1,4 +1,5 @@
 {
+  "id": "NY-Pleasantville-Village-glb-1778856980354",
   "municipality": {
     "id": "NY-Pleasantville-Village",
     "displayName": "Pleasantville - Village"
@@ -184,9 +185,10 @@
   "averageConfidence": 64,
   "questionsAnswered": 5,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T20:06:28.785Z",
+  "lastUpdated": "2026-05-15T14:56:20.354Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 5.21,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.264Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.264Z",
+  "domainId": "glb"
 }

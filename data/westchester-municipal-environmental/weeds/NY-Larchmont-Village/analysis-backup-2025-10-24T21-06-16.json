@@ -1,0 +1,149 @@
+{
+  "municipality": {
+    "id": "NY-Larchmont-Village",
+    "displayName": "Larchmont - Village"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents are required to cut, trim, or remove all brush, grass over six inches in length, rubbish, weeds, litter, and other similar noxious, unsightly, or objectionable materials from their property and from the unpaved portion of the street or roadway between their property line and the pavement.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 115-1"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding specific penalties or fines for non-compliance to ensure enforcement and motivate residents to adhere to the property maintenance requirements."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§ 115-1"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, defining specific criteria such as plant species, maintenance standards, and designated areas to ensure they are distinguishable from unmanaged weed growth."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law requires the removal of objectionable materials from the unpaved portion of the street or roadway between the property owner's line and the pavement.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 115-1"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding specific guidelines for the types of \"objectionable materials\" that must be removed, as well as clear enforcement mechanisms and penalties for non-compliance to strengthen the statute's clarity and effectiveness."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "If the owner fails to comply, the village may perform the work at the owner's expense, including an administrative charge of 20%. The amount can become a lien against the property after a hearing to consider the reasonableness of the cost.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 115-1"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding specific fine amounts for initial and repeat offenses, detailed escalation procedures for repeat violations, and clear categories of violations to enhance enforcement clarity and consistency."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The owner has 15 days to resolve the violation after receiving the first notice. If not resolved, an additional 15-day notice is given, along with an estimate of costs. Penalties can be applied if the owner does not begin and complete the work within these timeframes.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 115-1"
+      ],
+      "score": 0.8,
+      "gap": "Consider adding specific fine amounts for initial and subsequent violations, a clear escalation process for repeat offenses, detailed enforcement mechanisms, and distinct categories of violations to ensure clarity and consistency in penalty application."
+    }
+  ],
+  "scores": {
+    "overallScore": 4.75,
+    "normalizedScore": 4.75,
+    "averageConfidence": 72,
+    "questionsAnswered": 4,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.65,
+        0.1,
+        0.5,
+        0.7,
+        0.8
+      ],
+      "averageQuestionScore": 0.55,
+      "weightedScore": 0.475,
+      "totalWeightedScore": 2.8499999999999996,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "Residents are required to cut, trim, or remove all brush, grass over six inches in length, rubbish, weeds, litter, and other similar noxious, unsightly, or objectionable materials from their property and from the unpaved portion of the street or roadway between their property line and the pavement.",
+          "score": 0.65,
+          "weight": 1,
+          "weightedScore": 0.65,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "Yes, the property maintenance law requires the removal of objectionable materials from the unpaved portion of the street or roadway between the property owner's line and the pavement.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "If the owner fails to comply, the village may perform the work at the owner's expense, including an administrative charge of 20%. The amount can become a lien against the property after a hearing to consider the reasonableness of the cost.",
+          "score": 0.7,
+          "weight": 1,
+          "weightedScore": 0.7,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "The owner has 15 days to resolve the violation after receiving the first notice. If not resolved, an additional 15-day notice is given, along with an estimate of costs. Penalties can be applied if the owner does not begin and complete the work within these timeframes.",
+          "score": 0.8,
+          "weight": 1,
+          "weightedScore": 0.8,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 4.75,
+  "averageConfidence": 72,
+  "questionsAnswered": 4,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:43:11.908Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4.75,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.518Z"
+}

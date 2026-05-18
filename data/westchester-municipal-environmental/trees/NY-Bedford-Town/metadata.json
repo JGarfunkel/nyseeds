@@ -12,7 +12,7 @@
       "type": "statute"
     },
     {
-      "type": "guidance",
+      "type": "help",
       "sourceUrl": "https://www.bedfordpoliceny.org/384/Understanding-the-Tree-Ordinance",
       "title": "Understanding the Tree Ordinance | Town of Bedford, NY",
       "downloadedAt": "2025-09-15T23:53:47.977Z",
@@ -37,5 +37,8 @@
   "originalCellValue": "https://ecode360.com/6236609",
   "originalHtmlLength": 139037,
   "stateCodeApplies": false,
-  "statuteNumber": "Ch 112"
+  "statuteNumber": "Ch 112",
+  "entityId": "NY-Bedford-Town",
+  "homePage": "https://www.bedfordny.gov",
+  "metadataCreated": "2026-05-06T11:02:02.737Z"
 }

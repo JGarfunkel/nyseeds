@@ -1,0 +1,117 @@
+{
+  "id": "NY-Mamaroneck-Village-projects-1778785801914",
+  "entityId": "NY-Mamaroneck-Village",
+  "domainId": "projects",
+  "entity": {
+    "id": "NY-Mamaroneck-Village",
+    "displayName": "Mamaroneck - Village"
+  },
+  "domain": {
+    "id": "projects",
+    "displayName": "Projects"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What conservation projects or events are currently advertised?",
+      "answer": "The following conservation-related projects and events are advertised in the Village of Mamaroneck Tree Committee agenda (May 6, 2026):\n\n1. **Native Plant Swap** – May 9, 11am–1pm, hosted by CFTE (Committee for the Environment), including a giveaway of free white and blue spruce trees.\n2. **Guided Tree Walk** – May 17, 1:00pm, at Alda Road & S. Barry Ave.\n3. **Pollinator Garden Project** – A collaborative effort between the Beautification Committee, Tree Committee, and CFTE to create a native pollinator garden on a village-owned parcel across from the Post Office (16' fence area).\n\nAll sourced from the May 6, 2026 Tree Committee agenda.",
+      "confidence": 82,
+      "sourceRefs": [
+        "https://www.villageofmamaroneckny.gov/AgendaCenter/ViewFile/Agenda/_05062026-777"
+      ],
+      "gap": "The advertised events lack full details per best practice: the Tree Walk and Native Plant Swap do not specify who can attend, frequency, or explicit goals beyond the agenda listing. The Pollinator Garden project lacks a public-facing webpage with location details, goals, and participation information.",
+      "score": 0.4,
+      "nextPrompts": [
+        "Is there a public-facing events or projects page on the Village of Mamaroneck website listing conservation activities with goals, locations, and eligibility?",
+        "Are there additional CFTE or Tree Committee project pages detailing frequency and participation requirements for ongoing conservation initiatives?"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What documentation or photo/videos showing past projects exists online?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The sources contain no public project portfolio, dated photos/videos, before-and-after documentation, or narratives of completed conservation work. A best-practice portfolio with visual documentation of past projects does not appear to exist based on available materials.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does the Village of Mamaroneck maintain a dedicated webpage or social media presence showcasing completed tree planting or beautification projects with photos?",
+        "Is there a public-facing archive or annual report from the Committee for Beautification or Tree Committee documenting completed projects with visual evidence?"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§10",
+        "§2"
+      ],
+      "gap": "The sources contain no information about volunteer opportunities, shared space maintenance programs, home landscaping initiatives, surveillance and reporting mechanisms, or pathways for residents to donate time or resources. The excerpts focus solely on street tree planting policy, legal authority for municipalities to plant trees beyond the right-of-way, and associated liability questions.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Mamaroneck have a parks or urban forestry volunteer program that outlines opportunities for resident participation in tree care, landscaping, or environmental stewardship?",
+        "Are there any community engagement or neighborhood watch programs documented in Village of Mamaroneck policy materials that describe how residents can report issues or contribute resources?"
+      ]
+    }
+  ],
+  "scores": {
+    "overallScore": 2.13,
+    "normalizedScore": 2.13,
+    "averageConfidence": 34,
+    "questionsAnswered": 3,
+    "totalQuestions": 3,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.4,
+        0.05,
+        0
+      ],
+      "averageQuestionScore": 0.15,
+      "weightedScore": 0.2125,
+      "totalWeightedScore": 0.34,
+      "totalPossibleWeight": 1.6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0.4,
+          "weight": 0.8,
+          "weightedScore": 0.32,
+          "maxWeightedScore": 0.8,
+          "confidence": 82
+        },
+        {
+          "id": "2",
+          "score": 0.05,
+          "weight": 0.4,
+          "weightedScore": 0.02,
+          "maxWeightedScore": 0.4,
+          "confidence": 10
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 10
+        }
+      ]
+    }
+  },
+  "overallScore": 2.13,
+  "averageConfidence": 34,
+  "questionsAnswered": 3,
+  "totalQuestions": 3,
+  "lastUpdated": "2026-05-15T13:48:10.978Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://www.villageofmamaroneckny.gov/AgendaCenter/ViewFile/Agenda/_05062026-777",
+      "title": "https://www.villageofmamaroneckny.gov/AgendaCenter/ViewFile/Agenda/_05062026-777"
+    }
+  ]
+}

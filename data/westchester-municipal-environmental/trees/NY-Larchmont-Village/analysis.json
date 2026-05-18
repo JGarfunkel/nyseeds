@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Larchmont-Village-trees-1779067865447",
+  "entityId": "NY-Larchmont-Village",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Larchmont-Village",
     "displayName": "Larchmont - Village"
   },
@@ -7,18 +10,22 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a clear regulatory framework that requires property owners to obtain a permit for tree removal on private property, detailing the application procedures, review criteria, appeal processes, timelines, and approval standards to ensure transparency and consistency in decision-making."
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Not specified in the provided sources. The retrieved excerpts address prohibited tree-climbing practices, utility wire insulation, and guy wire attachment rules, but do not contain provisions regarding permit requirements for private property tree removal, application procedures, reviewing authorities, or associated fees.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://ecode360.com/32621586#32621586"
+      ],
+      "gap": "The statute does not appear to address private property tree removal permits, application processes, reviewing officers, or fee structures. Best practices call for permit requirements tied to DBH thresholds, written applications with site plans, designated reviewing officers, decision timelines, and tiered fee schedules. None of these elements are present in the provided sources.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the municipal code for sections specifically governing private property tree removal permits, including any DBH thresholds that trigger permit requirements.",
+        "Look for any fee schedule or resolution adopted by the governing board that establishes costs associated with tree removal permit applications."
+      ]
     },
     {
       "id": 2,
@@ -33,14 +40,18 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "If a park or street tree is removed, destroyed, or damaged, the responsible party must pay the Village the cost to replace the tree or, if it cannot be replaced in kind, the cost of planting multiple trees to replace its value.",
-      "confidence": 85,
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies one limited exemption from the permit requirement: the usual periodical removal of small branches to allow free passage of utility wires does not require a permit, though such work remains subject to inspection by the Village Arborist. All other work on street and park trees requires Village authorization or a permit from the Building Department. No exemptions are specified based on tree size (DBH thresholds), species origin (native vs. non-native), tree health or hazard condition, or location on private property.",
+      "confidence": 72,
       "sourceRefs": [
-        "§ 263-18"
+        "https://ecode360.com/32621586#32621586"
       ],
-      "score": 0.6,
-      "gap": "Consider adding a clear fee schedule that specifies the exact monetary amount or formula for calculating the fee for removing each tree without a replacement, including any potential exemptions or variations based on tree size, species, or location."
+      "gap": "The statute lacks exemptions or differentiated treatment based on DBH thresholds, tree health/hazard status, invasive or non-native species designation, or ISA-certified arborist certification requirements. There is no provision for reduced replacement obligations for invasive species removal, no reference to NYS DEC protected native plant designations, and no framework distinguishing native from non-native trees in permitting decisions.",
+      "score": 0.1,
+      "nextPrompts": [
+        "Does the Village of Larchmont code contain any provisions addressing hazardous or dead tree removal on private property, and are those exempt from permitting?",
+        "Are there any DBH-based thresholds or species-specific exemptions in the Village of Larchmont tree removal permit application process?"
+      ]
     },
     {
       "id": 4,
@@ -55,12 +66,23 @@
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
       "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and clearly identifying any neighbors whose properties may be affected by potential changes in landscape or drainage."
+      "gap": "The statute does not address neighbor notification requirements for tree removal applications. Best practices recommend notifying all adjoining and directly opposite property owners plus those within a specified distance (e.g., 300 feet) via certified mail at least 15 days before a decision, and posting a permit sign on-site at least 3 days before removal begins.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the municipality have a separate permit application process for tree removal that includes public notice or neighbor notification requirements?",
+        "Are there any public hearing or appeal procedures outlined in the statute that would trigger neighbor notification for tree removal decisions?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 6,
@@ -87,51 +109,52 @@
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "The statute requires the Village to study, update annually, and administer a plan for tree care, which is presented to the Village Board, but it does not specify data collection on tree removals or reporting to the public.",
-      "confidence": 85,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 15,
       "sourceRefs": [
-        "§ 263-14"
+        "https://ecode360.com/32621586#32621586"
       ],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for systematic data collection on tree removals, including the number, location, and reasons for removal, and mandate that this information be included in an annual public report to enhance transparency and accountability."
+      "gap": "The statute does not appear to require systematic data collection on tree removals or mandate formal public-facing reporting such as an annual report to the governing board. Best practices include designating a Tree Officer responsible for compiling permit data (applications received, permits denied, trees removed) into an annual report submitted by a specified deadline, along with reporting on any mitigation funds. The provided sources only reference a Parks and Trees Committee serving in an advisory capacity, with no mention of data collection or public reporting obligations.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does the statute assign any recordkeeping or reporting duties to the Parks and Trees Committee or the Department of Public Works regarding tree removals?",
+        "Is there a permit tracking or tree bank fund reporting requirement elsewhere in the municipal code?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 4.03,
-    "normalizedScore": 4.03,
-    "averageConfidence": 61,
-    "questionsAnswered": 6,
-    "totalQuestions": 8,
+    "overallScore": 3.43,
+    "normalizedScore": 3.43,
+    "averageConfidence": 42,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        0.1,
+        0,
         0.7,
-        0.6,
-        0.3,
         0.1,
+        0.3,
+        0,
+        0,
         0.55,
         0.55,
-        0.1
+        0.05
       ],
-      "averageQuestionScore": 0.37500000000000006,
-      "weightedScore": 0.4033,
-      "totalWeightedScore": 6.05,
+      "averageQuestionScore": 0.25,
+      "weightedScore": 0.3433,
+      "totalWeightedScore": 5.1499999999999995,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 10
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "Anyone removing, destroying, or damaging a park or street tree must pay the cost to replace it. Violations of chapter provisions may result in a fine of up to $500, and a civil penalty of $200 per day per tree until the issue is resolved.",
           "score": 0.7,
           "weight": 2,
           "weightedScore": 1.4,
@@ -140,48 +163,46 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "If a park or street tree is removed, destroyed, or damaged, the responsible party must pay the Village the cost to replace the tree or, if it cannot be replaced in kind, the cost of planting multiple trees to replace its value.",
-          "score": 0.6,
-          "weight": 1,
-          "weightedScore": 0.6,
-          "maxWeightedScore": 1,
-          "confidence": 85
+          "score": 0.1,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 72
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "The statute does specify that if a tree is removed, the cost of planting multiple trees may be required to replace its value, but it does not detail if private individuals can replant trees themselves or specify if non-native species are allowed.",
           "score": 0.3,
           "weight": 3,
-          "weightedScore": 0.8999999999999999,
+          "weightedScore": 0.9,
           "maxWeightedScore": 3,
           "confidence": 20
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 10
+        },
+        {
+          "id": "5.1",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code emphasizes the preservation and care of trees to protect the health, safety, and environment of the village. It recognizes the benefits trees provide, including shade, soil erosion prevention, and environmental enhancement.",
           "score": 0.55,
           "weight": 3,
-          "weightedScore": 1.6500000000000001,
+          "weightedScore": 1.65,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "As a property owner, you must maintain trees or bushes so they do not obstruct streetlights, create traffic hazards, or block sidewalks. You must also remove any dead, diseased, or dangerous trees and limbs at your own expense.",
           "score": 0.55,
           "weight": 2,
           "weightedScore": 1.1,
@@ -190,24 +211,26 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "The statute requires the Village to study, update annually, and administer a plan for tree care, which is presented to the Village Board, but it does not specify data collection on tree removals or reporting to the public.",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0.1,
           "maxWeightedScore": 2,
-          "confidence": 85
+          "confidence": 15
         }
       ]
     }
   },
-  "overallScore": 4.03,
-  "averageConfidence": 61,
-  "questionsAnswered": 6,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:21:00.118Z",
+  "overallScore": 3.43,
+  "averageConfidence": 42,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:31:05.447Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 4.03,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.185Z"
+  "sources": [
+    {
+      "url": "https://www.larchmontny.gov/government/advisory_committees",
+      "title": "Advisory Committees"
+    }
+  ]
 }

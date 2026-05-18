@@ -10,6 +10,13 @@
   "statuteNumber": "Ch 121",
   "sources": [
     {
+      "sourceUrl": "https://www.mynewcastleny.gov/DocumentCenter/View/959/Tree-Removal-Permit-Application",
+      "downloadedAt": "2026-05-04T16:29:35.834Z",
+      "title": "Tree-Removal-Permit-Application",
+      "type": "form",
+      "downloadedFilename": "NY-NewCastle-Town/tree-removal-permit-application.txt"
+    },
+    {
       "downloadedAt": "2025-09-16T00:06:04.415Z",
       "contentLength": 34325,
       "sourceUrl": "https://ecode360.com/11750063",
@@ -28,5 +35,7 @@
       }
     }
   ],
-  "originalHtmlLength": 197728
+  "originalHtmlLength": 197728,
+  "entityId": "NY-NewCastle-Town",
+  "homePage": "https://www.mynewcastleny.gov/"
 }

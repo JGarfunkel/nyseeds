@@ -1,4 +1,5 @@
 {
+  "id": "NY-Elmsford-Village-glb-1778856979858",
   "municipality": {
     "id": "NY-Elmsford-Village",
     "displayName": "Elmsford - Village"
@@ -177,9 +178,10 @@
   "averageConfidence": 70,
   "questionsAnswered": 5,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T20:00:26.330Z",
+  "lastUpdated": "2026-05-15T14:56:19.858Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 2.17,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.231Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.231Z",
+  "domainId": "glb"
 }

@@ -1,4 +1,5 @@
 {
+  "id": "NY-NorthCastle-Town-glb-1778856980107",
   "municipality": {
     "id": "NY-NorthCastle-Town",
     "displayName": "North Castle - Town"
@@ -9,7 +10,7 @@
   },
   "grades": {},
   "questions": [],
-  "lastUpdated": "2025-08-18T02:41:44.612Z",
+  "lastUpdated": "2026-05-15T14:56:20.107Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "scores": {
@@ -29,5 +30,6 @@
   },
   "overallScore": 0,
   "normalizedScore": 0,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.257Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.257Z",
+  "domainId": "glb"
 }

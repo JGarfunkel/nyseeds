@@ -1,7 +1,16 @@
 {
-  "municipality": "NY-Peekskill-City",
-  "domain": "wetland-protection",
-  "analyzedAt": "2025-09-08T19:39:21.117Z",
+  "id": "NY-Peekskill-City-wetland-protection-1778621065434",
+  "entityId": "NY-Peekskill-City",
+  "domainId": "wetland-protection",
+  "entity": {
+    "id": "NY-Peekskill-City",
+    "displayName": "Peekskill - City"
+  },
+  "domain": {
+    "id": "wetland-protection",
+    "displayName": "Wetland Protection"
+  },
+  "grades": {},
   "questions": [
     {
       "id": 3,
@@ -12,7 +21,8 @@
         "§ 294-1"
       ],
       "score": 0.75,
-      "analyzedAt": "2025-09-08T19:39:16.839Z"
+      "analyzedAt": "2025-09-08T19:39:16.839Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding specific criteria or conditions under which the setback requirement may be reduced or increased, such as the presence of endangered species or flood risk, to provide more tailored environmental protection.\"\n}"
     },
     {
       "id": 4,
@@ -21,7 +31,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:17.461Z"
+      "analyzedAt": "2025-09-08T19:39:17.461Z",
+      "gap": "{\n  \"recommendation\": \"Consider adding a tiered penalty structure that includes fines starting at $500 for first offenses, escalating to $2,000 for repeat offenses, with clear enforcement mechanisms and defined categories of violations such as minor, moderate, and severe disturbances.\"\n}"
     },
     {
       "id": 5,
@@ -30,7 +41,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:18.212Z"
+      "analyzedAt": "2025-09-08T19:39:18.212Z",
+      "gap": "{\n  \"recommendation\": \"Consider adding a detailed section outlining the application procedures for obtaining a wetland permit or variance, including submission requirements, review criteria, timelines for decision-making, and an appeal process for denied applications.\"\n}"
     },
     {
       "id": 6,
@@ -39,7 +51,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:18.794Z"
+      "analyzedAt": "2025-09-08T19:39:18.794Z",
+      "gap": "{\n  \"recommendation\": \"Consider adding a requirement for a detailed mitigation plan as part of the application procedures, specifying the criteria for acceptable mitigation measures, timelines for implementation, and standards for approval to ensure no net loss of wetland functions and values.\"\n}"
     },
     {
       "id": 7,
@@ -48,7 +61,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:19.433Z"
+      "analyzedAt": "2025-09-08T19:39:19.433Z",
+      "gap": "{\n  \"recommendation\": \"Consider adding a provision that explicitly prohibits any residential, commercial, or industrial development in designated wetland areas to preserve ecological integrity and prevent environmental degradation.\"\n}"
     },
     {
       "id": 9,
@@ -57,7 +71,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:19.869Z"
+      "analyzedAt": "2025-09-08T19:39:19.869Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding a provision that offers property tax reductions or credits to landowners who actively engage in wetland preservation and restoration efforts, with specific criteria and standards for eligibility and compliance monitoring.\"\n}"
     },
     {
       "id": 10,
@@ -66,7 +81,8 @@
       "confidence": 0,
       "sourceRefs": [],
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:21.117Z"
+      "analyzedAt": "2025-09-08T19:39:21.117Z",
+      "gap": "{\n    \"recommendation\": \"Consider adding a requirement for regular monitoring reports and maintenance plans to ensure compliance with environmental standards and the long-term health of the wetland ecosystem.\"\n}"
     }
   ],
   "scores": {
@@ -167,9 +183,17 @@
   "averageConfidence": 13,
   "questionsAnswered": 1,
   "totalQuestions": 7,
-  "gapAnalysis": "",
-  "wenGrade": "G-",
+  "lastUpdated": "2026-05-15T13:48:15.007Z",
+  "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 1.93,
-  "scoresUpdatedAt": "2025-10-10T17:19:07.248Z"
+  "sources": [
+    {
+      "url": "https://www.cityofpeekskillny.gov/553/About-the-Conservation-Advisory-Council",
+      "title": "https://www.cityofpeekskillny.gov/553/About-the-Conservation-Advisory-Council"
+    },
+    {
+      "url": "https://www.cityofpeekskillny.gov/AgendaCenter/Conservation-Advisory-Council-9",
+      "title": "https://www.cityofpeekskillny.gov/AgendaCenter/Conservation-Advisory-Council-9"
+    }
+  ]
 }

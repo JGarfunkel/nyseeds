@@ -1,4 +1,5 @@
 {
+  "id": "NY-Yorktown-Town-weeds-1778856984177",
   "municipality": {
     "id": "NY-Yorktown-Town",
     "displayName": "Yorktown - Town"
@@ -139,9 +140,10 @@
   "averageConfidence": 59,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:54:21.882Z",
+  "lastUpdated": "2026-05-15T14:56:24.177Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 3.67,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.569Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.569Z",
+  "domainId": "weeds"
 }

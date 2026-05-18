@@ -1,0 +1,153 @@
+{
+  "municipality": {
+    "id": "NY-NewRochelle-City",
+    "displayName": "New Rochelle - City"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents must ensure that no growth of weeds, grass, or other rank vegetation exceeds a height of six inches. They must also prevent the growth of poisonous plants like poison ivy and ragweed in a manner that does not allow them to overhang public spaces or let pollen or other particles travel through the air into public spaces. It is the duty of the property owner, lessee, or occupant to cut and remove these plants as needed.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 250-5"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding specific penalties or fines for non-compliance to ensure enforcement and provide clear consequences for residents who fail to maintain their properties according to the statute."
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§ 250-5"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, defining specific criteria such as plant species, maintenance standards, and designated areas to ensure they are distinguishable from unmanaged weed growth."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Yes, the property maintenance law applies to areas between the property line and the curb, including the sidewalk or street adjacent to the property.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 250-1",
+        "§ 250-5"
+      ],
+      "score": 0.5,
+      "gap": "Consider adding explicit guidelines for property owners regarding the maintenance responsibilities for the sidewalk and street areas, including specific standards for cleanliness, snow removal, and repair obligations, to ensure clarity and consistency in enforcement."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Penalties for failing to comply with property maintenance regulations include a fine of up to $2,500 for the first offense and up to $5,000 for a second or subsequent offense within three years. Additionally, violators may face imprisonment for up to 15 days. Each day a violation continues is considered a separate violation.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 250-7"
+      ],
+      "score": 0.85,
+      "gap": "Consider adding specific categories of violations with corresponding fine amounts to ensure clarity and consistency in enforcement, as well as detailing the enforcement mechanisms and processes for issuing fines and handling appeals."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§ 250-6",
+        "§ 250-7"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a clear timeline of 30 days for property owners to resolve a weeds-related maintenance violation before penalties are applied, with specified fine amounts for initial and repeat offenses, and a structured escalation process for non-compliance."
+    }
+  ],
+  "scores": {
+    "overallScore": 3.83,
+    "normalizedScore": 3.83,
+    "averageConfidence": 59,
+    "questionsAnswered": 3,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.65,
+        0.1,
+        0.5,
+        0.85,
+        0.1
+      ],
+      "averageQuestionScore": 0.44000000000000006,
+      "weightedScore": 0.3833,
+      "totalWeightedScore": 2.3000000000000003,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "Residents must ensure that no growth of weeds, grass, or other rank vegetation exceeds a height of six inches. They must also prevent the growth of poisonous plants like poison ivy and ragweed in a manner that does not allow them to overhang public spaces or let pollen or other particles travel through the air into public spaces. It is the duty of the property owner, lessee, or occupant to cut and remove these plants as needed.",
+          "score": 0.65,
+          "weight": 1,
+          "weightedScore": 0.65,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 20
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "Yes, the property maintenance law applies to areas between the property line and the curb, including the sidewalk or street adjacent to the property.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "Penalties for failing to comply with property maintenance regulations include a fine of up to $2,500 for the first offense and up to $5,000 for a second or subsequent offense within three years. Additionally, violators may face imprisonment for up to 15 days. Each day a violation continues is considered a separate violation.",
+          "score": 0.85,
+          "weight": 1,
+          "weightedScore": 0.85,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        }
+      ]
+    }
+  },
+  "overallScore": 3.83,
+  "averageConfidence": 59,
+  "questionsAnswered": 3,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:46:52.110Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 3.83,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.532Z"
+}

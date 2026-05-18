@@ -1,0 +1,40 @@
+{
+  "domain": {
+    "id": "projects",
+    "displayName": "projects"
+  },
+  "analysisDate": "2026-05-14T14:05:44.448Z",
+  "totalMunicipalitiesAnalyzed": 45,
+  "averageScore": 0,
+  "highestScoringEntity": {
+    "id": "",
+    "displayName": "",
+    "score": 0
+  },
+  "bestPractices": [
+    {
+      "questionId": 1,
+      "question": "What conservation projects or events are currently advertised, and do they clearly state goals, locations, dates, and target participants?",
+      "bestAnswer": "Best practices include having projects listed on the website stating goals, locations and dates, who can go, what is the frequency.",
+      "quantitativeHighlights": []
+    },
+    {
+      "questionId": 2,
+      "question": "Is there documentation or photo/videos showing past projects, and does it demonstrate real on-the-ground conservation work?",
+      "bestAnswer": "Best practices include maintain a public project portfolio with dated photos/videos, before-and-after documentation, and brief narratives showing completed on-the-ground conservation work.",
+      "quantitativeHighlights": []
+    },
+    {
+      "questionId": 3,
+      "question": "What range of oppurtunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
+      "bestAnswer": "Best practices would include a full set from shared space maintenance to home landscaping to surveillance and reporting, with clear instructions for how the average person can donate time or resources to get involved.",
+      "quantitativeHighlights": []
+    }
+  ],
+  "overallRecommendations": {
+    "commonWeaknesses": [],
+    "keyImprovements": [],
+    "modelMunicipalities": []
+  },
+  "version": "1.0"
+}

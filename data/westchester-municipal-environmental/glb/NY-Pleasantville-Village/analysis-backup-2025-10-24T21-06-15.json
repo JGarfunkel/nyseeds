@@ -1,0 +1,192 @@
+{
+  "municipality": {
+    "id": "NY-Pleasantville-Village",
+    "displayName": "Pleasantville - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "The prohibition of gas leaf blowers lasts from May 15 through September 30 each year.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 123-5.1"
+      ],
+      "score": 0.45,
+      "gap": "Consider adding a requirement for clear signage in public areas to inform residents and landscapers about the prohibition period for gas leaf blowers, ensuring widespread awareness and compliance."
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Gas leaf blowers are not permitted to be used from May 15 through September 30, except under special circumstances. From October 1 through May 14, they can be used during the hours specified in § 123-5L, which are 8:00 a.m. to 7:00 p.m. Monday through Friday, and 9:00 a.m. to 5:00 p.m. on weekends and federally recognized holidays.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 123-5.1",
+        "§ 123-5L"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding a provision that clearly defines what constitutes \"special circumstances\" under which gas leaf blowers may be used from May 15 through September 30, including any application procedures, review criteria, and approval standards for obtaining such an exception."
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Violating any provision of the Noise Control Law, including gas leaf blower regulations, is punishable by a fine of not more than $500, imprisonment not to exceed 15 days, or both such fine and imprisonment.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 123-11"
+      ],
+      "score": 0.9,
+      "gap": "Consider adding specific escalation measures for repeat offenses, such as increased fines or longer imprisonment terms, to deter habitual violators of the gas leaf blower regulations."
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Yes, there are exceptions. Fuel-powered motorized leaf blowers may be used by the Pleasantville Union Free School District to redistribute the infill back on the playing surface of the School District's natural turf fields when such infill is displaced by heavy rain.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 123-5.1"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding a clear definition of \"heavy rain\" to establish consistent criteria for when the exception for using fuel-powered motorized leaf blowers by the Pleasantville Union Free School District is applicable, ensuring uniform application and enforcement of the statute."
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Violations of the noise ordinance, including gas leaf blower use, are enforced by the Police Department and Building Inspector of the Village of Pleasantville or other officials designated by the Village Board of Trustees. These officials, if they witness a violation, are authorized to issue a summons.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 123-10"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding a clear process for the public to report violations, including a dedicated hotline or online portal, and ensure transparency by requiring the municipality to publish regular reports on the number and types of violations reported and enforced."
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that mandates the promotion of leaf mulching practices by requiring the municipality to provide educational resources and workshops for residents on the environmental benefits and techniques of leaving leaf debris and mulching."
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the statute.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for an annual public report that includes comprehensive data collection on relevant municipal activities, transparency measures detailing how the data is gathered and used, and a tracking mechanism to monitor progress and ensure accountability."
+    }
+  ],
+  "scores": {
+    "overallScore": 5.21,
+    "normalizedScore": 5.21,
+    "averageConfidence": 64,
+    "questionsAnswered": 5,
+    "totalQuestions": 7,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.45,
+        0.6,
+        0.9,
+        0.3,
+        0.65,
+        0.1,
+        0.1
+      ],
+      "averageQuestionScore": 0.4428571428571429,
+      "weightedScore": 0.5208,
+      "totalWeightedScore": 6.249999999999999,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "The prohibition of gas leaf blowers lasts from May 15 through September 30 each year.",
+          "score": 0.45,
+          "weight": 4,
+          "weightedScore": 1.8,
+          "maxWeightedScore": 4,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Gas leaf blowers are not permitted to be used from May 15 through September 30, except under special circumstances. From October 1 through May 14, they can be used during the hours specified in § 123-5L, which are 8:00 a.m. to 7:00 p.m. Monday through Friday, and 9:00 a.m. to 5:00 p.m. on weekends and federally recognized holidays.",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "Violating any provision of the Noise Control Law, including gas leaf blower regulations, is punishable by a fine of not more than $500, imprisonment not to exceed 15 days, or both such fine and imprisonment.",
+          "score": 0.9,
+          "weight": 3,
+          "weightedScore": 2.7,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Yes, there are exceptions. Fuel-powered motorized leaf blowers may be used by the Pleasantville Union Free School District to redistribute the infill back on the playing surface of the School District's natural turf fields when such infill is displaced by heavy rain.",
+          "score": 0.3,
+          "weight": 1,
+          "weightedScore": 0.3,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Violations of the noise ordinance, including gas leaf blower use, are enforced by the Police Department and Building Inspector of the Village of Pleasantville or other officials designated by the Village Board of Trustees. These officials, if they witness a violation, are authorized to issue a summons.",
+          "score": 0.65,
+          "weight": 1,
+          "weightedScore": 0.65,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        },
+        {
+          "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        }
+      ]
+    }
+  },
+  "overallScore": 5.21,
+  "averageConfidence": 64,
+  "questionsAnswered": 5,
+  "totalQuestions": 7,
+  "lastUpdated": "2025-09-09T20:06:28.785Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 5.21,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.264Z"
+}

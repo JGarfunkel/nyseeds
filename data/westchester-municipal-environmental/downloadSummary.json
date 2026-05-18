@@ -1,0 +1,2530 @@
+[
+  {
+    "id": "NY-Ardsley-Village",
+    "name": "Ardsley",
+    "displayName": "Ardsley - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.ardsleyvillage.gov/",
+        "title": "Www.Ardsleyvillage.Gov",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-06T20:13:10.331Z"
+      },
+      {
+        "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee",
+        "title": "Ardsley Pollinator Pathway Committee",
+        "matchedDomainIds": [
+          "projects",
+          "planting",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T20:13:13.802Z"
+      },
+      {
+        "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/minutes/ardsley-pollinator-pathway-meeting-minutes-1",
+        "title": "Ardsley Pollinator Pathway Meeting Minutes 1",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:15:52.805Z"
+      },
+      {
+        "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/minutes/ardsley-pollinator-pathway-meeting-minutes-2",
+        "title": "Ardsley Pollinator Pathway Meeting Minutes 2",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:15:52.776Z"
+      },
+      {
+        "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/minutes/ardsley-pollinator-pathway-meeting-minutes-3",
+        "title": "Ardsley Pollinator Pathway Meeting Minutes 3",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:15:52.746Z"
+      },
+      {
+        "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/minutes/ardsley-pollinator-pathway-meeting-minutes-4",
+        "title": "Ardsley Pollinator Pathway Meeting Minutes 4",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:15:52.726Z"
+      },
+      {
+        "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/news/ardsley-pollinator-pathway-message",
+        "title": "Ardsley Pollinator Pathway Message",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:15:50.387Z"
+      },
+      {
+        "url": "https://www.ardsleyvillage.gov/ardsley-pollinator-pathway-committee/news/were-kicking-off-another-exiting-year",
+        "title": "Were Kicking Off Another Exiting Year",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:15:49.732Z"
+      },
+      {
+        "url": "https://www.ardsleyvillage.gov/comprehensive-plan-implementation-ongoing-projects",
+        "title": "Comprehensive Plan Implementation Ongoing Projects",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:15:52.840Z"
+      },
+      {
+        "url": "https://www.ardsleyvillage.gov/home/events/47961",
+        "title": "AAPI Heritage Community Celebration | Ardsley NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-08T12:03:22.949Z"
+      },
+      {
+        "url": "https://www.ardsleyvillage.gov/print/36811",
+        "title": "36811",
+        "matchedDomainIds": [
+          "planting",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:15:48.349Z"
+      },
+      {
+        "url": "https://www.ardsleyvillage.gov/village-ongoing-projects/new-village-planning-process/files/village-of-ardsley-community-update-on-0",
+        "title": "Village Of Ardsley Community Update On 0",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:15:55.049Z"
+      },
+      {
+        "url": "https://www.ardsleyvillage.gov/village-ongoing-projects/new-village-planning-process/pages/market-analysis-development-strategy-0",
+        "title": "Market Analysis Development Strategy 0",
+        "matchedDomainIds": [
+          "cluster-zoning",
+          "slopes"
+        ],
+        "timestamp": "2026-05-06T20:15:54.355Z"
+      },
+      {
+        "url": "https://www.ardsleyvillage.gov/village-ongoing-projects/new-village-planning-process/pages/on-line-community-survey-results",
+        "title": "On Line Community Survey Results",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:15:54.685Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Bedford-Town",
+    "name": "Bedford",
+    "displayName": "Bedford - Town",
+    "linkedResources": [
+      {
+        "url": "https://bedfordny.gov/189/Maps-Plans-Zoning",
+        "title": "Maps, Plans & Zoning Regulations | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "cluster-zoning",
+          "slopes",
+          "glb",
+          "solar-1",
+          "trees",
+          "weeds",
+          "wildlife"
+        ],
+        "timestamp": "2026-05-06T11:02:03.857Z"
+      },
+      {
+        "url": "https://bedfordny.gov/217/Historic-Highlights",
+        "title": "Historic Highlights | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "dark-sky"
+        ],
+        "timestamp": "2026-05-06T11:02:03.256Z"
+      },
+      {
+        "url": "https://bedfordny.gov/272/Conservation-Board",
+        "title": "Conservation Board | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "boards"
+        ],
+        "timestamp": "2026-05-05T18:45:52.243Z"
+      },
+      {
+        "url": "https://bedfordny.gov/276/Rain-Garden",
+        "title": "Rain Garden | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T11:02:00.645Z"
+      },
+      {
+        "url": "https://bedfordny.gov/372/Historic-Barn-Rehabilitation-Tax-Credit-",
+        "title": "Historic Barn Rehabilitation Tax Credit Program | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T11:02:02.740Z"
+      },
+      {
+        "url": "https://bedfordny.gov/384/Understanding-Our-Tree-Ordinance",
+        "title": "Understanding the Tree Ordinance | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "trees",
+          "slopes"
+        ],
+        "timestamp": "2026-05-06T11:02:02.206Z"
+      },
+      {
+        "url": "https://bedfordny.gov/DocumentCenter/View/1881/DRAFT-BEDFORD-CPP-2024-05-17",
+        "title": "DRAFT BEDFORD CPP 2024 05 17",
+        "matchedDomainIds": [
+          "wildlife"
+        ],
+        "timestamp": "2026-05-06T11:02:03.655Z"
+      },
+      {
+        "url": "https://bedfordny.gov/DocumentCenter/View/386/List-of-Plant-Species-Rain-Garden-PDF",
+        "title": "List Of Plant Species Rain Garden PDF",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T11:02:02.126Z"
+      },
+      {
+        "url": "https://bedfordny.gov/DocumentCenter/View/399/Wildlife-Corridor-Mapping-Study-PDF",
+        "title": "Wildlife Corridor Mapping Study PDF",
+        "matchedDomainIds": [
+          "wildlife",
+          "slopes"
+        ],
+        "timestamp": "2026-05-06T11:02:03.802Z"
+      },
+      {
+        "url": "https://bedfordny.gov/DocumentCenter/View/422/Town-of-Bedford-Tree-Management-Report-PDF",
+        "title": "Town Of Bedford Tree Management Report PDF",
+        "matchedDomainIds": [
+          "trees",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T11:02:03.750Z"
+      },
+      {
+        "url": "https://bedfordny.gov/DocumentCenter/View/833/Leafblower-Ban-Information-Card-PDF",
+        "title": "Leafblower Ban Information Card PDF",
+        "matchedDomainIds": [
+          "glb"
+        ],
+        "timestamp": "2026-05-06T11:02:03.703Z"
+      },
+      {
+        "url": "https://bedfordny.gov/DocumentCenter/View/834/Transitioning-to-Electric-Leaf-Blowers-PDF",
+        "title": "Transitioning To Electric Leaf Blowers PDF",
+        "matchedDomainIds": [
+          "glb"
+        ],
+        "timestamp": "2026-05-06T11:02:03.730Z"
+      },
+      {
+        "url": "https://bedfordny.gov/DocumentCenter/View/864/Snow-Removal-in-the-Town-of-Bedford-FAQs-PDF",
+        "title": "Snow Removal In The Town Of Bedford FAQs PDF",
+        "matchedDomainIds": [
+          "trees"
+        ],
+        "timestamp": "2026-05-06T11:02:02.717Z"
+      },
+      {
+        "url": "https://bedfordny.gov/QuickLinks.aspx",
+        "title": "Quick Links • Town of Bedford, NY • CivicEngage",
+        "matchedDomainIds": [
+          "wildlife",
+          "glb"
+        ],
+        "timestamp": "2026-05-06T11:02:00.974Z"
+      },
+      {
+        "url": "https://www.bedfordny.gov/",
+        "title": "Town of Bedford, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T15:32:15.951Z"
+      },
+      {
+        "url": "https://www.bedfordny.gov/150/Planning-Department",
+        "title": "CivicPlus | Town of Bedford, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:45:54.870Z"
+      },
+      {
+        "url": "https://www.bedfordny.gov/1871/Solarize-Bedford",
+        "title": "Solarize Bedford | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "solar-1"
+        ],
+        "timestamp": "2026-05-05T15:32:53.216Z"
+      },
+      {
+        "url": "https://www.bedfordny.gov/219/Sustainability",
+        "title": "Sustainability | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-05T15:32:51.100Z"
+      },
+      {
+        "url": "https://www.bedfordny.gov/233/Bedford-Hills-Community-House-Emissions-",
+        "title": "Bedford Hills Community House Emissions Free | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-05T15:32:53.035Z"
+      },
+      {
+        "url": "https://www.bedfordny.gov/317/Energy-Benchmarking-of-Town-Buildings",
+        "title": "Energy Benchmarking of Town Buildings | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "solar-1"
+        ],
+        "timestamp": "2026-05-05T15:32:52.544Z"
+      },
+      {
+        "url": "https://www.bedfordny.gov/384/Understanding-the-Tree-Ordinance",
+        "title": "Understanding the Tree Ordinance | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "trees",
+          "slopes"
+        ],
+        "timestamp": "2026-05-05T15:32:51.870Z"
+      },
+      {
+        "url": "https://www.bedfordny.gov/459/Leaf-Blower-Ban",
+        "title": "Leaf Blower Ban | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "glb",
+          "projects"
+        ],
+        "timestamp": "2026-05-05T15:32:52.059Z"
+      },
+      {
+        "url": "https://www.bedfordny.gov/613/Energy",
+        "title": "Energy | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "solar-1"
+        ],
+        "timestamp": "2026-05-05T15:32:52.301Z"
+      },
+      {
+        "url": "https://www.bedfordny.gov/683/Visitor-Guide",
+        "title": "Eat, Shop, Explore Bedford! | Town of Bedford, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-05T15:32:51.319Z"
+      },
+      {
+        "url": "https://www.bedfordny.gov/AgendaCenter",
+        "title": "AgendaCenter",
+        "matchedDomainIds": [
+          "cluster-zoning",
+          "wetland-protection"
+        ],
+        "timestamp": "2026-05-06T11:01:59.539Z"
+      },
+      {
+        "url": "https://www.bedfordny.gov/AgendaCenter/ViewFile/Agenda/_02122026-356",
+        "title": " 02122026 356",
+        "matchedDomainIds": [
+          "wildlife"
+        ],
+        "timestamp": "2026-05-06T11:02:02.095Z"
+      },
+      {
+        "url": "https://www.bedfordny.gov/AgendaCenter/ViewFile/Agenda/_03122026-369",
+        "title": " 03122026 369",
+        "matchedDomainIds": [
+          "wildlife"
+        ],
+        "timestamp": "2026-05-06T11:02:02.088Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-BriarcliffManor-Village",
+    "name": "Briarcliff Manor",
+    "displayName": "Briarcliff Manor - Village",
+    "linkedResources": []
+  },
+  {
+    "id": "NY-Bronxville-Village",
+    "name": "Bronxville",
+    "displayName": "Bronxville - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.villageofbronxville.com/",
+        "title": "Bronxville, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:01.414Z"
+      },
+      {
+        "url": "https://www.villageofbronxville.com/building-department",
+        "title": "Bronxville, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:05.627Z"
+      },
+      {
+        "url": "https://www.villageofbronxville.gov/284/Green-Committee",
+        "title": "Green Committee | Bronxville, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:03.482Z"
+      },
+      {
+        "url": "https://www.villageofbronxville.gov/285/Bronxville-Certified-as-a-NYS-Bronze-Cli",
+        "title": "Bronxville Certified as a NYS Bronze Climate Smart Community | Bronxville, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T11:08:38.895Z"
+      },
+      {
+        "url": "https://www.villageofbronxville.gov/467/Municipal-Building-Energy-Benchmarking",
+        "title": "Municipal Building Energy Benchmarking | Bronxville, NY",
+        "matchedDomainIds": [
+          "solar-1"
+        ],
+        "timestamp": "2026-05-06T11:08:39.176Z"
+      },
+      {
+        "url": "https://www.villageofbronxville.gov/484/Five-year-update-BXV-Municipal-GHG-Inven",
+        "title": "Five-year update BXV Municipal GHG Inventory | Bronxville, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-06T11:08:39.524Z"
+      },
+      {
+        "url": "https://www.villageofbronxville.gov/DocumentCenter/View/361/2023-Final-Climate-Action-Plan-for-the-Village-of-Bronxville-PDF",
+        "title": "2023 Final Climate Action Plan For The Village Of Bronxville PDF",
+        "matchedDomainIds": [
+          "solar-1"
+        ],
+        "timestamp": "2026-05-06T11:08:38.840Z"
+      },
+      {
+        "url": "https://www.villageofbronxville.gov/DocumentCenter/View/362/Green-House-Gas-Report---Municipal-PDF",
+        "title": "Green House Gas Report Municipal PDF",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-06T11:08:38.869Z"
+      },
+      {
+        "url": "https://www.villageofbronxville.gov/DocumentCenter/View/363/Greenhouse-Gas-Report---Community-PDF",
+        "title": "Greenhouse Gas Report Community PDF",
+        "matchedDomainIds": [
+          "projects",
+          "solar-1"
+        ],
+        "timestamp": "2026-05-06T11:08:38.875Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Buchanan-Village",
+    "name": "Buchanan",
+    "displayName": "Buchanan - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.villageofbuchanan.com/",
+        "title": "Welcome to the Village of Buchanan, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:45:59.327Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Cortlandt-Town",
+    "name": "Cortlandt",
+    "displayName": "Cortlandt - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.townofcortlandt.com/",
+        "title": "Town of Cortlandt, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:00.562Z"
+      },
+      {
+        "url": "https://www.townofcortlandt.com/documents/Planning/CAC/cacfsheet.pdf",
+        "title": "Cacfsheet.Pdf",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T13:57:02.194Z"
+      },
+      {
+        "url": "https://www.townofcortlandt.com/documents/water-dept/2024%20Water%20Quality%20Report.pdf",
+        "title": "2024%20Water%20Quality%20Report.Pdf",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-06T13:57:02.204Z"
+      },
+      {
+        "url": "https://www.townofcortlandt.com/FCpdf/openspacereport.pdf",
+        "title": "Openspacereport.Pdf",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-06T13:57:02.184Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Croton-on-Hudson-Village",
+    "name": "Croton-on-Hudson",
+    "displayName": "Croton-on-Hudson - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.crotononhudson-ny.gov/",
+        "title": "Croton-on-Hudson NY |",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:13.252Z"
+      },
+      {
+        "url": "https://www.crotononhudson-ny.gov/conservation-advisory-council",
+        "title": "Conservation Advisory Council | Croton-on-Hudson NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:14.930Z"
+      },
+      {
+        "url": "https://www.crotononhudson-ny.gov/node/20/events/day",
+        "title": "Conservation Advisory Council Calendar | Croton-on-Hudson NY",
+        "matchedDomainIds": [
+          "boards",
+          "wildlife",
+          "cluster-zoning",
+          "wetland-protection"
+        ],
+        "timestamp": "2026-05-06T14:37:35.164Z"
+      },
+      {
+        "url": "https://www.crotononhudson-ny.gov/node/20/events/day/2026-05-02",
+        "title": "Conservation Advisory Council Calendar | Croton-on-Hudson NY",
+        "matchedDomainIds": [
+          "boards",
+          "wildlife",
+          "cluster-zoning",
+          "wetland-protection"
+        ],
+        "timestamp": "2026-05-06T14:37:34.956Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-DobbsFerry-Village",
+    "name": "Dobbs Ferry",
+    "displayName": "Dobbs Ferry - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.dobbsferry.gov/",
+        "title": "Village of Dobbs Ferry NY |",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:12.595Z"
+      },
+      {
+        "url": "https://www.dobbsferry.gov/conservation-advisory-board",
+        "title": "Conservation Advisory Board | Village of Dobbs Ferry NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:14.025Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Eastchester-Town",
+    "name": "Eastchester",
+    "displayName": "Eastchester - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.eastchester.org/",
+        "title": "Eastchester, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:13.602Z"
+      },
+      {
+        "url": "https://www.eastchester.org/general_information/community/index.php",
+        "title": "Community Organizations",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T18:49:29.125Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Elmsford-Village",
+    "name": "Elmsford",
+    "displayName": "Elmsford - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.elmsford.gov/",
+        "title": "Elmsford, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:25.160Z"
+      },
+      {
+        "url": "https://www.elmsford.gov/249/Tree-Committee",
+        "title": "Tree Committee | Elmsford, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:27.101Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Greenburgh-Town",
+    "name": "Greenburgh",
+    "displayName": "Greenburgh - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.greenburghny.com/",
+        "title": "Greenburgh, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:25.657Z"
+      },
+      {
+        "url": "https://www.greenburghny.com/154/Planning",
+        "title": "Parks & Recreation | Greenburgh, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:32.360Z"
+      },
+      {
+        "url": "https://www.greenburghny.com/270/Conservation-Advisory-Council",
+        "title": "Greenburgh Conservation Advisory Council | Greenburgh, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:28.446Z"
+      },
+      {
+        "url": "https://www.greenburghny.com/DocumentCenter/View/14483/2024-CAC-Newsletter-4-Thank-You",
+        "title": "2024 CAC Newsletter 4 Thank You",
+        "matchedDomainIds": [
+          "glb"
+        ],
+        "timestamp": "2026-05-06T18:51:08.886Z"
+      },
+      {
+        "url": "https://www.greenburghny.com/DocumentCenter/View/14484/CAC-Newsletter-2-Recycling",
+        "title": "CAC Newsletter 2 Recycling",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-06T18:51:08.863Z"
+      },
+      {
+        "url": "https://www.greenburghny.com/DocumentCenter/View/14655/2024-CAC-Newsletter-3-Invasive-Plants",
+        "title": "2024 CAC Newsletter 3 Invasive Plants",
+        "matchedDomainIds": [
+          "weeds",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T18:51:08.867Z"
+      },
+      {
+        "url": "https://www.greenburghny.com/DocumentCenter/View/14656/2024-CAC-Newsletter-5-Green-for-Fall-V2",
+        "title": "2024 CAC Newsletter 5 Green For Fall V2",
+        "matchedDomainIds": [
+          "glb",
+          "wildlife"
+        ],
+        "timestamp": "2026-05-06T18:51:08.912Z"
+      },
+      {
+        "url": "https://www.greenburghny.com/DocumentCenter/View/14657/2024-CAC-Winter-Letter",
+        "title": "2024 CAC Winter Letter",
+        "matchedDomainIds": [
+          "projects",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T18:51:08.841Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Harrison-Town",
+    "name": "Harrison",
+    "displayName": "Harrison - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.harrison-ny.gov/",
+        "title": "harrisonny |",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:23.030Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Hastings-on-Hudson-Village",
+    "name": "Hastings-on-Hudson",
+    "displayName": "Hastings-on-Hudson - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.greenburghny.com/270/Conservation-Advisory-Council",
+        "title": "Greenburgh Conservation Advisory Council | Greenburgh, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:21:53.721Z"
+      },
+      {
+        "url": "https://www.greenburghny.com/DocumentCenter/View/14483/2024-CAC-Newsletter-4-Thank-You",
+        "title": "2024 CAC Newsletter 4 Thank You",
+        "matchedDomainIds": [
+          "glb"
+        ],
+        "timestamp": "2026-05-06T18:52:51.950Z"
+      },
+      {
+        "url": "https://www.greenburghny.com/DocumentCenter/View/14484/CAC-Newsletter-2-Recycling",
+        "title": "CAC Newsletter 2 Recycling",
+        "matchedDomainIds": [
+          "trees"
+        ],
+        "timestamp": "2026-05-06T18:52:51.880Z"
+      },
+      {
+        "url": "https://www.greenburghny.com/DocumentCenter/View/14655/2024-CAC-Newsletter-3-Invasive-Plants",
+        "title": "2024 CAC Newsletter 3 Invasive Plants",
+        "matchedDomainIds": [
+          "weeds",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T18:52:51.897Z"
+      },
+      {
+        "url": "https://www.greenburghny.com/DocumentCenter/View/14656/2024-CAC-Newsletter-5-Green-for-Fall-V2",
+        "title": "2024 CAC Newsletter 5 Green For Fall V2",
+        "matchedDomainIds": [
+          "glb",
+          "wildlife",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T18:52:51.983Z"
+      },
+      {
+        "url": "https://www.greenburghny.com/DocumentCenter/View/14657/2024-CAC-Winter-Letter",
+        "title": "2024 CAC Winter Letter",
+        "matchedDomainIds": [
+          "projects",
+          "weeds",
+          "trees"
+        ],
+        "timestamp": "2026-05-06T18:52:51.797Z"
+      },
+      {
+        "url": "https://www.hastingsgreen.org/",
+        "title": "Hastings Green",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:21:51.617Z"
+      },
+      {
+        "url": "https://www.hohny.gov/",
+        "title": "Hastings-On-Hudson, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:21:49.778Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Irvington-Village",
+    "name": "Irvington",
+    "displayName": "Irvington - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.irvingtongreen.org/",
+        "title": "Irvington Village NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:14:47.475Z"
+      },
+      {
+        "url": "https://www.irvingtonny.gov/",
+        "title": "Irvington, NY - Official Website | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:02:25.785Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Larchmont-Village",
+    "name": "Larchmont",
+    "displayName": "Larchmont - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.larchmontny.gov/government/advisory_committees",
+        "title": "Advisory Committees",
+        "matchedDomainIds": [
+          "projects",
+          "trees",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T18:55:30.630Z"
+      },
+      {
+        "url": "https://www.larchmontny.gov/government/advisory_committees/environment.php",
+        "title": "Larchmont Environmental Committee",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:46.780Z"
+      },
+      {
+        "url": "https://www.villageoflarchmont.org/",
+        "title": "Larchmont, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:44.673Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Lewisboro-Town",
+    "name": "Lewisboro",
+    "displayName": "Lewisboro - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.lewisborony.gov/",
+        "title": "Home Page | Lewisboro, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:52.398Z"
+      },
+      {
+        "url": "https://www.lewisborony.gov/cac",
+        "title": "Conservation Advisory Council | Lewisboro, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:54.086Z"
+      },
+      {
+        "url": "https://www.lewisborony.gov/cac/meeting/cac-meeting-166",
+        "title": "CAC Meeting | Lewisboro, NY",
+        "matchedDomainIds": [
+          "boards"
+        ],
+        "timestamp": "2026-05-06T19:08:33.087Z"
+      },
+      {
+        "url": "https://www.lewisborony.gov/cac/page/inventory-report",
+        "title": "Inventory Report | Lewisboro, NY",
+        "matchedDomainIds": [
+          "boards"
+        ],
+        "timestamp": "2026-05-06T19:08:31.493Z"
+      },
+      {
+        "url": "https://www.lewisborony.gov/cac/page/tree-preservation-ordinance",
+        "title": "Tree Preservation Ordinance | Lewisboro, NY",
+        "matchedDomainIds": [
+          "trees",
+          "projects",
+          "wildlife",
+          "wetland-protection",
+          "boards",
+          "slopes",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T19:08:32.098Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Mamaroneck-Town",
+    "name": "Mamaroneck",
+    "displayName": "Mamaroneck - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.townofmamaroneckny.org/",
+        "title": "Mamaroneck, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:53.432Z"
+      },
+      {
+        "url": "https://www.townofmamaroneckny.org/738/Tree-Permits",
+        "title": "Tree Permits | Mamaroneck, NY",
+        "matchedDomainIds": [
+          "trees"
+        ],
+        "timestamp": "2026-05-06T19:09:33.592Z"
+      },
+      {
+        "url": "https://www.townofmamaroneckny.org/DocumentCenter/View/6226/Tree-List",
+        "title": "Tree List",
+        "matchedDomainIds": [
+          "trees"
+        ],
+        "timestamp": "2026-05-06T19:09:33.873Z"
+      },
+      {
+        "url": "https://www.townofmamaroneckny.org/DocumentCenter/View/7022/LL-10-2023-Tree-Law",
+        "title": "LL 10 2023 Tree Law",
+        "matchedDomainIds": [
+          "trees"
+        ],
+        "timestamp": "2026-05-06T19:09:33.901Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Mamaroneck-Village",
+    "name": "Mamaroneck",
+    "displayName": "Mamaroneck - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.villageofmamaroneckny.gov/",
+        "title": "Mamaroneck Village, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:52.905Z"
+      },
+      {
+        "url": "https://www.villageofmamaroneckny.gov/221/Tree-Committee",
+        "title": "Tree Committee | Mamaroneck Village, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:46:55.076Z"
+      },
+      {
+        "url": "https://www.villageofmamaroneckny.gov/AgendaCenter/Tree-Committee-3",
+        "title": "Agenda Center • Mamaroneck Village, NY • CivicEngage",
+        "matchedDomainIds": [
+          "trees"
+        ],
+        "timestamp": "2026-05-06T19:11:22.289Z"
+      },
+      {
+        "url": "https://www.villageofmamaroneckny.gov/AgendaCenter/ViewFile/Agenda/_01072026-130",
+        "title": " 01072026 130",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-06T19:11:23.492Z"
+      },
+      {
+        "url": "https://www.villageofmamaroneckny.gov/AgendaCenter/ViewFile/Agenda/_05062026-777",
+        "title": " 05062026 777",
+        "matchedDomainIds": [
+          "trees",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T19:11:23.434Z"
+      },
+      {
+        "url": "https://www.villageofmamaroneckny.gov/DocumentCenter/View/756/tree_lawfaq_2-PDF",
+        "title": "Tree Lawfaq 2 PDF",
+        "matchedDomainIds": [
+          "trees"
+        ],
+        "timestamp": "2026-05-06T19:11:23.398Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-MountKisco-Town",
+    "name": "Mount Kisco",
+    "displayName": "Mount Kisco - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.mountkiscony.gov/",
+        "title": "Welcome to Village Of Mount Kisco, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:07.725Z"
+      },
+      {
+        "url": "https://www.mountkiscony.gov/government/boards_and_commissions/conservation_advisor_council.php",
+        "title": "Conservation Advisory Council",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:08.695Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-MountPleasant-Town",
+    "name": "Mount Pleasant",
+    "displayName": "Mount Pleasant - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.mtpleasantny.gov/",
+        "title": "Mount Pleasant, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T17:45:34.784Z"
+      },
+      {
+        "url": "https://www.mtpleasantny.gov/270/Conservation-Advisory-Council",
+        "title": "Conservation Advisory Council | Mount Pleasant, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T17:45:36.721Z"
+      },
+      {
+        "url": "https://www.mtpleasantny.gov/DocumentCenter/View/236/Meadows-at-Briarcliff-Draft-Scoping-Document-Pocantico-Lakes-CAC-Annotated-Comments-PDF",
+        "title": "Meadows At Briarcliff Draft Scoping Document Pocantico Lakes CAC Annotated Comments PDF",
+        "matchedDomainIds": [
+          "cluster-zoning"
+        ],
+        "timestamp": "2026-05-06T19:13:00.943Z"
+      },
+      {
+        "url": "https://www.mtpleasantny.gov/DocumentCenter/View/237/Meadows-at-Briarcliff-Draft-Scoping-Document-Pocantico-Lakes-CAC-Summary-Comments-PDF",
+        "title": "Meadows At Briarcliff Draft Scoping Document Pocantico Lakes CAC Summary Comments PDF",
+        "matchedDomainIds": [
+          "boards"
+        ],
+        "timestamp": "2026-05-06T19:13:00.957Z"
+      },
+      {
+        "url": "https://www.mtpleasantny.gov/DocumentCenter/View/238/Natural-Resources-Inventory-NRI-Brochure-PDF",
+        "title": "Natural Resources Inventory NRI Brochure PDF",
+        "matchedDomainIds": [
+          "wildlife",
+          "slopes"
+        ],
+        "timestamp": "2026-05-06T19:13:00.901Z"
+      },
+      {
+        "url": "https://www.mtpleasantny.gov/DocumentCenter/View/240/2020-Native-Plant-Resource-Guide-PDF",
+        "title": "2020 Native Plant Resource Guide PDF",
+        "matchedDomainIds": [
+          "projects",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T19:13:00.971Z"
+      },
+      {
+        "url": "https://www.mtpleasantny.gov/DocumentCenter/View/643/2023-Town-of-Mount-Pleasant-Natural-Resources-Inventory-PDF",
+        "title": "2023 Town Of Mount Pleasant Natural Resources Inventory PDF",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-06T19:13:00.926Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-MountVernon-City",
+    "name": "Mount Vernon",
+    "displayName": "Mount Vernon - City",
+    "linkedResources": [
+      {
+        "url": "https://www.cmvny.com/",
+        "title": "Mount Vernon, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:11.866Z"
+      },
+      {
+        "url": "https://www.mountvernonny.gov/540/Tree-Advisory-Board",
+        "title": "Tree Advisory Board | Mount Vernon, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:15.914Z"
+      },
+      {
+        "url": "https://www.mountvernonny.gov/DocumentCenter/View/3899",
+        "title": "3899",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-06T20:00:15.955Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-NewCastle-Town",
+    "name": "New Castle",
+    "displayName": "New Castle - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.mynewcastleny.gov/",
+        "title": "New Castle, NY | Official Website",
+        "matchedDomainIds": [
+          "projects",
+          "cluster-zoning",
+          "wetland-protection",
+          "wildlife",
+          "boards",
+          "dark-sky"
+        ],
+        "timestamp": "2026-05-04T16:29:35.140Z"
+      },
+      {
+        "url": "https://www.mynewcastleny.gov/171/Special-Programs-Events",
+        "title": "Special Programs & Events | New Castle, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-04T16:29:37.407Z"
+      },
+      {
+        "url": "https://www.mynewcastleny.gov/269/Conservation-Board",
+        "title": "Conservation Board | New Castle, NY",
+        "matchedDomainIds": [
+          "boards",
+          "wildlife",
+          "projects",
+          "wetland-protection",
+          "cluster-zoning",
+          "trees"
+        ],
+        "timestamp": "2026-05-04T15:34:49.517Z"
+      },
+      {
+        "url": "https://www.mynewcastleny.gov/365/Programs",
+        "title": "Programs | New Castle, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-04T16:29:37.304Z"
+      },
+      {
+        "url": "https://www.mynewcastleny.gov/642/Community-Events",
+        "title": "Community Events | New Castle, NY",
+        "matchedDomainIds": [
+          "projects",
+          "boards"
+        ],
+        "timestamp": "2026-05-04T16:29:37.691Z"
+      },
+      {
+        "url": "https://www.mynewcastleny.gov/DocumentCenter/View/3555/NYS-DEC-Plant-List-PDF",
+        "title": "NYS DEC Plant List PDF",
+        "matchedDomainIds": [
+          "projects",
+          "weeds",
+          "dark-sky"
+        ],
+        "timestamp": "2026-05-04T16:29:36.905Z"
+      },
+      {
+        "url": "https://www.mynewcastleny.gov/DocumentCenter/View/372/Planting-Along-the-Lines---Landscape-Buffers-PDF",
+        "title": "Planting Along The Lines Landscape Buffers PDF",
+        "matchedDomainIds": [
+          "trees",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:00:48.356Z"
+      },
+      {
+        "url": "https://www.mynewcastleny.gov/DocumentCenter/View/3788/Town-of-New-Castle-2022-Natural-Resource-Inventory-PDF",
+        "title": "Town Of New Castle 2022 Natural Resource Inventory PDF",
+        "matchedDomainIds": [
+          "trees",
+          "wildlife",
+          "slopes",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T20:00:48.308Z"
+      },
+      {
+        "url": "https://www.mynewcastleny.gov/DocumentCenter/View/4751/Protect-Our-Trees-Combatting-the-Spotted-Lanternfly-Town-of-New-Castle-PDF",
+        "title": "Protect Our Trees Combatting The Spotted Lanternfly Town Of New Castle PDF",
+        "matchedDomainIds": [
+          "trees",
+          "projects",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T20:00:48.236Z"
+      },
+      {
+        "url": "https://www.mynewcastleny.gov/DocumentCenter/View/5221/Fall-Native-Plants-Companion-PDF",
+        "title": "Fall Native Plants Companion PDF",
+        "matchedDomainIds": [
+          "projects",
+          "weeds",
+          "wildlife"
+        ],
+        "timestamp": "2026-05-04T16:29:36.808Z"
+      },
+      {
+        "url": "https://www.mynewcastleny.gov/DocumentCenter/View/959/Tree-Removal-Permit-Application",
+        "title": "Tree Removal Permit Application",
+        "matchedDomainIds": [
+          "trees"
+        ],
+        "timestamp": "2026-05-04T16:29:35.820Z"
+      },
+      {
+        "url": "https://www.mynewcastleny.gov/sitemap",
+        "title": "Site Map • New Castle, NY • CivicEngage",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-04T16:29:36.624Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-NewRochelle-City",
+    "name": "New Rochelle",
+    "displayName": "New Rochelle - City",
+    "linkedResources": [
+      {
+        "url": "https://www.newrochelleny.com/",
+        "title": "New Rochelle, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:29.643Z"
+      },
+      {
+        "url": "https://www.newrochelleny.com/149/Planning-Zoning",
+        "title": "Finance Commissioner | New Rochelle, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:32.525Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-NorthCastle-Town",
+    "name": "North Castle",
+    "displayName": "North Castle - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.northcastleny.com/",
+        "title": "North Castle, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-04T23:56:01.234Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/1045/Invasive-Vine-Cutting-Program",
+        "title": "Invasive Vine Cutting Program | North Castle, NY",
+        "matchedDomainIds": [
+          "weeds",
+          "projects",
+          "trees",
+          "wildlife"
+        ],
+        "timestamp": "2026-05-04T23:56:02.103Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/1046/North-Castles-Most-Aggressive-Invasive-V",
+        "title": "North Castle's Most Aggressive Invasive Vines, Shrubs & Weeds | North Castle, NY",
+        "matchedDomainIds": [
+          "weeds",
+          "projects"
+        ],
+        "timestamp": "2026-05-04T23:56:02.190Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/1048/Learn-More-About-Invasives",
+        "title": "Learn More About Invasives | North Castle, NY",
+        "matchedDomainIds": [
+          "weeds",
+          "projects",
+          "slopes"
+        ],
+        "timestamp": "2026-05-04T23:56:02.140Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/1055/Invasive-Vines---Quick-Reference-Guide",
+        "title": "Invasive Vines - Quick Reference Guide | North Castle, NY",
+        "matchedDomainIds": [
+          "weeds",
+          "projects"
+        ],
+        "timestamp": "2026-05-04T23:56:02.416Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/1059/Vines",
+        "title": "Vines | North Castle, NY",
+        "matchedDomainIds": [
+          "weeds",
+          "projects"
+        ],
+        "timestamp": "2026-05-04T23:56:02.272Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/1061/Weeds",
+        "title": "Weeds | North Castle, NY",
+        "matchedDomainIds": [
+          "weeds",
+          "projects"
+        ],
+        "timestamp": "2026-05-04T23:56:02.348Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/640/Architectural-Review-Board-ARB",
+        "title": "Architectural Review Board (ARB) | North Castle, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-04T23:56:04.923Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/645/Board-of-Assessment-Review",
+        "title": "Board of Assessment Review | North Castle, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-04T23:56:04.998Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/647/Board-of-Ethics",
+        "title": "Board of Ethics | North Castle, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-04T23:56:05.049Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/654/Conservation-Board",
+        "title": "Conservation Board | North Castle, NY",
+        "matchedDomainIds": [
+          "boards"
+        ],
+        "timestamp": "2026-05-04T23:56:01.108Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/655/Conservation-Board-Awards",
+        "title": "Conservation Board Awards | North Castle, NY",
+        "matchedDomainIds": [
+          "boards",
+          "wetland-protection",
+          "wildlife",
+          "weeds",
+          "cluster-zoning",
+          "projects"
+        ],
+        "timestamp": "2026-05-04T23:56:03.561Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/656/Conservation-Board-Brochures-Reports",
+        "title": "Conservation Board Brochures & Reports | North Castle, NY",
+        "matchedDomainIds": [
+          "boards",
+          "wildlife",
+          "wetland-protection",
+          "weeds",
+          "cluster-zoning"
+        ],
+        "timestamp": "2026-05-04T23:56:02.017Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/660/Plants",
+        "title": "Plants | North Castle, NY",
+        "matchedDomainIds": [
+          "weeds",
+          "projects",
+          "boards"
+        ],
+        "timestamp": "2026-05-04T23:56:02.786Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/665/Trees",
+        "title": "Trees | North Castle, NY",
+        "matchedDomainIds": [
+          "trees",
+          "boards",
+          "weeds",
+          "wildlife",
+          "projects",
+          "wetland-protection",
+          "cluster-zoning"
+        ],
+        "timestamp": "2026-05-04T23:56:03.355Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/669/Wetlands",
+        "title": "Wetlands | North Castle, NY",
+        "matchedDomainIds": [
+          "wetland-protection"
+        ],
+        "timestamp": "2026-05-04T23:56:03.506Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/670/Wildlife",
+        "title": "Wildlife | North Castle, NY",
+        "matchedDomainIds": [
+          "wildlife"
+        ],
+        "timestamp": "2026-05-04T23:56:03.530Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/760/NCTV-Meeting-Video-Portal",
+        "title": "NCTV Meeting & Video Portal | North Castle, NY",
+        "matchedDomainIds": [
+          "weeds",
+          "boards"
+        ],
+        "timestamp": "2026-05-04T23:56:04.424Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/AgendaCenter/Conservation-Board-5",
+        "title": "Agenda Center • North Castle, NY • CivicEngage",
+        "matchedDomainIds": [
+          "boards",
+          "cluster-zoning",
+          "wetland-protection",
+          "wildlife"
+        ],
+        "timestamp": "2026-05-04T23:56:01.341Z"
+      },
+      {
+        "url": "https://www.northcastleny.com/DocumentCenter/View/190/Wetlands-Permit-PDF",
+        "title": "Wetlands Permit PDF",
+        "matchedDomainIds": [
+          "wetland-protection"
+        ],
+        "timestamp": "2026-05-04T23:56:01.685Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-NorthSalem-Town",
+    "name": "North Salem",
+    "displayName": "North Salem - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.northsalemny.gov/",
+        "title": "North Salem, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:39.092Z"
+      },
+      {
+        "url": "https://www.northsalemny.gov/1311/Conservation-Advisory-Council",
+        "title": "Conservation Advisory Council | North Salem, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:41.148Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Ossining-Town",
+    "name": "Ossining",
+    "displayName": "Ossining - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.townofossining.com/",
+        "title": "Town of Ossining, New York",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:37.992Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/boards-committees/environmental-advisory",
+        "title": "Environmental Advisory Committee - Town of Ossining, New York",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:40.593Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/boards-committees/zoning-board/zoning-board-archive",
+        "title": "Zoning Board Archive - Town of Ossining, New York",
+        "matchedDomainIds": [
+          "cluster-zoning"
+        ],
+        "timestamp": "2026-05-06T20:19:09.199Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/departments/highway-department/stormwater-management",
+        "title": "Stormwater Management - Town of Ossining, New York",
+        "matchedDomainIds": [
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T20:19:09.185Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/projects/projects-archive/old-albany-post-road-restoration",
+        "title": "Old Albany Post Road Restoration - Town of Ossining, New York",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:19:09.214Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/projects/stormwater-management",
+        "title": "Stormwater Management - Town of Ossining, New York",
+        "matchedDomainIds": [
+          "weeds",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:19:09.169Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/2353-eac-guide-2022",
+        "title": "2353 Eac Guide 2022",
+        "matchedDomainIds": [
+          "slopes",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T20:19:09.231Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/2354-eac-guide-2022-spanish",
+        "title": "2354 Eac Guide 2022 Spanish",
+        "matchedDomainIds": [
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T20:19:09.358Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/250-minutes-2009-0526-resj-iclei",
+        "title": "250 Minutes 2009 0526 Resj Iclei",
+        "matchedDomainIds": [
+          "dark-sky",
+          "trees",
+          "wildlife"
+        ],
+        "timestamp": "2026-05-06T20:19:09.995Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/251-minutes-2009-0609-resj-climatesmart",
+        "title": "251 Minutes 2009 0609 Resj Climatesmart",
+        "matchedDomainIds": [
+          "wildlife",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:19:10.187Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/252-native-plant-resource-guide",
+        "title": "252 Native Plant Resource Guide",
+        "matchedDomainIds": [
+          "projects",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T20:19:09.432Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management",
+        "title": "Stormwater Management - Town of Ossining, New York",
+        "matchedDomainIds": [
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T20:19:09.718Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management/399-stormwater-management-program-townossining2012/file",
+        "title": "File",
+        "matchedDomainIds": [
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T20:19:10.287Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management/401-swm-best-management-practices",
+        "title": "401 Swm Best Management Practices",
+        "matchedDomainIds": [
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T20:19:10.231Z"
+      },
+      {
+        "url": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management/406-town-of-ossining-stormwater-screen-fillable-questionnaire-updated-2018",
+        "title": "406 Town Of Ossining Stormwater Screen Fillable Questionnaire Updated 2018",
+        "matchedDomainIds": [
+          "projects",
+          "weeds",
+          "dark-sky"
+        ],
+        "timestamp": "2026-05-06T20:19:09.641Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Ossining-Village",
+    "name": "Ossining",
+    "displayName": "Ossining - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.villageofossiningny.gov/",
+        "title": "Ossining NY |",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:37.592Z"
+      },
+      {
+        "url": "https://www.villageofossiningny.gov/environmental-advisory-council",
+        "title": "Environmental Advisory Council | Ossining NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:38.522Z"
+      },
+      {
+        "url": "https://www.villageofossiningny.gov/environmental-advisory-council/links/tree-plantings-nelson-park-nelson-sitting-park",
+        "title": "Tree Plantings in Nelson Park & Nelson Sitting Park! | Ossining NY",
+        "matchedDomainIds": [
+          "trees",
+          "projects",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T20:22:57.086Z"
+      },
+      {
+        "url": "https://www.villageofossiningny.gov/environmental-advisory-council/links/westchester-county-native-plants",
+        "title": "Westchester County Native Plants",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:22:57.581Z"
+      },
+      {
+        "url": "https://www.villageofossiningny.gov/environmental-advisory-council/pages/help-native-bees-providing-food-and-shelter-pollinators",
+        "title": "Help Native Bees, Providing Food and Shelter for Pollinators | Ossining NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:22:56.679Z"
+      },
+      {
+        "url": "https://www.villageofossiningny.gov/home/pages/community-links",
+        "title": "Community Links | Ossining NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:22:57.591Z"
+      },
+      {
+        "url": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/2026-special-events",
+        "title": "2026 Special Events | Ossining NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:22:58.211Z"
+      },
+      {
+        "url": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/adult-programs",
+        "title": "Adult Programs | Ossining NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:22:58.674Z"
+      },
+      {
+        "url": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/aquatic-programs-pool-spray-park-0",
+        "title": "Aquatic Programs, Pool & Spray Park | Ossining NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:22:59.269Z"
+      },
+      {
+        "url": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/tree-plantings-nelson-park-nelson-sitting-park",
+        "title": "Tree Plantings in Nelson Park & Nelson Sitting Park! | Ossining NY",
+        "matchedDomainIds": [
+          "trees",
+          "projects",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T20:22:59.721Z"
+      },
+      {
+        "url": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/youth-programs",
+        "title": "Youth Programs | Ossining NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:23:00.187Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Peekskill-City",
+    "name": "Peekskill",
+    "displayName": "Peekskill - City",
+    "linkedResources": [
+      {
+        "url": "https://www.cityofpeekskill.com/",
+        "title": "Peekskill, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:49.395Z"
+      },
+      {
+        "url": "https://www.cityofpeekskill.com/281/Community-Links",
+        "title": "Community Links | Peekskill, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:26:15.091Z"
+      },
+      {
+        "url": "https://www.cityofpeekskill.com/294/Solarize-Peekskill",
+        "title": "Solarize Peekskill | Peekskill, NY",
+        "matchedDomainIds": [
+          "solar-1",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:26:15.120Z"
+      },
+      {
+        "url": "https://www.cityofpeekskill.com/296/Westchester-Power-Program---Community-Ch",
+        "title": "Westchester Power Program - Community Choice Aggregation | Peekskill, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:26:15.168Z"
+      },
+      {
+        "url": "https://www.cityofpeekskill.com/31/Community",
+        "title": "Community | Peekskill, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:26:14.396Z"
+      },
+      {
+        "url": "https://www.cityofpeekskill.com/670/Inclusive-Community",
+        "title": "Inclusive Community | Peekskill, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:26:15.197Z"
+      },
+      {
+        "url": "https://www.cityofpeekskill.com/DocumentCenter/View/2241/Tree-Ordinance-Fact-Sheet-2024",
+        "title": "Tree Ordinance Fact Sheet 2024",
+        "matchedDomainIds": [
+          "trees"
+        ],
+        "timestamp": "2026-05-06T20:26:14.057Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/281/Community-Links",
+        "title": "Community Links | Peekskill, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:26:15.036Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/294/Solarize-Peekskill",
+        "title": "Solarize Peekskill | Peekskill, NY",
+        "matchedDomainIds": [
+          "solar-1",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:26:14.130Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/296/Westchester-Power-Program---Community-Ch",
+        "title": "Westchester Power Program - Community Choice Aggregation | Peekskill, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:26:15.075Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/552/Conservation-Advisory-Council",
+        "title": "Conservation Advisory Council | Peekskill, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:51.966Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/553/About-the-Conservation-Advisory-Council",
+        "title": "About the Conservation Advisory Council | Peekskill, NY",
+        "matchedDomainIds": [
+          "boards",
+          "wetland-protection",
+          "wildlife",
+          "cluster-zoning"
+        ],
+        "timestamp": "2026-05-06T20:26:14.021Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/556/Composting-Food-Scraps-Recycling",
+        "title": "Composting & Food Scraps Recycling | Peekskill, NY",
+        "matchedDomainIds": [
+          "projects",
+          "boards"
+        ],
+        "timestamp": "2026-05-06T20:26:14.031Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/557/DEC-Community-Air-Screen-Program",
+        "title": "DEC Community Air Screen Program | Peekskill, NY",
+        "matchedDomainIds": [
+          "projects",
+          "boards"
+        ],
+        "timestamp": "2026-05-06T20:26:14.043Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/559/MacGregory-Brook-Restoration-Project",
+        "title": "MacGregory Brook Restoration Project | Peekskill, NY",
+        "matchedDomainIds": [
+          "projects",
+          "trees"
+        ],
+        "timestamp": "2026-05-06T20:26:14.107Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/670/Inclusive-Community",
+        "title": "Inclusive Community | Peekskill, NY",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:26:14.499Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/AgendaCenter/Conservation-Advisory-Council-9",
+        "title": "Agenda Center • Peekskill, NY • CivicEngage",
+        "matchedDomainIds": [
+          "boards",
+          "cluster-zoning",
+          "wetland-protection",
+          "wildlife"
+        ],
+        "timestamp": "2026-05-06T20:26:14.011Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/AgendaCenter/ViewFile/Agenda/_01082026-1177",
+        "title": " 01082026 1177",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:26:14.447Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/AgendaCenter/ViewFile/Agenda/_02122026-1189",
+        "title": " 02122026 1189",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:26:14.423Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/DocumentCenter/View/1461/What-Is-Peekskills-Watershed-PDF",
+        "title": "What Is Peekskills Watershed PDF",
+        "matchedDomainIds": [
+          "boards"
+        ],
+        "timestamp": "2026-05-06T20:26:14.143Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/DocumentCenter/View/1462/Where-Does-Rainwater-Go-PDF",
+        "title": "Where Does Rainwater Go PDF",
+        "matchedDomainIds": [
+          "boards"
+        ],
+        "timestamp": "2026-05-06T20:26:14.172Z"
+      },
+      {
+        "url": "https://www.cityofpeekskillny.gov/DocumentCenter/View/3488/Leaf-Blower-Presentation",
+        "title": "Leaf Blower Presentation",
+        "matchedDomainIds": [
+          "glb"
+        ],
+        "timestamp": "2026-05-06T20:26:14.344Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-PelhamManor-Village",
+    "name": "Pelham Manor",
+    "displayName": "Pelham Manor - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.pelhammanor.gov/",
+        "title": "Pelham Manor, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:48.830Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Pelham-Town",
+    "name": "Pelham",
+    "displayName": "Pelham - Town",
+    "linkedResources": [
+      {
+        "url": "https://townofpelhamny.gov/",
+        "title": "Home - Town of Pelham",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:47.709Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Pelham-Village",
+    "name": "Pelham",
+    "displayName": "Pelham - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.pelhamny.gov/",
+        "title": "Pelham, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:58.427Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Pleasantville-Village",
+    "name": "Pleasantville",
+    "displayName": "Pleasantville - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.pleasantville-ny.gov/",
+        "title": "Pleasantville, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:57.520Z"
+      },
+      {
+        "url": "https://www.pleasantville-ny.gov/1662/Conservation-Advisory-Council",
+        "title": "Conservation Advisory Council | Pleasantville, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:59.898Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-PortChester-Village",
+    "name": "Port Chester",
+    "displayName": "Port Chester - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.portchesterny.gov/",
+        "title": "Port Chester, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:47:59.261Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-PoundRidge-Town",
+    "name": "Pound Ridge",
+    "displayName": "Pound Ridge - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.townofpoundridge.com/",
+        "title": "Home Page | Town of Pound Ridge New York Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:07.465Z"
+      },
+      {
+        "url": "https://www.townofpoundridge.com/conservation-board",
+        "title": "Conservation Board | Town of Pound Ridge New York Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:08.877Z"
+      },
+      {
+        "url": "https://www.townofpoundridge.com/townclerk/2026-maintenance-services-scotts-corners",
+        "title": "2026 Maintenance Services in Scotts Corners | Town of Pound Ridge New York Official Website",
+        "matchedDomainIds": [
+          "projects",
+          "trees"
+        ],
+        "timestamp": "2026-05-06T20:29:25.353Z"
+      },
+      {
+        "url": "https://www.townofpoundridge.com/townclerk/notice-public-hearing-proposed-regulation-battery-energy-storage-systems-bess",
+        "title": "Notice of Public Hearing on Proposed Regulation of Battery Energy Storage Systems (BESS) | Town of Pound Ridge New York Official Website",
+        "matchedDomainIds": [
+          "solar-1"
+        ],
+        "timestamp": "2026-05-06T20:29:24.772Z"
+      },
+      {
+        "url": "https://www.townofpoundridge.com/townclerk/notice-public-hearing-regarding-extension-moratorium-battery-energy-storage-systems-bess-0",
+        "title": "Notice of Public Hearing regarding Extension of Moratorium on Battery Energy Storage Systems (BESS) | Town of Pound Ridge New York Official Website",
+        "matchedDomainIds": [
+          "solar-1"
+        ],
+        "timestamp": "2026-05-06T20:29:25.037Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-RyeBrook-Village",
+    "name": "Rye Brook",
+    "displayName": "Rye Brook - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.ryebrook.org/",
+        "title": "Home - Village of Rye Brook",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:08.659Z"
+      },
+      {
+        "url": "https://www.ryebrook.org/events",
+        "title": "Spring Events - Village of Rye Brook",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:29:53.862Z"
+      },
+      {
+        "url": "https://www.ryebrook.org/planning-board",
+        "title": "Planning Board - Village of Rye Brook",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:10.956Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Rye-City",
+    "name": "Rye",
+    "displayName": "Rye - City",
+    "linkedResources": []
+  },
+  {
+    "id": "NY-Rye-Town",
+    "name": "Rye",
+    "displayName": "Rye - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.townofryeny.com/",
+        "title": "Town of Rye, New York",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:16.805Z"
+      },
+      {
+        "url": "https://www.townofryeny.com/community/community_service_projects.php",
+        "title": "Town of Rye, New York",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:32:47.805Z"
+      },
+      {
+        "url": "https://www.townofryeny.com/community/index.php",
+        "title": "Town of Rye, New York",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:32:47.215Z"
+      },
+      {
+        "url": "https://www.townofryeny.com/departments/assessor/building_permits_zoning.php",
+        "title": "Town of Rye, New York",
+        "matchedDomainIds": [
+          "cluster-zoning"
+        ],
+        "timestamp": "2026-05-06T20:32:45.285Z"
+      },
+      {
+        "url": "https://www.townofryeny.com/departments/executive/sustainability/index.php",
+        "title": "Climate Smart Community Taskforce",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:32:44.698Z"
+      },
+      {
+        "url": "https://www.townofryeny.com/index.php",
+        "title": "Town of Rye, New York",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:21.916Z"
+      },
+      {
+        "url": "https://www.townofryeny.com/parks/crawford_park/crawford_park_projects.php",
+        "title": "Town of Rye, New York",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T20:32:45.715Z"
+      },
+      {
+        "url": "https://www.townofryeny.com/parks/rye_town_park/rules_regulations.php",
+        "title": "Town of Rye, New York",
+        "matchedDomainIds": [
+          "cluster-zoning",
+          "trees",
+          "glb",
+          "slopes",
+          "solar-1",
+          "weeds",
+          "wildlife"
+        ],
+        "timestamp": "2026-05-06T20:32:46.343Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Scarsdale-Town",
+    "name": "Scarsdale",
+    "displayName": "Scarsdale - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.scarsdale.com/",
+        "title": "Scarsdale, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:17.360Z"
+      },
+      {
+        "url": "https://www.scarsdale.com/151/Planning",
+        "title": "Village Manager | Scarsdale, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:23.481Z"
+      },
+      {
+        "url": "https://www.scarsdale.gov/335/Conservation-Advisory-Council",
+        "title": "Conservation Advisory Council | Scarsdale, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:20.636Z"
+      },
+      {
+        "url": "https://www.scarsdale.gov/DocumentCenter/View/224/Current-Boards-and-Councils-Members-PDF",
+        "title": "Current Boards And Councils Members PDF",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-06T20:33:41.385Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-SleepyHollow-Village",
+    "name": "Sleepy Hollow",
+    "displayName": "Sleepy Hollow - Village",
+    "linkedResources": [
+      {
+        "url": "https://sustainablesleepyhollow.org/",
+        "title": "Sustainable Sleepy Hollow",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:19.579Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2014/08/21/invasive-plant-species-found-in-sleepy-hollow",
+        "title": "Guide to Invasive Plants – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "weeds",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:33:58.079Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2015/01/07/2014-highlights",
+        "title": "2014: Highlights – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "dark-sky"
+        ],
+        "timestamp": "2026-05-06T21:33:57.598Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2023/09/28/monthly-meeting-10-2-other-upcoming-events",
+        "title": "Monthly Meeting 10/2 & Other Upcoming Events – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:33:57.086Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2023/11/06/november-meeting-info-events",
+        "title": "November Meeting Info & Events – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:33:56.467Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2024/01/03/climate-action-plan-community-workshop-january-10th",
+        "title": "Climate Action Plan Community Workshop January 10th – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:33:55.802Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2024/01/26/2024-priority-projects-recycling-tips-of-the-month",
+        "title": "2024 Priority Projects + Recycling Tips of the Month – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:33:55.164Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2024/02/09/save-the-date-route-9-complete-streets-public-workshop-march-7th-from-6-8-pm",
+        "title": "Save the Date: Route 9 Complete Streets Public Workshop, March 7th from 6-8 pm – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "trees"
+        ],
+        "timestamp": "2026-05-06T21:33:54.509Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2025/02/13/building-emissions-sexy-maybe-not-biggest-source-of-pollution-indeed",
+        "title": "Building Emissions: Sexy? Maybe Not. Biggest Source of Pollution? Indeed! – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "dark-sky"
+        ],
+        "timestamp": "2026-05-06T21:33:51.809Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2025/03/17/our-power-our-planet-earth-month-2025-preview",
+        "title": "“Our Power, Our Planet”: Earth Month 2025 Preview – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:33:51.149Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2025/07/23/summers-a-great-time-to-take-climate-action-save-august-7th-9th",
+        "title": "Summer’s a Great Time to Take Climate Action-Save August 7th & 9th! – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "projects",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T21:33:50.578Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2025/08/12/count-the-oysters-of-sleepy-hollow-on-october-5th",
+        "title": "Count the Oysters of Sleepy Hollow on October 5th – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:33:49.923Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2025/09/15/craft-garden-bike-your-way-through-september",
+        "title": "Craft, garden & bike your way through September – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:33:49.183Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2025/11/13/november-updates-a-cornucopia-of-waste-free-tips",
+        "title": "November Updates & A Cornucopia of Waste-Free Tips! – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "glb"
+        ],
+        "timestamp": "2026-05-06T21:33:47.323Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2025/12/11/remembering-our-fearless-leader-anne-white",
+        "title": "Remembering our fearless leader Anne White – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "projects",
+          "solar-1"
+        ],
+        "timestamp": "2026-05-06T21:33:44.259Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2026/02/05/tell-the-mayor-board-of-trustees-where-you-stand-february-10th-public-hearing-on-gas-powered-leaf-blowers",
+        "title": "Tell the Mayor & Board of Trustees where you stand: February 10th Public Hearing on gas powered leaf blowers – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "glb"
+        ],
+        "timestamp": "2026-05-06T21:33:43.119Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/2026/04/08/happy-earth-month",
+        "title": "HAPPY EARTH MONTH! – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:33:40.766Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/category/uncategorized",
+        "title": "Uncategorized – Sustainable Sleepy Hollow",
+        "matchedDomainIds": [
+          "glb",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:33:42.049Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/page/11",
+        "title": "Sustainable Sleepy Hollow – Page 11",
+        "matchedDomainIds": [
+          "weeds",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:33:53.466Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/page/2",
+        "title": "Sustainable Sleepy Hollow – Page 2",
+        "matchedDomainIds": [
+          "dark-sky",
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:33:52.427Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/page/3",
+        "title": "Sustainable Sleepy Hollow – Page 3",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:33:52.928Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/wp-content/uploads/2025/11/103025-gas-powered-leaf-blower-considerations.pdf",
+        "title": "103025 Gas Powered Leaf Blower Considerations.Pdf",
+        "matchedDomainIds": [
+          "glb"
+        ],
+        "timestamp": "2026-05-06T21:33:53.889Z"
+      },
+      {
+        "url": "https://sustainablesleepyhollow.org/wp-content/uploads/2026/02/jan-2026-gas-powered-leaf-blower-considerations-1.pdf",
+        "title": "Jan 2026 Gas Powered Leaf Blower Considerations 1.Pdf",
+        "matchedDomainIds": [
+          "glb"
+        ],
+        "timestamp": "2026-05-06T21:33:53.863Z"
+      },
+      {
+        "url": "https://www.sleepyhollowny.gov/",
+        "title": "Sleepy Hollow, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-06T10:41:45.910Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Somers-Town",
+    "name": "Somers",
+    "displayName": "Somers - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.somersny.com/",
+        "title": "Somers Home Page",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:31.329Z"
+      },
+      {
+        "url": "https://www.somersny.com/departments/planning",
+        "title": "Planning",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:36.549Z"
+      },
+      {
+        "url": "https://www.somersny.com/events/saint-lukes-episcopal-church-plant-sale",
+        "title": "Saint Luke's Episcopal Church Plant Sale, May 7 to May 16, 2026",
+        "matchedDomainIds": [
+          "projects",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T21:40:48.291Z"
+      },
+      {
+        "url": "https://www.somersny.com/events/somers-senior-programs-cinco-de-mayo-celebration",
+        "title": "Somers Senior Programs Cinco De Mayo Celebration",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:40:48.281Z"
+      },
+      {
+        "url": "https://www.somersny.com/resources/environmental-reviews",
+        "title": "Environmental Reviews",
+        "matchedDomainIds": [
+          "slopes",
+          "dark-sky",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T21:40:48.308Z"
+      },
+      {
+        "url": "https://www.somersny.com/resources/special",
+        "title": "Special Exception Use Permit for Activity within a Groundwater Protection Overlay District",
+        "matchedDomainIds": [
+          "dark-sky",
+          "slopes",
+          "wetland-protection",
+          "wildlife"
+        ],
+        "timestamp": "2026-05-06T21:40:48.355Z"
+      },
+      {
+        "url": "https://www.somersny.com/resources/steep-slope-protection",
+        "title": "Steep Slope Protection",
+        "matchedDomainIds": [
+          "slopes",
+          "dark-sky",
+          "wetland-protection",
+          "wildlife"
+        ],
+        "timestamp": "2026-05-06T21:40:48.393Z"
+      },
+      {
+        "url": "https://www.somersny.com/resources/stormwater-management-and-erosion-and-sediment-control-permit-application",
+        "title": "Stormwater Management and Erosion and Sediment Control Permit Application",
+        "matchedDomainIds": [
+          "slopes",
+          "weeds",
+          "dark-sky"
+        ],
+        "timestamp": "2026-05-06T21:40:48.441Z"
+      },
+      {
+        "url": "https://www.somersny.com/resources/tree-preservation-permit-application",
+        "title": "Tree Preservation Permit Application",
+        "matchedDomainIds": [
+          "trees"
+        ],
+        "timestamp": "2026-05-06T21:40:48.456Z"
+      },
+      {
+        "url": "https://www.somersny.com/resources/wetland-and-water-course-protection",
+        "title": "Wetland and Water Course Protection",
+        "matchedDomainIds": [
+          "wetland-protection",
+          "dark-sky",
+          "slopes",
+          "wildlife"
+        ],
+        "timestamp": "2026-05-06T21:40:48.489Z"
+      },
+      {
+        "url": "https://www.somersny.gov/boards-and-committees/open-space-committee",
+        "title": "Open Space Committee",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:32.822Z"
+      },
+      {
+        "url": "https://www.somersny.gov/departments/zoning-department",
+        "title": "Zoning Department",
+        "matchedDomainIds": [
+          "cluster-zoning"
+        ],
+        "timestamp": "2026-05-06T21:40:48.247Z"
+      },
+      {
+        "url": "https://www.somersny.gov/events",
+        "title": "Events",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:40:48.272Z"
+      },
+      {
+        "url": "https://www.somersny.gov/events/saint-lukes-episcopal-church-plant-sale",
+        "title": "Saint Luke's Episcopal Church Plant Sale, May 7 to May 16, 2026",
+        "matchedDomainIds": [
+          "projects",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T21:40:48.520Z"
+      },
+      {
+        "url": "https://www.somersny.gov/events/senior-programs-presents-trip-to-ny-yankees-game",
+        "title": "Somers Senior Programs Presents Trip to NY Yankees Game",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:40:48.543Z"
+      },
+      {
+        "url": "https://www.somersny.gov/events/somers-senior-programs-cinco-de-mayo-celebration",
+        "title": "Somers Senior Programs Cinco De Mayo Celebration",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:40:48.507Z"
+      },
+      {
+        "url": "https://www.somersny.gov/events/somers-senior-programs-presents-hudson-breeze-harbor-feast",
+        "title": "Somers Senior Programs Presents Hudson Breeze & Harbor Feast",
+        "matchedDomainIds": [
+          "projects"
+        ],
+        "timestamp": "2026-05-06T21:40:48.574Z"
+      },
+      {
+        "url": "https://www.somersny.gov/resources/tree-inventory-community-forest-management-plan-project",
+        "title": "Tree Inventory & Community Forest Management Plan Project",
+        "matchedDomainIds": [
+          "trees",
+          "projects",
+          "weeds"
+        ],
+        "timestamp": "2026-05-06T21:40:48.259Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Tarrytown-Village",
+    "name": "Tarrytown",
+    "displayName": "Tarrytown - Village",
+    "linkedResources": [
+      {
+        "url": "http://www.tarrytownenvironmental.org/",
+        "title": "Tarrytown Environmental Advisory Council | Be a Champion for Tarrytown and Planet Earth.",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:35.549Z"
+      },
+      {
+        "url": "https://www.tarrytownny.gov/",
+        "title": "Tarrytown NY |",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:30.970Z"
+      },
+      {
+        "url": "https://www.tarrytownny.gov/home/events/54936",
+        "title": "Tarrytown Environmental Advisory Committee (TEAC) | Tarrytown NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-07T01:05:14.695Z"
+      },
+      {
+        "url": "https://www.tarrytownny.gov/home/events/54991",
+        "title": "Tree Commission | Tarrytown NY",
+        "matchedDomainIds": [
+          "trees",
+          "projects"
+        ],
+        "timestamp": "2026-05-07T01:05:15.030Z"
+      },
+      {
+        "url": "https://www.tarrytownny.gov/zoning-board-of-appeals/events/54361",
+        "title": "Zoning Board Meeting | Tarrytown NY",
+        "matchedDomainIds": [
+          "cluster-zoning"
+        ],
+        "timestamp": "2026-05-07T01:05:14.417Z"
+      },
+      {
+        "url": "https://www.tarrytownny.gov/zoning-board-of-appeals/pages/current-applications-before-the-zoning-board-of-appeals",
+        "title": "Current Applications before the Zoning Board of Appeals | Tarrytown NY",
+        "matchedDomainIds": [
+          "cluster-zoning"
+        ],
+        "timestamp": "2026-05-07T01:05:15.494Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Tuckahoe-Village",
+    "name": "Tuckahoe",
+    "displayName": "Tuckahoe - Village",
+    "linkedResources": [
+      {
+        "url": "https://www.tuckahoe.gov/",
+        "title": "Village of Tuckahoe |",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:32.197Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-WhitePlains-City",
+    "name": "White Plains",
+    "displayName": "White Plains - City",
+    "linkedResources": [
+      {
+        "url": "https://www.cityofwhiteplains.com/",
+        "title": "White Plains, NY - Official Website | Official Website",
+        "matchedDomainIds": [
+          "projects",
+          "glb",
+          "trees"
+        ],
+        "timestamp": "2026-05-05T01:13:48.653Z"
+      },
+      {
+        "url": "https://www.cityofwhiteplains.com/149/Conservation-Board",
+        "title": "Conservation Board | White Plains, NY - Official Website",
+        "matchedDomainIds": [
+          "boards",
+          "cluster-zoning",
+          "wetland-protection",
+          "wildlife"
+        ],
+        "timestamp": "2026-05-05T00:20:17.505Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Yonkers-City",
+    "name": "Yonkers",
+    "displayName": "Yonkers - City",
+    "linkedResources": [
+      {
+        "url": "https://www.yonkersny.gov/",
+        "title": "Yonkers, NY | Official Website",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:22:46.481Z"
+      },
+      {
+        "url": "https://www.yonkersny.gov/291/Parks-Recreation-Conservation",
+        "title": "Parks, Recreation & Conservation | Yonkers, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:22:49.533Z"
+      },
+      {
+        "url": "https://www.yonkersny.gov/737/Green-City-Advisory-Committee",
+        "title": "Yonkers Green City Advisory Committee | Yonkers, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:22:47.950Z"
+      }
+    ]
+  },
+  {
+    "id": "NY-Yorktown-Town",
+    "name": "Yorktown",
+    "displayName": "Yorktown - Town",
+    "linkedResources": [
+      {
+        "url": "https://www.yorktownny.gov/",
+        "title": "Home | Town of Yorktown",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:55.731Z"
+      },
+      {
+        "url": "https://www.yorktownny.gov/leadership-government/boards-committees/tree-conservation-advisory-commission-tcac",
+        "title": "Tree Conservation Advisory Commission (TCAC) | Town of Yorktown, NY",
+        "matchedDomainIds": [],
+        "timestamp": "2026-05-05T18:48:57.461Z"
+      }
+    ]
+  }
+]

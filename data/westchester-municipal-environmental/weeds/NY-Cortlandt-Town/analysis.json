@@ -1,4 +1,5 @@
 {
+  "id": "NY-Cortlandt-Town-weeds-1778856982774",
   "municipality": {
     "id": "NY-Cortlandt-Town",
     "displayName": "Cortlandt - Town"
@@ -137,9 +138,10 @@
   "averageConfidence": 43,
   "questionsAnswered": 5,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:39:41.502Z",
+  "lastUpdated": "2026-05-15T14:56:22.774Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 3.25,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.493Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.493Z",
+  "domainId": "weeds"
 }

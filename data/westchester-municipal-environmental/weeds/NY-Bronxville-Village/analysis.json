@@ -1,4 +1,5 @@
 {
+  "id": "NY-Bronxville-Village-weeds-1778856982752",
   "municipality": {
     "id": "NY-Bronxville-Village",
     "displayName": "Bronxville - Village"
@@ -133,9 +134,10 @@
   "averageConfidence": 46,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:38:03.559Z",
+  "lastUpdated": "2026-05-15T14:56:22.752Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 2.75,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.490Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.490Z",
+  "domainId": "weeds"
 }

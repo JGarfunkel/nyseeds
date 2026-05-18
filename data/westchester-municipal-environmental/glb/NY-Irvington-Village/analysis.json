@@ -1,4 +1,5 @@
 {
+  "id": "NY-Irvington-Village-glb-1778856979969",
   "municipality": {
     "id": "NY-Irvington-Village",
     "displayName": "Irvington - Village"
@@ -179,9 +180,10 @@
   "averageConfidence": 54,
   "questionsAnswered": 3,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T20:01:50.707Z",
+  "lastUpdated": "2026-05-15T14:56:19.969Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 4.67,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.237Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.237Z",
+  "domainId": "glb"
 }

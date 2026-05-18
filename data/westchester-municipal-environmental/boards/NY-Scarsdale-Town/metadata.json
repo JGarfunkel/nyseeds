@@ -1,0 +1,11 @@
+{
+  "entityId": "NY-Scarsdale-Town",
+  "domainId": "boards",
+  "domain": "boards",
+  "homePage": "https://www.scarsdale.com/",
+  "metadataCreated": "2026-05-03T04:08:23.826Z",
+  "stateCodeApplies": false,
+  "sources": [],
+  "municipality": "Scarsdale",
+  "municipalityType": "Town"
+}

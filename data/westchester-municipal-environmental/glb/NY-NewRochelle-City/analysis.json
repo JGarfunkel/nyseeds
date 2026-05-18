@@ -1,4 +1,5 @@
 {
+  "id": "NY-NewRochelle-City-glb-1778856980087",
   "municipality": {
     "id": "NY-NewRochelle-City",
     "displayName": "New Rochelle - City"
@@ -177,9 +178,10 @@
   "averageConfidence": 39,
   "questionsAnswered": 2,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T20:04:18.611Z",
+  "lastUpdated": "2026-05-15T14:56:20.087Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 2.71,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.255Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.255Z",
+  "domainId": "glb"
 }

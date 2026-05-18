@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-PoundRidge-Town-wetland-protection-1778621115813",
+  "entityId": "NY-PoundRidge-Town",
+  "domainId": "wetland-protection",
+  "entity": {
     "id": "NY-PoundRidge-Town",
     "displayName": "Pound Ridge - Town"
   },
@@ -7,9 +10,7 @@
     "id": "wetland-protection",
     "displayName": "Wetland Protection"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 3,
@@ -180,9 +181,7 @@
   "averageConfidence": 0,
   "questionsAnswered": 0,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-08T19:40:17.622Z",
+  "lastUpdated": "2026-05-12T21:25:15.813Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false,
-  "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:19:07.261Z"
+  "usesStateCode": false
 }

@@ -1,0 +1,34 @@
+{
+  "domain": "projects",
+  "generatedAt": "2026-05-03T03:11:14.211Z",
+  "description": "Conservation-focused projects & events",
+  "questions": [
+    {
+      "id": 1,
+      "domainId": "projects",
+      "category": "Project Scope",
+      "question": "What conservation projects or events are currently advertised?",
+      "scoreInstructions": "Higher scores if current projects are easy to find and each listing clearly explains purpose, timing, location, and who can join.",
+      "order": "1",
+      "weight": 0.8
+    },
+    {
+      "id": 2,
+      "domainId": "projects",
+      "category": "Public Evidence",
+      "question": "What documentation or photo/videos showing past projects exists online?",
+      "scoreInstructions": "Score higher when past work is supported by dated photos, reports, or updates that clearly show completed activities and outcomes.",
+      "order": "2",
+      "weight": 0.4
+    },
+    {
+      "id": 3,
+      "domainId": "projects",
+      "category": "Volunteer Access",
+      "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
+      "scoreInstructions": "Higher scores if a full range of opportunities is available and participation steps are simple, clearly explained, and do not require special contacts or expertise.",
+      "order": "3",
+      "weight": 0.4
+    }
+  ]
+}

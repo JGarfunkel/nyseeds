@@ -1,4 +1,5 @@
 {
+  "id": "NY-Eastchester-Town-glb-1778856979847",
   "municipality": {
     "id": "NY-Eastchester-Town",
     "displayName": "Eastchester - Town"
@@ -9,7 +10,7 @@
   },
   "grades": {},
   "questions": [],
-  "lastUpdated": "2025-08-18T02:41:44.583Z",
+  "lastUpdated": "2026-05-15T14:56:19.847Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "scores": {
@@ -29,5 +30,6 @@
   },
   "overallScore": 0,
   "normalizedScore": 0,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.229Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.229Z",
+  "domainId": "glb"
 }

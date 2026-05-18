@@ -1,0 +1,102 @@
+{
+  "id": "NY-Tarrytown-Village-projects-1778785940590",
+  "entityId": "NY-Tarrytown-Village",
+  "domainId": "projects",
+  "entity": {
+    "id": "NY-Tarrytown-Village",
+    "displayName": "Tarrytown - Village"
+  },
+  "domain": {
+    "id": "projects",
+    "displayName": "Projects"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What conservation projects or events are currently advertised?",
+      "answer": "The Tarrytown Tree Commission is advertised as dedicated to stewardship and preservation of the village's arboreal heritage and tree canopy. Their mission includes safeguarding Tarrytown's diverse native shade tree population to enhance environmental quality, aesthetic appeal, energy consumption reduction, and property values for future generations. This is listed under the village's events section.",
+      "confidence": 55,
+      "sourceRefs": [
+        "https://www.tarrytownny.gov/home/events/54991"
+      ],
+      "gap": "The source describes the Tree Commission's mission but does not list specific conservation projects or events with goals, locations, dates, participant eligibility, or frequency — all elements identified in best practices.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Are there specific Tree Commission planting events, volunteer days, or conservation projects listed elsewhere on the Tarrytown website?",
+        "Does Tarrytown publish an annual calendar or project schedule for the Tree Commission or other conservation initiatives?"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What documentation or photo/videos showing past projects exists online?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 3,
+      "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    }
+  ],
+  "scores": {
+    "overallScore": 1,
+    "normalizedScore": 1,
+    "averageConfidence": 18,
+    "questionsAnswered": 3,
+    "totalQuestions": 3,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.2,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.07,
+      "weightedScore": 0.1,
+      "totalWeightedScore": 0.16,
+      "totalPossibleWeight": 1.6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0.2,
+          "weight": 0.8,
+          "weightedScore": 0.16,
+          "maxWeightedScore": 0.8,
+          "confidence": 55
+        },
+        {
+          "id": "2",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 0
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 1,
+  "averageConfidence": 18,
+  "questionsAnswered": 3,
+  "totalQuestions": 3,
+  "lastUpdated": "2026-05-15T13:48:11.816Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://www.tarrytownny.gov/home/events/54991",
+      "title": "https://www.tarrytownny.gov/home/events/54991"
+    }
+  ]
+}

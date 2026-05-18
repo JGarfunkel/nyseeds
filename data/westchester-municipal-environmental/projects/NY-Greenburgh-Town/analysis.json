@@ -1,0 +1,107 @@
+{
+  "id": "NY-Greenburgh-Town-projects-1778785748312",
+  "entityId": "NY-Greenburgh-Town",
+  "domainId": "projects",
+  "entity": {
+    "id": "NY-Greenburgh-Town",
+    "displayName": "Greenburgh - Town"
+  },
+  "domain": {
+    "id": "projects",
+    "displayName": "Projects"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What conservation projects or events are currently advertised?",
+      "answer": "The Greenburgh Conservation Advisory Council (CAC) advertises the following conservation initiatives in their 2024 newsletters: (1) Invasive Plant Removal – residents are encouraged to check yards for invasive plants such as Lesser Celandine, Garlic Mustard, Porcelain Berry, English Ivy, Oriental Bittersweet, and Japanese Barberry, with resources provided at lhprism.org and westchestergov.com. (2) Spotted Lanternfly Egg Destruction – residents are asked to find and destroy spotted lanternfly egg masses during winter, with guidance at Penn State Extension. (3) Tree Pruning – winter is promoted as an ideal time to hire a certified arborist to prune trees. (4) Safer Ice Melt Practices – residents are encouraged to use calcium chloride instead of salt-based ice melts. These are communicated via seasonal newsletters rather than structured project listings with goals, locations, dates, or participation details.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://www.greenburghny.com/DocumentCenter/View/14657/2024-CAC-Winter-Letter",
+        "https://www.greenburghny.com/DocumentCenter/View/14655/2024-CAC-Newsletter-3-Invasive-Plants"
+      ],
+      "gap": "Conservation initiatives are communicated as general seasonal tips rather than structured projects with defined goals, locations, dates, frequency, and participation eligibility as recommended by best practice.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Are there any organized CAC volunteer events with specific dates and locations listed on the Greenburgh website?",
+        "Does Greenburgh maintain a dedicated conservation projects page with structured project details such as goals and schedules?"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What documentation or photo/videos showing past projects exists online?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 3,
+      "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
+    }
+  ],
+  "scores": {
+    "overallScore": 1,
+    "normalizedScore": 1,
+    "averageConfidence": 24,
+    "questionsAnswered": 3,
+    "totalQuestions": 3,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.2,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.07,
+      "weightedScore": 0.1,
+      "totalWeightedScore": 0.16,
+      "totalPossibleWeight": 1.6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0.2,
+          "weight": 0.8,
+          "weightedScore": 0.16,
+          "maxWeightedScore": 0.8,
+          "confidence": 72
+        },
+        {
+          "id": "2",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 0
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 0.4,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.4,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 1,
+  "averageConfidence": 24,
+  "questionsAnswered": 3,
+  "totalQuestions": 3,
+  "lastUpdated": "2026-05-15T13:48:10.770Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://www.greenburghny.com/DocumentCenter/View/14655/2024-CAC-Newsletter-3-Invasive-Plants",
+      "title": "https://www.greenburghny.com/DocumentCenter/View/14655/2024-CAC-Newsletter-3-Invasive-Plants"
+    },
+    {
+      "url": "https://www.greenburghny.com/DocumentCenter/View/14657/2024-CAC-Winter-Letter",
+      "title": "https://www.greenburghny.com/DocumentCenter/View/14657/2024-CAC-Winter-Letter"
+    }
+  ]
+}

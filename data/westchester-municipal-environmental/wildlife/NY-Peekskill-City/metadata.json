@@ -1,0 +1,11 @@
+{
+  "entityId": "NY-Peekskill-City",
+  "domainId": "wildlife",
+  "domain": "wildlife",
+  "homePage": "https://www.cityofpeekskill.com/",
+  "metadataCreated": "2026-05-03T04:53:42.920Z",
+  "stateCodeApplies": false,
+  "sources": [],
+  "municipality": "Peekskill",
+  "municipalityType": "City"
+}

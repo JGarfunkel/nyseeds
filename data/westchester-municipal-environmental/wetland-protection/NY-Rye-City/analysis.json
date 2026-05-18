@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Rye-City-wetland-protection-1778621116872",
+  "entityId": "NY-Rye-City",
+  "domainId": "wetland-protection",
+  "entity": {
     "id": "NY-Rye-City",
     "displayName": "Rye - City"
   },
@@ -7,9 +10,7 @@
     "id": "wetland-protection",
     "displayName": "Wetland Protection"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 3,
@@ -180,9 +181,7 @@
   "averageConfidence": 0,
   "questionsAnswered": 0,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-08T19:40:29.852Z",
+  "lastUpdated": "2026-05-12T21:25:16.872Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false,
-  "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:19:07.263Z"
+  "usesStateCode": false
 }

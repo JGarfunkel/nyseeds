@@ -1,4 +1,5 @@
 {
+  "id": "NY-Lewisboro-Town-glb-1778856979992",
   "municipality": {
     "id": "NY-Lewisboro-Town",
     "displayName": "Lewisboro - Town"
@@ -173,9 +174,10 @@
   "averageConfidence": 29,
   "questionsAnswered": 1,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T20:02:16.962Z",
+  "lastUpdated": "2026-05-15T14:56:19.992Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 1.33,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.241Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.241Z",
+  "domainId": "glb"
 }

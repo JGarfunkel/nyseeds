@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-MountVernon-City-trees-1779068046102",
+  "entityId": "NY-MountVernon-City",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-MountVernon-City",
     "displayName": "Mount Vernon - City"
   },
@@ -7,20 +10,23 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a permit to remove a tree on your private property if the tree is 10 inches in diameter at breast height (DBH) or greater, or does not meet specific exemption criteria like emergency removal. To apply for a permit, you should make a request to the Department of Public Works with at least 20 business days' notice for inspection, and submit an application including details like the total number of trees for removal, their DBH, and a sketch of property showing tree locations. The Building Department and the Department of Public Works, with advice from the Mount Vernon Tree Advisory Board and after an inspection by the City Tree Surgeon, will review the application.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Yes, a permit is generally required to remove trees on private property in Mount Vernon. Exceptions apply if the tree is less than 10 inches DBH, or removal is needed under an actual documented emergency.\n\n**How to Apply:** The property owner submits an application to the Department of Public Works (DPW) with at least 20 business days advance notice. The application must include: (1) applicant's name and address, (2) property address, (3) total number of trees to be removed, (4) DBH of each tree, (5) number of significant trees, (6) proof of any additional required permits, and (7) retention of a licensed contractor.\n\n**Who Reviews It:** The Building Department and DPW, with advice from the Mount Vernon Tree Advisory Board, determine whether to grant, deny, or conditionally approve the permit, following inspection by the City Tree Surgeon.\n\n**Fees:** The permit fee is $50 per tree. No fee is charged if the City Tree Surgeon determines the tree is diseased, infested, or dangerous.\n\nTree removal hours are limited to 7:30 a.m.–3:30 p.m. on weekdays; a separate permit is required for weekend removal.",
+      "confidence": 88,
       "sourceRefs": [
-        "§ 252-4",
-        "§ 252-5"
+        "https://www.mountvernonny.gov/540/Tree-Advisory-Board § 252-5",
+        "https://www.mountvernonny.gov/540/Tree-Advisory-Board § 252-4A(3)(c)"
       ],
-      "score": 1
+      "gap": "The statute exempts trees under 10 inches DBH from permits, whereas best practice suggests a threshold around 18 inches DBH. Best practice also recommends allowing limited annual removals (e.g., up to three non-protected trees) on smaller residential lots, which is not reflected here. The review authority structure is present but does not explicitly include a dedicated Enforcement Officer role as suggested by best practice.",
+      "score": 0.65,
+      "nextPrompts": [
+        "Are there additional protections or permit requirements for trees designated as landmark or heritage trees in Mount Vernon?",
+        "Does the statute specify any requirements for trees located in sensitive areas such as steep slopes or near waterways on private property?"
+      ]
     },
     {
       "id": 2,
@@ -34,14 +40,19 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "If a tree is removed without a replacement, the property owner may pay a fee-in-lieu of replacement, which is $500 per tree. This payment is made to the City and is deposited into the Mount Vernon Tree Fund Escrow Account.",
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "Mount Vernon's code specifies the following exemptions or permit-free removals on private property:\n\n1. **Size threshold**: Trees less than 10 inches DBH do not require a permit (§252-4B(1)(a)).\n2. **Emergency removal**: Trees requiring removal under an actual emergency for protection of life or property, supported by documentation (§252-4B(1)(b)).\n3. **Dead or dying trees**: Trees that are dead or in poor health with an expected lifespan less than two years, as determined by the City Tree Surgeon (§252-2).\n4. **Diseased, infested, or invasive species**: Trees that are diseased, insect-infested, invasive species, or otherwise hazardous endangering public, neighboring property, or health of neighboring trees (§252-2).\n5. **Location-based considerations**: Trees within 3 feet of a sidewalk/driveway, within 5 feet of a dry well/drain/subsurface improvement, within 5 feet of a roadway, or within 5 feet of any structure may qualify for permit approval based on interference with construction (§252-2).\n\nThese exemptions apply primarily to significant trees (10 inches DBH or greater). Trees below the 10-inch DBH threshold are not subject to permit requirements at all.",
       "confidence": 85,
       "sourceRefs": [
-        "§ 252-10E"
+        "https://www.mountvernonny.gov/540/Tree-Advisory-Board § 252-4B(1)(a)-(b)",
+        "https://www.mountvernonny.gov/540/Tree-Advisory-Board § 252-2"
       ],
-      "score": 0.75,
-      "gap": "Consider adding a detailed fee schedule that outlines any potential variations in the fee based on tree size, species, or location, as well as specifying accepted payment methods and any possible exemptions or reductions for certain property owners or circumstances."
+      "gap": "The code exempts invasive/non-native species from protection but does not require ISA-certified arborist certification prior to removal of invasive trees, nor does it specify reduced replacement obligations for non-native species or reference NYS DEC protected native plant designations for heightened protection.",
+      "score": 0.55,
+      "nextPrompts": [
+        "Does Mount Vernon's code require ISA-certified arborist documentation when claiming an invasive species or hazard tree exemption?",
+        "Are there reduced or waived replacement requirements specifically for invasive or non-native species removals under Mount Vernon's tree ordinance?"
+      ]
     },
     {
       "id": 4,
@@ -56,12 +67,34 @@
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and clearly identifying any neighbors whose property may be affected by potential changes in landscape or drainage."
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "The provided sources do not specify any notification requirements to neighbors or other residents as part of the tree removal permit application process in Mount Vernon. The statute outlines that the application is made by the property owner to the Department of Public Works, with at least 20 business days advance notice given to the City for inspection purposes. The City Tree Surgeon may submit written or email objections within 60 days for certain applications (e.g., Planning Board or Architectural Review Board cases). No neighbor notification count or method is described in the available excerpts.",
+      "confidence": 30,
+      "sourceRefs": [
+        "https://www.mountvernonny.gov/540/Tree-Advisory-Board"
+      ],
+      "gap": "Significant gap: The Mount Vernon statute does not appear to require any neighbor or community notification for tree removal applications. Best practices call for certified mail notification to adjoining and directly opposite property owners within a specified distance (e.g., 300 feet), at least 15 days before a decision, plus on-site permit signage visible from the street at least 3 days before removal begins.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does Mount Vernon's code require any public posting or signage on-site prior to tree removal?",
+        "Are there any public hearing requirements for tree removal permits in Mount Vernon that would trigger neighbor notification?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement officers are the Commissioner of Public Works and/or the City Tree Surgeon (§ 252-16A). The City Tree Surgeon is defined as a trained forester responsible for the scientific planting, removing, and trimming of all City trees, whose practices must be consistent with up-to-date arboricultural standards. The statute notes this role 'could be a certified arborist' (ISA-certified or from another nationally recognized arboricultural organization), but certification is not explicitly required for the position (§ 252-2). The Commissioner of Public Works is not described with any specific arboricultural credentials in the sources.",
+      "confidence": 88,
+      "sourceRefs": [
+        "https://www.mountvernonny.gov/540/Tree-Advisory-Board § 252-2",
+        "https://www.mountvernonny.gov/540/Tree-Advisory-Board § 252-16"
+      ],
+      "gap": "While the City Tree Surgeon role references arboricultural standards and notes ISA certification as a possibility, certification is not explicitly required, and the Commissioner of Public Works—who shares enforcement authority—lacks any defined arboricultural credentials. Best practice calls for mandatory credentialing, a Tree Commission for advisory oversight, and required consultation with a certified arborist for key decisions.",
+      "score": 0.45,
+      "nextPrompts": [
+        "Is there a Tree Commission or advisory board with arboricultural expertise?",
+        "Are ISA-certified arborist consultations required for removal or hazard decisions?"
+      ]
     },
     {
       "id": 6,
@@ -88,49 +121,47 @@
     {
       "id": 9,
       "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to collect detailed data on all tree removals, including location, species, and reason for removal, and to compile this information into an annual public report to enhance transparency and facilitate community engagement in urban forestry management."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 252-2",
+        "§ 252-5"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 6.73,
-    "normalizedScore": 6.73,
-    "averageConfidence": 69,
-    "questionsAnswered": 6,
-    "totalQuestions": 8,
+    "overallScore": 6.13,
+    "normalizedScore": 6.13,
+    "averageConfidence": 70,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
+        0.65,
         1,
+        0.55,
         1,
-        0.75,
-        1,
-        0.1,
+        0.05,
+        0.45,
         0.55,
         0.7,
-        0.1
+        0
       ],
-      "averageQuestionScore": 0.65,
-      "weightedScore": 0.6733,
-      "totalWeightedScore": 10.1,
+      "averageQuestionScore": 0.55,
+      "weightedScore": 0.6133,
+      "totalWeightedScore": 9.200000000000001,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a permit to remove a tree on your private property if the tree is 10 inches in diameter at breast height (DBH) or greater, or does not meet specific exemption criteria like emergency removal. To apply for a permit, you should make a request to the Department of Public Works with at least 20 business days' notice for inspection, and submit an application including details like the total number of trees for removal, their DBH, and a sketch of property showing tree locations. The Building Department and the Department of Public Works, with advice from the Mount Vernon Tree Advisory Board and after an inspection by the City Tree Surgeon, will review the application.",
-          "score": 1,
+          "score": 0.65,
           "weight": 1,
-          "weightedScore": 1,
+          "weightedScore": 0.65,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 88
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "The penalty for removing trees without a permit is a fine of up to $1,000 per tree for the first tree. For a second and subsequent offense within a one-year period, the fine can be up to $2,000 per tree. Additionally, the violator will be required to repair or replace each and every tree harmed or removed or pay a fee-in-lieu of replacement. All fines are deposited into the Mount Vernon Tree Fund Escrow Account. No building permit or certificate of occupancy can be issued for any construction on the property until the provisions of the statute have been satisfied.",
           "score": 1,
           "weight": 2,
           "weightedScore": 2,
@@ -139,18 +170,14 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "If a tree is removed without a replacement, the property owner may pay a fee-in-lieu of replacement, which is $500 per tree. This payment is made to the City and is deposited into the Mount Vernon Tree Fund Escrow Account.",
-          "score": 0.75,
-          "weight": 1,
-          "weightedScore": 0.75,
-          "maxWeightedScore": 1,
+          "score": 0.55,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
           "confidence": 85
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed instead of making a payment. The replacement trees must have a minimum diameter at breast height (DBH) of three inches and must be species included on the list of permitted trees, which implies that non-native species may not be allowed if they are not on the official list. The planting should follow best practices and must be completed within six months of the tree removal permit issuance.",
           "score": 1,
           "weight": 3,
           "weightedScore": 3,
@@ -159,28 +186,30 @@
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.05,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 30
+        },
+        {
+          "id": "5.1",
+          "score": 0.45,
+          "weight": 1,
+          "weightedScore": 0.45,
+          "maxWeightedScore": 1,
+          "confidence": 88
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of maintaining a healthy tree canopy. The purpose section emphasizes the environmental, aesthetic, and economic benefits provided by trees, including shade and the preservation of air quality. The regulation seeks to prevent unnecessary damage and preserve trees as community assets.",
           "score": 0.55,
           "weight": 3,
-          "weightedScore": 1.6500000000000001,
+          "weightedScore": 1.65,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "As a property owner, you are responsible for pruning trees so that the tree's basic nature is not damaged and its size is not reduced by more than 1/4. You must address any branches or roots overhanging an adjacent lot, sidewalk, or roadway if notified by the adjacent property owner. You are also responsible for the control and removal of infested trees, shrubs, bushes, and invasive vines. Failure to address infestations could lead to the city removing the trees at your expense if you do not comply within 30 days of being notified.",
           "score": 0.7,
           "weight": 2,
           "weightedScore": 1.4,
@@ -189,24 +218,21 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 20
+          "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 6.73,
-  "averageConfidence": 69,
-  "questionsAnswered": 6,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:23:38.708Z",
+  "overallScore": 6.13,
+  "averageConfidence": 70,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:34:06.102Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 6.73,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.193Z"
+  "sources": []
 }

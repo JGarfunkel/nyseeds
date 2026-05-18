@@ -1,4 +1,5 @@
 {
+  "id": "NY-MountVernon-City-weeds-1778856983608",
   "municipality": {
     "id": "NY-MountVernon-City",
     "displayName": "Mount Vernon - City"
@@ -135,9 +136,10 @@
   "averageConfidence": 33,
   "questionsAnswered": 1,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:45:58.084Z",
+  "lastUpdated": "2026-05-15T14:56:23.608Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 1.75,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.529Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.529Z",
+  "domainId": "weeds"
 }

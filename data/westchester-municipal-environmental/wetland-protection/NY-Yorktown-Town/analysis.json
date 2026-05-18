@@ -1,26 +1,180 @@
 {
-  "municipality": "Yorktown - Town",
-  "domain": "Wetland Protection",
-  "grade": null,
-  "gradeColor": "#6b7280",
-  "lastUpdated": "2025-08-18T02:27:01.173Z",
+  "id": "NY-Yorktown-Town-wetland-protection-1778621168596",
+  "entityId": "NY-Yorktown-Town",
+  "domainId": "wetland-protection",
+  "entity": {
+    "id": "NY-Yorktown-Town",
+    "displayName": "Yorktown - Town"
+  },
+  "domain": {
+    "id": "wetland-protection",
+    "displayName": "Wetland Protection"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 3,
+      "question": "What are the setback requirements from wetland boundaries?",
+      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n  \"recommendation\": \"Consider adding a statute that establishes a minimum setback distance of 100 feet from wetland boundaries for any new construction or land development activities to protect wetland ecosystems and ensure compliance with environmental conservation standards.\"\n}"
+    },
+    {
+      "id": 4,
+      "question": "What are the penalties for unauthorized wetland disturbance?",
+      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n    \"recommendation\": \"Consider adding a statute that imposes fines starting at $500 for first-time unauthorized wetland disturbances, with increased penalties for repeat offenses, and establish clear enforcement mechanisms including inspections and mandatory restoration requirements.\"\n}"
+    },
+    {
+      "id": 5,
+      "question": "How do I apply for a wetland permit or variance?",
+      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n    \"recommendation\": \"Consider adding a detailed section outlining the application procedures for wetland permits, including required documentation, submission methods, and associated fees, to ensure clarity and accessibility for applicants.\"\n}"
+    },
+    {
+      "id": 6,
+      "question": "Are there mitigation requirements for permitted wetland impacts?",
+      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n  \"recommendation\": \"Consider adding a requirement for a detailed mitigation plan as part of the wetland impact permit application, including specific criteria for evaluating the adequacy of proposed mitigation measures and a clear timeline for review and approval processes.\"\n}"
+    },
+    {
+      "id": 7,
+      "question": "What types of development are completely prohibited in wetlands?",
+      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n  \"recommendation\": \"Consider adding a statute that explicitly prohibits any form of development in wetlands, including residential, commercial, and industrial projects, to ensure the protection and preservation of these sensitive ecological areas.\"\n}"
+    },
+    {
+      "id": 9,
+      "question": "Are there tax incentives for wetland preservation?",
+      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n  \"recommendation\": \"Consider adding a statute that provides tax incentives for property owners who engage in wetland preservation, including specific criteria for eligibility, types of activities that qualify, and the process for applying for these incentives.\"\n}"
+    },
+    {
+      "id": 10,
+      "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "confidence": 0,
+      "sourceRefs": [],
+      "score": 0.5,
+      "gap": "{\n    \"recommendation\": \"Consider adding a section that outlines specific monitoring and maintenance requirements for permitted wetland projects, including detailed application procedures, review criteria, appeal processes, timelines, and approval standards to ensure compliance and environmental protection.\"\n}"
+    }
+  ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
+    "overallScore": 5,
+    "normalizedScore": 5,
     "averageConfidence": 0,
-    "questionsAnswered": 0,
-    "totalQuestions": 0,
+    "questionsAnswered": 7,
+    "totalQuestions": 7,
     "scoreBreakdown": {
-      "questionScores": [],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
-      "totalPossibleWeight": 0,
-      "questionsWithScores": []
+      "questionScores": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "averageQuestionScore": 0.5,
+      "weightedScore": 0.5,
+      "totalWeightedScore": 3.5,
+      "totalPossibleWeight": 7,
+      "questionsWithScores": [
+        {
+          "id": "3",
+          "question": "What are the setback requirements from wetland boundaries?",
+          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties for unauthorized wetland disturbance?",
+          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "question": "How do I apply for a wetland permit or variance?",
+          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "question": "Are there mitigation requirements for permitted wetland impacts?",
+          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "7",
+          "question": "What types of development are completely prohibited in wetlands?",
+          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "9",
+          "question": "Are there tax incentives for wetland preservation?",
+          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "10",
+          "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        }
+      ]
     }
   },
-  "overallScore": 0,
-  "normalizedScore": 0,
-  "scoresUpdatedAt": "2025-10-10T17:19:07.273Z",
-  "questions": []
+  "overallScore": 5,
+  "averageConfidence": 0,
+  "questionsAnswered": 7,
+  "totalQuestions": 7,
+  "lastUpdated": "2026-05-12T21:26:08.596Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false
 }

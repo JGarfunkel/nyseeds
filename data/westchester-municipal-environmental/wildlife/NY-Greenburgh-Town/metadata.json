@@ -1,0 +1,11 @@
+{
+  "entityId": "NY-Greenburgh-Town",
+  "domainId": "wildlife",
+  "domain": "wildlife",
+  "homePage": "https://www.greenburghny.com/",
+  "metadataCreated": "2026-05-03T04:53:42.832Z",
+  "stateCodeApplies": false,
+  "sources": [],
+  "municipality": "Greenburgh",
+  "municipalityType": "Town"
+}

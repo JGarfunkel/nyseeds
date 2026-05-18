@@ -10,11 +10,70 @@
   "statuteNumber": "Chapter 63",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:46:01.644Z",
-      "contentLength": 56330,
+      "downloadedAt": "2026-05-17T20:08:37.253Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/6833365#6833365",
+      "title": "Article VIII",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T20:08:37.252Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/6833354#6833354",
+      "title": "Article VII",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T20:08:37.252Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/6833348#6833348",
+      "title": "Article VI",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T20:08:37.252Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/6833280#6833280",
+      "title": "Article V",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T20:08:37.252Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/6833246#6833246",
+      "title": "Article IV",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T20:08:37.252Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/6833226#6833226",
+      "title": "Article III",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T20:08:37.252Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/6833190#6833190",
+      "title": "Article II",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T20:08:37.252Z",
+      "contentLength": 0,
+      "sourceUrl": "https://ecode360.com/6833187#6833187",
+      "title": "Article I",
+      "type": "statute"
+    },
+    {
+      "downloadedAt": "2026-05-17T20:08:10.997Z",
+      "contentLength": 111697,
       "sourceUrl": "https://ecode360.com/6833186",
       "title": "Freshwater Wetlands",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-PoundRidge-Town",
+  "homePage": "https://www.townofpoundridge.com/",
+  "isArticleBased": true
 }

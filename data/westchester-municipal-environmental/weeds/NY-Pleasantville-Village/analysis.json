@@ -1,4 +1,5 @@
 {
+  "id": "NY-Pleasantville-Village-weeds-1778856983898",
   "municipality": {
     "id": "NY-Pleasantville-Village",
     "displayName": "Pleasantville - Village"
@@ -139,9 +140,10 @@
   "averageConfidence": 59,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:49:24.525Z",
+  "lastUpdated": "2026-05-15T14:56:23.898Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 4.08,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.544Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.544Z",
+  "domainId": "weeds"
 }

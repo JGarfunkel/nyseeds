@@ -10,11 +10,14 @@
   "statuteNumber": "Chapter 221",
   "sources": [
     {
-      "downloadedAt": "2025-09-05T16:30:14.498Z",
-      "contentLength": 5579,
+      "downloadedAt": "2026-05-15T19:06:11.869Z",
+      "contentLength": 95866,
       "sourceUrl": "https://ecode360.com/37655053#37664851",
       "title": "Property Maintenance",
       "type": "statute"
     }
-  ]
+  ],
+  "entityId": "NY-Cortlandt-Town",
+  "homePage": "",
+  "isArticleBased": false
 }

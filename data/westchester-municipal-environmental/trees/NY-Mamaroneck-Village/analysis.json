@@ -1,5 +1,8 @@
 {
-  "municipality": {
+  "id": "NY-Mamaroneck-Village-trees-1779067955044",
+  "entityId": "NY-Mamaroneck-Village",
+  "domainId": "trees",
+  "entity": {
     "id": "NY-Mamaroneck-Village",
     "displayName": "Mamaroneck - Village"
   },
@@ -7,20 +10,22 @@
     "id": "trees",
     "displayName": "Trees"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
-      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-      "answer": "Yes, you need a permit to remove a tree on your private property if the tree has a DBH of eight inches or more. You must apply in writing on a form prescribed by the Building Inspector. The Building Inspector reviews the application.",
-      "confidence": 85,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
+      "answer": "Permit applications for tree removal on private property are available online at https://www.village.mamaroneck.ny.us/building-department/files/tree-application. Applications can be completed online and submitted with electronic payment. The Building Department reviews permit applications. Trees requiring a permit are measured at 4½ feet above the ground (diameter threshold applies, with additional requirements for trees near wetlands areas). Fees and specific per-tree costs are not specified in the provided sources.",
+      "confidence": 45,
       "sourceRefs": [
-        "§ 318-8"
+        "https://www.villageofmamaroneckny.gov/DocumentCenter/View/756/tree_lawfaq_2-PDF"
       ],
-      "score": 0.85,
-      "gap": "Consider adding detailed criteria for the review process, including specific conditions under which a permit may be denied or approved, as well as a clear timeline for application review and decision-making."
+      "gap": "Significant gaps exist compared to best practices: the statute does not specify diameter thresholds triggering permit requirements, does not detail what information must be included in the application, does not clarify which authority (e.g., Enforcement Officer, Planning Board) formally reviews and approves permits, does not list fee schedules per tree, and does not describe any exemptions (e.g., limited annual removals without a permit). The review authority is only vaguely identified as the Building Department.",
+      "score": 0.3,
+      "nextPrompts": [
+        "What is the specific diameter at breast height (DBH) threshold that triggers a tree removal permit requirement in Village of Mamaroneck?",
+        "What are the permit fees per tree for removal on private property in Village of Mamaroneck, and are there exemptions for small or non-protected trees?"
+      ]
     },
     {
       "id": 2,
@@ -35,12 +40,18 @@
     },
     {
       "id": 3,
-      "question": "What is the fee for removing each tree without a replacement?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a clear fee schedule for tree removal without replacement, detailing specific costs per tree, available payment options, any applicable exemptions, and provisions to ensure the fees cover administrative costs associated with enforcement and processing."
+      "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
+      "answer": "The statute specifies several exemptions and conditions related to tree removal:\n\n**Size-based:** Trees under 8 inches DBH on standard lots do not require replanting. Trees under 3 inches DBH in wetlands or steep slopes are not classified as 'protected.'\n\n**Location-based:** A permit may be granted to remove a protected tree within 10 feet of a building or structure perimeter, or where the tree prevents compliance with laws regarding sight lines, driveways, or intersections.\n\n**Hazardous/diseased trees:** A permit may be granted if a certified arborist determines the tree is dead, substantially diseased, constitutes a danger to life/property, or harbors insects/diseases threatening other trees. Emergency removal is permitted without standard procedures when there is an immediate threat to life or property, though trees 18 inches DBH or greater require a certified arborist report before emergency removal for disease.\n\n**Quantity limits:** The Building Inspector cannot grant permits if more than three protected trees are sought for removal, or if more than three have been removed in the preceding 36 months.\n\nNo explicit exemptions for non-native or invasive species are specified in the provided sources.",
+      "confidence": 82,
+      "sourceRefs": [
+        "https://ecode360.com/38719881#38719881"
+      ],
+      "gap": "The statute lacks explicit exemptions or reduced replacement obligations for invasive or non-native species. Best practice calls for written arborist certification prior to removal of invasive trees and a clear framework distinguishing native vs. non-native species in permitting. The statute also does not reference ISA-certified arborist certification as a prerequisite for invasive species removal.",
+      "score": 0.55,
+      "nextPrompts": [
+        "Does the statute address invasive or non-native species differently in terms of permit requirements or replacement obligations?",
+        "Are there any provisions referencing NYS DEC protected native plant designations as grounds for permit denial or heightened protection?"
+      ]
     },
     {
       "id": 4,
@@ -56,12 +67,33 @@
     },
     {
       "id": 5,
-      "question": "Which neighbors must be notified if I remove trees? ",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure all affected parties are adequately informed."
+      "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 192-14E"
+      ],
+      "gap": "The statute does not address neighbor notification requirements for tree removal applications. Best practices call for certified mail notification to adjoining and directly opposite property owners within a specified distance (e.g., 300 feet), at least 15 days before a decision or hearing, plus on-site permit posting visible from the street at least 3 days before removal begins.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Mamaroneck tree removal permit process require any public notice or neighbor notification before a permit is issued?",
+        "Is there a posting or signage requirement for approved tree removal permits on private property in Mamaroneck's tree ordinance?"
+      ]
+    },
+    {
+      "id": 5.1,
+      "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
+      "answer": "The enforcement authority for trees on public property is the Village Manager or the Village Manager's designee, who must be consulted before any tree removal, pruning, treatment, or other work on public trees is approved (per Article III). The Tree Committee also plays an advisory and oversight role, including reviewing proposals by the Village Manager to remove public trees. The statute does not specify that the Village Manager or designee must be an ISA-Certified Arborist or hold any specific arboricultural credential. The Tree Committee is described as providing education and advice on tree preservation and risk assessment, but no credential requirement is stated for its members either.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://ecode360.com/38719881#38719881"
+      ],
+      "gap": "The statute designates the Village Manager (a general administrative role) as the primary enforcement authority without requiring arboricultural credentials such as ISA Certification. There is no dedicated Tree Warden or Forestry Officer position defined, and no mandatory consultation with a certified arborist for technical determinations. This falls short of best practices, which call for a credentialed arborist or defined 'Tree Expert' to inform enforcement and removal decisions.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Do the Village Manager's designee qualifications or job descriptions specify any arboricultural or environmental credentials?",
+        "Does the Tree Committee membership require any professional arboricultural certifications or relevant technical expertise?"
+      ]
     },
     {
       "id": 6,
@@ -98,41 +130,38 @@
     }
   ],
   "scores": {
-    "overallScore": 6.77,
-    "normalizedScore": 6.77,
-    "averageConfidence": 69,
-    "questionsAnswered": 6,
-    "totalQuestions": 8,
+    "overallScore": 6.47,
+    "normalizedScore": 6.47,
+    "averageConfidence": 70,
+    "questionsAnswered": 9,
+    "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
+        0.3,
         0.85,
-        0.85,
-        0.1,
+        0.55,
         0.95,
-        0.1,
+        0,
+        0.3,
         0.65,
         0.5,
         0.8
       ],
-      "averageQuestionScore": 0.6,
-      "weightedScore": 0.6767,
-      "totalWeightedScore": 10.15,
+      "averageQuestionScore": 0.54,
+      "weightedScore": 0.6467,
+      "totalWeightedScore": 9.7,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
-          "answer": "Yes, you need a permit to remove a tree on your private property if the tree has a DBH of eight inches or more. You must apply in writing on a form prescribed by the Building Inspector. The Building Inspector reviews the application.",
-          "score": 0.85,
+          "score": 0.3,
           "weight": 1,
-          "weightedScore": 0.85,
+          "weightedScore": 0.3,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 45
         },
         {
           "id": "2",
-          "question": "What are the penalties for removing trees without a permit?",
-          "answer": "If you remove a tree without a permit, you are guilty of a violation and subject to a fine of not less than $1,050 nor more than $5,000 for the removal of one or two trees, and not less than $1,500 nor more than $7,500 for each additional tree removed. Additionally, you must replace the tree in accordance with the statute.",
           "score": 0.85,
           "weight": 2,
           "weightedScore": 1.7,
@@ -141,48 +170,46 @@
         },
         {
           "id": "3",
-          "question": "What is the fee for removing each tree without a replacement?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 20
+          "score": 0.55,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 82
         },
         {
           "id": "4",
-          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-          "answer": "Yes, you can replant new trees to replace those removed. Replacement trees must be a noninvasive species and of a similar mature height. The statute implies that native species or those on the recommended list are preferred, not non-native species.",
           "score": 0.95,
           "weight": 3,
-          "weightedScore": 2.8499999999999996,
+          "weightedScore": 2.85,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "5",
-          "question": "Which neighbors must be notified if I remove trees? ",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 10
+        },
+        {
+          "id": "5.1",
+          "score": 0.3,
+          "weight": 1,
+          "weightedScore": 0.3,
+          "maxWeightedScore": 1,
+          "confidence": 72
         },
         {
           "id": "6",
-          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-          "answer": "Yes, the code recognizes the importance of keeping a healthy tree canopy by stating that it provides various benefits, and it sets a goal to achieve and maintain a minimum tree canopy coverage of 40%.",
           "score": 0.65,
           "weight": 3,
-          "weightedScore": 1.9500000000000002,
+          "weightedScore": 1.95,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "question": "What are my responsibilities for maintaining trees on my property?",
-          "answer": "You are responsible for pruning trees on your property so that they do not obstruct or overhang any right-of-way, and ensuring that branches do not interfere with street lamps, traffic control devices, or utilities. You must also remove any dangerous trees or limbs. If you fail to do so, the Village may direct you to take action or do the work and charge you for it.",
           "score": 0.5,
           "weight": 2,
           "weightedScore": 1,
@@ -191,8 +218,6 @@
         },
         {
           "id": "9",
-          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
-          "answer": "Yes, the Tree Committee is required to review and document violation conditions, including tree removals, in its annual report. This report is presented annually to the Board of Trustees.",
           "score": 0.8,
           "weight": 2,
           "weightedScore": 1.6,
@@ -202,13 +227,25 @@
       ]
     }
   },
-  "overallScore": 6.77,
-  "averageConfidence": 69,
-  "questionsAnswered": 6,
-  "totalQuestions": 8,
-  "lastUpdated": "2025-09-09T18:22:38.907Z",
+  "overallScore": 6.47,
+  "averageConfidence": 70,
+  "questionsAnswered": 9,
+  "totalQuestions": 9,
+  "lastUpdated": "2026-05-18T01:32:35.044Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 6.77,
-  "scoresUpdatedAt": "2025-10-10T17:18:10.189Z"
+  "sources": [
+    {
+      "url": "https://www.villageofmamaroneckny.gov/AgendaCenter/Tree-Committee-3",
+      "title": "Agenda Center • Mamaroneck Village, NY • CivicEngage"
+    },
+    {
+      "url": "https://www.villageofmamaroneckny.gov/AgendaCenter/ViewFile/Agenda/_05062026-777",
+      "title": " 05062026 777"
+    },
+    {
+      "url": "https://www.villageofmamaroneckny.gov/DocumentCenter/View/756/tree_lawfaq_2-PDF",
+      "title": "Tree Lawfaq 2 PDF"
+    }
+  ]
 }

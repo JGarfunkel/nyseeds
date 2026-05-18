@@ -1,4 +1,5 @@
 {
+  "id": "NY-Scarsdale-Town-glb-1778856980543",
   "municipality": {
     "id": "NY-Scarsdale-Town",
     "displayName": "Scarsdale - Town"
@@ -183,9 +184,10 @@
   "averageConfidence": 61,
   "questionsAnswered": 5,
   "totalQuestions": 7,
-  "lastUpdated": "2025-09-09T20:08:48.213Z",
+  "lastUpdated": "2026-05-15T14:56:20.543Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 5.21,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.269Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:22.269Z",
+  "domainId": "glb"
 }

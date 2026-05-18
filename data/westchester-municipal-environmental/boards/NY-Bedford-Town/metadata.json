@@ -1,0 +1,33 @@
+{
+  "entityId": "NY-Bedford-Town",
+  "domainId": "boards",
+  "domain": "boards",
+  "homePage": "https://www.bedfordny.gov",
+  "metadataCreated": "2026-05-03T04:08:23.662Z",
+  "stateCodeApplies": false,
+  "sources": [
+    {
+      "sourceUrl": "https://www.bedfordny.gov/Directory.aspx?did=25",
+      "downloadedAt": "2026-05-03T14:47:31.817Z",
+      "title": "Staff Directory • Building Health & Performance",
+      "type": "form",
+      "primeDomainSource": "boards"
+    },
+    {
+      "sourceUrl": "https://bedfordny.gov/QuickLinks.aspx?CID=50",
+      "downloadedAt": "2026-05-03T14:47:25.594Z",
+      "title": "Quick Links • Permitting & Land Use Boards - Conservation Bo",
+      "type": "form",
+      "primeDomainSource": "boards"
+    },
+    {
+      "sourceUrl": "https://bedfordny.gov/583/Permitting-and-Land-Use-Boards",
+      "downloadedAt": "2026-05-03T14:47:24.911Z",
+      "title": "Permitting and Land Use Boards | Town of Bedford, NY",
+      "type": "form",
+      "primeDomainSource": "boards"
+    }
+  ],
+  "municipality": "Bedford",
+  "municipalityType": "Town"
+}

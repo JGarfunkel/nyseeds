@@ -1,4 +1,5 @@
 {
+  "id": "NY-SleepyHollow-Village-weeds-1778856984030",
   "municipality": {
     "id": "NY-SleepyHollow-Village",
     "displayName": "Sleepy Hollow - Village"
@@ -140,9 +141,27 @@
   "averageConfidence": 72,
   "questionsAnswered": 4,
   "totalQuestions": 5,
-  "lastUpdated": "2025-09-08T17:52:18.274Z",
+  "lastUpdated": "2026-05-15T14:56:24.030Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "normalizedScore": 3,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.557Z"
+  "scoresUpdatedAt": "2025-10-10T17:18:57.557Z",
+  "domainId": "weeds",
+  "sources": [
+    {
+      "url": "https://sustainablesleepyhollow.org/2014/08/21/invasive-plant-species-found-in-sleepy-hollow",
+      "title": "https://sustainablesleepyhollow.org/2014/08/21/invasive-plant-species-found-in-sleepy-hollow",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-SleepyHollow-Village\\invasive-plant-species-found-in-sleepy-hollow.txt"
+    },
+    {
+      "url": "https://sustainablesleepyhollow.org/2025/07/23/summers-a-great-time-to-take-climate-action-save-august-7th-9th",
+      "title": "https://sustainablesleepyhollow.org/2025/07/23/summers-a-great-time-to-take-climate-action-save-august-7th-9th",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-SleepyHollow-Village\\summers-a-great-time-to-take-climate-action-save-august-7th-9th.txt"
+    },
+    {
+      "url": "https://sustainablesleepyhollow.org/page/11",
+      "title": "https://sustainablesleepyhollow.org/page/11",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-SleepyHollow-Village\\11.txt"
+    }
+  ]
 }

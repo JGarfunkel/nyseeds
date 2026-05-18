@@ -1,0 +1,150 @@
+{
+  "municipality": {
+    "id": "NY-NewCastle-Town",
+    "displayName": "New Castle - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weeds"
+  },
+  "grades": {
+    "WEN": "R-"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Residents must maintain the curtilage, defined as up to 15 feet of the perimeter of the principal structure, free from uncultivated vegetation exceeding 10 inches in height. This includes grasses, brush, and briars but excludes trees, shrubs, and cultivated vegetation like flower and pollinator gardens.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-2"
+      ],
+      "score": 1
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Yes, cultivated pollinator gardens are allowed as an exception to the requirement to keep areas free from uncultivated vegetation over 10 inches tall.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-2"
+      ],
+      "score": 0.65,
+      "gap": "Consider adding specific guidelines for the design, maintenance, and location of cultivated pollinator gardens to ensure they do not obstruct visibility for traffic or infringe on neighboring properties, thereby balancing ecological benefits with community safety and aesthetics."
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "The statute specifies maintenance for areas within the property, particularly the curtilage up to 15 feet from the principal structure, and does not mention requirements beyond the property lot lines to the curb.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-2"
+      ],
+      "score": 0.75,
+      "gap": "Consider adding explicit maintenance requirements for areas beyond the property lot lines, such as the sidewalk and curb, to ensure clarity and comprehensive property upkeep responsibilities."
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Property owners or occupants who violate the property maintenance regulations are subject to a penalty of up to $200 for each day the violation continues.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-3"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding specific escalation measures for repeat offenses, such as increased fines or additional penalties, to deter ongoing non-compliance with property maintenance regulations."
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "After receiving a notice of violation, the owner or occupant has 30 days to correct the violation. If not corrected within 30 days and the violation poses a public nuisance or danger, a public hearing is held. If the violation is still unresolved within 10 days of the hearing, further actions and penalties may be applied.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 93-4"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding specific fine amounts for initial and subsequent violations, detailed escalation procedures for repeat offenses, and clear enforcement mechanisms to ensure compliance and deter future violations."
+    }
+  ],
+  "scores": {
+    "overallScore": 6.75,
+    "normalizedScore": 6.75,
+    "averageConfidence": 85,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
+    "scoreBreakdown": {
+      "questionScores": [
+        1,
+        0.65,
+        0.75,
+        0.7,
+        0.3
+      ],
+      "averageQuestionScore": 0.6799999999999999,
+      "weightedScore": 0.675,
+      "totalWeightedScore": 4.05,
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+          "answer": "Residents must maintain the curtilage, defined as up to 15 feet of the perimeter of the principal structure, free from uncultivated vegetation exceeding 10 inches in height. This includes grasses, brush, and briars but excludes trees, shrubs, and cultivated vegetation like flower and pollinator gardens.",
+          "score": 1,
+          "weight": 1,
+          "weightedScore": 1,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "2",
+          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+          "answer": "Yes, cultivated pollinator gardens are allowed as an exception to the requirement to keep areas free from uncultivated vegetation over 10 inches tall.",
+          "score": 0.65,
+          "weight": 2,
+          "weightedScore": 1.3,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+          "answer": "The statute specifies maintenance for areas within the property, particularly the curtilage up to 15 feet from the principal structure, and does not mention requirements beyond the property lot lines to the curb.",
+          "score": 0.75,
+          "weight": 1,
+          "weightedScore": 0.75,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+          "answer": "Property owners or occupants who violate the property maintenance regulations are subject to a penalty of up to $200 for each day the violation continues.",
+          "score": 0.7,
+          "weight": 1,
+          "weightedScore": 0.7,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "6",
+          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+          "answer": "After receiving a notice of violation, the owner or occupant has 30 days to correct the violation. If not corrected within 30 days and the violation poses a public nuisance or danger, a public hearing is held. If the violation is still unresolved within 10 days of the hearing, further actions and penalties may be applied.",
+          "score": 0.3,
+          "weight": 1,
+          "weightedScore": 0.3,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 6.75,
+  "averageConfidence": 85,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2025-09-08T17:46:21.112Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 6.75,
+  "scoresUpdatedAt": "2025-10-10T17:18:57.530Z"
+}

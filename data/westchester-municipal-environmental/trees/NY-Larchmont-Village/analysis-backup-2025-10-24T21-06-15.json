@@ -1,0 +1,213 @@
+{
+  "municipality": {
+    "id": "NY-Larchmont-Village",
+    "displayName": "Larchmont - Village"
+  },
+  "domain": {
+    "id": "trees",
+    "displayName": "Trees"
+  },
+  "grades": {
+    "WEN": "G-"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a clear regulatory framework that requires property owners to obtain a permit for tree removal on private property, detailing the application procedures, review criteria, appeal processes, timelines, and approval standards to ensure transparency and consistency in decision-making."
+    },
+    {
+      "id": 2,
+      "question": "What are the penalties for removing trees without a permit?",
+      "answer": "Anyone removing, destroying, or damaging a park or street tree must pay the cost to replace it. Violations of chapter provisions may result in a fine of up to $500, and a civil penalty of $200 per day per tree until the issue is resolved.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 263-18"
+      ],
+      "score": 0.7,
+      "gap": "Consider adding specific details about the application procedures for obtaining a tree removal permit, including the required documentation, review criteria, timelines for decision-making, and any appeal processes available to applicants."
+    },
+    {
+      "id": 3,
+      "question": "What is the fee for removing each tree without a replacement?",
+      "answer": "If a park or street tree is removed, destroyed, or damaged, the responsible party must pay the Village the cost to replace the tree or, if it cannot be replaced in kind, the cost of planting multiple trees to replace its value.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 263-18"
+      ],
+      "score": 0.6,
+      "gap": "Consider adding a clear fee schedule that specifies the exact monetary amount or formula for calculating the fee for removing each tree without a replacement, including any potential exemptions or variations based on tree size, species, or location."
+    },
+    {
+      "id": 4,
+      "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+      "answer": "The statute does specify that if a tree is removed, the cost of planting multiple trees may be required to replace its value, but it does not detail if private individuals can replant trees themselves or specify if non-native species are allowed.",
+      "confidence": 20,
+      "sourceRefs": [
+        "§ 263-18"
+      ],
+      "score": 0.3,
+      "gap": "Consider adding a regulation that requires private individuals to replant native tree species at a specified replacement ratio, with a mandatory survival monitoring period of three years to ensure successful establishment."
+    },
+    {
+      "id": 5,
+      "question": "Which neighbors must be notified if I remove trees? ",
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a regulation that requires property owners to notify neighbors within a 100-foot radius at least 14 days prior to tree removal, using certified mail to ensure receipt, and clearly identifying any neighbors whose properties may be affected by potential changes in landscape or drainage."
+    },
+    {
+      "id": 6,
+      "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+      "answer": "Yes, the code emphasizes the preservation and care of trees to protect the health, safety, and environment of the village. It recognizes the benefits trees provide, including shade, soil erosion prevention, and environmental enhancement.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 263-1"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific coverage targets for tree canopy, detailed measurement methods for assessing canopy health, and comprehensive maintenance plans to ensure long-term preservation and enhancement of the village's tree canopy."
+    },
+    {
+      "id": 8,
+      "question": "What are my responsibilities for maintaining trees on my property?",
+      "answer": "As a property owner, you must maintain trees or bushes so they do not obstruct streetlights, create traffic hazards, or block sidewalks. You must also remove any dead, diseased, or dangerous trees and limbs at your own expense.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 263-15"
+      ],
+      "score": 0.55,
+      "gap": "Consider adding specific guidelines for inspection schedules and care standards to ensure property owners regularly assess and maintain the health and safety of trees on their property."
+    },
+    {
+      "id": 9,
+      "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+      "answer": "The statute requires the Village to study, update annually, and administer a plan for tree care, which is presented to the Village Board, but it does not specify data collection on tree removals or reporting to the public.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 263-14"
+      ],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for systematic data collection on tree removals, including the number, location, and reasons for removal, and mandate that this information be included in an annual public report to enhance transparency and accountability."
+    }
+  ],
+  "scores": {
+    "overallScore": 4.03,
+    "normalizedScore": 4.03,
+    "averageConfidence": 61,
+    "questionsAnswered": 6,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0.1,
+        0.7,
+        0.6,
+        0.3,
+        0.1,
+        0.55,
+        0.55,
+        0.1
+      ],
+      "averageQuestionScore": 0.37500000000000006,
+      "weightedScore": 0.4033,
+      "totalWeightedScore": 6.05,
+      "totalPossibleWeight": 15,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "2",
+          "question": "What are the penalties for removing trees without a permit?",
+          "answer": "Anyone removing, destroying, or damaging a park or street tree must pay the cost to replace it. Violations of chapter provisions may result in a fine of up to $500, and a civil penalty of $200 per day per tree until the issue is resolved.",
+          "score": 0.7,
+          "weight": 2,
+          "weightedScore": 1.4,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "3",
+          "question": "What is the fee for removing each tree without a replacement?",
+          "answer": "If a park or street tree is removed, destroyed, or damaged, the responsible party must pay the Village the cost to replace the tree or, if it cannot be replaced in kind, the cost of planting multiple trees to replace its value.",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
+          "answer": "The statute does specify that if a tree is removed, the cost of planting multiple trees may be required to replace its value, but it does not detail if private individuals can replant trees themselves or specify if non-native species are allowed.",
+          "score": 0.3,
+          "weight": 3,
+          "weightedScore": 0.8999999999999999,
+          "maxWeightedScore": 3,
+          "confidence": 20
+        },
+        {
+          "id": "5",
+          "question": "Which neighbors must be notified if I remove trees? ",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "6",
+          "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
+          "answer": "Yes, the code emphasizes the preservation and care of trees to protect the health, safety, and environment of the village. It recognizes the benefits trees provide, including shade, soil erosion prevention, and environmental enhancement.",
+          "score": 0.55,
+          "weight": 3,
+          "weightedScore": 1.6500000000000001,
+          "maxWeightedScore": 3,
+          "confidence": 85
+        },
+        {
+          "id": "8",
+          "question": "What are my responsibilities for maintaining trees on my property?",
+          "answer": "As a property owner, you must maintain trees or bushes so they do not obstruct streetlights, create traffic hazards, or block sidewalks. You must also remove any dead, diseased, or dangerous trees and limbs at your own expense.",
+          "score": 0.55,
+          "weight": 2,
+          "weightedScore": 1.1,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        },
+        {
+          "id": "9",
+          "question": "Does the statute require data collection on tree removals, and presentation in a report to the public?",
+          "answer": "The statute requires the Village to study, update annually, and administer a plan for tree care, which is presented to the Village Board, but it does not specify data collection on tree removals or reporting to the public.",
+          "score": 0.1,
+          "weight": 2,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 2,
+          "confidence": 85
+        }
+      ]
+    }
+  },
+  "overallScore": 4.03,
+  "averageConfidence": 61,
+  "questionsAnswered": 6,
+  "totalQuestions": 8,
+  "lastUpdated": "2025-09-09T18:21:00.118Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "normalizedScore": 4.03,
+  "scoresUpdatedAt": "2025-10-10T17:18:10.185Z"
+}
