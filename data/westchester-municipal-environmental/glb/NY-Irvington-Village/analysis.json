@@ -1,6 +1,8 @@
 {
-  "id": "NY-Irvington-Village-glb-1778856979969",
-  "municipality": {
+  "id": "NY-Irvington-Village-glb-1779130129454",
+  "entityId": "NY-Irvington-Village",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-Irvington-Village",
     "displayName": "Irvington - Village"
   },
@@ -46,67 +48,55 @@
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [
-        "§ 148-4B"
-      ],
-      "score": 0.1,
-      "gap": "Consider adding a provision that explicitly outlines exceptions for school, government, and commercial properties, detailing specific criteria and conditions under which these exceptions apply, to ensure clarity and consistency in the application of the statute."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a clear regulatory framework that mandates the establishment of a centralized reporting system, requiring detailed data collection on violations, public accessibility to reports, and transparent tracking mechanisms to ensure accountability and enforcement."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a provision that mandates the promotion of leaf mulching and the retention of leaf debris as beneficial practices for soil health and biodiversity, including guidelines for residents on how to effectively implement these practices."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for an annual public report that includes comprehensive data collection on relevant municipal activities, transparency measures detailing how the data is gathered and used, and tracking mechanisms to monitor progress and ensure accountability."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     }
   ],
   "scores": {
-    "overallScore": 4.67,
-    "normalizedScore": 4.67,
-    "averageConfidence": 54,
-    "questionsAnswered": 3,
+    "overallScore": 4.33,
+    "normalizedScore": 4.33,
+    "averageConfidence": 43,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
         0.6,
         0.7,
         0.7,
-        0.1,
-        0.1,
-        0.1,
-        0.1
+        0,
+        0,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.34285714285714286,
-      "weightedScore": 0.4667,
-      "totalWeightedScore": 5.599999999999998,
+      "averageQuestionScore": 0.29,
+      "weightedScore": 0.4333,
+      "totalWeightedScore": 5.199999999999999,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "The use of gas-powered leaf blowers is prohibited at any time, with no specific start or end date mentioned in the statute.",
           "score": 0.6,
           "weight": 4,
           "weightedScore": 2.4,
@@ -115,8 +105,6 @@
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "The use of gas-powered leaf blowers is prohibited at any time, so there are no permitted hours for their operation.",
           "score": 0.7,
           "weight": 1,
           "weightedScore": 0.7,
@@ -125,65 +113,53 @@
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "The penalty for violating gas leaf blower regulations is $250 for the first offense and $500 for any subsequent offense.",
           "score": 0.7,
           "weight": 3,
-          "weightedScore": 2.0999999999999996,
+          "weightedScore": 2.1,
           "maxWeightedScore": 3,
           "confidence": 100
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 0
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 0
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 0
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 4.67,
-  "averageConfidence": 54,
-  "questionsAnswered": 3,
+  "overallScore": 4.33,
+  "averageConfidence": 43,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T14:56:19.969Z",
+  "lastUpdated": "2026-05-18T18:48:49.454Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 4.67,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.237Z",
-  "domainId": "glb"
+  "sources": []
 }

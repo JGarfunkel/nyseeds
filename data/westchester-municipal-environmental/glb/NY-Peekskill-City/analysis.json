@@ -1,6 +1,8 @@
 {
-  "id": "NY-Peekskill-City-glb-1778856980239",
-  "municipality": {
+  "id": "NY-Peekskill-City-glb-1779130391543",
+  "entityId": "NY-Peekskill-City",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-Peekskill-City",
     "displayName": "Peekskill - City"
   },
@@ -13,29 +15,39 @@
     {
       "id": 1,
       "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-      "answer": "Not specified in the statute.",
-      "confidence": 15,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a specific regulatory framework that clearly defines the prohibition period for gas leaf blowers, including exact start and end dates, such as from May 1st to September 30th, to ensure clarity and compliance."
+      "answer": "The sources describe varying prohibition periods depending on the municipality:\n\n**Village of Ossining:** GLBs are prohibited all year on properties ½ acre or less. On properties greater than ½ acre, GLBs are only *allowed* (not prohibited) between March 1–June 1 OR September 15–December 15, implying prohibition outside those windows.\n\n**City of White Plains:** Full GLB ban, all year, on all property sizes — no seasonal exceptions.\n\n**Town of Mamaroneck:** Full GLB ban, all year, on all property sizes — no seasonal exceptions.\n\nThese descriptions come from a City of Peekskill presentation comparing Westchester municipalities. The source does not specify Peekskill's own ordinance dates for gas leaf blower prohibition.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://www.cityofpeekskillny.gov/DocumentCenter/View/3488/Leaf-Blower-Presentation (slides 11-13)"
+      ],
+      "gap": "The entity (Peekskill) lacks a clearly defined seasonal prohibition window with specific start/end dates. Best practice suggests a year-round ban with narrow exceptions (e.g., March 15–May 15 and October 1–December 31). Peekskill's own ordinance terms are not specified in the sources.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Does Peekskill have its own gas leaf blower ordinance with specific prohibition dates or seasonal exceptions?",
+        "Has Peekskill proposed or adopted a year-round GLB ban similar to White Plains or Mamaroneck?"
+      ]
     },
     {
       "id": 2,
       "question": "What are the permitted hours for gas leaf blower operation?",
-      "answer": "Not specified in the statute.",
-      "confidence": 15,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a regulation that specifies the permitted hours for gas leaf blower operation, including clear guidelines on application procedures for exceptions, review criteria for noise impact, an appeal process for denied applications, timelines for decision-making, and standards for approval to ensure community noise levels are managed effectively."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 3,
       "question": "What are the penalties for violating gas leaf blower regulations?",
-      "answer": "Not specified in the statute.",
-      "confidence": 15,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a tiered penalty structure that includes an initial fine of $100 for first-time offenses, escalating to $250 for second offenses and $500 for subsequent violations, along with clear enforcement mechanisms such as warnings and citations issued by designated municipal officers."
+      "answer": "Under the City of Peekskill's noise ordinance, penalties for corporate offenders escalate with repeat offenses: a third offense (within three years of a second offense, which occurred within three years of a first offense) carries a fine of not less than $5,000 and not exceeding $10,000, or up to double the corporation's gain from the offense. Each day a violation continues constitutes a separate and distinct offense. Additionally, for repeated violations requiring civil action, any person or corporate entity may be liable for a civil penalty not to exceed $50,000, recoverable in a civil action brought by the City of Peekskill.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://ecode360.com/6430249"
+      ],
+      "gap": "The statute does not reflect best practices for gas leaf blower violations specifically. It lacks a tiered warning/fine structure (written warning, then $250, $500, $1,000 escalating fines), does not explicitly hold both the operator and property owner accountable, and does not reference leaf-blower-specific penalty provisions. The penalties described appear to be general noise ordinance penalties rather than leaf-blower-specific ones.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the Peekskill ordinance include any leaf-blower-specific penalty provisions separate from the general noise ordinance penalties?",
+        "Does the Peekskill ordinance specify liability for property owners (in addition to operators) for noise violations involving gas leaf blowers?"
+      ]
     },
     {
       "id": 4,
@@ -51,86 +63,83 @@
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the statute.",
-      "confidence": 15,
-      "sourceRefs": [],
+      "answer": "According to the presentation, enforcement challenges include neighbors reporting neighbors (which doesn't build community), local law enforcement needing to address complaints, and local code enforcement being burdened with enforcement. The presentation notes that bans are often not enforced and leaf blower problems persist as a result. The presentation suggests a county-wide ban could be more effective, with the County tying landscaping company operation permits to training and education requirements. For car alarms under the related noise ordinance, violations are subject to penalties set forth in § 391-6B(2). Specific enforcement procedures for leaf blower violations—such as designated enforcement officers, written notifications, or liability assignments—are not detailed in the provided sources.",
+      "confidence": 35,
+      "sourceRefs": [
+        "https://www.cityofpeekskillny.gov/DocumentCenter/View/3488/Leaf-Blower-Presentation",
+        "https://ecode360.com/6430249"
+      ],
+      "gap": "Significant gap exists. The sources do not specify designated enforcement authorities, written notification requirements, property owner vs. contractor liability, or specific penalty structures for leaf blower violations. The presentation acknowledges enforcement is a known challenge but provides no formal enforcement mechanism.",
       "score": 0.1,
-      "gap": "Consider adding a regulatory framework that mandates the establishment of a centralized reporting system for violations, which includes clear guidelines for data collection, public access to violation reports, and mechanisms for tracking and transparency to ensure accountability and enforcement."
+      "nextPrompts": [
+        "What penalties are specified under § 391-6B(2) of Peekskill's municipal code and do they apply to leaf blower violations?",
+        "Does Peekskill's code enforcement ordinance designate specific officers responsible for noise or leaf blower violation enforcement?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 15,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a provision that mandates the promotion of leaf mulching and leaving leaf debris as environmentally beneficial practices, including guidelines for residents on how to effectively implement these methods to enhance soil health and reduce waste."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 391-4"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 15,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report that includes comprehensive data collection on relevant activities, transparency measures, and tracking mechanisms to ensure accountability and public awareness."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": []
     }
   ],
   "scores": {
-    "overallScore": 1.38,
-    "normalizedScore": 1.38,
-    "averageConfidence": 25,
-    "questionsAnswered": 1,
+    "overallScore": 2.04,
+    "normalizedScore": 2.04,
+    "averageConfidence": 39,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0.1,
-        0.1,
-        0.1,
+        0.3,
+        0,
+        0.2,
         0.55,
         0.1,
-        0.1,
-        0.1
+        0,
+        0
       ],
-      "averageQuestionScore": 0.1642857142857143,
-      "weightedScore": 0.1375,
-      "totalWeightedScore": 1.6500000000000004,
+      "averageQuestionScore": 0.16,
+      "weightedScore": 0.2042,
+      "totalWeightedScore": 2.4499999999999997,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.3,
           "weight": 4,
-          "weightedScore": 0.4,
+          "weightedScore": 1.2,
           "maxWeightedScore": 4,
-          "confidence": 15
+          "confidence": 72
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 15
+          "confidence": 0
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.2,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0.6,
           "maxWeightedScore": 3,
-          "confidence": 15
+          "confidence": 72
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Yes, there are exceptions for governmental agencies for public warning devices and certain maintenance operations, as well as organs, bells, chimes, or similar instruments used by schools in connection with education programs.",
           "score": 0.55,
           "weight": 1,
           "weightedScore": 0.55,
@@ -139,52 +148,42 @@
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 15
+          "confidence": 35
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 15
+          "confidence": 0
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 15
+          "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 1.38,
-  "averageConfidence": 25,
-  "questionsAnswered": 1,
+  "overallScore": 2.04,
+  "averageConfidence": 39,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T14:56:20.239Z",
+  "lastUpdated": "2026-05-18T18:53:11.543Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 1.38,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.261Z",
-  "domainId": "glb",
   "sources": [
     {
       "url": "https://www.cityofpeekskillny.gov/DocumentCenter/View/3488/Leaf-Blower-Presentation",
-      "title": "https://www.cityofpeekskillny.gov/DocumentCenter/View/3488/Leaf-Blower-Presentation",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Peekskill-City\\leaf-blower-presentation.txt"
+      "title": "Leaf Blower Presentation"
     }
   ]
 }

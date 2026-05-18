@@ -1,8 +1,6 @@
 {
-  "id": "NY-MountKisco-Town-glb-1779130232461",
-  "entityId": "NY-MountKisco-Town",
-  "domainId": "glb",
-  "entity": {
+  "id": "NY-MountKisco-Town-glb-1778856980037",
+  "municipality": {
     "id": "NY-MountKisco-Town",
     "displayName": "Mount Kisco - Town"
   },
@@ -10,7 +8,9 @@
     "id": "glb",
     "displayName": "Glb"
   },
-  "grades": {},
+  "grades": {
+    "WEN": "G-"
+  },
   "questions": [
     {
       "id": 1,
@@ -100,13 +100,15 @@
         0.5,
         0.5
       ],
-      "averageQuestionScore": 0.56,
+      "averageQuestionScore": 0.5571428571428572,
       "weightedScore": 0.5542,
       "totalWeightedScore": 6.65,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "The prohibition of gas-powered leaf blowers lasts from May 1 until September 15 each year.",
           "score": 0.45,
           "weight": 4,
           "weightedScore": 1.8,
@@ -115,6 +117,8 @@
         },
         {
           "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "From September 16 through April 30, gas-powered leaf blowers are permitted Monday through Saturday between 8:00 a.m. and 5:00 p.m. and are not permitted on Sundays or federal holidays. However, individual residential homeowners and tenants may use them on their property Monday through Saturday between 8:00 a.m. and 7:00 p.m., and on Sundays and federal holidays between 9:00 a.m. and 1:00 p.m.",
           "score": 0.6,
           "weight": 1,
           "weightedScore": 0.6,
@@ -123,14 +127,18 @@
         },
         {
           "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "A first offense against the gas leaf blower regulations is classified as a Class III violation, a second offense is a Class II violation, and a third or further offense is a Class I violation. They are all subject to punishments as specified in § 1-17 of the Code. The violation implicates both the property owner and the owner of any commercial landscaping entity or property management firm, but not individual employees.",
           "score": 0.7,
           "weight": 3,
-          "weightedScore": 2.1,
+          "weightedScore": 2.0999999999999996,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "There are no specific exceptions mentioned for school, government, or commercial properties regarding the use of gas-powered leaf blowers.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -139,6 +147,8 @@
         },
         {
           "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Violations of the gas leaf blower regulations are enforced by the Village/Town of Mount Kisco Building Department, Village/Town of Mount Kisco Code Enforcement Officers, the police agency contracted with the Village for police services, or other officials designated by the Village Board.",
           "score": 0.65,
           "weight": 1,
           "weightedScore": 0.65,
@@ -147,6 +157,8 @@
         },
         {
           "id": "6",
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "The ordinance does not mention the benefits of leaving leaf debris or leaf mulching.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -155,6 +167,8 @@
         },
         {
           "id": "7",
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "The ordinance does not require a report to be presented to the public.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -168,8 +182,10 @@
   "averageConfidence": 57,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:50:32.461Z",
+  "lastUpdated": "2026-05-15T14:56:20.037Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "sources": []
+  "normalizedScore": 5.54,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.248Z",
+  "domainId": "glb"
 }

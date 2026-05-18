@@ -1,8 +1,6 @@
 {
-  "id": "NY-NewCastle-Town-glb-1779130298401",
-  "entityId": "NY-NewCastle-Town",
-  "domainId": "glb",
-  "entity": {
+  "id": "NY-NewCastle-Town-glb-1778856980076",
+  "municipality": {
     "id": "NY-NewCastle-Town",
     "displayName": "New Castle - Town"
   },
@@ -10,7 +8,9 @@
     "id": "glb",
     "displayName": "Glb"
   },
-  "grades": {},
+  "grades": {
+    "WEN": "G-"
+  },
   "questions": [
     {
       "id": 1,
@@ -71,32 +71,27 @@
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 10,
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
       "sourceRefs": [],
-      "gap": "The ordinance does not mention any benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, ecological guidance, or community outreach regarding these environmental practices. This represents a significant gap compared to best practices, which recommend municipalities explicitly promote soil enrichment, habitat creation, and public awareness campaigns around leaf debris and mulching.",
-      "score": 0,
-      "nextPrompts": [
-        "Does the municipality have any separate environmental or sustainability ordinances that address leaf mulching or natural yard care practices?",
-        "Are there any municipal educational programs or public communications referencing the ecological benefits of leaf debris management?"
-      ]
+      "score": 0.1,
+      "gap": "Consider adding a provision to the statute that mandates the promotion of leaf mulching practices through public education campaigns and incentives for residents who adopt sustainable leaf management techniques."
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 10,
-      "sourceRefs": [
-        "§ 60-540",
-        "§ 90-6B"
-      ]
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report that includes comprehensive data collection on relevant activities, transparency measures, and tracking mechanisms to ensure accountability and public awareness."
     }
   ],
   "scores": {
-    "overallScore": 4.88,
-    "normalizedScore": 4.88,
-    "averageConfidence": 64,
-    "questionsAnswered": 7,
+    "overallScore": 5.04,
+    "normalizedScore": 5.04,
+    "averageConfidence": 66,
+    "questionsAnswered": 5,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
@@ -105,16 +100,18 @@
         0.7,
         0.55,
         0.6,
-        0,
-        0
+        0.1,
+        0.1
       ],
-      "averageQuestionScore": 0.42,
-      "weightedScore": 0.4875,
-      "totalWeightedScore": 5.85,
+      "averageQuestionScore": 0.45000000000000007,
+      "weightedScore": 0.5042,
+      "totalWeightedScore": 6.049999999999998,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "The prohibition of gas leaf blowers lasts from June 1 through September 30, covering four months of the year.",
           "score": 0.5,
           "weight": 4,
           "weightedScore": 2,
@@ -123,6 +120,8 @@
         },
         {
           "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "During the period of October 1 through May 31, the permitted hours for gas leaf blower operation are from 8:00 a.m. to 8:00 p.m. on weekdays, 9:00 a.m. to 8:00 p.m. on Saturdays, and 9:00 a.m. to 5:00 p.m. on Sundays and holidays.",
           "score": 0.6,
           "weight": 1,
           "weightedScore": 0.6,
@@ -131,14 +130,18 @@
         },
         {
           "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "Any person who violates the gas leaf blower regulations shall be fined not exceeding $250. Each day that a violation continues shall constitute a separate offense.",
           "score": 0.7,
           "weight": 3,
-          "weightedScore": 2.1,
+          "weightedScore": 2.0999999999999996,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "4",
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Yes, there are exceptions. The prohibition does not apply to the use of motorized leaf blowers on Chappaqua Central School District's recreational fields and tennis courts, Town of New Castle recreational fields and tennis courts, country clubs' tennis courts, homeowner associations' tennis courts, swim clubs' tennis courts, golf courses, and cemeteries. Additionally, the Town Administrator may permit use on certain properties for public safety concerns.",
           "score": 0.55,
           "weight": 1,
           "weightedScore": 0.55,
@@ -147,6 +150,8 @@
         },
         {
           "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Violations of the noise control regulations, including gas leaf blower violations, are enforced by the Police Department of the Town of New Castle or other officials designated by the Town Board.",
           "score": 0.6,
           "weight": 1,
           "weightedScore": 0.6,
@@ -155,29 +160,35 @@
         },
         {
           "id": "6",
-          "score": 0,
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 10
+          "confidence": 20
         },
         {
           "id": "7",
-          "score": 0,
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 10
+          "confidence": 20
         }
       ]
     }
   },
-  "overallScore": 4.88,
-  "averageConfidence": 64,
-  "questionsAnswered": 7,
+  "overallScore": 5.04,
+  "averageConfidence": 66,
+  "questionsAnswered": 5,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:51:38.401Z",
+  "lastUpdated": "2026-05-15T14:56:20.076Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "sources": []
+  "normalizedScore": 5.04,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.254Z",
+  "domainId": "glb"
 }

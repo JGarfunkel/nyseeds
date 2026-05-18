@@ -11,7 +11,7 @@
       "question": "What regulations or ordinances promote the use of native plants in landscaping, public spaces, or development projects?",
       "scoreInstructions": "Higher scores for clear, current rules with enforcement or incentives; lower for vague mentions or no regulations.",
       "order": "1",
-      "weight": 0.7
+      "weight": 1
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "question": "Are there specific protections for pollinators such as bees, butterflies, or nesting habitat in local rules or plans?",
       "scoreInstructions": "Score higher if protections are explicit, species-specific, and tied to habitat or pesticide limits; lower if absent.",
       "order": "2",
-      "weight": 0.7
+      "weight": 1
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "question": "Do landscaping standards require or encourage pollinator-friendly and low-mow native planting in new or renovated sites?",
       "scoreInstructions": "Higher scores for standards that are mandatory or strongly incentivized and include design details; lower for general encouragement only.",
       "order": "3",
-      "weight": 0.6
+      "weight": 1
     },
     {
       "id": 4,
@@ -41,7 +41,7 @@
       "question": "Are there designated areas for habitat restoration, native meadows, or pollinator corridors in parks, rights-of-way, or public lands?",
       "scoreInstructions": "Score higher when designated areas are mapped, managed, and protected; lower if only informal or proposed.",
       "order": "4",
-      "weight": 0.5
+      "weight": 1
     },
     {
       "id": 5,
@@ -51,7 +51,7 @@
       "question": "What community projects currently promote native plants and pollinators, such as planting programs, garden grants, or restoration events?",
       "scoreInstructions": "Higher scores for active, recurring projects with measurable participation or acreage; lower for one-time or unclear efforts.",
       "order": "5",
-      "weight": 0.7
+      "weight": 2
     },
     {
       "id": 6,
@@ -61,7 +61,7 @@
       "question": "Do maintenance practices support pollinators, such as reduced mowing, seasonal timing, pesticide limits, or leaving nesting habitat?",
       "scoreInstructions": "Score higher for documented practices with implementation guidance; lower if maintenance may harm pollinators or is unspecified.",
       "order": "6",
-      "weight": 0.7
+      "weight": 2
     },
     {
       "id": 7,
@@ -71,7 +71,7 @@
       "question": "Are there incentives, rebates, or technical assistance for residents or developers to install native and pollinator-friendly landscapes?",
       "scoreInstructions": "Higher scores for funded, accessible programs with clear eligibility; lower for no support or only informal advice.",
       "order": "7",
-      "weight": 0.7
+      "weight": 2
     },
     {
       "id": 8,
@@ -81,7 +81,7 @@
       "question": "Is there monitoring or reporting on native plant coverage, pollinator habitat, or pollinator population outcomes over time?",
       "scoreInstructions": "Score higher for regular monitoring with published results and trends; lower if no tracking exists.",
       "order": "8",
-      "weight": 0.7
+      "weight": 1
     }
   ]
 }

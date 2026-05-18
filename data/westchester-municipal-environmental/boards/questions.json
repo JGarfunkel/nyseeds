@@ -11,7 +11,7 @@
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
       "scoreInstructions": "Higher scores if the page clearly states total authorized seats, current members, and vacancies with current dates.",
       "order": "1",
-      "weight": 0.1
+      "weight": 1
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
       "scoreInstructions": "Score higher when each member’s role, appointment basis, and term dates are easy to find and current.",
       "order": "2",
-      "weight": 0.3
+      "weight": 2
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
       "scoreInstructions": "Higher scores if notices are prominent, complete, and posted far enough in advance to be useful.",
       "order": "3",
-      "weight": 0.5
+      "weight": 2
     },
     {
       "id": 4,
@@ -41,7 +41,7 @@
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
       "scoreInstructions": "Score higher when agendas are discoverable within a few clicks and posted before the meeting date.",
       "order": "4",
-      "weight": 0.3
+      "weight": 2
     },
     {
       "id": 5,
@@ -51,7 +51,7 @@
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
       "scoreInstructions": "Higher scores if minutes are complete, dated, and posted soon after approval or meeting close.",
       "order": "5",
-      "weight": 0.3
+      "weight": 3
     },
     {
       "id": 6,
@@ -61,17 +61,17 @@
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
       "scoreInstructions": "Higher scores if the page clearly communicates active initiatives, status, and recent actions.",
       "order": "6",
-      "weight": 0.8
+      "weight": 2
     },
     {
       "id": 7,
       "domainId": "boards",
-      "title": "Does the website provide clear, timely guidance for common user questions about meetings, agendas, minutes, or contacting the board?",
+      "title": "Does the website list and share social media accounts, contact information?",
       "category": "Public Help",
-      "question": "Does the website provide clear, timely guidance for common user questions about meetings, agendas, minutes, or contacting the board?",
-      "scoreInstructions": "Score higher when FAQs, contact info, and next-step guidance are easy to find and specific enough to help users quickly.",
+      "question": "Does the website list and share social media accounts, contact information?",
+      "scoreInstructions": "Score higher when social media accounts and contact info are easy to find and up-to-date.",
       "order": "7",
-      "weight": 0.8
+      "weight": 2
     }
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "NY-NewRochelle-City-glb-1778856980087",
-  "municipality": {
+  "id": "NY-NewRochelle-City-glb-1779130329320",
+  "entityId": "NY-NewRochelle-City",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-NewRochelle-City",
     "displayName": "New Rochelle - City"
   },
@@ -8,9 +10,7 @@
     "id": "glb",
     "displayName": "Glb"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
@@ -37,74 +37,93 @@
     {
       "id": 3,
       "question": "What are the penalties for violating gas leaf blower regulations?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a tiered penalty structure that includes an initial fine of $100 for first-time offenses, escalating to $250 for second offenses and $500 for subsequent violations, along with clear enforcement mechanisms such as warnings and citations issued by designated municipal officers."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 90,
+      "sourceRefs": [
+        "https://ecode360.com/6735739?highlight=leaf%20blowers#6735739"
+      ],
+      "gap": "The statute does not specify any penalties for violating gas leaf blower regulations, such as escalating fines, written warnings, or accountability for operators and property owners. There is no mention of per-day fines or tiered penalty structures.",
+      "score": 0,
+      "nextPrompts": [
+        "Does Chapter 213 of New Rochelle's municipal code contain a separate penalties or enforcement section that specifies fines for noise violations including leaf blower infractions?",
+        "Are there any New Rochelle ordinances or amendments that establish escalating fines or enforcement mechanisms for gas leaf blower violations?"
+      ]
     },
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a provision that explicitly outlines exceptions or specific requirements for school, government, and commercial properties, including criteria for eligibility and any conditions or limitations that apply to these exceptions."
+      "answer": "Not specified in the provided sources. The statute does not mention any exceptions for school, government, or commercial properties regarding leaf blower operation. The regulations apply citywide without distinguishing between property types.",
+      "confidence": 85,
+      "sourceRefs": [
+        "Anchor #6735739 - Chapter 213, Domestic power tools and equipment section"
+      ],
+      "gap": "The statute does not provide exceptions for school district properties, municipal properties, utility companies, or emergency repairs. There are no provisions for operations beyond 100 feet from residences, no permit-based exemptions, and no carve-outs for municipally sponsored events — all of which are considered best practices.",
+      "score": 0,
+      "nextPrompts": [
+        "Are there any separate ordinances or administrative codes in New Rochelle that provide exceptions for municipal or school district use of gas leaf blowers?",
+        "Does New Rochelle have a permit system that could allow exemptions from leaf blower restrictions for government or emergency operations?"
+      ]
     },
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
+      "answer": "The statute specifies that any member of the Police Department of New Rochelle has authority to take steps necessary to disconnect burglar alarms that are operating in violation. However, for leaf blower violations specifically, the statute does not detail a reporting mechanism or enforcement authority beyond the general declaration that certain acts are 'in violation of this chapter.' No specific enforcement officers, complaint procedures, written notification requirements, or penalty structures for leaf blower violations are described in the provided sources.",
+      "confidence": 30,
+      "sourceRefs": [
+        "Anchor #6735739 - Burglar alarms section",
+        "Anchor #6735739 - General violations declaration"
+      ],
+      "gap": "Significant gap exists. The statute does not specify enforcement authorities for leaf blower violations, complaint/reporting procedures, written notification requirements, penalties, or contractor/property owner liability — all of which are identified as best practices. Only Police Department authority is mentioned, and solely in the context of burglar alarms.",
       "score": 0.1,
-      "gap": "Consider adding a regulatory framework that mandates the establishment of a centralized reporting system for violations, requiring detailed data collection, public accessibility to reports, and a transparent process for tracking and addressing each reported violation."
+      "nextPrompts": [
+        "What penalties or fines are prescribed for violations of Chapter 213 noise ordinances in New Rochelle?",
+        "Which city departments or officers are designated to enforce leaf blower and noise ordinance violations in New Rochelle?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 95,
       "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a provision that mandates the promotion of leaf mulching and the retention of leaf debris in public education campaigns, highlighting their environmental benefits such as soil enrichment and reduced landfill waste."
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, guidelines encouraging these practices, or community awareness initiatives as outlined in best practices.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the City of New Rochelle have any supplementary environmental or sustainability policies that address leaf debris management or mulching?",
+        "Are there any city-issued guidelines or public education campaigns related to leaf mulching or natural yard waste management in New Rochelle?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report detailing data collection methods, key findings, and progress on relevant initiatives, ensuring transparency and accountability to the community."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": []
     }
   ],
   "scores": {
-    "overallScore": 2.71,
-    "normalizedScore": 2.71,
-    "averageConfidence": 39,
-    "questionsAnswered": 2,
+    "overallScore": 2.21,
+    "normalizedScore": 2.21,
+    "averageConfidence": 69,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
         0.5,
         0.55,
+        0,
+        0,
         0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1
+        0,
+        0
       ],
-      "averageQuestionScore": 0.2214285714285715,
-      "weightedScore": 0.2708,
-      "totalWeightedScore": 3.25,
+      "averageQuestionScore": 0.16,
+      "weightedScore": 0.2208,
+      "totalWeightedScore": 2.65,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "The prohibition of gas leaf blowers lasts for four months, starting on June 1 and ending on September 30.",
           "score": 0.5,
           "weight": 4,
           "weightedScore": 2,
@@ -113,8 +132,6 @@
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "Gas leaf blowers are permitted to operate from October 1 to May 31 on weekdays between 8:00 a.m. and 5:00 p.m., and on Saturdays and Sundays between 10:00 a.m. and 5:00 p.m.",
           "score": 0.55,
           "weight": 1,
           "weightedScore": 0.55,
@@ -123,65 +140,53 @@
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0,
           "maxWeightedScore": 3,
-          "confidence": 20
+          "confidence": 90
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 85
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 30
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 95
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 2.71,
-  "averageConfidence": 39,
-  "questionsAnswered": 2,
+  "overallScore": 2.21,
+  "averageConfidence": 69,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T14:56:20.087Z",
+  "lastUpdated": "2026-05-18T18:52:09.320Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 2.71,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.255Z",
-  "domainId": "glb"
+  "sources": []
 }

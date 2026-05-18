@@ -1,8 +1,16 @@
 {
-  "id": "NY-Yonkers-City-glb-1778856980677",
-  "municipality": "NY-Yonkers-City",
-  "domain": "glb",
-  "analyzedAt": "2025-09-09T20:10:03.596Z",
+  "id": "NY-Yonkers-City-glb-1779130525947",
+  "entityId": "NY-Yonkers-City",
+  "domainId": "glb",
+  "entity": {
+    "id": "NY-Yonkers-City",
+    "displayName": "Yonkers - City"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
@@ -16,83 +24,109 @@
     {
       "id": 2,
       "question": "What are the permitted hours for gas leaf blower operation?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:10:00.509Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://ecode360.com/15089761#15089762"
+      ],
+      "gap": "The provided sources contain no information about permitted hours for gas leaf blower operation. Best practices recommend allowable hours of 8:00 a.m.–8:00 p.m. weekdays, 9:00 a.m.–8:00 p.m. Saturdays, and 9:00 a.m.–5:00 p.m. Sundays/holidays, with a seasonal prohibition from June 1–August 31. The statute does not address any of these hour restrictions.",
+      "score": 0,
+      "nextPrompts": [
+        "Are there any noise ordinance provisions in Yonkers municipal code that establish time restrictions for gas-powered equipment including leaf blowers?",
+        "Does Yonkers have a separate ordinance specifically regulating gas leaf blower hours of operation outside of the disposal permit statute?"
+      ]
     },
     {
       "id": 3,
       "question": "What are the penalties for violating gas leaf blower regulations?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:10:01.146Z"
+      "answer": "Violations are described as unlawful and punishable as provided in Article V of the chapter. The specific penalty amounts or structures for violations are not detailed in the provided excerpts beyond this reference to Article V.",
+      "confidence": 40,
+      "sourceRefs": [
+        "Anchor #15089762"
+      ],
+      "gap": "The statute references Article V for penalties but does not specify escalating fines, written warnings, per-day penalties, or accountability for both operators and property owners as outlined in best practices.",
+      "score": 0.05,
+      "nextPrompts": [
+        "What are the specific penalty provisions outlined in Article V of the Yonkers municipal code related to gas leaf blower violations?",
+        "Does the Yonkers municipal code hold property owners jointly liable with operators for gas leaf blower violations?"
+      ]
     },
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:10:02.227Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 15,
+      "sourceRefs": [
+        "anchor #15089762"
+      ],
+      "gap": "The statute does not address exceptions for school, government, or commercial properties regarding gas-powered leaf blower use. Best practices recommend allowing exceptions for school district properties, municipal properties, utility companies during emergency repairs, and municipally sponsored events, with conditions such as operations beyond 100 feet from residences and permit requirements. None of these provisions appear in the provided sources.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the City of Yonkers have any separate ordinance or code section that provides exceptions to the gas-powered leaf blower prohibition for municipal or school district operations?",
+        "Are there any permit-based exemptions in Yonkers municipal code that allow gas-powered leaf blower use on government or commercial properties during the June 1–September 30 restriction period?"
+      ]
     },
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "answer": "Violations are described as unlawful and punishable as provided in Article V of the chapter. Specifically, it is unlawful for any professional gardener or landscaper to dispose of leaves, clippings, or grass cuttings at any public place other than the designated site, to use the site without the required vehicle permit, or to dispose of logs, limbs, branches, or stumps at any public place in the City of Yonkers. The statute references Article V of the chapter for the specific penalties and enforcement provisions, but the details of Article V are not included in the provided sources.",
+      "confidence": 45,
+      "sourceRefs": [
+        "Anchor #15089762"
+      ],
+      "gap": "The statute references Article V for enforcement and penalties but does not detail the enforcement mechanism, designated enforcement authorities, notification procedures, or how liability is assigned between property owners and contractors. No information is provided about which department or officers enforce violations, written notification requirements, or whether both property owners and contractors are held accountable — all of which are best practice elements.",
       "score": 0.1,
-      "analyzedAt": "2025-09-09T20:10:02.571Z"
+      "nextPrompts": [
+        "What are the specific penalties and enforcement procedures outlined in Article V of the Yonkers municipal code related to gas leaf blower violations?",
+        "Which city departments or officers (e.g., Police, Code Enforcement) are designated to enforce gas leaf blower and landscaping disposal violations in Yonkers?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:10:02.965Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 95,
+      "sourceRefs": [
+        "Anchor #15089762"
+      ],
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, community workshops, or informational campaigns promoting these ecological practices such as soil enrichment or habitat creation — all of which are recommended under best practices.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the City of Yonkers have any separate environmental education programs or guidelines related to leaf mulching or composting?",
+        "Are there any other municipal codes or resolutions in Yonkers that address sustainable landscaping practices or organic waste reduction?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:10:03.479Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": []
     }
   ],
   "scores": {
-    "overallScore": 2.33,
-    "normalizedScore": 2.33,
-    "averageConfidence": 11,
-    "questionsAnswered": 1,
+    "overallScore": 1.88,
+    "normalizedScore": 1.88,
+    "averageConfidence": 42,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
         0.5,
+        0,
+        0.05,
+        0,
         0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1
+        0,
+        0
       ],
-      "averageQuestionScore": 0.1571428571428571,
-      "weightedScore": 0.2333,
-      "totalWeightedScore": 2.8000000000000007,
+      "averageQuestionScore": 0.09,
+      "weightedScore": 0.1875,
+      "totalWeightedScore": 2.25,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "The prohibition of gasoline-powered leaf blowers lasts from June 1 through September 30 of each year.",
           "score": 0.5,
           "weight": 4,
           "weightedScore": 2,
@@ -101,77 +135,61 @@
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0.15,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 40
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 15
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 45
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 95
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 2.33,
-  "averageConfidence": 11,
-  "questionsAnswered": 1,
+  "overallScore": 1.88,
+  "averageConfidence": 42,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "gapAnalysis": "",
-  "wenGrade": "G-",
+  "lastUpdated": "2026-05-18T18:55:25.947Z",
+  "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 2.33,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.279Z",
-  "entityId": "NY-Yonkers-City",
-  "domainId": "glb",
-  "lastUpdated": "2026-05-15T14:56:20.677Z"
+  "sources": []
 }

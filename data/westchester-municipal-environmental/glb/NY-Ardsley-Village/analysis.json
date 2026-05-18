@@ -1,6 +1,8 @@
 {
-  "id": "NY-Ardsley-Village-glb-1778856979707",
-  "municipality": {
+  "id": "NY-Ardsley-Village-glb-1779130093107",
+  "entityId": "NY-Ardsley-Village",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-Ardsley-Village",
     "displayName": "Ardsley - Village"
   },
@@ -9,27 +11,191 @@
     "displayName": "Glb"
   },
   "grades": {},
-  "questions": [],
-  "lastUpdated": "2026-05-15T14:56:19.707Z",
-  "processingMethod": "vector-search-rag",
-  "usesStateCode": false,
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "In the Village of Ardsley, gas leaf blowers are prohibited except during two specific windows: March 15 to May 15, and October 15 to December 15. This means gas leaf blowers are permitted for approximately 4 months total per year (roughly 2 months in spring and 2 months in fall), and are prohibited for the remaining approximately 8 months. The prohibition periods are: May 16 through October 14, and December 16 through March 14. Additionally, all gas leaf blowers will be fully prohibited beginning January 1, 2028, unless continuation is approved by the Ardsley Board of Trustees.",
+      "confidence": 95,
+      "sourceRefs": [
+        "Village of Ardsley, Article II - Gas Leaf Blowers"
+      ],
+      "gap": "Ardsley's permitted windows (March 15–May 15 and October 15–December 15) are largely aligned with best practices, though the fall window starts slightly later (October 15 vs. October 1) than the best practice recommendation. The statute does not include a year-round prohibition as seen in Larchmont Village, though a full ban is scheduled for 2028.",
+      "score": 0.75,
+      "nextPrompts": [
+        "Has the Ardsley Board of Trustees taken any action regarding the 2028 full prohibition deadline?",
+        "How does Ardsley's enforcement and penalty structure compare to other municipalities with similar gas leaf blower restrictions?"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "In the Village of Ardsley, gas leaf blowers may only be operated during two seasonal windows: March 15 to May 15 and October 15 to December 15. Within those periods, permitted hours are 8:00 a.m. to 6:00 p.m. on Monday through Friday, and 10:00 a.m. to 5:00 p.m. on Saturday, Sunday, and holidays. Exemptions exist for emergencies (e.g., rainstorms, ice storms, windstorms) as declared by the Village Manager, and for tree removal cleanup (limited to one gas leaf blower per property). All gas leaf blowers will be prohibited beginning January 1, 2028, unless continuation is approved by the Ardsley Board of Trustees.",
+      "confidence": 97,
+      "sourceRefs": [
+        "Village of Ardsley, Article II – Gas Leaf Blowers"
+      ],
+      "gap": "Ardsley's permitted seasonal windows (March 15–May 15 and October 15–December 15) are narrower than the best practice window (October 1–May 31). Ardsley's weekday end time (6:00 p.m.) is earlier than the best practice (8:00 p.m.), and Saturday/Sunday hours (10:00 a.m.–5:00 p.m.) are slightly more restrictive. Ardsley does not explicitly prohibit use during peak summer months (June 1–August 31) by name, though the seasonal restrictions effectively achieve this.",
+      "score": 0.6,
+      "nextPrompts": [
+        "Has Ardsley considered extending permitted hours on weekdays to align with the 8:00 a.m.–8:00 p.m. best practice standard?",
+        "What criteria will the Ardsley Board of Trustees use to evaluate continuation of gas leaf blower use beyond January 1, 2028?"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "In the Village of Ardsley, penalties for violating gas leaf blower regulations (Article II) are as follows: any owner, superintendent, lessee, occupant, tenant, or other person exercising supervision or control of a property who commits an offense, or engages a person or landscaping service that commits an offense, shall be fined $50 for the first offense and $250 for each subsequent offense in the same calendar year. Additionally, under the general noise chapter, violations are punishable by a fine not to exceed $50 for the first offense and not to exceed $100 for each additional offense.",
+      "confidence": 92,
+      "sourceRefs": [
+        "Village of Ardsley, Article II – Gas Leaf Blowers, Penalty Provision",
+        "Village of Ardsley, General Noise Chapter, Penalty Provision"
+      ],
+      "gap": "The Village's penalty structure does not include a written warning for the first offense, does not escalate to $500 or $1,000 for third and subsequent offenses, and does not explicitly impose per-day penalties for continued non-compliance. The best practice also recommends holding operators accountable separately from property owners, which is not clearly delineated in the statute.",
+      "score": 0.35,
+      "nextPrompts": [
+        "Does Ardsley have any enforcement mechanism for per-day violations or continued non-compliance with gas leaf blower regulations?",
+        "Are operators (e.g., landscapers) subject to separate or additional penalties beyond those imposed on property owners under Ardsley's gas leaf blower rules?"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "The provided sources include two exceptions for gas leaf blower use in the Village of Ardsley: (1) exemption when used to clear driveways, streets, walkways, and exterior premises after rainstorms, ice storms, windstorms, or other emergencies as declared by the Village Manager, during hours determined by the Village Manager; and (2) exemption during tree removal operations to clean up debris, limited to one gas leaf blower per property. There are no exceptions specified for school district properties, municipal/government properties, commercial properties, or utility company emergency repairs.",
+      "confidence": 85,
+      "sourceRefs": [
+        "Village of Ardsley, Article II - Gas Leaf Blowers"
+      ],
+      "gap": "The statute does not include exceptions for school district properties, municipal/government properties, commercial properties, utility company emergency repairs, or permit-based exemptions for municipally sponsored events. It also lacks requirements limiting such exceptions to operations beyond 100 feet from the nearest residence.",
+      "score": 0.15,
+      "nextPrompts": [
+        "Does the Village of Ardsley have any separate ordinances or resolutions granting exceptions for municipal or school district operations of gas leaf blowers?",
+        "Are there any pending amendments to the Ardsley gas leaf blower ordinance that would add exceptions for government or commercial properties?"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Under the Village of Ardsley's statute, violations are addressed through a fine-based penalty system. For general noise ordinance violations, fines are up to $50 for a first offense and up to $100 for each additional offense. For gas leaf blower violations specifically, any owner, superintendent, lessee, occupant, tenant, or other person exercising supervision or control of a property who commits an offense — or who engages a person or landscaping service that commits an offense — is subject to a fine of $50 for the first offense and $250 for each subsequent offense within the same calendar year. The statute holds property owners and those in control of the property accountable, including when third-party contractors or landscaping services are responsible for the violation.",
+      "confidence": 72,
+      "sourceRefs": [
+        "Village of Ardsley – General Noise Ordinance Penalty Provision",
+        "Village of Ardsley – Article II, Gas Leaf Blower Violation and Penalty Provision"
+      ],
+      "gap": "The statute does not specify which authority (e.g., Police Department, Code Enforcement Officers) is responsible for enforcement, does not require written notification to property owners for repeated violations, and does not detail a formal reporting mechanism for complaints.",
+      "score": 0.4,
+      "nextPrompts": [
+        "Which Village of Ardsley department or officer is designated to enforce gas leaf blower violations?",
+        "Does Ardsley have a formal complaint or reporting process for residents to report gas leaf blower violations?"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 95,
+      "sourceRefs": [],
+      "gap": "The ordinance does not mention the environmental benefits of leaving leaf debris or leaf mulching, such as soil enrichment or habitat creation. It also lacks any educational requirements or community outreach initiatives promoting these ecological practices, which are considered best practices for municipal environmental protection.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Ardsley have any supplementary environmental education programs or materials related to leaf management and mulching?",
+        "Are there any related Village of Ardsley sustainability or environmental protection policies that address leaf debris management beyond the gas leaf blower ordinance?"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": []
+    }
+  ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
-    "questionsAnswered": 0,
-    "totalQuestions": 0,
+    "overallScore": 4.33,
+    "normalizedScore": 4.33,
+    "averageConfidence": 78,
+    "questionsAnswered": 7,
+    "totalQuestions": 7,
     "scoreBreakdown": {
-      "questionScores": [],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
-      "totalPossibleWeight": 0,
-      "questionsWithScores": []
+      "questionScores": [
+        0.75,
+        0.6,
+        0.35,
+        0.15,
+        0.4,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0.32,
+      "weightedScore": 0.4333,
+      "totalWeightedScore": 5.200000000000001,
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0.75,
+          "weight": 4,
+          "weightedScore": 3,
+          "maxWeightedScore": 4,
+          "confidence": 95
+        },
+        {
+          "id": "2",
+          "score": 0.6,
+          "weight": 1,
+          "weightedScore": 0.6,
+          "maxWeightedScore": 1,
+          "confidence": 97
+        },
+        {
+          "id": "3",
+          "score": 0.35,
+          "weight": 3,
+          "weightedScore": 1.05,
+          "maxWeightedScore": 3,
+          "confidence": 92
+        },
+        {
+          "id": "4",
+          "score": 0.15,
+          "weight": 1,
+          "weightedScore": 0.15,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "5",
+          "score": 0.4,
+          "weight": 1,
+          "weightedScore": 0.4,
+          "maxWeightedScore": 1,
+          "confidence": 72
+        },
+        {
+          "id": "6",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 95
+        },
+        {
+          "id": "7",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        }
+      ]
     }
   },
-  "overallScore": 0,
-  "normalizedScore": 0,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.216Z",
-  "domainId": "glb"
+  "overallScore": 4.33,
+  "averageConfidence": 78,
+  "questionsAnswered": 7,
+  "totalQuestions": 7,
+  "lastUpdated": "2026-05-18T18:48:13.107Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": []
 }

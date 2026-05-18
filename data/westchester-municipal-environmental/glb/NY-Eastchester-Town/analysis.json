@@ -1,6 +1,8 @@
 {
-  "id": "NY-Eastchester-Town-glb-1778856979847",
-  "municipality": {
+  "id": "NY-Eastchester-Town-glb-1779130101803",
+  "entityId": "NY-Eastchester-Town",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-Eastchester-Town",
     "displayName": "Eastchester - Town"
   },
@@ -9,27 +11,143 @@
     "displayName": "Glb"
   },
   "grades": {},
-  "questions": [],
-  "lastUpdated": "2026-05-15T14:56:19.847Z",
-  "processingMethod": "vector-search-rag",
-  "usesStateCode": false,
+  "questions": [
+    {
+      "id": 1,
+      "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 2,
+      "question": "What are the permitted hours for gas leaf blower operation?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 3,
+      "question": "What are the penalties for violating gas leaf blower regulations?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 4,
+      "question": "Are there any exceptions for school/government/commercial properties?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 5,
+      "question": "How are violations reported and enforced?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 6,
+      "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 7,
+      "question": "Does the ordinance require a report to be presented to the public?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    }
+  ],
   "scores": {
     "overallScore": 0,
     "normalizedScore": 0,
     "averageConfidence": 0,
-    "questionsAnswered": 0,
-    "totalQuestions": 0,
+    "questionsAnswered": 7,
+    "totalQuestions": 7,
     "scoreBreakdown": {
-      "questionScores": [],
+      "questionScores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "averageQuestionScore": 0,
       "weightedScore": 0,
       "totalWeightedScore": 0,
-      "totalPossibleWeight": 0,
-      "questionsWithScores": []
+      "totalPossibleWeight": 12,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0,
+          "weight": 4,
+          "weightedScore": 0,
+          "maxWeightedScore": 4,
+          "confidence": 0
+        },
+        {
+          "id": "2",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 3,
+          "weightedScore": 0,
+          "maxWeightedScore": 3,
+          "confidence": 0
+        },
+        {
+          "id": "4",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "7",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        }
+      ]
     }
   },
   "overallScore": 0,
-  "normalizedScore": 0,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.229Z",
-  "domainId": "glb"
+  "averageConfidence": 0,
+  "questionsAnswered": 7,
+  "totalQuestions": 7,
+  "lastUpdated": "2026-05-18T18:48:21.803Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": []
 }

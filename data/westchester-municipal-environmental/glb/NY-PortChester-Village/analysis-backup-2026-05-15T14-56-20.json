@@ -1,8 +1,6 @@
 {
-  "id": "NY-PortChester-Village-glb-1779130452326",
-  "entityId": "NY-PortChester-Village",
-  "domainId": "glb",
-  "entity": {
+  "id": "NY-PortChester-Village-glb-1778856980375",
+  "municipality": {
     "id": "NY-PortChester-Village",
     "displayName": "Port Chester - Village"
   },
@@ -10,7 +8,9 @@
     "id": "glb",
     "displayName": "Glb"
   },
-  "grades": {},
+  "grades": {
+    "WEN": "G-"
+  },
   "questions": [
     {
       "id": 1,
@@ -48,17 +48,11 @@
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "The statute provides a waiver process through the Board of Trustees for exceptional circumstances related to time limitations. To obtain a waiver, the applicant must demonstrate: (1) hardship without the waiver, (2) no substantial adverse impact on adjacent property or public health/safety/welfare, (3) the activity will be temporary, and (4) no reasonable alternatives exist. Applications must be submitted to the Village Clerk at least 10 days before a Board meeting, with prior written notice to property owners within 150 feet and posting of a sign at the front property line. There is also an emergency exception for construction work creating danger to person or property, with notice to the Building Inspector. No specific exceptions for school district properties, municipal properties, or commercial properties are mentioned in the provided sources.",
-      "confidence": 55,
-      "sourceRefs": [
-        "https://ecode360.com/10909455"
-      ],
-      "gap": "The statute lacks explicit exceptions for school district properties, municipal properties, utility companies, or commercial operations. Best practices recommend targeted exemptions for these entities, particularly for operations beyond 100 feet from residences and for public safety/maintenance work. The current waiver process is general and procedurally burdensome compared to best practice standards.",
-      "score": 0.2,
-      "nextPrompts": [
-        "Does the statute contain any provisions specifically exempting municipal or government employees from gas leaf blower restrictions?",
-        "Are there any permit-based exemptions for municipally sponsored events or emergency utility work related to gas leaf blower use?"
-      ]
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision that explicitly outlines exceptions for school, government, and commercial properties, detailing specific criteria and conditions under which these exceptions apply, to ensure clarity and consistency in the application of the statute."
     },
     {
       "id": 5,
@@ -74,47 +68,47 @@
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 0,
-      "sourceRefs": [
-        "§ 224-3.1",
-        "§ 224-2C"
-      ]
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a provision to the statute that mandates the promotion of leaf mulching practices by requiring the municipality to provide educational resources and workshops for residents on the environmental benefits and techniques of leaving leaf debris and mulching."
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 0,
-      "sourceRefs": [
-        "§ 224-2C",
-        "§ 224-3.1"
-      ]
+      "answer": "Not specified in the statute.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0.1,
+      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report that includes comprehensive data collection on relevant activities, transparency measures, and tracking mechanisms to ensure accountability and public awareness."
     }
   ],
   "scores": {
-    "overallScore": 4.71,
-    "normalizedScore": 4.71,
-    "averageConfidence": 56,
-    "questionsAnswered": 7,
+    "overallScore": 4.79,
+    "normalizedScore": 4.79,
+    "averageConfidence": 57,
+    "questionsAnswered": 4,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
         0.5,
         0.5,
         0.75,
-        0.2,
+        0.1,
         0.7,
-        0,
-        0
+        0.1,
+        0.1
       ],
-      "averageQuestionScore": 0.38,
-      "weightedScore": 0.4708,
-      "totalWeightedScore": 5.65,
+      "averageQuestionScore": 0.39285714285714285,
+      "weightedScore": 0.4792,
+      "totalWeightedScore": 5.749999999999999,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
+          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
+          "answer": "The prohibition of gas leaf blowers lasts from November 16 to April 14, which is the period not included between April 15 and November 15.",
           "score": 0.5,
           "weight": 4,
           "weightedScore": 2,
@@ -123,6 +117,8 @@
         },
         {
           "id": "2",
+          "question": "What are the permitted hours for gas leaf blower operation?",
+          "answer": "Gas leaf blowers can be operated between 8:00 a.m. and 8:00 p.m. on weekdays and between 10:00 a.m. and 7:00 p.m. on weekends and legal holidays.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -131,6 +127,8 @@
         },
         {
           "id": "3",
+          "question": "What are the penalties for violating gas leaf blower regulations?",
+          "answer": "For the first conviction, the fine is between $250 and $500. For a second conviction within one year, the fine is between $500 and $750. For a third or subsequent conviction within one year, the fine is between $750 and $1,000.",
           "score": 0.75,
           "weight": 3,
           "weightedScore": 2.25,
@@ -139,14 +137,18 @@
         },
         {
           "id": "4",
-          "score": 0.2,
+          "question": "Are there any exceptions for school/government/commercial properties?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
           "weight": 1,
-          "weightedScore": 0.2,
+          "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 55
+          "confidence": 20
         },
         {
           "id": "5",
+          "question": "How are violations reported and enforced?",
+          "answer": "Violations can lead to the Village Attorney, with the authorization of the Village Manager, commencing the appropriate action or proceeding to prevent the continued violation of this chapter.",
           "score": 0.7,
           "weight": 1,
           "weightedScore": 0.7,
@@ -155,29 +157,35 @@
         },
         {
           "id": "6",
-          "score": 0,
+          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 20
         },
         {
           "id": "7",
-          "score": 0,
+          "question": "Does the ordinance require a report to be presented to the public?",
+          "answer": "Not specified in the statute.",
+          "score": 0.1,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 20
         }
       ]
     }
   },
-  "overallScore": 4.71,
-  "averageConfidence": 56,
-  "questionsAnswered": 7,
+  "overallScore": 4.79,
+  "averageConfidence": 57,
+  "questionsAnswered": 4,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:54:12.326Z",
+  "lastUpdated": "2026-05-15T14:56:20.375Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "sources": []
+  "normalizedScore": 4.79,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.265Z",
+  "domainId": "glb"
 }

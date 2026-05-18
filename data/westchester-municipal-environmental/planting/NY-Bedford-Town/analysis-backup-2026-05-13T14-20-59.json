@@ -194,13 +194,7 @@
   "averageConfidence": 0,
   "questionsAnswered": 8,
   "totalQuestions": 8,
-  "lastUpdated": "2026-05-18T10:15:31.239Z",
+  "lastUpdated": "2026-05-13T14:20:59.263Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false,
-  "sources": [
-    {
-      "url": "https://www.bedfordny.gov/234/Monarch-Pledge",
-      "title": "https://www.bedfordny.gov/234/Monarch-Pledge"
-    }
-  ]
+  "usesStateCode": false
 }

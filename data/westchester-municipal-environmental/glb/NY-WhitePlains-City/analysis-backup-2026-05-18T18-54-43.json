@@ -154,18 +154,13 @@
   "averageConfidence": 12,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T19:01:08.409Z",
+  "lastUpdated": "2026-05-18T18:54:43.772Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.cityofwhiteplains.com/",
       "title": "White Plains, NY - Official Website | Official Website"
-    },
-    {
-      "url": "https://www.cityofwhiteplains.com/m/NewsFlash/Home/Detail/2146",
-      "title": "Reminder - The Use of Gas-Powered Leaf Blowers is Prohibited • White Plains, NY",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-WhitePlains-City\\2146.txt"
     }
   ]
 }

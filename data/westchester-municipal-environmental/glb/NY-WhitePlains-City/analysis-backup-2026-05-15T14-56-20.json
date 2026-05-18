@@ -1,0 +1,42 @@
+{
+  "id": "NY-WhitePlains-City-glb-1778856980652",
+  "municipality": {
+    "id": "NY-WhitePlains-City",
+    "displayName": "White Plains - City"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
+  "questions": [],
+  "lastUpdated": "2026-05-15T14:56:20.652Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 0,
+    "questionsAnswered": 0,
+    "totalQuestions": 0,
+    "scoreBreakdown": {
+      "questionScores": [],
+      "averageQuestionScore": 0,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
+      "totalPossibleWeight": 0,
+      "questionsWithScores": []
+    }
+  },
+  "overallScore": 0,
+  "normalizedScore": 0,
+  "scoresUpdatedAt": "2025-10-10T17:18:22.277Z",
+  "domainId": "glb",
+  "sources": [
+    {
+      "url": "https://www.cityofwhiteplains.com/",
+      "title": "https://www.cityofwhiteplains.com/",
+      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-WhitePlains-City\\www-cityofwhiteplains-com.txt"
+    }
+  ]
+}

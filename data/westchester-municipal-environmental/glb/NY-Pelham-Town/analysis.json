@@ -1,177 +1,189 @@
 {
-  "id": "NY-Pelham-Town-glb-1778856980277",
-  "municipality": "NY-Pelham-Town",
-  "domain": "glb",
-  "analyzedAt": "2025-09-09T20:05:48.125Z",
+  "id": "NY-Pelham-Town-glb-1779130439867",
+  "entityId": "NY-Pelham-Town",
+  "domainId": "glb",
+  "entity": {
+    "id": "NY-Pelham-Town",
+    "displayName": "Pelham - Town"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Glb"
+  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
       "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
       "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:05:44.978Z"
+      "gap": "The statute text provided contains no readable content (all pages are blank/empty), so it is impossible to determine the prohibition period, start date, or end date for gas leaf blower restrictions. Best practice suggests a year-round prohibition with exceptions for peak leaf-falling seasons (e.g., March 15–May 15 and October 1–December 31).",
+      "score": 0,
+      "nextPrompts": [
+        "Can you provide the actual readable text of the statute to identify the specific prohibition dates?",
+        "Does the municipality have any supplementary ordinances or regulations that specify seasonal restrictions on gas leaf blowers?"
+      ]
     },
     {
       "id": 2,
       "question": "What are the permitted hours for gas leaf blower operation?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 50,
       "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:05:45.524Z"
+      "gap": "The statute text provided contains no readable content regarding permitted hours for gas leaf blower operation. Best practice recommends permitting operation between October 1 and May 31, with hours of 8:00 a.m.–8:00 p.m. on weekdays, 9:00 a.m.–8:00 p.m. on Saturdays, and 9:00 a.m.–5:00 p.m. on Sundays and holidays, with a prohibition from June 1 to August 31.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the municipality have a noise ordinance or separate regulation specifying hours of operation for gas-powered equipment including leaf blowers?",
+        "Is there a seasonal restriction or summer prohibition on gas leaf blower use within the municipal code?"
+      ]
     },
     {
       "id": 3,
       "question": "What are the penalties for violating gas leaf blower regulations?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 50,
       "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:05:45.890Z"
+      "gap": "The statute text provided contains no readable content (all pages appear blank/empty). Therefore, it is impossible to determine whether escalating fines exist (written warning for 1st offense, up to $250 for 2nd, $500 for 3rd, $1,000 for subsequent), whether both operators and property owners are held accountable, or whether penalties apply per day of continued non-compliance — all of which represent best practice elements.",
+      "score": 0,
+      "nextPrompts": [
+        "Can you provide the actual readable text of the gas leaf blower statute to identify penalty provisions?",
+        "Does the municipality have any enforcement or penalty schedule in a separate ordinance or code section that applies to gas leaf blower violations?"
+      ]
     },
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
       "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:05:46.862Z"
+      "gap": "The statute does not address exceptions for school district properties, municipal properties, commercial properties, utility company emergency repairs, permit-based exemptions, or municipally sponsored events — all of which are considered best practices.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the municipality have any separate ordinances or resolutions that provide exceptions for government or institutional use of gas leaf blowers?",
+        "Are there any permit processes or variance procedures in the municipality's code that could apply to commercial or institutional gas leaf blower use?"
+      ]
     },
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 50,
       "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:05:47.320Z"
+      "gap": "The statute does not specify enforcement mechanisms, reporting procedures, designated enforcement authorities, notification requirements, or penalty structures for violations. All best practice elements—including designated authorities (e.g., Department of Public Works, Police, Code Enforcement), written notification requirements, liability assignment for property owners and contractors, and penalty details—are absent from the provided sources.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the municipal code contain a separate enforcement or penalty section that applies to gas leaf blower violations?",
+        "Are there any administrative regulations or departmental rules that govern how gas leaf blower complaints are reported and investigated?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
       "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:05:47.575Z"
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, guidelines, or community outreach promoting these ecological practices such as soil enrichment or habitat creation, as recommended by best practices.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the municipality have any separate environmental education programs or guidelines related to leaf debris management?",
+        "Are there any supplementary municipal documents or codes that address composting, mulching, or natural yard waste practices?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:05:48.125Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 50,
+      "sourceRefs": []
     }
   ],
   "scores": {
-    "overallScore": 1,
-    "normalizedScore": 1,
-    "averageConfidence": 0,
-    "questionsAnswered": 0,
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 33,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.09999999999999999,
-      "weightedScore": 0.1,
-      "totalWeightedScore": 1.2000000000000002,
+      "averageQuestionScore": 0,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 4,
-          "weightedScore": 0.4,
+          "weightedScore": 0,
           "maxWeightedScore": 4,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 50
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 50
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 50
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 50
         }
       ]
     }
   },
-  "overallScore": 1,
-  "averageConfidence": 0,
-  "questionsAnswered": 0,
+  "overallScore": 0,
+  "averageConfidence": 33,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "gapAnalysis": "",
-  "wenGrade": null,
+  "lastUpdated": "2026-05-18T18:53:59.867Z",
+  "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.262Z",
-  "entityId": "NY-Pelham-Town",
-  "domainId": "glb",
-  "lastUpdated": "2026-05-15T14:56:20.277Z"
+  "sources": []
 }

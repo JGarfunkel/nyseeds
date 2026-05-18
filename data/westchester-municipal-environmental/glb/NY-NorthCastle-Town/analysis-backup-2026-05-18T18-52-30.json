@@ -1,10 +1,10 @@
 {
-  "id": "NY-WhitePlains-City-glb-1779130483772",
-  "entityId": "NY-WhitePlains-City",
+  "id": "NY-NorthCastle-Town-glb-1779130350025",
+  "entityId": "NY-NorthCastle-Town",
   "domainId": "glb",
   "entity": {
-    "id": "NY-WhitePlains-City",
-    "displayName": "White Plains - City"
+    "id": "NY-NorthCastle-Town",
+    "displayName": "North Castle - Town"
   },
   "domain": {
     "id": "glb",
@@ -15,24 +15,32 @@
     {
       "id": 1,
       "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-      "answer": "According to the provided source, the prohibition of gas-powered leaf blowers in White Plains is year-round. No specific start or end dates are mentioned because the ban applies continuously throughout the entire year. The source states that gas-powered backpack, handheld, ride-on, and push-behind leaf blowers 'can no longer be used in White Plains year-round.'",
-      "confidence": 85,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
       "sourceRefs": [
-        "https://www.cityofwhiteplains.com/m/NewsFlash/Home/Detail/2146"
+        "https://ecode360.com/29156271"
       ],
-      "gap": "White Plains exceeds the best practice seasonal approach by implementing a full year-round ban, which is actually more restrictive than the best practice model. However, the best practice also recommends specific enforcement mechanisms and operating hour restrictions in residential areas, which are not addressed in the provided sources.",
-      "score": 1,
+      "gap": "The statute does not specify any seasonal prohibition period for gas leaf blowers. Best practice suggests a year-round prohibition with exceptions for peak leaf-falling seasons (e.g., March 15–May 15 and October 1–December 31). This entity appears to have no such targeted gas leaf blower prohibition.",
+      "score": 0,
       "nextPrompts": [
-        "Does White Plains have specific penalties or enforcement mechanisms for violations of the gas leaf blower prohibition?",
-        "Does White Plains have any restrictions on operating hours for electric leaf blowers in residential areas?"
+        "Does the Town of North Castle have a separate ordinance or local law specifically addressing gas-powered leaf blowers and seasonal restrictions?",
+        "Has North Castle adopted any amendments to its noise ordinance that include specific dates for gas leaf blower use prohibitions?"
       ]
     },
     {
       "id": 2,
       "question": "What are the permitted hours for gas leaf blower operation?",
       "answer": "Not specified in the provided sources.",
-      "confidence": 0,
-      "sourceRefs": []
+      "confidence": 10,
+      "sourceRefs": [
+        "https://ecode360.com/29156271"
+      ],
+      "gap": "The statute does not specify permitted hours for gas leaf blower operation, nor does it address seasonal restrictions. Best practice recommends weekday hours of 8:00 a.m.–8:00 p.m., Saturday hours of 9:00 a.m.–8:00 p.m., Sunday/holiday hours of 9:00 a.m.–5:00 p.m., and a prohibition during June 1–August 31.",
+      "score": 0,
+      "nextPrompts": [
+        "Search for any noise ordinance or nuisance sections in this municipality's code that specifically reference leaf blowers or landscaping equipment hours.",
+        "Check if this municipality has a separate environmental or seasonal equipment use ordinance that governs gas-powered outdoor tools."
+      ]
     },
     {
       "id": 3,
@@ -71,14 +79,14 @@
     }
   ],
   "scores": {
-    "overallScore": 3.33,
-    "normalizedScore": 3.33,
-    "averageConfidence": 12,
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 3,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        1,
+        0,
         0,
         0,
         0,
@@ -86,18 +94,18 @@
         0,
         0
       ],
-      "averageQuestionScore": 0.14,
-      "weightedScore": 0.3333,
-      "totalWeightedScore": 4,
+      "averageQuestionScore": 0,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 1,
+          "score": 0,
           "weight": 4,
-          "weightedScore": 4,
+          "weightedScore": 0,
           "maxWeightedScore": 4,
-          "confidence": 85
+          "confidence": 10
         },
         {
           "id": "2",
@@ -105,7 +113,7 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "3",
@@ -150,22 +158,12 @@
       ]
     }
   },
-  "overallScore": 3.33,
-  "averageConfidence": 12,
+  "overallScore": 0,
+  "averageConfidence": 3,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T19:01:08.409Z",
+  "lastUpdated": "2026-05-18T18:52:30.025Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "sources": [
-    {
-      "url": "https://www.cityofwhiteplains.com/",
-      "title": "White Plains, NY - Official Website | Official Website"
-    },
-    {
-      "url": "https://www.cityofwhiteplains.com/m/NewsFlash/Home/Detail/2146",
-      "title": "Reminder - The Use of Gas-Powered Leaf Blowers is Prohibited • White Plains, NY",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-WhitePlains-City\\2146.txt"
-    }
-  ]
+  "sources": []
 }
