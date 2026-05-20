@@ -1,5 +1,5 @@
 {
-  "id": "NY-Peekskill-City-wetland-protection-1778621065434",
+  "id": "NY-Peekskill-City-wetland-protection-1779241866006",
   "entityId": "NY-Peekskill-City",
   "domainId": "wetland-protection",
   "entity": {
@@ -13,187 +13,236 @@
   "grades": {},
   "questions": [
     {
+      "id": 1,
+      "question": "Does the municipality have legislation to preserve and protect wetlands?",
+      "answer": "Yes. The City of Peekskill has enacted legislation to preserve and protect wetlands. The municipality fully undertakes and exercises regulatory authority over activities in freshwater wetlands, as shown on the Freshwater Wetlands Map filed by the New York State Department of Environmental Conservation. This authority extends to all areas adjacent to freshwater wetlands up to 100 feet from the wetland boundary. The regulatory framework is implemented in accordance with Article 24 of the New York Environmental Conservation Law and Title 23 of Article 71, which governs enforcement. The legislation takes effect upon the filing of the final Freshwater Wetlands Map with the Clerk of the City of Peekskill pursuant to § 24-0301 of the Freshwater Wetlands Act.",
+      "confidence": 97,
+      "sourceRefs": [
+        "https://ecode360.com/6429682"
+      ],
+      "gap": "The answer confirms basic wetland jurisdiction and 100-foot buffers but lacks detail on permit tiers, mitigation ratios (1.5:1 replacement), enumerated regulated activities, qualified professional delineation requirements, and enforcement remedies like injunctive relief and restoration orders.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Does Peekskill require wetland mitigation or replacement ratios for impacts?",
+        "What enforcement remedies and permit conditions does Peekskill wetland law authorize?"
+      ]
+    },
+    {
       "id": 3,
-      "question": "What are the setback requirements from wetland boundaries?",
-      "answer": "The setback requirement from wetland boundaries is up to 100 feet from the boundary of such wetland, as stated in § 294-1.",
+      "question": "What are the setback or buffer requirements from wetland boundaries?",
+      "answer": "The City of Peekskill exercises regulatory authority over freshwater wetlands and all adjacent areas up to 100 feet from the boundary of such wetlands. This 100-foot adjacent area is subject to the same regulatory authority as the wetlands themselves, governed in accordance with Article 24 of the New York Environmental Conservation Law. The regulatory framework applies to activities shown on the Freshwater Wetlands Map filed by the Department of Environmental Conservation, as amended from time to time. (§ 294-1)",
       "confidence": 90,
       "sourceRefs": [
-        "§ 294-1"
+        "§ 294-1 (Full Statute Text)"
       ],
-      "score": 0.75,
-      "analyzedAt": "2025-09-08T19:39:16.839Z",
-      "gap": "{\n    \"recommendation\": \"Consider adding specific criteria or conditions under which the setback requirement may be reduced or increased, such as the presence of endangered species or flood risk, to provide more tailored environmental protection.\"\n}"
+      "gap": "The statute establishes a 100-foot buffer zone, which meets the minimum best practice threshold. However, there is no provision for extending the buffer beyond 100 feet based on environmental assessments or regulatory discretion, and no explicit prohibition on controlled activities within the buffer absent approval from a planning or environmental authority.",
+      "score": 0.6,
+      "nextPrompts": [
+        "Does Peekskill have any provisions allowing extension of the 100-foot buffer based on site-specific environmental assessments?",
+        "What specific activities are prohibited or require approval within the 100-foot adjacent area under Peekskill's wetland regulations?"
+      ]
     },
     {
       "id": 4,
       "question": "What are the penalties for unauthorized wetland disturbance?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "answer": "The City of Peekskill statute does not detail specific penalty provisions directly within the provided text. However, it states that regulatory authority shall be exercised in accordance with Title 23 of Article 71 of the New York Environmental Conservation Law, which relates to the enforcement of Article 24 (the Freshwater Wetlands Act). Penalties for unauthorized wetland disturbance would therefore be governed by those state-level enforcement provisions, as incorporated by reference into the local statute.",
+      "confidence": 40,
+      "sourceRefs": [
+        "§ 294-1 (City of Peekskill Freshwater Wetlands chapter)",
+        "New York Environmental Conservation Law, Article 24 and Title 23 of Article 71"
+      ],
+      "gap": "The local statute does not specify civil penalties (e.g., up to $5,000 per violation per day), criminal fines ($500–$15,000), imprisonment terms, wetland restoration mandates, or bond requirements. It defers entirely to state law for enforcement details, leaving local penalty specifics unaddressed compared to best practice standards.",
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:17.461Z",
-      "gap": "{\n  \"recommendation\": \"Consider adding a tiered penalty structure that includes fines starting at $500 for first offenses, escalating to $2,000 for repeat offenses, with clear enforcement mechanisms and defined categories of violations such as minor, moderate, and severe disturbances.\"\n}"
+      "nextPrompts": [
+        "What specific civil and criminal penalties does New York ECL Title 23 of Article 71 impose for freshwater wetland violations?",
+        "Does Peekskill have any local enforcement regulations or resolutions that supplement the state penalty provisions for wetland disturbances?"
+      ]
     },
     {
       "id": 5,
       "question": "How do I apply for a wetland permit or variance?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:18.212Z",
-      "gap": "{\n  \"recommendation\": \"Consider adding a detailed section outlining the application procedures for obtaining a wetland permit or variance, including submission requirements, review criteria, timelines for decision-making, and an appeal process for denied applications.\"\n}"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 294-2",
+        "§ 24-0301"
+      ],
+      "gap": "The statute does not address permit or variance application procedures. Best practices call for detailed application requirements including owner/applicant information, certified property surveys, descriptions of proposed work, environmental impact assessments, public hearings, adjacent property owner notifications, SEQRA compliance, erosion and sediment control plans, fees, and escrow deposits — none of which are addressed in the provided Peekskill wetland statute.",
+      "score": 0,
+      "nextPrompts": [
+        "Does Peekskill have a separate local law or administrative code section governing wetland permit application procedures, fees, and public hearing requirements?",
+        "Does Peekskill defer entirely to New York State DEC procedures under Article 24 of the Environmental Conservation Law for wetland permit applications within the city?"
+      ]
     },
     {
       "id": 6,
       "question": "Are there mitigation requirements for permitted wetland impacts?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:18.794Z",
-      "gap": "{\n  \"recommendation\": \"Consider adding a requirement for a detailed mitigation plan as part of the application procedures, specifying the criteria for acceptable mitigation measures, timelines for implementation, and standards for approval to ensure no net loss of wetland functions and values.\"\n}"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 294-2",
+        "§ 24-0301"
+      ],
+      "gap": "The statute contains no mitigation requirements for permitted wetland impacts. Best practices call for a mitigation plan addressing unavoidable impacts, no net loss of ecological function, replacement wetlands at least 1.5x the impacted area, on-site mitigation preference, construction/maintenance guidelines, monitoring schedules, and performance bonds. None of these elements are present in the Peekskill statute.",
+      "score": 0,
+      "nextPrompts": [
+        "Does Peekskill have any supplementary wetland regulations, guidelines, or administrative rules that address mitigation requirements for permitted wetland impacts?",
+        "Does Peekskill defer to New York State DEC mitigation requirements under Article 24 of the Environmental Conservation Law for wetland impact permits?"
+      ]
     },
     {
       "id": 7,
       "question": "What types of development are completely prohibited in wetlands?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "answer": "Not specified in the provided sources. The Peekskill statute establishes regulatory authority over freshwater wetlands and adjacent areas up to 100 feet from wetland boundaries, referencing Article 24 of the New York Environmental Conservation Law for procedures and definitions, but does not explicitly enumerate types of development that are completely prohibited in wetlands.",
+      "confidence": 15,
+      "sourceRefs": [
+        "§ 294-1 (Full Statute Text)",
+        "§ 294-2 Filing of map"
+      ],
+      "gap": "The statute does not explicitly list prohibited development activities such as draining, dredging, filling, erecting structures, altering natural features, introducing pollution, constructing roads, installing septic systems, or clear-cutting trees. It defers to NYS ECL Article 24 without restating specific prohibitions locally. This represents a significant gap compared to best practices, which call for explicit enumeration of prohibited activities and permit standards.",
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:19.433Z",
-      "gap": "{\n  \"recommendation\": \"Consider adding a provision that explicitly prohibits any residential, commercial, or industrial development in designated wetland areas to preserve ecological integrity and prevent environmental degradation.\"\n}"
+      "nextPrompts": [
+        "What specific development activities does New York ECL Article 24 prohibit in freshwater wetlands, and does Peekskill's local code incorporate or expand upon those prohibitions?",
+        "Does Peekskill have a separate zoning or land use ordinance that explicitly lists prohibited activities within wetland or wetland buffer zones?"
+      ]
     },
     {
       "id": 9,
       "question": "Are there tax incentives for wetland preservation?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:19.869Z",
-      "gap": "{\n    \"recommendation\": \"Consider adding a provision that offers property tax reductions or credits to landowners who actively engage in wetland preservation and restoration efforts, with specific criteria and standards for eligibility and compliance monitoring.\"\n}"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 294-2",
+        "§ 24-0301"
+      ],
+      "gap": "The statute does not address tax incentives for wetland preservation. The best practice indicates such incentives should be present, but the provided text only covers regulatory authority over freshwater wetlands and the filing of the Freshwater Wetlands Map.",
+      "score": 0,
+      "nextPrompts": [
+        "Search Peekskill municipal code for tax abatement or conservation easement provisions related to wetlands.",
+        "Review New York State law for any tax incentive programs applicable to wetland preservation within Peekskill."
+      ]
     },
     {
       "id": 10,
       "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:21.117Z",
-      "gap": "{\n    \"recommendation\": \"Consider adding a requirement for regular monitoring reports and maintenance plans to ensure compliance with environmental standards and the long-term health of the wetland ecosystem.\"\n}"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 294-2",
+        "§ 24-0301"
+      ],
+      "gap": "The statute contains no monitoring or maintenance requirements for permitted wetland projects. Best practices call for compliance monitoring over 3–5 years with field measurements, regular report submissions, external expert oversight at applicant expense, and a bond or surety to guarantee mitigation measures. None of these elements are present in the Peekskill wetland statute.",
+      "score": 0,
+      "nextPrompts": [
+        "Does Peekskill have any supplementary wetland permit conditions or administrative rules that address post-permit monitoring and maintenance obligations?",
+        "Does New York State Article 24 (Freshwater Wetlands Act) impose monitoring and maintenance requirements that would apply to Peekskill-permitted projects by reference?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 1.93,
-    "normalizedScore": 1.93,
-    "averageConfidence": 13,
-    "questionsAnswered": 1,
-    "totalQuestions": 7,
+    "overallScore": 0.89,
+    "normalizedScore": 0.89,
+    "averageConfidence": 35,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
     "scoreBreakdown": {
       "questionScores": [
-        0.75,
+        0,
+        0.6,
         0.1,
+        0,
+        0,
         0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1
+        0,
+        0
       ],
-      "averageQuestionScore": 0.1928571428571429,
-      "weightedScore": 0.1929,
-      "totalWeightedScore": 1.3500000000000003,
-      "totalPossibleWeight": 7,
+      "averageQuestionScore": 0.1,
+      "weightedScore": 0.0889,
+      "totalWeightedScore": 0.7999999999999999,
+      "totalPossibleWeight": 9,
       "questionsWithScores": [
         {
+          "id": "1",
+          "score": 0,
+          "weight": 3,
+          "weightedScore": 0,
+          "maxWeightedScore": 3,
+          "confidence": 97
+        },
+        {
           "id": "3",
-          "question": "What are the setback requirements from wetland boundaries?",
-          "answer": "The setback requirement from wetland boundaries is up to 100 feet from the boundary of such wetland, as stated in § 294-1.",
-          "score": 0.75,
+          "score": 0.6,
           "weight": 1,
-          "weightedScore": 0.75,
+          "weightedScore": 0.6,
           "maxWeightedScore": 1,
           "confidence": 90
         },
         {
           "id": "4",
-          "question": "What are the penalties for unauthorized wetland disturbance?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 40
         },
         {
           "id": "5",
-          "question": "How do I apply for a wetland permit or variance?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 0
+          "score": 0,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 10
         },
         {
           "id": "6",
-          "question": "Are there mitigation requirements for permitted wetland impacts?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "7",
-          "question": "What types of development are completely prohibited in wetlands?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 15
         },
         {
           "id": "9",
-          "question": "Are there tax incentives for wetland preservation?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "10",
-          "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 1.93,
-  "averageConfidence": 13,
-  "questionsAnswered": 1,
-  "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T13:48:15.007Z",
+  "overallScore": 0.89,
+  "averageConfidence": 35,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2026-05-20T10:19:37.850Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.cityofpeekskillny.gov/553/About-the-Conservation-Advisory-Council",
-      "title": "https://www.cityofpeekskillny.gov/553/About-the-Conservation-Advisory-Council"
+      "title": "About the Conservation Advisory Council | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/AgendaCenter/Conservation-Advisory-Council-9",
-      "title": "https://www.cityofpeekskillny.gov/AgendaCenter/Conservation-Advisory-Council-9"
+      "title": "Agenda Center • Peekskill, NY • CivicEngage"
     }
   ]
 }

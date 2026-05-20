@@ -1,16 +1,16 @@
 {
-  "id": "NY-NewCastle-Town-weeds-1778856983688",
-  "municipality": {
+  "id": "NY-NewCastle-Town-weeds-1779299182444",
+  "entityId": "NY-NewCastle-Town",
+  "domainId": "weeds",
+  "entity": {
     "id": "NY-NewCastle-Town",
     "displayName": "New Castle - Town"
   },
   "domain": {
     "id": "weeds",
-    "displayName": "Weeds"
+    "displayName": "Weed Management"
   },
-  "grades": {
-    "WEN": "R-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": "1",
@@ -81,15 +81,13 @@
         0.7,
         0.3
       ],
-      "averageQuestionScore": 0.6799999999999999,
+      "averageQuestionScore": 0.68,
       "weightedScore": 0.675,
       "totalWeightedScore": 4.05,
       "totalPossibleWeight": 6,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-          "answer": "Residents must maintain the curtilage, defined as up to 15 feet of the perimeter of the principal structure, free from uncultivated vegetation exceeding 10 inches in height. This includes grasses, brush, and briars but excludes trees, shrubs, and cultivated vegetation like flower and pollinator gardens.",
           "score": 1,
           "weight": 1,
           "weightedScore": 1,
@@ -98,8 +96,6 @@
         },
         {
           "id": "2",
-          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
-          "answer": "Yes, cultivated pollinator gardens are allowed as an exception to the requirement to keep areas free from uncultivated vegetation over 10 inches tall.",
           "score": 0.65,
           "weight": 2,
           "weightedScore": 1.3,
@@ -108,8 +104,6 @@
         },
         {
           "id": "3",
-          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
-          "answer": "The statute specifies maintenance for areas within the property, particularly the curtilage up to 15 feet from the principal structure, and does not mention requirements beyond the property lot lines to the curb.",
           "score": 0.75,
           "weight": 1,
           "weightedScore": 0.75,
@@ -118,8 +112,6 @@
         },
         {
           "id": "4",
-          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
-          "answer": "Property owners or occupants who violate the property maintenance regulations are subject to a penalty of up to $200 for each day the violation continues.",
           "score": 0.7,
           "weight": 1,
           "weightedScore": 0.7,
@@ -128,8 +120,6 @@
         },
         {
           "id": "6",
-          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
-          "answer": "After receiving a notice of violation, the owner or occupant has 30 days to correct the violation. If not corrected within 30 days and the violation poses a public nuisance or danger, a public hearing is held. If the violation is still unresolved within 10 days of the hearing, further actions and penalties may be applied.",
           "score": 0.3,
           "weight": 1,
           "weightedScore": 0.3,
@@ -143,32 +133,25 @@
   "averageConfidence": 85,
   "questionsAnswered": 5,
   "totalQuestions": 5,
-  "lastUpdated": "2026-05-15T14:56:23.688Z",
+  "lastUpdated": "2026-05-20T17:46:22.444Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 6.75,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.530Z",
-  "domainId": "weeds",
   "sources": [
     {
       "url": "https://www.mynewcastleny.gov/DocumentCenter/View/3555/NYS-DEC-Plant-List-PDF",
-      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/3555/NYS-DEC-Plant-List-PDF",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NewCastle-Town\\nys-dec-plant-list-pdf.txt"
+      "title": "NYS DEC Plant List PDF"
     },
     {
       "url": "https://www.mynewcastleny.gov/DocumentCenter/View/3788/Town-of-New-Castle-2022-Natural-Resource-Inventory-PDF",
-      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/3788/Town-of-New-Castle-2022-Natural-Resource-Inventory-PDF",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NewCastle-Town\\town-of-new-castle-2022-natural-resource-inventory-pdf.txt"
+      "title": "Town Of New Castle 2022 Natural Resource Inventory PDF"
     },
     {
       "url": "https://www.mynewcastleny.gov/DocumentCenter/View/4751/Protect-Our-Trees-Combatting-the-Spotted-Lanternfly-Town-of-New-Castle-PDF",
-      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/4751/Protect-Our-Trees-Combatting-the-Spotted-Lanternfly-Town-of-New-Castle-PDF",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NewCastle-Town\\protect-our-trees-combatting-the-spotted-lanternfly-town-of-new-castle-pdf.txt"
+      "title": "Protect Our Trees Combatting The Spotted Lanternfly Town Of New Castle PDF"
     },
     {
       "url": "https://www.mynewcastleny.gov/DocumentCenter/View/5221/Fall-Native-Plants-Companion-PDF",
-      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/5221/Fall-Native-Plants-Companion-PDF",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-NewCastle-Town\\fall-native-plants-companion-pdf.txt"
+      "title": "Fall Native Plants Companion PDF"
     }
   ]
 }

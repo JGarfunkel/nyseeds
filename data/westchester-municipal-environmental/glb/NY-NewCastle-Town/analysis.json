@@ -1,5 +1,5 @@
 {
-  "id": "NY-NewCastle-Town-glb-1779130298401",
+  "id": "NY-NewCastle-Town-glb-1779296643419",
   "entityId": "NY-NewCastle-Town",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -74,11 +74,11 @@
       "answer": "Not specified in the provided sources.",
       "confidence": 10,
       "sourceRefs": [],
-      "gap": "The ordinance does not mention any benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, ecological guidance, or community outreach regarding these environmental practices. This represents a significant gap compared to best practices, which recommend municipalities explicitly promote soil enrichment, habitat creation, and public awareness campaigns around leaf debris and mulching.",
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, community workshops, or informational campaigns promoting these ecological practices such as soil enrichment or habitat creation.",
       "score": 0,
       "nextPrompts": [
-        "Does the municipality have any separate environmental or sustainability ordinances that address leaf mulching or natural yard care practices?",
-        "Are there any municipal educational programs or public communications referencing the ecological benefits of leaf debris management?"
+        "Does the municipality have any separate environmental or sustainability policies that address leaf debris management or mulching practices?",
+        "Are there any municipal outreach programs or guidelines that encourage residents to mulch leaves as an alternative to blowing them?"
       ]
     },
     {
@@ -176,7 +176,7 @@
   "averageConfidence": 64,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:51:38.401Z",
+  "lastUpdated": "2026-05-20T17:04:03.419Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

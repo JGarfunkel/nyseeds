@@ -1,5 +1,5 @@
 {
-  "id": "NY-NewRochelle-City-glb-1779130329320",
+  "id": "NY-NewRochelle-City-glb-1779296676175",
   "entityId": "NY-NewRochelle-City",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -42,41 +42,40 @@
       "sourceRefs": [
         "https://ecode360.com/6735739?highlight=leaf%20blowers#6735739"
       ],
-      "gap": "The statute does not specify any penalties for violating gas leaf blower regulations, such as escalating fines, written warnings, or accountability for operators and property owners. There is no mention of per-day fines or tiered penalty structures.",
+      "gap": "The statute does not specify any penalties for violating gas leaf blower regulations, such as escalating fines, written warnings, or accountability provisions for operators and property owners. Best practices recommend a tiered penalty structure (written warning for first offense, up to $250 for second, $500 for third, and $1,000 for subsequent offenses) with per-day non-compliance fines and dual accountability for operators and property owners.",
       "score": 0,
       "nextPrompts": [
-        "Does Chapter 213 of New Rochelle's municipal code contain a separate penalties or enforcement section that specifies fines for noise violations including leaf blower infractions?",
-        "Are there any New Rochelle ordinances or amendments that establish escalating fines or enforcement mechanisms for gas leaf blower violations?"
+        "Does Chapter 213 or another section of New Rochelle's municipal code specify general penalties for noise ordinance violations that would apply to leaf blower infractions?",
+        "Are there any enforcement provisions or fine schedules elsewhere in New Rochelle's code that govern violations of the leaf blower operating restrictions?"
       ]
     },
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "Not specified in the provided sources. The statute does not mention any exceptions for school, government, or commercial properties regarding leaf blower operation. The regulations apply citywide without distinguishing between property types.",
+      "answer": "Not specified in the provided sources. The statute does not mention any exceptions for school, government, or commercial properties regarding the operation of leaf blowers. The regulations appear to apply uniformly across the City of New Rochelle without property-type-based exemptions.",
       "confidence": 85,
       "sourceRefs": [
         "Anchor #6735739 - Chapter 213, Domestic power tools and equipment section"
       ],
-      "gap": "The statute does not provide exceptions for school district properties, municipal properties, utility companies, or emergency repairs. There are no provisions for operations beyond 100 feet from residences, no permit-based exemptions, and no carve-outs for municipally sponsored events — all of which are considered best practices.",
+      "gap": "The statute contains no exceptions for school district properties, municipal properties, commercial properties, utility companies, or emergency repairs. There are no provisions for permit-based exemptions or distance-based allowances (e.g., 100 feet from residences). This represents a significant gap compared to best practices, which recommend tailored exemptions for public safety and maintenance operations.",
       "score": 0,
       "nextPrompts": [
-        "Are there any separate ordinances or administrative codes in New Rochelle that provide exceptions for municipal or school district use of gas leaf blowers?",
-        "Does New Rochelle have a permit system that could allow exemptions from leaf blower restrictions for government or emergency operations?"
+        "Are there any separate municipal codes or administrative rules in New Rochelle that provide exemptions for government or school district properties regarding noise ordinances?",
+        "Does New Rochelle have a permit process that could allow exceptions to the leaf blower restrictions for commercial or institutional properties?"
       ]
     },
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "The statute specifies that any member of the Police Department of New Rochelle has authority to take steps necessary to disconnect burglar alarms that are operating in violation. However, for leaf blower violations specifically, the statute does not detail a reporting mechanism or enforcement authority beyond the general declaration that certain acts are 'in violation of this chapter.' No specific enforcement officers, complaint procedures, written notification requirements, or penalty structures for leaf blower violations are described in the provided sources.",
-      "confidence": 30,
+      "answer": "The statute specifies that any member of the Police Department of New Rochelle has authority to take steps necessary to disconnect burglar alarms that are operating in violation. This is the only explicit enforcement mechanism mentioned in the provided sources. No broader enforcement procedures, reporting mechanisms, written notification requirements, or penalty structures for leaf blower violations specifically are described in the provided text.",
+      "confidence": 35,
       "sourceRefs": [
-        "Anchor #6735739 - Burglar alarms section",
-        "Anchor #6735739 - General violations declaration"
+        "Chapter 213, Burglar Alarms section, New Rochelle Municipal Code"
       ],
-      "gap": "Significant gap exists. The statute does not specify enforcement authorities for leaf blower violations, complaint/reporting procedures, written notification requirements, penalties, or contractor/property owner liability — all of which are identified as best practices. Only Police Department authority is mentioned, and solely in the context of burglar alarms.",
+      "gap": "The statute lacks detail on enforcement mechanisms for leaf blower violations specifically. There is no mention of designated enforcement officers (e.g., Code Enforcement Officers or Department of Public Works), written notification to property owners, penalty structures, contractor/property owner liability, or formal reporting procedures — all of which are considered best practices.",
       "score": 0.1,
       "nextPrompts": [
-        "What penalties or fines are prescribed for violations of Chapter 213 noise ordinances in New Rochelle?",
+        "What penalties or fines are imposed for violations of Chapter 213 noise ordinance, including leaf blower restrictions?",
         "Which city departments or officers are designated to enforce leaf blower and noise ordinance violations in New Rochelle?"
       ]
     },
@@ -86,11 +85,11 @@
       "answer": "Not specified in the provided sources.",
       "confidence": 95,
       "sourceRefs": [],
-      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, guidelines encouraging these practices, or community awareness initiatives as outlined in best practices.",
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, such as soil enrichment or habitat creation, nor does it include any educational or promotional language encouraging these practices. This is a significant gap compared to best practices, which recommend municipalities actively educate residents on these ecological advantages.",
       "score": 0,
       "nextPrompts": [
-        "Does the City of New Rochelle have any supplementary environmental or sustainability policies that address leaf debris management or mulching?",
-        "Are there any city-issued guidelines or public education campaigns related to leaf mulching or natural yard waste management in New Rochelle?"
+        "Does the City of New Rochelle have any supplementary environmental guidelines or public education campaigns related to leaf management and mulching?",
+        "Are there any related municipal codes or sustainability plans in New Rochelle that address organic waste reduction or composting practices?"
       ]
     },
     {
@@ -160,7 +159,7 @@
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 30
+          "confidence": 35
         },
         {
           "id": "6",
@@ -185,7 +184,7 @@
   "averageConfidence": 69,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:52:09.320Z",
+  "lastUpdated": "2026-05-20T17:04:36.175Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

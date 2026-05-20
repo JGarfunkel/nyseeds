@@ -1,16 +1,16 @@
 {
-  "id": "NY-MountPleasant-Town-weeds-1778856983567",
-  "municipality": {
+  "id": "NY-MountPleasant-Town-weeds-1779299181417",
+  "entityId": "NY-MountPleasant-Town",
+  "domainId": "weeds",
+  "entity": {
     "id": "NY-MountPleasant-Town",
     "displayName": "Mount Pleasant - Town"
   },
   "domain": {
     "id": "weeds",
-    "displayName": "Weeds"
+    "displayName": "Weed Management"
   },
-  "grades": {
-    "WEN": "R-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": "1",
@@ -65,8 +65,8 @@
     }
   ],
   "scores": {
-    "overallScore": 2.5,
-    "normalizedScore": 2.5,
+    "overallScore": 2,
+    "normalizedScore": 2,
     "averageConfidence": 59,
     "questionsAnswered": 3,
     "totalQuestions": 5,
@@ -79,14 +79,12 @@
         0.1
       ],
       "averageQuestionScore": 0.28,
-      "weightedScore": 0.25,
-      "totalWeightedScore": 1.5000000000000002,
+      "weightedScore": 0.2,
+      "totalWeightedScore": 1.2,
       "totalPossibleWeight": 6,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-          "answer": "Residents are required to maintain their landscaping, including lawns, hedges, bushes, and trees, to keep them trimmed and free from becoming overgrown and unsightly where exposed to public view or where they may depreciate adjoining property. The statute does not specify 'weeds' directly but implies that overgrown vegetation should be controlled.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
@@ -95,18 +93,14 @@
         },
         {
           "id": "2",
-          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
           "confidence": 20
         },
         {
           "id": "3",
-          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
-          "answer": "Yes, the property maintenance requirements extend beyond the property lines to include the area between the property line and the curb, or for 10 feet outside the property line if there is no curb. This includes basic lawn maintenance, debris removal, and maintenance of shrubs and bushes.",
           "score": 0.8,
           "weight": 1,
           "weightedScore": 0.8,
@@ -115,8 +109,6 @@
         },
         {
           "id": "4",
-          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
-          "answer": "Any person violating the property maintenance regulations may be fined up to $250, imprisoned for a term not to exceed 15 days, or both. For subsequent violations, the penalty can be a civil fine of up to $500.",
           "score": 0.3,
           "weight": 1,
           "weightedScore": 0.3,
@@ -125,32 +117,26 @@
         },
         {
           "id": "6",
-          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 20
         }
       ]
     }
   },
-  "overallScore": 2.5,
+  "overallScore": 2,
   "averageConfidence": 59,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2026-05-15T14:56:23.567Z",
+  "lastUpdated": "2026-05-20T17:46:21.417Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 2.5,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.527Z",
-  "domainId": "weeds",
   "sources": [
     {
       "url": "https://www.mtpleasantny.gov/DocumentCenter/View/240/2020-Native-Plant-Resource-Guide-PDF",
-      "title": "https://www.mtpleasantny.gov/DocumentCenter/View/240/2020-Native-Plant-Resource-Guide-PDF",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-MountPleasant-Town\\2020-native-plant-resource-guide-pdf.txt"
+      "title": "2020 Native Plant Resource Guide PDF"
     }
   ]
 }

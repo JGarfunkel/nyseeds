@@ -4,15 +4,23 @@
 
 Town of Pound Ridge finds that growth of population and attendant residential and commercial development and increasing demands upon the natural resources have the potential of encroaching upon, despoiling, polluting or eliminating many of the ponds, lakes, reservoirs, natural drainage systems and wetlands of the Town of Pound Ridge which, if preserved, constitute important physical, economic, social, historic, archaeological, aesthetic and recreational assets to present and future residents of the Town and provide important beneficial functions, including natural flood and stormwater control, groundwater recharge, natural pollution treatment, erosion and sediment control, wildlife habitat creation, recreation and open space enhancement and educational opportunities.
 
+§ 63-2 Legislative intent.
+
 It is the intent of this chapter to protect the public interest, general health, safety and economic welfare of the citizens of the Town of Pound Ridge by providing for the protection, preservation, proper maintenance and use of its ponds, lakes, reservoirs, rainfall drainage systems and wetlands by preventing damage from erosion or siltation, minimizing disturbance, preserving natural habitats and protecting against flood and pollution through the establishment of a Water Control Commission and otherwise protecting the quality of such areas for their conservation, economic, aesthetic, recreational and other public uses and values. Further, it is the intent of this chapter to protect the potable surface and ground water supplies wholly and partly within the Town from the threat of pollution, misuse or mismanagement. Therefore, because all wetland areas are presumed to be of importance, it is hereby declared that the regulation of controlled areas of the Town of Pound Ridge, as defined in § 63-3 of this chapter and as this chapter becomes effective relative to any specific area as described in Article VIII, is essential to the health, safety. economic and general welfare of the citizens of the Town of Pound Ridge.
 
 
 
 === Article II ===
 
-Article II Terms Defined
+A permit issued by the Town Engineer for activities in controlled areas or minimum activity setback areas where such activities are found by this chapter to be limited in scope and in potential impact on such areas, as determined by the Water Control Commission with regard to applications concerning activities listed under § 63-8C. For purposes of complying with the State Environmental Quality Review Law, the granting of such permit shall be considered an exempt action as defined in Part 617.2.
 
-The following terms, phrases or words and their derivations shall have the meanings given herein:
+AGRICULTURE: The act of raising crops or livestock for economic gain, excluding the raising of horses, as further defined in 6 NYCRR 663.2(c).
+
+APPLICANT: Any individual or individuals, firm, partnership, association, corporation, company, organization or other legal entity of any kind, including municipal corporations, governmental agencies or subdivisions thereof.
+
+CLEAR CUTTING: The cutting of more than 1/2 of the existing living trees measuring more than six inches in diameter at the base in an area 1/4 acre or more over the period of five consecutive years.
+
+CONTROLLED AREAS: General boundaries of "controlled areas" are shown on the Freshwater Wetlands Maps and other local environmental maps. Finite boundaries of the "controlled areas" will be established when requested by the Water Control Commission, following the appropriate field work by qualified staff members of the Westchester County Soil and Water Conservation District, the New York Department of Environmental Conservation or other qualified individuals approved by the Water Control Commission. "Controlled areas" shall be defined as the following:
 
 Ponds, lakes, reservoirs (water bodies). Those areas of permanent water retention fed by springs or natural drainage systems,
 
@@ -81,119 +89,154 @@ Leicester
 
 Leicester, stoney
 
+DEPOSIT: To fill, place, eject or dump any liquid, solid or gaseous material or the act thereof, but not including stormwater.
+
+FRESHWATER WETLANDS MAP: The final Freshwater Wetlands Map promulgated by the New York State Department of Conservation as defined in 6 NYCRR 663.2(p).
+
+GARDENING: The raising of vegetables, berries and other edible items for the use of the homeowner, when such endeavor is not for the purpose of economic gain.
+
+MATERIAL: Substances including but not limited to soil, silt, gravel, rock, sand, clay, peat, mud, debris and refuse, any organic or inorganic compound, chemical agent or matter (excluding pesticides, herbicides, algaecides and agricultural or radioactive wastes to the extent that the same are exempt or regulated exclusively by the state), sewage, sewage sludge or effluent or solid waste (industrial or municipal).
+
+MINIMUM ACTIVITY SETBACK: The minimum buffer area required by this chapter between a proposed activity and a controlled area, as defined herein. "Minimum activity setbacks" shall be 150 feet, measured horizontally. Proposed activities within the "minimum activity setbacks" described above are subject to permits as described in Articles IV and V. Proposed activities outside of the "minimum activity setbacks" described above are exempt from this chapter.
+
+PERSON: See "applicant."
+
+POLLUTION: The presence in the environment of human-induced conditions or contaminants in quantities or characteristics which are or may be injurious to human, plant or animal life or to property.
+
+REMOVE: To dig, dredge, suck, bulldoze, dragline, blast or otherwise excavate or regrade; or the act thereof.
+
+STATE ENVIRONMENTAL QUALITY REVIEW ACT (SEQRA): A law pursuant to Article 8 of the New York Environmental Conservation Law providing for environmental quality review of actions which may have a significant effect on the environment.
+
+TOWN BOARD: The Town Board of the Town of Pound Ridge.
+
+TOWN ENGINEER: Any person employed as the Town Engineer.
+
+WATER CONTROL COMMISSION: The Water Control Commission of the Town of Pound Ridge (hereinafter referred to as the "Commission"), which acts as the review and approval authority for all permits issued under this chapter, except for applications received and approved by the Town Engineer in accordance with this chapter.
+
+WETLANDS ACTIVITY PERMIT: A permit authorized by the Water Control Commission for activities in controlled areas or minimum activity setback areas which are defined by this chapter as prohibited without a permit from the Commission (hereinafter referred to as the "permit").
+
 
 
 === Article III ===
 
-Article III Water Control Commission
-
 The Town Board is hereby authorized and empowered to create a Water Control Commission, which shall consist of five resident members, who shall be qualified by reason of training or experience in engineering, in water-related science, community planning, conservation, landscape architecture, wildlife management, forestry, ecology, hydrology or other related business or profession. The Commission may also obtain access to such training through qualified consultants. The members and the Chairman of the Water Control Commission shall be appointed by the Town Board, and the Town Board may authorize and budget for such expenses as may be necessary and proper. If a previous Commission does not exist, of the members first appointed, one shall hold office for the term of one year, one for the term of two years, one for the term of three years, one for the term of four years and one for the term of five years. If a previous Commission does exist, its successors shall be appointed for terms of five years from and after the expiration of the terms of their predecessors in office. If a vacancy shall occur other than by expiration of a term, it shall be filled by the Town Board by appointment to the unexpired term. Meetings of the Commission shall be held at such times as the Commission may determine, Three members of such Commission shall constitute a quorum for holding a hearing and making a decision on an application. The Commission shall keep minutes of its proceedings, showing the vote of each member upon any question or, if absent or failing to vote, indicating such fact, and shall also keep records of its official actions.
+
+§ 63-5 Filing of decisions.
 
 Every decision, recommendation or determination of the Commission and Town Engineer shall be filed in the office of the Town Clerk and shall be a public record. The Water Control Commission shall have the power to adopt, amend and repeal rules and regulations governing its procedure and transaction of business consistent with the Public Officers Law, § 100. All rules and regulations and amendments or repeal thereof shall take effect immediately upon filing in the office of the Town Clerk, after approval by the Town Board.
 
+§ 63-6 Function of Town Engineer.
+
 The Town Engineer or consulting engineer shall furnish to the Water Control Commission such recommendations and engineering data as the Commission shall request and require, the Town Engineer or consulting engineer shall advise the Commission on all other matters within the jurisdiction of the Commission and, upon request of the Commission, shall be present at the meetings and deliberations of the Commission.
+
+§ 63-7 Powers and duties.
 
 The powers and duties of the Water Control Commission shall be as follows:
 
-Review and action. The Water Control Commission shall review applications for and take appropriate action on projects submitted within its jurisdiction pursuant to Article V of this chapter.
+A. Review and action. The Water Control Commission shall review applications for and take appropriate action on projects submitted within its jurisdiction pursuant to Article V of this chapter.
 
-Establishing boundaries of controlled areas. In connection with each application, the boundaries of a controlled area shall be established by the Water Control Commission or by consultants retained by the Commission in accordance with § 63-4 of this chapter.
+B. Establishing boundaries of controlled areas. In connection with each application, the boundaries of a controlled area shall be established by the Water Control Commission or by consultants retained by the Commission in accordance with § 63-4 of this chapter.
 
-Compliance with SEQRA. For each application submitted to the Water Control Commission, the Commission shall, pursuant to the requirements of SEQRA, make a determination of significance of the proposed action when none has been made by any other agencies and, further, determine appropriateness of acting as the lead agency and any requirement for a draft environmental impact statement when necessary.
+C. Compliance with SEQRA. For each application submitted to the Water Control Commission, the Commission shall, pursuant to the requirements of SEQRA, make a determination of significance of the proposed action when none has been made by any other agencies and, further, determine appropriateness of acting as the lead agency and any requirement for a draft environmental impact statement when necessary.
 
-Power to grant or deny. The Commission shall have the power to grant or deny wetlands activity permits to conduct activities regulated under this chapter, but permits will be granted only when they do not violate the intent and purposes of this chapter or the State Freshwater Wetland Act.
+D. Power to grant or deny. The Commission shall have the power to grant or deny wetlands activity permits to conduct activities regulated under this chapter, but permits will be granted only when they do not violate the intent and purposes of this chapter or the State Freshwater Wetland Act.
 
-Administrative permit referrals. The Commission shall have the power to refer applications to the Town Engineer for issuance of an administrative permit in addition to those administrative actions listed in § 63-8C of this chapter.
+E. Administrative permit referrals. The Commission shall have the power to refer applications to the Town Engineer for issuance of an administrative permit in addition to those administrative actions listed in § 63-8C of this chapter.
 
-Advisory and educational functions. The Water Control Commission shall investigate and report upon water conservation and drainage problems referred to it by the Town Board, Town Planning Board or the general public, shall coordinate Town of Pound Ridge water planning with the planning of adjacent communities, counties and adjacent governmental authorities and shall increase public knowledge and awareness of sound wetland management.
+F. Advisory and educational functions. The Water Control Commission shall investigate and report upon water conservation and drainage problems referred to it by the Town Board, Town Planning Board or the general public, shall coordinate Town of Pound Ridge water planning with the planning of adjacent communities, counties and adjacent governmental authorities and shall increase public knowledge and awareness of sound wetland management.
 
-Power to require restoration. The Water Control Commission shall have the power to determine whether a person who has violated any of the provisions of § 63-8 of this chapter shall be required to restore, within reason, the disturbed area to its original condition, to specify a reasonable time limit for such restoration and to order such restoration.
+G. Power to require restoration. The Water Control Commission shall have the power to determine whether a person who has violated any of the provisions of § 63-8 of this chapter shall be required to restore, within reason, the disturbed area to its original condition, to specify a reasonable time limit for such restoration and to order such restoration.
 
-The Commission shall have the power to:
+H. The Commission shall have the power to:
 
-Application fees. Recommend to the Town Board the application fees for permits to conduct activities under this chapter and to collect such fees.
+(1) Application fees. Recommend to the Town Board the application fees for permits to conduct activities under this chapter and to collect such fees.
 
-Bonds. Set, collect, recommend and hold bonds as it deems necessary as a condition of a permit granted under this chapter to ensure compliance with the terms of the permit.
+(2) Bonds. Set, collect, recommend and hold bonds as it deems necessary as a condition of a permit granted under this chapter to ensure compliance with the terms of the permit.
 
-Administrative fees. Set and collect engineering and administrative fees where the same may be appropriate as determined by the Commission.
+(3) Administrative fees. Set and collect engineering and administrative fees where the same may be appropriate as determined by the Commission.
 
-Fines. Set and collect fines not to exceed $3,000. (See § 63-42A.)
+(4) Fines. Set and collect fines not to exceed $3,000. (See § 63-42A.)
 
-Power to advise on administrative permits. The Water Control Commission may act as advisor to the Town Engineer or consulting engineer, at his request, for administrative permits.
+I. Power to advise on administrative permits. The Water Control Commission may act as advisor to the Town Engineer or consulting engineer, at his request, for administrative permits.
 
-Power to inspect controlled areas on private property. The Commission or its agents and the Town Engineer shall have the right to enter and inspect controlled areas on private property for the purpose of administering and enforcing the provisions of this chapter. Such access shall be upon reasonable notice or attempt thereof to the landowner under the circumstances.
+J. Power to inspect controlled areas on private property. The Commission or its agents and the Town Engineer shall have the right to enter and inspect controlled areas on private property for the purpose of administering and enforcing the provisions of this chapter. Such access shall be upon reasonable notice or attempt thereof to the landowner under the circumstances.
 
-Other duties: Other duties and powers granted to it by other ordinances of the Town.[Added 12-10-1987 by L.L. No. 7-1987]
+K. Other duties: Other duties and powers granted to it by other ordinances of the Town.[Added 12-10-1987 by L.L. No. 7-1987]
 
 
 
 === Article IV ===
 
+search Login
+
 Article IV Controlled Areas and Minimum Activity Setback Areas
 
-Prohibited activities in controlled areas. It shall be unlawful in a controlled area or minimum activity setback to place or deposit animal wastes, chemical wastes or sewage effluent or to introduce influents of sufficiently high thermal content as to cause deleterious ecological effect.
+Article IV Controlled Areas and Minimum Activity Setback Areas
 
-Activities permitted by right. The following activities are permitted as a matter of right within a controlled area and/or minimum activity setback area. No permit is required for:
+§ 63-8 Activities.
 
-Conservation. The conservation of soil, water, vegetation, fish and wildlife.
+A. Prohibited activities in controlled areas. It shall be unlawful in a controlled area or minimum activity setback to place or deposit animal wastes, chemical wastes or sewage effluent or to introduce influents of sufficiently high thermal content as to cause deleterious ecological effect.
 
-Recreation. Outdoor recreation, including field trails, nature studies, hiking, horseback riding, swimming, camping and boating.
+B. Activities permitted by right. The following activities are permitted as a matter of right within a controlled area and/or minimum activity setback area. No permit is required for:
 
-Operation and maintenance of water-control structures. The operation and maintenance of dams, bridges, retaining walls and other water-control structures and devices as were in existence on the effective date of this chapter, and including those dams and other water-control devices having been previously approved under this chapter, excluding the temporary alteration or diversion of water levels or circulation for repair or maintenance purposes.
+(1) Conservation. The conservation of soil, water, vegetation, fish and wildlife.
 
-Activities not requiring a structure. Activities not requiring a structure or building, accessory to residential or other permitted primary uses of lands or waters, including the following, provided that they are consistent with the intent of this chapter:
+(2) Recreation. Outdoor recreation, including field trails, nature studies, hiking, horseback riding, swimming, camping and boating.
 
-Normal grounds maintenance, except where otherwise regulated in this chapter.
+(3) Operation and maintenance of water-control structures. The operation and maintenance of dams, bridges, retaining walls and other water-control structures and devices as were in existence on the effective date of this chapter, and including those dams and other water-control devices having been previously approved under this chapter, excluding the temporary alteration or diversion of water levels or circulation for repair or maintenance purposes.
 
-Tree trimming, pruning and bracing.
+(4) Activities not requiring a structure. Activities not requiring a structure or building, accessory to residential or other permitted primary uses of lands or waters, including the following, provided that they are consistent with the intent of this chapter:
 
-Ordinary repair and maintenance of existing stone walls and retaining walls.
+(a) Normal grounds maintenance, except where otherwise regulated in this chapter.
 
-Decorative landscaping, including the addition of trees and plants without chemical fertilizing.
+(b) Tree trimming, pruning and bracing.
 
-Emergency work. In the case of an emergency, a permit will not be required for work in a controlled area or minimum activity setback which is immediately necessary to protect the health and safety of any person or to prevent or alleviate property damage, provided that the Town Engineer is notified as soon as reasonably possible, but not later than 48 hours after the commencement of such work.
 
-Deposition/removal of natural products. The deposition or removal of natural products of wetlands through agriculture, fishing, hunting and trapping, where otherwise legally permitted and regulated.
+(d) Decorative landscaping, including the addition of trees and plants without chemical fertilizing.
 
-Activities permitted by administrative permit. The following activities, which are determined by this chapter to be administrative actions, may be allowed in the controlled area or minimum activity setback area after a review and issuance of an administrative permit by the Town Engineer. Actions of greater magnitude than those described in this section would require a regular wetlands activity permit. The Town Engineer may set reasonable conditions as part of any such approval of the proposed activity or, at his discretion, refer any permit application to the Commission for its review and comment:
+(5) Emergency work. In the case of an emergency, a permit will not be required for work in a controlled area or minimum activity setback which is immediately necessary to protect the health and safety of any person or to prevent or alleviate property damage, provided that the Town Engineer is notified as soon as reasonably possible, but not later than 48 hours after the commencement of such work.
 
-Gardening. Gardening in the minimum activity setback area only, where otherwise in accordance with applicable state and local laws and ordinances and where a buffer strip of at least 20 feet is maintained immediately adjacent to any controlled area.
+(6) Deposition/removal of natural products. The deposition or removal of natural products of wetlands through agriculture, fishing, hunting and trapping, where otherwise legally permitted and regulated.
 
-Minor deposition/removal of material. Deposition, removal, excavation or grading of material from controlled or minimum activity setback areas when such deposition or removal of material is less than seven cubic yards over a one-year period.[Amended 12-10-1987 by L.L. No. 7-1987]
+C. Activities permitted by administrative permit. The following activities, which are determined by this chapter to be administrative actions, may be allowed in the controlled area or minimum activity setback area after a review and issuance of an administrative permit by the Town Engineer. Actions of greater magnitude than those described in this section would require a regular wetlands activity permit. The Town Engineer may set reasonable conditions as part of any such approval of the proposed activity or, at his discretion, refer any permit application to the Commission for its review and comment:
 
-Driveways/culverts.[Repealed 12-10-1987 by L.L. No. 7-1987]
+(1) Gardening. Gardening in the minimum activity setback area only, where otherwise in accordance with applicable state and local laws and ordinances and where a buffer strip of at least 20 feet is maintained immediately adjacent to any controlled area.
 
-Detection of problems. The application of nonpolluting chemicals and dyes for the purpose of detecting problems in the maintenance of controlled areas or for wetland research.
+(2) Minor deposition/removal of material. Deposition, removal, excavation or grading of material from controlled or minimum activity setback areas when such deposition or removal of material is less than seven cubic yards over a one-year period.[Amended 12-10-1987 by L.L. No. 7-1987]
 
-Clearing of small trees. Clearing of brush or trees where such cutting would encompass an area no greater than 1/4 acre.
+(3) Driveways/culverts.[Repealed 12-10-1987 by L.L. No. 7-1987]
 
-Miscellaneous activities. Other activities which do not require a subdivision, site plan or other special permit approval and which involve less than 10 cubic yards of earthwork.[Amended 12-10-1987 by L.L. No. 7-1987]
+(4) Detection of problems. The application of nonpolluting chemicals and dyes for the purpose of detecting problems in the maintenance of controlled areas or for wetland research.
 
-Minor accessory buildings or structures. The addition of accessory buildings or structures of no more than 100 square feet in a minimum activity setback area which use hand-dug foundations for their construction.[Added 12-10-1987 by L.L. No. 7-1987]
+(5) Clearing of small trees. Clearing of brush or trees where such cutting would encompass an area no greater than 1/4 acre.
 
-Existing buildings. The additions or alterations to existing residential structures and their accessory buildings of less than 500 square feet in a minimum activity setback area which do not have a significant impact on the functions of the adjacent wetlands[Added 12-10-1987 by L.L. No. 7-1987]
+(6) Miscellaneous activities. Other activities which do not require a subdivision, site plan or other special permit approval and which involve less than 10 cubic yards of earthwork.[Amended 12-10-1987 by L.L. No. 7-1987]
 
-Activities permitted by wetlands activity permit. The following activities are expressly prohibited within a controlled area or minimum activity setback without a wetlands activity permit issued pursuant to Article V of this chapter:
+(7) Minor accessory buildings or structures. The addition of accessory buildings or structures of no more than 100 square feet in a minimum activity setback area which use hand-dug foundations for their construction.[Added 12-10-1987 by L.L. No. 7-1987]
 
-Deposition/removal in controlled or minimum activity setback areas. Deposition or removal of material from controlled or minimum activity setback areas when such deposition or removal of material is greater than seven cubic yards over a one-year period.
+(8) Existing buildings. The additions or alterations to existing residential structures and their accessory buildings of less than 500 square feet in a minimum activity setback area which do not have a significant impact on the functions of the adjacent wetlands[Added 12-10-1987 by L.L. No. 7-1987]
 
-Drainage/alterations in controlled areas. Draining or altering of any controlled area except for agriculture purposes allowed under § 63-8B(6).
+D. Activities permitted by wetlands activity permit. The following activities are expressly prohibited within a controlled area or minimum activity setback without a wetlands activity permit issued pursuant to Article V of this chapter:
 
-Alteration of waterways. Alteration of natural drainage systems and/or the velocity, volume, temperature or direction of any wetland or water body.
+(1) Deposition/removal in controlled or minimum activity setback areas. Deposition or removal of material from controlled or minimum activity setback areas when such deposition or removal of material is greater than seven cubic yards over a one-year period.
 
-Construction. Construction of buildings, structures, roads, dams, water-control devices, pilings, bridges, tennis courts, swimming pools, decks, docks and wells other than those allowed in § 63-8C.[Amended 12-10-1987 by L.L. No. 7-1987]
+(2) Drainage/alterations in controlled areas. Draining or altering of any controlled area except for agriculture purposes allowed under § 63-8B(6).
 
-Pollution. Pollution from any point or non-point source into any controlled area or minimum activity setback.
+(3) Alteration of waterways. Alteration of natural drainage systems and/or the velocity, volume, temperature or direction of any wetland or water body.
 
-Clear cutting. Clear cutting of trees, as defined in § 63-3.
+(4) Construction. Construction of buildings, structures, roads, dams, water-control devices, pilings, bridges, tennis courts, swimming pools, decks, docks and wells other than those allowed in § 63-8C.[Amended 12-10-1987 by L.L. No. 7-1987]
 
-Grazing. Grazing of horses or other animals for nonagricultural purposes.
+(5) Pollution. Pollution from any point or non-point source into any controlled area or minimum activity setback.
 
-Manure storage. Storage of manure.
+(6) Clear cutting. Clear cutting of trees, as defined in § 63-3.
 
-Application of chemicals. Application or addition of any algaecide, herbicide or other growth-regulating agent, both aqueous and nonaqueous, unless such activities have been properly licensed or permitted by the appropriate state agencies having jurisdiction over such activities. Copies of any such licenses or permits shall be filed with the Commission prior to undertaking any such activities.
+(7) Grazing. Grazing of horses or other animals for nonagricultural purposes.
 
-Miscellaneous. Activities not specifically noted above which impair the functions of any wetland area in the judgment of the Commission.
+(8) Manure storage. Storage of manure.
+
+(9) Application of chemicals. Application or addition of any algaecide, herbicide or other growth-regulating agent, both aqueous and nonaqueous, unless such activities have been properly licensed or permitted by the appropriate state agencies having jurisdiction over such activities. Copies of any such licenses or permits shall be filed with the Commission prior to undertaking any such activities.
+
+(10) Miscellaneous. Activities not specifically noted above which impair the functions of any wetland area in the judgment of the Commission.
 
 
 
@@ -201,133 +244,189 @@ Miscellaneous. Activities not specifically noted above which impair the function
 
 s activity or administrative permit under this chapter shall be obtained from the Town Engineer, and shall include the following information:
 
-Name/address. The name, address and telephone number of applicant, and, if the applicant is not the owner, the written consent of the owner must be attached.
+A. Name/address. The name, address and telephone number of applicant, and, if the applicant is not the owner, the written consent of the owner must be attached.
 
-Tax Map designation. The street address and Tax Map designation of property involved.
+B. Tax Map designation. The street address and Tax Map designation of property involved.
 
-List of property owners. A list of adjacent and nearby property owners within 500 feet of the perimeter of the subject property be notified.[Amended 12-8-2016 by L.L. No. 2-2016]
+C. List of property owners. A list of adjacent and nearby property owners within 500 feet of the perimeter of the subject property be notified.[Amended 12-8-2016 by L.L. No. 2-2016]
 
-Plans/specifications. Detailed plans and specifications for the proposed wetlands activity, drawn to a scale of not smaller than one inch equals 50 feet, showing the following
+D. Plans/specifications. Detailed plans and specifications for the proposed wetlands activity, drawn to a scale of not smaller than one inch equals 50 feet, showing the following
 
-Location of wetlands, minimum activity setback area and disturbed areas. The location of the construction area proposed to be disturbed and its relation to property lines, buildings, roads, controlled areas and watercourses within 250 feet.[Amended 12-10-1987 by L.L. No. 7-1987]
+(1) Location of wetlands, minimum activity setback area and disturbed areas. The location of the construction area proposed to be disturbed and its relation to property lines, buildings, roads, controlled areas and watercourses within 250 feet.[Amended 12-10-1987 by L.L. No. 7-1987]
 
-Quantity of material. Estimated quantities of material to be deposited or removed.
+(2) Quantity of material. Estimated quantities of material to be deposited or removed.
 
-Location of wells/septics. The location of any well and depth thereof and of any waste disposal system within 250 feet of the proposed operation or project.
+(3) Location of wells/septics. The location of any well and depth thereof and of any waste disposal system within 250 feet of the proposed operation or project.
 
-Drainage system details. The details of any drainage system proposed both for the construction process of the system and the final development and maintenance of the system.
+(4) Drainage system details. The details of any drainage system proposed both for the construction process of the system and the final development and maintenance of the system.
 
-Construction details/deposition of spoil. Where creation or enlargement of a lake or pond is proposed, details of the construction of any dams, embankments, outlets or other water-control devices and of deposition of the spoil material.
+(5) Construction details/deposition of spoil. Where creation or enlargement of a lake or pond is proposed, details of the construction of any dams, embankments, outlets or other water-control devices and of deposition of the spoil material.
 
-List of affected functions. A list of all beneficial functions of the wetland which will be affected by the application.
+(6) List of affected functions. A list of all beneficial functions of the wetland which will be affected by the application.
 
-Details of protection procedure. A diagram showing what erosion controls will be installed and a schedule for their installation and maintenance.
+(7) Details of protection procedure. A diagram showing what erosion controls will be installed and a schedule for their installation and maintenance.
 
-Construction schedule. A schedule of the construction activities to occur under the requested wetlands activity permit[Added 12-10-1987 by L.L. No. 7-1987]
+(8) Construction schedule. A schedule of the construction activities to occur under the requested wetlands activity permit[Added 12-10-1987 by L.L. No. 7-1987]
 
-SEQR form. A completed environmental assessment form (EAF) for the proposed activities requested under the wetlands activity permit.[Added 12-10-1987 by L.L. No. 7-1987]
+(9) SEQR form. A completed environmental assessment form (EAF) for the proposed activities requested under the wetlands activity permit.[Added 12-10-1987 by L.L. No. 7-1987]
+
+§ 63-10 Additional information.
 
 Applications may, in addition to the items listed in § 63-9 herein, be required to include existing and adjusted contours at two-foot intervals in the area of the proposed operation or project and to a distance of 50 feet beyond said operation or project when the Commission or Town Engineer feels that the inclusion of such information is necessary to the proper evaluation of the application. The Commission or Town Engineer shall notify the applicant within 45 days of receipt of an application if such additional information is necessary.
 
+§ 63-11 Fees.
+
 Each application shall be accompanied by an application fee, as set from time to time. No application shall be considered complete by the Commission or the Town Engineer until the application fee has been received by the Town.
+
+§ 63-12 Impacts upstream and downstream.
 
 Applications affecting the water retention capacity, water flow or other drainage characteristics of any pond, lake, reservoir, natural drainage system or wetland shall include a statement and numerical calculations of the impact of the project on upstream and downstream areas giving appropriate consideration to other than normal levels of watercourses and amounts of rainfall, specifically the one-hundred-year storm.
 
+§ 63-13 Miscellaneous information.
+
 Applications should also contain such other design specifications, engineering studies or impact considerations as the approval authority may deem necessary.
+
+§ 63-14 Burden of proof.
 
 The applicant shall provide any other information the applicant feels is necessary to demonstrate that the proposed activity is not adverse to the general health, safety or economic and general welfare of the residents of Pound Ridge.
 
+§ 63-15 Distribution of copies.
+
 Four completed copies of the application, together with four copies of the specified supporting plans and documentation, including an environmental clearance form or environmental assessment form where necessary, shall be filed with the Town Engineer, who shall retain one copy and forward three copies to the Commission. Applications under this chapter involving subdivision, site development plan or special permit approval by the Planning Board or Town Board shall be submitted concurrently with the application for such preliminary subdivision approval, site development plan approval or special permit approval.
+
+§ 63-16 Plans requiring professional preparation.
 
 Plans and specifications for all applications requiring Commission approval shall be prepared and certified by an engineer, landscape architect or architect licensed by the State of New York.
 
+§ 63-17 Plans not requiring professional preparation.
+
 Plans and specifications for applications requiring approval of the Town Engineer need not be prepared and certified by a licensed practitioner but shall be neat, complete, fully definitive of all details of the proposed operation or project and capable of reproduction.
+
+§ 63-18 Public hearing.
 
 Following receipt of an application determined by the Water Control Commission to be complete, the Commission may call a public hearing on any application and shall call a public hearing where requested by the applicant or where required by other applicable statutes.
 
+§ 63-19 Notice of public hearing.
+
 Notice of hearings shall be given in the same manner as prescribed for the approval of plats and the Applicant shall notify all property owners of record as listed in accordance with § 63-9C. Such service shall be made by mail and shall be made at least 14 days before the date set for the hearing.
+
+§ 63-20 Withdrawal and refund conditions.
 
 Any applicant may withdraw his/her application at any time prior to the Commission's final action on it. Any application fee paid by the applicant, as outlined in § 63-11 of this chapter, shall not be refunded to any applicant who so withdraws his/her application, except where insubstantial review has been completed by the Commission.
 
+§ 63-21 Written decisions.
+
 Within 45 days from the close of any public hearing pursuant to § 63-18 hereof or in accordance with the time schedules established under SEQR, where applicable, the Commission shall render a written decision to approve, deny or approve with modifications the application, giving due consideration to the findings and recommendations of the Town Engineer, where appropriate. Such decision shall include a statement of findings upon which the Commission has relied in its decision. In approving any application, the Commission may impose such conditions as it determines necessary to ensure compliance with the intent and purposes of this chapter. The Commission shall file a copy of its decision with the Town Engineer as authorization to issue a permit.
+
+§ 63-22 Notification of Planning Board.
 
 When the proposed scope of work affects lands requiring subdivision approval by the Planning Board, the Water Control Commission shall render its determination to the Planning Board within time limits specified by the Planning Board as being necessary to comply with the Land Development Regulations.[1] Failure to render a decision within the time limits set forth shall not be deemed an approval of the application. However, failure to render a decision within said time limit shall not prevent the Planning Board from rendering its determination on the subdivision.
 
+§ 63-23 Standards for permit decisions.
+
 In granting, denying or granting a permit with conditions, the Commission shall consider the following:
 
-Evidence: all evidence offered at or before any public hearing.
+A. Evidence: all evidence offered at or before any public hearing.
 
-Reports: any reports from other commissions and/or federal, state or Town agencies.
+B. Reports: any reports from other commissions and/or federal, state or Town agencies.
 
-Requested information: additional requested information.
+C. Requested information: additional requested information.
 
-Other data: all relevant facts and circumstances, including but not limited to the following
+D. Other data: all relevant facts and circumstances, including but not limited to the following
 
-Environmental impact. The environmental impact of the proposed action.
+(1) Environmental impact. The environmental impact of the proposed action.
 
-Alternatives. The alternatives to the proposed action.
+(2) Alternatives. The alternatives to the proposed action.
 
-Health and safety. Whether the proposed action will have a deleterious effect on the general health, safety or economic and general welfare of the residents of Pound Ridge or its neighboring communities.
+(3) Health and safety. Whether the proposed action will have a deleterious effect on the general health, safety or economic and general welfare of the residents of Pound Ridge or its neighboring communities.
 
-Wetland safeguards. Whether the proposed action will have adequate safeguards for the protection and preservation of the environment and proper maintenance of any affected ponds or controlled areas, including lakes, reservoirs, natural drainage systems and wetlands and the natural functions of and the benefits derived from such areas.
+(4) Wetland safeguards. Whether the proposed action will have adequate safeguards for the protection and preservation of the environment and proper maintenance of any affected ponds or controlled areas, including lakes, reservoirs, natural drainage systems and wetlands and the natural functions of and the benefits derived from such areas.
 
-Groundwater safeguards. Whether the proposed action will have adequate safeguards employing the best available technology to protect the potable fresh surface and ground water supplies of the Town from drought, pollution, overuse and other forms of misuse.
+(5) Groundwater safeguards. Whether the proposed action will have adequate safeguards employing the best available technology to protect the potable fresh surface and ground water supplies of the Town from drought, pollution, overuse and other forms of misuse.
 
-Environmental protection. Whether the proposed action has been planned, designed or constructed so as to create minimal disturbance; to prevent or mitigate damage from erosion, turbidity or siltation; to preserve the natural flora and fauna and their habitat; to protect against flood and pollution of the controlled area affected; and to protect any other benefits of wetland as discussed in Article I and is the best alternative available for the proposed action.
+(6) Environmental protection. Whether the proposed action has been planned, designed or constructed so as to create minimal disturbance; to prevent or mitigate damage from erosion, turbidity or siltation; to preserve the natural flora and fauna and their habitat; to protect against flood and pollution of the controlled area affected; and to protect any other benefits of wetland as discussed in Article I and is the best alternative available for the proposed action.
 
-Alternative sites. There is no practicable alternative site for the proposed activity in an area of the subject property which is not a freshwater wetland.
+(7) Alternative sites. There is no practicable alternative site for the proposed activity in an area of the subject property which is not a freshwater wetland.
 
-New York State land use standards. The proposed action is in compliance with the standards set forth in 6 NYCRR 665.7(e) and (g).
+(8) New York State land use standards. The proposed action is in compliance with the standards set forth in 6 NYCRR 665.7(e) and (g).
 
-Balance of rights. The extent to which the exercise of property rights and the public benefit derived from such use may or may not outweigh or justify the possible degradation of the inland wetland or watercourse, the interference with the exercise of other property rights and the impairment or endangerment of public health, safety and welfare.
+(9) Balance of rights. The extent to which the exercise of property rights and the public benefit derived from such use may or may not outweigh or justify the possible degradation of the inland wetland or watercourse, the interference with the exercise of other property rights and the impairment or endangerment of public health, safety and welfare.
+
+§ 63-24 Conditions for approval.
 
 No permit shall be issued by the Commission pursuant to this chapter unless the Commission shall find that:
 
-Consistent with legislative intent. The proposed activity is consistent with the legislative intent of this chapter set forth in § 63-2.
+A. Consistent with legislative intent. The proposed activity is consistent with the legislative intent of this chapter set forth in § 63-2.
 
-No alternative. There is no practicable alternative.
+B. No alternative. There is no practicable alternative.
 
-Burden of proof. The applicant shall have the burden of proof of demonstrating that the proposed activity is not adverse to the general health, safety or economic and general welfare of the residents of Pound Ridge or its neighboring communities, that it will not degrade the environment or result in any of the adverse impacts stated in Article I, or that the applicant will otherwise suffer undue hardship if a permit is not issued.
+C. Burden of proof. The applicant shall have the burden of proof of demonstrating that the proposed activity is not adverse to the general health, safety or economic and general welfare of the residents of Pound Ridge or its neighboring communities, that it will not degrade the environment or result in any of the adverse impacts stated in Article I, or that the applicant will otherwise suffer undue hardship if a permit is not issued.
+
+§ 63-25 Granting or denial of permit.
 
 In granting a permit, denying a permit or granting a permit with conditions, the Commission shall state upon the record its reasons for granting or denying such permit. The statement may include discussion of the considerations and criteria listed in §§ 63-23 and 63-24 of this chapter.
 
-Reasons for decision. In denying a permit or denying a permit in part. the Commission shall state upon the record its reasons for denying such permit. The statement may include discussion of the considerations listed in § 63-23 of this chapter.
+A. Reasons for decision. In denying a permit or denying a permit in part. the Commission shall state upon the record its reasons for denying such permit. The statement may include discussion of the considerations listed in § 63-23 of this chapter.
 
-Permission to resubmit. The Commission's statement in denying a permit may include permission to modify, amend or correct the applicant's proposal.
+B. Permission to resubmit. The Commission's statement in denying a permit may include permission to modify, amend or correct the applicant's proposal.
 
-Applicant's recourse. In the event of denial with or without permission to modify, amend or correct, the applicant may submit a new application or may seek judicial review pursuant to § 63-38 of this chapter.
+C. Applicant's recourse. In the event of denial with or without permission to modify, amend or correct, the applicant may submit a new application or may seek judicial review pursuant to § 63-38 of this chapter.
 
-Rejection of modified proposal. The rejection of a modified proposal shall be equivalent to a denial of an application for the purposes of § 63-38 of this chapter.
+D. Rejection of modified proposal. The rejection of a modified proposal shall be equivalent to a denial of an application for the purposes of § 63-38 of this chapter.
 
-Public acquisition of wetlands. Duly filed notice, in writing, that the state or any agency or subdivision thereof is in the process of acquiring any freshwater wetlands by negotiation or condemnation shall be sufficient basis for denial of any permit.
+E. Public acquisition of wetlands. Duly filed notice, in writing, that the state or any agency or subdivision thereof is in the process of acquiring any freshwater wetlands by negotiation or condemnation shall be sufficient basis for denial of any permit.
+
+§ 63-26 Expiration.
 
 No permit shall be valid for more than one year after approval of an application by the Commission. All permits shall expire upon the completion of the acts specified therein. The validity of any acts of work duly completed pursuant to an existing permit shall not be affected by the expiration of the aforesaid permit, but such work shall not be continued beyond the expiration date. Permits may be renewed by the Commission or Town Engineer, respectively, upon application submitted at least 60 days before the expiration of the permit. Standards for issuance of renewals shall be the same as for the issuance of permits. Permits, including all of their conditions, shall be binding on successors and assignees of the permit holder.
 
+§ 63-27 Performance or rehabilitation bond.
+
 To insure compliance with the terms and conditions set forth in the permit or the restoration of protected wetlands and their functions, the Water Control Commission, at its discretion and when deemed necessary for the protection of the interests of the Town or property owners affected by a project, may require the applicant or his contractor or agent to file a bond in an amount satisfactory to the Town Engineer and the Commission. Such bond shall be in a form satisfactory to the Town Attorney, or, in the alternative, the applicant shall make a cash deposit with the Commission in said amount. In the event that materials are to be removed from the site, the applicant shall be required to obtain from the Town Board a special permit for the excavation and removal of materials under the Zoning Ordinance of the Town of Pound Ridge.[1] The performance or rehabilitation bond provided for herein shall be in addition to any bond which may be required by the Town Board in connection with the excavation and transportation of materials.
+
+§ 63-28 Insurance.
 
 Furthermore, the applicant may be required to certify that she/he has insurance against liability which might result from the proposed operation or use covering any and all damages which might occur within three years of completion of such operations, in an amount to be determined by the Commission commensurate with the projected operation.
 
+§ 63-29 Hours of operation.
+
 Permits shall specify the permitted days and hours of operation and the type of equipment to be used.
+
+§ 63-30 Other permits and approvals.
 
 The issuance of any permit by the Commission pursuant to this chapter does not remove the obligation to acquire any other permits or approvals required by law.
 
+§ 63-31 Information for Fire Department.
+
 Upon the completion of any new lake, pond or other source of water suitable for fire fighting, the Commission shall forward a vicinity sketch and information as to the size, accessways and estimated water volume of such body of water to the Fire Department of the fire district serving the affected premises.
+
+§ 63-32 Discretionary waiver.
 
 For those wetlands not shown on the State Freshwater Wetlands Map, the Water Control Commission may waive the specified requirements in any individual case where, in the Commission's judgment, such waiver is in the public interest. Such waiver must appear on the records of the Commission, together with the reasons therefor. No waivers shall be granted which will have the effect of nullifying the intent and purpose of these regulations or other applicable Town, state or federal regulations. In granting any waiver, the Commission shall attach such conditions as are necessary, in its judgment, to secure substantially the objectives of the standards or requirements so waived.
 
+§ 63-33 Inspections.
+
 The Commission or its agents may inspect any work conducted under a permit issued in conjunction with this chapter. The information gathered at these inspections can be used as the basis for a suspension or revocation of the permit.
 
-Stop-work order. The Building Inspector and/or the Town Engineer may issue a stop-work order whenever he deems that a violation of this chapter has occurred. The issuance of a stop-work order shall mandate a review by the Commission on the revocation of the permit. The stop-work order shall remain in effect until the Commission's decision on revocation.[Amended 4-9-1998]
+§ 63-34 Stop-work orders; suspension or revocation of permits.
 
-Suspension and revocation. The Commission may suspend or revoke a permit issued pursuant to this chapter after a public hearing on five days' written notice mailed to the applicant's address, return receipt requested, where it finds that the permittee has not complied with any or all terms of such permit, has exceeded the authority granted in the permit or has failed to undertake the project in the manner set forth in the application. A new permit will be required for the completion of work started under a permit that has been subsequently revoked.
+A. Stop-work order. The Building Inspector and/or the Town Engineer may issue a stop-work order whenever he deems that a violation of this chapter has occurred. The issuance of a stop-work order shall mandate a review by the Commission on the revocation of the permit. The stop-work order shall remain in effect until the Commission's decision on revocation.[Amended 4-9-1998]
 
-Written reasons for suspension and revocation. The Commission shall set forth, in writing, in the file it keeps regarding a permit application its findings and reasons for revoking or suspending a permit pursuant to this section.
+B. Suspension and revocation. The Commission may suspend or revoke a permit issued pursuant to this chapter after a public hearing on five days' written notice mailed to the applicant's address, return receipt requested, where it finds that the permittee has not complied with any or all terms of such permit, has exceeded the authority granted in the permit or has failed to undertake the project in the manner set forth in the application. A new permit will be required for the completion of work started under a permit that has been subsequently revoked.
 
-Revocation of permit in disturbed area. The Commission may require that an area already disturbed by work performed under a permit which has been revoked by the Commission be returned to a natural state by the permit holder.
+C. Written reasons for suspension and revocation. The Commission shall set forth, in writing, in the file it keeps regarding a permit application its findings and reasons for revoking or suspending a permit pursuant to this section.
+
+D. Revocation of permit in disturbed area. The Commission may require that an area already disturbed by work performed under a permit which has been revoked by the Commission be returned to a natural state by the permit holder.
+
+§ 63-35 Notification of completion; submission of as-built plans.
 
 Within 30 days after completion of all work allowed under a permit granted in accordance with this chapter, the applicant shall notify the Building Inspector and/or the Town Engineer of such completion and shall submit as-built drawings, except for work performed under an administrative permit. Within 30 days of such notification and submission, the Building Inspector and/or the Town Engineer, the Commission or their appointed representative shall inspect the work for compliance with all conditions of the permit.
 
+§ 63-36 Certificate of completion.
+
 When all work allowed under a permit is deemed acceptable, the Building Inspector and/or the Town Engineer or Commission shall issue a certificate of completion. which shall be accompanied by cancellation or return of any bond collected for that permit.
+
+§ 63-37 Notification of noncompliance.
 
 When all work allowed under a permit is not deemed acceptable, the Building Inspector and/or the Town Engineer or Commission shall so notify the applicant. The notification of noncompliance shall include a list of all conditions in violation of the terms of the permit and shall specify a time limit for the correction of all items so listed.
 
@@ -337,11 +436,11 @@ When all work allowed under a permit is not deemed acceptable, the Building Insp
 
 or the Town Engineer. Any applicant aggrieved by the action of the Building Inspector and/or the Town Engineer under an administrative approval as provided herein may take an appeal to the Commission within 20 days from the filing of said action with the Town Clerk. Upon receipt of the notice of appeal, the Commission shall, within 20 days, set a time when a hearing on such appeal will be heard under the standards in § 63-23.[Amended 4-9-1998]
 
-Grievance/rehearing. Any applicant aggrieved by the action of the Commission may request, within 30 days, a rehearing of the decision of the Commission, except for a decision rendered on an appeal as allowed in § 63-38A of this chapter. Only one rehearing will be allowed for each application.
+B. Grievance/rehearing. Any applicant aggrieved by the action of the Commission may request, within 30 days, a rehearing of the decision of the Commission, except for a decision rendered on an appeal as allowed in § 63-38A of this chapter. Only one rehearing will be allowed for each application.
 
-Grievance/judicial review. Any applicant aggrieved by any decision of the Commission may apply to the Supreme Court of the State of New York for relief in the manner provided by law or, in the alternative, may appeal to the Freshwater Wetlands Appeal Board pursuant to Title 11 of the Environmental Conservation Law of the State of New York.
+C. Grievance/judicial review. Any applicant aggrieved by any decision of the Commission may apply to the Supreme Court of the State of New York for relief in the manner provided by law or, in the alternative, may appeal to the Freshwater Wetlands Appeal Board pursuant to Title 11 of the Environmental Conservation Law of the State of New York.
 
-Grievance/condemnation. In the event that the court finds the action reviewed constitutes a taking without just compensation and the land so regulated merits protection under this article, the court may, at the election of the Commissioner of the New York State Department of Environmental Conservation or Town Board, respectively, either set aside the order or require the Commissioner or Town Board, respectively, to proceed under the condemnation law to acquire the wetlands or such less than fee rights as have been taken.
+D. Grievance/condemnation. In the event that the court finds the action reviewed constitutes a taking without just compensation and the land so regulated merits protection under this article, the court may, at the election of the Commissioner of the New York State Department of Environmental Conservation or Town Board, respectively, either set aside the order or require the Commissioner or Town Board, respectively, to proceed under the condemnation law to acquire the wetlands or such less than fee rights as have been taken.
 
 
 
@@ -349,26 +448,30 @@ Grievance/condemnation. In the event that the court finds the action reviewed co
 
 Town of Pound Ridge responsible for administering and enforcing this chapter.
 
+§ 63-40 Notice of violation.
+
 Any person found violating any provision of this chapter or the terms and conditions of any permit granted hereunder or any person who owns property on which the violation occurs shall be served with a written notice, at the direction of the Town Engineer, stating the nature of the violation and providing a specific time for the satisfactory correction thereof.
+
+§ 63-41 Personal liability.
 
 Any person or persons violating any provision of this chapter or the terms and conditions of any permit granted hereunder or any person who owns property on which the violation occurs shall be liable to the Town of Pound Ridge for any expense, loss or damage incurred by the Town by reason of such violation.
 
+§ 63-42 Penalties for offenses.
+
 Pursuant to Title 23 of Article 71 of the Environmental Conservation Law, the following penalties shall apply:
 
-Civil penalties. Any person or persons who violate, disobey or disregard any provision of this chapter or any person who owns property on which the violation occurs shall be liable for a civil penalty not to exceed $3,000 for every such violation. Before assessment of the civil penalty, the alleged violator shall be afforded a hearing or opportunity to be heard before the Commission upon due notice and with rights, to specification of the charges and representation by counsel.
+A. Civil penalties. Any person or persons who violate, disobey or disregard any provision of this chapter or any person who owns property on which the violation occurs shall be liable for a civil penalty not to exceed $3,000 for every such violation. Before assessment of the civil penalty, the alleged violator shall be afforded a hearing or opportunity to be heard before the Commission upon due notice and with rights, to specification of the charges and representation by counsel.
 
-Restoration following violation. The Commission shall also have the power, following a hearing, to direct a violator to cease violation of this chapter and to, under the Commission's supervision, satisfactorily restore the affected controlled area and minimum activity setback area to its condition prior to the violation, insofar as that is possible, within a reasonable time and under the supervision of the Commission. Exercising of such power may be with or without the imposition of a fine under Subsection A hereof.
+B. Restoration following violation. The Commission shall also have the power, following a hearing, to direct a violator to cease violation of this chapter and to, under the Commission's supervision, satisfactorily restore the affected controlled area and minimum activity setback area to its condition prior to the violation, insofar as that is possible, within a reasonable time and under the supervision of the Commission. Exercising of such power may be with or without the imposition of a fine under Subsection A hereof.
 
-Article 78 Review. Any civil penalty or order issued by the Commission shall be renewable pursuant to Article 78 of the Civil Practice Law and Rules.
+C. Article 78 Review. Any civil penalty or order issued by the Commission shall be renewable pursuant to Article 78 of the Civil Practice Law and Rules.
 
-Fines. In addition to the above civil fine any person who violates any provision of this chapter shall be guilty of a violation pursuant to the Environmental Conservation Law, punishable by a fine of not less than $500 nor more than $1,000. For a second and each subsequent offense, the violator shall be guilty of a misdemeanor punishable by a fine of not less than $1,000 nor more than $2,000 or a term of imprisonment of not less than 15 days nor more than six months, or both. Each offense shall be a separate and distinct offense and, in the case of a continuing offense, each day's continuance thereof shall be deemed a separate and distinct offense. Instead of these punishments, any offender may be punished by being ordered by the court to restore the affected freshwater wetland to its condition prior to the offense, insofar as that is possible. The court shall specify a reasonable time for the completion of such restoration, which shall be effected under the supervision of the Commission.
+D. Fines. In addition to the above civil fine any person who violates any provision of this chapter shall be guilty of a violation pursuant to the Environmental Conservation Law, punishable by a fine of not less than $500 nor more than $1,000. For a second and each subsequent offense, the violator shall be guilty of a misdemeanor punishable by a fine of not less than $1,000 nor more than $2,000 or a term of imprisonment of not less than 15 days nor more than six months, or both. Each offense shall be a separate and distinct offense and, in the case of a continuing offense, each day's continuance thereof shall be deemed a separate and distinct offense. Instead of these punishments, any offender may be punished by being ordered by the court to restore the affected freshwater wetland to its condition prior to the offense, insofar as that is possible. The court shall specify a reasonable time for the completion of such restoration, which shall be effected under the supervision of the Commission.
+
+§ 63-43 Judicial proceedings and injunctions.
 
 Notwithstanding the penalties hereinabove provided, the Town of Pound Ridge may maintain an action or proceeding in a court of competent jurisdiction to compel compliance with or to restrain by injunction the violation of any provision of this chapter or any permit granted hereunder.
 
+§ 63-44 Additional remedies.
+
 The foregoing provisions for the enforcement of this chapter are not exclusive but are in addition to any and all rights and remedies of the Town of Pound Ridge at law or in equity to restrain violations or threatened violations of this chapter and to obtain damages therefor.
-
-
-
-=== Article VIII ===
-
-Town of Pound Ridge or any law of the State of New York or political subdivisions thereof, the provisions of the more restrictive law shall apply. It is the intent of the Town Board to repeal Chapter 63 of the Town Code simultaneously with the adoption of this chapter.[1]

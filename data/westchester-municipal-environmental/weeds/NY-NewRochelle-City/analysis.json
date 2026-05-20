@@ -1,16 +1,16 @@
 {
-  "id": "NY-NewRochelle-City-weeds-1778856983718",
-  "municipality": {
+  "id": "NY-NewRochelle-City-weeds-1779299183472",
+  "entityId": "NY-NewRochelle-City",
+  "domainId": "weeds",
+  "entity": {
     "id": "NY-NewRochelle-City",
     "displayName": "New Rochelle - City"
   },
   "domain": {
     "id": "weeds",
-    "displayName": "Weeds"
+    "displayName": "Weed Management"
   },
-  "grades": {
-    "WEN": "R-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": "1",
@@ -71,8 +71,8 @@
     }
   ],
   "scores": {
-    "overallScore": 3.83,
-    "normalizedScore": 3.83,
+    "overallScore": 3.33,
+    "normalizedScore": 3.33,
     "averageConfidence": 59,
     "questionsAnswered": 3,
     "totalQuestions": 5,
@@ -84,15 +84,13 @@
         0.85,
         0.1
       ],
-      "averageQuestionScore": 0.44000000000000006,
-      "weightedScore": 0.3833,
-      "totalWeightedScore": 2.3000000000000003,
+      "averageQuestionScore": 0.44,
+      "weightedScore": 0.3333,
+      "totalWeightedScore": 2,
       "totalPossibleWeight": 6,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-          "answer": "Residents must ensure that no growth of weeds, grass, or other rank vegetation exceeds a height of six inches. They must also prevent the growth of poisonous plants like poison ivy and ragweed in a manner that does not allow them to overhang public spaces or let pollen or other particles travel through the air into public spaces. It is the duty of the property owner, lessee, or occupant to cut and remove these plants as needed.",
           "score": 0.65,
           "weight": 1,
           "weightedScore": 0.65,
@@ -101,18 +99,14 @@
         },
         {
           "id": "2",
-          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
           "confidence": 20
         },
         {
           "id": "3",
-          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
-          "answer": "Yes, the property maintenance law applies to areas between the property line and the curb, including the sidewalk or street adjacent to the property.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -121,8 +115,6 @@
         },
         {
           "id": "4",
-          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
-          "answer": "Penalties for failing to comply with property maintenance regulations include a fine of up to $2,500 for the first offense and up to $5,000 for a second or subsequent offense within three years. Additionally, violators may face imprisonment for up to 15 days. Each day a violation continues is considered a separate violation.",
           "score": 0.85,
           "weight": 1,
           "weightedScore": 0.85,
@@ -131,25 +123,21 @@
         },
         {
           "id": "6",
-          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 20
         }
       ]
     }
   },
-  "overallScore": 3.83,
+  "overallScore": 3.33,
   "averageConfidence": 59,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2026-05-15T14:56:23.718Z",
+  "lastUpdated": "2026-05-20T17:46:23.472Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3.83,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.532Z",
-  "domainId": "weeds"
+  "sources": []
 }

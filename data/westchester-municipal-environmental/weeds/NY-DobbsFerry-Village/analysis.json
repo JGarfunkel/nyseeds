@@ -1,16 +1,16 @@
 {
-  "id": "NY-DobbsFerry-Village-weeds-1778856982824",
-  "municipality": {
+  "id": "NY-DobbsFerry-Village-weeds-1779299138647",
+  "entityId": "NY-DobbsFerry-Village",
+  "domainId": "weeds",
+  "entity": {
     "id": "NY-DobbsFerry-Village",
     "displayName": "Dobbs Ferry - Village"
   },
   "domain": {
     "id": "weeds",
-    "displayName": "Weeds"
+    "displayName": "Weed Management"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": "1",
@@ -59,8 +59,8 @@
     }
   ],
   "scores": {
-    "overallScore": 1,
-    "normalizedScore": 1,
+    "overallScore": 0.17,
+    "normalizedScore": 0.17,
     "averageConfidence": 0,
     "questionsAnswered": 1,
     "totalQuestions": 5,
@@ -73,14 +73,12 @@
         0.1
       ],
       "averageQuestionScore": 0.1,
-      "weightedScore": 0.1,
-      "totalWeightedScore": 0.6,
+      "weightedScore": 0.0167,
+      "totalWeightedScore": 0.1,
       "totalPossibleWeight": 6,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-          "answer": "The statute does not specify any property maintenance requirements specifically related to weeds.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
@@ -89,55 +87,45 @@
         },
         {
           "id": "2",
-          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
           "confidence": 0.1
         },
         {
           "id": "3",
-          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0.1
         },
         {
           "id": "4",
-          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0.1
         },
         {
           "id": "6",
-          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0.1
         }
       ]
     }
   },
-  "overallScore": 1,
+  "overallScore": 0.17,
   "averageConfidence": 0,
   "questionsAnswered": 1,
   "totalQuestions": 5,
-  "lastUpdated": "2026-05-15T14:56:22.825Z",
+  "lastUpdated": "2026-05-20T17:45:38.647Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.496Z",
-  "domainId": "weeds"
+  "sources": []
 }

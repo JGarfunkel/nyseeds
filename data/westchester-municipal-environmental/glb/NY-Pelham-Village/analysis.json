@@ -1,8 +1,16 @@
 {
-  "id": "NY-Pelham-Village-glb-1778856980305",
-  "municipality": "NY-Pelham-Village",
-  "domain": "glb",
-  "analyzedAt": "2025-09-09T20:05:55.032Z",
+  "id": "NY-Pelham-Village-glb-1779296879333",
+  "entityId": "NY-Pelham-Village",
+  "domainId": "glb",
+  "entity": {
+    "id": "NY-Pelham-Village",
+    "displayName": "Pelham - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Gas Leaf Blowers"
+  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
@@ -27,74 +35,99 @@
     {
       "id": 3,
       "question": "What are the penalties for violating gas leaf blower regulations?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:05:52.115Z"
+      "answer": "Violations of Article V are subject to penalties set forth in Article III of Chapter 1 of the Code of the Village of Pelham (§ 68-19). Both the property owner (as defined in § 54-8 of Chapter 54) and the landscaper, gardener, contractor, or any other person who violates the article or is an accessory to the violation are liable. The specific penalty amounts are not detailed within the provided statute text but are referenced by cross-reference to Chapter 1, Article III of the Village Code.",
+      "confidence": 60,
+      "sourceRefs": [
+        "§ 68-19 (Amended 10-12-2022 by L.L. No. 8-2022)"
+      ],
+      "gap": "The statute cross-references penalty amounts in Chapter 1, Article III rather than specifying escalating fines (e.g., written warning, $250, $500, $1,000). Best practice calls for explicitly stated, escalating fines within the regulation itself, with per-day non-compliance penalties. This statute does not specify fine amounts, escalation structure, or per-day penalties in the provided text.",
+      "score": 0.3,
+      "nextPrompts": [
+        "What specific fine amounts and escalation schedule are set forth in Article III of Chapter 1 of the Village of Pelham Code?",
+        "Does the Village of Pelham Code specify per-day penalties for continued non-compliance with gas leaf blower regulations?"
+      ]
     },
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:05:52.953Z"
+      "answer": "The statute does not include exceptions for school, government, or commercial properties. The only exception to standard restrictions is for emergency situations (§ 68-20), where the Mayor or Village Administrator may suspend any provisions of Article V for 24-hour periods when an emergency is determined to exist. Additionally, residents operating on their own property have a limited Sunday exception (12:00 p.m. to 4:00 p.m.) under § 68-17C. No property-type-based exemptions are specified.",
+      "confidence": 92,
+      "sourceRefs": [
+        "§ 68-20 Emergency situations",
+        "§ 68-17C"
+      ],
+      "gap": "The statute lacks best-practice exceptions for school district properties, municipal properties, and utility/emergency repair work. There are no provisions limiting exceptions to operations beyond 100 feet from residences, no permit-based exemptions, and no carve-outs for municipally sponsored events or public safety maintenance work.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does the Village of Pelham have any separate ordinances or administrative codes that provide exceptions for municipal or school district maintenance operations?",
+        "Has the Village of Pelham considered or proposed amendments to add property-type exceptions or permit-based exemptions for gas-powered leaf blower use?"
+      ]
     },
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:05:53.729Z"
+      "answer": "Under § 68-19, both the property owner (as defined in § 54-8 of Chapter 54 of the Village Code) and the landscaper, gardener, contractor, or any other person who violates the article — or is an accessory to the violation — are liable. Penalties are set forth in Article III of Chapter 1 of the Village of Pelham Code. The statute holds multiple parties accountable simultaneously, meaning the property owner where the violation occurred and the individual performing the work can both be cited.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 68-19 Enforcement, Village of Pelham Code, amended 10-12-2022 by L.L. No. 8-2022"
+      ],
+      "gap": "The statute does not specify which enforcement authority (e.g., police, code enforcement officers) is responsible for issuing violations, nor does it require written notification to property owners for repeated violations. No designated enforcement agency or reporting mechanism is identified.",
+      "score": 0.5,
+      "nextPrompts": [
+        "What are the specific penalties outlined in Article III of Chapter 1 of the Village of Pelham Code for violations of this article?",
+        "Which Village department or officer is designated to enforce Chapter 68 violations in Pelham?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:05:54.304Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 95,
+      "sourceRefs": [
+        "§ 68-17",
+        "§ 68-16"
+      ],
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include any educational requirements, community outreach, or guidelines encouraging these practices. Best practice recommends municipalities explicitly promote ecological advantages such as soil enrichment and habitat creation through informational campaigns and mandated guidelines.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Pelham have any separate environmental or sustainability programs that address leaf debris management or mulching?",
+        "Has the Village of Pelham considered amending its ordinance to include provisions encouraging leaf mulching as an alternative to leaf blower use?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:05:55.031Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 95,
+      "sourceRefs": [
+        "§ 68-17",
+        "§ 68-16"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 2.71,
-    "normalizedScore": 2.71,
-    "averageConfidence": 24,
-    "questionsAnswered": 2,
+    "overallScore": 3.33,
+    "normalizedScore": 3.33,
+    "averageConfidence": 85,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
         0.45,
         0.75,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1
+        0.3,
+        0.05,
+        0.5,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.2428571428571429,
-      "weightedScore": 0.2708,
-      "totalWeightedScore": 3.25,
+      "averageQuestionScore": 0.29,
+      "weightedScore": 0.3333,
+      "totalWeightedScore": 3.9999999999999996,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "The prohibition of gas-powered leaf blowers lasts from May 1 to October 14 and from December 16 to March 14. It starts on May 1 and ends on March 14 of the following year.",
           "score": 0.45,
           "weight": 4,
           "weightedScore": 1.8,
@@ -103,8 +136,6 @@
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "Gas-powered leaf blowers are permitted to operate from March 15 to April 30 and October 15 to December 15. During these periods, the permitted hours are Monday through Friday from 8:30 a.m. to 5:30 p.m., and Saturday from 10:00 a.m. to 5:00 p.m. All leaf-blower use is prohibited on Sundays, except by residents on their own property between 12:00 p.m. and 4:00 p.m. (§ 68-17).",
           "score": 0.75,
           "weight": 1,
           "weightedScore": 0.75,
@@ -113,67 +144,53 @@
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.3,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0.9,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 60
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.05,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 92
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.5,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.5,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 85
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 95
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 95
         }
       ]
     }
   },
-  "overallScore": 2.71,
-  "averageConfidence": 24,
-  "questionsAnswered": 2,
+  "overallScore": 3.33,
+  "averageConfidence": 85,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "gapAnalysis": "",
-  "wenGrade": "G-",
+  "lastUpdated": "2026-05-20T17:07:59.333Z",
+  "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 2.71,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.263Z",
-  "entityId": "NY-Pelham-Village",
-  "domainId": "glb",
-  "lastUpdated": "2026-05-15T14:56:20.305Z"
+  "sources": []
 }

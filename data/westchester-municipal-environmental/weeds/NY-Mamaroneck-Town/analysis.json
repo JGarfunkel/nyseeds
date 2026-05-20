@@ -1,16 +1,16 @@
 {
-  "id": "NY-Mamaroneck-Town-weeds-1778856983354",
-  "municipality": {
+  "id": "NY-Mamaroneck-Town-weeds-1779299178320",
+  "entityId": "NY-Mamaroneck-Town",
+  "domainId": "weeds",
+  "entity": {
     "id": "NY-Mamaroneck-Town",
     "displayName": "Mamaroneck - Town"
   },
   "domain": {
     "id": "weeds",
-    "displayName": "Weeds"
+    "displayName": "Weed Management"
   },
-  "grades": {
-    "WEN": "R-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": "1",
@@ -67,8 +67,8 @@
     }
   ],
   "scores": {
-    "overallScore": 4.75,
-    "normalizedScore": 4.75,
+    "overallScore": 4.42,
+    "normalizedScore": 4.42,
     "averageConfidence": 67,
     "questionsAnswered": 4,
     "totalQuestions": 5,
@@ -81,14 +81,12 @@
         0.8
       ],
       "averageQuestionScore": 0.55,
-      "weightedScore": 0.475,
-      "totalWeightedScore": 2.8499999999999996,
+      "weightedScore": 0.4417,
+      "totalWeightedScore": 2.6500000000000004,
       "totalPossibleWeight": 6,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-          "answer": "Residents are required to cut, trim, or remove all brush, grass, rubbish, noxious weeds, litter, or other similar unsightly or objectionable material from their property at their own expense.",
           "score": 0.6,
           "weight": 1,
           "weightedScore": 0.6,
@@ -97,18 +95,14 @@
         },
         {
           "id": "2",
-          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
           "confidence": 10
         },
         {
           "id": "3",
-          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
-          "answer": "The law requires maintenance on the property and doesn't explicitly mention extending beyond property lot lines to areas like the curb.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -117,8 +111,6 @@
         },
         {
           "id": "4",
-          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
-          "answer": "Penalties for offenses include a fine of $250 for violations and a civil penalty not to exceed $25 for each violation of certain sections, in addition to fines. Each day the violation continues is considered a separate offense.",
           "score": 0.75,
           "weight": 1,
           "weightedScore": 0.75,
@@ -127,8 +119,6 @@
         },
         {
           "id": "6",
-          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
-          "answer": "The property owner, tenant, or occupant must resolve the violation within a timeframe that is not less than 10 days from the date of receiving a written notice.",
           "score": 0.8,
           "weight": 1,
           "weightedScore": 0.8,
@@ -138,14 +128,12 @@
       ]
     }
   },
-  "overallScore": 4.75,
+  "overallScore": 4.42,
   "averageConfidence": 67,
   "questionsAnswered": 4,
   "totalQuestions": 5,
-  "lastUpdated": "2026-05-15T14:56:23.354Z",
+  "lastUpdated": "2026-05-20T17:46:18.320Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 4.75,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.522Z",
-  "domainId": "weeds"
+  "sources": []
 }

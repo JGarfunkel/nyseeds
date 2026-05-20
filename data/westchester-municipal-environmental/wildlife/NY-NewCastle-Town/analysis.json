@@ -1,5 +1,5 @@
 {
-  "id": "NY-NewCastle-Town-wildlife-1778533102726",
+  "id": "NY-NewCastle-Town-wildlife-1779300849716",
   "entityId": "NY-NewCastle-Town",
   "domainId": "wildlife",
   "entity": {
@@ -8,251 +8,179 @@
   },
   "domain": {
     "id": "wildlife",
-    "displayName": "Wildlife"
+    "displayName": "Wildlife & Habitat"
   },
   "grades": {},
   "questions": [
     {
       "id": 1,
       "question": "What wildlife protection and habitat conservation regulations apply in this area, and how are they enforced?",
-      "answer": "Wildlife protection and habitat conservation regulations are not specifically detailed in the discovered statute excerpts. The relevant local protections identified are environmental/wetland measures: Chapter 137 (Wetlands) established strict regulations for development within 100 feet of wetlands, and Chapter 64 (Environmental Protection Overlay Regulations) expanded wetland buffers to 150 feet in the eastern and western ends of town, added regulations for small wetlands, required a wetland assessment model, and required mitigation for impacts to wetlands and wetland buffers. These overlay zones are enforced as more restrictive development regulations within designated areas. The excerpts also indicate that zoning and subdivision regulations may be used to provide additional protections to sensitive natural areas, but no separate wildlife-specific enforcement mechanism is specified.",
-      "confidence": 78,
-      "sourceRefs": [],
-      "score": 0.3,
-      "vectorResearchSuggestions": [
-        "Town zoning code or subdivision regulations for wildlife habitat protection",
-        "Environmental Protection Overlay Regulations Chapter 64 full text",
-        "Wetlands Chapter 137 enforcement provisions and permit requirements"
-      ],
-      "gap": "{\n    \"recommendation\": \"Consider adding specific wildlife protection regulations that establish clear enforcement mechanisms and standards for habitat conservation beyond wetland areas, such as creating wildlife corridors or protected zones for endangered species.\"\n}"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 2,
       "question": "Are there designated protected habitats, reserves, or conservation areas, and what activities are restricted there?",
-      "answer": "Yes, but the discovered sources do not identify a formally designated protected habitat, reserve, or conservation area by name. They describe \"known important areas for rare animals and rare plants\" and note that New Castle uses zoning tools to preserve open space, including conservation or cluster development zoning, overlay zoning, incentive zoning, and subdivision regulations. The sources also mention riparian buffer revegetation, but they do not specify a legal protected area or list explicit activity restrictions within such areas. Not specified in the statute.",
-      "confidence": 72,
-      "sourceRefs": [],
-      "score": 0.65,
-      "vectorResearchSuggestions": [
-        "New Castle zoning code provisions for conservation or cluster development zoning",
-        "New Castle overlay zoning districts and subdivision regulations",
-        "Town of New Castle conservation board riparian buffer or natural area protection rules"
-      ],
-      "gap": "{\n  \"recommendation\": \"Consider adding explicit definitions and legal designations for protected habitats, reserves, or conservation areas, along with a detailed list of restricted activities within these areas to enhance clarity and enforceability.\"\n}"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 3,
       "question": "Are any wildlife corridors identified, protected, or required in planning, and how are they maintained?",
-      "answer": "Yes. The discovered sources identify wildlife corridors in general rather than naming specific mapped corridors. The Hudson River Estuary Corridor guidance encourages preservation of corridors that connect habitats and protection of large contiguous habitat tracts. It also notes that corridors and other connections among wetlands may be as important as buffers for wildlife populations. Stream buffers and floodplain vegetation are described as maintaining important travel corridors that aid connectivity among habitat patches, and park lands may function as linkages and corridors for wildlife travel. Maintenance is described through preserving and restoring buffer zones, maintaining natural vegetation in floodplains, preserving and restoring stream buffers, curtailing invasive species spread, and, where practicable, expanding park properties to include adjacent natural areas.",
-      "confidence": 78,
-      "sourceRefs": [],
-      "score": 0.3,
-      "vectorResearchSuggestions": [
-        "Town comprehensive plan or natural resources chapter for any mapped wildlife corridor overlays",
-        "Open space, wetlands, and stream buffer regulations for corridor protection standards",
-        "Parkland management plan and invasive species control provisions"
-      ],
-      "gap": "{\n    \"recommendation\": \"Consider adding specific requirements for regular inspections and maintenance schedules for wildlife corridors to ensure compliance and effectiveness in preserving connectivity and habitat quality.\"\n}"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 4,
       "question": "Are there specific protections for amphibians, such as breeding-site safeguards, seasonal restrictions, or migration measures?",
-      "answer": "Not specified in the statute. The discovered sources note that large, forested wetland complexes and vernal pools are important habitat for many amphibians, but they do not set explicit amphibian protections such as breeding-site safeguards, seasonal restrictions, or migration measures. The only migration-related detail found is for Spotted Turtles, which rely on upland habitat corridors to move among wetlands, not amphibians specifically.",
-      "confidence": 78,
-      "sourceRefs": [],
-      "score": 0.65,
-      "vectorResearchSuggestions": [
-        "Town of New Castle wetlands or biodiversity protection provisions",
-        "vernal pool or wetland habitat regulations",
-        "amphibian habitat conservation standards"
-      ],
-      "gap": "{\n  \"recommendation\": \"Consider adding explicit protections for amphibians by establishing breeding-site safeguards, seasonal restrictions, and migration measures to ensure their habitats are preserved and their life cycles are supported.\"\n}"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 5,
       "question": "Are there specific protections for birds, including nesting, roosting, migration, or disturbance limits?",
-      "answer": "Not specified in the statute. The discovered sources identify bird species of conservation concern and note that riparian areas, wetlands, and forests provide habitat for birds, but they do not set specific protections for birds, nesting, roosting, migration, or disturbance limits.",
-      "confidence": 92,
-      "sourceRefs": [],
-      "score": 0.65,
-      "vectorResearchSuggestions": [
-        "Search the municipal code for wildlife disturbance, tree clearing, wetland protection, or habitat conservation provisions",
-        "Search for any bird nesting or migratory bird protection ordinance or local environmental review standards"
-      ],
-      "gap": "{\n    \"recommendation\": \"Consider adding explicit regulations that establish disturbance limits during critical periods such as nesting and migration seasons to protect bird populations.\"\n}"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 6,
       "question": "Are there specific protections for turtles, such as nesting beach protections, road-crossing measures, or harvest bans?",
-      "answer": "Not specified in the statute. The discovered source only notes that eastern box turtles are threatened by habitat loss and fragmentation, vehicle strikes, and collection for the pet trade, but it does not identify any specific legal protections such as nesting beach protections, road-crossing measures, or harvest bans.",
-      "confidence": 92,
-      "sourceRefs": [],
-      "score": 0.5,
-      "vectorResearchSuggestions": [
-        "Municipal wildlife protection ordinance or local code sections on turtles",
-        "Shoreline or beach nesting habitat protection rules",
-        "Road mortality mitigation or wildlife crossing provisions",
-        "Wildlife harvest, collection, or pet trade restrictions"
-      ],
-      "gap": "{\n    \"recommendation\": \"Consider adding specific legal protections for turtles, such as designated nesting beach protections, mandatory road-crossing measures, and explicit harvest bans to address the identified threats.\"\n}"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 7,
       "question": "What biodiversity conservation requirements exist for development, land use, or resource projects in this area?",
-      "answer": "Not specified in the statute. The discovered sources only describe conservation context and planning goals, noting that careful conservation planning should align with the TCP and that steep slopes have limited development and helped protect wetlands, ponds, lakes, streams, and woodlands. They do not state any binding biodiversity conservation requirements for development, land use, or resource projects.",
-      "confidence": 88,
-      "sourceRefs": [],
-      "score": 0.55,
-      "vectorResearchSuggestions": [
-        "Town Comprehensive Plan (TCP) natural resources section",
-        "Town Natural Resources Inventory (NRI)",
-        "Wetlands, steep slopes, and open space regulations"
-      ],
-      "gap": "{\n  \"recommendation\": \"Consider adding specific biodiversity conservation requirements, such as mandatory environmental impact assessments and habitat preservation mandates, for development, land use, or resource projects to ensure alignment with conservation goals.\"\n}"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 8,
       "question": "How are habitat loss, fragmentation, and degradation assessed and minimized before project approval?",
-      "answer": "Not specified in the statute.",
-      "confidence": 92,
-      "sourceRefs": [],
-      "score": 0.1,
-      "vectorResearchSuggestions": [
-        "Town comprehensive plan or zoning code sections on environmental review",
-        "Site plan or subdivision approval standards for habitat protection",
-        "Environmental impact assessment / SEQRA-related local procedures"
-      ],
-      "gap": "{\n  \"recommendation\": \"Consider adding a requirement for comprehensive environmental impact assessments that specifically evaluate habitat loss, fragmentation, and degradation, including mandatory mitigation strategies and public consultation processes before project approval.\"\n}"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     }
   ],
   "scores": {
-    "overallScore": 4.58,
-    "normalizedScore": 4.58,
-    "averageConfidence": 84,
-    "questionsAnswered": 7,
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 0,
+    "questionsAnswered": 8,
     "totalQuestions": 8,
     "scoreBreakdown": {
       "questionScores": [
-        0.3,
-        0.65,
-        0.3,
-        0.65,
-        0.65,
-        0.5,
-        0.55,
-        0.1
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.46249999999999997,
-      "weightedScore": 0.4582,
-      "totalWeightedScore": 3.2075,
+      "averageQuestionScore": 0,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
       "totalPossibleWeight": 7,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What wildlife protection and habitat conservation regulations apply in this area, and how are they enforced?",
-          "answer": "Wildlife protection and habitat conservation regulations are not specifically detailed in the discovered statute excerpts. The relevant local protections identified are environmental/wetland measures: Chapter 137 (Wetlands) established strict regulations for development within 100 feet of wetlands, and Chapter 64 (Environmental Protection Overlay Regulations) expanded wetland buffers to 150 feet in the eastern and western ends of town, added regulations for small wetlands, required a wetland assessment model, and required mitigation for impacts to wetlands and wetland buffers. These overlay zones are enforced as more restrictive development regulations within designated areas. The excerpts also indicate that zoning and subdivision regulations may be used to provide additional protections to sensitive natural areas, but no separate wildlife-specific enforcement mechanism is specified.",
-          "score": 0.3,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.3,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 78
+          "confidence": 0
         },
         {
           "id": "2",
-          "question": "Are there designated protected habitats, reserves, or conservation areas, and what activities are restricted there?",
-          "answer": "Yes, but the discovered sources do not identify a formally designated protected habitat, reserve, or conservation area by name. They describe \"known important areas for rare animals and rare plants\" and note that New Castle uses zoning tools to preserve open space, including conservation or cluster development zoning, overlay zoning, incentive zoning, and subdivision regulations. The sources also mention riparian buffer revegetation, but they do not specify a legal protected area or list explicit activity restrictions within such areas. Not specified in the statute.",
-          "score": 0.65,
+          "score": 0,
           "weight": 0.95,
-          "weightedScore": 0.6174999999999999,
+          "weightedScore": 0,
           "maxWeightedScore": 0.95,
-          "confidence": 72
+          "confidence": 0
         },
         {
           "id": "3",
-          "question": "Are any wildlife corridors identified, protected, or required in planning, and how are they maintained?",
-          "answer": "Yes. The discovered sources identify wildlife corridors in general rather than naming specific mapped corridors. The Hudson River Estuary Corridor guidance encourages preservation of corridors that connect habitats and protection of large contiguous habitat tracts. It also notes that corridors and other connections among wetlands may be as important as buffers for wildlife populations. Stream buffers and floodplain vegetation are described as maintaining important travel corridors that aid connectivity among habitat patches, and park lands may function as linkages and corridors for wildlife travel. Maintenance is described through preserving and restoring buffer zones, maintaining natural vegetation in floodplains, preserving and restoring stream buffers, curtailing invasive species spread, and, where practicable, expanding park properties to include adjacent natural areas.",
-          "score": 0.3,
+          "score": 0,
           "weight": 0.9,
-          "weightedScore": 0.27,
+          "weightedScore": 0,
           "maxWeightedScore": 0.9,
-          "confidence": 78
+          "confidence": 0
         },
         {
           "id": "4",
-          "question": "Are there specific protections for amphibians, such as breeding-site safeguards, seasonal restrictions, or migration measures?",
-          "answer": "Not specified in the statute. The discovered sources note that large, forested wetland complexes and vernal pools are important habitat for many amphibians, but they do not set explicit amphibian protections such as breeding-site safeguards, seasonal restrictions, or migration measures. The only migration-related detail found is for Spotted Turtles, which rely on upland habitat corridors to move among wetlands, not amphibians specifically.",
-          "score": 0.65,
+          "score": 0,
           "weight": 0.8,
-          "weightedScore": 0.52,
+          "weightedScore": 0,
           "maxWeightedScore": 0.8,
-          "confidence": 78
+          "confidence": 0
         },
         {
           "id": "5",
-          "question": "Are there specific protections for birds, including nesting, roosting, migration, or disturbance limits?",
-          "answer": "Not specified in the statute. The discovered sources identify bird species of conservation concern and note that riparian areas, wetlands, and forests provide habitat for birds, but they do not set specific protections for birds, nesting, roosting, migration, or disturbance limits.",
-          "score": 0.65,
+          "score": 0,
           "weight": 0.8,
-          "weightedScore": 0.52,
+          "weightedScore": 0,
           "maxWeightedScore": 0.8,
-          "confidence": 92
+          "confidence": 0
         },
         {
           "id": "6",
-          "question": "Are there specific protections for turtles, such as nesting beach protections, road-crossing measures, or harvest bans?",
-          "answer": "Not specified in the statute. The discovered source only notes that eastern box turtles are threatened by habitat loss and fragmentation, vehicle strikes, and collection for the pet trade, but it does not identify any specific legal protections such as nesting beach protections, road-crossing measures, or harvest bans.",
-          "score": 0.5,
+          "score": 0,
           "weight": 0.8,
-          "weightedScore": 0.4,
+          "weightedScore": 0,
           "maxWeightedScore": 0.8,
-          "confidence": 92
+          "confidence": 0
         },
         {
           "id": "7",
-          "question": "What biodiversity conservation requirements exist for development, land use, or resource projects in this area?",
-          "answer": "Not specified in the statute. The discovered sources only describe conservation context and planning goals, noting that careful conservation planning should align with the TCP and that steep slopes have limited development and helped protect wetlands, ponds, lakes, streams, and woodlands. They do not state any binding biodiversity conservation requirements for development, land use, or resource projects.",
-          "score": 0.55,
+          "score": 0,
           "weight": 0.9,
-          "weightedScore": 0.49500000000000005,
+          "weightedScore": 0,
           "maxWeightedScore": 0.9,
-          "confidence": 88
+          "confidence": 0
         },
         {
           "id": "8",
-          "question": "How are habitat loss, fragmentation, and degradation assessed and minimized before project approval?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 0.85,
-          "weightedScore": 0.085,
+          "weightedScore": 0,
           "maxWeightedScore": 0.85,
-          "confidence": 92
+          "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 4.58,
-  "averageConfidence": 84,
-  "questionsAnswered": 7,
+  "overallScore": 0,
+  "averageConfidence": 0,
+  "questionsAnswered": 8,
   "totalQuestions": 8,
-  "lastUpdated": "2026-05-15T13:48:15.671Z",
+  "lastUpdated": "2026-05-20T18:14:09.716Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.mynewcastleny.gov/",
-      "title": "https://www.mynewcastleny.gov/"
+      "title": "New Castle, NY | Official Website"
     },
     {
       "url": "https://www.mynewcastleny.gov/269/Conservation-Board",
-      "title": "https://www.mynewcastleny.gov/269/Conservation-Board"
+      "title": "Conservation Board | New Castle, NY"
     },
     {
       "url": "https://www.mynewcastleny.gov/DocumentCenter/View/3788/Town-of-New-Castle-2022-Natural-Resource-Inventory-PDF",
-      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/3788/Town-of-New-Castle-2022-Natural-Resource-Inventory-PDF"
+      "title": "Town Of New Castle 2022 Natural Resource Inventory PDF"
     },
     {
       "url": "https://www.mynewcastleny.gov/DocumentCenter/View/5221/Fall-Native-Plants-Companion-PDF",
-      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/5221/Fall-Native-Plants-Companion-PDF"
+      "title": "Fall Native Plants Companion PDF"
     }
   ]
 }

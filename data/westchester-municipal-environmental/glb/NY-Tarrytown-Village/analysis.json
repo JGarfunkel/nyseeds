@@ -1,16 +1,16 @@
 {
-  "id": "NY-Tarrytown-Village-glb-1778856980602",
-  "municipality": {
+  "id": "NY-Tarrytown-Village-glb-1779297038704",
+  "entityId": "NY-Tarrytown-Village",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-Tarrytown-Village",
     "displayName": "Tarrytown - Village"
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
@@ -26,24 +26,30 @@
     {
       "id": 2,
       "question": "What are the permitted hours for gas leaf blower operation?",
-      "answer": "The statute does not specify permitted hours for gas leaf blower operation directly. It only states prohibitions during certain months and specific days.",
+      "answer": "Per §205-3, power equipment (including gas leaf blowers) may not be used between 5:00 p.m. and 8:00 a.m. Monday through Saturday, and between 5:00 p.m. and 12:00 noon on Sunday. This means permitted hours are 8:00 a.m. to 5:00 p.m. Monday through Saturday, and 12:00 noon to 5:00 p.m. on Sunday. Additionally, per §205-3.1, gas-powered leaf blowers are prohibited entirely on Saturdays, Sundays, and holidays during the period September 16 through June 14 (for green industry contractors).",
       "confidence": 85,
       "sourceRefs": [
-        "§ 205-3.1"
+        "§205-3A",
+        "§205-3.1A",
+        "§205-3.1C"
       ],
-      "score": 0.1,
-      "gap": "Consider adding specific permitted hours for gas leaf blower operation to provide clarity and prevent potential noise disturbances outside of acceptable times."
+      "gap": "The statute permits operation Monday–Saturday 8:00 a.m.–5:00 p.m. and Sunday noon–5:00 p.m. (outside seasonal bans). Best practice recommends later end times (8:00 p.m. weekdays/Saturdays, 5:00 p.m. Sundays) and a later Saturday start (9:00 a.m.). The Tarrytown statute's 5:00 p.m. cutoff is more restrictive than best practice on end times, and Sunday hours are significantly limited. The summer prohibition period (June 15–Sept 15) is slightly narrower than the best practice recommendation of June 1–Aug 31.",
+      "score": 0.4,
+      "nextPrompts": [
+        "Are there any exemptions to the permitted hours for residential owner-operators using gas leaf blowers?",
+        "Do holidays have specific defined permitted hours separate from Sunday restrictions under §205-3?"
+      ]
     },
     {
       "id": 3,
       "question": "What are the penalties for violating gas leaf blower regulations?",
-      "answer": "The penalties for violating gas leaf blower regulations are provided in Chapter 1, General Provisions, Article II, but the statute does not specify the exact penalties.",
-      "confidence": 85,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
       "sourceRefs": [
-        "§ 205-4"
-      ],
-      "score": 0.1,
-      "gap": "Consider adding specific fine amounts for initial and repeat offenses, detailed escalation procedures for repeat violations, clear enforcement mechanisms, and distinct categories of violations to strengthen the clarity and enforceability of the gas leaf blower regulations."
+        "§ 205-3.1",
+        "§ 205-3",
+        "§ 205-1"
+      ]
     },
     {
       "id": 4,
@@ -59,20 +65,28 @@
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a regulatory framework that mandates the establishment of a centralized reporting system for violations, which includes clear procedures for data collection, public access to violation reports, transparency measures, and mechanisms for tracking and addressing reported issues."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 15,
+      "sourceRefs": [
+        "Village of Tarrytown, NY, Chapter 205 Landscaping"
+      ],
+      "gap": "The statute does not specify enforcement authorities, reporting mechanisms, written notification requirements, or liability assignments for property owners and contractors. Best practices call for designated enforcement officers (e.g., Police, Code Enforcement), written notices for repeat violations, and dual liability for owners and contractors.",
+      "score": 0,
+      "nextPrompts": [
+        "Does Chapter 205 or another Tarrytown municipal code section specify penalties or fines for violations of the gas-powered blower restrictions?",
+        "Does Tarrytown's Code Enforcement or noise ordinance (Ch. 215) outline enforcement procedures applicable to landscaping violations?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to promote and educate residents on the environmental benefits of leaving leaf debris and practicing leaf mulching, including guidelines for proper implementation to enhance soil health and reduce waste."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 205-3",
+        "§ 205-3.1",
+        "§ 205-1"
+      ]
     },
     {
       "id": 7,
@@ -85,30 +99,28 @@
     }
   ],
   "scores": {
-    "overallScore": 3,
-    "normalizedScore": 3,
-    "averageConfidence": 57,
-    "questionsAnswered": 5,
+    "overallScore": 2.83,
+    "normalizedScore": 2.83,
+    "averageConfidence": 41,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
         0.5,
-        0.1,
-        0.1,
+        0.4,
+        0,
         0.5,
-        0.1,
-        0.1,
+        0,
+        0,
         0.5
       ],
-      "averageQuestionScore": 0.27142857142857146,
-      "weightedScore": 0.3,
-      "totalWeightedScore": 3.6000000000000005,
+      "averageQuestionScore": 0.27,
+      "weightedScore": 0.2833,
+      "totalWeightedScore": 3.4,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "The prohibition of gas-powered leaf and garden blowers lasts from June 15 to September 15, and also includes Saturdays, Sundays, and holidays from September 16 to June 14.",
           "score": 0.5,
           "weight": 4,
           "weightedScore": 2,
@@ -117,28 +129,22 @@
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "The statute does not specify permitted hours for gas leaf blower operation directly. It only states prohibitions during certain months and specific days.",
-          "score": 0.1,
+          "score": 0.4,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.4,
           "maxWeightedScore": 1,
           "confidence": 85
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "The penalties for violating gas leaf blower regulations are provided in Chapter 1, General Provisions, Article II, but the statute does not specify the exact penalties.",
-          "score": 0.1,
+          "score": 0,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0,
           "maxWeightedScore": 3,
-          "confidence": 85
+          "confidence": 0
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "The statute does not mention any exceptions for school, government, or commercial properties specifically.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -147,28 +153,22 @@
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 15
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 0
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "The statute does not require a report to be presented to the public.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -178,14 +178,12 @@
       ]
     }
   },
-  "overallScore": 3,
-  "averageConfidence": 57,
-  "questionsAnswered": 5,
+  "overallScore": 2.83,
+  "averageConfidence": 41,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T14:56:20.602Z",
+  "lastUpdated": "2026-05-20T17:10:38.704Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.271Z",
-  "domainId": "glb"
+  "sources": []
 }

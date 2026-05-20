@@ -1,5 +1,5 @@
 {
-  "id": "NY-SleepyHollow-Village-wetland-protection-1778621134210",
+  "id": "NY-SleepyHollow-Village-wetland-protection-1779242338830",
   "entityId": "NY-SleepyHollow-Village",
   "domainId": "wetland-protection",
   "entity": {
@@ -13,175 +13,221 @@
   "grades": {},
   "questions": [
     {
+      "id": 1,
+      "question": "Does the municipality have legislation to preserve and protect wetlands?",
+      "answer": "Yes. The Village of Sleepy Hollow has enacted wetland protection legislation codified at https://ecode360.com/15072312. The statute establishes a policy to protect wetlands while balancing ecological, economic, recreational, and aesthetic values. Key provisions include: (1) a permit requirement from the Sleepy Hollow Planning Board for any regulated activity in wetlands, watercourses, or their buffer zones; (2) a defined wetland/watercourse buffer extending 100 feet from wetland boundaries; (3) permit conditions such as erosion controls, setbacks, vegetation replanting, and dedication of easements; and (4) prohibitions on activities that impede flood flows, reduce flood storage, or threaten public safety or the natural environment. The legislation incorporates definitions aligned with the New York State Freshwater Wetlands Act and federal delineation standards. Activities not permitted as-of-right or by permit are explicitly prohibited.",
+      "confidence": 97,
+      "sourceRefs": [
+        "https://ecode360.com/15072312"
+      ],
+      "gap": "The legislation lacks explicit wetland mitigation replacement ratios (e.g., 1.5:1) and tiered administrative review for limited-scope activities. It also does not clearly enumerate all regulated activities or require boundary delineation by qualified environmental professionals.",
+      "score": 0.62,
+      "nextPrompts": [
+        "Does Sleepy Hollow require wetland mitigation replacement ratios for unavoidable impacts?",
+        "Does the legislation enumerate specific regulated activities like filling, dredging, or vegetation removal?"
+      ]
+    },
+    {
       "id": 3,
-      "question": "What are the setback requirements from wetland boundaries?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:41:12.300Z",
-      "gap": "Consider adding a specific setback requirement of at least 50 feet from wetland boundaries to protect water quality and habitat integrity, along with provisions for variances based on site-specific assessments."
+      "question": "What are the setback or buffer requirements from wetland boundaries?",
+      "answer": "The statute references wetland buffers and watercourse buffers as protected areas subject to regulation, treating losses of wetland/watercourse buffers as losses of wetlands for mitigation purposes. The statute applies to all lands defined as wetlands and wetland buffers, watercourses and watercourse buffers as defined in § 418-5. Additionally, applicants must provide names of owners of lands adjacent to the wetland/watercourse or wetland/watercourse buffer within 100 feet of the boundary of the property where the proposed regulated activity will be located. Specific numeric setback or buffer width distances from wetland boundaries are referenced in § 418-5 but not detailed in the provided excerpts.",
+      "confidence": 35,
+      "sourceRefs": [
+        "https://ecode360.com/15072312"
+      ],
+      "gap": "The statute does not specify a minimum buffer width (e.g., 100–150 feet) from wetland boundaries in the provided excerpts, nor does it explicitly prohibit controlled activities within the buffer without approval. The definition section (§ 418-5) referenced in the statute may contain specific buffer distances but was not included in the provided sources.",
+      "score": 0.2,
+      "nextPrompts": [
+        "What specific buffer widths or setback distances are defined in § 418-5 of this wetland protection statute?",
+        "Are there explicit prohibitions on regulated activities within the wetland buffer zone, and what approval process applies to exceptions?"
+      ]
     },
     {
       "id": 4,
       "question": "What are the penalties for unauthorized wetland disturbance?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:41:14.508Z",
-      "gap": "Consider adding a tiered penalty structure that imposes fines starting at $500 for first offenses, escalating to $1,500 for second offenses and $3,000 for subsequent violations, along with clear enforcement mechanisms such as site inspections and the authority to issue stop-work orders for unauthorized activities."
+      "answer": "Two types of penalties apply for unauthorized wetland disturbance:\n\n**Administrative (Civil) Sanctions:** A civil penalty of up to $5,000 per violation, with each consecutive day considered a separate offense. The Planning Board may also order restoration of the affected wetland/watercourse to its prior condition under Planning Board supervision.\n\n**Criminal Sanctions:** For a first offense, a fine of $500–$1,000 (violation). For second and subsequent offenses, a fine of $1,000–$2,000 and/or imprisonment of 15 days to six months (misdemeanor). Courts may also order wetland restoration within a reasonable time under Planning Board supervision. Each day of a continuing offense is deemed a separate and distinct offense.\n\nSource: https://ecode360.com/15072312",
+      "confidence": 95,
+      "sourceRefs": [
+        "https://ecode360.com/15072312"
+      ],
+      "gap": "The statute's criminal fines cap at $2,000 for repeat offenses, falling short of the best practice recommendation of up to $15,000. No bond requirement for ensuring compliance is mentioned in the provided sources.",
+      "score": 0.75,
+      "nextPrompts": [
+        "Does the statute include any bond or financial assurance requirements for violators to ensure wetland restoration compliance?",
+        "Are there any provisions for enhanced penalties for large-scale or commercial wetland disturbances?"
+      ]
     },
     {
       "id": 5,
       "question": "How do I apply for a wetland permit or variance?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:41:15.920Z",
-      "gap": "Consider adding a detailed section outlining the application procedures for wetland permits or variances, including specific forms required, submission deadlines, review criteria, timelines for processing applications, and a clear appeal process for denied applications."
+      "answer": "To apply for a wetland permit, applicants must submit an application to the Planning Board containing: (1) owner and applicant information, (2) a certified property survey, (3) a description of proposed work and environmental impact, and (4) a plan showing the scope and details of the project. For projects proposing encroachment into the wetland/watercourse buffer only, or where the total disturbed area is less than 1/4 acre or total cost does not exceed $5,000, the Planning Board may waive certain requirements but still requires a detailed application and project plan. If wetland/watercourse impacts are necessary and unavoidable, the applicant must demonstrate no feasible alternatives exist and prepare a mitigation plan. For wetland areas of 1/10 acre or less, the Planning Board may waive certain provisions upon appropriate conditions. The Planning Board evaluates factors including impact on neighboring land uses, flood flows, water quality, safety hazards, and consistency with land use plans.",
+      "confidence": 52,
+      "sourceRefs": [
+        "https://ecode360.com/15072312"
+      ],
+      "gap": "The sources do not specify public hearing requirements, notification to adjacent property owners, SEQRA compliance, environmental assessment forms, erosion/sediment control plans, application fees, or escrow deposits — all identified as best practices.",
+      "score": 0.3,
+      "nextPrompts": [
+        "What are the public hearing and notification requirements for wetland permit applications?",
+        "What fees, escrow deposits, or environmental review forms are required when submitting a wetland permit application?"
+      ]
     },
     {
       "id": 6,
       "question": "Are there mitigation requirements for permitted wetland impacts?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:41:17.286Z",
-      "gap": "Consider adding a clear section outlining specific mitigation requirements for permitted wetland impacts, including detailed application procedures, review criteria for assessing mitigation plans, timelines for implementation, and standards for approval to ensure compliance with wetland protection goals."
+      "answer": "Yes, mitigation requirements exist for permitted wetland impacts. The Planning Board monitors projects per permit specifications to determine whether mitigation plan elements and permit conditions have been met, and whether wetland acreage created replaces wetland acreage lost. Monitoring requirements specified in the mitigation plan must include: (1) the time period for compliance monitoring, (2) field measurements verifying size and location of impacted and restored/replacement wetland areas, (3) the date of completion of restoration/replacement, and (4) field verification of vegetative, hydrologic, and soils criteria. The Planning Board may contract with academic institutions, independent research groups, or qualified professionals at the applicant's expense, or use its own staff. Any accepted mitigation plan becomes part of the permit.",
+      "confidence": 82,
+      "sourceRefs": [
+        "https://ecode360.com/15072312"
+      ],
+      "gap": "The statute does not specify a replacement ratio (e.g., 1.5:1), no-net-loss requirements, preference for on-site mitigation, construction/maintenance guidelines, or performance bond requirements — all identified as best practices.",
+      "score": 0.4,
+      "nextPrompts": [
+        "Does the statute specify a minimum replacement ratio for restored or created wetland acreage relative to impacted acreage?",
+        "Are performance bonds or financial assurances required to ensure compliance with the mitigation plan?"
+      ]
     },
     {
       "id": 7,
       "question": "What types of development are completely prohibited in wetlands?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:41:20.409Z",
-      "gap": "Consider adding a clear regulatory framework that explicitly prohibits all types of development in wetlands, including but not limited to construction, land clearing, and drainage activities, to ensure comprehensive protection of these critical ecosystems."
+      "answer": "According to the Sleepy Hollow statute, permission will generally not be granted for the following activities in wetlands/watercourses: dredging or ditching solely for draining wetlands, mosquito control, lagooning, constructing factories, providing spoil and dump sites, or building roadways that could be located elsewhere. All regulated activities within a wetland/watercourse or buffer require a written permit from the Sleepy Hollow Planning Board. Regulated activities subject to permitting include: placement or construction of structures, draining/dredging/excavation, dumping/filling, installation of service lines or cable conduits, introduction of pollution (including septic tanks, sewer outfalls, sewage discharge), alteration of natural features/drainage patterns, construction of dams/docks/water control devices, installation of pipes or wells, clear-cutting of trees, removal or cutting of vegetation, deposition of organic or inorganic chemicals (including pesticides and fertilizers), grazing or agricultural activity involving draining or excavation, and any activity impairing natural wetland functions. (Source: https://ecode360.com/15072312)",
+      "confidence": 82,
+      "sourceRefs": [
+        "https://ecode360.com/15072312"
+      ],
+      "gap": "The statute does not explicitly list activities as 'completely prohibited' without possibility of permit; most activities are regulated rather than outright banned. Best practices call for explicit absolute prohibitions on certain activities regardless of permit status.",
+      "score": 0.6,
+      "nextPrompts": [
+        "Are there any activities that are explicitly prohibited in wetlands without any possibility of obtaining a permit?",
+        "What criteria must be met for the Sleepy Hollow Planning Board to deny a wetland permit application?"
+      ]
     },
     {
       "id": 9,
       "question": "Are there tax incentives for wetland preservation?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:41:21.649Z",
-      "gap": "Consider adding a section to the municipal statute that outlines specific tax incentives for landowners who engage in wetland preservation, including property tax reductions or credits based on the area of wetlands preserved."
+      "answer": "Yes, tax incentives exist for wetland preservation. Assessors must consider wetland/watercourse regulations when determining fair market value of land. Owners of undeveloped wetlands who dedicate an easement or enter into a perpetual conservation restriction with the Planning Board or a nonprofit organization to permanently control regulated activities shall be assessed consistent with those restrictions. Additionally, such landowners are exempted from special assessments on the controlled wetland for municipal improvements such as sanitary sewers, storm sewers, and water mains.",
+      "confidence": 90,
+      "sourceRefs": [
+        "https://ecode360.com/15072312"
+      ],
+      "gap": "No gap",
+      "score": 1,
+      "nextPrompts": [
+        "What are the specific requirements for qualifying for the wetland conservation restriction tax assessment?",
+        "Are there additional financial incentives beyond tax assessment adjustments for wetland preservation?"
+      ]
     },
     {
       "id": 10,
       "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:41:23.032Z",
-      "gap": "Consider adding a section that outlines specific monitoring and maintenance requirements for permitted wetland projects, including timelines for reporting, criteria for assessing project success, and penalties for non-compliance."
+      "answer": "For permitted wetland projects, monitoring requirements include:\n\n**Small projects** must track: areal wetland extent, percent plant cover, plant species list, vegetation cover type, relative stem density, animal species list, slope, microtopography, plant vigor, surface water connections, habitat structure, vegetation/open water ratio, and surrounding terrestrial cover type.\n\n**Moderate projects** must include all small project data, plus a comprehensive animal species list, potential phosphorous uptake, and potential nitrogen uptake.\n\nA monitoring schedule for a specified period of time must be agreed upon with the Environmental Conservation Commission.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://ecode360.com/15072312"
+      ],
+      "gap": "The statute specifies monitoring data requirements and a schedule agreed with the Environmental Conservation Commission, but does not address: report submission requirements, external expert oversight at applicant expense, bond/surety requirements for mitigation guarantee, or explicit monitoring duration (e.g., 3–5 years). Hydrologic and soils criteria monitoring are also not mentioned.",
+      "score": 0.35,
+      "nextPrompts": [
+        "Does the statute include bond or financial surety requirements tied to wetland mitigation completion?",
+        "Are there provisions requiring submission of monitoring reports to the approval authority at specified intervals?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 1,
-    "normalizedScore": 1,
-    "averageConfidence": 0,
-    "questionsAnswered": 0,
-    "totalQuestions": 7,
+    "overallScore": 3.67,
+    "normalizedScore": 3.67,
+    "averageConfidence": 76,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
     "scoreBreakdown": {
       "questionScores": [
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1
+        0,
+        0.2,
+        0.75,
+        0.3,
+        0.4,
+        0.6,
+        1,
+        0.35
       ],
-      "averageQuestionScore": 0.09999999999999999,
-      "weightedScore": 0.1,
-      "totalWeightedScore": 0.7,
-      "totalPossibleWeight": 7,
+      "averageQuestionScore": 0.45,
+      "weightedScore": 0.3667,
+      "totalWeightedScore": 3.3000000000000003,
+      "totalPossibleWeight": 9,
       "questionsWithScores": [
         {
+          "id": "1",
+          "score": 0,
+          "weight": 3,
+          "weightedScore": 0,
+          "maxWeightedScore": 3,
+          "confidence": 97
+        },
+        {
           "id": "3",
-          "question": "What are the setback requirements from wetland boundaries?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.2,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.2,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 35
         },
         {
           "id": "4",
-          "question": "What are the penalties for unauthorized wetland disturbance?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.75,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.75,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 95
         },
         {
           "id": "5",
-          "question": "How do I apply for a wetland permit or variance?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 0
+          "score": 0.3,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 52
         },
         {
           "id": "6",
-          "question": "Are there mitigation requirements for permitted wetland impacts?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.4,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.4,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 82
         },
         {
           "id": "7",
-          "question": "What types of development are completely prohibited in wetlands?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.6,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.6,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 82
         },
         {
           "id": "9",
-          "question": "Are there tax incentives for wetland preservation?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 1,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 90
         },
         {
           "id": "10",
-          "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.35,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.35,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 72
         }
       ]
     }
   },
-  "overallScore": 1,
-  "averageConfidence": 0,
-  "questionsAnswered": 0,
-  "totalQuestions": 7,
-  "lastUpdated": "2026-05-12T21:25:34.210Z",
+  "overallScore": 3.67,
+  "averageConfidence": 76,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2026-05-20T10:20:11.412Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

@@ -1,16 +1,16 @@
 {
-  "id": "NY-DobbsFerry-Village-glb-1778856979831",
-  "municipality": {
+  "id": "NY-DobbsFerry-Village-glb-1779296412345",
+  "entityId": "NY-DobbsFerry-Village",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-DobbsFerry-Village",
     "displayName": "Dobbs Ferry - Village"
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
@@ -59,36 +59,50 @@
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a regulatory framework that mandates the establishment of a centralized reporting system for violations, which includes clear guidelines for data collection, public access to violation reports, and mechanisms for tracking and transparency to ensure accountability and enforcement."
+      "answer": "The provided sources do not specify enforcement mechanisms particular to gas leaf blowers beyond the penalty structure already noted in prior questions. Generally under the noise ordinance, violations may be evidenced by sounds plainly audible at specified distances (e.g., 25 feet or more) as prima facie evidence of a violation. The Board of Trustees is authorized to impose fines or penalties. For certain violations such as vehicle alarms, the registered owner is deemed the responsible party. Establishments in violation may be required by the Board of Trustees to make structural modifications to achieve compliance. The Village Administrator is authorized to promulgate additional rules and regulations, which must be approved by the Board of Trustees before taking effect. Enforcement of motor vehicle noise is referenced to the New York State Vehicle and Traffic Law.",
+      "confidence": 35,
+      "sourceRefs": [
+        "§ 234-26",
+        "Village of Dobbs Ferry noise ordinance provisions"
+      ],
+      "gap": "Significant gaps exist compared to best practices. The sources do not identify designated enforcement authorities (e.g., Police, Code Enforcement Officers) for gas leaf blower violations, do not require written notification to property owners for repeated violations, and do not clearly assign liability to contractors versus property owners for leaf blower-specific infractions.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Which Village of Dobbs Ferry departments or officers are designated to enforce gas leaf blower or noise ordinance violations?",
+        "Does the Dobbs Ferry municipal code require written notice to property owners prior to or upon issuance of fines for gas leaf blower violations?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a provision to the statute that requires the municipality to promote and educate residents on the environmental benefits of leaving leaf debris and practicing leaf mulching, including guidelines for proper implementation to enhance soil health and reduce waste."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 240.20",
+        "§ 386"
+      ],
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, such as soil enrichment or habitat creation. There are no educational requirements, community outreach provisions, or guidelines encouraging these ecological practices as alternatives to leaf blower use.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the municipality have any separate environmental or sustainability ordinances that address leaf mulching or composting practices?",
+        "Are there any municipal programs or public education campaigns related to natural yard care or leaf management beyond the noise/blower restrictions?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for an annual public report that includes comprehensive data collection on relevant municipal activities, with clear transparency measures and tracking mechanisms to ensure accountability and public accessibility."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 234-26"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 4.67,
-    "normalizedScore": 4.67,
-    "averageConfidence": 57,
-    "questionsAnswered": 4,
+    "overallScore": 4.58,
+    "normalizedScore": 4.58,
+    "averageConfidence": 55,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
@@ -96,19 +110,17 @@
         0.6,
         0.7,
         0.8,
-        0.1,
-        0.1,
-        0.1
+        0.2,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.40714285714285714,
-      "weightedScore": 0.4667,
-      "totalWeightedScore": 5.599999999999999,
+      "averageQuestionScore": 0.39,
+      "weightedScore": 0.4583,
+      "totalWeightedScore": 5.5,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "The prohibition of gas leaf blowers lasts for 6 months of the year. It starts from December 16 and ends on March 14, and again from May 16 to October 14.",
           "score": 0.45,
           "weight": 4,
           "weightedScore": 1.8,
@@ -117,8 +129,6 @@
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "Gas leaf blowers are permitted to operate between 8:00 a.m. and 6:00 p.m. on Monday through Friday, and between 10:00 a.m. and 5:00 p.m. on Saturday, Sunday, and holidays.",
           "score": 0.6,
           "weight": 1,
           "weightedScore": 0.6,
@@ -127,18 +137,14 @@
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "The penalty for violating gas leaf blower regulations is a fine of $50 for the first offense and $250 for each subsequent offense in the same calendar year.",
           "score": 0.7,
           "weight": 3,
-          "weightedScore": 2.0999999999999996,
+          "weightedScore": 2.1,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Yes, there are exceptions for golf course operations, municipal and school employees while performing their regular duties beyond 100 feet from the nearest residence. Additionally, utility companies, municipal and school employees or property owners and/or their subcontractors are exempt while performing emergency repairs.",
           "score": 0.8,
           "weight": 1,
           "weightedScore": 0.8,
@@ -147,45 +153,37 @@
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.2,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.2,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 35
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 10
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 4.67,
-  "averageConfidence": 57,
-  "questionsAnswered": 4,
+  "overallScore": 4.58,
+  "averageConfidence": 55,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T14:56:19.831Z",
+  "lastUpdated": "2026-05-20T17:00:12.345Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 4.67,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.228Z",
-  "domainId": "glb"
+  "sources": []
 }

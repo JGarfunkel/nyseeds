@@ -1,26 +1,121 @@
 {
-  "municipality": "Pelham - Village",
-  "domain": "Weed Management",
-  "grade": "Red",
-  "gradeColor": "#ef4444",
-  "lastUpdated": "2025-09-05T16:31:59.583Z",
-  "questions": [],
+  "id": "NY-Pelham-Village-weeds-1779299299081",
+  "entityId": "NY-Pelham-Village",
+  "domainId": "weeds",
+  "entity": {
+    "id": "NY-Pelham-Village",
+    "displayName": "Pelham - Village"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weed Management"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    }
+  ],
   "scores": {
     "overallScore": 0,
     "normalizedScore": 0,
     "averageConfidence": 0,
-    "questionsAnswered": 0,
-    "totalQuestions": 0,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
     "scoreBreakdown": {
-      "questionScores": [],
+      "questionScores": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "averageQuestionScore": 0,
       "weightedScore": 0,
       "totalWeightedScore": 0,
-      "totalPossibleWeight": 0,
-      "questionsWithScores": []
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "2",
+          "score": 0,
+          "weight": 2,
+          "weightedScore": 0,
+          "maxWeightedScore": 2,
+          "confidence": 0
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "4",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        }
+      ]
     }
   },
   "overallScore": 0,
-  "normalizedScore": 0,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.541Z"
+  "averageConfidence": 0,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2026-05-20T17:48:19.081Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": []
 }

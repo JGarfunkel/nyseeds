@@ -1,14 +1,48 @@
 Village of Buchanan."
 
-The Board of Trustees finds and declares it to be the public policy of the Village to preserve, protect and conserve its wetlands, water bodies and watercourses and the benefits derived therefrom to prevent the despoliation and destruction and to regulate the use and development thereof to secure the natural benefits of wetlands, water bodies and watercourses consistent with the general welfare and beneficial economic and social development of the Village. In this connection, the Board of Trustees finds as follows:
+§ 203-2 Findings; purpose; intent.
 
-Freshwater wetlands are invaluable resources for flood and storm control, fish and wildlife habitat, protection and provision of groundwater, recreation, pollution treatment, erosion control, environmental education and open space.
+A. The Board of Trustees finds and declares it to be the public policy of the Village to preserve, protect and conserve its wetlands, water bodies and watercourses and the benefits derived therefrom to prevent the despoliation and destruction and to regulate the use and development thereof to secure the natural benefits of wetlands, water bodies and watercourses consistent with the general welfare and beneficial economic and social development of the Village. In this connection, the Board of Trustees finds as follows:
 
-The preservation and maintenance of wetlands, water bodies and watercourses in an undisturbed and natural condition constitutes important physical, ecological, social, aesthetic, recreational and economic assets necessary to promote the health, safety and general welfare of present and future residents of the Village and of downstream drainage areas.
+(1) Freshwater wetlands are invaluable resources for flood and storm control, fish and wildlife habitat, protection and provision of groundwater, recreation, pollution treatment, erosion control, environmental education and open space.
 
-It is the intent of this chapter to implement the Freshwater Wetlands Act of the State of New York as presently contained in Article 24 of the Environmental Conservation Law, as the same may be amended from time to time, to the extent that said Freshwater Wetlands Act applies to property within the Village of Buchanan and to promote the public purposes identified therein and in this section by providing for the protection, preservation, proper maintenance and use of the Village's wetlands, water bodies and watercourses, by preventing or minimizing erosion due to flooding and stormwater runoff, by maintaining the natural groundwater supplies, preserving and protecting the purity, utility, water retention capability, ecological functions, recreational usefulness and natural beauty of all wetlands, water bodies, watercourses and other related features of the terrain and by providing and protecting appropriate habitats for natural wildlife.
+(2) The preservation and maintenance of wetlands, water bodies and watercourses in an undisturbed and natural condition constitutes important physical, ecological, social, aesthetic, recreational and economic assets necessary to promote the health, safety and general welfare of present and future residents of the Village and of downstream drainage areas.
+
+B. It is the intent of this chapter to implement the Freshwater Wetlands Act of the State of New York as presently contained in Article 24 of the Environmental Conservation Law, as the same may be amended from time to time, to the extent that said Freshwater Wetlands Act applies to property within the Village of Buchanan and to promote the public purposes identified therein and in this section by providing for the protection, preservation, proper maintenance and use of the Village's wetlands, water bodies and watercourses, by preventing or minimizing erosion due to flooding and stormwater runoff, by maintaining the natural groundwater supplies, preserving and protecting the purity, utility, water retention capability, ecological functions, recreational usefulness and natural beauty of all wetlands, water bodies, watercourses and other related features of the terrain and by providing and protecting appropriate habitats for natural wildlife.
+
+§ 203-3 Definitions.
 
 For the purpose of this chapter, certain words and terms used herein are defined as follows:
+
+BOARD OF APPEALS: The Board of Appeals of the Village of Buchanan.
+
+BOARD OF TRUSTEES: The Board of Trustees of the Village of Buchanan.
+
+BOUNDARIES OF A WETLAND, WATER BODY OR WATERCOURSE: The outer limit of the vegetation specified Subsection A of the definition of "wetlands" or of the land and waters specified in Subsections B, C and D of the definition of "wetlands" or of water bodies and watercourses or of the soils specified in Subsection E of the definition of "wetlands."
+
+BUILDING: Any structure having a roof, self-supporting or supported by columns or walls, which is permanently affixed to the ground and intended for the shelter, housing or enclosure of persons, animals or chattel.
+
+BUILDING INSPECTOR: The Building Inspector of the Village of Buchanan.
+
+CODE INSPECTOR: The Code Inspector of the Village of Buchanan.
+
+DEPOSIT: To fill, place, eject, discharge or dump any material but not including stormwater.
+
+MATERIAL: Soil, stones, sand, gravel, clay, bog, peat, mud, debris and refuse or any other organic or inorganic substance, whether liquid, solid or gaseous, or any combination thereof.
+
+PLANNING BOARD: The Planning Board of the Village of Buchanan. In the event that no Planning Board has been created, the term "Planning Board" shall be deemed to mean the Board of Trustees of the Village of Buchanan until such time as a Village Planning Board is created.
+
+STATE WETLANDS MAP: The wetlands map prepared by the State of New York pursuant to Article 24 of the Environmental Conservation Law.
+
+STRUCTURE: Anything constructed or erected, the use of which requires location on the ground or attachment to something having location on the ground. Included are swimming pools, parking garages and tennis courts, but not anything requiring only simple paving or surfacing of the ground such as parking lots, driveways or sidewalks.
+
+VILLAGE ENGINEERING CONSULTANT: The Village engineering consultant of the Village of Buchanan.
+
+WATER BODY: Any body of standing water which is not dry more than three months of the year as computed from the average of the last two consecutive calendar years and which, when wet, is customarily more than 500 square feet in water surface area.
+
+WATERCOURSES: Any body of flowing water flowing in an identifiable channel or course end which is not dry more than three months of the year.
+
+WETLANDS: All lands and waters of the Village of Buchanan, including but not limited to any such lands and waters hereafter designated on the State Wetlands Map, which have a contiguous area of at least 1/10 of an acre and which contain any or all of the following:
 
 Lands and submerged lands commonly called "marshes," "swamps," "sloughs," "bogs" and "flats," whether flooded at all times, flooded only seasonally or having a water table during at least three consecutive months of the year within six inches of the ground surface or supporting aquatic or semiaquatic vegetation of the types listed in Subdivision 1(a) of § 24-0107 of Article 24 of the Environmental Conservation Law. The common names of these vegetative types are:
 
@@ -60,80 +94,101 @@ Alluvium soils:
 
 (103) Fluvaquents and humaquepts
 
+ZONING DISTRICT: A zoning district as specified in Chapter 211, Zoning, of the Code of the Village of Buchanan.
+
+ZONING LAW: Chapter 211, Zoning, of the Code of the Village of Buchanan.
+
+§ 203-4 Regulated activities.
+
 Except as provided in § 203-5 of this chapter, it shall be unlawful to conduct, directly or indirectly, any of the following activities upon any wetland, water body or watercourse or within 100 feet of the boundary of any wetland, water body or watercourse unless a permit is obtained pursuant to the requirements of this chapter:
 
-Any form of draining, dredging, excavation or removal of material, except removal of debris or refuse.
+A. Any form of draining, dredging, excavation or removal of material, except removal of debris or refuse.
 
-Any form of depositing of any material, such as but not limited to soil, rock, debris, concrete, garbage, chemicals, etc.
+B. Any form of depositing of any material, such as but not limited to soil, rock, debris, concrete, garbage, chemicals, etc.
 
-Erecting any building or structure of any kind, roads, the driving of pilings or placing of any other obstructions, whether or not they change the ebb and flow of the water.
+C. Erecting any building or structure of any kind, roads, the driving of pilings or placing of any other obstructions, whether or not they change the ebb and flow of the water.
 
-Installing a septic tank, running a sewer outfall, discharging sewage treatment effluent or other liquid waste into or so as to drain into any wetland, water body or watercourse.
+D. Installing a septic tank, running a sewer outfall, discharging sewage treatment effluent or other liquid waste into or so as to drain into any wetland, water body or watercourse.
 
-Any other activity which substantially impairs any of the several functions served by wetlands, water bodies and watercourses or the benefits derived therefrom as set forth in § 203-2 of this chapter.
+E. Any other activity which substantially impairs any of the several functions served by wetlands, water bodies and watercourses or the benefits derived therefrom as set forth in § 203-2 of this chapter.
+
+§ 203-5 Activities permitted by right.
 
 The following activities are permitted by right within or adjoining any wetland, water body or watercourse, except where the Planning Board submits written notification to the property owner that is assuming jurisdiction over the activity for the purpose of assuring that the intent of this section is not violated:
 
-The depositing or removal of the natural products of the wetlands, water bodies or watercourses by recreational or commercial fishing, agriculture, hunting or trapping where otherwise legally permitted.
+A. The depositing or removal of the natural products of the wetlands, water bodies or watercourses by recreational or commercial fishing, agriculture, hunting or trapping where otherwise legally permitted.
 
-Outdoor recreation activity that does not materially alter the natural state of the land or require construction, including use of field trails for nature study, hiking or horseback riding, swimming, skin diving and boating, where otherwise legally permitted.
+B. Outdoor recreation activity that does not materially alter the natural state of the land or require construction, including use of field trails for nature study, hiking or horseback riding, swimming, skin diving and boating, where otherwise legally permitted.
 
-Grazing, farming and harvesting of crops where otherwise legally permitted; provided, however, that any tillage of soil shall leave an undisturbed strip not less than six feet wide at the edge of any wetland, watercourse or water body to prevent erosion. With respect to any properties designated on the State Wetlands Map, the activities of farmers and other landowners in grazing and water livestock, making reasonable use of water resources, harvesting natural products of the wetlands, selectively cutting brush and timber, draining land or wetlands for growing agricultural products and otherwise engaging in the use of wetlands or other land for growing agricultural products shall be excluded from regulated activities and shall not require a permit under § 203-4 of this chapter, except that structures not required for the enhancement or maintenance or the agricultural productivity of the land and any filling activities shall not be excluded hereunder, and provided that the use of wetlands, water bodies and watercourses for uses other than those referred to in this subsection shall be subject to the provisions of this chapter. Each farmer or landowner who intends to conduct an activity described in this subsection which would otherwise be regulated shall notify the Planning Board, in writing, of his intention to engage in such activity, stating the approximate acreage to be affected, the general location thereof, the use or uses to be made of such land and the methods to be employed.
+C. Grazing, farming and harvesting of crops where otherwise legally permitted; provided, however, that any tillage of soil shall leave an undisturbed strip not less than six feet wide at the edge of any wetland, watercourse or water body to prevent erosion. With respect to any properties designated on the State Wetlands Map, the activities of farmers and other landowners in grazing and water livestock, making reasonable use of water resources, harvesting natural products of the wetlands, selectively cutting brush and timber, draining land or wetlands for growing agricultural products and otherwise engaging in the use of wetlands or other land for growing agricultural products shall be excluded from regulated activities and shall not require a permit under § 203-4 of this chapter, except that structures not required for the enhancement or maintenance or the agricultural productivity of the land and any filling activities shall not be excluded hereunder, and provided that the use of wetlands, water bodies and watercourses for uses other than those referred to in this subsection shall be subject to the provisions of this chapter. Each farmer or landowner who intends to conduct an activity described in this subsection which would otherwise be regulated shall notify the Planning Board, in writing, of his intention to engage in such activity, stating the approximate acreage to be affected, the general location thereof, the use or uses to be made of such land and the methods to be employed.
 
-Gardening where otherwise legally permitted; provided, however, that any tillage of soil shall leave an undisturbed strip not less than six feet wide at the edge of any wetland, water body or watercourse to prevent erosion.
+D. Gardening where otherwise legally permitted; provided, however, that any tillage of soil shall leave an undisturbed strip not less than six feet wide at the edge of any wetland, water body or watercourse to prevent erosion.
 
-Operation and maintenance of such dams, retaining walls, terraces, sluices, culverts or other water control structures or devices as legally existed on the effective date of this section.
+E. Operation and maintenance of such dams, retaining walls, terraces, sluices, culverts or other water control structures or devices as legally existed on the effective date of this section.
 
-Public health activities as exemplified by orders and regulations of the Westchester County Department of Health. The Department of Health shall notify the Planning Board, in writing, of the proposed activity it will undertake.
+F. Public health activities as exemplified by orders and regulations of the Westchester County Department of Health. The Department of Health shall notify the Planning Board, in writing, of the proposed activity it will undertake.
 
-Any actual and ongoing emergency activity as defined by the Board of Trustees which is immediately necessary for the protection and preservation of life or property or the protection or preservation of natural resource values.
+G. Any actual and ongoing emergency activity as defined by the Board of Trustees which is immediately necessary for the protection and preservation of life or property or the protection or preservation of natural resource values.
 
-Application for permits.
+§ 203-6 Permit procedure.
 
-Any person proposing to conduct or cause to be conducted a regulated activity specified in § 203-4 of this chapter upon any wetland, water body or watercourse shall file four copies of an application for a permit with the Planning Board as provided in this section. Such application shall include the following information:
+A. Application for permits.
 
-The name and address of the applicant and the applicant's agent, if any, and whether the applicant is owner, lessee, licensee, etc. If the applicant is not the owner, the written consent of the owner must be attached.
+(1) Any person proposing to conduct or cause to be conducted a regulated activity specified in § 203-4 of this chapter upon any wetland, water body or watercourse shall file four copies of an application for a permit with the Planning Board as provided in this section. Such application shall include the following information:
 
-The street address and tax map designation of the subject property.
+(a) The name and address of the applicant and the applicant's agent, if any, and whether the applicant is owner, lessee, licensee, etc. If the applicant is not the owner, the written consent of the owner must be attached.
 
-A detailed description of the specific purpose, nature and scope of the activity proposed.
+(b) The street address and tax map designation of the subject property.
 
-A map showing the area of wetland, water body or watercourse directly affected.
 
-A topographical and perimeter survey, hydrological computation, engineering studies and other factual or scientific data and reports as deemed necessary by the Planning Board to permit it to arrive at a proper determination.
+(d) A map showing the area of wetland, water body or watercourse directly affected.
 
-In the case of applications affecting water retention capability, water flow or other drainage characteristics of any wetland, water body or watercourse, the Planning Board may require the inclusion of a statement of the area of upstream and downstream watersheds, impact analysis and information as to rainfall intensity in the vicinity for not less than a ten-year return frequency, together with approximate runoff coefficients to determine the capacity and size of any channel sections, pipes or waterway openings, together with plans for necessary bridges, culverts, stormwater or pipe drains that, in the opinion of the Planning Board, are needed to arrive at a proper determination on the application, consistent with the purposes of this chapter.
+(e) A topographical and perimeter survey, hydrological computation, engineering studies and other factual or scientific data and reports as deemed necessary by the Planning Board to permit it to arrive at a proper determination.
 
-The applicant shall request a field determination of the affected area by the Village engineering consultant prior to mapping in Subsection A(1)(e). The Village engineering consultant shall submit a written report to the Planning Board on this determination.
+(2) In the case of applications affecting water retention capability, water flow or other drainage characteristics of any wetland, water body or watercourse, the Planning Board may require the inclusion of a statement of the area of upstream and downstream watersheds, impact analysis and information as to rainfall intensity in the vicinity for not less than a ten-year return frequency, together with approximate runoff coefficients to determine the capacity and size of any channel sections, pipes or waterway openings, together with plans for necessary bridges, culverts, stormwater or pipe drains that, in the opinion of the Planning Board, are needed to arrive at a proper determination on the application, consistent with the purposes of this chapter.
 
-Public hearing. No sooner than 30 days and not later than 60 days after the receipt of such application and publication of notice of application as required herein, the Planning Board shall hold a public hearing on any application submitted pursuant to this chapter. The Planning Board shall cause notice of such hearing to be published in the official newspaper at least 10 days prior to the date set for such hearing. All owners of record within 500 feet of the perimeter of the property shall be notified of the hearing by certified mail, return receipt requested, not less than 15 days prior to the date set for such hearing. The applicant shall be responsible for the mailing of such notices and shall file with the Planning Board an affidavit of mailing at or prior to the public hearing. All applications and maps and documents relating thereto shall be open for public inspection at the office of the Village Clerk. At such hearing, any person or persons filing a request for a hearing or a timely notice of appearance may appear and be heard.
+(3) The applicant shall request a field determination of the affected area by the Village engineering consultant prior to mapping in Subsection A(1)(e). The Village engineering consultant shall submit a written report to the Planning Board on this determination.
 
-Planning Board action. Within 75 days of the date the application is submitted or within 45 days of the date of any public hearing which may be conducted on said application, whichever period is shorter, the Planning Board shall render a decision to approve, approve with modifications or disapprove the issuance of a permit for the proposed activity. The decision of the Planning Board shall be made by written resolution stating the findings and reasons for such decision.
+B. Public hearing. No sooner than 30 days and not later than 60 days after the receipt of such application and publication of notice of application as required herein, the Planning Board shall hold a public hearing on any application submitted pursuant to this chapter. The Planning Board shall cause notice of such hearing to be published in the official newspaper at least 10 days prior to the date set for such hearing. All owners of record within 500 feet of the perimeter of the property shall be notified of the hearing by certified mail, return receipt requested, not less than 15 days prior to the date set for such hearing. The applicant shall be responsible for the mailing of such notices and shall file with the Planning Board an affidavit of mailing at or prior to the public hearing. All applications and maps and documents relating thereto shall be open for public inspection at the office of the Village Clerk. At such hearing, any person or persons filing a request for a hearing or a timely notice of appearance may appear and be heard.
 
-The applicant shall have the burden of demonstrating that the proposed activity will be in accord with the policies and provisions of this chapter.
+C. Planning Board action. Within 75 days of the date the application is submitted or within 45 days of the date of any public hearing which may be conducted on said application, whichever period is shorter, the Planning Board shall render a decision to approve, approve with modifications or disapprove the issuance of a permit for the proposed activity. The decision of the Planning Board shall be made by written resolution stating the findings and reasons for such decision.
 
-In granting, denying or limiting any permit, the Planning Board shall consider the effect of the proposed activity with reference to the public health and welfare, fishing, flood, hurricane and storm dangers and the protection or enhancement of the several functions of the wetlands and the benefits derived therefrom as set forth in this section, irrespective of political boundaries.
+§ 203-7 Standards for granting permits.
 
-The Planning Board may grant a permit, subject to such terms and conditions as it shall reasonably impose, upon finding that such activity is not contrary to the purposes of § 203-2 of this chapter. Said Board may also, in its discretion, permit any activity otherwise prohibited by this chapter to be done, except with respect to property designated on the State Wetlands Map or otherwise regulated by the state, provided that the Planning Board determines after investigation that to prohibit the activity would cause undue hardship to the property owner. In granting a permit, the Planning Board may limit the same or impose conditions or limitations designed to carry out the public policy set forth in this chapter. The Planning Board may require a bond, in an amount and with surety and conditions satisfactory to it, securing to the State of New York or the Village of Buchanan, as the case may be, compliance with the conditions and limitations set forth in the permit. The Building Inspector, with the concurrence of the Village engineering consultant, may suspend or revoke a permit if he finds that the applicant has not complied with any of the conditions or limitations set forth in the permit or has exceeded the scope of the activity as set forth in the application. The Building Inspector may suspend the permit if the applicant fails to comply with the terms and conditions set forth in the application.
+A. The applicant shall have the burden of demonstrating that the proposed activity will be in accord with the policies and provisions of this chapter.
+
+B. In granting, denying or limiting any permit, the Planning Board shall consider the effect of the proposed activity with reference to the public health and welfare, fishing, flood, hurricane and storm dangers and the protection or enhancement of the several functions of the wetlands and the benefits derived therefrom as set forth in this section, irrespective of political boundaries.
+
+C. The Planning Board may grant a permit, subject to such terms and conditions as it shall reasonably impose, upon finding that such activity is not contrary to the purposes of § 203-2 of this chapter. Said Board may also, in its discretion, permit any activity otherwise prohibited by this chapter to be done, except with respect to property designated on the State Wetlands Map or otherwise regulated by the state, provided that the Planning Board determines after investigation that to prohibit the activity would cause undue hardship to the property owner. In granting a permit, the Planning Board may limit the same or impose conditions or limitations designed to carry out the public policy set forth in this chapter. The Planning Board may require a bond, in an amount and with surety and conditions satisfactory to it, securing to the State of New York or the Village of Buchanan, as the case may be, compliance with the conditions and limitations set forth in the permit. The Building Inspector, with the concurrence of the Village engineering consultant, may suspend or revoke a permit if he finds that the applicant has not complied with any of the conditions or limitations set forth in the permit or has exceeded the scope of the activity as set forth in the application. The Building Inspector may suspend the permit if the applicant fails to comply with the terms and conditions set forth in the application.
+
+§ 203-8 Appeals.
 
 Review of the determination of the Planning Board shall be within a period of 30 days after the filing thereof, pursuant to the provisions of Title 11 of Article 24 of the Environmental Conservation Law of the State of New York or pursuant to the provisions of Article 78 of the Civil Practice Law and Rules with respect to the properties designated on the State Wetlands Map or otherwise regulated by the state.
 
+§ 203-9 Fees.
+
 All applications for a wetlands permit shall be accompanied by a fee in accordance with the fee schedule adopted by the Board of Trustees.
 
-The requirements of this chapter shall not apply to any work shown on construction drawings or improvement plans for subdivisions or site plans approved by said Planning Board or the Village Board of Trustees, as applicable.[Amended 9-5-2023 by L.L. No. 7-2023]
+§ 203-10 Applicability; more restrictive standards to apply.
 
-Where this chapter is less or more protective of the environment than the Environmental Conservation Law of the State of New York or any local law or ordinance of the County of Westchester or the Village of Buchanan, the law or ordinance that is more protective of the environment shall prevail.
+A. The requirements of this chapter shall not apply to any work shown on construction drawings or improvement plans for subdivisions or site plans approved by said Planning Board or the Village Board of Trustees, as applicable.[Amended 9-5-2023 by L.L. No. 7-2023]
+
+B. Where this chapter is less or more protective of the environment than the Environmental Conservation Law of the State of New York or any local law or ordinance of the County of Westchester or the Village of Buchanan, the law or ordinance that is more protective of the environment shall prevail.
+
+§ 203-11 Civil penalties; penalties for offenses.
 
 Pursuant to Title 23 of Article 71 of the Environmental Conservation Law, the following penalties shall apply:
 
-Any person who violates, disobeys or disregards any provision of this chapter shall be liable for a civil penalty not to exceed $3,000 for every such violation. Before assessment of the civil penalty, the alleged violator shall be afforded a hearing or opportunity to be heard before the Planning Board upon due notice and with rights to specification of the charges and representation by counsel.
+A. Any person who violates, disobeys or disregards any provision of this chapter shall be liable for a civil penalty not to exceed $3,000 for every such violation. Before assessment of the civil penalty, the alleged violator shall be afforded a hearing or opportunity to be heard before the Planning Board upon due notice and with rights to specification of the charges and representation by counsel.
 
-The Planning Board shall also have the power, following a hearing, to direct a violator to cease violation of this chapter and, under the Board's supervision, to satisfactorily restore the affected freshwater wetland or watercourse to its condition prior to the violation, insofar as that is possible, within a reasonable time and under the supervision of the Planning Board.
+B. The Planning Board shall also have the power, following a hearing, to direct a violator to cease violation of this chapter and, under the Board's supervision, to satisfactorily restore the affected freshwater wetland or watercourse to its condition prior to the violation, insofar as that is possible, within a reasonable time and under the supervision of the Planning Board.
 
-Any civil penalty or order issued by the Planning Board shall be reviewable pursuant to Article 78 of the Civil Practice Law and Rules.
+C. Any civil penalty or order issued by the Planning Board shall be reviewable pursuant to Article 78 of the Civil Practice Law and Rules.
 
-In addition to the above civil fine, any person who violates any provision of this chapter shall be guilty of a violation pursuant to the Penal Law, punishable by a fine of not less than $500 nor more than $1,000. For a second and each subsequent offense, the violator shall be guilty of a misdemeanor, punishable by a fine of not less than $1,000 nor more than $2,000 or a term of imprisonment of not less than 15 days nor more than six months, or both. Each offense shall be a separate and distinct offense, and, in the case of a continuing offense, each day's continuance thereof shall be deemed a separate and distinct offense. Instead of these punishments, any offender may be punishable by being ordered by the court to restore the affected freshwater wetland to its condition prior to the offense, insofar as that is possible. The court shall specify a reasonable time for the completion of such restoration, which restoration shall be effected under the supervision of the Commissioner of the Department of Environmental Conservation or of the Village. Each offense shall be a separate and distinct offense, and, in the case of a continuing offense, each day's continuance thereof shall be deemed a separate and distinct offense.
+D. In addition to the above civil fine, any person who violates any provision of this chapter shall be guilty of a violation pursuant to the Penal Law, punishable by a fine of not less than $500 nor more than $1,000. For a second and each subsequent offense, the violator shall be guilty of a misdemeanor, punishable by a fine of not less than $1,000 nor more than $2,000 or a term of imprisonment of not less than 15 days nor more than six months, or both. Each offense shall be a separate and distinct offense, and, in the case of a continuing offense, each day's continuance thereof shall be deemed a separate and distinct offense. Instead of these punishments, any offender may be punishable by being ordered by the court to restore the affected freshwater wetland to its condition prior to the offense, insofar as that is possible. The court shall specify a reasonable time for the completion of such restoration, which restoration shall be effected under the supervision of the Commissioner of the Department of Environmental Conservation or of the Village. Each offense shall be a separate and distinct offense, and, in the case of a continuing offense, each day's continuance thereof shall be deemed a separate and distinct offense.
 
-The Planning Board shall have the right to seek equitable relief to restrain any violation or threatened violation of any provision of this chapter.
+E. The Planning Board shall have the right to seek equitable relief to restrain any violation or threatened violation of any provision of this chapter.
+
+§ 203-12 Enforcement.
 
 The Code Inspector or Building Inspector shall issue and post notices of violations of this chapter. In addition, by resolution, the Board of Trustees may direct the Code Inspector or Building Inspector to make such inspection and reports, initiate and take such court proceedings and perform all other actions as required by the Board of Trustees as may be necessary to enforce this chapter or to invoke penalties for its violation.

@@ -1,5 +1,5 @@
 {
-  "id": "NY-PoundRidge-Town-wetland-protection-1778621115813",
+  "id": "NY-PoundRidge-Town-wetland-protection-1779242112690",
   "entityId": "NY-PoundRidge-Town",
   "domainId": "wetland-protection",
   "entity": {
@@ -13,175 +13,220 @@
   "grades": {},
   "questions": [
     {
+      "id": 1,
+      "question": "Does the municipality have legislation to preserve and protect wetlands?",
+      "answer": "Yes. The municipality has enacted wetland protection legislation codified under Chapter 63. Key provisions include: (1) requiring permits for wetland activities, with detailed application requirements such as plans drawn to scale, lists of affected wetland functions, and erosion control diagrams; (2) establishing a Water Control Commission with authority to inspect permitted work and issue stop-work orders or revoke permits; (3) mandating evaluation of proposed actions for adequate safeguards for wetland protection and preservation, environmental protection, and groundwater safeguards; (4) requiring compliance with New York State land use standards (6 NYCRR 665.7); (5) allowing waivers only for wetlands not on the State Freshwater Wetlands Map, provided waivers do not nullify the intent of the regulations; and (6) setting conditions for permit approval, including consistency with legislative intent and demonstration that no practicable alternative exists. The legislation explicitly references protection of natural flora, fauna, habitat, flood control, and pollution prevention in wetland areas.",
+      "confidence": 95,
+      "sourceRefs": [
+        "https://ecode360.com/6833365#6833365"
+      ],
+      "gap": "The municipality's legislation lacks explicit buffer zone protections (e.g., 100–500 feet), tiered review processes, mandatory mitigation ratios (1.5:1 replacement), enumeration of all regulated activities, boundary delineation by qualified professionals, and authority to seek injunctive relief with full restoration requirements.",
+      "score": 0.45,
+      "nextPrompts": [
+        "Does Chapter 63 specify buffer zone distances for wetlands?",
+        "Does the legislation require wetland mitigation or replacement ratios?"
+      ]
+    },
+    {
       "id": 3,
-      "question": "What are the setback requirements from wetland boundaries?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:40:07.446Z",
-      "gap": "Consider adding a specific setback requirement of at least 50 feet from wetland boundaries to protect water quality and habitat integrity, along with provisions for variances based on site-specific assessments."
+      "question": "What are the setback or buffer requirements from wetland boundaries?",
+      "answer": "The statute establishes a 'minimum activity setback area' adjacent to controlled areas (wetlands). For gardening activities, a buffer strip of at least 20 feet must be maintained immediately adjacent to any controlled area. The minimum activity setback area is where certain administrative-permit activities are allowed, including minor accessory buildings (≤100 sq ft), additions to existing residential structures (≤500 sq ft), and miscellaneous activities involving less than 10 cubic yards of earthwork. For natural drainage systems (rivers, streams, creeks, brooks), the minimum activity setback is measured from the top of the bank of the watercourse. Activities within the controlled area or minimum activity setback area generally require either an administrative permit or a wetlands activity permit depending on scope and magnitude.",
+      "confidence": 62,
+      "sourceRefs": [
+        "https://ecode360.com/6833365#6833365"
+      ],
+      "gap": "The statute specifies only a 20-foot buffer for gardening but does not establish a general minimum buffer distance (e.g., 100–150 feet) from wetland boundaries for all activities. The overall width of the 'minimum activity setback area' is not explicitly defined in the provided excerpts, falling short of best practice recommendations.",
+      "score": 0.2,
+      "nextPrompts": [
+        "What is the defined width or distance of the 'minimum activity setback area' from the controlled area boundary?",
+        "Are there any provisions for extending the setback buffer based on environmental assessments or Commission discretion?"
+      ]
     },
     {
       "id": 4,
       "question": "What are the penalties for unauthorized wetland disturbance?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:40:09.573Z",
-      "gap": "Consider adding a tiered penalty structure that imposes fines starting at $500 for first offenses, escalating to $1,500 for second offenses and $3,000 for subsequent violations, along with clear enforcement mechanisms such as site inspections and the authority to issue stop-work orders."
+      "answer": "Under Title 23 of Article 71 of the Environmental Conservation Law, the following penalties apply for unauthorized wetland disturbance:\n\n**Civil Penalties:** Up to $3,000 per violation. Alleged violators are entitled to a hearing before the Commission with rights to specification of charges and representation by counsel.\n\n**Fines:** A first offense is a violation punishable by a fine of $500–$1,000. Second and subsequent offenses constitute a misdemeanor punishable by a fine of $1,000–$2,000, imprisonment of 15 days to six months, or both. Each day of a continuing offense is a separate and distinct offense.\n\n**Restoration:** Instead of fines/imprisonment, a court may order the offender to restore the affected freshwater wetland to its prior condition within a reasonable time, under Commission supervision.\n\n**Injunctive Relief:** The Town of Pound Ridge may seek court injunctions to compel compliance or restrain violations.\n\n**Additional Remedies:** Enforcement provisions are not exclusive and supplement any other rights or remedies available to the Town at law or in equity. (Source: https://ecode360.com/6833365#6833365)",
+      "confidence": 95,
+      "sourceRefs": [
+        "https://ecode360.com/6833365#6833365"
+      ],
+      "gap": "Civil penalty cap is $3,000 (best practice recommends up to $5,000); criminal fine maximum is $2,000 (best practice recommends up to $15,000). No bond/surety requirement for restoration compliance is specified.",
+      "score": 0.65,
+      "nextPrompts": [
+        "Does the statute specify bond or surety requirements to ensure wetland restoration compliance?",
+        "Are there provisions for enhanced penalties for large-scale or repeat wetland disturbances beyond the misdemeanor level?"
+      ]
     },
     {
       "id": 5,
       "question": "How do I apply for a wetland permit or variance?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:40:11.470Z",
-      "gap": "Consider adding a detailed section outlining the application procedures for wetland permits or variances, including specific forms required, submission deadlines, review criteria, timelines for decision-making, and a clear process for appeals."
+      "answer": "To apply for a wetland permit, applicants must submit an application to the Water Control Commission that includes: (1) a construction schedule detailing activities under the requested wetlands activity permit, and (2) a completed Environmental Assessment Form (EAF) as required under SEQRA. The Commission will then make a determination of significance of the proposed action under SEQRA, determine whether to act as lead agency, and assess whether a draft environmental impact statement is required. The Commission has the power to grant or deny wetlands activity permits, but only when they do not violate the intent of the chapter or the State Freshwater Wetland Act. The Commission may also refer applications to the Town Engineer for issuance of an administrative permit.",
+      "confidence": 52,
+      "sourceRefs": [
+        "https://ecode360.com/6833365#6833365"
+      ],
+      "gap": "The sources only partially address the application process. Missing elements compared to best practices include: owner/applicant contact information requirements, certified property survey, description of proposed work, public hearing process, adjacent property owner notification, erosion and sediment control plans, application fees, and escrow deposit requirements.",
+      "score": 0.3,
+      "nextPrompts": [
+        "What are the full application submission requirements including fees and required documents for a wetland permit?",
+        "Is there a public hearing or neighbor notification process required for wetland permit applications?"
+      ]
     },
     {
       "id": 6,
       "question": "Are there mitigation requirements for permitted wetland impacts?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:40:12.797Z",
-      "gap": "Consider adding a clear section outlining specific mitigation requirements for permitted wetland impacts, including detailed application procedures, review criteria for assessing mitigation plans, and standardized timelines for approval and appeal processes."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 15,
+      "sourceRefs": [
+        "https://ecode360.com/6833365#6833365"
+      ],
+      "gap": "The statute does not address mitigation requirements for permitted wetland impacts. Best practices call for a mitigation plan ensuring no net loss of ecological function, replacement wetlands at least 1.5x the impacted area, on-site mitigation preference, construction/maintenance guidelines, monitoring schedules, and performance bonds — none of which are referenced in the provided excerpts.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Pound Ridge wetland ordinance include any compensatory mitigation, replacement ratio, or no-net-loss provisions for approved wetland impacts?",
+        "Are there performance bond or monitoring requirements associated with wetland impact permits in Pound Ridge's municipal code?"
+      ]
     },
     {
       "id": 7,
       "question": "What types of development are completely prohibited in wetlands?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:40:14.396Z",
-      "gap": "Consider adding a clear regulatory framework that explicitly prohibits all types of development in wetlands, including but not limited to construction, land clearing, and drainage activities, to ensure comprehensive protection of these critical ecosystems."
+      "answer": "The statute prohibits the following activities in wetlands: (1) Application of algaecides, herbicides, or other growth-regulating agents (aqueous and nonaqueous) unless properly licensed or permitted by appropriate state agencies, with copies filed with the Commission prior to undertaking such activities. (2) Any miscellaneous activities not specifically noted that impair the functions of any wetland area, as determined by the Commission. The statute also defines regulated wetland areas to include lands with dead vegetation from prolonged wet conditions, lands and waters enclosed by aquatic or semiaquatic vegetation, and overlying waters. These areas are subject to regulation to protect and preserve wetland functions. (Source: https://ecode360.com/6833365#6833365)",
+      "confidence": 40,
+      "sourceRefs": [
+        "https://ecode360.com/6833365#6833365"
+      ],
+      "gap": "The provided excerpts only partially address prohibited activities. Missing from the excerpts are explicit prohibitions on draining, dredging, filling, erecting structures, constructing roads, installing septic systems, or clear-cutting trees — all of which best practices recommend explicitly prohibiting.",
+      "score": 0.2,
+      "nextPrompts": [
+        "What specific structural or land-alteration activities (e.g., filling, dredging, grading) are regulated or prohibited under this wetland statute?",
+        "Does this statute specify permit requirements or conditions under which development may be allowed in wetland areas?"
+      ]
     },
     {
       "id": 9,
       "question": "Are there tax incentives for wetland preservation?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:40:15.771Z",
-      "gap": "Consider adding a provision that establishes tax incentives for landowners who engage in wetland preservation practices, including property tax reductions or credits for maintaining and restoring wetland areas."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://ecode360.com/6833365#6833365"
+      ],
+      "gap": "The statute does not address tax incentives for wetland preservation in the provided excerpts. The best practice indicates such incentives should be present, but no relevant language was found.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the full municipal code for sections referencing tax exemptions or incentives related to open space or wetland conservation.",
+        "Check if there are any referenced state programs (e.g., NYS Agricultural and Markets Law or Real Property Tax Law) that provide tax relief for wetland preservation within this municipality's code."
+      ]
     },
     {
       "id": 10,
       "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-      "answer": "Not specified in the statute.",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:40:17.622Z",
-      "gap": "Consider adding a section that outlines specific monitoring and maintenance requirements for permitted wetland projects, including timelines for reporting, criteria for assessing project success, and penalties for non-compliance."
+      "sourceRefs": [
+        "§ 63-33",
+        "§ 63-34",
+        "§ 63-10"
+      ],
+      "gap": "",
+      "score": 0,
+      "nextPrompts": []
     }
   ],
   "scores": {
-    "overallScore": 1,
-    "normalizedScore": 1,
-    "averageConfidence": 0,
-    "questionsAnswered": 0,
-    "totalQuestions": 7,
+    "overallScore": 1.17,
+    "normalizedScore": 1.17,
+    "averageConfidence": 46,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
     "scoreBreakdown": {
       "questionScores": [
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1,
-        0.1
+        0,
+        0.2,
+        0.65,
+        0.3,
+        0,
+        0.2,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.09999999999999999,
-      "weightedScore": 0.1,
-      "totalWeightedScore": 0.7,
-      "totalPossibleWeight": 7,
+      "averageQuestionScore": 0.17,
+      "weightedScore": 0.1167,
+      "totalWeightedScore": 1.05,
+      "totalPossibleWeight": 9,
       "questionsWithScores": [
         {
+          "id": "1",
+          "score": 0,
+          "weight": 3,
+          "weightedScore": 0,
+          "maxWeightedScore": 3,
+          "confidence": 95
+        },
+        {
           "id": "3",
-          "question": "What are the setback requirements from wetland boundaries?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.2,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.2,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 62
         },
         {
           "id": "4",
-          "question": "What are the penalties for unauthorized wetland disturbance?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.65,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.65,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 95
         },
         {
           "id": "5",
-          "question": "How do I apply for a wetland permit or variance?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 0
+          "score": 0.3,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 52
         },
         {
           "id": "6",
-          "question": "Are there mitigation requirements for permitted wetland impacts?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 15
         },
         {
           "id": "7",
-          "question": "What types of development are completely prohibited in wetlands?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.2,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.2,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 40
         },
         {
           "id": "9",
-          "question": "Are there tax incentives for wetland preservation?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "10",
-          "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 1,
-  "averageConfidence": 0,
-  "questionsAnswered": 0,
-  "totalQuestions": 7,
-  "lastUpdated": "2026-05-12T21:25:15.813Z",
+  "overallScore": 1.17,
+  "averageConfidence": 46,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2026-05-20T10:19:56.054Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

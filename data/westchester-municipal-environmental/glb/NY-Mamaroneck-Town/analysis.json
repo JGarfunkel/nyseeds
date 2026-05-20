@@ -1,5 +1,5 @@
 {
-  "id": "NY-Mamaroneck-Town-glb-1779130211942",
+  "id": "NY-Mamaroneck-Town-glb-1779296549954",
   "entityId": "NY-Mamaroneck-Town",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -75,15 +75,13 @@
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
       "answer": "Not specified in the provided sources.",
-      "confidence": 95,
-      "sourceRefs": [
-        "https://ecode360.com/9159224#9159224"
-      ],
-      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, community workshops, or informational campaigns promoting these ecological practices such as soil enrichment or habitat creation.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, such as soil enrichment, habitat creation, or ecological advantages. Best practices recommend that municipalities explicitly promote these practices through educational requirements, community workshops, or informational campaigns integrated into or alongside leaf blower regulations.",
       "score": 0,
       "nextPrompts": [
-        "Does the ordinance or any related municipal code include environmental education provisions or sustainability guidelines related to yard waste management?",
-        "Are there any supplementary municipal programs or initiatives in this jurisdiction that promote leaf mulching or natural yard debris practices?"
+        "Does the Town of Mamaroneck have any separate environmental or sustainability ordinances that address leaf mulching or natural yard waste management?",
+        "Are there any town-issued guidelines or public education materials accompanying the gas leaf blower ordinance that discuss ecological benefits of leaf debris?"
       ]
     },
     {
@@ -97,7 +95,7 @@
   "scores": {
     "overallScore": 4.71,
     "normalizedScore": 4.71,
-    "averageConfidence": 71,
+    "averageConfidence": 59,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
@@ -161,7 +159,7 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 95
+          "confidence": 10
         },
         {
           "id": "7",
@@ -175,10 +173,10 @@
     }
   },
   "overallScore": 4.71,
-  "averageConfidence": 71,
+  "averageConfidence": 59,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:50:11.942Z",
+  "lastUpdated": "2026-05-20T17:02:29.954Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

@@ -3,8 +3,8 @@
     "id": "wetland-protection",
     "displayName": "Wetland Protection"
   },
-  "analysisDate": "2025-09-01T13:03:33.671Z",
-  "totalMunicipalitiesAnalyzed": 15,
+  "analysisDate": "2026-05-20T10:19:10.924Z",
+  "totalMunicipalitiesAnalyzed": 27,
   "averageScore": 0.43,
   "highestScoringMunicipality": {
     "id": "NY-Scarsdale-Town",
@@ -13,84 +13,19 @@
   },
   "bestPractices": [
     {
-      "questionId": 10,
-      "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-      "bestAnswer": "Best practices for monitoring and maintenance of permitted wetland projects should require a comprehensive mitigation plan that includes compliance monitoring over a specified period, typically three to five years, with field measurements to verify the size and location of impacted and restored wetland areas. The statute should mandate regular submission of monitoring reports to the approval authority and allow for the hiring of external experts at the applicant's expense to ensure adherence to vegetative, hydrologic, and soils criteria. Additionally, a bond or surety should be posted to guarantee the implementation of mitigation measures, with the release contingent upon satisfactory completion verified by the relevant authority.",
-      "bestScore": 1,
-      "bestMunicipality": {
-        "id": "NY-Scarsdale-Town",
-        "displayName": "Scarsdale - Town"
-      },
-      "quantitativeHighlights": [],
-      "supportingExamples": [
-        {
-          "municipality": {
-            "id": "NY-Scarsdale-Town",
-            "displayName": "Scarsdale - Town"
-          },
-          "score": 1,
-          "confidence": 85
-        },
-        {
-          "municipality": {
-            "id": "NY-RyeBrook-Village",
-            "displayName": "Rye Brook - Village"
-          },
-          "score": 1,
-          "confidence": 67
-        },
-        {
-          "municipality": {
-            "id": "NY-Ossining-Town",
-            "displayName": "Ossining - Town"
-          },
-          "score": 1,
-          "confidence": 65
-        }
-      ],
-      "commonGaps": [
-        "Permit process improvements"
+      "questionId": 1,
+      "question": "Does the municipality have legislation to preserve and protect wetlands?",
+      "bestAnswer": "**Best Practice Summary:**\n\nThe statute should require a comprehensive permit system with tiered review — administrative approval for limited-scope activities and a Planning Board or equivalent body review for all other regulated activities within wetlands, watercourses, and buffer zones — with buffer protections of at least 100 feet for wetlands and water bodies (and up to 500 feet for designated Critical Environmental Areas). Best practices include mandating that wetland impacts be avoided or minimized to the fullest practicable extent, and where unavoidable, requiring mitigation through replacement wetlands at a minimum ratio of 1.5:1, along with enforceable permit conditions such as erosion controls, setbacks, deed restrictions, easement dedications, and replanting of wetland vegetation. The statute should also explicitly enumerate regulated activities (including construction, filling, dredging, drainage modification, vegetation removal, and pollution introduction), require boundary delineation by qualified environmental professionals, and authorize the municipality to seek injunctive relief and compel full restoration for violations.",
+      "quantitativeHighlights": [
+        "Replacement ratio: 5:1",
+        "Highest fine: $250"
       ]
     },
     {
       "questionId": 3,
-      "question": "What are the setback requirements from wetland boundaries?",
-      "bestAnswer": "Best practices for municipal setback requirements from wetland boundaries include establishing a minimum buffer zone of 100 feet horizontally from the wetland boundary, with the potential for extending this buffer to 150 feet or more based on environmental assessments or regulatory authority discretion. The statute should require that no controlled activities occur within this buffer unless explicitly approved by the relevant planning or environmental authority, ensuring that any exceptions are subject to stringent conditions to protect wetland integrity.",
-      "bestScore": 1,
-      "bestMunicipality": {
-        "id": "NY-Scarsdale-Town",
-        "displayName": "Scarsdale - Town"
-      },
-      "quantitativeHighlights": [],
-      "supportingExamples": [
-        {
-          "municipality": {
-            "id": "NY-Scarsdale-Town",
-            "displayName": "Scarsdale - Town"
-          },
-          "score": 1,
-          "confidence": 85
-        },
-        {
-          "municipality": {
-            "id": "NY-NewCastle-Town",
-            "displayName": "New Castle - Town"
-          },
-          "score": 0.79,
-          "confidence": 59
-        },
-        {
-          "municipality": {
-            "id": "NY-Buchanan-Village",
-            "displayName": "Buchanan - Village"
-          },
-          "score": 0.76,
-          "confidence": 46
-        }
-      ],
-      "commonGaps": [
-        "Permit process improvements"
-      ]
+      "question": "What are the setback or buffer requirements from wetland boundaries?",
+      "bestAnswer": "**Best Practices for Wetland Buffer/Setback Requirements**\n\nBest practices include establishing a minimum wetland/watercourse buffer extending **100–150 feet** horizontally from the outermost wetland boundary or mean high water mark of a watercourse, with the buffer subject to the same regulatory restrictions as the wetland itself (as reflected in Tarrytown, Somers, North Castle, and Rye Brook). The statute should require automatic buffer expansion beyond the standard distance where slopes exceed **25%**, extending to either **150 feet** or the full extent of the sloped area draining toward the wetland, and should mandate mitigation for unavoidable buffer impacts at a minimum **2:1 replacement ratio**. For minor activities within a reduced inner setback zone, the statute should establish a minimum **20-foot gardening/low-impact buffer** and allow limited administrative-permit activities (e.g., structures ≤100 sq ft, earthwork <10 cubic yards) while requiring full permit review for projects disturbing **2,000 square feet or more** of wetland or buffer area.",
+      "quantitativeHighlights": []
     },
     {
       "questionId": 4,
@@ -282,6 +217,46 @@
           },
           "score": 0.65,
           "confidence": 45
+        }
+      ],
+      "commonGaps": [
+        "Permit process improvements"
+      ]
+    },
+    {
+      "questionId": 10,
+      "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+      "bestAnswer": "Best practices for monitoring and maintenance of permitted wetland projects should require a comprehensive mitigation plan that includes compliance monitoring over a specified period, typically three to five years, with field measurements to verify the size and location of impacted and restored wetland areas. The statute should mandate regular submission of monitoring reports to the approval authority and allow for the hiring of external experts at the applicant's expense to ensure adherence to vegetative, hydrologic, and soils criteria. Additionally, a bond or surety should be posted to guarantee the implementation of mitigation measures, with the release contingent upon satisfactory completion verified by the relevant authority.",
+      "bestScore": 1,
+      "bestMunicipality": {
+        "id": "NY-Scarsdale-Town",
+        "displayName": "Scarsdale - Town"
+      },
+      "quantitativeHighlights": [],
+      "supportingExamples": [
+        {
+          "municipality": {
+            "id": "NY-Scarsdale-Town",
+            "displayName": "Scarsdale - Town"
+          },
+          "score": 1,
+          "confidence": 85
+        },
+        {
+          "municipality": {
+            "id": "NY-RyeBrook-Village",
+            "displayName": "Rye Brook - Village"
+          },
+          "score": 1,
+          "confidence": 67
+        },
+        {
+          "municipality": {
+            "id": "NY-Ossining-Town",
+            "displayName": "Ossining - Town"
+          },
+          "score": 1,
+          "confidence": 65
         }
       ],
       "commonGaps": [

@@ -1,8 +1,16 @@
 {
-  "id": "NY-Greenburgh-Town-weeds-1778856982905",
-  "municipality": "NY-Greenburgh-Town",
-  "domain": "weeds",
-  "analyzedAt": "2025-09-08T17:40:51.758Z",
+  "id": "NY-Greenburgh-Town-weeds-1779299140754",
+  "entityId": "NY-Greenburgh-Town",
+  "domainId": "weeds",
+  "entity": {
+    "id": "NY-Greenburgh-Town",
+    "displayName": "Greenburgh - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weed Management"
+  },
+  "grades": {},
   "questions": [
     {
       "id": "1",
@@ -51,8 +59,8 @@
     }
   ],
   "scores": {
-    "overallScore": 1,
-    "normalizedScore": 1,
+    "overallScore": 0,
+    "normalizedScore": 0,
     "averageConfidence": 0,
     "questionsAnswered": 0,
     "totalQuestions": 5,
@@ -65,85 +73,68 @@
         0.1
       ],
       "averageQuestionScore": 0.1,
-      "weightedScore": 0.1,
-      "totalWeightedScore": 0.6,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
       "totalPossibleWeight": 6,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0
         },
         {
           "id": "2",
-          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "3",
-          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0
         },
         {
           "id": "4",
-          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0
         },
         {
           "id": "6",
-          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 1,
+  "overallScore": 0,
   "averageConfidence": 0,
   "questionsAnswered": 0,
   "totalQuestions": 5,
-  "gapAnalysis": "",
-  "wenGrade": null,
+  "lastUpdated": "2026-05-20T17:45:40.754Z",
+  "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.506Z",
-  "entityId": "NY-Greenburgh-Town",
-  "domainId": "weeds",
   "sources": [
     {
       "url": "https://www.greenburghny.com/DocumentCenter/View/14655/2024-CAC-Newsletter-3-Invasive-Plants",
-      "title": "https://www.greenburghny.com/DocumentCenter/View/14655/2024-CAC-Newsletter-3-Invasive-Plants",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Greenburgh-Town\\2024-cac-newsletter-3-invasive-plants.txt"
+      "title": "2024 CAC Newsletter 3 Invasive Plants"
     },
     {
       "url": "https://www.greenburghny.com/DocumentCenter/View/14657/2024-CAC-Winter-Letter",
-      "title": "https://www.greenburghny.com/DocumentCenter/View/14657/2024-CAC-Winter-Letter",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Greenburgh-Town\\2024-cac-winter-letter.txt"
+      "title": "2024 CAC Winter Letter"
     }
-  ],
-  "lastUpdated": "2026-05-15T14:56:22.905Z"
+  ]
 }

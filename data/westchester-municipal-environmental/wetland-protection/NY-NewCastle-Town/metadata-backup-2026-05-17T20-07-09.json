@@ -1,0 +1,23 @@
+{
+  "municipality": "New Castle",
+  "municipalityType": "Town",
+  "domain": "Wetland protection",
+  "domainId": "wetland-protection",
+  "originalCellValue": "G- https://ecode360.com/11759229",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:05.556Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Ch 64",
+  "sources": [
+    {
+      "downloadedAt": "2026-05-17T20:07:08.868Z",
+      "contentLength": 139189,
+      "sourceUrl": "https://ecode360.com/11759229",
+      "title": "Zoning — See Ch",
+      "type": "statute"
+    }
+  ],
+  "entityId": "NY-NewCastle-Town",
+  "homePage": "https://www.mynewcastleny.gov/",
+  "isArticleBased": false
+}

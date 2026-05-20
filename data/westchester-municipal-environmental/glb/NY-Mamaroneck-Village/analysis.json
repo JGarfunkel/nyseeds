@@ -1,5 +1,5 @@
 {
-  "id": "NY-Mamaroneck-Village-glb-1779130231408",
+  "id": "NY-Mamaroneck-Village-glb-1779296568052",
   "entityId": "NY-Mamaroneck-Village",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -59,16 +59,16 @@
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the provided sources. The excerpts from https://ecode360.com/7711269#7711272 address noise violations generally (radios, construction, horns, etc.) but do not detail the reporting and enforcement mechanism specific to gas leaf blower violations — such as which authority (police, code enforcement, DPW) handles complaints, how residents submit reports, or whether written notices are issued to property owners or contractors.",
+      "answer": "Not specified in the provided sources. The excerpts from https://ecode360.com/7711269#7711272 address various noise-related prohibitions (radios, horns, construction, etc.) but do not detail the specific reporting and enforcement mechanisms for violations, such as which authorities are responsible for enforcement, how complaints are filed, or whether written notifications are required.",
       "confidence": 15,
       "sourceRefs": [
         "https://ecode360.com/7711269#7711272"
       ],
-      "gap": "The sources do not identify designated enforcement authorities, complaint/reporting procedures, written notification requirements, or contractor/property owner liability for gas leaf blower violations. This falls short of best practices, which call for named enforcement bodies, written notices for repeat violations, and dual accountability for both property owners and contractors.",
-      "score": 0.05,
+      "gap": "The statute does not specify enforcement authorities (e.g., Police, Code Enforcement Officers), complaint/reporting procedures, written notification requirements, or liability assignment between property owners and contractors. These are all elements identified in best practices for violation enforcement.",
+      "score": 0.1,
       "nextPrompts": [
-        "Search the Village of Mamaroneck municipal code for enforcement and complaint procedures related to noise or leaf blower ordinances, including which department (Police, Code Enforcement, DPW) is responsible.",
-        "Look for any administrative provisions in the Mamaroneck code specifying how violations are reported by residents and whether property owners vs. contractors bear liability for gas leaf blower infractions."
+        "Search for enforcement and complaint procedures within the Village of Mamaroneck municipal code, particularly sections referencing Code Enforcement Officers or Police Department authority over noise violations.",
+        "Search for sections of the Mamaroneck code that assign liability to property owners or contractors for noise ordinance violations, including gas leaf blower prohibitions."
       ]
     },
     {
@@ -76,14 +76,12 @@
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
       "answer": "Not specified in the provided sources.",
       "confidence": 95,
-      "sourceRefs": [
-        "https://ecode360.com/7711269#7711272"
-      ],
-      "gap": "The ordinance does not mention any benefits of leaving leaf debris or leaf mulching, nor does it include educational components, ecological guidance, or community outreach regarding these practices. This represents a significant gap compared to best practices, which recommend municipalities explicitly promote soil enrichment, habitat creation, and other environmental benefits through informational campaigns or mandated guidelines.",
+      "sourceRefs": [],
+      "gap": "The ordinance does not mention any benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, community workshops, or informational campaigns promoting ecological advantages such as soil enrichment or habitat creation. This represents a significant gap compared to best practices, which recommend municipalities actively educate residents on these environmental benefits.",
       "score": 0,
       "nextPrompts": [
-        "Does the Village of Mamaroneck have any separate environmental or sustainability ordinances that address leaf mulching or composting practices?",
-        "Are there any Village of Mamaroneck public communications or supplementary materials that accompany the leaf blower ordinance and discuss ecological benefits of leaf debris management?"
+        "Does the Village of Mamaroneck have any separate environmental or sustainability programs that address leaf debris management or mulching?",
+        "Are there any accompanying resolutions or public communications from the Village of Mamaroneck that discuss the environmental rationale behind the gas leaf blower ban?"
       ]
     },
     {
@@ -95,8 +93,8 @@
     }
   ],
   "scores": {
-    "overallScore": 4.46,
-    "normalizedScore": 4.46,
+    "overallScore": 4.5,
+    "normalizedScore": 4.5,
     "averageConfidence": 70,
     "questionsAnswered": 7,
     "totalQuestions": 7,
@@ -106,13 +104,13 @@
         0.65,
         0.75,
         0.6,
-        0.05,
+        0.1,
         0,
         0
       ],
       "averageQuestionScore": 0.36,
-      "weightedScore": 0.4458,
-      "totalWeightedScore": 5.35,
+      "weightedScore": 0.45,
+      "totalWeightedScore": 5.3999999999999995,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
@@ -149,9 +147,9 @@
         },
         {
           "id": "5",
-          "score": 0.05,
+          "score": 0.1,
           "weight": 1,
-          "weightedScore": 0.05,
+          "weightedScore": 0.1,
           "maxWeightedScore": 1,
           "confidence": 15
         },
@@ -174,11 +172,11 @@
       ]
     }
   },
-  "overallScore": 4.46,
+  "overallScore": 4.5,
   "averageConfidence": 70,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:50:31.408Z",
+  "lastUpdated": "2026-05-20T17:02:48.052Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

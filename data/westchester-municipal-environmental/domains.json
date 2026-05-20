@@ -65,7 +65,10 @@
       "wildlife corridors",
       "amphibian",
       "bird",
-      "turtle"
+      "raptors",
+      "turtle",
+      "pesticide",
+      "rodenticide"
     ],
     "questionPromptScope": "Focus on wildlife protection, habitat conservation, and biodiversity regulations, including wildlife corridors and specific protections for amphibians, birds, and turtles.",
     "questionPromptRequirements": [

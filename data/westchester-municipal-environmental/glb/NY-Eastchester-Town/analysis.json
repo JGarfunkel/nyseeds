@@ -1,5 +1,5 @@
 {
-  "id": "NY-Eastchester-Town-glb-1779130101803",
+  "id": "NY-Eastchester-Town-glb-1779296419186",
   "entityId": "NY-Eastchester-Town",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -146,7 +146,7 @@
   "averageConfidence": 0,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:48:21.803Z",
+  "lastUpdated": "2026-05-20T17:00:19.186Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

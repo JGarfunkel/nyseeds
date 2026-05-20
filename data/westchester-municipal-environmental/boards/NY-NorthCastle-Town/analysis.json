@@ -1,5 +1,5 @@
 {
-  "id": "NY-NorthCastle-Town-boards-1778786280380",
+  "id": "NY-NorthCastle-Town-boards-1779299094337",
   "entityId": "NY-NorthCastle-Town",
   "domainId": "boards",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "boards",
-    "displayName": "Boards"
+    "displayName": "Governing Boards & Committees"
   },
   "grades": {},
   "questions": [
@@ -56,16 +56,17 @@
     },
     {
       "id": 7,
-      "question": "Does the website provide clear, timely guidance for common user questions about meetings, agendas, minutes, or contacting the board?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "question": "Does the website list and share social media accounts, contact information?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0
     }
   ],
   "scores": {
     "overallScore": 0,
     "normalizedScore": 0,
-    "averageConfidence": 1,
+    "averageConfidence": 3,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
@@ -81,102 +82,102 @@
       "averageQuestionScore": 0,
       "weightedScore": 0,
       "totalWeightedScore": 0,
-      "totalPossibleWeight": 3.0999999999999996,
+      "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
           "score": 0,
-          "weight": 0.1,
+          "weight": 1,
           "weightedScore": 0,
-          "maxWeightedScore": 0.1,
+          "maxWeightedScore": 1,
           "confidence": 10
         },
         {
           "id": "2",
           "score": 0,
-          "weight": 0.3,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.3,
+          "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "3",
           "score": 0,
-          "weight": 0.5,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.5,
+          "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "4",
           "score": 0,
-          "weight": 0.3,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.3,
+          "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "5",
           "score": 0,
-          "weight": 0.3,
+          "weight": 3,
           "weightedScore": 0,
-          "maxWeightedScore": 0.3,
+          "maxWeightedScore": 3,
           "confidence": 0
         },
         {
           "id": "6",
           "score": 0,
-          "weight": 0.8,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.8,
+          "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "7",
           "score": 0,
-          "weight": 0.8,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.8,
-          "confidence": 0
+          "maxWeightedScore": 2,
+          "confidence": 10
         }
       ]
     }
   },
   "overallScore": 0,
-  "averageConfidence": 1,
+  "averageConfidence": 3,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T13:45:43.677Z",
+  "lastUpdated": "2026-05-20T17:44:54.337Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.northcastleny.com/654/Conservation-Board",
-      "title": "https://www.northcastleny.com/654/Conservation-Board"
+      "title": "Conservation Board | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/655/Conservation-Board-Awards",
-      "title": "https://www.northcastleny.com/655/Conservation-Board-Awards"
+      "title": "Conservation Board Awards | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/656/Conservation-Board-Brochures-Reports",
-      "title": "https://www.northcastleny.com/656/Conservation-Board-Brochures-Reports"
+      "title": "Conservation Board Brochures & Reports | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/660/Plants",
-      "title": "https://www.northcastleny.com/660/Plants"
+      "title": "Plants | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/665/Trees",
-      "title": "https://www.northcastleny.com/665/Trees"
+      "title": "Trees | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/760/NCTV-Meeting-Video-Portal",
-      "title": "https://www.northcastleny.com/760/NCTV-Meeting-Video-Portal"
+      "title": "NCTV Meeting & Video Portal | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/AgendaCenter/Conservation-Board-5",
-      "title": "https://www.northcastleny.com/AgendaCenter/Conservation-Board-5"
+      "title": "Agenda Center • North Castle, NY • CivicEngage"
     }
   ]
 }

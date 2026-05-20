@@ -1,8 +1,16 @@
 {
-  "id": "NY-Tuckahoe-Village-glb-1778856980630",
-  "municipality": "NY-Tuckahoe-Village",
-  "domain": "glb",
-  "analyzedAt": "2025-09-09T20:09:58.341Z",
+  "id": "NY-Tuckahoe-Village-glb-1779297065960",
+  "entityId": "NY-Tuckahoe-Village",
+  "domainId": "glb",
+  "entity": {
+    "id": "NY-Tuckahoe-Village",
+    "displayName": "Tuckahoe - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Gas Leaf Blowers"
+  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
@@ -40,67 +48,86 @@
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:09:55.197Z"
+      "answer": "The only exception specified in the statute is for snow blowers, chain saws, and other tools used to clear walks, streets, sidewalks, and/or driveways during and within 48 hours of snow, rain, ice, wind storms, or other similar emergencies (§15-52(d)). No exceptions are provided for school, government, or commercial properties.",
+      "confidence": 92,
+      "sourceRefs": [
+        "§15-52(d)"
+      ],
+      "gap": "The statute does not include exceptions for school district properties, municipal properties, utility company emergency repairs, permit-based activities, or municipally sponsored events. There is no distance buffer requirement (e.g., 100 feet from residences) or public safety/maintenance carve-out for government or institutional users.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does Tuckahoe have any separate administrative rules or permits that allow government or school entities to use gas leaf blowers outside standard restrictions?",
+        "Has Tuckahoe considered or proposed any amendments to add municipal or school property exceptions to Article IV?"
+      ]
     },
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Violations are enforced by the Code Enforcement Officer, Building Inspector, the Superintendent of Public Works, and any police officer in the Village Police Department, who have the authority to enforce the provisions of this article (§ 15-53). However, the statute does not specify how violations are reported.",
-      "confidence": 90,
+      "answer": "Enforcement authority is vested in the Code Enforcement Officer, Building Inspector, the Superintendent of Public Works, and any Village Police Department officer (§15-53). All persons are entitled to one warning before prosecution proceeds (§15-54a). Where an employee operates equipment in the course of employment duties, the employer is deemed the violator and subject to penalties (§15-54b). Enforcement officers may also pursue additional remedies including summary action, injunctive relief, and civil actions for environmental damages (§15-54c).",
+      "confidence": 95,
       "sourceRefs": [
-        "§ 15-53"
+        "§15-53",
+        "§15-54a",
+        "§15-54b",
+        "§15-54c"
       ],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:09:56.714Z"
+      "gap": "The statute does not specify a formal written notification process for repeated violations beyond the one-warning requirement. There is also no explicit mechanism for residents to report violations (e.g., a complaint hotline or online portal), and no specific contractor licensing or registration accountability mechanism beyond employer liability.",
+      "score": 0.7,
+      "nextPrompts": [
+        "Is there a formal complaint or reporting process for residents to report violations to enforcement officers?",
+        "Are there any contractor registration or licensing requirements tied to compliance with the leaf blower ordinance?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:09:57.495Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 95,
+      "sourceRefs": [
+        "Section 15-52",
+        "§ 1"
+      ],
+      "gap": "The ordinance does not mention the benefits of leaving leaf debris or leaf mulching, nor does it include any educational requirements, ecological guidance, or community outreach regarding these practices. Best practice recommends municipalities explicitly promote soil enrichment, habitat creation, and other environmental benefits of leaf debris and mulching through guidelines and public awareness campaigns.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Tuckahoe have any separate environmental or sustainability policies that address leaf mulching or natural debris management?",
+        "Are there any Village-issued public education materials or programs that complement this ordinance regarding leaf debris benefits?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:09:58.312Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 95,
+      "sourceRefs": [
+        "§ 1",
+        "Section 15-52"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 4.5,
-    "normalizedScore": 4.5,
-    "averageConfidence": 51,
-    "questionsAnswered": 4,
+    "overallScore": 4.79,
+    "normalizedScore": 4.79,
+    "averageConfidence": 92,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
         0.5,
         0.3,
         0.9,
-        0.1,
-        0.1,
-        0.1,
-        0.1
+        0.05,
+        0.7,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.3000000000000001,
-      "weightedScore": 0.45,
-      "totalWeightedScore": 5.399999999999999,
+      "averageQuestionScore": 0.35,
+      "weightedScore": 0.4792,
+      "totalWeightedScore": 5.75,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "The prohibition of gasoline-powered leaf blowers lasts from June 1 through and including September 30 of each year. This prohibition covers a period of four months. (See § 15-52(a)).",
           "score": 0.5,
           "weight": 4,
           "weightedScore": 2,
@@ -109,8 +136,6 @@
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "Gasoline-powered leaf blowers are prohibited from June 1 through September 30 each year. During the period of October 1 through May 31, gasoline-powered leaf blowers may be used during the following hours: Monday through Friday from 8:00 a.m. to 7:00 p.m., Saturday from 9:00 a.m. to 5:00 p.m., and Sunday and holidays from 12:00 noon to 5:00 p.m. (§ 15-52(a), (c)).",
           "score": 0.3,
           "weight": 1,
           "weightedScore": 0.3,
@@ -119,8 +144,6 @@
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "A violation of the gas leaf blower regulations is punishable, upon conviction, by a fine not exceeding $350 or imprisonment not exceeding 15 days, or both. All persons are entitled to one warning before prosecution. If the operator is an employee, the employer is deemed in violation and punished accordingly. Additional enforcement actions may include summary action, injunctive relief, and civil actions for environmental damages (§ 15-54).",
           "score": 0.9,
           "weight": 3,
           "weightedScore": 2.7,
@@ -129,57 +152,45 @@
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.05,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 92
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Violations are enforced by the Code Enforcement Officer, Building Inspector, the Superintendent of Public Works, and any police officer in the Village Police Department, who have the authority to enforce the provisions of this article (§ 15-53). However, the statute does not specify how violations are reported.",
-          "score": 0.1,
+          "score": 0.7,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.7,
           "maxWeightedScore": 1,
-          "confidence": 90
+          "confidence": 95
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 95
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 95
         }
       ]
     }
   },
-  "overallScore": 4.5,
-  "averageConfidence": 51,
-  "questionsAnswered": 4,
+  "overallScore": 4.79,
+  "averageConfidence": 92,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "gapAnalysis": "",
-  "wenGrade": "G-",
+  "lastUpdated": "2026-05-20T17:11:05.960Z",
+  "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 4.5,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.272Z",
-  "entityId": "NY-Tuckahoe-Village",
-  "domainId": "glb",
-  "lastUpdated": "2026-05-15T14:56:20.630Z"
+  "sources": []
 }

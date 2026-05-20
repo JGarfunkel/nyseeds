@@ -1,16 +1,16 @@
 {
-  "id": "NY-Bronxville-Village-weeds-1778856982752",
-  "municipality": {
+  "id": "NY-Bronxville-Village-weeds-1779299134437",
+  "entityId": "NY-Bronxville-Village",
+  "domainId": "weeds",
+  "entity": {
     "id": "NY-Bronxville-Village",
     "displayName": "Bronxville - Village"
   },
   "domain": {
     "id": "weeds",
-    "displayName": "Weeds"
+    "displayName": "Weed Management"
   },
-  "grades": {
-    "WEN": "R-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": "1",
@@ -59,8 +59,8 @@
     }
   ],
   "scores": {
-    "overallScore": 2.75,
-    "normalizedScore": 2.75,
+    "overallScore": 2.25,
+    "normalizedScore": 2.25,
     "averageConfidence": 46,
     "questionsAnswered": 3,
     "totalQuestions": 5,
@@ -73,14 +73,12 @@
         0.55
       ],
       "averageQuestionScore": 0.31,
-      "weightedScore": 0.275,
-      "totalWeightedScore": 1.6500000000000001,
+      "weightedScore": 0.225,
+      "totalWeightedScore": 1.35,
       "totalPossibleWeight": 6,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-          "answer": "The statute does not specify detailed property maintenance requirements for residents regarding weeds. It mentions compliance notice procedures if maintenance is lacking, but not the specific standards or requirements for weed control.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
@@ -89,28 +87,22 @@
         },
         {
           "id": "2",
-          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
           "confidence": 20
         },
         {
           "id": "3",
-          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 20
         },
         {
           "id": "4",
-          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
-          "answer": "If the property owner fails to comply with the maintenance notice within seven days, the Village Administrator is authorized to cut, trim, and remove materials from the property. The cost of these services will be assessed against the property as a lien, collected like delinquent taxes. This cost is in addition to any penalty specified under § 252-7.",
           "score": 0.7,
           "weight": 1,
           "weightedScore": 0.7,
@@ -119,8 +111,6 @@
         },
         {
           "id": "6",
-          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
-          "answer": "The property owner has seven days from the date of mailing of the notice to comply with the property maintenance requirements before penalties are applied.",
           "score": 0.55,
           "weight": 1,
           "weightedScore": 0.55,
@@ -130,14 +120,12 @@
       ]
     }
   },
-  "overallScore": 2.75,
+  "overallScore": 2.25,
   "averageConfidence": 46,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2026-05-15T14:56:22.752Z",
+  "lastUpdated": "2026-05-20T17:45:34.437Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 2.75,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.490Z",
-  "domainId": "weeds"
+  "sources": []
 }

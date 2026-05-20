@@ -1,5 +1,5 @@
 {
-  "id": "NY-PortChester-Village-glb-1779130452326",
+  "id": "NY-PortChester-Village-glb-1779296916022",
   "entityId": "NY-PortChester-Village",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -75,10 +75,16 @@
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
       "answer": "Not specified in the provided sources.",
-      "confidence": 0,
+      "confidence": 10,
       "sourceRefs": [
         "§ 224-3.1",
         "§ 224-2C"
+      ],
+      "gap": "The ordinance does not mention any benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, ecological guidance, or community outreach regarding these environmental practices. This represents a significant gap compared to best practices, which recommend municipalities explicitly promote soil enrichment, habitat creation, and public awareness campaigns around leaf debris and mulching.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Port Chester have any separate environmental or sustainability ordinances that address leaf debris management or composting?",
+        "Are there any municipal programs or public communications from Port Chester that promote leaf mulching or natural yard waste practices?"
       ]
     },
     {
@@ -95,7 +101,7 @@
   "scores": {
     "overallScore": 4.71,
     "normalizedScore": 4.71,
-    "averageConfidence": 56,
+    "averageConfidence": 58,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
@@ -159,7 +165,7 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "7",
@@ -173,10 +179,10 @@
     }
   },
   "overallScore": 4.71,
-  "averageConfidence": 56,
+  "averageConfidence": 58,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:54:12.326Z",
+  "lastUpdated": "2026-05-20T17:08:36.022Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

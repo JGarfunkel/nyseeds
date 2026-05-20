@@ -1,5 +1,5 @@
 {
-  "id": "NY-MountPleasant-Town-glb-1779130286524",
+  "id": "NY-MountPleasant-Town-glb-1779296602311",
   "entityId": "NY-MountPleasant-Town",
   "domainId": "glb",
   "entity": {
@@ -8,23 +8,23 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
     {
       "id": 1,
       "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-      "answer": "The provided sources do not specify a seasonal prohibition period for gas leaf blowers with specific start and end dates. The statute for the Town of Mount Pleasant only restricts the operation of leaf blowers (along with other power tools and equipment) in residentially zoned districts during the daily hours of 10:00 p.m. to 8:00 a.m., so as to create unnecessary noise. This is a daily time restriction, not a seasonal or annual prohibition.",
+      "answer": "The provided sources do not specify a seasonal prohibition period for gas leaf blowers with defined start and end dates. The statute only restricts operation of leaf blowers (along with other power tools and equipment) in residentially zoned districts during the nighttime hours of 10:00 p.m. to 8:00 a.m., so as to create unnecessary noise. This is a daily time-of-day restriction, not a seasonal or annual prohibition.",
       "confidence": 90,
       "sourceRefs": [
         "https://ecode360.com/9606569"
       ],
-      "gap": "The Town of Mount Pleasant lacks a seasonal prohibition on gas leaf blowers with defined start and end dates. Best practice suggests a year-round prohibition with limited seasonal exceptions (e.g., March 15–May 15 and October 1–December 31). Mount Pleasant only restricts daily operating hours (10:00 p.m.–8:00 a.m.), which falls significantly short of this standard.",
-      "score": 0.1,
+      "gap": "The statute lacks any seasonal prohibition on gas leaf blowers. Best practice recommends a year-round ban with limited seasonal exceptions (e.g., March 15–May 15 and October 1–December 31). This municipality only restricts hours of operation (10:00 p.m.–8:00 a.m.) with no seasonal component at all, representing a significant gap from best practice.",
+      "score": 0.05,
       "nextPrompts": [
-        "Does the Town of Mount Pleasant have any separate ordinance or amendment specifically targeting gas-powered leaf blowers beyond the general noise chapter?",
-        "Has the Town of Mount Pleasant considered or proposed any seasonal restrictions on gas leaf blower use in residential areas?"
+        "Does the Town of Mount Pleasant have any separate ordinance or amendment specifically targeting gas-powered leaf blowers with seasonal restrictions?",
+        "Has the Town of Mount Pleasant considered or proposed any updates to align with neighboring municipalities' seasonal gas leaf blower bans?"
       ]
     },
     {
@@ -45,32 +45,32 @@
     {
       "id": 3,
       "question": "What are the penalties for violating gas leaf blower regulations?",
-      "answer": "Violations of the noise provisions, including those related to leaf blowers, are deemed violations of § 139-5 of the chapter. The statute does not specify the exact penalty amounts or escalating fine structures within the provided text. Any act in violation of Article II (Unnecessary Noise) is treated as a violation of § 139-5, which presumably contains the penalty provisions, but those details are not included in the provided excerpts.",
-      "confidence": 35,
+      "answer": "Under the statute, any violation of Article II (Unnecessary Noise) is deemed to be a violation of § 139-5 of the chapter. The statute explicitly states that violations of Article II provisions are violations of § 139-5, without limiting the generality of that section's provisions. Specific penalty amounts, escalating fine structures, or details about who bears liability (operator vs. property owner) are not detailed within the provided Article II text itself — the penalty framework is contained in § 139-5, which is referenced but not reproduced in the provided sources.",
+      "confidence": 42,
       "sourceRefs": [
-        "Article II Unnecessary Noise, General Provisions",
-        "§ 139-5 (referenced but not provided in full)"
+        "Article II Unnecessary Noise, opening paragraph: 'Any act in violation of any of the provisions of this article is deemed to be in violation of § 139-5 of this chapter'"
       ],
-      "gap": "The statute lacks explicit escalating fines (e.g., written warning, $250, $500, $1,000 for successive offenses), does not specify per-day penalties for continued non-compliance, and does not explicitly hold both the operator and property owner accountable for violations.",
+      "gap": "Significant gap exists. The statute references § 139-5 for penalties but does not specify escalating fines (e.g., warning, $250, $500, $1,000), per-day penalties, or dual liability for operators and property owners as recommended by best practices.",
       "score": 0.1,
       "nextPrompts": [
-        "What are the specific penalty amounts outlined in § 139-5 of Chapter 139 of the Town of Mount Pleasant code?",
-        "Does the Town of Mount Pleasant code specify joint liability for property owners and operators for noise violations involving leaf blowers?"
+        "What are the specific penalty amounts and fine schedule outlined in § 139-5 of Chapter 139 of the Town of Mount Pleasant Code?",
+        "Does § 139-5 establish liability for both the operator and the property owner for noise violations involving leaf blowers?"
       ]
     },
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "The statute does not specify any exceptions for school, government, or commercial properties. The only relevant provision restricts operation of power tools and equipment, including leaf blowers, in 'residentially zoned districts' during the hours of 10:00 p.m. to 8:00 a.m. This implies that restrictions apply specifically to residentially zoned areas, which may indirectly exclude commercial or other non-residential zones, but no explicit exceptions for school, government, or commercial properties are stated.",
-      "confidence": 72,
+      "answer": "The statute does not specify any exceptions for school, government, or commercial properties regarding the use of gas leaf blowers or other power tools and equipment. The restriction under 'Domestic power tools and equipment' applies broadly to operation 'in a residentially zoned district during the hours of 10:00 p.m. to 8:00 a.m.' There is a separate provision prohibiting commercial construction on any Sunday in the Town of Mount Pleasant, but no property-type exceptions are outlined for leaf blower use.",
+      "confidence": 82,
       "sourceRefs": [
-        "Article II, Domestic power tools and equipment subsection"
+        "Article II, Subsection J - Domestic power tools and equipment",
+        "Article II, Subsection L - Commercial construction on Sundays"
       ],
-      "gap": "The statute lacks explicit exceptions for school district properties, municipal properties, emergency utility repairs, operations beyond 100 feet from residences, permit-based activities, or municipally sponsored events — all of which are considered best practices. The only implicit distinction is the limitation to residentially zoned districts, which falls well short of the recommended framework.",
-      "score": 0.1,
+      "gap": "The statute lacks exceptions for school district properties, municipal properties, utility companies, and emergency repair situations. It also does not include permit-based exemptions or provisions for municipally sponsored events, all of which are recommended best practices.",
+      "score": 0.05,
       "nextPrompts": [
-        "Does Mount Pleasant have a separate ordinance or permit process that provides exceptions for municipal or school district leaf blower use?",
-        "Are there any administrative rules or town board resolutions that supplement this statute with property-type exceptions?"
+        "Are there any separate ordinances or permits in Mount Pleasant that allow exceptions to noise restrictions for municipal or school operations?",
+        "Does Mount Pleasant have any emergency repair or public safety provisions that override the general noise restrictions in Article II?"
       ]
     },
     {
@@ -96,11 +96,11 @@
       "answer": "Not specified in the provided sources.",
       "confidence": 95,
       "sourceRefs": [],
-      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, such as soil enrichment or habitat creation, nor does it include any educational requirements or guidelines promoting these practices. This represents a complete gap compared to best practices that recommend municipalities actively educate residents on these ecological advantages.",
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include any educational requirements, guidelines, or community outreach promoting these ecological practices such as soil enrichment or habitat creation.",
       "score": 0,
       "nextPrompts": [
-        "Does the municipality have any separate environmental or sustainability ordinances that address leaf debris management or mulching practices?",
-        "Are there any municipal outreach programs or guidelines in Mount Pleasant related to yard waste reduction and composting?"
+        "Does the Town of Mount Pleasant have any separate environmental or sustainability ordinances that address leaf debris management or mulching practices?",
+        "Are there any town-issued guidelines or public education materials related to yard waste management and ecological benefits of leaf mulching?"
       ]
     },
     {
@@ -112,31 +112,31 @@
     }
   ],
   "scores": {
-    "overallScore": 1,
-    "normalizedScore": 1,
-    "averageConfidence": 62,
+    "overallScore": 0.79,
+    "normalizedScore": 0.79,
+    "averageConfidence": 64,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0.1,
+        0.05,
         0.2,
         0.1,
-        0.1,
+        0.05,
         0.2,
         0,
         0
       ],
-      "averageQuestionScore": 0.1,
-      "weightedScore": 0.1,
-      "totalWeightedScore": 1.2000000000000002,
+      "averageQuestionScore": 0.09,
+      "weightedScore": 0.0792,
+      "totalWeightedScore": 0.95,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 4,
-          "weightedScore": 0.4,
+          "weightedScore": 0.2,
           "maxWeightedScore": 4,
           "confidence": 90
         },
@@ -154,15 +154,15 @@
           "weight": 3,
           "weightedScore": 0.3,
           "maxWeightedScore": 3,
-          "confidence": 35
+          "confidence": 42
         },
         {
           "id": "4",
-          "score": 0.1,
+          "score": 0.05,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.05,
           "maxWeightedScore": 1,
-          "confidence": 72
+          "confidence": 82
         },
         {
           "id": "5",
@@ -191,11 +191,11 @@
       ]
     }
   },
-  "overallScore": 1,
-  "averageConfidence": 62,
+  "overallScore": 0.79,
+  "averageConfidence": 64,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:51:26.524Z",
+  "lastUpdated": "2026-05-20T17:03:22.311Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

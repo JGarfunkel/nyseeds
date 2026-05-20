@@ -1,5 +1,5 @@
 {
-  "id": "NY-Ardsley-Village-glb-1779130093107",
+  "id": "NY-Ardsley-Village-glb-1779296257775",
   "entityId": "NY-Ardsley-Village",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -61,16 +61,16 @@
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "The provided sources include two exceptions for gas leaf blower use in the Village of Ardsley: (1) exemption when used to clear driveways, streets, walkways, and exterior premises after rainstorms, ice storms, windstorms, or other emergencies as declared by the Village Manager, during hours determined by the Village Manager; and (2) exemption during tree removal operations to clean up debris, limited to one gas leaf blower per property. There are no exceptions specified for school district properties, municipal/government properties, commercial properties, or utility company emergency repairs.",
+      "answer": "The Village of Ardsley statute provides two specific exemptions for gas leaf blower use: (1) clearing driveways, streets, walkways, and exterior premises after rainstorms, ice storms, windstorms, or other emergencies as declared by the Village Manager, during hours determined by the Village Manager; and (2) tree removal cleanup, limited to one gas leaf blower per property. There is also a general exemption for matters of urgent necessity in the interest of public safety. No specific exceptions are provided for school district properties, municipal/government properties, or commercial properties as distinct categories.",
       "confidence": 85,
       "sourceRefs": [
-        "Village of Ardsley, Article II - Gas Leaf Blowers"
+        "Article II - Gas Leaf Blowers, Village of Ardsley"
       ],
-      "gap": "The statute does not include exceptions for school district properties, municipal/government properties, commercial properties, utility company emergency repairs, or permit-based exemptions for municipally sponsored events. It also lacks requirements limiting such exceptions to operations beyond 100 feet from the nearest residence.",
-      "score": 0.15,
+      "gap": "The statute does not include exceptions specifically for school district properties, municipal/government properties, commercial properties, or utility company emergency repairs. It also lacks provisions limiting exceptions to operations beyond a certain distance from residences, or exemptions for permitted activities and municipally sponsored events.",
+      "score": 0.2,
       "nextPrompts": [
-        "Does the Village of Ardsley have any separate ordinances or resolutions granting exceptions for municipal or school district operations of gas leaf blowers?",
-        "Are there any pending amendments to the Ardsley gas leaf blower ordinance that would add exceptions for government or commercial properties?"
+        "Does the Village of Ardsley have any separate ordinances or administrative rules granting municipal employees or school districts exemptions from gas leaf blower restrictions?",
+        "Has the Ardsley Board of Trustees considered or proposed amendments to add school, government, or commercial property exceptions to the gas leaf blower regulations?"
       ]
     },
     {
@@ -95,25 +95,27 @@
       "answer": "Not specified in the provided sources.",
       "confidence": 95,
       "sourceRefs": [],
-      "gap": "The ordinance does not mention the environmental benefits of leaving leaf debris or leaf mulching, such as soil enrichment or habitat creation. It also lacks any educational requirements or community outreach initiatives promoting these ecological practices, which are considered best practices for municipal environmental protection.",
+      "gap": "The Village of Ardsley statute does not mention any benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, community workshops, or informational campaigns promoting ecological advantages such as soil enrichment or habitat creation. This represents a significant gap compared to best practices, which recommend municipalities explicitly promote and educate residents on these environmental benefits.",
       "score": 0,
       "nextPrompts": [
-        "Does the Village of Ardsley have any supplementary environmental education programs or materials related to leaf management and mulching?",
-        "Are there any related Village of Ardsley sustainability or environmental protection policies that address leaf debris management beyond the gas leaf blower ordinance?"
+        "Does the Village of Ardsley have any supplementary environmental education programs or publications addressing leaf mulching and debris management?",
+        "Has the Village of Ardsley considered or proposed any amendments to include leaf mulching guidance or environmental benefit disclosures in its landscaping regulations?"
       ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 10,
-      "sourceRefs": []
+      "answer": "The ordinance states that all gas leaf blowers will be prohibited beginning January 1, 2028, 'unless continuation of their use is approved by the Ardsley Board of Trustees.' This implies a review or approval process by the Board of Trustees, but the statute does not specify any requirement for a formal report to be presented to the public.",
+      "confidence": 72,
+      "sourceRefs": [
+        "Village of Ardsley, Article II"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 4.33,
-    "normalizedScore": 4.33,
-    "averageConfidence": 78,
+    "overallScore": 4.38,
+    "normalizedScore": 4.38,
+    "averageConfidence": 87,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
@@ -121,14 +123,14 @@
         0.75,
         0.6,
         0.35,
-        0.15,
+        0.2,
         0.4,
         0,
         0
       ],
-      "averageQuestionScore": 0.32,
-      "weightedScore": 0.4333,
-      "totalWeightedScore": 5.200000000000001,
+      "averageQuestionScore": 0.33,
+      "weightedScore": 0.4375,
+      "totalWeightedScore": 5.250000000000001,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
@@ -157,9 +159,9 @@
         },
         {
           "id": "4",
-          "score": 0.15,
+          "score": 0.2,
           "weight": 1,
-          "weightedScore": 0.15,
+          "weightedScore": 0.2,
           "maxWeightedScore": 1,
           "confidence": 85
         },
@@ -185,16 +187,16 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 10
+          "confidence": 72
         }
       ]
     }
   },
-  "overallScore": 4.33,
-  "averageConfidence": 78,
+  "overallScore": 4.38,
+  "averageConfidence": 87,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:48:13.107Z",
+  "lastUpdated": "2026-05-20T16:57:37.775Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

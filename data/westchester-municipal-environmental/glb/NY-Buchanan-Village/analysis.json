@@ -1,23 +1,31 @@
 {
-  "id": "NY-Buchanan-Village-glb-1778856979767",
-  "municipality": {
+  "id": "NY-Buchanan-Village-glb-1779296336565",
+  "entityId": "NY-Buchanan-Village",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-Buchanan-Village",
     "displayName": "Buchanan - Village"
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
     {
       "id": 1,
       "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
+      "answer": "The provided sources do not specify a seasonal prohibition period with defined start and end dates for gas leaf blowers. The Village of Buchanan's noise ordinance (§ 119-5B) restricts the use of leaf blowers and other landscape maintenance equipment only by time of day: prohibited between 7:00 p.m. and 8:00 a.m. on all days, and until 10:00 a.m. on Sundays. No year-round or seasonal calendar-based prohibition is specified in the provided sources.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 119-5B"
+      ],
+      "gap": "The Village of Buchanan has no seasonal or calendar-based prohibition on gas leaf blowers. Best practices recommend year-round prohibition with limited seasonal exceptions (e.g., March 15–May 15 and October 1–December 31), which Buchanan does not appear to have adopted.",
       "score": 0.1,
-      "gap": "Consider adding a clear regulatory framework that specifies the exact start and end dates for the prohibition of gas leaf blowers, such as a seasonal ban from May 1st to September 30th, to ensure clarity and compliance."
+      "nextPrompts": [
+        "Does the Village of Buchanan have any separate ordinance or local law specifically addressing gas-powered leaf blowers beyond the general noise chapter?",
+        "Has the Village of Buchanan considered or proposed any seasonal restrictions on gas leaf blower use in recent Board of Trustees meetings?"
+      ]
     },
     {
       "id": 2,
@@ -44,11 +52,17 @@
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a provision that explicitly outlines exceptions or specific requirements for school, government, and commercial properties, including criteria for eligibility and any conditions that must be met to qualify for these exceptions."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 15,
+      "sourceRefs": [
+        "§ 119-6"
+      ],
+      "gap": "The statute does not appear to include exceptions for school district properties, municipal properties, commercial properties, emergency utility repairs, or municipally sponsored events. Best practices recommend allowing such exceptions, particularly when operations are beyond 100 feet from the nearest residence and necessary for public safety or maintenance. This represents a significant gap.",
+      "score": 0,
+      "nextPrompts": [
+        "Search for any variance or permit provisions within Article 119 that may allow exceptions for government or institutional use of gas leaf blowers.",
+        "Review the full text of the Village of Buchanan noise ordinance for any exemptions related to municipal operations, emergency work, or commercial landscaping activities."
+      ]
     },
     {
       "id": 5,
@@ -64,57 +78,57 @@
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for public education programs that promote the environmental benefits of leaving leaf debris and mulching, including guidelines for residents on how to effectively implement these practices to enhance soil health and reduce waste."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 119-5",
+        "§ 119-7",
+        "§ 119-2"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for an annual public report that includes comprehensive data collection on relevant municipal activities, transparency measures detailing how the data is gathered and used, and tracking mechanisms to monitor progress and ensure accountability."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 119-2",
+        "§ 119-1",
+        "§ 119-6"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 3.42,
-    "normalizedScore": 3.42,
-    "averageConfidence": 48,
-    "questionsAnswered": 3,
+    "overallScore": 3.17,
+    "normalizedScore": 3.17,
+    "averageConfidence": 51,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
         0.1,
         0.6,
         0.7,
-        0.1,
+        0,
         0.7,
-        0.1,
-        0.1
+        0,
+        0
       ],
-      "averageQuestionScore": 0.3428571428571429,
-      "weightedScore": 0.3417,
-      "totalWeightedScore": 4.1,
+      "averageQuestionScore": 0.3,
+      "weightedScore": 0.3167,
+      "totalWeightedScore": 3.8,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 4,
           "weightedScore": 0.4,
           "maxWeightedScore": 4,
-          "confidence": 20
+          "confidence": 85
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "Gas leaf blower operation is not explicitly mentioned, but landscape maintenance equipment, which may include gas leaf blowers, is prohibited between 7:00 p.m. and 8:00 a.m. on all days, and until 10:00 a.m. on Sundays.",
           "score": 0.6,
           "weight": 1,
           "weightedScore": 0.6,
@@ -123,28 +137,22 @@
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "Violations of noise regulations, which may include gas leaf blower regulations, are punishable by a fine of $250 for the first offense. Each day constitutes a separate offense. For subsequent violations, the fine increases to $500.",
           "score": 0.7,
           "weight": 3,
-          "weightedScore": 2.0999999999999996,
+          "weightedScore": 2.1,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 15
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Violations can be substantiated by sworn affidavits from two or more unrelated persons who reside in different residences or by direct observation by an enforcement officer, which may include reviewing a Police Officer's body worn camera. Enforcement is carried out by the Police Department of the Village of Buchanan.",
           "score": 0.7,
           "weight": 1,
           "weightedScore": 0.7,
@@ -153,35 +161,29 @@
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 0
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 3.42,
-  "averageConfidence": 48,
-  "questionsAnswered": 3,
+  "overallScore": 3.17,
+  "averageConfidence": 51,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T14:56:19.767Z",
+  "lastUpdated": "2026-05-20T16:58:56.565Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3.42,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.222Z",
-  "domainId": "glb"
+  "sources": []
 }

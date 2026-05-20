@@ -1,16 +1,16 @@
 {
-  "id": "NY-SleepyHollow-Village-glb-1778856980565",
-  "municipality": {
+  "id": "NY-SleepyHollow-Village-glb-1779296992006",
+  "entityId": "NY-SleepyHollow-Village",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-SleepyHollow-Village",
     "displayName": "Sleepy Hollow - Village"
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
@@ -59,36 +59,52 @@
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a clear regulatory framework that mandates the establishment of a centralized reporting system for violations, which includes detailed data collection requirements, public access to violation reports, transparency measures for how reports are handled, and mechanisms for tracking the resolution of each reported violation."
+      "answer": "Under §272-6, violations are enforced through the conviction process, where any person found in violation is subject to a fine not to exceed $250, up to 15 days' imprisonment, or both. Each day a violation continues constitutes a separate offense. The statute references the Police Department as having a role in permitting certain noise-related activities (§272-5), suggesting police involvement in enforcement. Noise measurements used as evidence of violations must be taken at least four feet above ground level and no more than 40 feet above ground level, with specific measurement locations depending on whether the noise originates from residential or commercial property (§272-3).",
+      "confidence": 62,
+      "sourceRefs": [
+        "§272-6",
+        "§272-3",
+        "§272-5"
+      ],
+      "gap": "The statute does not specify a formal violation reporting mechanism, written notification requirements, or explicit designation of Code Enforcement Officers. There is no mention of contractor/property owner liability distinctions or a structured complaint process. Enforcement appears limited to conviction-based penalties without detailing who initiates enforcement actions beyond implied police involvement.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Does the Village of Sleepy Hollow have a separate code enforcement chapter that designates specific officers responsible for noise ordinance violations?",
+        "Are there any administrative procedures or complaint filing processes outlined elsewhere in the municipal code for reporting gas leaf blower violations?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a provision to the statute that mandates public education campaigns on the environmental benefits of leaving leaf debris and implementing leaf mulching, including guidelines for best practices and potential incentives for residents who adopt these sustainable practices."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 272-5"
+      ],
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching. Best practice recommends that municipalities explicitly promote these ecological advantages (e.g., soil enrichment, habitat creation) through educational requirements, guidelines, or community outreach campaigns.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Sleepy Hollow have any separate environmental or sustainability ordinances that address leaf debris management or mulching practices?",
+        "Are there any municipal educational programs or informational campaigns in Sleepy Hollow related to leaf mulching or natural yard care?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report that includes comprehensive data collection on relevant activities, transparency measures, and tracking mechanisms to ensure accountability and public awareness."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 272-5",
+        "§ 272-3",
+        "§ 272-4"
+      ]
     }
   ],
   "scores": {
     "overallScore": 5.75,
     "normalizedScore": 5.75,
-    "averageConfidence": 57,
-    "questionsAnswered": 4,
+    "averageConfidence": 59,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
@@ -96,19 +112,17 @@
         0.65,
         0.9,
         0.65,
-        0.1,
-        0.1,
-        0.1
+        0.3,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.45000000000000007,
+      "averageQuestionScore": 0.45,
       "weightedScore": 0.575,
-      "totalWeightedScore": 6.8999999999999995,
+      "totalWeightedScore": 6.9,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "The prohibition of gas-powered leaf blowers is not active for a certain period but rather specifies the times they can be used. They are permitted from October 1st through the Friday commencing Memorial Day weekend of the following year.",
           "score": 0.65,
           "weight": 4,
           "weightedScore": 2.6,
@@ -117,8 +131,6 @@
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "Gas leaf blowers are permitted from October 1 through the Friday commencing Memorial Day weekend. The hours are 8:00 a.m. to 5:00 p.m. on Monday through Friday, 9:00 a.m. to 3:00 p.m. on Saturdays and holidays, and 12:00 noon to 2:00 p.m. on Sundays.",
           "score": 0.65,
           "weight": 1,
           "weightedScore": 0.65,
@@ -127,8 +139,6 @@
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "The penalties for violating any provisions of the noise ordinance, including gas leaf blower regulations, are a fine not to exceed $250, 15 days' imprisonment, or both. Each day the violation continues is considered a separate offense.",
           "score": 0.9,
           "weight": 3,
           "weightedScore": 2.7,
@@ -137,8 +147,6 @@
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "The statute mentions permitted noises including sounds created by any government agency using public warning devices, public utilities in carrying out operations, and sounds connected with sporting events of public or private schools. However, exceptions specifically for commercial properties regarding gas leaf blower regulations are not specified.",
           "score": 0.65,
           "weight": 1,
           "weightedScore": 0.65,
@@ -147,72 +155,58 @@
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.3,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.3,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 62
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 10
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 0
         }
       ]
     }
   },
   "overallScore": 5.75,
-  "averageConfidence": 57,
-  "questionsAnswered": 4,
+  "averageConfidence": 59,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T14:56:20.565Z",
+  "lastUpdated": "2026-05-20T17:09:52.006Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 5.75,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.270Z",
-  "domainId": "glb",
   "sources": [
     {
       "url": "https://sustainablesleepyhollow.org/2025/11/13/november-updates-a-cornucopia-of-waste-free-tips",
-      "title": "https://sustainablesleepyhollow.org/2025/11/13/november-updates-a-cornucopia-of-waste-free-tips",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-SleepyHollow-Village\\november-updates-a-cornucopia-of-waste-free-tips.txt"
+      "title": "November Updates & A Cornucopia of Waste-Free Tips! – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/2026/02/05/tell-the-mayor-board-of-trustees-where-you-stand-february-10th-public-hearing-on-gas-powered-leaf-blowers",
-      "title": "https://sustainablesleepyhollow.org/2026/02/05/tell-the-mayor-board-of-trustees-where-you-stand-february-10th-public-hearing-on-gas-powered-leaf-blowers",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-SleepyHollow-Village\\tell-the-mayor-board-of-trustees-where-you-stand-february-10th-public-hearing-on.txt"
+      "title": "Tell the Mayor & Board of Trustees where you stand: February 10th Public Hearing on gas powered leaf blowers – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/category/uncategorized",
-      "title": "https://sustainablesleepyhollow.org/category/uncategorized",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-SleepyHollow-Village\\uncategorized.txt"
+      "title": "Uncategorized – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/wp-content/uploads/2025/11/103025-gas-powered-leaf-blower-considerations.pdf",
-      "title": "https://sustainablesleepyhollow.org/wp-content/uploads/2025/11/103025-gas-powered-leaf-blower-considerations.pdf",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-SleepyHollow-Village\\103025-gas-powered-leaf-blower-considerations.txt"
+      "title": "103025 Gas Powered Leaf Blower Considerations.Pdf"
     },
     {
       "url": "https://sustainablesleepyhollow.org/wp-content/uploads/2026/02/jan-2026-gas-powered-leaf-blower-considerations-1.pdf",
-      "title": "https://sustainablesleepyhollow.org/wp-content/uploads/2026/02/jan-2026-gas-powered-leaf-blower-considerations-1.pdf",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-SleepyHollow-Village\\jan-2026-gas-powered-leaf-blower-considerations-1.txt"
+      "title": "Jan 2026 Gas Powered Leaf Blower Considerations 1.Pdf"
     }
   ]
 }

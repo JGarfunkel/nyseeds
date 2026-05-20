@@ -1,26 +1,146 @@
 {
-  "municipality": "Pelham - Town",
-  "domain": "Weed Management",
-  "grade": null,
-  "gradeColor": "#6b7280",
-  "lastUpdated": "2025-09-05T16:13:52.280Z",
-  "questions": [],
+  "id": "NY-Pelham-Town-weeds-1779299288179",
+  "entityId": "NY-Pelham-Town",
+  "domainId": "weeds",
+  "entity": {
+    "id": "NY-Pelham-Town",
+    "displayName": "Pelham - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weed Management"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": "1",
+      "question": "What are the specific property maintenance requirements for residents regarding weeds?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The provided sources do not contain specific property maintenance requirements for residents regarding weeds. Best practice recommends requiring residents to maintain property free from weeds exceeding 10 inches (6 inches near public pathways), remove noxious/poisonous plants, ensure hedges and tree limbs do not impede pedestrian passage, and remove dead or diseased trees posing safety risks.",
+      "score": 0,
+      "nextPrompts": [
+        "What does the International Property Maintenance Code 2018 specify regarding weed height limits and vegetation maintenance obligations for property owners?",
+        "Does the New York State Property Maintenance Code 2020 include requirements for removal of noxious weeds or hazardous vegetation on private property?"
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The provided sources do not include any text addressing exceptions for cultivated pollinator gardens in the property maintenance code. Best practice recommends explicitly defining pollinator gardens as distinct from 'weeds' and exempting them from height restrictions on uncultivated vegetation, with clear definitions and guidelines to promote biodiversity. This alignment cannot be assessed without the actual statute text.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the New York State Property Maintenance Code 2020 or IPMC 2018 contain any definitions or exceptions related to cultivated vegetation, native plants, or pollinator gardens?",
+        "Are there any local amendments or supplemental ordinances in New York that provide exceptions to weed height restrictions for intentionally cultivated native or pollinator plantings?"
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 20,
+      "sourceRefs": [],
+      "score": 0
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The provided sources do not include any penalty or fee information for failing to comply with property maintenance regulations. Best practice recommends a tiered penalty system starting at $250 and reaching up to $2,000, with each day of violation treated as a separate offense (up to $200/day), plus municipal authority to perform maintenance after 7–15 days notice and charge costs plus a 20% administrative fee as a lien against the property.",
+      "score": 0,
+      "nextPrompts": [
+        "What enforcement mechanisms or penalty provisions are outlined in the New York State Property Maintenance Code 2020 for weed or property maintenance violations?",
+        "Does the municipality have a local ordinance specifying fines or administrative fees for property maintenance non-compliance beyond the IPMC 2018 or NY State code?"
+      ]
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The provided sources do not include specific timeline information for resolving property maintenance violations before penalties are applied. Best practice recommends a 30-day standard resolution timeframe, 10 days for imminent danger situations, followed by a public hearing process for non-compliance, and immediate penalties for repeat offenses within a 24-month period. None of these timelines are documented in the available excerpts.",
+      "score": 0,
+      "nextPrompts": [
+        "What are the notice of violation procedures outlined in the local municipal code for weed or property maintenance violations?",
+        "Does the municipality have specific ordinances detailing penalty escalation timelines for repeat property maintenance offenders?"
+      ]
+    }
+  ],
   "scores": {
     "overallScore": 0,
     "normalizedScore": 0,
-    "averageConfidence": 0,
-    "questionsAnswered": 0,
-    "totalQuestions": 0,
+    "averageConfidence": 12,
+    "questionsAnswered": 5,
+    "totalQuestions": 5,
     "scoreBreakdown": {
-      "questionScores": [],
+      "questionScores": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "averageQuestionScore": 0,
       "weightedScore": 0,
       "totalWeightedScore": 0,
-      "totalPossibleWeight": 0,
-      "questionsWithScores": []
+      "totalPossibleWeight": 6,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        },
+        {
+          "id": "2",
+          "score": 0,
+          "weight": 2,
+          "weightedScore": 0,
+          "maxWeightedScore": 2,
+          "confidence": 10
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "4",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        },
+        {
+          "id": "6",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        }
+      ]
     }
   },
   "overallScore": 0,
-  "normalizedScore": 0,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.540Z"
+  "averageConfidence": 12,
+  "questionsAnswered": 5,
+  "totalQuestions": 5,
+  "lastUpdated": "2026-05-20T17:48:08.179Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": []
 }

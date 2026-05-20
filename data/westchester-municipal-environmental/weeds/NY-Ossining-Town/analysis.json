@@ -1,16 +1,16 @@
 {
-  "id": "NY-Ossining-Town-weeds-1778856983852",
-  "municipality": {
+  "id": "NY-Ossining-Town-weeds-1779299185535",
+  "entityId": "NY-Ossining-Town",
+  "domainId": "weeds",
+  "entity": {
     "id": "NY-Ossining-Town",
     "displayName": "Ossining - Town"
   },
   "domain": {
     "id": "weeds",
-    "displayName": "Weeds"
+    "displayName": "Weed Management"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": "1",
@@ -67,8 +67,8 @@
     }
   ],
   "scores": {
-    "overallScore": 3.58,
-    "normalizedScore": 3.58,
+    "overallScore": 3.08,
+    "normalizedScore": 3.08,
     "averageConfidence": 59,
     "questionsAnswered": 3,
     "totalQuestions": 5,
@@ -81,14 +81,12 @@
         0.8
       ],
       "averageQuestionScore": 0.41,
-      "weightedScore": 0.3583,
-      "totalWeightedScore": 2.1500000000000004,
+      "weightedScore": 0.3083,
+      "totalWeightedScore": 1.85,
       "totalPossibleWeight": 6,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-          "answer": "Residents are required to cut, trim, or remove weeds that pose fire, health, or safety hazards. If they do not comply, the town may perform these actions and charge the cost to the property owner.",
           "score": 0.55,
           "weight": 1,
           "weightedScore": 0.55,
@@ -97,28 +95,22 @@
         },
         {
           "id": "2",
-          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
           "confidence": 20
         },
         {
           "id": "3",
-          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 20
         },
         {
           "id": "4",
-          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
-          "answer": "If a property owner fails to comply, the town will remove the hazard, and the cost will be charged to the property owner. This cost becomes a lien on the property until paid.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -127,8 +119,6 @@
         },
         {
           "id": "6",
-          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
-          "answer": "Property owners are given 15 days from the mailing of the notice to resolve the maintenance violation before further actions are taken.",
           "score": 0.8,
           "weight": 1,
           "weightedScore": 0.8,
@@ -138,61 +128,49 @@
       ]
     }
   },
-  "overallScore": 3.58,
+  "overallScore": 3.08,
   "averageConfidence": 59,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2026-05-15T14:56:23.852Z",
+  "lastUpdated": "2026-05-20T17:46:25.535Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3.58,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.538Z",
-  "domainId": "weeds",
   "sources": [
     {
       "url": "https://www.townofossiningny.gov/cms/departments/highway-department/stormwater-management",
-      "title": "https://www.townofossiningny.gov/cms/departments/highway-department/stormwater-management",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Ossining-Town\\stormwater-management-2.txt"
+      "title": "Stormwater Management - Town of Ossining, New York"
     },
     {
       "url": "https://www.townofossiningny.gov/cms/projects/stormwater-management",
-      "title": "https://www.townofossiningny.gov/cms/projects/stormwater-management",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Ossining-Town\\stormwater-management.txt"
+      "title": "Stormwater Management - Town of Ossining, New York"
     },
     {
       "url": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/2353-eac-guide-2022",
-      "title": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/2353-eac-guide-2022",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Ossining-Town\\2353-eac-guide-2022.txt"
+      "title": "2353 Eac Guide 2022"
     },
     {
       "url": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/2354-eac-guide-2022-spanish",
-      "title": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/2354-eac-guide-2022-spanish",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Ossining-Town\\2354-eac-guide-2022-spanish.txt"
+      "title": "2354 Eac Guide 2022 Spanish"
     },
     {
       "url": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/252-native-plant-resource-guide",
-      "title": "https://www.townofossiningny.gov/cms/publications/all-documents/environmental-advisory-committee/252-native-plant-resource-guide",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Ossining-Town\\252-native-plant-resource-guide.txt"
+      "title": "252 Native Plant Resource Guide"
     },
     {
       "url": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management",
-      "title": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Ossining-Town\\stormwater-management-3.txt"
+      "title": "Stormwater Management - Town of Ossining, New York"
     },
     {
       "url": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management/399-stormwater-management-program-townossining2012/file",
-      "title": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management/399-stormwater-management-program-townossining2012/file",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Ossining-Town\\file.txt"
+      "title": "File"
     },
     {
       "url": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management/401-swm-best-management-practices",
-      "title": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management/401-swm-best-management-practices",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Ossining-Town\\401-swm-best-management-practices.txt"
+      "title": "401 Swm Best Management Practices"
     },
     {
       "url": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management/406-town-of-ossining-stormwater-screen-fillable-questionnaire-updated-2018",
-      "title": "https://www.townofossiningny.gov/cms/publications/all-documents/stormwater-management/406-town-of-ossining-stormwater-screen-fillable-questionnaire-updated-2018",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Ossining-Town\\406-town-of-ossining-stormwater-screen-fillable-questionnaire-updated-2018.txt"
+      "title": "406 Town Of Ossining Stormwater Screen Fillable Questionnaire Updated 2018"
     }
   ]
 }

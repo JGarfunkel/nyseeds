@@ -1,8 +1,16 @@
 {
-  "id": "NY-Scarsdale-Town-weeds-1778856983998",
-  "municipality": "NY-Scarsdale-Town",
-  "domain": "weeds",
-  "analyzedAt": "2025-09-08T18:46:35.070Z",
+  "id": "NY-Scarsdale-Town-weeds-1779299355274",
+  "entityId": "NY-Scarsdale-Town",
+  "domainId": "weeds",
+  "entity": {
+    "id": "NY-Scarsdale-Town",
+    "displayName": "Scarsdale - Town"
+  },
+  "domain": {
+    "id": "weeds",
+    "displayName": "Weed Management"
+  },
+  "grades": {},
   "questions": [
     {
       "id": "1",
@@ -12,46 +20,134 @@
       "sourceRefs": [],
       "score": 0.1,
       "analyzedAt": "2025-09-08T18:46:35.054Z"
+    },
+    {
+      "id": "2",
+      "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 90,
+      "sourceRefs": [
+        "§ 281-14",
+        "§ 281-15"
+      ],
+      "gap": "The statute contains no exceptions or provisions for cultivated pollinator gardens. Best practice recommends explicitly defining pollinator gardens as distinct from 'weeds' and exempting them from vegetation restrictions to promote biodiversity. This statute does not address pollinator gardens at all.",
+      "score": 0,
+      "nextPrompts": [
+        "Does Scarsdale have a separate ordinance or zoning provision that addresses native plantings or pollinator gardens?",
+        "Has Scarsdale adopted any sustainability or environmental policy that could provide exemptions for cultivated native vegetation?"
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 85,
+      "sourceRefs": [
+        "Village of Scarsdale, NY, Chapter 281, Article III"
+      ],
+      "score": 0
+    },
+    {
+      "id": "4",
+      "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
+      "answer": "Under §281-17, any person committing an offense against Article III is guilty of a violation pursuant to New York State Penal Law, punishable by a fine not exceeding $250. Each day the offense continues constitutes a separate and distinct offense. Prior to penalties, §281-16 requires the Village Engineer to issue a notice of correction by regular mail or in person directing the owner to comply.",
+      "confidence": 95,
+      "sourceRefs": [
+        "§281-16",
+        "§281-17"
+      ],
+      "gap": "The statute only provides a flat fine of up to $250 per day with no tiered/escalating penalty structure, no authority for the Village to perform corrective work and charge costs back to the property owner, no administrative fee provision, and no lien mechanism against the property for unpaid costs.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does Scarsdale have a separate code provision allowing the Village to perform abatement work and place a lien on the property for recovery of costs?",
+        "Are there any administrative enforcement procedures or escalating fine schedules referenced elsewhere in the Scarsdale municipal code for property maintenance violations?"
+      ]
+    },
+    {
+      "id": "6",
+      "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
+      "answer": "The statute does not specify a defined timeline for resolving a violation before penalties are applied. Under §281-16, when an owner fails to comply, the Village Engineer issues a notice of correction by regular mail or in person directing compliance. No specific number of days is stated for the owner to remedy the violation before penalties take effect. Under §281-17, once an offense is committed, conviction results in a fine not exceeding $250, with each day the offense continues constituting a separate and distinct offense.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§281-16 Action by Village",
+        "§281-17 Penalties for offenses"
+      ],
+      "gap": "Significant gap exists. The statute lacks a defined resolution timeframe (e.g., 30-day standard or 10-day imminent danger window), no public hearing process before municipal intervention, no provision for the Village to perform corrective work and charge the owner, and no escalated penalties for repeat offenses within a defined period.",
+      "score": 0.15,
+      "nextPrompts": [
+        "Does Scarsdale have a separate property maintenance code or administrative code that specifies notice-to-cure timeframes for weed/vegetation violations?",
+        "Are there Village Engineer administrative rules or procedures that define the compliance period following issuance of a notice of correction under §281-16?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 1,
-    "normalizedScore": 1,
-    "averageConfidence": 0,
-    "questionsAnswered": 0,
-    "totalQuestions": 1,
+    "overallScore": 0.58,
+    "normalizedScore": 0.58,
+    "averageConfidence": 71,
+    "questionsAnswered": 4,
+    "totalQuestions": 5,
     "scoreBreakdown": {
       "questionScores": [
-        0.1
+        0.1,
+        0,
+        0,
+        0.2,
+        0.15
       ],
-      "averageQuestionScore": 0.1,
-      "weightedScore": 0.1,
-      "totalWeightedScore": 0.1,
-      "totalPossibleWeight": 1,
+      "averageQuestionScore": 0.09,
+      "weightedScore": 0.0583,
+      "totalWeightedScore": 0.35,
+      "totalPossibleWeight": 6,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0
+        },
+        {
+          "id": "2",
+          "score": 0,
+          "weight": 2,
+          "weightedScore": 0,
+          "maxWeightedScore": 2,
+          "confidence": 90
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 85
+        },
+        {
+          "id": "4",
+          "score": 0.2,
+          "weight": 1,
+          "weightedScore": 0.2,
+          "maxWeightedScore": 1,
+          "confidence": 95
+        },
+        {
+          "id": "6",
+          "score": 0.15,
+          "weight": 1,
+          "weightedScore": 0.15,
+          "maxWeightedScore": 1,
+          "confidence": 85
         }
       ]
     }
   },
-  "overallScore": 1,
-  "averageConfidence": 0,
-  "questionsAnswered": 0,
-  "totalQuestions": 1,
-  "gapAnalysis": "",
-  "wenGrade": "G-",
+  "overallScore": 0.58,
+  "averageConfidence": 71,
+  "questionsAnswered": 4,
+  "totalQuestions": 5,
+  "lastUpdated": "2026-05-20T17:49:15.274Z",
+  "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 1,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.556Z",
-  "entityId": "NY-Scarsdale-Town",
-  "domainId": "weeds",
-  "lastUpdated": "2026-05-15T14:56:23.998Z"
+  "sources": []
 }

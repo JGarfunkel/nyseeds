@@ -1,16 +1,16 @@
 {
-  "id": "NY-Yonkers-City-weeds-1778856984156",
-  "municipality": {
+  "id": "NY-Yonkers-City-weeds-1779299385706",
+  "entityId": "NY-Yonkers-City",
+  "domainId": "weeds",
+  "entity": {
     "id": "NY-Yonkers-City",
     "displayName": "Yonkers - City"
   },
   "domain": {
     "id": "weeds",
-    "displayName": "Weeds"
+    "displayName": "Weed Management"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": "1",
@@ -65,8 +65,8 @@
     }
   ],
   "scores": {
-    "overallScore": 3.42,
-    "normalizedScore": 3.42,
+    "overallScore": 2.92,
+    "normalizedScore": 2.92,
     "averageConfidence": 59,
     "questionsAnswered": 3,
     "totalQuestions": 5,
@@ -78,15 +78,13 @@
         0.5,
         0.65
       ],
-      "averageQuestionScore": 0.38999999999999996,
-      "weightedScore": 0.3417,
-      "totalWeightedScore": 2.05,
+      "averageQuestionScore": 0.39,
+      "weightedScore": 0.2917,
+      "totalWeightedScore": 1.75,
       "totalPossibleWeight": 6,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-          "answer": "Residents must not allow noxious weeds, long grass, or other harmful, poisonous, or detrimental growths on their property. If the Commissioner of Public Works issues a written notice to remove such growths, the owner has five days to comply.",
           "score": 0.6,
           "weight": 1,
           "weightedScore": 0.6,
@@ -95,28 +93,22 @@
         },
         {
           "id": "2",
-          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
           "confidence": 20
         },
         {
           "id": "3",
-          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 20
         },
         {
           "id": "4",
-          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
-          "answer": "If the property owner does not comply within five days of receiving notice, the Public Works Department may remove the weeds and assess the expense against the property. Unpaid charges will become a lien against the property, collectible as a tax.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -125,8 +117,6 @@
         },
         {
           "id": "6",
-          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
-          "answer": "Property owners have five days to resolve a violation after receiving written notice from the Commissioner of Public Works before penalties are applied.",
           "score": 0.65,
           "weight": 1,
           "weightedScore": 0.65,
@@ -136,14 +126,12 @@
       ]
     }
   },
-  "overallScore": 3.42,
+  "overallScore": 2.92,
   "averageConfidence": 59,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2026-05-15T14:56:24.156Z",
+  "lastUpdated": "2026-05-20T17:49:45.706Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3.42,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.568Z",
-  "domainId": "weeds"
+  "sources": []
 }

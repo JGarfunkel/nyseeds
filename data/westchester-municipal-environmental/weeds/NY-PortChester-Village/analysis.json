@@ -1,16 +1,16 @@
 {
-  "id": "NY-PortChester-Village-weeds-1778856983908",
-  "municipality": {
+  "id": "NY-PortChester-Village-weeds-1779299300175",
+  "entityId": "NY-PortChester-Village",
+  "domainId": "weeds",
+  "entity": {
     "id": "NY-PortChester-Village",
     "displayName": "Port Chester - Village"
   },
   "domain": {
     "id": "weeds",
-    "displayName": "Weeds"
+    "displayName": "Weed Management"
   },
-  "grades": {
-    "WEN": "R-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": "1",
@@ -65,8 +65,8 @@
     }
   ],
   "scores": {
-    "overallScore": 3.92,
-    "normalizedScore": 3.92,
+    "overallScore": 3.42,
+    "normalizedScore": 3.42,
     "averageConfidence": 59,
     "questionsAnswered": 3,
     "totalQuestions": 5,
@@ -79,14 +79,12 @@
         0.65
       ],
       "averageQuestionScore": 0.45,
-      "weightedScore": 0.3917,
-      "totalWeightedScore": 2.3499999999999996,
+      "weightedScore": 0.3417,
+      "totalWeightedScore": 2.05,
       "totalPossibleWeight": 6,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-          "answer": "Residents are required to cut all grass to a maximum height of six inches and eradicate all poisonous and noxious weeds, including ragweed.",
           "score": 0.7,
           "weight": 1,
           "weightedScore": 0.7,
@@ -95,28 +93,22 @@
         },
         {
           "id": "2",
-          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
           "confidence": 20
         },
         {
           "id": "3",
-          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 20
         },
         {
           "id": "4",
-          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
-          "answer": "The penalties for failing to comply with property maintenance regulations include a fine not to exceed $250 for a first violation. For a second or subsequent violation within a twelve-month period, the fine may increase to not exceed $500.",
           "score": 0.7,
           "weight": 1,
           "weightedScore": 0.7,
@@ -125,8 +117,6 @@
         },
         {
           "id": "6",
-          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
-          "answer": "Property owners have no less than five days after receiving a violation notice to correct the conditions before penalties are applied.",
           "score": 0.65,
           "weight": 1,
           "weightedScore": 0.65,
@@ -136,14 +126,12 @@
       ]
     }
   },
-  "overallScore": 3.92,
+  "overallScore": 3.42,
   "averageConfidence": 59,
   "questionsAnswered": 3,
   "totalQuestions": 5,
-  "lastUpdated": "2026-05-15T14:56:23.908Z",
+  "lastUpdated": "2026-05-20T17:48:20.175Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3.92,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.546Z",
-  "domainId": "weeds"
+  "sources": []
 }

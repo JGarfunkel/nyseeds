@@ -1,5 +1,5 @@
 {
-  "id": "NY-Peekskill-City-glb-1779130391543",
+  "id": "NY-Peekskill-City-glb-1779296782281",
   "entityId": "NY-Peekskill-City",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -30,9 +30,18 @@
     {
       "id": 2,
       "question": "What are the permitted hours for gas leaf blower operation?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Under the noise ordinance applicable to domestic tools and equipment (including leaf blowers) in residential districts, operation is permitted during the hours of 8:00 a.m. to 8:00 p.m. Monday through Saturday (except holidays), and 9:00 a.m. to 8:00 p.m. on Sundays and holidays. At all other times, such noise shall not be audible on any other residential property. For context, the Town of Mamaroneck (referenced in a presentation) bans gas leaf blowers entirely but allows electric leaf blowers Monday–Friday 8:00 a.m.–9:00 p.m. and Saturday, Sunday & legal holidays 10:00 a.m.–5:00 p.m. The Village of Ossining allows gas leaf blowers on properties greater than ½ acre only between March 1–June 1 or September 15–December 15, with no specific hourly restrictions cited.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://ecode360.com/6430249",
+        "https://www.cityofpeekskillny.gov/DocumentCenter/View/3488/Leaf-Blower-Presentation"
+      ],
+      "gap": "The statute does not include a seasonal prohibition on gas leaf blower use (e.g., banning summer months June–August), nor does it differentiate Sunday/holiday end times from the best practice (8:00 p.m. vs. 5:00 p.m.). No seasonal restrictions are specified in the noise ordinance.",
+      "score": 0.4,
+      "nextPrompts": [
+        "Does the municipality have any seasonal restrictions specifically targeting gas leaf blower use during summer months?",
+        "Are there any separate gas leaf blower ordinances beyond the general noise ordinance that impose additional hourly or seasonal limits?"
+      ]
     },
     {
       "id": 3,
@@ -63,17 +72,17 @@
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "According to the presentation, enforcement challenges include neighbors reporting neighbors (which doesn't build community), local law enforcement needing to address complaints, and local code enforcement being burdened with enforcement. The presentation notes that bans are often not enforced and leaf blower problems persist as a result. The presentation suggests a county-wide ban could be more effective, with the County tying landscaping company operation permits to training and education requirements. For car alarms under the related noise ordinance, violations are subject to penalties set forth in § 391-6B(2). Specific enforcement procedures for leaf blower violations—such as designated enforcement officers, written notifications, or liability assignments—are not detailed in the provided sources.",
-      "confidence": 35,
+      "answer": "According to the sources, enforcement challenges are acknowledged: neighbor-reporting-neighbor approaches don't build community, local law enforcement must address complaints, and local code enforcement is burdened by enforcement responsibilities. Bans are noted as often going unenforced. A county-wide approach is suggested as more effective, with the County potentially tying landscaping company operation permits to training and compliance requirements. Regarding civil enforcement, the City of Peekskill may institute civil actions to enjoin repeated violations, with civil penalties up to $50,000 recoverable in a civil action brought in the City's name. Each day a violation continues constitutes a separate offense.",
+      "confidence": 52,
       "sourceRefs": [
         "https://www.cityofpeekskillny.gov/DocumentCenter/View/3488/Leaf-Blower-Presentation",
         "https://ecode360.com/6430249"
       ],
-      "gap": "Significant gap exists. The sources do not specify designated enforcement authorities, written notification requirements, property owner vs. contractor liability, or specific penalty structures for leaf blower violations. The presentation acknowledges enforcement is a known challenge but provides no formal enforcement mechanism.",
-      "score": 0.1,
+      "gap": "Significant gaps exist compared to best practices. The sources do not specify designated enforcement authorities (e.g., Police, Code Enforcement Officers, DPW), written notification requirements to property owners, or explicit liability for contractors/property owners. Enforcement mechanisms are described as problematic rather than structured, and no formal complaint or reporting procedure is outlined.",
+      "score": 0.2,
       "nextPrompts": [
-        "What penalties are specified under § 391-6B(2) of Peekskill's municipal code and do they apply to leaf blower violations?",
-        "Does Peekskill's code enforcement ordinance designate specific officers responsible for noise or leaf blower violation enforcement?"
+        "Does Peekskill's municipal code designate specific enforcement officers (e.g., Code Enforcement, Police) responsible for noise or leaf blower violations?",
+        "Are there formal written notice or warning procedures required before penalties are imposed under Peekskill's noise ordinance?"
       ]
     },
     {
@@ -89,29 +98,29 @@
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
       "answer": "Not specified in the provided sources.",
-      "confidence": 10,
+      "confidence": 15,
       "sourceRefs": []
     }
   ],
   "scores": {
-    "overallScore": 2.04,
-    "normalizedScore": 2.04,
-    "averageConfidence": 39,
+    "overallScore": 2.46,
+    "normalizedScore": 2.46,
+    "averageConfidence": 53,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
         0.3,
-        0,
+        0.4,
         0.2,
         0.55,
-        0.1,
+        0.2,
         0,
         0
       ],
-      "averageQuestionScore": 0.16,
-      "weightedScore": 0.2042,
-      "totalWeightedScore": 2.4499999999999997,
+      "averageQuestionScore": 0.24,
+      "weightedScore": 0.2458,
+      "totalWeightedScore": 2.95,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
@@ -124,11 +133,11 @@
         },
         {
           "id": "2",
-          "score": 0,
+          "score": 0.4,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.4,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 72
         },
         {
           "id": "3",
@@ -148,11 +157,11 @@
         },
         {
           "id": "5",
-          "score": 0.1,
+          "score": 0.2,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.2,
           "maxWeightedScore": 1,
-          "confidence": 35
+          "confidence": 52
         },
         {
           "id": "6",
@@ -168,16 +177,16 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 10
+          "confidence": 15
         }
       ]
     }
   },
-  "overallScore": 2.04,
-  "averageConfidence": 39,
+  "overallScore": 2.46,
+  "averageConfidence": 53,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:53:11.543Z",
+  "lastUpdated": "2026-05-20T17:06:22.281Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [

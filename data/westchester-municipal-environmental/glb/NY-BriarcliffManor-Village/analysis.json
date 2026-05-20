@@ -1,32 +1,48 @@
 {
-  "id": "NY-BriarcliffManor-Village-glb-1778856979735",
-  "municipality": {
+  "id": "NY-BriarcliffManor-Village-glb-1779296298258",
+  "entityId": "NY-BriarcliffManor-Village",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-BriarcliffManor-Village",
     "displayName": "Briarcliff Manor - Village"
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
     {
       "id": 1,
       "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a specific regulatory framework that establishes a seasonal prohibition period for gas leaf blowers, clearly defining the start and end dates, such as from May 1st to September 30th, to address environmental and noise concerns."
+      "answer": "Not specified in the provided sources. The sources address permitted hours for power lawnmowers, rakers, and leaf blowers (under property maintenance noise regulations), but do not reference any seasonal or annual prohibition period specific to gas leaf blowers with defined start and end dates.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 146-6D(1)"
+      ],
+      "gap": "The statute does not appear to include any seasonal prohibition on gas-powered leaf blowers with specific start and end dates, unlike best practices which recommend year-round prohibition or defined seasonal restrictions (e.g., March 15–May 15 and October 1–December 31).",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Briarcliff Manor have any separate ordinance or amendment specifically addressing gas-powered leaf blower seasonal bans?",
+        "Are there any pending or proposed amendments to Chapter 146 that would introduce seasonal restrictions on gas leaf blowers?"
+      ]
     },
     {
       "id": 2,
       "question": "What are the permitted hours for gas leaf blower operation?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
+      "answer": "The provided sources do not specify permitted hours exclusively for gas leaf blowers. However, under §146-5, general noise regulations apply to residential and nonresidential zones. In residential zones, noise limits are 60 dB(A) from 8:00 a.m. to 6:00 p.m., and 45 dB(A) from 6:00 p.m. to 8:00 a.m. on weekdays and Saturdays, with stricter limits on Sundays and holidays. In nonresidential zones, limits are 65 dB(A) from 8:00 a.m. to 6:00 p.m. on weekdays and Saturdays, and 50 dB(A) from 6:00 p.m. to 8:00 a.m. Any noise plainly audible from adjacent properties between 6:00 p.m. and 8:00 a.m., or at any time on Sundays and holidays, is prima facie evidence of a violation (§146-5C).",
+      "confidence": 52,
+      "sourceRefs": [
+        "§146-5A",
+        "§146-5B",
+        "§146-5C"
+      ],
+      "gap": "The statute lacks gas-leaf-blower-specific permitted hours, seasonal restrictions (e.g., June–August prohibition), and differentiated weekend/holiday schedules as reflected in best practices. Only general noise decibel limits with broad time windows are provided.",
       "score": 0.1,
-      "gap": "Consider adding a provision to the statute that specifies permitted hours for gas leaf blower operation, including clear guidelines for application procedures, review criteria, appeal processes, timelines, and approval standards to ensure compliance and address community noise concerns."
+      "nextPrompts": [
+        "Does the statute contain any section specifically regulating or defining permitted hours for gas leaf blower use separate from general noise provisions?",
+        "Are there any seasonal restrictions or summer prohibitions on gas leaf blower operation referenced elsewhere in the municipal code?"
+      ]
     },
     {
       "id": 3,
@@ -64,77 +80,79 @@
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for public education programs that promote the environmental benefits of leaving leaf debris and mulching, including guidelines for residents on how to effectively implement these practices to enhance soil health and reduce waste."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 146-6",
+        "§ 146-6D",
+        "§ 146-2"
+      ],
+      "gap": "The ordinance does not address environmental benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, guidelines encouraging these practices, community workshops, or informational campaigns about ecological advantages such as soil enrichment or habitat creation — all of which are considered best practices for municipal environmental protection.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Briarcliff Manor have any separate environmental or sustainability ordinances that address leaf debris management or mulching practices?",
+        "Are there any public works or landscaping guidelines issued by the Village of Briarcliff Manor that reference leaf mulching or natural debris retention?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report detailing data collection methods, key findings, and progress on relevant initiatives, ensuring transparency and accountability to the community."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 146-2",
+        "§ 146-8",
+        "§ 146-4"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 3.29,
-    "normalizedScore": 3.29,
-    "averageConfidence": 48,
-    "questionsAnswered": 3,
+    "overallScore": 2.79,
+    "normalizedScore": 2.79,
+    "averageConfidence": 59,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0.1,
+        0,
         0.1,
         0.7,
         0.5,
         0.65,
-        0.1,
-        0.1
+        0,
+        0
       ],
-      "averageQuestionScore": 0.32142857142857145,
-      "weightedScore": 0.3292,
-      "totalWeightedScore": 3.9499999999999997,
+      "averageQuestionScore": 0.28,
+      "weightedScore": 0.2792,
+      "totalWeightedScore": 3.35,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 4,
-          "weightedScore": 0.4,
+          "weightedScore": 0,
           "maxWeightedScore": 4,
-          "confidence": 20
+          "confidence": 85
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 52
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "The penalties for violating any provision of the noise regulations in this chapter include a fine not to exceed $250 for each day the violation continues.",
           "score": 0.7,
           "weight": 3,
-          "weightedScore": 2.0999999999999996,
+          "weightedScore": 2.1,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Yes, there are exceptions for certain activities on school, government, and commercial properties, such as sporting events and essential services, which are exempt from noise limitations.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -143,8 +161,6 @@
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Violations are enforced by the Police Department, a Code Enforcement Officer, or other officials designated by the Village Board. A violation can be substantiated by sworn affidavits from two or more unrelated persons, direct observation by an officer, or noise measurement in excess of the permissible levels.",
           "score": 0.65,
           "weight": 1,
           "weightedScore": 0.65,
@@ -153,35 +169,29 @@
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 10
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 3.29,
-  "averageConfidence": 48,
-  "questionsAnswered": 3,
+  "overallScore": 2.79,
+  "averageConfidence": 59,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T14:56:19.735Z",
+  "lastUpdated": "2026-05-20T16:58:18.258Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3.29,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.219Z",
-  "domainId": "glb"
+  "sources": []
 }

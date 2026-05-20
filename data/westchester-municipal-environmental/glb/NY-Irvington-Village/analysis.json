@@ -1,5 +1,5 @@
 {
-  "id": "NY-Irvington-Village-glb-1779130129454",
+  "id": "NY-Irvington-Village-glb-1779296498954",
   "entityId": "NY-Irvington-Village",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -158,7 +158,7 @@
   "averageConfidence": 43,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:48:49.454Z",
+  "lastUpdated": "2026-05-20T17:01:38.954Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

@@ -1,8 +1,16 @@
 {
-  "id": "NY-PelhamManor-Village-glb-1778856980326",
-  "municipality": "NY-PelhamManor-Village",
-  "domain": "glb",
-  "analyzedAt": "2025-09-09T20:06:05.811Z",
+  "id": "NY-PelhamManor-Village-glb-1779296896283",
+  "entityId": "NY-PelhamManor-Village",
+  "domainId": "glb",
+  "entity": {
+    "id": "NY-PelhamManor-Village",
+    "displayName": "Pelham Manor - Village"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Gas Leaf Blowers"
+  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
@@ -52,36 +60,52 @@
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "answer": "The statute does not specify reporting mechanisms or designated enforcement authorities. Under § 139-12, violations are treated as offenses punishable by a fine of $250–$1,000 and/or imprisonment up to 15 days, with each violation constituting a separate offense. No specific reporting process, enforcement agency, or notification procedures are outlined in the provided sources.",
+      "confidence": 55,
+      "sourceRefs": [
+        "§ 139-12 Penalties for offenses"
+      ],
+      "gap": "The statute lacks specification of enforcement authorities (e.g., police, code enforcement), reporting mechanisms, written notification requirements, and contractor/property owner liability distinctions — all identified as best practices.",
       "score": 0.1,
-      "analyzedAt": "2025-09-09T20:06:05.024Z"
+      "nextPrompts": [
+        "Which Village of Pelham Manor department or officer is responsible for enforcing Chapter 139 noise violations?",
+        "Does Pelham Manor have a separate code enforcement ordinance that governs how violations under Chapter 139 are reported and investigated?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:06:05.352Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 95,
+      "sourceRefs": [
+        "§ 139-10",
+        "§ 139-9",
+        "§ 139-12"
+      ],
+      "gap": "The Village of Pelham Manor ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include any educational requirements, community outreach, or guidelines promoting these ecological practices such as soil enrichment or habitat creation.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Pelham Manor have any separate environmental or sustainability ordinances that address leaf mulching or natural yard care practices?",
+        "Are there any accompanying municipal communications or public education campaigns related to the leaf blower ordinance that mention leaf debris benefits?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:06:05.811Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 95,
+      "sourceRefs": [
+        "§ 139-12",
+        "§ 139-10",
+        "§ 139-9"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 5.5,
-    "normalizedScore": 5.5,
-    "averageConfidence": 51,
-    "questionsAnswered": 4,
+    "overallScore": 5.33,
+    "normalizedScore": 5.33,
+    "averageConfidence": 86,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
@@ -90,18 +114,16 @@
         0.9,
         0.5,
         0.1,
-        0.1,
-        0.1
+        0,
+        0
       ],
-      "averageQuestionScore": 0.42857142857142855,
-      "weightedScore": 0.55,
-      "totalWeightedScore": 6.599999999999999,
+      "averageQuestionScore": 0.4,
+      "weightedScore": 0.5333,
+      "totalWeightedScore": 6.3999999999999995,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "The prohibition of gas leaf blowers lasts for the entire year, with specific exceptions for limited hours on certain days. The prohibition starts on January 1 and ends on December 31. According to § 139-10, internal combustion leaf blowers are prohibited:\n\n- Between April 16 and October 14.\n- Between December 16 and March 14.\n- Between March 15 and April 15, except during specified hours on certain days.\n- Between October 15 and December 15, except during specified hours on certain days.\n\nThus, the prohibition effectively covers the entire year with limited exceptions for specific days and times.",
           "score": 0.6,
           "weight": 4,
           "weightedScore": 2.4,
@@ -110,8 +132,6 @@
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "The permitted hours for gas leaf blower operation in the Village of Pelham Manor are as follows:\n\n- From October 15 through December 15, gas leaf blowers can be operated between 8:00 a.m. and 5:30 p.m. on any Tuesday, Wednesday, Thursday, or Friday that is not a legal holiday, and on any Saturday between 12:00 noon and 4:00 p.m.\n- From March 15 through April 15, gas leaf blowers can be operated between 8:00 a.m. and 5:30 p.m. on any Tuesday, Wednesday, Thursday, or Friday that is not a legal holiday, and on any Saturday between 12:00 noon and 4:00 p.m.\n\nGas leaf blowers are not permitted to be operated between April 16 and October 14, and between December 16 and March 14. (§ 139-10 A)",
           "score": 0.7,
           "weight": 1,
           "weightedScore": 0.7,
@@ -120,8 +140,6 @@
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "The penalties for violating gas leaf blower regulations are a fine of not less than $250 or more than $1,000 and/or imprisonment for not more than 15 days. Each violation is considered a separate offense (§ 139-12).",
           "score": 0.9,
           "weight": 3,
           "weightedScore": 2.7,
@@ -130,8 +148,6 @@
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "The statute specifies that the restrictions imposed by § 139-10 do not apply to utility companies and municipal and/or school district emergency operations (§ 139-11 A). However, it does not mention any exceptions specifically for commercial properties.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -140,47 +156,37 @@
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 55
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 95
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 95
         }
       ]
     }
   },
-  "overallScore": 5.5,
-  "averageConfidence": 51,
-  "questionsAnswered": 4,
+  "overallScore": 5.33,
+  "averageConfidence": 86,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "gapAnalysis": "",
-  "wenGrade": "G-",
+  "lastUpdated": "2026-05-20T17:08:16.283Z",
+  "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 5.5,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.263Z",
-  "entityId": "NY-PelhamManor-Village",
-  "domainId": "glb",
-  "lastUpdated": "2026-05-15T14:56:20.326Z"
+  "sources": []
 }

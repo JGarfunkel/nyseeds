@@ -1,5 +1,5 @@
 {
-  "id": "NY-MountKisco-Town-glb-1779130232461",
+  "id": "NY-MountKisco-Town-glb-1779296569083",
   "entityId": "NY-MountKisco-Town",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -168,7 +168,7 @@
   "averageConfidence": 57,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:50:32.461Z",
+  "lastUpdated": "2026-05-20T17:02:49.083Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

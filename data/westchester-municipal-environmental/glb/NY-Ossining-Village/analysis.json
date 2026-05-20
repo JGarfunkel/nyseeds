@@ -1,16 +1,16 @@
 {
-  "id": "NY-Ossining-Village-glb-1778856980205",
-  "municipality": {
+  "id": "NY-Ossining-Village-glb-1779296756183",
+  "entityId": "NY-Ossining-Village",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-Ossining-Village",
     "displayName": "Ossining - Village"
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
@@ -48,11 +48,19 @@
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "The statute does not specify any exceptions for school, government, or commercial properties regarding the use of gas leaf blowers.",
-      "confidence": 50,
-      "sourceRefs": [],
+      "answer": "The statute does not include specific exceptions for school, government, or commercial properties regarding gas-powered leaf blowers. The general exemptions in §178-7 cover: (A) military/civic parades, funeral processions, and religious services; (B) organs, bells, chimes, or similar instruments used by churches, synagogues, or schools for religious or educational purposes; and (C) governmental agency use of public warning devices. However, these exemptions apply to general noise provisions and are not specific to gas-powered leaf blowers. The gas-powered leaf blower regulations in §178-3 D(7) and D(8) apply based on property size (1/2 acre threshold) without distinguishing between school, government, or commercial property types.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§178-7",
+        "§178-3 D(7)",
+        "§178-3 D(8)"
+      ],
+      "gap": "Significant gap exists. The statute lacks exceptions for school district properties, municipal properties, and utility/emergency repair situations. Best practices recommend exemptions for public safety operations, properties beyond 100 feet from residences, municipally sponsored events, and permitted activities. None of these targeted exceptions are present in the current statute.",
       "score": 0.1,
-      "gap": "Consider adding explicit language to the statute that clearly outlines any exceptions or special conditions for school, government, or commercial properties regarding the use of gas leaf blowers to ensure clarity and prevent misinterpretation."
+      "nextPrompts": [
+        "Are there any permit-based exemptions or variance procedures that could allow gas-powered leaf blower use outside standard restrictions?",
+        "Do any other sections of the municipal code address emergency utility or municipal maintenance operations that might implicitly exempt gas-powered equipment use?"
+      ]
     },
     {
       "id": 5,
@@ -87,7 +95,7 @@
   "scores": {
     "overallScore": 4.25,
     "normalizedScore": 4.25,
-    "averageConfidence": 70,
+    "averageConfidence": 75,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
@@ -100,15 +108,13 @@
         0.5,
         0.5
       ],
-      "averageQuestionScore": 0.40714285714285714,
+      "averageQuestionScore": 0.41,
       "weightedScore": 0.425,
       "totalWeightedScore": 5.1,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "The prohibition of gas-powered leaf blowers on properties less than 1/2 acre in size is from January 1 to December 31, meaning it lasts all year. For properties that are at least 1/2 acre, the use of gas-powered leaf blowers is only allowed from March 1 through June 1 and September 15 through December 15.",
           "score": 0.55,
           "weight": 4,
           "weightedScore": 2.2,
@@ -117,8 +123,6 @@
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "Gas-powered leaf blowers may be used during the hours of 8:00 a.m. to sundown Monday through Friday, and 9:00 a.m. to sundown on Saturday, Sunday, and holidays.",
           "score": 0.3,
           "weight": 1,
           "weightedScore": 0.3,
@@ -127,28 +131,22 @@
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "Violators of the gas leaf blower regulations are punishable by a fine as provided in Article III, General Penalty, of Chapter 1, General Provisions. Before an appearance ticket is issued, violators receive one warning.",
           "score": 0.3,
           "weight": 3,
-          "weightedScore": 0.8999999999999999,
+          "weightedScore": 0.9,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "The statute does not specify any exceptions for school, government, or commercial properties regarding the use of gas leaf blowers.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 50
+          "confidence": 85
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Violations are supported by evidence including time-stamped photographs, video, records of complaints, and/or sworn witness statements.",
           "score": 0.6,
           "weight": 1,
           "weightedScore": 0.6,
@@ -157,8 +155,6 @@
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "The ordinance does not mention the benefits of leaving leaf debris or leaf mulching.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -167,8 +163,6 @@
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "The ordinance does not require a report to be presented to the public.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -179,13 +173,11 @@
     }
   },
   "overallScore": 4.25,
-  "averageConfidence": 70,
+  "averageConfidence": 75,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T14:56:20.205Z",
+  "lastUpdated": "2026-05-20T17:05:56.183Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 4.25,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.260Z",
-  "domainId": "glb"
+  "sources": []
 }

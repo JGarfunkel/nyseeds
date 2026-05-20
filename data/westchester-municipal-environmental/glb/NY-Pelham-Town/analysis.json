@@ -1,5 +1,5 @@
 {
-  "id": "NY-Pelham-Town-glb-1779130439867",
+  "id": "NY-Pelham-Town-glb-1779296844203",
   "entityId": "NY-Pelham-Town",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -21,8 +21,8 @@
       "gap": "The statute text provided contains no readable content (all pages are blank/empty), so it is impossible to determine the prohibition period, start date, or end date for gas leaf blower restrictions. Best practice suggests a year-round prohibition with exceptions for peak leaf-falling seasons (e.g., March 15–May 15 and October 1–December 31).",
       "score": 0,
       "nextPrompts": [
-        "Can you provide the actual readable text of the statute to identify the specific prohibition dates?",
-        "Does the municipality have any supplementary ordinances or regulations that specify seasonal restrictions on gas leaf blowers?"
+        "Can you provide the actual text content of the statute pages, which appear to be blank in the current upload?",
+        "Does the municipality have any seasonal restrictions or year-round bans on gas leaf blowers documented in a municipal code or ordinance?"
       ]
     },
     {
@@ -31,11 +31,11 @@
       "answer": "Not specified in the provided sources.",
       "confidence": 50,
       "sourceRefs": [],
-      "gap": "The statute text provided contains no readable content regarding permitted hours for gas leaf blower operation. Best practice recommends permitting operation between October 1 and May 31, with hours of 8:00 a.m.–8:00 p.m. on weekdays, 9:00 a.m.–8:00 p.m. on Saturdays, and 9:00 a.m.–5:00 p.m. on Sundays and holidays, with a prohibition from June 1 to August 31.",
+      "gap": "The statute text provided contains no readable content (all pages appear blank or empty), so it is impossible to determine permitted hours for gas leaf blower operation. Best practice recommends weekday hours of 8:00 a.m.–8:00 p.m., Saturday hours of 9:00 a.m.–8:00 p.m., and Sunday/holiday hours of 9:00 a.m.–5:00 p.m., with prohibition from June 1–August 31.",
       "score": 0,
       "nextPrompts": [
-        "Does the municipality have a noise ordinance or separate regulation specifying hours of operation for gas-powered equipment including leaf blowers?",
-        "Is there a seasonal restriction or summer prohibition on gas leaf blower use within the municipal code?"
+        "Can you provide a readable version of the statute PDF to identify permitted operating hours for gas leaf blowers?",
+        "Does the municipality have any noise ordinance or seasonal restriction regulations that reference gas leaf blower hours of operation?"
       ]
     },
     {
@@ -44,11 +44,11 @@
       "answer": "Not specified in the provided sources.",
       "confidence": 50,
       "sourceRefs": [],
-      "gap": "The statute text provided contains no readable content (all pages appear blank/empty). Therefore, it is impossible to determine whether escalating fines exist (written warning for 1st offense, up to $250 for 2nd, $500 for 3rd, $1,000 for subsequent), whether both operators and property owners are held accountable, or whether penalties apply per day of continued non-compliance — all of which represent best practice elements.",
+      "gap": "The statute does not specify any penalty structure for violations of gas leaf blower regulations. Best practice calls for escalating fines (written warning for first offense, up to $250 for second, $500 for third, $1,000 for subsequent offenses), accountability for both operator and property owner, and per-day penalties for continued non-compliance.",
       "score": 0,
       "nextPrompts": [
-        "Can you provide the actual readable text of the gas leaf blower statute to identify penalty provisions?",
-        "Does the municipality have any enforcement or penalty schedule in a separate ordinance or code section that applies to gas leaf blower violations?"
+        "Does the municipality have a general code enforcement penalty section that would apply to gas leaf blower violations?",
+        "Has the municipality adopted any amendments or separate ordinances establishing fines for noise or equipment violations that could cover gas leaf blowers?"
       ]
     },
     {
@@ -57,11 +57,11 @@
       "answer": "Not specified in the provided sources.",
       "confidence": 10,
       "sourceRefs": [],
-      "gap": "The statute does not address exceptions for school district properties, municipal properties, commercial properties, utility company emergency repairs, permit-based exemptions, or municipally sponsored events — all of which are considered best practices.",
+      "gap": "The statute does not appear to contain any exceptions for school district properties, municipal properties, commercial properties, utility company emergency repairs, or municipally sponsored events. Best practices recommend including such exceptions, particularly when operations are beyond 100 feet from the nearest residence and when necessary for public safety or maintenance work.",
       "score": 0,
       "nextPrompts": [
-        "Does the municipality have any separate ordinances or resolutions that provide exceptions for government or institutional use of gas leaf blowers?",
-        "Are there any permit processes or variance procedures in the municipality's code that could apply to commercial or institutional gas leaf blower use?"
+        "Does the statute contain any permit-based exemptions or special use provisions for institutional or government entities?",
+        "Are there any administrative rules or supplementary regulations that address exceptions for non-residential property types?"
       ]
     },
     {
@@ -70,11 +70,11 @@
       "answer": "Not specified in the provided sources.",
       "confidence": 50,
       "sourceRefs": [],
-      "gap": "The statute does not specify enforcement mechanisms, reporting procedures, designated enforcement authorities, notification requirements, or penalty structures for violations. All best practice elements—including designated authorities (e.g., Department of Public Works, Police, Code Enforcement), written notification requirements, liability assignment for property owners and contractors, and penalty details—are absent from the provided sources.",
+      "gap": "The statute does not specify enforcement mechanisms, reporting procedures, designated enforcement authorities, notification requirements, or penalty structures for violations. All best practice elements—including designated authorities (e.g., Department of Public Works, Police, Code Enforcement), written notification requirements, and liability assignment for property owners and contractors—are absent from the provided sources.",
       "score": 0,
       "nextPrompts": [
         "Does the municipal code contain a separate enforcement or penalty section that applies to gas leaf blower violations?",
-        "Are there any administrative regulations or departmental rules that govern how gas leaf blower complaints are reported and investigated?"
+        "Are there any administrative regulations or departmental rules that govern how complaints about gas leaf blower use are filed and processed?"
       ]
     },
     {
@@ -87,7 +87,7 @@
       "score": 0,
       "nextPrompts": [
         "Does the municipality have any separate environmental education programs or guidelines related to leaf debris management?",
-        "Are there any supplementary municipal documents or codes that address composting, mulching, or natural yard waste practices?"
+        "Are there any supplementary municipal codes or resolutions that address composting, mulching, or natural yard waste practices?"
       ]
     },
     {
@@ -182,7 +182,7 @@
   "averageConfidence": 33,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:53:59.867Z",
+  "lastUpdated": "2026-05-20T17:07:24.203Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

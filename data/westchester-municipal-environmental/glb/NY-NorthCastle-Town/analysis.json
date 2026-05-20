@@ -1,5 +1,5 @@
 {
-  "id": "NY-NorthCastle-Town-glb-1779130941662",
+  "id": "NY-NorthCastle-Town-glb-1779296711831",
   "entityId": "NY-NorthCastle-Town",
   "domainId": "glb",
   "entity": {
@@ -8,67 +8,95 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
     {
       "id": 1,
       "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 10,
+      "answer": "Not specified in the provided sources. The statute from North Castle (ecode360.com/29156271) addresses time-of-day restrictions for gas leaf blowers and other motor-driven lawn equipment (prohibited between 8:00 p.m. and 7:30 a.m. Monday–Friday, and 7:00 p.m. to 9:00 a.m. on Saturdays, Sundays, and federal holidays), but contains no seasonal or calendar-based prohibition specifying a start date, end date, or duration of a yearly ban on gas leaf blowers.",
+      "confidence": 90,
       "sourceRefs": [
         "https://ecode360.com/29156271"
       ],
-      "gap": "The statute does not specify any seasonal prohibition period for gas leaf blowers. Best practice suggests a year-round prohibition with exceptions for peak leaf-falling seasons (e.g., March 15–May 15 and October 1–December 31). This entity appears to have no such targeted gas leaf blower prohibition.",
-      "score": 0,
+      "gap": "The statute contains no seasonal prohibition on gas leaf blowers. Best practice calls for a year-round or defined seasonal ban (e.g., March 15–May 15 and October 1–December 31), with exceptions only during peak leaf-falling periods. North Castle's ordinance only addresses hours of operation, not calendar-based restrictions, representing a significant gap relative to best practice.",
+      "score": 0.05,
       "nextPrompts": [
-        "Does the Town of North Castle have a separate ordinance or local law specifically addressing gas-powered leaf blower use and seasonal restrictions?",
-        "Are there any amendments or recent additions to North Castle's noise ordinance that introduce gas leaf blower-specific prohibitions or seasonal schedules?"
+        "Does North Castle have any separate ordinance or amendment specifically targeting gas-powered leaf blowers with seasonal restrictions?",
+        "Has North Castle proposed or adopted any updates to its noise ordinance to include calendar-based gas leaf blower prohibitions aligned with neighboring municipalities like Larchmont or Dobbs Ferry?"
       ]
     },
     {
       "id": 2,
       "question": "What are the permitted hours for gas leaf blower operation?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 10,
+      "answer": "Per the statute, power lawn mowers, rakes, leaf blowers, and other motor-driven lawn or garden equipment are prohibited between 8:00 p.m. and 7:30 a.m. Monday through Friday, and between 7:00 p.m. and 9:00 a.m. on Saturdays, Sundays, and federal holidays. This means permitted operation hours are: 7:30 a.m. to 8:00 p.m. Monday through Friday, and 9:00 a.m. to 7:00 p.m. on Saturdays, Sundays, and federal holidays.",
+      "confidence": 85,
       "sourceRefs": [
         "https://ecode360.com/29156271"
       ],
-      "gap": "The statute does not specify permitted hours for gas leaf blower operation, nor does it address seasonal restrictions. Best practice recommends weekday hours of 8:00 a.m.–8:00 p.m., Saturday hours of 9:00 a.m.–8:00 p.m., Sunday/holiday hours of 9:00 a.m.–5:00 p.m., and a prohibition on use from June 1 to August 31.",
-      "score": 0,
+      "gap": "The statute does not include seasonal restrictions (e.g., prohibiting gas leaf blower use June 1–August 31), does not differentiate Sunday hours from Saturday hours, and Sunday/holiday permitted end time (7:00 p.m.) is earlier than the best practice end time (5:00 p.m. on Sundays). No seasonal ban or summer prohibition is present.",
+      "score": 0.3,
       "nextPrompts": [
-        "Does the municipality have a separate noise ordinance that specifies time restrictions for gas-powered equipment such as leaf blowers?",
-        "Are there any seasonal use restrictions or environmental regulations in the municipal code that apply to gas leaf blower operation?"
+        "Does the Town of North Castle have any seasonal restrictions or summer bans specifically on gas leaf blower use?",
+        "Are there any additional local ordinances or amendments that further restrict gas leaf blower hours beyond the general noise ordinance?"
       ]
     },
     {
       "id": 3,
       "question": "What are the penalties for violating gas leaf blower regulations?",
       "answer": "Not specified in the provided sources.",
-      "confidence": 0,
-      "sourceRefs": []
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The statute does not specify any penalty structure for gas leaf blower violations. Best practices recommend escalating fines (written warning for first offense, up to $250 for second, $500 for third, $1,000 for subsequent offenses) with accountability for both operators and property owners per day of non-compliance.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the municipality have a general penalty clause applicable to noise or equipment ordinance violations that would apply to leaf blower infractions?",
+        "Are there any enforcement provisions or fine schedules referenced elsewhere in the municipal code that govern violations of lawn and garden equipment regulations?"
+      ]
     },
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
       "answer": "Not specified in the provided sources.",
-      "confidence": 0,
-      "sourceRefs": []
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The statute does not appear to include any exceptions for school district properties, municipal properties, commercial properties, emergency repairs by utility companies, or municipally sponsored events. Best practices recommend such exceptions, particularly limiting operations to beyond 100 feet from the nearest residence and permitting use only when necessary for public safety or maintenance work.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the statute include any permit-based exemptions for gas leaf blower use on government or institutional properties?",
+        "Are there any provisions allowing municipal or school employees to use gas-powered equipment during emergency or maintenance operations?"
+      ]
     },
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
       "answer": "Not specified in the provided sources.",
-      "confidence": 0,
-      "sourceRefs": []
+      "confidence": 10,
+      "sourceRefs": [
+        "https://ecode360.com/29156271"
+      ],
+      "gap": "The statute does not specify enforcement authorities, reporting mechanisms, written notification requirements, or liability assignments for violations. Best practices call for designated enforcement officers (e.g., Police, Code Enforcement), written notices to property owners, and accountability for both owners and contractors.",
+      "score": 0,
+      "nextPrompts": [
+        "Search for penalty and enforcement provisions in the broader noise ordinance chapter at ecode360.com/29156271",
+        "Search for code enforcement officer authority and violation reporting procedures in the municipal code"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
       "answer": "Not specified in the provided sources.",
-      "confidence": 0,
-      "sourceRefs": []
+      "confidence": 10,
+      "sourceRefs": [
+        "https://ecode360.com/29156271"
+      ],
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, community workshops, or informational campaigns promoting these ecological practices such as soil enrichment or habitat creation.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Town of North Castle have any separate environmental or sustainability ordinances that address leaf mulching or natural yard care practices?",
+        "Are there any Town of North Castle public works or environmental guidelines that reference leaf debris management or composting programs?"
+      ]
     },
     {
       "id": 7,
@@ -79,41 +107,41 @@
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 3,
+    "overallScore": 0.42,
+    "normalizedScore": 0.42,
+    "averageConfidence": 31,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0,
-        0,
+        0.05,
+        0.3,
         0,
         0,
         0,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.05,
+      "weightedScore": 0.0417,
+      "totalWeightedScore": 0.5,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.05,
           "weight": 4,
-          "weightedScore": 0,
+          "weightedScore": 0.2,
           "maxWeightedScore": 4,
-          "confidence": 10
+          "confidence": 90
         },
         {
           "id": "2",
-          "score": 0,
+          "score": 0.3,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.3,
           "maxWeightedScore": 1,
-          "confidence": 10
+          "confidence": 85
         },
         {
           "id": "3",
@@ -121,7 +149,7 @@
           "weight": 3,
           "weightedScore": 0,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "4",
@@ -129,7 +157,7 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "5",
@@ -137,7 +165,7 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "6",
@@ -145,7 +173,7 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "7",
@@ -158,11 +186,11 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 3,
+  "overallScore": 0.42,
+  "averageConfidence": 31,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T19:02:21.662Z",
+  "lastUpdated": "2026-05-20T17:05:11.832Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

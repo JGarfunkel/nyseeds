@@ -1,5 +1,5 @@
 {
-  "id": "NY-PoundRidge-Town-glb-1779130461618",
+  "id": "NY-PoundRidge-Town-glb-1779296924605",
   "entityId": "NY-PoundRidge-Town",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -73,11 +73,11 @@
       "answer": "Not specified in the provided sources.",
       "confidence": 10,
       "sourceRefs": [],
-      "gap": "The statute does not mention any benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, ecological benefit descriptions, or community awareness initiatives related to these practices. A best practice statute would explicitly address soil enrichment, habitat creation, and include public education components such as workshops or informational campaigns.",
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, guidelines encouraging these practices, or community outreach initiatives related to ecological advantages such as soil enrichment or habitat creation — all of which are considered best practices for municipal environmental protection.",
       "score": 0,
       "nextPrompts": [
-        "Does the Town of Pound Ridge have any supplementary environmental or sustainability policies that address leaf debris management or mulching benefits?",
-        "Are there any town-issued guidelines or public education materials related to leaf management practices that accompany this ordinance?"
+        "Does the Town of Pound Ridge have any separate environmental or sustainability policies that address leaf debris management or mulching practices?",
+        "Are there any town-issued educational materials or programs that promote leaf mulching or natural leaf debris retention as an alternative to leaf blower use?"
       ]
     },
     {
@@ -172,7 +172,7 @@
   "averageConfidence": 64,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:54:21.618Z",
+  "lastUpdated": "2026-05-20T17:08:44.605Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

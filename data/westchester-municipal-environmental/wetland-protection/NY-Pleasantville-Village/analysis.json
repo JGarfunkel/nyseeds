@@ -1,5 +1,5 @@
 {
-  "id": "NY-Pleasantville-Village-wetland-protection-1778621099763",
+  "id": "NY-Pleasantville-Village-wetland-protection-1779242043716",
   "entityId": "NY-Pleasantville-Village",
   "domainId": "wetland-protection",
   "entity": {
@@ -13,175 +13,216 @@
   "grades": {},
   "questions": [
     {
-      "id": 3,
-      "question": "What are the setback requirements from wetland boundaries?",
-      "answer": "The setback requirement is to not deposit any material within 50 feet of the edge of any wetland, water body, or watercourse situated in a Wetland Control District.",
-      "confidence": 85,
+      "id": 1,
+      "question": "Does the municipality have legislation to preserve and protect wetlands?",
+      "answer": "Yes, the Village of Pleasantville has enacted wetland protection legislation through its Wetlands Control District Law (Chapter 182). The law establishes Wetland Control Districts mapped by the Conservation Advisory Council and prohibits activities such as depositing materials, removing materials, constructing structures, or draining/altering wetlands within or within 50 feet of any wetland, water body, or watercourse without approval. The legislation explicitly states that 'preservation and maintenance of wetlands and watercourses in an undisturbed and natural condition will protect important physical, ecological, social, aesthetic, recreational and economic assets.' Certain activities require Village Engineer approval, while larger-scale activities require Planning Commission approval. The law identifies multiple protected wetland benefits including flood control, wildlife habitat, groundwater recharge, recreation, pollution treatment, erosion control, education, open space, and aquatic food cycles. The chapter is effective pursuant to New York Environmental Conservation Law, Article 24, Title 5, and may be amended by the Village Board of Trustees following review by the Planning Commission and Conservation Advisory Council.",
+      "confidence": 98,
       "sourceRefs": [
-        "§ 182-6A"
+        "https://ecode360.com/10903269"
       ],
-      "score": 0.75,
-      "gap": "Consider adding a provision that specifies the types of activities prohibited within the 50-foot setback, such as construction, landscaping, or the use of fertilizers, to enhance clarity and enforceability of the regulation."
+      "gap": "The legislation uses only a 50-foot buffer zone rather than the best practice minimum of 100 feet, and lacks explicit mitigation requirements such as replacement wetland ratios (1.5:1), boundary delineation by qualified professionals, and authorization for injunctive relief and compelled restoration for violations.",
+      "score": 0.55,
+      "nextPrompts": [
+        "Does Pleasantville's wetland law require mitigation or replacement ratios for impacts?",
+        "What enforcement and restoration remedies does Chapter 182 authorize for violations?"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What are the setback or buffer requirements from wetland boundaries?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 15,
+      "sourceRefs": [
+        "https://ecode360.com/10903269"
+      ],
+      "gap": "The statute does not specify any numeric setback or buffer distances from wetland boundaries. Best practices recommend a minimum 100-foot horizontal buffer zone, with potential extension to 150 feet or more based on environmental assessments. No such requirements are evident in the retrieved excerpts.",
+      "score": 0,
+      "nextPrompts": [
+        "Search for any section of the Pleasantville wetlands statute that references buffer zones, setback distances, or prohibited activity areas adjacent to wetland boundaries.",
+        "Search for any conditional use or variance provisions that specify minimum distances from wetland edges for construction or land disturbance activities."
+      ]
     },
     {
       "id": 4,
       "question": "What are the penalties for unauthorized wetland disturbance?",
-      "answer": "Any person who violates or is involved in violating any provision of this chapter shall be liable for penalties as set forth in § 71-2303 of the Environmental Conservation Law. Each offense is considered separate, and each day's violation is treated as a distinct offense.",
-      "confidence": 85,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
       "sourceRefs": [
-        "§ 182-11"
+        "https://ecode360.com/10903269"
       ],
-      "score": 0.65,
-      "gap": "Consider adding specific fine amounts for unauthorized wetland disturbances, a tiered penalty structure for repeat offenses, and detailed enforcement mechanisms to clarify how violations will be monitored and prosecuted."
+      "gap": "The statute excerpts provided do not address penalties for unauthorized wetland disturbance. Best practices call for civil penalties up to $5,000 per violation per day, criminal fines of $500–$15,000, imprisonment up to six months for repeat offenses, and mandatory wetland restoration with possible bonding requirements.",
+      "score": 0,
+      "nextPrompts": [
+        "Search for enforcement and penalty provisions within the Wetland Control Law or related municipal code sections (e.g., § 182 enforcement article).",
+        "Search for restoration and remediation requirements imposed on violators of the Wetland Control District regulations."
+      ]
     },
     {
       "id": 5,
       "question": "How do I apply for a wetland permit or variance?",
-      "answer": "To apply for a wetland permit, you need to submit an application in triplicate to the Building Department. The application should include the owner's name and address, the applicant's information, a description of the proposed activity, and a map of the affected area. For activities requiring Planning Commission approval, your application will be referred to them for further review. An application fee will also be required as set forth by the Village Board of Trustees.",
-      "confidence": 85,
+      "answer": "To apply for a wetland permit in Pleasantville:\n\n1. **Submit application in triplicate** to the Building Department (§182-5A or B activities).\n2. Applications under §182-5A are processed by the Building Department; those under §182-5B are referred to the Planning Commission.\n3. The Building Department files one copy with the Village Clerk (and with the relevant governmental unit if the wetland extends outside Pleasantville).\n4. **Application must include:** name/address of owner and applicant, applicant's relationship to property, written owner consent if applicant is not the owner, purpose and relief sought, detailed description of proposed activity, and an acceptable-scale map showing the affected wetland area and proposed activity location.\n5. **Fees** are set by the Village Board of Trustees per the Master Fee Schedule.\n\nFor a **variance/hardship adjustment**, apply to the Planning Commission, which may adjust requirements upon showing extraordinary hardship. Zoning variances go to the Zoning Board of Appeals. The Planning Commission renders a decision within 62 days of the public hearing or application receipt. The applicant bears the burden of proving compliance with the Wetlands Control Law.",
+      "confidence": 72,
       "sourceRefs": [
-        "§ 182-8A"
+        "https://ecode360.com/10903269"
       ],
-      "score": 1
+      "gap": "The statute lacks requirements for a certified property survey, environmental assessment form, erosion/sediment control plans, SEQRA compliance documentation, adjacent property owner notification, and escrow deposits — all identified as best practices.",
+      "score": 0.4,
+      "nextPrompts": [
+        "Does Pleasantville require an environmental assessment form or SEQRA review as part of the wetland permit application?",
+        "Are adjacent property owners notified or required to be notified during the wetland permit public hearing process in Pleasantville?"
+      ]
     },
     {
       "id": 6,
       "question": "Are there mitigation requirements for permitted wetland impacts?",
-      "answer": "Not specified in the statute.",
-      "confidence": 10,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding clear mitigation requirements for permitted wetland impacts, including specific application procedures, review criteria for assessing mitigation plans, and defined timelines for approval to ensure compliance with wetland protection goals."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 182-8A",
+        "§ 182-4",
+        "§ 182-4A"
+      ],
+      "gap": "",
+      "score": 0,
+      "nextPrompts": []
     },
     {
       "id": 7,
       "question": "What types of development are completely prohibited in wetlands?",
-      "answer": "The following activities are completely prohibited in wetlands: depositing any material within 50 feet of wetlands or watercourses, removing any material (except debris) from wetlands or watercourses within the same distance, constructing any building or structure within 50 feet of wetlands or watercourses, and draining or altering any wetland or watercourse except as specified in other sections.",
-      "confidence": 85,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
       "sourceRefs": [
-        "§ 182-6A"
+        "§ 182-4",
+        "§ 182-8A"
       ],
-      "score": 0.9,
-      "gap": "Consider adding a clear definition of \"debris\" to specify what materials can be removed from wetlands or watercourses, as well as guidelines for permissible activities within the 50-foot buffer zone to enhance clarity and compliance."
+      "gap": "",
+      "score": 0,
+      "nextPrompts": []
     },
     {
       "id": 9,
       "question": "Are there tax incentives for wetland preservation?",
-      "answer": "Not specified in the statute.",
-      "confidence": 10,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a provision that establishes tax incentives for landowners who engage in wetland preservation practices, including property tax reductions or credits for maintaining and restoring wetland areas."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 182-7",
+        "§ 182-5A",
+        "§ 182-4"
+      ],
+      "gap": "",
+      "score": 0,
+      "nextPrompts": []
     },
     {
       "id": 10,
       "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-      "answer": "Not specified in the statute.",
-      "confidence": 10,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a section that outlines specific monitoring and maintenance requirements for permitted wetland projects, including timelines for reporting, criteria for assessing project success, and penalties for non-compliance."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 182-8A",
+        "§ 182-4",
+        "§ 182-4A"
+      ],
+      "gap": "",
+      "score": 0,
+      "nextPrompts": []
     }
   ],
   "scores": {
-    "overallScore": 5.14,
-    "normalizedScore": 5.14,
-    "averageConfidence": 53,
-    "questionsAnswered": 4,
-    "totalQuestions": 7,
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 24,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
     "scoreBreakdown": {
       "questionScores": [
-        0.75,
-        0.65,
-        1,
-        0.1,
-        0.9,
-        0.1,
-        0.1
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.5142857142857143,
-      "weightedScore": 0.5143,
-      "totalWeightedScore": 3.6,
-      "totalPossibleWeight": 7,
+      "averageQuestionScore": 0.05,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
+      "totalPossibleWeight": 9,
       "questionsWithScores": [
         {
+          "id": "1",
+          "score": 0,
+          "weight": 3,
+          "weightedScore": 0,
+          "maxWeightedScore": 3,
+          "confidence": 98
+        },
+        {
           "id": "3",
-          "question": "What are the setback requirements from wetland boundaries?",
-          "answer": "The setback requirement is to not deposit any material within 50 feet of the edge of any wetland, water body, or watercourse situated in a Wetland Control District.",
-          "score": 0.75,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.75,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 15
         },
         {
           "id": "4",
-          "question": "What are the penalties for unauthorized wetland disturbance?",
-          "answer": "Any person who violates or is involved in violating any provision of this chapter shall be liable for penalties as set forth in § 71-2303 of the Environmental Conservation Law. Each offense is considered separate, and each day's violation is treated as a distinct offense.",
-          "score": 0.65,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.65,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 10
         },
         {
           "id": "5",
-          "question": "How do I apply for a wetland permit or variance?",
-          "answer": "To apply for a wetland permit, you need to submit an application in triplicate to the Building Department. The application should include the owner's name and address, the applicant's information, a description of the proposed activity, and a map of the affected area. For activities requiring Planning Commission approval, your application will be referred to them for further review. An application fee will also be required as set forth by the Village Board of Trustees.",
-          "score": 1,
-          "weight": 1,
-          "weightedScore": 1,
-          "maxWeightedScore": 1,
-          "confidence": 85
+          "score": 0.4,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 72
         },
         {
           "id": "6",
-          "question": "Are there mitigation requirements for permitted wetland impacts?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 10
+          "confidence": 0
         },
         {
           "id": "7",
-          "question": "What types of development are completely prohibited in wetlands?",
-          "answer": "The following activities are completely prohibited in wetlands: depositing any material within 50 feet of wetlands or watercourses, removing any material (except debris) from wetlands or watercourses within the same distance, constructing any building or structure within 50 feet of wetlands or watercourses, and draining or altering any wetland or watercourse except as specified in other sections.",
-          "score": 0.9,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.9,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 0
         },
         {
           "id": "9",
-          "question": "Are there tax incentives for wetland preservation?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 10
+          "confidence": 0
         },
         {
           "id": "10",
-          "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 10
+          "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 5.14,
-  "averageConfidence": 53,
-  "questionsAnswered": 4,
-  "totalQuestions": 7,
-  "lastUpdated": "2026-05-12T21:24:59.763Z",
+  "overallScore": 0,
+  "averageConfidence": 24,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2026-05-20T10:19:52.000Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

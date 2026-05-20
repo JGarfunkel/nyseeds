@@ -1,5 +1,5 @@
 {
-  "id": "NY-Larchmont-Village-glb-1779130153997",
+  "id": "NY-Larchmont-Village-glb-1779296516308",
   "entityId": "NY-Larchmont-Village",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -48,16 +48,16 @@
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "The statute does not specify any exceptions for school, government, or commercial properties. The only exception mentioned is for extreme weather events (hurricane, tropical storm, or similar), where the Mayor may temporarily suspend provisions to allow leaf blower use for debris cleanup. All other regulations apply uniformly across property types within the Village of Larchmont.",
+      "answer": "Not specified in the provided sources. The statute applies universally within the Village of Larchmont with only one exception: the Mayor may temporarily suspend provisions during a hurricane, tropical storm, or similar extreme weather event for debris cleanup purposes. No exceptions are provided for school district properties, municipal/government properties, or commercial properties.",
       "confidence": 92,
       "sourceRefs": [
         "https://ecode360.com/36859358"
       ],
-      "gap": "The statute lacks exceptions for school district properties, municipal properties, utility companies, or commercial operations. There are no provisions for operations beyond a set distance from residences, no permit-based exemptions, and no carve-outs for public safety or maintenance work by government or institutional employees.",
-      "score": 0.05,
+      "gap": "The statute does not provide exceptions for school district properties, municipal properties, commercial properties, utility company emergency repairs, or municipally sponsored events. It also lacks provisions limiting exceptions to operations beyond 100 feet from residences or requiring permits for exempted activities.",
+      "score": 0.1,
       "nextPrompts": [
-        "Are there any administrative rules or supplementary regulations that provide exceptions for municipal or school district leaf blower use in Larchmont?",
-        "Has the Village of Larchmont considered or proposed amendments to add property-type exceptions for government or institutional leaf blower operations?"
+        "Are there any separate Village of Larchmont ordinances or resolutions that grant exemptions to municipal departments or school districts for leaf blower use?",
+        "Has the Village of Larchmont considered or proposed amendments to Chapter 180 to add property-type exceptions or permit-based exemptions?"
       ]
     },
     {
@@ -82,25 +82,25 @@
       "answer": "Not specified in the provided sources.",
       "confidence": 95,
       "sourceRefs": [],
-      "gap": "The ordinance does not mention the environmental benefits of leaving leaf debris or leaf mulching, such as soil enrichment or habitat creation. It also lacks any educational requirements or community outreach initiatives promoting these ecological practices, which are considered best practices for municipal environmental protection.",
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, guidelines encouraging these practices, community workshops, or informational campaigns related to ecological advantages such as soil enrichment or habitat creation.",
       "score": 0,
       "nextPrompts": [
-        "Does the Village of Larchmont have any separate educational programs or guidelines promoting leaf mulching or natural leaf debris management?",
-        "Are there any companion resolutions or environmental policies in Larchmont that address sustainable landscaping practices beyond leaf blower regulation?"
+        "Does the Village of Larchmont have any separate environmental education programs or guidelines related to leaf debris management and mulching?",
+        "Are there any supplementary municipal documents or public works guidelines in Larchmont that address sustainable landscaping practices including leaf mulching?"
       ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
       "answer": "Not specified in the provided sources.",
-      "confidence": 10,
+      "confidence": 95,
       "sourceRefs": []
     }
   ],
   "scores": {
-    "overallScore": 4.46,
-    "normalizedScore": 4.46,
-    "averageConfidence": 77,
+    "overallScore": 4.5,
+    "normalizedScore": 4.5,
+    "averageConfidence": 89,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
@@ -108,14 +108,14 @@
         0.5,
         0.65,
         0.75,
-        0.05,
+        0.1,
         0.4,
         0,
         0
       ],
       "averageQuestionScore": 0.34,
-      "weightedScore": 0.4458,
-      "totalWeightedScore": 5.3500000000000005,
+      "weightedScore": 0.45,
+      "totalWeightedScore": 5.4,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
@@ -144,9 +144,9 @@
         },
         {
           "id": "4",
-          "score": 0.05,
+          "score": 0.1,
           "weight": 1,
-          "weightedScore": 0.05,
+          "weightedScore": 0.1,
           "maxWeightedScore": 1,
           "confidence": 92
         },
@@ -172,16 +172,16 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 10
+          "confidence": 95
         }
       ]
     }
   },
-  "overallScore": 4.46,
-  "averageConfidence": 77,
+  "overallScore": 4.5,
+  "averageConfidence": 89,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:49:13.997Z",
+  "lastUpdated": "2026-05-20T17:01:56.308Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

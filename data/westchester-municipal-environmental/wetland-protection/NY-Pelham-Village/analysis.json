@@ -1,5 +1,5 @@
 {
-  "id": "NY-Pelham-Village-wetland-protection-1778621083760",
+  "id": "NY-Pelham-Village-wetland-protection-1779241995701",
   "entityId": "NY-Pelham-Village",
   "domainId": "wetland-protection",
   "entity": {
@@ -13,177 +13,224 @@
   "grades": {},
   "questions": [
     {
+      "id": 1,
+      "question": "Does the municipality have legislation to preserve and protect wetlands?",
+      "answer": "Yes. The Village of Pelham has enacted legislation to preserve and protect freshwater wetlands. The statute explicitly states its purpose is to promote public health by preserving and protecting important freshwater wetlands within the village and the natural resources and processes associated therewith. The legislation establishes a Freshwater Wetlands Map identifying controlled areas, and prohibits activities within those areas without a permit, including draining, dredging, excavation, dumping, filling, erection of structures, introduction of pollution, and any activity that may substantially impair the natural functions of wetlands. The Planning Board of the Village of Pelham is vested with authority to review permit applications, establish rules and regulations, and impose conditions on permits to carry out the purpose of the chapter.",
+      "confidence": 99,
+      "sourceRefs": [
+        "https://ecode360.com/8779453"
+      ],
+      "gap": "The legislation lacks explicit buffer zone protections (100–500 feet), mitigation/replacement ratios (1.5:1), tiered review processes, boundary delineation requirements by qualified professionals, and enforcement mechanisms including injunctive relief and restoration orders.",
+      "score": 0.4,
+      "nextPrompts": [
+        "Does Pelham's wetland law specify buffer zone distances and requirements?",
+        "What enforcement and mitigation provisions exist in Pelham's wetland ordinance?"
+      ]
+    },
+    {
       "id": 3,
-      "question": "What are the setback requirements from wetland boundaries?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "question": "What are the setback or buffer requirements from wetland boundaries?",
+      "answer": "The statute does not specify explicit numerical setback or buffer distances from wetland boundaries. Instead, it establishes a 'freshwater wetlands controlled area' (as shown on the Freshwater Wetlands Map) within which no person may conduct controlled activities without a permit from the Planning Board. The Planning Board has authority to impose conditions on permits as it deems necessary to carry out the purpose and intent of the chapter.",
+      "confidence": 72,
+      "sourceRefs": [
+        "Full Statute Text – Section A (controlled activities requiring permits)",
+        "Full Statute Text – Planning Board authority section"
+      ],
+      "gap": "The statute does not establish any explicit minimum buffer or setback distance (e.g., 100–150 feet) from wetland boundaries. It relies solely on the Freshwater Wetlands Map and Planning Board discretion rather than codified numerical buffer requirements, representing a significant gap from best practice.",
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:29.316Z",
-      "gap": "{\n    \"recommendation\": \"Consider adding a requirement for a minimum setback distance of 50 feet from wetland boundaries to protect ecological integrity and prevent potential environmental impacts, with provisions for increased setbacks based on the sensitivity of the wetland area.\"\n}"
+      "nextPrompts": [
+        "Does the Village of Pelham's Freshwater Wetlands Map or associated regulations define a specific controlled area buffer distance from wetland boundaries?",
+        "Do the Planning Board's rules and regulations established under this chapter include specific setback or buffer standards for controlled activities near wetlands?"
+      ]
     },
     {
       "id": 4,
       "question": "What are the penalties for unauthorized wetland disturbance?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:29.708Z",
-      "gap": "{\n  \"recommendation\": \"Consider adding a section specifying penalties for unauthorized wetland disturbance, including a base fine of $5,000 for first offenses, doubling for repeat offenses, with enforcement through municipal environmental officers and categorization of violations by severity of ecological impact.\"\n}"
+      "answer": "The provided statute does not specify penalties for unauthorized wetland disturbance. The statute establishes that no person shall conduct controlled activities within a freshwater wetlands controlled area without a permit, and vests authority in the Planning Board to review applications and impose conditions, but no penalty provisions (civil fines, criminal penalties, or restoration requirements) are enumerated in the excerpts provided.",
+      "confidence": 85,
+      "sourceRefs": [
+        "Village of Pelham Wetland Protection Chapter – Controlled Activities Section",
+        "Village of Pelham Wetland Protection Chapter – Planning Board Authority Section"
+      ],
+      "gap": "The statute lacks any specified civil or criminal penalties for unauthorized wetland disturbance. Best practice calls for civil penalties up to $5,000 per violation per day, criminal fines of $500–$15,000, imprisonment up to six months for repeat offenses, mandatory wetland restoration, and potential bonding requirements. None of these elements are present in the provided sources.",
+      "score": 0,
+      "nextPrompts": [
+        "Are there separate enforcement or penalty provisions in the Village of Pelham Code (e.g., a general penalty section or zoning enforcement chapter) that apply to wetland violations?",
+        "Does the Village of Pelham reference New York State Article 24 (Freshwater Wetlands Act) penalty provisions as applicable to local violations?"
+      ]
     },
     {
       "id": 5,
       "question": "How do I apply for a wetland permit or variance?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:30.176Z",
-      "gap": "{\n  \"recommendation\": \"Consider adding a section detailing the application procedures for obtaining a wetland permit or variance, including submission requirements, review criteria, timelines for decision-making, and an appeal process for denied applications.\"\n}"
+      "answer": "To conduct any controlled activity within a freshwater wetlands controlled area in the Village of Pelham, you must obtain a permit from the Planning Board. The Planning Board has authority to review applications for controlled activities on lots located within a freshwater wetlands controlled area. The Planning Board is responsible for establishing rules and regulations governing the application process and permit issuance, including provisions for public notice of any proposed action that might adversely affect a controlled area. The Planning Board may impose conditions on permits as it deems necessary. Specific application forms, fees, or detailed submission requirements are not outlined in the statute itself but would be governed by the rules and regulations established by the Planning Board.",
+      "confidence": 52,
+      "sourceRefs": [
+        "Village of Pelham Wetland Protection Chapter, Section A (Authority and Permit Requirements)",
+        "Village of Pelham Wetland Protection Chapter, Section B (Rules and Regulations)",
+        "Village of Pelham Wetland Protection Chapter, Section C (Permit Conditions)"
+      ],
+      "gap": "The statute lacks specific application requirements such as required documentation (surveys, environmental assessment forms, erosion control plans), fees, escrow deposits, public hearing procedures, adjacent property owner notification requirements, and SEQRA compliance details — all identified as best practices.",
+      "score": 0.2,
+      "nextPrompts": [
+        "What are the Planning Board's adopted rules and regulations for wetland permit applications in the Village of Pelham?",
+        "Are there specific fees, escrow requirements, or environmental assessment forms required for wetland permit applications in Pelham?"
+      ]
     },
     {
       "id": 6,
       "question": "Are there mitigation requirements for permitted wetland impacts?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "answer": "The statute grants the Planning Board authority to impose conditions on permits as it deems necessary to carry out the purpose and intent of the chapter. However, no specific mitigation requirements are outlined, such as replacement ratios, no-net-loss standards, on-site mitigation preferences, monitoring schedules, or performance bonds. The Planning Board has broad discretionary authority to set rules and regulations governing permit issuance and may impose conditions it deems appropriate.",
+      "confidence": 72,
+      "sourceRefs": [
+        "§ A: Authority vested in Planning Board to review applications",
+        "§ C: Planning Board may impose such conditions as it deems necessary to carry out the purpose and intent of this chapter"
+      ],
+      "gap": "Significant gap exists. The statute lacks specific mitigation requirements including: no-net-loss standards, replacement ratios (e.g., 1.5:1), on-site mitigation preferences, detailed construction/maintenance guidelines, monitoring schedules, and performance bond requirements. Mitigation is left entirely to Planning Board discretion with no codified standards.",
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:30.515Z",
-      "gap": "{\n    \"recommendation\": \"Consider adding a requirement for a detailed mitigation plan as part of the permit application, outlining specific actions to compensate for wetland impacts, including timelines, success criteria, and monitoring protocols.\"\n}"
+      "nextPrompts": [
+        "Do the Planning Board's rules and regulations (referenced but not provided) include specific mitigation standards for wetland impacts?",
+        "Has the Village of Pelham adopted any separate mitigation or compensation policy for wetland impacts through Board of Trustees resolutions?"
+      ]
     },
     {
       "id": 7,
       "question": "What types of development are completely prohibited in wetlands?",
-      "answer": "The types of development completely prohibited in wetlands, without a permit, include:\n\n1. Any form of draining, dredging, excavation or removal of soil, mud, sand, gravel or other material.\n2. Any form of dumping, filling, grading or depositing of any soil, stones, sand, gravel, mud, rubbish or fill of any kind.\n3. The erection of any structures or roads, the driving of pilings or the placement of any other obstructions, whether or not changing or diverting the flow of water.\n4. The introduction of any form of pollution, including but not limited to installing a septic tank, running a sewer outfall, discharging sewage treatment effluent or other liquid wastes into or so as to drain a freshwater wetlands area.\n5. Any other activity which may substantially impair the natural functions served by the wetlands or the benefits derived therefrom.\n\n(See § 49-3 A)",
-      "confidence": 90,
+      "answer": "In the Village of Pelham, no activities are listed as absolutely prohibited without exception. However, the following activities require a permit and are therefore controlled within freshwater wetlands: (1) draining, dredging, excavation, or removal of soil, mud, sand, gravel, or other material; (2) dumping, filling, grading, or depositing of soil, stones, sand, gravel, mud, rubbish, or fill; (3) erection of structures or roads, driving of pilings, or placement of obstructions; (4) introduction of pollution, including installing septic tanks, sewer outfalls, or discharging sewage/liquid wastes; and (5) any activity that may substantially impair the natural functions of wetlands. These activities are not outright prohibited but require a permit issued in accordance with the chapter's requirements.",
+      "confidence": 82,
       "sourceRefs": [
-        "§ 49-3"
+        "Village of Pelham Wetland Protection Chapter, Section A(1)-(5)"
       ],
-      "score": 0.65,
-      "analyzedAt": "2025-09-08T19:39:32.857Z",
-      "gap": "{\n    \"recommendation\": \"Consider adding specific criteria or thresholds for what constitutes 'substantial impairment' to the natural functions of wetlands to provide clearer guidance for enforcement and compliance.\"\n}"
+      "gap": "The statute does not explicitly prohibit any development outright without the possibility of a permit. Best practice calls for explicit prohibitions on certain activities (e.g., clear-cutting, road construction) with permits only when no reasonable alternative exists. Pelham's ordinance allows all listed activities with a permit, without specifying conditions under which permits must be denied.",
+      "score": 0.5,
+      "nextPrompts": [
+        "What criteria does the Planning Board use to deny a wetland permit in Pelham?",
+        "Are there any activities that are categorically denied permits regardless of application in Pelham's wetland regulations?"
+      ]
     },
     {
       "id": 9,
       "question": "Are there tax incentives for wetland preservation?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
       "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:33.475Z",
-      "gap": "{\n    \"recommendation\": \"Consider adding a provision that offers property tax reductions or credits to landowners who actively engage in wetland preservation and restoration efforts, with specific criteria and guidelines for eligibility and compliance.\"\n}"
+      "gap": "The best practice indicates the statute calls for tax incentives for wetland preservation, but no such provisions appear in the provided statute text. The statute focuses on permit requirements, controlled activities, and Planning Board authority.",
+      "score": 0,
+      "nextPrompts": [
+        "Are there any separate Village of Pelham tax code provisions related to wetland preservation easements or conservation exemptions?",
+        "Does the Village of Pelham reference any state-level tax incentive programs for landowners who preserve freshwater wetlands?"
+      ]
     },
     {
       "id": 10,
       "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "answer": "The Village of Pelham statute grants the Planning Board authority to impose conditions on permitted wetland projects as it deems necessary to carry out the purpose and intent of the chapter. The Planning Board is also authorized to establish rules and regulations governing the issuance of permits. However, no specific monitoring schedules, maintenance requirements, reporting obligations, bonding requirements, or compliance verification procedures are explicitly detailed in the provided statute text.",
+      "confidence": 72,
+      "sourceRefs": [
+        "Village of Pelham Wetland Protection Chapter, Section on Planning Board Authority (Subsections A, B, C)"
+      ],
+      "gap": "Significant gaps exist compared to best practices. The statute lacks explicit requirements for: compliance monitoring periods, field measurements, regular monitoring report submissions, external expert oversight at applicant expense, and bond or surety requirements tied to mitigation completion. Only general conditional authority is granted to the Planning Board.",
       "score": 0.1,
-      "analyzedAt": "2025-09-08T19:39:33.861Z",
-      "gap": "{\n    \"recommendation\": \"Consider adding a requirement for regular monitoring reports and maintenance plans to be submitted by permit holders, detailing the ecological health and compliance status of the wetland project, with specific timelines and criteria for evaluation by municipal authorities.\"\n}"
+      "nextPrompts": [
+        "Do the Planning Board's established rules and regulations (referenced but not provided) contain specific monitoring and maintenance requirements for permitted wetland projects?",
+        "Are there any bonding or financial assurance requirements established by the Village of Pelham Planning Board for wetland permit compliance?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 1.79,
-    "normalizedScore": 1.79,
-    "averageConfidence": 13,
-    "questionsAnswered": 1,
-    "totalQuestions": 7,
+    "overallScore": 0.89,
+    "normalizedScore": 0.89,
+    "averageConfidence": 68,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
     "scoreBreakdown": {
       "questionScores": [
+        0,
         0.1,
+        0,
+        0.2,
         0.1,
-        0.1,
-        0.1,
-        0.65,
-        0.1,
+        0.5,
+        0,
         0.1
       ],
-      "averageQuestionScore": 0.1785714285714286,
-      "weightedScore": 0.1786,
-      "totalWeightedScore": 1.2500000000000002,
-      "totalPossibleWeight": 7,
+      "averageQuestionScore": 0.13,
+      "weightedScore": 0.0889,
+      "totalWeightedScore": 0.7999999999999999,
+      "totalPossibleWeight": 9,
       "questionsWithScores": [
         {
+          "id": "1",
+          "score": 0,
+          "weight": 3,
+          "weightedScore": 0,
+          "maxWeightedScore": 3,
+          "confidence": 99
+        },
+        {
           "id": "3",
-          "question": "What are the setback requirements from wetland boundaries?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 72
         },
         {
           "id": "4",
-          "question": "What are the penalties for unauthorized wetland disturbance?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 85
         },
         {
           "id": "5",
-          "question": "How do I apply for a wetland permit or variance?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 0
+          "score": 0.2,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 52
         },
         {
           "id": "6",
-          "question": "Are there mitigation requirements for permitted wetland impacts?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 72
         },
         {
           "id": "7",
-          "question": "What types of development are completely prohibited in wetlands?",
-          "answer": "The types of development completely prohibited in wetlands, without a permit, include:\n\n1. Any form of draining, dredging, excavation or removal of soil, mud, sand, gravel or other material.\n2. Any form of dumping, filling, grading or depositing of any soil, stones, sand, gravel, mud, rubbish or fill of any kind.\n3. The erection of any structures or roads, the driving of pilings or the placement of any other obstructions, whether or not changing or diverting the flow of water.\n4. The introduction of any form of pollution, including but not limited to installing a septic tank, running a sewer outfall, discharging sewage treatment effluent or other liquid wastes into or so as to drain a freshwater wetlands area.\n5. Any other activity which may substantially impair the natural functions served by the wetlands or the benefits derived therefrom.\n\n(See § 49-3 A)",
-          "score": 0.65,
+          "score": 0.5,
           "weight": 1,
-          "weightedScore": 0.65,
+          "weightedScore": 0.5,
           "maxWeightedScore": 1,
-          "confidence": 90
+          "confidence": 82
         },
         {
           "id": "9",
-          "question": "Are there tax incentives for wetland preservation?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "10",
-          "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 72
         }
       ]
     }
   },
-  "overallScore": 1.79,
-  "averageConfidence": 13,
-  "questionsAnswered": 1,
-  "totalQuestions": 7,
-  "lastUpdated": "2026-05-12T21:24:43.760Z",
+  "overallScore": 0.89,
+  "averageConfidence": 68,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2026-05-20T10:19:47.950Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

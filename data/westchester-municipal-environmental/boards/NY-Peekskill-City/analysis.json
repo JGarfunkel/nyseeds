@@ -1,5 +1,5 @@
 {
-  "id": "NY-Peekskill-City-boards-1778786300845",
+  "id": "NY-Peekskill-City-boards-1779299102422",
   "entityId": "NY-Peekskill-City",
   "domainId": "boards",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "boards",
-    "displayName": "Boards"
+    "displayName": "Governing Boards & Committees"
   },
   "grades": {},
   "questions": [
@@ -56,16 +56,17 @@
     },
     {
       "id": 7,
-      "question": "Does the website provide clear, timely guidance for common user questions about meetings, agendas, minutes, or contacting the board?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "question": "Does the website list and share social media accounts, contact information?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0
     }
   ],
   "scores": {
     "overallScore": 0,
     "normalizedScore": 0,
-    "averageConfidence": 7,
+    "averageConfidence": 9,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
@@ -81,98 +82,98 @@
       "averageQuestionScore": 0,
       "weightedScore": 0,
       "totalWeightedScore": 0,
-      "totalPossibleWeight": 3.0999999999999996,
+      "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
           "score": 0,
-          "weight": 0.1,
+          "weight": 1,
           "weightedScore": 0,
-          "maxWeightedScore": 0.1,
+          "maxWeightedScore": 1,
           "confidence": 50
         },
         {
           "id": "2",
           "score": 0,
-          "weight": 0.3,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.3,
+          "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "3",
           "score": 0,
-          "weight": 0.5,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.5,
+          "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "4",
           "score": 0,
-          "weight": 0.3,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.3,
+          "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "5",
           "score": 0,
-          "weight": 0.3,
+          "weight": 3,
           "weightedScore": 0,
-          "maxWeightedScore": 0.3,
+          "maxWeightedScore": 3,
           "confidence": 0
         },
         {
           "id": "6",
           "score": 0,
-          "weight": 0.8,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.8,
+          "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "7",
           "score": 0,
-          "weight": 0.8,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.8,
-          "confidence": 0
+          "maxWeightedScore": 2,
+          "confidence": 10
         }
       ]
     }
   },
   "overallScore": 0,
-  "averageConfidence": 7,
+  "averageConfidence": 9,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T13:45:43.783Z",
+  "lastUpdated": "2026-05-20T17:45:02.422Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.cityofpeekskillny.gov/553/About-the-Conservation-Advisory-Council",
-      "title": "https://www.cityofpeekskillny.gov/553/About-the-Conservation-Advisory-Council"
+      "title": "About the Conservation Advisory Council | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/556/Composting-Food-Scraps-Recycling",
-      "title": "https://www.cityofpeekskillny.gov/556/Composting-Food-Scraps-Recycling"
+      "title": "Composting & Food Scraps Recycling | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/557/DEC-Community-Air-Screen-Program",
-      "title": "https://www.cityofpeekskillny.gov/557/DEC-Community-Air-Screen-Program"
+      "title": "DEC Community Air Screen Program | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/AgendaCenter/Conservation-Advisory-Council-9",
-      "title": "https://www.cityofpeekskillny.gov/AgendaCenter/Conservation-Advisory-Council-9"
+      "title": "Agenda Center • Peekskill, NY • CivicEngage"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/DocumentCenter/View/1461/What-Is-Peekskills-Watershed-PDF",
-      "title": "https://www.cityofpeekskillny.gov/DocumentCenter/View/1461/What-Is-Peekskills-Watershed-PDF"
+      "title": "What Is Peekskills Watershed PDF"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/DocumentCenter/View/1462/Where-Does-Rainwater-Go-PDF",
-      "title": "https://www.cityofpeekskillny.gov/DocumentCenter/View/1462/Where-Does-Rainwater-Go-PDF"
+      "title": "Where Does Rainwater Go PDF"
     }
   ]
 }

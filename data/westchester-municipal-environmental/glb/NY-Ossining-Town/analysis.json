@@ -1,5 +1,5 @@
 {
-  "id": "NY-Ossining-Town-glb-1779130360484",
+  "id": "NY-Ossining-Town-glb-1779296744272",
   "entityId": "NY-Ossining-Town",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -76,21 +76,27 @@
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
       "answer": "Not specified in the provided sources.",
-      "confidence": 0,
-      "sourceRefs": []
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The ordinance does not mention any benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, community outreach, or guidelines promoting these ecological practices. This represents a significant gap compared to best practices, which recommend municipalities actively educate residents on soil enrichment, habitat creation, and other environmental benefits of leaf debris and mulching.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the municipality have any separate environmental or sustainability policies that address leaf debris management or mulching practices?",
+        "Are there any municipal educational programs or informational campaigns related to natural yard care or composting that complement the leaf blower ordinance?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
       "answer": "Not specified in the provided sources.",
-      "confidence": 0,
+      "confidence": 10,
       "sourceRefs": []
     }
   ],
   "scores": {
     "overallScore": 4.54,
     "normalizedScore": 4.54,
-    "averageConfidence": 55,
+    "averageConfidence": 58,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
@@ -154,7 +160,7 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "7",
@@ -162,16 +168,16 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         }
       ]
     }
   },
   "overallScore": 4.54,
-  "averageConfidence": 55,
+  "averageConfidence": 58,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:52:40.484Z",
+  "lastUpdated": "2026-05-20T17:05:44.272Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

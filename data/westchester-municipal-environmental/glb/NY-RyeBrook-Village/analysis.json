@@ -1,16 +1,16 @@
 {
-  "id": "NY-RyeBrook-Village-glb-1778856980531",
-  "municipality": {
+  "id": "NY-RyeBrook-Village-glb-1779296964810",
+  "entityId": "NY-RyeBrook-Village",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-RyeBrook-Village",
     "displayName": "Rye Brook - Village"
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
@@ -62,36 +62,51 @@
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a regulatory framework that mandates a centralized reporting system for violations, requiring detailed data collection, public access to violation records, and regular transparency reports to ensure accountability and effective enforcement."
+      "answer": "Under §158-2D(F)(1), any person individually or on behalf of a business operating a leaf blower in violation of the section, and/or any tenant or owner of property where a leaf blower is being operated in violation, may be deemed violators and penalized as set forth in the statute. This establishes dual liability for both the operator and the property owner/tenant. Additionally, §158-5(A) notes that in emergency cases, written permission from the Building Inspector or Police Department may be obtained for noisy equipment use, implying these authorities have an enforcement role.",
+      "confidence": 55,
+      "sourceRefs": [
+        "§158-2D(F)(1)",
+        "§158-5(A)"
+      ],
+      "gap": "The sources do not specify which enforcement authority (e.g., Police, Code Enforcement) handles violations, do not describe a written notification process for repeat violations, and do not detail the specific penalty amounts or escalation structure beyond referencing penalties 'as set forth herein.' This falls short of best practices requiring designated enforcement officers, written notifications, and clearly enumerated penalties.",
+      "score": 0.3,
+      "nextPrompts": [
+        "What are the specific penalty amounts and escalation structure for leaf blower violations in the Rye Brook municipal code?",
+        "Which specific enforcement officers or departments are designated to enforce leaf blower violations in Rye Brook?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a provision to the statute that mandates the promotion of leaf mulching practices by requiring the municipality to provide educational resources and workshops for residents on the environmental and soil health benefits of leaving leaf debris and mulching."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 95,
+      "sourceRefs": [
+        "§ 158-2.1"
+      ],
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, community workshops, or informational campaigns promoting these ecological practices such as soil enrichment or habitat creation.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village have any separate environmental or sustainability policies that address leaf debris management or mulching practices?",
+        "Are there any accompanying municipal guidelines or public outreach materials related to the leaf blower ordinance that discuss ecological benefits of leaf mulching?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 20,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for an annual public report that includes comprehensive data collection on relevant municipal activities, transparency measures detailing how the data is gathered and used, and tracking mechanisms to monitor progress and ensure accountability."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 158-3",
+        "§ 158-5",
+        "§ 158-4"
+      ]
     }
   ],
   "scores": {
     "overallScore": 3.25,
     "normalizedScore": 3.25,
-    "averageConfidence": 57,
-    "questionsAnswered": 4,
+    "averageConfidence": 70,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
@@ -99,19 +114,17 @@
         0.6,
         0.3,
         0.3,
-        0.1,
-        0.1,
-        0.1
+        0.3,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.27857142857142864,
+      "averageQuestionScore": 0.28,
       "weightedScore": 0.325,
-      "totalWeightedScore": 3.9,
+      "totalWeightedScore": 3.8999999999999995,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "The prohibition of fuel-powered motorized leaf blowers lasts from May 1 through September 30 each year, which is five months.",
           "score": 0.45,
           "weight": 4,
           "weightedScore": 1.8,
@@ -120,8 +133,6 @@
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "The permitted hours for gas leaf blower operation are between 8:00 a.m. and 9:00 p.m. on weekdays and 9:00 a.m. and 9:00 p.m. on weekends, but only from October 1 through April 30.",
           "score": 0.6,
           "weight": 1,
           "weightedScore": 0.6,
@@ -130,18 +141,14 @@
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "Anyone violating the gas leaf blower regulations will first receive a warning. Subsequent violations will be penalized as set forth in § 158-6, which refers to penalties provided in § 1-17 of Chapter 1, General Provisions, for each offense. Each day a violation continues is considered a separate offense.",
           "score": 0.3,
           "weight": 3,
-          "weightedScore": 0.8999999999999999,
+          "weightedScore": 0.9,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Yes, exceptions apply. The restrictions do not apply to utility companies or use of leaf blowers for driveway/road paving and sealing activities. Property in excess of five acres, maintained by homeowners' associations, may be exempt by resolution of the Board of Trustees. Additionally, municipal operations by the Village of Rye Brook are exempt.",
           "score": 0.3,
           "weight": 1,
           "weightedScore": 0.3,
@@ -150,45 +157,37 @@
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.3,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.3,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 55
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 95
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 20
+          "confidence": 0
         }
       ]
     }
   },
   "overallScore": 3.25,
-  "averageConfidence": 57,
-  "questionsAnswered": 4,
+  "averageConfidence": 70,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T14:56:20.531Z",
+  "lastUpdated": "2026-05-20T17:09:24.810Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 3.25,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.268Z",
-  "domainId": "glb"
+  "sources": []
 }

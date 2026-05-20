@@ -1,5 +1,5 @@
 {
-  "id": "NY-WhitePlains-City-glb-1779130483772",
+  "id": "NY-WhitePlains-City-glb-1779297078029",
   "entityId": "NY-WhitePlains-City",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -30,9 +30,17 @@
     {
       "id": 2,
       "question": "What are the permitted hours for gas leaf blower operation?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources. The sources indicate that gas-powered leaf blowers are prohibited year-round in White Plains, NY, meaning there are no permitted hours for their operation.",
+      "confidence": 85,
+      "sourceRefs": [
+        "https://www.cityofwhiteplains.com/m/NewsFlash/Home/Detail/2146"
+      ],
+      "gap": "White Plains imposes a year-round ban on gas-powered leaf blowers, which is stricter than the best practice model that permits use October 1–May 31 with defined hourly windows on weekdays, Saturdays, and Sundays/holidays. There are no permitted hours established, as the prohibition is total.",
+      "score": 0,
+      "nextPrompts": [
+        "Does White Plains provide any exemptions or variances to the year-round gas leaf blower ban for specific use cases or equipment types?",
+        "Are there any pending amendments to the White Plains gas leaf blower ordinance that would introduce seasonal or time-based permitted hours?"
+      ]
     },
     {
       "id": 3,
@@ -73,7 +81,7 @@
   "scores": {
     "overallScore": 3.33,
     "normalizedScore": 3.33,
-    "averageConfidence": 12,
+    "averageConfidence": 24,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
@@ -105,7 +113,7 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 85
         },
         {
           "id": "3",
@@ -151,21 +159,16 @@
     }
   },
   "overallScore": 3.33,
-  "averageConfidence": 12,
+  "averageConfidence": 24,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T19:01:08.409Z",
+  "lastUpdated": "2026-05-20T17:11:18.029Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.cityofwhiteplains.com/",
       "title": "White Plains, NY - Official Website | Official Website"
-    },
-    {
-      "url": "https://www.cityofwhiteplains.com/m/NewsFlash/Home/Detail/2146",
-      "title": "Reminder - The Use of Gas-Powered Leaf Blowers is Prohibited • White Plains, NY",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-WhitePlains-City\\2146.txt"
     }
   ]
 }

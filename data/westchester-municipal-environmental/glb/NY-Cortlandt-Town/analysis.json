@@ -1,17 +1,31 @@
 {
-  "id": "NY-Cortlandt-Town-glb-1778856979790",
-  "municipality": "NY-Cortlandt-Town",
-  "domain": "glb",
-  "analyzedAt": "2025-09-09T19:59:14.424Z",
+  "id": "NY-Cortlandt-Town-glb-1779296391410",
+  "entityId": "NY-Cortlandt-Town",
+  "domainId": "glb",
+  "entity": {
+    "id": "NY-Cortlandt-Town",
+    "displayName": "Cortlandt - Town"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Gas Leaf Blowers"
+  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
       "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "answer": "The Town of Cortlandt's statute does not impose a seasonal prohibition on gas leaf blowers. Instead, it restricts operation of leaf blowers (along with other power tools and equipment) only during certain daily hours — specifically from 10:00 p.m. to 8:00 a.m. — when used outdoors in residentially zoned districts so as to create unnecessary noise. There are no calendar-based start or end dates specified; the restriction applies year-round but only during those nighttime/early morning hours each day. (§ 197-5J)",
+      "confidence": 95,
+      "sourceRefs": [
+        "§ 197-5J, Town of Cortlandt Chapter 197 Noise"
+      ],
+      "gap": "Cortlandt's ordinance lacks a seasonal prohibition on gas leaf blowers entirely. Best practice calls for a year-round ban with limited seasonal exceptions (e.g., March 15–May 15 and October 1–December 31), whereas Cortlandt only restricts hours of operation (10:00 p.m.–8:00 a.m.) with no seasonal component at all.",
       "score": 0.1,
-      "analyzedAt": "2025-09-09T19:59:10.412Z"
+      "nextPrompts": [
+        "Does the Town of Cortlandt have any separate ordinance or amendment specifically targeting gas-powered leaf blowers beyond the general noise chapter?",
+        "Has the Town of Cortlandt considered or proposed seasonal restrictions on gas leaf blowers similar to neighboring municipalities like Dobbs Ferry or Mount Vernon?"
+      ]
     },
     {
       "id": 2,
@@ -27,84 +41,107 @@
     {
       "id": 3,
       "question": "What are the penalties for violating gas leaf blower regulations?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T19:59:12.016Z"
+      "answer": "The provided statute does not specify penalties for violating the noise regulations, including those related to leaf blowers. The statute outlines prohibited acts under Chapter 197 (Noise), Article III, but does not detail fines, warnings, or other enforcement consequences within the excerpted text.",
+      "confidence": 30,
+      "sourceRefs": [
+        "Town of Cortlandt, NY, Chapter 197, Article III, § 197-5(J)"
+      ],
+      "gap": "The statute lacks any penalty structure for violations. Best practices call for escalating fines (written warning, then $250, $500, and $1,000 for subsequent offenses), per-day penalties for continued non-compliance, and accountability for both operators and property owners. None of these elements are present in the provided sources.",
+      "score": 0,
+      "nextPrompts": [
+        "Does Town of Cortlandt, NY Chapter 197 contain a separate enforcement or penalties section specifying fines for noise violations?",
+        "Are there any Town of Cortlandt general penalty provisions (e.g., in Chapter 1 or a municipal code enforcement chapter) that apply to noise ordinance violations?"
+      ]
     },
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "answer": "The statute does not specify any exceptions for school, government, or commercial properties regarding gas leaf blower use. Section 197-5(J) restricts operation of leaf blowers and similar devices only in 'residentially zoned districts' during prohibited hours (10:00 p.m. to 8:00 a.m.), which implicitly means the time restrictions apply specifically to residential zones. No explicit exceptions for school, government, or commercial properties are mentioned.",
+      "confidence": 72,
+      "sourceRefs": [
+        "§ 197-5(J) Domestic power tools and equipment"
+      ],
+      "gap": "Significant gap exists. The statute lacks explicit exceptions for school district properties, municipal properties, utility companies, or emergency repairs. There is no provision for operations beyond 100 feet from residences, no permit-based exemptions, and no municipally sponsored event exemptions as recommended by best practices.",
       "score": 0.1,
-      "analyzedAt": "2025-09-09T19:59:12.837Z"
+      "nextPrompts": [
+        "Does the Town of Cortlandt have any separate ordinances or permit processes that would allow exceptions for municipal or school district leaf blower use?",
+        "Are there any administrative rules or enforcement guidelines that clarify how the noise ordinance applies to non-residential zones for leaf blower operations?"
+      ]
     },
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "answer": "The statute specifies that any member of the Police Department of the Town of Cortlandt has authority to take steps necessary to disconnect burglar alarms when activated beyond permitted durations (§197-5D). Beyond this specific enforcement mechanism for alarms, the statute does not detail a broader violation reporting or enforcement process for other prohibited acts, including leaf blower noise violations.",
+      "confidence": 45,
+      "sourceRefs": [
+        "§197-5D",
+        "§197-5J"
+      ],
+      "gap": "Significant gaps exist compared to best practices. The statute lacks: designated enforcement authorities (beyond police for alarms) such as Code Enforcement Officers or DPW; written notification requirements for repeat violations; specific penalty structures; and provisions holding property owners or contractors liable. No comprehensive enforcement framework is outlined for noise violations generally or leaf blower violations specifically.",
       "score": 0.1,
-      "analyzedAt": "2025-09-09T19:59:13.392Z"
+      "nextPrompts": [
+        "Does the Town of Cortlandt municipal code contain a separate enforcement or penalties section applicable to Chapter 197 Noise violations?",
+        "Are there Town of Cortlandt code enforcement regulations that designate officers responsible for investigating and citing noise complaints?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T19:59:13.881Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 95,
+      "sourceRefs": [
+        "§ 197-4",
+        "§ 197-5"
+      ],
+      "gap": "The Town of Cortlandt ordinance does not address leaf debris benefits or leaf mulching practices. Best practice recommends municipalities explicitly promote the environmental benefits of leaving leaf debris and mulching, such as soil enrichment and habitat creation, and support these practices through educational campaigns or mandates.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Town of Cortlandt have any separate environmental or sustainability ordinances that address leaf management or composting practices?",
+        "Are there any Town of Cortlandt public works or landscaping guidelines that reference leaf mulching or debris retention as an alternative to leaf blower use?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T19:59:14.424Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 197-4",
+        "§ 197-5"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 1.46,
-    "normalizedScore": 1.46,
-    "averageConfidence": 13,
-    "questionsAnswered": 1,
+    "overallScore": 1.04,
+    "normalizedScore": 1.04,
+    "averageConfidence": 62,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
         0.1,
         0.65,
+        0,
         0.1,
         0.1,
-        0.1,
-        0.1,
-        0.1
+        0,
+        0
       ],
-      "averageQuestionScore": 0.1785714285714286,
-      "weightedScore": 0.1458,
-      "totalWeightedScore": 1.7500000000000004,
+      "averageQuestionScore": 0.14,
+      "weightedScore": 0.1042,
+      "totalWeightedScore": 1.2500000000000002,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 4,
           "weightedScore": 0.4,
           "maxWeightedScore": 4,
-          "confidence": 0
+          "confidence": 95
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "Gas leaf blower operation is not permitted during the hours of 10:00 p.m. to 8:00 a.m. in a residentially zoned district, as it falls under the category of domestic power tools and equipment (§ 197-5 J).",
           "score": 0.65,
           "weight": 1,
           "weightedScore": 0.65,
@@ -113,67 +150,53 @@
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 3,
-          "weightedScore": 0.30000000000000004,
+          "weightedScore": 0,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 30
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 72
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 45
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 95
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 1.46,
-  "averageConfidence": 13,
-  "questionsAnswered": 1,
+  "overallScore": 1.04,
+  "averageConfidence": 62,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "gapAnalysis": "",
-  "wenGrade": null,
+  "lastUpdated": "2026-05-20T16:59:51.410Z",
+  "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 1.46,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.223Z",
-  "entityId": "NY-Cortlandt-Town",
-  "domainId": "glb",
-  "lastUpdated": "2026-05-15T14:56:19.790Z"
+  "sources": []
 }

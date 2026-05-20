@@ -1,5 +1,5 @@
 {
-  "id": "NY-Greenburgh-Town-glb-1779130124910",
+  "id": "NY-Greenburgh-Town-glb-1779296449801",
   "entityId": "NY-Greenburgh-Town",
   "domainId": "glb",
   "entity": {
@@ -8,24 +8,23 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
     {
       "id": 1,
       "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-      "answer": "Not specified in the provided sources.",
+      "answer": "Not specified in the provided sources. The sources do not contain specific dates or duration for a prohibition period on gas leaf blowers.",
       "confidence": 10,
       "sourceRefs": [
-        "§ 380-7G",
-        "§ 380-7H"
+        "https://ecode360.com/6818653#6818686"
       ],
-      "gap": "The provided sources do not specify any seasonal prohibition period for gas leaf blowers, including start and end dates. Best practice suggests a year-round prohibition with exceptions for peak leaf-falling seasons (e.g., March 15–May 15 and October 1–December 31). This statute appears to lack any such seasonal restriction framework.",
+      "gap": "The statute does not specify any seasonal prohibition period for gas leaf blowers with start and end dates. Best practice suggests a year-round prohibition with defined exceptions (e.g., March 15–May 15 and October 1–December 31 for permitted use), which is not reflected in the provided sources.",
       "score": 0,
       "nextPrompts": [
-        "Does the municipality have a separate ordinance or code section specifically addressing seasonal restrictions on gas leaf blower use?",
-        "Is there a referenced section (e.g., § 380-7H) that contains specific gas leaf blower prohibition dates and durations?"
+        "Does the municipality have a separate ordinance or local law specifically addressing gas leaf blower seasonal bans or restrictions?",
+        "Does § 380-7H, referenced in the statute, contain specific seasonal prohibition dates for gas-powered blowers?"
       ]
     },
     {
@@ -86,11 +85,11 @@
         "§ 380-7G",
         "§ 380-7H"
       ],
-      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, such as soil enrichment, habitat creation, or related ecological advantages. There is no mention of educational initiatives, community workshops, or guidelines encouraging these practices, which are considered best practices for municipal environmental protection.",
+      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, such as soil enrichment or habitat creation, nor does it include any educational requirements or community outreach regarding these practices. This represents a significant gap compared to best practices, which recommend municipalities explicitly promote and educate residents on these ecological advantages.",
       "score": 0,
       "nextPrompts": [
         "Does the municipality have any separate environmental or sustainability ordinances that address leaf debris management or mulching practices?",
-        "Are there any town-sponsored educational programs or informational campaigns related to lawn and leaf management practices?"
+        "Are there any town-sponsored educational programs or guidelines encouraging residents to mulch leaves rather than use gas leaf blowers?"
       ]
     },
     {
@@ -188,7 +187,7 @@
   "averageConfidence": 63,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:48:44.910Z",
+  "lastUpdated": "2026-05-20T17:00:49.801Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [

@@ -1,12 +1,14 @@
 {
-  "id": "NY-Buchanan-Village-weeds-1778856982765",
-  "municipality": {
+  "id": "NY-Buchanan-Village-weeds-1779299135489",
+  "entityId": "NY-Buchanan-Village",
+  "domainId": "weeds",
+  "entity": {
     "id": "NY-Buchanan-Village",
     "displayName": "Buchanan - Village"
   },
   "domain": {
     "id": "weeds",
-    "displayName": "Weeds"
+    "displayName": "Weed Management"
   },
   "grades": {},
   "questions": [
@@ -66,8 +68,8 @@
     }
   ],
   "scores": {
-    "overallScore": 4.92,
-    "normalizedScore": 4.92,
+    "overallScore": 4.58,
+    "normalizedScore": 4.58,
     "averageConfidence": 72,
     "questionsAnswered": 4,
     "totalQuestions": 5,
@@ -79,15 +81,13 @@
         1,
         0.6
       ],
-      "averageQuestionScore": 0.5700000000000001,
-      "weightedScore": 0.4917,
-      "totalWeightedScore": 2.95,
+      "averageQuestionScore": 0.57,
+      "weightedScore": 0.4583,
+      "totalWeightedScore": 2.75,
       "totalPossibleWeight": 6,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-          "answer": "Residents are required to maintain lands to prevent the growth of grass and plants, including weeds, from becoming untrimmed, overgrown, and unsightly when exposed to public view.",
           "score": 0.65,
           "weight": 1,
           "weightedScore": 0.65,
@@ -96,18 +96,14 @@
         },
         {
           "id": "2",
-          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
           "confidence": 20
         },
         {
           "id": "3",
-          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
-          "answer": "Yes, the property maintenance law applies to lands abutting any sidewalk, highway or public place.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -116,8 +112,6 @@
         },
         {
           "id": "4",
-          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
-          "answer": "Penalties for failing to comply include a civil or criminal penalty with an amount up to $500 and/or six months' imprisonment. Alternatively, there can be a civil penalty of not more than $200 for each day the violation continues. If the violation is not remedied, the Village may abate the condition and assess the costs against the property. If unpaid, these costs will become a lien on the property, collectible as real property taxes with 9% interest per annum.",
           "score": 1,
           "weight": 1,
           "weightedScore": 1,
@@ -126,8 +120,6 @@
         },
         {
           "id": "6",
-          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
-          "answer": "Violations must be corrected within five days of notice. The enforcement officer may extend this period if the violation cannot reasonably be corrected within five days.",
           "score": 0.6,
           "weight": 1,
           "weightedScore": 0.6,
@@ -137,14 +129,12 @@
       ]
     }
   },
-  "overallScore": 4.92,
+  "overallScore": 4.58,
   "averageConfidence": 72,
   "questionsAnswered": 4,
   "totalQuestions": 5,
-  "lastUpdated": "2026-05-15T14:56:22.765Z",
+  "lastUpdated": "2026-05-20T17:45:35.489Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 4.92,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.491Z",
-  "domainId": "weeds"
+  "sources": []
 }

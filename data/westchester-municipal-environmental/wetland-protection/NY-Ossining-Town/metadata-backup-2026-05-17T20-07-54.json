@@ -1,0 +1,23 @@
+{
+  "municipality": "Ossining",
+  "municipalityType": "Town",
+  "domain": "Wetland protection",
+  "domainId": "wetland-protection",
+  "originalCellValue": "G- https://ecode360.com/8408695",
+  "stateCodeApplies": false,
+  "metadataCreated": "2025-09-05T17:51:05.735Z",
+  "note": "Metadata created retroactively for existing statute file",
+  "statuteNumber": "Ch 105",
+  "sources": [
+    {
+      "downloadedAt": "2026-05-17T20:07:54.373Z",
+      "contentLength": 217149,
+      "sourceUrl": "https://ecode360.com/8408695",
+      "title": "Environmental quality review — See Ch",
+      "type": "statute"
+    }
+  ],
+  "entityId": "NY-Ossining-Town",
+  "homePage": "https://www.townofossining.com/",
+  "isArticleBased": false
+}

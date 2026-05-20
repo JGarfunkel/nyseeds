@@ -1,5 +1,5 @@
 {
-  "id": "NY-NewCastle-Town-boards-1778786268073",
+  "id": "NY-NewCastle-Town-boards-1779299089997",
   "entityId": "NY-NewCastle-Town",
   "domainId": "boards",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "boards",
-    "displayName": "Boards"
+    "displayName": "Governing Boards & Committees"
   },
   "grades": {},
   "questions": [
@@ -58,7 +58,7 @@
     },
     {
       "id": 7,
-      "question": "Does the website provide clear, timely guidance for common user questions about meetings, agendas, minutes, or contacting the board?",
+      "question": "Does the website list and share social media accounts, contact information?",
       "answer": "No relevant sources available",
       "confidence": 0,
       "sourceRefs": []
@@ -83,62 +83,62 @@
       "averageQuestionScore": 0,
       "weightedScore": 0,
       "totalWeightedScore": 0,
-      "totalPossibleWeight": 3.0999999999999996,
+      "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
           "score": 0,
-          "weight": 0.1,
+          "weight": 1,
           "weightedScore": 0,
-          "maxWeightedScore": 0.1,
+          "maxWeightedScore": 1,
           "confidence": 60
         },
         {
           "id": "2",
           "score": 0,
-          "weight": 0.3,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.3,
+          "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "3",
           "score": 0,
-          "weight": 0.5,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.5,
+          "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "4",
           "score": 0,
-          "weight": 0.3,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.3,
+          "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "5",
           "score": 0,
-          "weight": 0.3,
+          "weight": 3,
           "weightedScore": 0,
-          "maxWeightedScore": 0.3,
+          "maxWeightedScore": 3,
           "confidence": 0
         },
         {
           "id": "6",
           "score": 0,
-          "weight": 0.8,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.8,
+          "maxWeightedScore": 2,
           "confidence": 0
         },
         {
           "id": "7",
           "score": 0,
-          "weight": 0.8,
+          "weight": 2,
           "weightedScore": 0,
-          "maxWeightedScore": 0.8,
+          "maxWeightedScore": 2,
           "confidence": 0
         }
       ]
@@ -148,21 +148,21 @@
   "averageConfidence": 9,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T13:45:43.591Z",
+  "lastUpdated": "2026-05-20T17:44:49.997Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.mynewcastleny.gov/",
-      "title": "https://www.mynewcastleny.gov/"
+      "title": "New Castle, NY | Official Website"
     },
     {
       "url": "https://www.mynewcastleny.gov/269/Conservation-Board",
-      "title": "https://www.mynewcastleny.gov/269/Conservation-Board"
+      "title": "Conservation Board | New Castle, NY"
     },
     {
       "url": "https://www.mynewcastleny.gov/642/Community-Events",
-      "title": "https://www.mynewcastleny.gov/642/Community-Events"
+      "title": "Community Events | New Castle, NY"
     }
   ]
 }

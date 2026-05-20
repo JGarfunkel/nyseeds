@@ -1,5 +1,5 @@
 {
-  "id": "NY-NewCastle-Town-wetland-protection-1778620988657",
+  "id": "NY-NewCastle-Town-wetland-protection-1779241680450",
   "entityId": "NY-NewCastle-Town",
   "domainId": "wetland-protection",
   "entity": {
@@ -13,188 +13,228 @@
   "grades": {},
   "questions": [
     {
-      "id": 3,
-      "question": "What are the setback requirements from wetland boundaries?",
-      "answer": "The regulations may require structures and activities to be set back more than 150 feet from the boundary of a wetland, based on the approving authority's determination that additional setback is needed to accomplish the purposes of the regulations.",
-      "confidence": 85,
+      "id": 1,
+      "question": "Does the municipality have legislation to preserve and protect wetlands?",
+      "answer": "Yes, the Town of New Castle has legislation to preserve and protect wetlands. The Environmental Protection Overlay Regulations (Chapter 64) impose special controls over land development in environmentally sensitive areas, specifically designed to enhance the preservation and protection of wetlands as natural resources. Key provisions include: requiring a 150-foot wetland buffer, mandating a 2:1 mitigation replacement ratio for wetland impacts caused by development, restricting wetland crossings, and subjecting all wetlands regardless of size to regulation under Chapter 137 of the Town Code. Additionally, the Town's Conservation Board, established in 1975, advises on the preservation of wetland ecosystems and protecting habitat for plant and wildlife species.",
+      "confidence": 97,
       "sourceRefs": [
-        "§ 64-7A"
+        "https://ecode360.com/11759229",
+        "https://www.mynewcastleny.gov/269/Conservation-Board"
       ],
-      "score": 0.75,
-      "gap": "Consider adding a clear definition of \"wetland boundaries\" and specific criteria for determining when additional setbacks are necessary, including factors such as wetland type, size, and ecological significance."
+      "gap": "The answer lacks mention of a tiered permit review system, explicit enumeration of regulated activities (filling, dredging, vegetation removal, etc.), boundary delineation requirements by qualified professionals, and authorization for injunctive relief and full restoration for violations.",
+      "score": 0.62,
+      "nextPrompts": [
+        "Does Chapter 137 enumerate specific regulated activities within wetlands?",
+        "What enforcement mechanisms and penalties exist for wetland violations?"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What are the setback or buffer requirements from wetland boundaries?",
+      "answer": "The wetlands buffer is defined as the area extending 150 feet horizontally away from and paralleling the wetlands boundary. Development within a wetlands or wetlands buffer is to be avoided except where no reasonable alternative exists or where the applicant would otherwise suffer undue hardship if a permit is not issued. If such development is approved, impacts must be minimized to the greatest extent practicable, and a mitigation plan is required. (Source: https://ecode360.com/11759229)",
+      "confidence": 90,
+      "sourceRefs": [
+        "https://ecode360.com/11759229"
+      ],
+      "gap": "No gap — the statute establishes a 150-foot horizontal buffer from the wetland boundary, exceeding the 100-foot best practice minimum, and requires permits with mitigation plans for any approved exceptions, fully aligning with best practice standards.",
+      "score": 1,
+      "nextPrompts": [
+        "What specific activities are classified as 'controlled activities' within the wetlands buffer, and what approval process is required?",
+        "Are there any provisions for buffer width adjustments based on environmental assessments or site-specific conditions?"
+      ]
     },
     {
       "id": 4,
       "question": "What are the penalties for unauthorized wetland disturbance?",
-      "answer": "If someone disturbs wetlands without authorization, they can be fined up to $3,000 for each violation. Each day the violation continues is considered a separate offense. Additionally, violators may face fines of $500 to $1,000 for the first offense and $1,000 to $2,000 for any subsequent offenses, along with possible imprisonment of up to 15 days. Courts may also order restoration of affected areas.",
-      "confidence": 85,
+      "answer": "Any person who undertakes a regulated activity in violation of the chapter shall be liable for a civil penalty not to exceed $3,000 for each violation. Each consecutive day of the violation is considered a separate offense. Before assessment, the alleged violator is afforded a hearing before the Town Board with due notice, right to specification of charges, and right to representation by counsel. The civil penalty may be recovered in an action brought by the Town in any court of competent jurisdiction, and may be released, compromised, or settled by the Town.",
+      "confidence": 90,
       "sourceRefs": [
-        "§ 64-9"
+        "https://ecode360.com/11759229"
       ],
-      "score": 1
+      "gap": "The statute only provides civil penalties up to $3,000 per violation. No criminal penalties (fines or imprisonment), no mandated wetland restoration requirements, and no bond/surety provisions are specified, falling short of best practice standards for $5,000 civil penalties, criminal fines up to $15,000, imprisonment for repeat offenders, and mandatory restoration under planning board supervision.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Does the statute include any criminal penalty provisions or restoration/remediation requirements for wetland violations?",
+        "Are there any bonding or financial assurance requirements imposed on violators to ensure wetland restoration?"
+      ]
     },
     {
       "id": 5,
       "question": "How do I apply for a wetland permit or variance?",
-      "answer": "To apply for a wetland permit or variance, you need to submit an application for a land use or environmental permit for any property that is wholly or partially within an Environmental Protection Overlay District. This application must be processed according to the existing procedures in the Town Code governing such permits. The application must include a wetland functional analysis prepared by a qualified professional using a specific wetland assessment model.",
-      "confidence": 85,
+      "answer": "Applications for wetland permits must be accompanied by a wetland functional analysis prepared by a professional wetlands scientist or other qualified wetlands professional. The required assessment model is 'A Rapid Procedure for Assessing Wetland Functional Capacity' by D. Magee and G. Hollands, 1998.",
+      "confidence": 52,
       "sourceRefs": [
-        "§ 64-6A",
-        "§ 64-7A"
+        "https://ecode360.com/11759229"
       ],
-      "score": 0.75,
-      "gap": "Consider adding a detailed timeline for the application review process, including specific timeframes for each stage of the review, to enhance transparency and set clear expectations for applicants."
+      "gap": "The statute only specifies the functional analysis requirement. It does not address submission of multiple application copies, owner/applicant contact information, certified property surveys, description of proposed work, public hearing requirements, adjacent property owner notification, SEQRA compliance, environmental assessment forms, erosion and sediment control plans, fees, or escrow deposits.",
+      "score": 0.1,
+      "nextPrompts": [
+        "What are the full application submission requirements, including forms, fees, and supporting documents for a wetland permit?",
+        "Are there public hearing or neighbor notification requirements outlined elsewhere in the wetland permit process?"
+      ]
     },
     {
       "id": 6,
       "question": "Are there mitigation requirements for permitted wetland impacts?",
-      "answer": "Yes, there are mitigation requirements for permitted wetland impacts. A mitigation plan is required, which involves creating replacement wetlands or restoring, recreating, or enhancing existing wetlands or wetland buffers equal to twice the area impacted. This means a 2:1 mitigation replacement ratio is generally required, although the approving authority may modify this ratio based on specific circumstances.",
-      "confidence": 85,
+      "answer": "The provided source discusses wetland functional analyses and cumulative impact assessments for development projects involving wetland impacts, including adoption of a specific wetlands assessment model for consistency in review. However, specific mitigation requirements for permitted wetland impacts — such as replacement ratios, on-site mitigation preferences, monitoring schedules, or performance bonds — are not specified in the provided sources.",
+      "confidence": 25,
       "sourceRefs": [
-        "§ 64-7A"
+        "https://ecode360.com/11759229"
       ],
-      "score": 0.3,
-      "gap": "Consider adding specific timelines for the review and approval of mitigation plans to ensure timely processing and clarity for applicants."
+      "gap": "The statute lacks explicit mitigation requirements compared to best practices. Missing elements include: no net loss policy, replacement wetland sizing (e.g., 1.5x ratio), on-site mitigation preference, detailed construction/maintenance guidelines, monitoring schedules, and performance bond requirements.",
+      "score": 0.1,
+      "nextPrompts": [
+        "Does the statute include a mitigation sequencing requirement (avoid, minimize, mitigate) for wetland impacts?",
+        "Are there replacement ratio or compensatory mitigation standards specified elsewhere in the wetland protection ordinance?"
+      ]
     },
     {
       "id": 7,
       "question": "What types of development are completely prohibited in wetlands?",
-      "answer": "Development in a wetlands or wetlands buffer is to be avoided unless there is no reasonable alternative or the applicant would suffer undue hardship if a permit is not issued. Essentially, development is prohibited unless specific conditions are met, and any approved development must minimize its impacts to the wetlands.",
-      "confidence": 85,
+      "answer": "The provided sources define wetlands but do not explicitly enumerate types of development that are completely prohibited within them. The statute excerpt focuses on the definition of wetlands — referencing hydric soils, inundation or saturation by surface or ground water, hydrophytic vegetation, and watercourses — rather than listing prohibited activities or development types within those areas.",
+      "confidence": 15,
       "sourceRefs": [
-        "§ 64-7A"
+        "https://ecode360.com/11759229"
       ],
-      "score": 0.85,
-      "gap": "Consider adding clear definitions of \"reasonable alternative\" and \"undue hardship\" to provide applicants with specific criteria for evaluating their situations, ensuring consistency and transparency in the permitting process."
+      "gap": "The statute excerpt provided only defines wetlands but does not specify prohibited development types. Best practices call for explicit prohibition of activities such as draining, dredging, filling, erecting structures, altering natural features, introducing pollution, constructing roads, installing septic systems, and clear-cutting trees. This municipality's statute, as excerpted, does not address any of these prohibitions.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Search for sections of this municipal code that list prohibited activities or uses within designated wetland areas.",
+        "Look for permit requirements or conditional use provisions that reference wetland development restrictions in this municipality's zoning or environmental ordinances."
+      ]
     },
     {
       "id": 9,
       "question": "Are there tax incentives for wetland preservation?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0.1,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a provision that establishes tax incentives for landowners who engage in wetland preservation activities, including property tax reductions or credits for maintaining and restoring wetland areas."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://ecode360.com/11759229"
+      ],
+      "gap": "The statute does not address tax incentives for wetland preservation, whereas the best practice indicates such incentives should be present.",
+      "score": 0,
+      "nextPrompts": [
+        "Search for tax incentive or financial benefit provisions specifically related to wetland conservation or preservation in the municipal code.",
+        "Look for any open space, conservation easement, or property tax reduction programs tied to wetland protection in the jurisdiction's tax or zoning statutes."
+      ]
     },
     {
       "id": 10,
       "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0.1,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a section that outlines specific monitoring and maintenance requirements for permitted wetland projects, including timelines for reporting, criteria for assessing project success, and procedures for addressing non-compliance."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": [
+        "§ 137-6"
+      ],
+      "gap": "",
+      "score": 0,
+      "nextPrompts": []
     }
   ],
   "scores": {
-    "overallScore": 5.5,
-    "normalizedScore": 5.5,
-    "averageConfidence": 61,
-    "questionsAnswered": 5,
-    "totalQuestions": 7,
+    "overallScore": 1.61,
+    "normalizedScore": 1.61,
+    "averageConfidence": 47,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
     "scoreBreakdown": {
       "questionScores": [
-        0.75,
+        0,
         1,
-        0.75,
         0.3,
-        0.85,
         0.1,
-        0.1
+        0.1,
+        0.05,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.55,
-      "weightedScore": 0.55,
-      "totalWeightedScore": 3.85,
-      "totalPossibleWeight": 7,
+      "averageQuestionScore": 0.19,
+      "weightedScore": 0.1611,
+      "totalWeightedScore": 1.4500000000000002,
+      "totalPossibleWeight": 9,
       "questionsWithScores": [
         {
-          "id": "3",
-          "question": "What are the setback requirements from wetland boundaries?",
-          "answer": "The regulations may require structures and activities to be set back more than 150 feet from the boundary of a wetland, based on the approving authority's determination that additional setback is needed to accomplish the purposes of the regulations.",
-          "score": 0.75,
-          "weight": 1,
-          "weightedScore": 0.75,
-          "maxWeightedScore": 1,
-          "confidence": 85
+          "id": "1",
+          "score": 0,
+          "weight": 3,
+          "weightedScore": 0,
+          "maxWeightedScore": 3,
+          "confidence": 97
         },
         {
-          "id": "4",
-          "question": "What are the penalties for unauthorized wetland disturbance?",
-          "answer": "If someone disturbs wetlands without authorization, they can be fined up to $3,000 for each violation. Each day the violation continues is considered a separate offense. Additionally, violators may face fines of $500 to $1,000 for the first offense and $1,000 to $2,000 for any subsequent offenses, along with possible imprisonment of up to 15 days. Courts may also order restoration of affected areas.",
+          "id": "3",
           "score": 1,
           "weight": 1,
           "weightedScore": 1,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 90
         },
         {
-          "id": "5",
-          "question": "How do I apply for a wetland permit or variance?",
-          "answer": "To apply for a wetland permit or variance, you need to submit an application for a land use or environmental permit for any property that is wholly or partially within an Environmental Protection Overlay District. This application must be processed according to the existing procedures in the Town Code governing such permits. The application must include a wetland functional analysis prepared by a qualified professional using a specific wetland assessment model.",
-          "score": 0.75,
-          "weight": 1,
-          "weightedScore": 0.75,
-          "maxWeightedScore": 1,
-          "confidence": 85
-        },
-        {
-          "id": "6",
-          "question": "Are there mitigation requirements for permitted wetland impacts?",
-          "answer": "Yes, there are mitigation requirements for permitted wetland impacts. A mitigation plan is required, which involves creating replacement wetlands or restoring, recreating, or enhancing existing wetlands or wetland buffers equal to twice the area impacted. This means a 2:1 mitigation replacement ratio is generally required, although the approving authority may modify this ratio based on specific circumstances.",
+          "id": "4",
           "score": 0.3,
           "weight": 1,
           "weightedScore": 0.3,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 90
+        },
+        {
+          "id": "5",
+          "score": 0.1,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 52
+        },
+        {
+          "id": "6",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 25
         },
         {
           "id": "7",
-          "question": "What types of development are completely prohibited in wetlands?",
-          "answer": "Development in a wetlands or wetlands buffer is to be avoided unless there is no reasonable alternative or the applicant would suffer undue hardship if a permit is not issued. Essentially, development is prohibited unless specific conditions are met, and any approved development must minimize its impacts to the wetlands.",
-          "score": 0.85,
+          "score": 0.05,
           "weight": 1,
-          "weightedScore": 0.85,
+          "weightedScore": 0.05,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 15
         },
         {
           "id": "9",
-          "question": "Are there tax incentives for wetland preservation?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0.1
+          "confidence": 10
         },
         {
           "id": "10",
-          "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0.1
+          "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 5.5,
-  "averageConfidence": 61,
-  "questionsAnswered": 5,
-  "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T13:48:14.828Z",
+  "overallScore": 1.61,
+  "averageConfidence": 47,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2026-05-20T10:19:24.734Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.mynewcastleny.gov/",
-      "title": "https://www.mynewcastleny.gov/"
+      "title": "New Castle, NY | Official Website"
     },
     {
       "url": "https://www.mynewcastleny.gov/269/Conservation-Board",
-      "title": "https://www.mynewcastleny.gov/269/Conservation-Board"
+      "title": "Conservation Board | New Castle, NY"
     }
   ]
 }

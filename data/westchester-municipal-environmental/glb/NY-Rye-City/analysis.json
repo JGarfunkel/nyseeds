@@ -1,16 +1,16 @@
 {
-  "id": "NY-Rye-City-glb-1778856980453",
-  "municipality": {
+  "id": "NY-Rye-City-glb-1779296933921",
+  "entityId": "NY-Rye-City",
+  "domainId": "glb",
+  "entity": {
     "id": "NY-Rye-City",
     "displayName": "Rye - City"
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
-  "grades": {
-    "WEN": "G-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
@@ -70,27 +70,37 @@
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 10,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to implement a public education program that promotes the environmental benefits of leaving leaf debris and mulching, including guidelines for residents on how to effectively incorporate these practices into their yard maintenance routines."
+      "answer": "Not specified in the provided sources.",
+      "confidence": 95,
+      "sourceRefs": [
+        "§ 122-4",
+        "§ 122-1",
+        "§ 122-5"
+      ],
+      "gap": "The ordinance does not mention the environmental benefits of leaving leaf debris or leaf mulching, such as soil enrichment or habitat creation, nor does it include any educational requirements or community outreach promoting these practices. Best practice recommends municipalities explicitly address these ecological advantages and support public awareness campaigns.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the City of Rye have any separate environmental or sustainability programs that promote leaf mulching or leaving leaf debris?",
+        "Are there any city-issued guidelines or educational materials accompanying this ordinance that address leaf debris management best practices?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
+      "answer": "Not specified in the provided sources.",
       "confidence": 10,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a requirement for the municipality to prepare and publicly present an annual report that includes comprehensive data collection on relevant activities, transparency measures, and tracking mechanisms to ensure accountability and public awareness."
+      "sourceRefs": [
+        "§ 122-1",
+        "§ 122-7",
+        "§ 122-5"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 5.79,
-    "normalizedScore": 5.79,
-    "averageConfidence": 64,
-    "questionsAnswered": 5,
+    "overallScore": 5.62,
+    "normalizedScore": 5.62,
+    "averageConfidence": 76,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
@@ -99,18 +109,16 @@
         0.7,
         0.55,
         0.6,
-        0.1,
-        0.1
+        0,
+        0
       ],
-      "averageQuestionScore": 0.4714285714285715,
-      "weightedScore": 0.5792,
-      "totalWeightedScore": 6.949999999999998,
+      "averageQuestionScore": 0.44,
+      "weightedScore": 0.5625,
+      "totalWeightedScore": 6.749999999999999,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "Gas leaf blowers are prohibited for 167 days each year from May 1 to September 30 and again from December 16 to the end of February. They are only allowed during the Fall and Spring cleanup seasons, from October 1 to December 15 and from March 1 to April 30.",
           "score": 0.75,
           "weight": 4,
           "weightedScore": 3,
@@ -119,8 +127,6 @@
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "Gas leaf blowers can be operated between 8:00 a.m. and 6:00 p.m. on weekdays and between 10:00 a.m. and 4:00 p.m. on weekends.",
           "score": 0.5,
           "weight": 1,
           "weightedScore": 0.5,
@@ -129,18 +135,14 @@
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "Violating gas leaf blower regulations results in a fine not to exceed $250 for the first offense, $350 for the second violation, and $1,500 for a third violation.",
           "score": 0.7,
           "weight": 3,
-          "weightedScore": 2.0999999999999996,
+          "weightedScore": 2.1,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Yes, the restrictions do not apply to municipal, schools, religious institutions, membership clubs, golf courses, hospital and retirement communities, cemeteries, and driveway/road paving and sealing activities.",
           "score": 0.55,
           "weight": 1,
           "weightedScore": 0.55,
@@ -149,8 +151,6 @@
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Violations are enforced by the City of Rye Police Department, the Rye Building Department, or any other City employee designated by the City Manager.",
           "score": 0.6,
           "weight": 1,
           "weightedScore": 0.6,
@@ -159,35 +159,29 @@
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 10
+          "confidence": 95
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 5.79,
-  "averageConfidence": 64,
-  "questionsAnswered": 5,
+  "overallScore": 5.62,
+  "averageConfidence": 76,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-15T14:56:20.453Z",
+  "lastUpdated": "2026-05-20T17:08:53.921Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 5.79,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.267Z",
-  "domainId": "glb"
+  "sources": []
 }

@@ -4,9 +4,16 @@
 
   "questions": [
     {
+      "id": 1,
+      "category": "overall",
+      "question": "Does the municipality have legislation to preserve and protect wetlands?",
+      "order": 1,
+      "weight": 3
+    },
+    {
       "id": 3,
       "category": "setback requirements",
-      "question": "What are the setback requirements from wetland boundaries?",
+      "question": "What are the setback or buffer requirements from wetland boundaries?",
       "order": 3
     },
     {
@@ -19,7 +26,8 @@
       "id": 5,
       "category": "permit process",
       "question": "How do I apply for a wetland permit or variance?",
-      "order": 5
+      "order": 5,
+      "weight": 0
     },
     {
       "id": 6,

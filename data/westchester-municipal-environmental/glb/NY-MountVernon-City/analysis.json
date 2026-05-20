@@ -1,8 +1,16 @@
 {
-  "id": "NY-MountVernon-City-glb-1778856980066",
-  "municipality": "NY-MountVernon-City",
-  "domain": "glb",
-  "analyzedAt": "2025-09-09T20:03:38.950Z",
+  "id": "NY-MountVernon-City-glb-1779296630926",
+  "entityId": "NY-MountVernon-City",
+  "domainId": "glb",
+  "entity": {
+    "id": "NY-MountVernon-City",
+    "displayName": "Mount Vernon - City"
+  },
+  "domain": {
+    "id": "glb",
+    "displayName": "Gas Leaf Blowers"
+  },
+  "grades": {},
   "questions": [
     {
       "id": 1,
@@ -40,45 +48,69 @@
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
+      "answer": "The only exception specified in the provided sources is found in §191-42(J): the provisions do not apply in the event a state of emergency is declared by the City of Mount Vernon, County of Westchester, or State of New York. Additionally, §191-42(C) provides a limited Sunday exception allowing residents to use leaf blowers on their own property between 9:00 a.m. and 5:00 p.m. No exceptions are specified for school district properties, government/municipal properties, or commercial properties.",
+      "confidence": 92,
+      "sourceRefs": [
+        "https://ecode360.com/39039302"
+      ],
+      "gap": "The statute lacks exceptions for school district properties, municipal/government properties, utility company emergency repairs, operations beyond 100 feet from residences, permit-based exemptions, or municipally sponsored events — all of which are considered best practices.",
       "score": 0.1,
-      "analyzedAt": "2025-09-09T20:03:37.579Z"
+      "nextPrompts": [
+        "Does Mount Vernon have any separate ordinances or administrative rules granting the Department of Public Works or other municipal agencies exemptions from the gas leaf blower restrictions?",
+        "Has Mount Vernon considered or proposed amendments to add property-type exceptions (schools, government facilities) to §191-42?"
+      ]
     },
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:03:38.120Z"
+      "answer": "Enforcement authority is vested in the Department of Public Works and the Police Department, both of which have authority to enforce the provisions (§191-42K). Both the operator of the leaf blower and the homeowner are subject to fines for violations (§191-42A, B). Landscapers must register for a permit with the City Clerk, and the Clerk's office is responsible for implementing operational procedures for collecting revenues generated from the permit (§191-42E, I). Public forums, meetings, and educational materials will be generated to inform the public about the regulations (§191-42H).",
+      "confidence": 82,
+      "sourceRefs": [
+        "§191-42A",
+        "§191-42B",
+        "§191-42E",
+        "§191-42G",
+        "§191-42H",
+        "§191-42I",
+        "§191-42K"
+      ],
+      "gap": "The statute does not reference Code Enforcement Officers as enforcers, nor does it specify a formal written notification process to property owners for repeated violations. Enforcement is limited to the Department of Public Works and Police Department, with no mention of a complaint or reporting mechanism for residents to submit violations.",
+      "score": 0.65,
+      "nextPrompts": [
+        "Is there a formal complaint or reporting process for residents to report gas leaf blower violations to the City of Mount Vernon?",
+        "Are Code Enforcement Officers in Mount Vernon authorized to enforce Chapter 191 violations under any other municipal code provisions?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:03:38.464Z"
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 191-42"
+      ],
+      "gap": "The ordinance does not mention the environmental benefits of leaving leaf debris or leaf mulching, such as soil enrichment or habitat creation. Best practice recommends that municipalities explicitly educate residents on these ecological advantages and implement guidelines encouraging or mandating such practices, supported by community workshops or informational campaigns.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the City of Mount Vernon have any separate environmental or sustainability programs that address leaf mulching or composting?",
+        "Do the educational forums and materials referenced in §191-42(H) include content about the benefits of leaf debris and mulching?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the statute.",
-      "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.1,
-      "analyzedAt": "2025-09-09T20:03:38.950Z"
+      "answer": "The ordinance does not require a formal report to be presented to the public. However, Section H states that 'Forums, meetings and educational materials will be generated to inform the public about this change.' This indicates a public outreach and education component, but it is framed as an informational effort rather than a formal reporting requirement.",
+      "confidence": 82,
+      "sourceRefs": [
+        "§ 191-42(H)"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 4.58,
-    "normalizedScore": 4.58,
-    "averageConfidence": 39,
-    "questionsAnswered": 3,
+    "overallScore": 4.88,
+    "normalizedScore": 4.88,
+    "averageConfidence": 77,
+    "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
@@ -86,19 +118,17 @@
         0.6,
         0.9,
         0.1,
-        0.1,
-        0.1,
-        0.1
+        0.65,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.3357142857142858,
-      "weightedScore": 0.4583,
-      "totalWeightedScore": 5.499999999999998,
+      "averageQuestionScore": 0.39,
+      "weightedScore": 0.4875,
+      "totalWeightedScore": 5.85,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-          "answer": "The prohibition of gas-powered leaf blowers lasts for 5 months of the year. It starts on May 1 and ends on September 30. (See § 191-42 A)",
           "score": 0.45,
           "weight": 4,
           "weightedScore": 1.8,
@@ -107,8 +137,6 @@
         },
         {
           "id": "2",
-          "question": "What are the permitted hours for gas leaf blower operation?",
-          "answer": "The permitted hours for gas leaf blower operation are Monday through Saturday from 9:00 a.m. to 5:00 p.m. (§ 191-42 B).",
           "score": 0.6,
           "weight": 1,
           "weightedScore": 0.6,
@@ -117,8 +145,6 @@
         },
         {
           "id": "3",
-          "question": "What are the penalties for violating gas leaf blower regulations?",
-          "answer": "The penalties for violating gas leaf blower regulations are as follows:\n\n1. For operating a gas-powered leaf blower outside the permitted months (March 1 through April 30 and October 1 through December 31) or outside the permitted hours (Monday through Saturday from 9:00 a.m. to 5:00 p.m.):\n   - First offense: Written warning\n   - Second offense: Fine not to exceed $250\n   - Third offense: Fine not to exceed $500\n   - Fourth and subsequent offenses: Fine not to exceed $1,000\n   - Both the operator of the leaf blower and the homeowner are subject to the fine (§ 191-42 A, B).\n\n2. For a landscaper operating a gas-powered leaf blower without a permit:\n   - First offense: Fine not to exceed $500\n   - Second offense: Fine not to exceed $750\n   - Every offense thereafter: Fine not to exceed $1,000 (§ 191-42 G).",
           "score": 0.9,
           "weight": 3,
           "weightedScore": 2.7,
@@ -127,57 +153,45 @@
         },
         {
           "id": "4",
-          "question": "Are there any exceptions for school/government/commercial properties?",
-          "answer": "Not specified in the statute.",
           "score": 0.1,
           "weight": 1,
           "weightedScore": 0.1,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 92
         },
         {
           "id": "5",
-          "question": "How are violations reported and enforced?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0.65,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.65,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 82
         },
         {
           "id": "6",
-          "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "7",
-          "question": "Does the ordinance require a report to be presented to the public?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 82
         }
       ]
     }
   },
-  "overallScore": 4.58,
-  "averageConfidence": 39,
-  "questionsAnswered": 3,
+  "overallScore": 4.88,
+  "averageConfidence": 77,
+  "questionsAnswered": 7,
   "totalQuestions": 7,
-  "gapAnalysis": "",
-  "wenGrade": "G-",
+  "lastUpdated": "2026-05-20T17:03:50.926Z",
+  "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 4.58,
-  "scoresUpdatedAt": "2025-10-10T17:18:22.252Z",
-  "entityId": "NY-MountVernon-City",
-  "domainId": "glb",
-  "lastUpdated": "2026-05-15T14:56:20.066Z"
+  "sources": []
 }

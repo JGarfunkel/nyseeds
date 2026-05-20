@@ -1,5 +1,5 @@
 {
-  "id": "NY-Yonkers-City-glb-1779130525947",
+  "id": "NY-Yonkers-City-glb-1779297116498",
   "entityId": "NY-Yonkers-City",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -29,26 +29,26 @@
       "sourceRefs": [
         "https://ecode360.com/15089761#15089762"
       ],
-      "gap": "The provided sources contain no information about permitted hours for gas leaf blower operation. Best practices recommend allowable hours of 8:00 a.m.–8:00 p.m. weekdays, 9:00 a.m.–8:00 p.m. Saturdays, and 9:00 a.m.–5:00 p.m. Sundays/holidays, with a seasonal prohibition from June 1–August 31. The statute does not address any of these hour restrictions.",
+      "gap": "The provided sources contain no information about permitted hours for gas leaf blower operation. Best practice recommends specifying allowable hours such as 8:00 a.m.–8:00 p.m. on weekdays, 9:00 a.m.–8:00 p.m. on Saturdays, and 9:00 a.m.–5:00 p.m. on Sundays and holidays during the permitted season (October 1–May 31).",
       "score": 0,
       "nextPrompts": [
-        "Are there any noise ordinance provisions in Yonkers municipal code that establish time restrictions for gas-powered equipment including leaf blowers?",
-        "Does Yonkers have a separate ordinance specifically regulating gas leaf blower hours of operation outside of the disposal permit statute?"
+        "Does the City of Yonkers have a separate noise ordinance or code section that specifies permitted hours for gas leaf blower or power equipment operation?",
+        "Are there any time-of-day restrictions for landscaping equipment use in Yonkers municipal code outside of the leaf disposal permit provisions?"
       ]
     },
     {
       "id": 3,
       "question": "What are the penalties for violating gas leaf blower regulations?",
-      "answer": "Violations are described as unlawful and punishable as provided in Article V of the chapter. The specific penalty amounts or structures for violations are not detailed in the provided excerpts beyond this reference to Article V.",
-      "confidence": 40,
+      "answer": "Violations are described as unlawful and punishable as provided in Article V of the chapter. The specific penalty amounts or structures for gas leaf blower violations are not detailed in the provided excerpts. The statute references Article V for enforcement but does not enumerate fines or escalating penalty schedules within the provided text.",
+      "confidence": 30,
       "sourceRefs": [
         "Anchor #15089762"
       ],
-      "gap": "The statute references Article V for penalties but does not specify escalating fines, written warnings, per-day penalties, or accountability for both operators and property owners as outlined in best practices.",
+      "gap": "The statute does not specify escalating fines (e.g., written warning, $250, $500, $1,000), does not address per-day penalties for continued non-compliance, and does not explicitly hold both operators and property owners accountable for violations.",
       "score": 0.05,
       "nextPrompts": [
-        "What are the specific penalty provisions outlined in Article V of the Yonkers municipal code related to gas leaf blower violations?",
-        "Does the Yonkers municipal code hold property owners jointly liable with operators for gas leaf blower violations?"
+        "What specific penalties and fines are outlined in Article V of the Yonkers municipal code for violations of public works or environmental regulations?",
+        "Does the Yonkers municipal code specify joint liability for property owners and operators regarding gas leaf blower violations?"
       ]
     },
     {
@@ -59,26 +59,26 @@
       "sourceRefs": [
         "anchor #15089762"
       ],
-      "gap": "The statute does not address exceptions for school, government, or commercial properties regarding gas-powered leaf blower use. Best practices recommend allowing exceptions for school district properties, municipal properties, utility companies during emergency repairs, and municipally sponsored events, with conditions such as operations beyond 100 feet from residences and permit requirements. None of these provisions appear in the provided sources.",
+      "gap": "The statute does not address exceptions for school, government, or commercial properties regarding gas-powered leaf blower use. Best practices recommend allowing exceptions for school district properties, municipal properties, utility companies during emergency repairs, and municipally sponsored events, with conditions such as operating beyond 100 feet from residences and limiting use to public safety or maintenance needs.",
       "score": 0,
       "nextPrompts": [
-        "Does the City of Yonkers have any separate ordinance or code section that provides exceptions to the gas-powered leaf blower prohibition for municipal or school district operations?",
-        "Are there any permit-based exemptions in Yonkers municipal code that allow gas-powered leaf blower use on government or commercial properties during the June 1–September 30 restriction period?"
+        "Does the City of Yonkers have any separate ordinance or code section that provides exceptions to the gas-powered leaf blower prohibition for government or school properties?",
+        "Are there any permit-based exemptions in Yonkers municipal code that would allow gas-powered leaf blower use during the June 1–September 30 prohibition period for commercial or institutional operators?"
       ]
     },
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Violations are described as unlawful and punishable as provided in Article V of the chapter. Specifically, it is unlawful for any professional gardener or landscaper to dispose of leaves, clippings, or grass cuttings at any public place other than the designated site, to use the site without the required vehicle permit, or to dispose of logs, limbs, branches, or stumps at any public place in the City of Yonkers. The statute references Article V of the chapter for the specific penalties and enforcement provisions, but the details of Article V are not included in the provided sources.",
-      "confidence": 45,
+      "answer": "Violations are described as unlawful and punishable as provided in Article V of the chapter. Specifically, it is unlawful for any professional gardener or landscaper to dispose of leaves, clippings, or grass cuttings at any public place other than the designated site, to use the site without the required vehicle permit, or to dispose of logs, limbs, branches, or stumps at any public place in the City of Yonkers. The statute references Article V of the chapter for the specific punishment provisions, but the details of those penalties are not included in the provided sources.",
+      "confidence": 55,
       "sourceRefs": [
         "Anchor #15089762"
       ],
-      "gap": "The statute references Article V for enforcement and penalties but does not detail the enforcement mechanism, designated enforcement authorities, notification procedures, or how liability is assigned between property owners and contractors. No information is provided about which department or officers enforce violations, written notification requirements, or whether both property owners and contractors are held accountable — all of which are best practice elements.",
-      "score": 0.1,
+      "gap": "The statute references Article V for penalties but does not detail enforcement mechanisms, designated enforcement authorities, written notification requirements, or liability for property owners versus contractors. No information is provided about which department or officers enforce violations, nor whether both property owners and contractors are held accountable.",
+      "score": 0.15,
       "nextPrompts": [
-        "What are the specific penalties and enforcement procedures outlined in Article V of the Yonkers municipal code related to gas leaf blower violations?",
-        "Which city departments or officers (e.g., Police, Code Enforcement) are designated to enforce gas leaf blower and landscaping disposal violations in Yonkers?"
+        "What are the specific penalties outlined in Article V of the Yonkers municipal code for violations related to leaf blower and landscaping waste disposal regulations?",
+        "Which city departments or officers (e.g., Police, Code Enforcement, Public Works) are designated to enforce gas leaf blower and landscaping waste disposal violations in Yonkers?"
       ]
     },
     {
@@ -89,7 +89,7 @@
       "sourceRefs": [
         "Anchor #15089762"
       ],
-      "gap": "The ordinance does not address the environmental benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, community workshops, or informational campaigns promoting these ecological practices such as soil enrichment or habitat creation — all of which are recommended under best practices.",
+      "gap": "The ordinance does not mention any benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, ecological guidance, or community outreach regarding these practices. This is a significant gap compared to best practices, which recommend municipalities actively promote soil enrichment, habitat creation, and public awareness campaigns around leaf debris and mulching.",
       "score": 0,
       "nextPrompts": [
         "Does the City of Yonkers have any separate environmental education programs or guidelines related to leaf mulching or composting?",
@@ -105,8 +105,8 @@
     }
   ],
   "scores": {
-    "overallScore": 1.88,
-    "normalizedScore": 1.88,
+    "overallScore": 1.92,
+    "normalizedScore": 1.92,
     "averageConfidence": 42,
     "questionsAnswered": 7,
     "totalQuestions": 7,
@@ -116,13 +116,13 @@
         0,
         0.05,
         0,
-        0.1,
+        0.15,
         0,
         0
       ],
-      "averageQuestionScore": 0.09,
-      "weightedScore": 0.1875,
-      "totalWeightedScore": 2.25,
+      "averageQuestionScore": 0.1,
+      "weightedScore": 0.1917,
+      "totalWeightedScore": 2.3,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
@@ -147,7 +147,7 @@
           "weight": 3,
           "weightedScore": 0.15,
           "maxWeightedScore": 3,
-          "confidence": 40
+          "confidence": 30
         },
         {
           "id": "4",
@@ -159,11 +159,11 @@
         },
         {
           "id": "5",
-          "score": 0.1,
+          "score": 0.15,
           "weight": 1,
-          "weightedScore": 0.1,
+          "weightedScore": 0.15,
           "maxWeightedScore": 1,
-          "confidence": 45
+          "confidence": 55
         },
         {
           "id": "6",
@@ -184,11 +184,11 @@
       ]
     }
   },
-  "overallScore": 1.88,
+  "overallScore": 1.92,
   "averageConfidence": 42,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:55:25.947Z",
+  "lastUpdated": "2026-05-20T17:11:56.498Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

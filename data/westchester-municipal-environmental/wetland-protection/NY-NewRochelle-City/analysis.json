@@ -1,5 +1,5 @@
 {
-  "id": "NY-NewRochelle-City-wetland-protection-1778621024882",
+  "id": "NY-NewRochelle-City-wetland-protection-1779241687392",
   "entityId": "NY-NewRochelle-City",
   "domainId": "wetland-protection",
   "entity": {
@@ -13,168 +13,157 @@
   "grades": {},
   "questions": [
     {
-      "id": 3,
-      "question": "What are the setback requirements from wetland boundaries?",
-      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "id": 1,
+      "question": "Does the municipality have legislation to preserve and protect wetlands?",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.5,
-      "gap": "{\n  \"recommendation\": \"Consider adding a statute that establishes a minimum setback requirement of 100 feet from wetland boundaries to protect ecological integrity and prevent potential environmental impacts from development activities.\"\n}"
+      "sourceRefs": []
+    },
+    {
+      "id": 3,
+      "question": "What are the setback or buffer requirements from wetland boundaries?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 4,
       "question": "What are the penalties for unauthorized wetland disturbance?",
-      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.5,
-      "gap": "{\n    \"recommendation\": \"Consider adding a statute that imposes fines starting at $500 for first-time unauthorized wetland disturbances, with increased penalties for repeat offenses, and establish clear enforcement mechanisms and violation categories to ensure compliance and protection of wetland areas.\"\n}"
+      "sourceRefs": []
     },
     {
       "id": 5,
       "question": "How do I apply for a wetland permit or variance?",
-      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.5,
-      "gap": "{\n    \"recommendation\": \"Consider adding a detailed section outlining the application procedures for wetland permits, including submission requirements, review criteria, timelines for decision-making, and an appeal process for denied applications.\"\n}"
+      "sourceRefs": []
     },
     {
       "id": 6,
       "question": "Are there mitigation requirements for permitted wetland impacts?",
-      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.5,
-      "gap": "{\n  \"recommendation\": \"Consider adding a requirement for a detailed mitigation plan as part of the application procedures for permits involving wetland impacts, including specific criteria for review, timelines for decision-making, and clear standards for approval to ensure environmental protection and compliance with broader conservation goals.\"\n}"
+      "sourceRefs": []
     },
     {
       "id": 7,
       "question": "What types of development are completely prohibited in wetlands?",
-      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.5,
-      "gap": "{\n  \"recommendation\": \"Consider adding a statute that explicitly prohibits any form of development in wetlands, including residential, commercial, and industrial projects, to ensure the protection and preservation of these sensitive ecological areas.\"\n}"
+      "sourceRefs": []
     },
     {
       "id": 9,
       "question": "Are there tax incentives for wetland preservation?",
-      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.5,
-      "gap": "{\n  \"recommendation\": \"Consider adding a statute that provides tax incentives for landowners who engage in wetland preservation activities, including property tax reductions or credits for maintaining or restoring wetland areas in accordance with environmental standards set by the municipality.\"\n}"
+      "sourceRefs": []
     },
     {
       "id": 10,
       "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-      "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": [],
-      "score": 0.5,
-      "gap": "{\n  \"recommendation\": \"Consider adding a section to the municipal statute that outlines specific monitoring and maintenance requirements for permitted wetland projects, including regular inspection schedules, reporting obligations, and criteria for assessing ecological health to ensure compliance and environmental protection.\"\n}"
+      "sourceRefs": []
     }
   ],
   "scores": {
-    "overallScore": 5,
-    "normalizedScore": 5,
+    "overallScore": 0,
+    "normalizedScore": 0,
     "averageConfidence": 0,
-    "questionsAnswered": 7,
-    "totalQuestions": 7,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
     "scoreBreakdown": {
       "questionScores": [
-        0.5,
-        0.5,
-        0.5,
-        0.5,
-        0.5,
-        0.5,
-        0.5
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
-      "averageQuestionScore": 0.5,
-      "weightedScore": 0.5,
-      "totalWeightedScore": 3.5,
-      "totalPossibleWeight": 7,
+      "averageQuestionScore": 0,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
+      "totalPossibleWeight": 9,
       "questionsWithScores": [
         {
+          "id": "1",
+          "score": 0,
+          "weight": 3,
+          "weightedScore": 0,
+          "maxWeightedScore": 3,
+          "confidence": 0
+        },
+        {
           "id": "3",
-          "question": "What are the setback requirements from wetland boundaries?",
-          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
-          "score": 0.5,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.5,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0
         },
         {
           "id": "4",
-          "question": "What are the penalties for unauthorized wetland disturbance?",
-          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
-          "score": 0.5,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.5,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0
         },
         {
           "id": "5",
-          "question": "How do I apply for a wetland permit or variance?",
-          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
-          "score": 0.5,
-          "weight": 1,
-          "weightedScore": 0.5,
-          "maxWeightedScore": 1,
+          "score": 0,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
           "confidence": 0
         },
         {
           "id": "6",
-          "question": "Are there mitigation requirements for permitted wetland impacts?",
-          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
-          "score": 0.5,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.5,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0
         },
         {
           "id": "7",
-          "question": "What types of development are completely prohibited in wetlands?",
-          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
-          "score": 0.5,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.5,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0
         },
         {
           "id": "9",
-          "question": "Are there tax incentives for wetland preservation?",
-          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
-          "score": 0.5,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.5,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0
         },
         {
           "id": "10",
-          "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
-          "answer": "Analysis skipped: there are no known statutes for Wetland Protection and no matching documents were found for this question.",
-          "score": 0.5,
+          "score": 0,
           "weight": 1,
-          "weightedScore": 0.5,
+          "weightedScore": 0,
           "maxWeightedScore": 1,
           "confidence": 0
         }
       ]
     }
   },
-  "overallScore": 5,
+  "overallScore": 0,
   "averageConfidence": 0,
-  "questionsAnswered": 7,
-  "totalQuestions": 7,
-  "lastUpdated": "2026-05-12T21:23:44.882Z",
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2026-05-20T01:48:07.392Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

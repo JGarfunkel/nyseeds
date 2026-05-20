@@ -1,5 +1,5 @@
 {
-  "id": "NY-Lewisboro-Town-glb-1779130196396",
+  "id": "NY-Lewisboro-Town-glb-1779296542031",
   "entityId": "NY-Lewisboro-Town",
   "domainId": "glb",
   "entity": {
@@ -8,38 +8,40 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
     {
       "id": 1,
       "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-      "answer": "Not specified in the provided sources. The Lewisboro Noise Control Law does not contain any provisions specifically addressing gas leaf blowers or a seasonal prohibition period for their use.",
+      "answer": "Not specified in the provided sources. The Town of Lewisboro Noise Control Law does not contain any specific provisions regarding gas leaf blowers, seasonal prohibitions, or date-specific restrictions related to leaf blower use.",
       "confidence": 95,
       "sourceRefs": [
         "https://ecode360.com/11022880"
       ],
-      "gap": "The statute contains no gas leaf blower-specific prohibition, seasonal restriction dates, or any time-limited ban. Best practice calls for a year-round prohibition with defined seasonal exceptions (e.g., March 15–May 15 and October 1–December 31), which is entirely absent here.",
+      "gap": "The statute contains no gas leaf blower prohibition whatsoever — no seasonal dates, no year-round ban, and no leaf blower-specific language. Best practice calls for either a year-round prohibition or defined seasonal restrictions (e.g., March 15–May 15 and October 1–December 31), neither of which is present here.",
       "score": 0,
       "nextPrompts": [
-        "Does Lewisboro have any separate ordinance or local law specifically regulating gas-powered leaf blowers outside of the general Noise Control Law?",
-        "Has Lewisboro Town Board adopted any resolutions or amendments addressing seasonal restrictions on gas leaf blower use in residential areas?"
+        "Does Lewisboro have any separate ordinance or local law specifically addressing gas-powered leaf blowers outside of the Noise Control Law?",
+        "Has Lewisboro adopted any amendments or resolutions since the Noise Control Law was enacted that address leaf blower restrictions or seasonal prohibitions?"
       ]
     },
     {
       "id": 2,
       "question": "What are the permitted hours for gas leaf blower operation?",
-      "answer": "Not specified in the provided sources. The Town of Lewisboro statute addresses general noise control but does not contain specific provisions regulating gas leaf blower operation hours. The statute does reference construction/demolition equipment restrictions (prohibited between 7:00 p.m. and 7:00 a.m. and at any time on Sunday), but gas leaf blowers are not explicitly mentioned or regulated with specific permitted hours.",
-      "confidence": 85,
+      "answer": "The Town of Lewisboro statute does not specifically address gas leaf blowers or their permitted hours of operation. The statute is a general noise control law. The closest applicable provision relates to construction and mechanical equipment operations, which are prohibited between 7:00 p.m. and 7:00 a.m. the following day, and at any time on Sunday (§160-5D). Gas leaf blowers could potentially fall under the general prohibition against any excessive or unusually loud sound that annoys or disturbs a reasonable person of normal sensitivities (§160-5M).",
+      "confidence": 72,
       "sourceRefs": [
+        "§160-5D",
+        "§160-5M",
         "Town of Lewisboro Noise Control Law, Chapter 160"
       ],
-      "gap": "The statute contains no specific gas leaf blower regulations, including permitted hours, seasonal restrictions, or weekday/weekend distinctions. Best practice recommends defined seasonal windows (Oct 1–May 31), weekday hours (8:00 a.m.–8:00 p.m.), Saturday hours (9:00 a.m.–8:00 p.m.), Sunday/holiday hours (9:00 a.m.–5:00 p.m.), and a summer prohibition (June 1–August 31). Lewisboro's statute does not address any of these elements.",
-      "score": 0,
+      "gap": "Significant gap exists. The statute contains no specific gas leaf blower regulations, seasonal restrictions (e.g., June–August prohibition), or differentiated weekend/holiday hours. Best practice calls for explicit permitted hours (8:00 a.m.–8:00 p.m. weekdays, 9:00 a.m.–8:00 p.m. Saturdays, 9:00 a.m.–5:00 p.m. Sundays/holidays) and seasonal bans, none of which are present.",
+      "score": 0.05,
       "nextPrompts": [
         "Does Lewisboro have any separate ordinance or local law specifically regulating leaf blower use beyond the general noise control law?",
-        "Has Lewisboro adopted any amendments or resolutions addressing gas-powered landscaping equipment restrictions?"
+        "Has Lewisboro adopted any seasonal restrictions or equipment-specific rules for landscaping equipment such as gas-powered leaf blowers?"
       ]
     },
     {
@@ -90,11 +92,11 @@
       "answer": "Not specified in the provided sources.",
       "confidence": 95,
       "sourceRefs": [],
-      "gap": "The ordinance does not address leaf debris benefits, leaf mulching, soil enrichment, habitat creation, or any related environmental education or guidelines. The statute is solely focused on noise control and does not contain any environmental or ecological provisions related to leaf management practices.",
+      "gap": "The Town of Lewisboro Noise Control Law does not address leaf debris, leaf mulching, or any associated environmental benefits. Best practice recommends that municipal statutes explicitly promote the ecological advantages of leaving leaf debris and mulching, such as soil enrichment and habitat creation, and support community education initiatives on these practices.",
       "score": 0,
       "nextPrompts": [
-        "Does Lewisboro have a separate environmental or landscaping ordinance that addresses leaf mulching or debris management?",
-        "Are there any Town of Lewisboro sustainability or environmental programs that promote leaf mulching or natural debris practices?"
+        "Does Lewisboro have a separate environmental or landscaping ordinance that addresses leaf management or mulching practices?",
+        "Has Lewisboro issued any supplementary guidance or public education materials regarding leaf debris and mulching as alternatives to gas leaf blower use?"
       ]
     },
     {
@@ -106,24 +108,24 @@
     }
   ],
   "scores": {
-    "overallScore": 1.46,
-    "normalizedScore": 1.46,
-    "averageConfidence": 73,
+    "overallScore": 1.5,
+    "normalizedScore": 1.5,
+    "averageConfidence": 72,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
         0,
-        0,
+        0.05,
         0.3,
         0.5,
         0.35,
         0,
         0
       ],
-      "averageQuestionScore": 0.16,
-      "weightedScore": 0.1458,
-      "totalWeightedScore": 1.75,
+      "averageQuestionScore": 0.17,
+      "weightedScore": 0.15,
+      "totalWeightedScore": 1.8000000000000003,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
@@ -136,11 +138,11 @@
         },
         {
           "id": "2",
-          "score": 0,
+          "score": 0.05,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.05,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 72
         },
         {
           "id": "3",
@@ -185,11 +187,11 @@
       ]
     }
   },
-  "overallScore": 1.46,
-  "averageConfidence": 73,
+  "overallScore": 1.5,
+  "averageConfidence": 72,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:49:56.396Z",
+  "lastUpdated": "2026-05-20T17:02:22.031Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

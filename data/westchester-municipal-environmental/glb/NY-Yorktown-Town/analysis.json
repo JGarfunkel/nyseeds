@@ -1,5 +1,5 @@
 {
-  "id": "NY-Yorktown-Town-glb-1779130540598",
+  "id": "NY-Yorktown-Town-glb-1779297137826",
   "entityId": "NY-Yorktown-Town",
   "domainId": "glb",
   "entity": {
@@ -8,7 +8,7 @@
   },
   "domain": {
     "id": "glb",
-    "displayName": "Glb"
+    "displayName": "Gas Leaf Blowers"
   },
   "grades": {},
   "questions": [
@@ -23,8 +23,8 @@
       "gap": "The provided sources contain no information about a prohibition on gas leaf blowers, including any seasonal dates or duration of such a prohibition. Best practice suggests a year-round prohibition with exceptions for peak leaf-falling seasons (e.g., March 15–May 15 and October 1–December 31). This statute appears to have no such provision documented in the excerpts provided.",
       "score": 0,
       "nextPrompts": [
-        "Does this municipality have any ordinance specifically regulating or prohibiting gas-powered leaf blowers, including seasonal restrictions?",
-        "Are there any noise ordinances in this municipality that specifically reference leaf blowers with seasonal or date-based restrictions?"
+        "Does this municipality have any ordinance specifically addressing gas-powered leaf blower use or restrictions?",
+        "Are there any seasonal noise or equipment restrictions in this municipality's code that could apply to gas leaf blowers?"
       ]
     },
     {
@@ -168,7 +168,7 @@
   "averageConfidence": 14,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-18T18:55:40.598Z",
+  "lastUpdated": "2026-05-20T17:12:17.826Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []
