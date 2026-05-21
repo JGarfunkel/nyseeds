@@ -51,7 +51,14 @@
       "name": "trees",
       "type": "statutory",
       "displayName": "Trees & Urban Forestry",
-      "description": "Tree removal, planting, and maintenance regulations"
+      "description": "Tree removal, planting, and maintenance regulations",
+      "searchEnhancements": [
+        {
+          "conditions": ["permit", "removal"],
+          "terms": ["tree removal", "permit", "application", "DBH", "diameter", "inches"]
+        }
+      ]
+
     },
   {
     "id": "wildlife",
@@ -105,7 +112,13 @@
       "name": "glb",
       "type": "statutory",
       "displayName": "Gas Leaf Blowers",
-      "description": "Gas-powered leaf blower regulations and restrictions"
+      "description": "Gas-powered leaf blower regulations and restrictions",
+      "searchEnhancements": [
+        {
+          "conditions": ["hours", "time"],
+          "terms": ["8 AM", "9 AM", "5 PM", "6 PM", "hours", "operation", "blower", "leaf"]
+        }
+      ]
     },
     {
       "id": "wetland-protection",

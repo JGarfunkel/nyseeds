@@ -11,7 +11,7 @@
       "entityFile": "municipalities.json",
       "mapBoundaries": "gis/NY/westchester-boundaries.json",
       "mapCenter": [41.1220, -73.7949],
-      "territory": "NY",
+      "stateProvince": "NY",
       "county": "Westchester",
       "dataSource": {
         "type": "google-sheets",
@@ -76,7 +76,7 @@
       "entityType": "school-districts",
       "entityFile": "school-districts.json",
       "mapBoundaries": "gis/NY/westchester-school-district-boundaries.geojson",
-      "territory": "NY",
+      "stateProvince": "NY",
       "county": "Westchester",
       "mapCenter": [41.1220, -73.7949],
       "dataSource": {

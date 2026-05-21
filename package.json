@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "@civillyengaged/ordinizer-analyzer": "file:../ordinizer/app/analyzer",
-    "@civillyengaged/ordinizer-client": "^1.0.6",
-    "@civillyengaged/ordinizer-server": "^1.0.4",
+    "@civillyengaged/ordinizer-client": "^1.0.7",
+    "@civillyengaged/ordinizer-server": "^1.0.5",
     "@pinecone-database/pinecone": "^6.1.2",
     "@radix-ui/react-collapsible": "^1.1.4",
     "@radix-ui/react-popover": "^1.1.7",
