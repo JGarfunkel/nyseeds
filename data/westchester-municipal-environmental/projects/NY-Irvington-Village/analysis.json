@@ -1,5 +1,5 @@
 {
-  "id": "NY-Irvington-Village-projects-1778785766722",
+  "id": "NY-Irvington-Village-projects-1779828688189",
   "entityId": "NY-Irvington-Village",
   "domainId": "projects",
   "entity": {
@@ -15,16 +15,30 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Two conservation-related events are currently advertised on Irvington Green's website:\n\n1. **Chaos & Catharsis** – A speaker-led series addressing overlapping crises including climate disruption. Upcoming dates: April 17 (Luke Kemp & Douglas Rushkoff), April 22/Earth Day (Samantha Sweetwater, Reverend Billy Talen, Daniel Pinchbeck), and April 25 (Rev Billy & Stop Shopping Choir). Tickets available at chaosandcatharsis.com.\n\n2. **Rivertowns Earth Month Scavenger Hunt** – A family-friendly Earth Month game running throughout April, open to residents from Hastings-on-Hudson to Sleepy Hollow. Participants explore open spaces, complete stewardship missions, and earn points. Registration is open.\n\nBoth are listed at irvingtongreen.org.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://www.irvingtongreen.org/"
+      ],
+      "score": 0.35,
+      "nextPrompts": [
+        "Are there any ongoing land stewardship or invasive species removal volunteer events listed under the 'Land' section of irvingtongreen.org?",
+        "Does the Irvington municipal site list any conservation-specific projects with dates, locations, and participation details under its Climate Initiatives page?"
+      ]
     },
     {
       "id": 2,
       "question": "What documentation or photo/videos showing past projects exists online?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://www.irvingtonny.gov/"
+      ],
+      "score": 0,
+      "nextPrompts": [
+        "Search the Irvington NY village website for a 'Projects' or 'Capital Improvements' page with photo documentation or project updates.",
+        "Check the village's social media accounts or press releases for dated photos or videos of completed municipal projects."
+      ]
     },
     {
       "id": 3,
@@ -35,29 +49,29 @@
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 1.75,
+    "normalizedScore": 1.75,
+    "averageConfidence": 27,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.35,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.12,
+      "weightedScore": 0.175,
+      "totalWeightedScore": 0.28,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.35,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.28,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 72
         },
         {
           "id": "2",
@@ -65,7 +79,7 @@
           "weight": 0.4,
           "weightedScore": 0,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "3",
@@ -78,11 +92,12 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 1.75,
+  "averageConfidence": 27,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:09:26.722Z",
+  "lastUpdated": "2026-05-26T20:51:28.189Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

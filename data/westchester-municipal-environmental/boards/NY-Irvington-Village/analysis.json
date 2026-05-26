@@ -1,5 +1,5 @@
 {
-  "id": "NY-Irvington-Village-boards-1779299075836",
+  "id": "NY-Irvington-Village-boards-1779828011706",
   "entityId": "NY-Irvington-Village",
   "domainId": "boards",
   "entity": {
@@ -15,57 +15,102 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources. Chapter 22, which previously governed the Environmental Conservation Board, was repealed on 3-18-2024 by L.L. No. 2-2024. The chapter is now reserved with no active board or committee provisions.",
+      "confidence": 15,
+      "sourceRefs": [
+        "Village of Irvington, NY, Chapter 22 (Reserved), repealed 3-18-2024 by L.L. No. 2-2024"
+      ],
+      "gap": "The chapter has been repealed and reserved, so no information on authorized seats, filled seats, or vacancies is available. It is unclear whether a replacement board or committee was established elsewhere in the code.",
+      "score": 0,
+      "nextPrompts": [
+        "Was a replacement for the Environmental Conservation Board established in another chapter of the Village of Irvington code after the repeal of Chapter 22?",
+        "Does the Village of Irvington have any currently active boards or committees with seat and vacancy information published elsewhere in its municipal code or official website?"
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "Village of Irvington, NY – Chapter 22 (Reserved), repealed 3-18-2024 by L.L. No. 2-2024"
+      ],
+      "gap": "The former Chapter 22 (Environmental Conservation Board) was repealed in March 2024, and no replacement statute or board information is provided. Member names, appointment methods, term lengths, and expiration dates are entirely absent from the available sources.",
+      "score": 0,
+      "nextPrompts": [
+        "Has the Village of Irvington adopted a new ordinance replacing the Environmental Conservation Board after its March 2024 repeal?",
+        "Does the Village of Irvington website list any current boards or committees with member details, appointment methods, and term information?"
+      ]
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "Village of Irvington, NY – Chapter 22 (Reserved), repealed 3-18-2024 by L.L. No. 2-2024"
+      ],
+      "gap": "The statute has been repealed and contains no provisions regarding meeting dates, times, locations, or public notice requirements. No alignment with best practice can be confirmed.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Irvington have a general open meetings or public notice ordinance that governs all boards and committees?",
+        "Is there a current Village of Irvington website or municipal code section that lists upcoming meeting schedules and public notice procedures for governing boards?"
+      ]
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The statute provides no information about agenda posting requirements, accessibility, or timing. A best practice policy would specify that agendas be publicly posted online before meetings in a timely and consistent manner.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Irvington have a separate open meetings or public notice policy that addresses agenda posting timelines?",
+        "Is there a village website or municipal code section governing public access to board and committee meeting agendas?"
+      ]
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 5,
+      "sourceRefs": [],
+      "gap": "The statute does not address online availability or posting timelines for approved minutes or meeting summaries. Full alignment with best practice cannot be confirmed.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Irvington have a separate records access or transparency policy that governs posting of meeting minutes online?",
+        "Are there any other Village of Irvington local laws or board procedures that specify timelines for publishing approved minutes?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "Village of Irvington, NY – Chapter 22 (Reserved), repealed 3-18-2024 by L.L. No. 2-2024"
+      ],
+      "gap": "The statute only contains a repealed chapter with no active board or committee content, ongoing projects, priorities, or current work in progress documented.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Irvington website list any replacement body or successor committee following the repeal of the Environmental Conservation Board?",
+        "Are there other chapters in the Village of Irvington municipal code that reference active boards or committees with current projects or priorities?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0
     }
   ],
   "scores": {
     "overallScore": 0,
     "normalizedScore": 0,
-    "averageConfidence": 0,
+    "averageConfidence": 10,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
@@ -89,7 +134,7 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 15
         },
         {
           "id": "2",
@@ -97,7 +142,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "3",
@@ -105,7 +150,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "4",
@@ -113,7 +158,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "5",
@@ -121,7 +166,7 @@
           "weight": 3,
           "weightedScore": 0,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 5
         },
         {
           "id": "6",
@@ -129,7 +174,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "7",
@@ -137,16 +182,16 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         }
       ]
     }
   },
   "overallScore": 0,
-  "averageConfidence": 0,
+  "averageConfidence": 10,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:35.836Z",
+  "lastUpdated": "2026-05-26T20:40:11.706Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

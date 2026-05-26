@@ -1,5 +1,5 @@
 {
-  "id": "NY-NorthSalem-Town-projects-1778785856367",
+  "id": "NY-NorthSalem-Town-projects-1779828816302",
   "entityId": "NY-NorthSalem-Town",
   "domainId": "projects",
   "entity": {
@@ -15,9 +15,16 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Conservation Advisory Council (CAC) of North Salem advertises an invasive plant awareness initiative encouraging residents to take action on their own properties. The program asks community members to monitor their yards for invasive species including Asiatic Bittersweet, Garlic Mustard, Japanese Barberry, Japanese Knotweed, Japanese Stiltgrass, Multiflora Rose, Wineberry, Lesser Celandine, and Mugwort. Residents are encouraged to weed out invasives, protect native plants, and plant additional native species. A PowerPoint presentation is available for more information.",
+      "confidence": 55,
+      "sourceRefs": [
+        "https://www.northsalemny.gov/1344/CAC-Invasive-Plants-to-Look-For-in-Your-"
+      ],
+      "score": 0.2,
+      "nextPrompts": [
+        "Are there any scheduled CAC volunteer events, cleanups, or planting days listed elsewhere on the North Salem website?",
+        "Does North Salem advertise any conservation projects through its Parks, Recreation, or Environmental departments with structured participation details?"
+      ]
     },
     {
       "id": 2,
@@ -35,29 +42,29 @@
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 1,
+    "normalizedScore": 1,
+    "averageConfidence": 18,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.2,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.07,
+      "weightedScore": 0.1,
+      "totalWeightedScore": 0.16,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.2,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.16,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 55
         },
         {
           "id": "2",
@@ -78,11 +85,12 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 1,
+  "averageConfidence": 18,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:10:56.367Z",
+  "lastUpdated": "2026-05-26T20:53:36.302Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

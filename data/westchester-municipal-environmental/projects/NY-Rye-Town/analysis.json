@@ -1,5 +1,5 @@
 {
-  "id": "NY-Rye-Town-projects-1778785915655",
+  "id": "NY-Rye-Town-projects-1779828938895",
   "entityId": "NY-Rye-Town",
   "domainId": "projects",
   "entity": {
@@ -15,9 +15,16 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Town of Rye website references a 'Climate Smart Community Taskforce' under both the Executive Office and Community sections, and lists 'Crawford Park Projects' as a dedicated page. There is also a 'Nature Fun' program listed under Rye Town Park, and 'Community Events and Service' listed under the Community section. An 'Arborscope/Tree Inventory' is listed under both Crawford Park and Rye Town Park. However, specific details about current conservation projects or events—such as goals, dates, locations, or participation requirements—are not described in the provided excerpts.",
+      "confidence": 30,
+      "sourceRefs": [
+        "https://www.townofryeny.com/"
+      ],
+      "score": 0.1,
+      "nextPrompts": [
+        "What specific projects or events are listed on the Crawford Park Projects page?",
+        "What initiatives or events does the Climate Smart Community Taskforce currently advertise?"
+      ]
     },
     {
       "id": 2,
@@ -35,29 +42,29 @@
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.5,
+    "normalizedScore": 0.5,
+    "averageConfidence": 10,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.1,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.03,
+      "weightedScore": 0.05,
+      "totalWeightedScore": 0.08,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.1,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.08,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 30
         },
         {
           "id": "2",
@@ -78,29 +85,29 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.5,
+  "averageConfidence": 10,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:11.521Z",
+  "lastUpdated": "2026-05-26T20:55:38.895Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.townofryeny.com/community/community_service_projects.php",
-      "title": "https://www.townofryeny.com/community/community_service_projects.php"
+      "title": "Town of Rye, New York"
     },
     {
       "url": "https://www.townofryeny.com/community/index.php",
-      "title": "https://www.townofryeny.com/community/index.php"
+      "title": "Town of Rye, New York"
     },
     {
       "url": "https://www.townofryeny.com/departments/executive/sustainability/index.php",
-      "title": "https://www.townofryeny.com/departments/executive/sustainability/index.php"
+      "title": "Climate Smart Community Taskforce"
     },
     {
       "url": "https://www.townofryeny.com/parks/crawford_park/crawford_park_projects.php",
-      "title": "https://www.townofryeny.com/parks/crawford_park/crawford_park_projects.php"
+      "title": "Town of Rye, New York"
     }
   ]
 }

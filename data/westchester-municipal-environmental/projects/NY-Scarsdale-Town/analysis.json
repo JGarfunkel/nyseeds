@@ -1,5 +1,5 @@
 {
-  "id": "NY-Scarsdale-Town-projects-1778785928110",
+  "id": "NY-Scarsdale-Town-projects-1779828961966",
   "entityId": "NY-Scarsdale-Town",
   "domainId": "projects",
   "entity": {
@@ -15,16 +15,30 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The sources reference one conservation-related project: the **Field to Secor Meadow Conversion**, where the Conservation Advisory Council (CAC) worked with the Village in 2016 to transform an unused grass field at the corner of Palmer and Secor Roads into a native wildflower meadow to enhance aesthetic and natural value and reduce maintenance. Related documents are available on the Village website. No currently active or upcoming conservation events are advertised in the provided sources.",
+      "confidence": 45,
+      "sourceRefs": [
+        "https://www.scarsdale.gov/389/Field-to-Secor-Meadow-Conversion"
+      ],
+      "score": 0.15,
+      "nextPrompts": [
+        "Does the Scarsdale CAC page list any active or upcoming conservation projects, volunteer events, or community programs with dates and participation details?",
+        "Are there any environmental or conservation events listed in the Scarsdale community calendar or recreation catalog?"
+      ]
     },
     {
       "id": 2,
       "question": "What documentation or photo/videos showing past projects exists online?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://www.scarsdale.com/"
+      ],
+      "score": 0,
+      "nextPrompts": [
+        "Search the Scarsdale Village website for a dedicated 'Projects' or 'Capital Improvements' page that may include photo documentation or project updates.",
+        "Check Scarsdale's meeting recordings or newsletters (referenced on the homepage) for visual documentation of completed municipal or conservation projects."
+      ]
     },
     {
       "id": 3,
@@ -35,29 +49,29 @@
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.75,
+    "normalizedScore": 0.75,
+    "averageConfidence": 18,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.15,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.05,
+      "weightedScore": 0.075,
+      "totalWeightedScore": 0.12,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.15,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.12,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 45
         },
         {
           "id": "2",
@@ -65,7 +79,7 @@
           "weight": 0.4,
           "weightedScore": 0,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "3",
@@ -78,11 +92,12 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.75,
+  "averageConfidence": 18,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:12:08.110Z",
+  "lastUpdated": "2026-05-26T20:56:01.966Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

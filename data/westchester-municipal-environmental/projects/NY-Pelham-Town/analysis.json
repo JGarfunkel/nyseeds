@@ -1,5 +1,5 @@
 {
-  "id": "NY-Pelham-Town-projects-1778785896031",
+  "id": "NY-Pelham-Town-projects-1779828874166",
   "entityId": "NY-Pelham-Town",
   "domainId": "projects",
   "entity": {
@@ -15,9 +15,16 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://townofpelhamny.gov/"
+      ],
+      "score": 0,
+      "nextPrompts": [
+        "Search the Town of Pelham website for an environmental or conservation committee page that may list current projects or events.",
+        "Check the Town of Pelham Recreation or Town Clerk pages for any advertised conservation volunteer events or environmental initiatives."
+      ]
     },
     {
       "id": 2,
@@ -37,7 +44,7 @@
   "scores": {
     "overallScore": 0,
     "normalizedScore": 0,
-    "averageConfidence": 0,
+    "averageConfidence": 3,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
@@ -57,7 +64,7 @@
           "weight": 0.8,
           "weightedScore": 0,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "2",
@@ -79,10 +86,11 @@
     }
   },
   "overallScore": 0,
-  "averageConfidence": 0,
+  "averageConfidence": 3,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:11:36.031Z",
+  "lastUpdated": "2026-05-26T20:54:34.166Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

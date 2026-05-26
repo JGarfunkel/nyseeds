@@ -1,5 +1,5 @@
 {
-  "id": "NY-Eastchester-Town-projects-1778785730789",
+  "id": "NY-Eastchester-Town-projects-1779828629314",
   "entityId": "NY-Eastchester-Town",
   "domainId": "projects",
   "entity": {
@@ -82,13 +82,13 @@
   "averageConfidence": 0,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:10.720Z",
+  "lastUpdated": "2026-05-26T20:50:29.314Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.eastchester.org/general_information/community/index.php",
-      "title": "https://www.eastchester.org/general_information/community/index.php"
+      "title": "Community Organizations"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "id": "NY-Ossining-Village-projects-1778785880767",
+  "id": "NY-Ossining-Village-projects-1779828849251",
   "entityId": "NY-Ossining-Village",
   "domainId": "projects",
   "entity": {
@@ -15,9 +15,16 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Village of Ossining advertises a tree planting conservation project in Nelson Park and Nelson Sitting Park. Funded by a NYS DEC Urban Forestry grant awarded in December 2020, the project involves planting approximately 80 native trees across these two parks (totaling ~13 acres) in the southwestern Village. Goals include increasing tree canopy for shade, carbon sequestration, stormwater management, air quality improvement, and reducing urban heat island effects. Partners include Green Ossining, the Village's Environmental Advisory Committee, Cornell Cooperative Extension Master Gardeners, SavATree arborists, and DEC Region 3. A bilingual tree planting demonstration was filmed on May 20th. A list of planted tree species is available on the Village website.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/tree-plantings-nelson-park-nelson-sitting-park"
+      ],
+      "score": 0.35,
+      "nextPrompts": [
+        "Are there upcoming volunteer or community participation opportunities listed for the Nelson Park tree planting or other conservation events?",
+        "Does the Village of Ossining advertise any other conservation projects beyond tree plantings, such as habitat restoration or waterway cleanups?"
+      ]
     },
     {
       "id": 2,
@@ -35,29 +42,29 @@
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 1.75,
+    "normalizedScore": 1.75,
+    "averageConfidence": 24,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.35,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.12,
+      "weightedScore": 0.175,
+      "totalWeightedScore": 0.28,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.35,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.28,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 72
         },
         {
           "id": "2",
@@ -78,49 +85,49 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 1.75,
+  "averageConfidence": 24,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:11.278Z",
+  "lastUpdated": "2026-05-26T20:54:09.251Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.villageofossiningny.gov/environmental-advisory-council/links/tree-plantings-nelson-park-nelson-sitting-park",
-      "title": "https://www.villageofossiningny.gov/environmental-advisory-council/links/tree-plantings-nelson-park-nelson-sitting-park"
+      "title": "Tree Plantings in Nelson Park & Nelson Sitting Park! | Ossining NY"
     },
     {
       "url": "https://www.villageofossiningny.gov/environmental-advisory-council/links/westchester-county-native-plants",
-      "title": "https://www.villageofossiningny.gov/environmental-advisory-council/links/westchester-county-native-plants"
+      "title": "Westchester County Native Plants"
     },
     {
       "url": "https://www.villageofossiningny.gov/environmental-advisory-council/pages/help-native-bees-providing-food-and-shelter-pollinators",
-      "title": "https://www.villageofossiningny.gov/environmental-advisory-council/pages/help-native-bees-providing-food-and-shelter-pollinators"
+      "title": "Help Native Bees, Providing Food and Shelter for Pollinators | Ossining NY"
     },
     {
       "url": "https://www.villageofossiningny.gov/home/pages/community-links",
-      "title": "https://www.villageofossiningny.gov/home/pages/community-links"
+      "title": "Community Links | Ossining NY"
     },
     {
       "url": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/2026-special-events",
-      "title": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/2026-special-events"
+      "title": "2026 Special Events | Ossining NY"
     },
     {
       "url": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/adult-programs",
-      "title": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/adult-programs"
+      "title": "Adult Programs | Ossining NY"
     },
     {
       "url": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/aquatic-programs-pool-spray-park-0",
-      "title": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/aquatic-programs-pool-spray-park-0"
+      "title": "Aquatic Programs, Pool & Spray Park | Ossining NY"
     },
     {
       "url": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/tree-plantings-nelson-park-nelson-sitting-park",
-      "title": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/tree-plantings-nelson-park-nelson-sitting-park"
+      "title": "Tree Plantings in Nelson Park & Nelson Sitting Park! | Ossining NY"
     },
     {
       "url": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/youth-programs",
-      "title": "https://www.villageofossiningny.gov/recreation-and-parks-department/pages/youth-programs"
+      "title": "Youth Programs | Ossining NY"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "id": "NY-Bronxville-Village-projects-1778785705446",
+  "id": "NY-Bronxville-Village-projects-1779828598153",
   "entityId": "NY-Bronxville-Village",
   "domainId": "projects",
   "entity": {
@@ -15,29 +15,31 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "The sources reference several completed conservation-related initiatives under Bronxville's Climate Smart Communities program, including a Food Scrap Recycling program, Take Back Day campaigns, EV charging station installations, LED Traffic Signal upgrades, and ground-source heat pump installation at Village Hall. The Bronxville Green Committee is actively seeking volunteers and mailing list sign-ups for ongoing programs. The Climate Smart Task Force is working toward a Climate Action Plan aimed at Silver Certification. However, no specific upcoming conservation events or projects with dates, locations, or registration details are advertised in the provided sources.",
-      "confidence": 45,
+      "answer": "The sources reference several conservation-related programs associated with the Bronxville Green Committee and Climate Smart Task Force, including: a Food Scrap Recycling program, Take Back Day (solid waste reduction), EV charging station installation, LED Traffic Signal installation, and ground-source heat pump installation at Village Hall. The Green Committee is also working toward a Climate Action Plan aimed at reducing greenhouse gas emissions and achieving NYS Silver Climate Smart Communities Certification. Residents are invited to join the mailing list, volunteer, or contact the committee via a contact form on the Green Committee website.",
+      "confidence": 52,
       "sourceRefs": [
+        "https://www.villageofbronxville.gov/284/Green-Committee",
         "https://www.villageofbronxville.gov/285/Bronxville-Certified-as-a-NYS-Bronze-Cli"
       ],
-      "gap": "The sources lack a current project/event listing with goals, locations, dates, eligibility, and frequency as recommended by best practices. Score reflects partial program information without actionable event details.",
       "score": 0.2,
       "nextPrompts": [
-        "Does the Bronxville Green Committee website or calendar list upcoming conservation events with dates and locations?",
-        "What is the current status and timeline of the Bronxville Climate Action Plan development?"
+        "Does the Bronxville Green Committee website list upcoming conservation events or volunteer opportunities with dates and locations?",
+        "Is there a current schedule or calendar for Take Back Day or other recurring conservation events in Bronxville?"
       ]
     },
     {
       "id": 2,
       "question": "What documentation or photo/videos showing past projects exists online?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 15,
-      "sourceRefs": [],
-      "gap": "The provided sources contain no public project portfolio, dated photos/videos, before-and-after documentation, or narratives of completed on-the-ground conservation work. The only photo reference is a note in the GHG Report stating that photos and graphics were taken by Climate Smart Task Force members, but no online gallery or documentation repository is described.",
-      "score": 0.05,
+      "answer": "The Village of Bronxville's Green Committee page lists several related documents available online, including the 2023 Final Climate Action Plan (PDF), Greenhouse Gas Reports for Municipal and Community sectors, a Five-year update on the Municipal GHG Inventory, and Municipal Building Energy Benchmarking data. The village also has a page documenting its NYS Bronze Climate Smart Community certification, which describes contributions from task force members and outlines completed action steps. No photos, videos, or visual project documentation are referenced in the provided sources.",
+      "confidence": 45,
+      "sourceRefs": [
+        "https://www.villageofbronxville.gov/284/Green-Committee",
+        "https://www.villageofbronxville.gov/285/Bronxville-Certified-as-a-NYS-Bronze-Cli"
+      ],
+      "score": 0.2,
       "nextPrompts": [
-        "Does the Village of Bronxville website or Bronxville Green Committee maintain a photo gallery or project archive of completed sustainability or conservation projects?",
-        "Are there any social media accounts or YouTube channels associated with the Bronxville Climate Smart Communities Task Force that document past projects?"
+        "Search for Bronxville Green Committee social media accounts (Facebook, Instagram) that may contain project photos or videos.",
+        "Check whether the 2023 Climate Action Plan PDF contains photographic documentation or case studies of completed projects."
       ]
     },
     {
@@ -45,30 +47,31 @@
       "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
       "answer": "Not specified in the provided sources.",
       "confidence": 10,
-      "sourceRefs": [],
-      "gap": "The sources focus on greenhouse gas emissions inventory and climate action planning. There is no information about shared space maintenance, home landscaping programs, surveillance and reporting opportunities, or mechanisms for residents to donate time or resources to community projects.",
+      "sourceRefs": [
+        "https://www.villageofbronxville.com/"
+      ],
       "score": 0,
       "nextPrompts": [
-        "Does the Village of Bronxville have a volunteer or community stewardship program for parks, green spaces, or environmental monitoring?",
-        "Are there any resident-facing guides or programs from the Bronxville Climate Smart Communities Task Force that outline how individuals can participate in local sustainability or maintenance efforts?"
+        "Search the Village of Bronxville website for volunteer programs, community beautification, or neighborhood watch initiatives.",
+        "Check the Bronxville Chamber of Commerce or Public Library pages for community involvement or stewardship opportunities."
       ]
     }
   ],
   "scores": {
-    "overallScore": 1.13,
-    "normalizedScore": 1.13,
-    "averageConfidence": 23,
+    "overallScore": 1.5,
+    "normalizedScore": 1.5,
+    "averageConfidence": 36,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
         0.2,
-        0.05,
+        0.2,
         0
       ],
-      "averageQuestionScore": 0.08,
-      "weightedScore": 0.1125,
-      "totalWeightedScore": 0.18,
+      "averageQuestionScore": 0.13,
+      "weightedScore": 0.15,
+      "totalWeightedScore": 0.24,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
@@ -77,15 +80,15 @@
           "weight": 0.8,
           "weightedScore": 0.16,
           "maxWeightedScore": 0.8,
-          "confidence": 45
+          "confidence": 52
         },
         {
           "id": "2",
-          "score": 0.05,
+          "score": 0.2,
           "weight": 0.4,
-          "weightedScore": 0.02,
+          "weightedScore": 0.08,
           "maxWeightedScore": 0.4,
-          "confidence": 15
+          "confidence": 45
         },
         {
           "id": "3",
@@ -98,21 +101,21 @@
       ]
     }
   },
-  "overallScore": 1.13,
-  "averageConfidence": 23,
+  "overallScore": 1.5,
+  "averageConfidence": 36,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:10.607Z",
+  "lastUpdated": "2026-05-26T20:49:58.153Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.villageofbronxville.gov/285/Bronxville-Certified-as-a-NYS-Bronze-Cli",
-      "title": "https://www.villageofbronxville.gov/285/Bronxville-Certified-as-a-NYS-Bronze-Cli"
+      "title": "Bronxville Certified as a NYS Bronze Climate Smart Community | Bronxville, NY"
     },
     {
       "url": "https://www.villageofbronxville.gov/DocumentCenter/View/363/Greenhouse-Gas-Report---Community-PDF",
-      "title": "https://www.villageofbronxville.gov/DocumentCenter/View/363/Greenhouse-Gas-Report---Community-PDF"
+      "title": "Greenhouse Gas Report Community PDF"
     }
   ]
 }

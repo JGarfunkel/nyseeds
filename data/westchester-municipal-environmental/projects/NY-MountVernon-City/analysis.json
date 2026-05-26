@@ -1,5 +1,5 @@
 {
-  "id": "NY-MountVernon-City-projects-1778785818060",
+  "id": "NY-MountVernon-City-projects-1779828748524",
   "entityId": "NY-MountVernon-City",
   "domainId": "projects",
   "entity": {
@@ -15,9 +15,16 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The sources describe the Mount Vernon Tree Advisory Board (TAB), which oversees tree planting, preservation, and maintenance programs, including Arbor Day Tree City status and tree replacement campaigns. The TAB holds regular meetings on the third Thursday of each month at 4:00 PM. However, no specific currently advertised conservation projects or events (with goals, locations, dates, or participation details) are listed in the provided sources.",
+      "confidence": 30,
+      "sourceRefs": [
+        "https://www.mountvernonny.gov/540/Tree-Advisory-Board"
+      ],
+      "score": 0.1,
+      "nextPrompts": [
+        "Does the Mount Vernon Tree Advisory Board or Parks Department advertise specific upcoming tree planting events or conservation projects with dates and locations?",
+        "Is there an Arbor Day event or community tree planting campaign currently scheduled in Mount Vernon, NY?"
+      ]
     },
     {
       "id": 2,
@@ -35,29 +42,29 @@
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.5,
+    "normalizedScore": 0.5,
+    "averageConfidence": 10,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.1,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.03,
+      "weightedScore": 0.05,
+      "totalWeightedScore": 0.08,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.1,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.08,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 30
         },
         {
           "id": "2",
@@ -78,11 +85,12 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.5,
+  "averageConfidence": 10,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:10:18.060Z",
+  "lastUpdated": "2026-05-26T20:52:28.524Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

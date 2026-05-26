@@ -1,5 +1,5 @@
 {
-  "id": "NY-Yonkers-City-projects-1778785951891",
+  "id": "NY-Yonkers-City-projects-1779829058146",
   "entityId": "NY-Yonkers-City",
   "domainId": "projects",
   "entity": {
@@ -15,57 +15,78 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Two conservation-related events are advertised: (1) **Annual Arbor Day Tree Plantings** (April 24, 9:30AM–12PM) and **Old Croton Aqueduct Trail Clean Up** (April 25, 8:AM start time cut off), hosted by the City of Yonkers. (2) The **'Greenhouse to Garden' Program** — an eight-week hands-on gardening program for students with special needs, hosted by Yonkers Parks Department, teaching horticultural fundamentals. Additionally, the city was recognized as a **NYS Climate Smart Community** (Bronze certified). The Parks, Recreation & Conservation page notes no published events for the current month (May 2026).",
+      "confidence": 62,
+      "sourceRefs": [
+        "https://www.yonkersny.gov/",
+        "https://www.yonkersny.gov/291/Parks-Recreation-Conservation"
+      ],
+      "score": 0.25,
+      "nextPrompts": [
+        "Where can residents register or sign up for the Old Croton Aqueduct Clean Up and Arbor Day Tree Planting events?",
+        "What ongoing conservation or environmental stewardship programs does the Yonkers Parks, Recreation & Conservation department run year-round?"
+      ]
     },
     {
       "id": 2,
       "question": "What documentation or photo/videos showing past projects exists online?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Yonkers Community Development Agency (YCDA) maintains online documentation of past projects through annual reports, operations and accomplishments reports, budget reports, certified financial audits, and performance measurement reports dating back to at least FY2023, available at yonkersny.gov/707/YCDA-Reports. The city's main website also features news releases referencing completed projects, such as LED-illuminated pedestrian crosswalk installations (November 2024), a $1M USDA grant for climate action tree planting, and a City Hall renovation project with scaffolding photos. A notable item includes the discovery of historical film reels depicting Yonkers life in the 1920s (December 2024). These are primarily text-based reports and press releases rather than dedicated photo/video project portfolios.",
+      "confidence": 52,
+      "sourceRefs": [
+        "https://www.yonkersny.gov/707/YCDA-Reports",
+        "https://www.yonkersny.gov/"
+      ],
+      "score": 0.3,
+      "nextPrompts": [
+        "Does the YCDA Annual Report or Operations and Accomplishments Report include photos or visual documentation of completed projects?",
+        "Is there a dedicated Yonkers project gallery or media library (e.g., Flickr, YouTube channel) with dated project photos or videos?"
+      ]
     },
     {
       "id": 3,
       "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0,
+      "nextPrompts": [
+        "Does Yonkers have a neighborhood beautification, adopt-a-block, or community stewardship volunteer program?",
+        "Are there any Yonkers Parks or Public Works volunteer programs that allow residents to participate in maintenance or landscaping activities?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 2,
+    "normalizedScore": 2,
+    "averageConfidence": 41,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
-        0,
+        0.25,
+        0.3,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.18,
+      "weightedScore": 0.2,
+      "totalWeightedScore": 0.32,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.25,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.2,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 62
         },
         {
           "id": "2",
-          "score": 0,
+          "score": 0.3,
           "weight": 0.4,
-          "weightedScore": 0,
+          "weightedScore": 0.12,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 52
         },
         {
           "id": "3",
@@ -73,16 +94,17 @@
           "weight": 0.4,
           "weightedScore": 0,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 2,
+  "averageConfidence": 41,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:12:31.891Z",
+  "lastUpdated": "2026-05-26T20:57:38.146Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

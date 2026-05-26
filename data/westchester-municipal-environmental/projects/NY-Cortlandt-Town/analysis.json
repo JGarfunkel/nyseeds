@@ -1,5 +1,5 @@
 {
-  "id": "NY-Cortlandt-Town-projects-1778785723219",
+  "id": "NY-Cortlandt-Town-projects-1779828622218",
   "entityId": "NY-Cortlandt-Town",
   "domainId": "projects",
   "entity": {
@@ -20,53 +20,56 @@
       "sourceRefs": [
         "Section 239"
       ],
-      "gap": "The sources contain no advertised conservation projects or events. Best practice calls for projects listed on the website with goals, locations, dates, eligibility, and frequency. None of this information is present in the provided excerpts.",
       "score": 0,
       "nextPrompts": [
-        "Does the Town of Cortlandt CAC publish a calendar of upcoming conservation events or volunteer opportunities on its website?",
-        "Are there any active conservation stewardship projects or community programs currently listed under the CAC or Parks department pages?"
+        "Does the Town of Cortlandt CAC or Conservation Board maintain a separate events calendar or project listing page?",
+        "Are there any Town of Cortlandt newsletters, meeting agendas, or press releases advertising upcoming conservation volunteer events or projects?"
       ]
     },
     {
       "id": 2,
       "question": "What documentation or photo/videos showing past projects exists online?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
+      "answer": "The sources describe the Rhinebeck CAB maintaining a publicly available database of natural resource maps, soil, slopes, habitats, floodplains, and wetlands information, along with habitat-based conservation recommendations compiled from scientific reports and literature. These maps are used to inform environmental review for development projects. However, no specific mention of photos, videos, or an online project portfolio documenting past completed projects is present in the provided sources.",
+      "confidence": 30,
       "sourceRefs": [
-        "Section 239"
+        "https://www.townofcortlandt.com/documents/Planning/CAC/cacfsheet.pdf"
+      ],
+      "score": 0.1,
+      "nextPrompts": [
+        "Does the Town of Cortlandt CAC or CAB maintain a public-facing website or social media presence with photos or updates of completed conservation projects?",
+        "Are there any annual reports, newsletters, or meeting minutes from the Cortlandt CAC that document past project outcomes with visual evidence?"
       ]
     },
     {
       "id": 3,
       "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
-      "answer": "The sources describe opportunities to join the Conservation Advisory Council (CAC), which welcomes members with a strong interest in environmental mission, time and willingness to work on CAC tasks, and ability to work cooperatively with municipal agencies. No professional qualifications are required — members with eagerness to learn are equally valued and can attend trainings and educational opportunities. However, the sources do not detail a broader range of volunteer opportunities such as shared space maintenance, home landscaping programs, or surveillance and reporting initiatives beyond CAC membership.",
-      "confidence": 35,
+      "answer": "The sources describe the Conservation Advisory Council (CAC) as a volunteer body where residents can participate in environmental stewardship, policy research, education programs, and stewardship projects. No professional qualifications are required — members with eagerness to learn are welcomed and can attend trainings. CAC members may conduct site visits, analyze resources, document environmental impacts, and help inventory open spaces like forests, wetlands, and fields. However, the sources do not describe a broader range of community volunteer opportunities such as shared space maintenance, home landscaping programs, or neighborhood surveillance and reporting initiatives. Involvement appears focused on formal advisory council membership rather than informal or one-time volunteer contributions.",
+      "confidence": 55,
       "sourceRefs": [
         "https://www.townofcortlandt.com/documents/Planning/CAC/cacfsheet.pdf"
       ],
-      "gap": "The sources only describe CAC membership as a volunteer pathway, with no mention of shared space maintenance programs, home landscaping initiatives, or surveillance/reporting opportunities. Clear instructions for how the average person can donate time or resources across a full spectrum of activities are absent from the provided sources.",
-      "score": 0.15,
+      "score": 0.2,
       "nextPrompts": [
-        "Does the Town of Cortlandt have a volunteer stewardship or adopt-a-spot program for shared green spaces or roadsides?",
-        "Are there any town-sponsored programs guiding residents on native landscaping, invasive species reporting, or environmental monitoring participation?"
+        "Does the Town of Cortlandt have a volunteer stewardship or adopt-a-space program for parks or open spaces?",
+        "Are there any town-sponsored home landscaping, native planting, or environmental reporting programs available to residents?"
       ]
     }
   ],
   "scores": {
-    "overallScore": 0.38,
-    "normalizedScore": 0.38,
-    "averageConfidence": 15,
+    "overallScore": 0.75,
+    "normalizedScore": 0.75,
+    "averageConfidence": 32,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
         0,
-        0,
-        0.15
+        0.1,
+        0.2
       ],
-      "averageQuestionScore": 0.05,
-      "weightedScore": 0.0375,
-      "totalWeightedScore": 0.06,
+      "averageQuestionScore": 0.1,
+      "weightedScore": 0.075,
+      "totalWeightedScore": 0.12,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
@@ -79,34 +82,34 @@
         },
         {
           "id": "2",
-          "score": 0,
+          "score": 0.1,
           "weight": 0.4,
-          "weightedScore": 0,
+          "weightedScore": 0.04,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 30
         },
         {
           "id": "3",
-          "score": 0.15,
+          "score": 0.2,
           "weight": 0.4,
-          "weightedScore": 0.06,
+          "weightedScore": 0.08,
           "maxWeightedScore": 0.4,
-          "confidence": 35
+          "confidence": 55
         }
       ]
     }
   },
-  "overallScore": 0.38,
-  "averageConfidence": 15,
+  "overallScore": 0.75,
+  "averageConfidence": 32,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:10.654Z",
+  "lastUpdated": "2026-05-26T20:50:22.218Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.townofcortlandt.com/documents/Planning/CAC/cacfsheet.pdf",
-      "title": "https://www.townofcortlandt.com/documents/Planning/CAC/cacfsheet.pdf"
+      "title": "Cacfsheet.Pdf"
     }
   ]
 }

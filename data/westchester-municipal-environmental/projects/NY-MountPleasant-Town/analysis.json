@@ -1,5 +1,5 @@
 {
-  "id": "NY-MountPleasant-Town-projects-1778785815503",
+  "id": "NY-MountPleasant-Town-projects-1779828739706",
   "entityId": "NY-MountPleasant-Town",
   "domainId": "projects",
   "entity": {
@@ -15,16 +15,15 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "The sources reference the Town of Mount Pleasant Conservation Advisory Council's 2020 Native Plant Resource Guide, which is a conservation-related resource compiled by council members GG Kopilak, Jo DiCostanzo, and Susan Cember. It provides guidance on native plants for homeowners and developers to support environmental services and habitat values. However, no specific conservation projects or events with goals, locations, dates, or participation details are advertised in the provided sources.",
-      "confidence": 40,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
       "sourceRefs": [
-        "https://www.mtpleasantny.gov/DocumentCenter/View/240/2020-Native-Plant-Resource-Guide-PDF"
+        "https://www.mtpleasantny.gov/list.aspx"
       ],
-      "gap": "The sources do not include any advertised conservation projects or events with stated goals, locations, dates, frequency, or participation information. The only conservation-related content is a static 2020 plant resource guide, which does not meet best practice standards for project/event listings.",
-      "score": 0.1,
+      "score": 0,
       "nextPrompts": [
-        "Does the Town of Mount Pleasant Conservation Advisory Council maintain a calendar or events page listing upcoming conservation projects or volunteer opportunities?",
-        "Are there any town board meeting minutes or news pages referencing active conservation initiatives, cleanups, or habitat restoration events?"
+        "Check the Recreation & Parks Projects page directly at mtpleasantny.gov for any conservation-related listings",
+        "Search the Town-wide Events calendar on mtpleasantny.gov for conservation events with dates and participation details"
       ]
     },
     {
@@ -43,29 +42,29 @@
     }
   ],
   "scores": {
-    "overallScore": 0.5,
-    "normalizedScore": 0.5,
-    "averageConfidence": 13,
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 3,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0.1,
+        0,
         0,
         0
       ],
-      "averageQuestionScore": 0.03,
-      "weightedScore": 0.05,
-      "totalWeightedScore": 0.08,
+      "averageQuestionScore": 0,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0.1,
+          "score": 0,
           "weight": 0.8,
-          "weightedScore": 0.08,
+          "weightedScore": 0,
           "maxWeightedScore": 0.8,
-          "confidence": 40
+          "confidence": 10
         },
         {
           "id": "2",
@@ -86,17 +85,17 @@
       ]
     }
   },
-  "overallScore": 0.5,
-  "averageConfidence": 13,
+  "overallScore": 0,
+  "averageConfidence": 3,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:11.032Z",
+  "lastUpdated": "2026-05-26T20:52:19.706Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.mtpleasantny.gov/DocumentCenter/View/240/2020-Native-Plant-Resource-Guide-PDF",
-      "title": "https://www.mtpleasantny.gov/DocumentCenter/View/240/2020-Native-Plant-Resource-Guide-PDF"
+      "title": "2020 Native Plant Resource Guide PDF"
     }
   ]
 }

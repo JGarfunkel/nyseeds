@@ -3,7 +3,7 @@
     {
       "id": "boards",
       "name": "boards",
-      "type": "general",
+      "type": "statutory",
       "displayName": "Governing Boards & Committees",
       "description": "Governance structure, authority, public access, and decision-making for boards and committees",
       "show": true,
@@ -75,7 +75,8 @@
       "raptors",
       "turtle",
       "pesticide",
-      "rodenticide"
+      "rodenticide",
+      "forest"
     ],
     "questionPromptScope": "Focus on wildlife protection, habitat conservation, and biodiversity regulations, including wildlife corridors and specific protections for amphibians, birds, and turtles.",
     "questionPromptRequirements": [
@@ -96,8 +97,12 @@
       "pollinators",
       "butterflies",
       "bees",
+      "milkweed",
+      "asters",
+      "sedges",
       "habitat restoration",
-      "landscaping"
+      "landscaping",
+      "deer"
     ],
     "questionPromptScope": "Focus on native plant promotion, pollinator-friendly landscaping, and habitat restoration regulations.",
     "questionPromptRequirements": [

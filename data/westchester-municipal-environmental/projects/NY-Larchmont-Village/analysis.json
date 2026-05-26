@@ -1,5 +1,5 @@
 {
-  "id": "NY-Larchmont-Village-projects-1778785768786",
+  "id": "NY-Larchmont-Village-projects-1779828701819",
   "entityId": "NY-Larchmont-Village",
   "domainId": "projects",
   "entity": {
@@ -15,9 +15,17 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The sources reference the Larchmont Environmental Committee (LEC) and several advisory committees (Climate Smart Communities, Coastal Zone Management, Parks & Trees, Beautification) that work on conservation-related efforts. The LEC's relevant links include a Calendar/Events page for Environmental/Sustainability-related activities, as well as resources on Home Water Conservation Tips, Sustainable Landscaping, Household Recycling Tips, and a Leaf Blower Ban. The committee welcomes volunteers for 'meaningful projects' and encourages residents to contact the Village Clerk's Office. However, specific currently advertised conservation projects or events with dates, locations, and participation details are not enumerated in the provided excerpts.",
+      "confidence": 30,
+      "sourceRefs": [
+        "https://www.larchmontny.gov/government/advisory_committees",
+        "https://www.larchmontny.gov/government/advisory_committees/environment.php"
+      ],
+      "score": 0.15,
+      "nextPrompts": [
+        "What events or projects are listed on the LEC Calendar/Events page (larchmontny.gov environmental calendar)?",
+        "Are there any current volunteer sign-up opportunities or scheduled conservation events listed under Parks & Trees or Climate Smart Communities committees?"
+      ]
     },
     {
       "id": 2,
@@ -35,29 +43,29 @@
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.75,
+    "normalizedScore": 0.75,
+    "averageConfidence": 10,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.15,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.05,
+      "weightedScore": 0.075,
+      "totalWeightedScore": 0.12,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.15,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.12,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 30
         },
         {
           "id": "2",
@@ -78,17 +86,17 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.75,
+  "averageConfidence": 10,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:10.880Z",
+  "lastUpdated": "2026-05-26T20:51:41.819Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.larchmontny.gov/government/advisory_committees",
-      "title": "https://www.larchmontny.gov/government/advisory_committees"
+      "title": "Advisory Committees"
     }
   ]
 }

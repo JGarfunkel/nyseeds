@@ -1,5 +1,5 @@
 {
-  "id": "NY-Tuckahoe-Village-projects-1778785945107",
+  "id": "NY-Tuckahoe-Village-projects-1779829008208",
   "entityId": "NY-Tuckahoe-Village",
   "domainId": "projects",
   "entity": {
@@ -82,7 +82,8 @@
   "averageConfidence": 0,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:12:25.107Z",
+  "lastUpdated": "2026-05-26T20:56:48.208Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

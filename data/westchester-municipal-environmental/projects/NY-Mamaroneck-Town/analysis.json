@@ -1,5 +1,5 @@
 {
-  "id": "NY-Mamaroneck-Town-projects-1778785778365",
+  "id": "NY-Mamaroneck-Town-projects-1779828708166",
   "entityId": "NY-Mamaroneck-Town",
   "domainId": "projects",
   "entity": {
@@ -82,7 +82,8 @@
   "averageConfidence": 0,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:09:38.365Z",
+  "lastUpdated": "2026-05-26T20:51:48.166Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

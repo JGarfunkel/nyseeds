@@ -1,5 +1,5 @@
 {
-  "id": "NY-Peekskill-City-projects-1778785894034",
+  "id": "NY-Peekskill-City-projects-1779828867973",
   "entityId": "NY-Peekskill-City",
   "domainId": "projects",
   "entity": {
@@ -15,25 +15,31 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "The following conservation-related projects and events are advertised in CAC meeting agendas:\n\n**Upcoming/Recent Events:**\n- \"From Hell Strip to Slice of Heaven\" Garden Walk (Jan 31, 1pm) – native plant seed donation/collection\n- Girl Scout & Cub Scout seed planting event (Jan 23) – Monarch butterfly focus\n- Hudson River Advocacy Day in Albany (Feb 24, 2026)\n- WASS Tours: Material Recovery Facility in Yonkers (Feb 11) and CompostED Facility in Valhalla (March 18, RSVP by March 9)\n- Peekskill Community Collaborative Meeting (Feb 11)\n\n**Planned 2026 Community Events:**\n- Mosquito Bucket Challenge\n- Full Moon Walk(s) for adults (partnering with Peekskill Walks)\n- Mycoblitz 2026\n- Mothapolooza 2026\n- Mayor's Monarch Pledge 2026 Action\n\nThese are sourced from CAC agendas dated January 8 and February 12, 2026.",
+      "answer": "Several conservation-related events are advertised in Peekskill's CAC meeting agendas:\n\n**Upcoming/Recent Events:**\n- \"From Hell Strip to Slice of Heaven\" Garden Walk (Jan 31, 1pm) – native plant seed donation/collection, in collaboration with Peekskill100\n- Girl Scout Troop seed planting & Monarch discussion (Jan 23)\n- Hudson River Advocacy Day in Albany (Feb 24, 2026) – carpooling available\n- WASS Tours: Material Recovery Facility in Yonkers (Feb 11) and CompostED Facility in Valhalla (March 18, RSVP by March 9)\n- Peekskill Community Collaborative Meeting (Feb 11)\n\n**Planned 2026 Community-Building Events (in planning stage):**\n- Mosquito Bucket Challenge\n- Full Moon Walk(s) for adults (partnering with Peekskill Walks)\n- Mycoblitz 2026\n- Mothapolooza 2026\n- Mayor's Monarch Pledge 2026 Action\n- Franklin Park Garden initiative (speaker planned for March)\n\nThese are sourced from CAC meeting agendas dated January 8 and February 12, 2026.",
       "confidence": 72,
       "sourceRefs": [
         "https://www.cityofpeekskillny.gov/AgendaCenter/ViewFile/Agenda/_01082026-1177",
         "https://www.cityofpeekskillny.gov/AgendaCenter/ViewFile/Agenda/_02122026-1189"
       ],
-      "gap": "Events are listed in meeting agendas rather than a dedicated public-facing webpage with goals, locations, dates, eligibility, and frequency. Best practice calls for a structured project/event listing on the city website.",
-      "score": 0.3,
+      "score": 0.35,
       "nextPrompts": [
-        "Is there a dedicated conservation or CAC events page on the City of Peekskill website?",
-        "Are goals, locations, and eligibility details published anywhere for events like Mothapolooza or Mycoblitz?"
+        "Is there a dedicated conservation or CAC events page on the City of Peekskill website listing current projects with full details?",
+        "What are the participation requirements and locations for the Mycoblitz and Mothapolooza 2026 events?"
       ]
     },
     {
       "id": 2,
       "question": "What documentation or photo/videos showing past projects exists online?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://www.cityofpeekskill.com/"
+      ],
+      "score": 0,
+      "nextPrompts": [
+        "Search the City of Peekskill website for a dedicated 'Projects' or 'Capital Improvements' page with photo documentation and project updates.",
+        "Check the City of Peekskill's social media accounts or press releases for dated photos or videos of completed municipal or conservation projects."
+      ]
     },
     {
       "id": 3,
@@ -44,27 +50,27 @@
     }
   ],
   "scores": {
-    "overallScore": 1.5,
-    "normalizedScore": 1.5,
-    "averageConfidence": 24,
+    "overallScore": 1.75,
+    "normalizedScore": 1.75,
+    "averageConfidence": 27,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0.3,
+        0.35,
         0,
         0
       ],
-      "averageQuestionScore": 0.1,
-      "weightedScore": 0.15,
-      "totalWeightedScore": 0.24,
+      "averageQuestionScore": 0.12,
+      "weightedScore": 0.175,
+      "totalWeightedScore": 0.28,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0.3,
+          "score": 0.35,
           "weight": 0.8,
-          "weightedScore": 0.24,
+          "weightedScore": 0.28,
           "maxWeightedScore": 0.8,
           "confidence": 72
         },
@@ -74,7 +80,7 @@
           "weight": 0.4,
           "weightedScore": 0,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "3",
@@ -87,69 +93,69 @@
       ]
     }
   },
-  "overallScore": 1.5,
-  "averageConfidence": 24,
+  "overallScore": 1.75,
+  "averageConfidence": 27,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:11.323Z",
+  "lastUpdated": "2026-05-26T20:54:27.973Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.cityofpeekskill.com/281/Community-Links",
-      "title": "https://www.cityofpeekskill.com/281/Community-Links"
+      "title": "Community Links | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskill.com/294/Solarize-Peekskill",
-      "title": "https://www.cityofpeekskill.com/294/Solarize-Peekskill"
+      "title": "Solarize Peekskill | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskill.com/296/Westchester-Power-Program---Community-Ch",
-      "title": "https://www.cityofpeekskill.com/296/Westchester-Power-Program---Community-Ch"
+      "title": "Westchester Power Program - Community Choice Aggregation | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskill.com/31/Community",
-      "title": "https://www.cityofpeekskill.com/31/Community"
+      "title": "Community | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskill.com/670/Inclusive-Community",
-      "title": "https://www.cityofpeekskill.com/670/Inclusive-Community"
+      "title": "Inclusive Community | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/281/Community-Links",
-      "title": "https://www.cityofpeekskillny.gov/281/Community-Links"
+      "title": "Community Links | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/294/Solarize-Peekskill",
-      "title": "https://www.cityofpeekskillny.gov/294/Solarize-Peekskill"
+      "title": "Solarize Peekskill | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/296/Westchester-Power-Program---Community-Ch",
-      "title": "https://www.cityofpeekskillny.gov/296/Westchester-Power-Program---Community-Ch"
+      "title": "Westchester Power Program - Community Choice Aggregation | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/556/Composting-Food-Scraps-Recycling",
-      "title": "https://www.cityofpeekskillny.gov/556/Composting-Food-Scraps-Recycling"
+      "title": "Composting & Food Scraps Recycling | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/557/DEC-Community-Air-Screen-Program",
-      "title": "https://www.cityofpeekskillny.gov/557/DEC-Community-Air-Screen-Program"
+      "title": "DEC Community Air Screen Program | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/559/MacGregory-Brook-Restoration-Project",
-      "title": "https://www.cityofpeekskillny.gov/559/MacGregory-Brook-Restoration-Project"
+      "title": "MacGregory Brook Restoration Project | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/670/Inclusive-Community",
-      "title": "https://www.cityofpeekskillny.gov/670/Inclusive-Community"
+      "title": "Inclusive Community | Peekskill, NY"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/AgendaCenter/ViewFile/Agenda/_01082026-1177",
-      "title": "https://www.cityofpeekskillny.gov/AgendaCenter/ViewFile/Agenda/_01082026-1177"
+      "title": " 01082026 1177"
     },
     {
       "url": "https://www.cityofpeekskillny.gov/AgendaCenter/ViewFile/Agenda/_02122026-1189",
-      "title": "https://www.cityofpeekskillny.gov/AgendaCenter/ViewFile/Agenda/_02122026-1189"
+      "title": " 02122026 1189"
     }
   ]
 }

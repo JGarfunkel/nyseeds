@@ -1,5 +1,5 @@
 {
-  "id": "NY-Croton-on-Hudson-Village-projects-1778785726076",
+  "id": "NY-Croton-on-Hudson-Village-projects-1779828624678",
   "entityId": "NY-Croton-on-Hudson-Village",
   "domainId": "projects",
   "entity": {
@@ -82,7 +82,8 @@
   "averageConfidence": 0,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:08:46.076Z",
+  "lastUpdated": "2026-05-26T20:50:24.678Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

@@ -1,5 +1,5 @@
 {
-  "id": "NY-PoundRidge-Town-projects-1778785910100",
+  "id": "NY-PoundRidge-Town-projects-1779828927416",
   "entityId": "NY-PoundRidge-Town",
   "domainId": "projects",
   "entity": {
@@ -15,16 +15,31 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Community Compost program is an ongoing conservation initiative where Pound Ridge residents can drop off organic food waste at the Town's Recycling Center, 290 Stone Hill Road, on Wednesdays and Saturdays from 8 a.m.–noon. Free Compost Kits are available from the Recreation Department at the Town House. Additionally, Pound Ridge Proud Day includes beautification projects such as planting and maintaining green spaces, painting, and general cleanup, open to residents of all ages and community groups.",
+      "confidence": 62,
+      "sourceRefs": [
+        "https://www.townofpoundridge.com/conservationboard/community-compost",
+        "https://www.townofpoundridge.com/livinghere/pound-ridge-proud-day"
+      ],
+      "score": 0.35,
+      "nextPrompts": [
+        "Is there a scheduled date and registration process for Pound Ridge Proud Day 2025/2026?",
+        "Are there additional conservation events or volunteer projects listed on the Conservation Board's main page?"
+      ]
     },
     {
       "id": 2,
       "question": "What documentation or photo/videos showing past projects exists online?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Town of Poundridge Conservation Board's community compost page references thumbnail images that can be clicked to view a slideshow, suggesting some photo documentation exists online at https://www.townofpoundridge.com/conservationboard/community-compost. No other specific photo, video, or project documentation is described in the provided sources.",
+      "confidence": 30,
+      "sourceRefs": [
+        "https://www.townofpoundridge.com/conservationboard/community-compost"
+      ],
+      "score": 0.1,
+      "nextPrompts": [
+        "Does the Town of Poundridge Conservation Board maintain a dedicated project portfolio or annual report with dated photos and outcomes on their website?",
+        "Are there any social media accounts or external platforms (e.g., YouTube, Facebook) where the Town of Poundridge documents completed conservation or environmental projects?"
+      ]
     },
     {
       "id": 3,
@@ -35,37 +50,37 @@
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 2,
+    "normalizedScore": 2,
+    "averageConfidence": 31,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
-        0,
+        0.35,
+        0.1,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.15,
+      "weightedScore": 0.2,
+      "totalWeightedScore": 0.32,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.35,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.28,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 62
         },
         {
           "id": "2",
-          "score": 0,
+          "score": 0.1,
           "weight": 0.4,
-          "weightedScore": 0,
+          "weightedScore": 0.04,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 30
         },
         {
           "id": "3",
@@ -78,17 +93,17 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 2,
+  "averageConfidence": 31,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:11.469Z",
+  "lastUpdated": "2026-05-26T20:55:27.416Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.townofpoundridge.com/townclerk/2026-maintenance-services-scotts-corners",
-      "title": "https://www.townofpoundridge.com/townclerk/2026-maintenance-services-scotts-corners"
+      "title": "2026 Maintenance Services in Scotts Corners | Town of Pound Ridge New York Official Website"
     }
   ]
 }

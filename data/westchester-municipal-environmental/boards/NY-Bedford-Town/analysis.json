@@ -1,5 +1,5 @@
 {
-  "id": "NY-Bedford-Town-boards-1779299058315",
+  "id": "NY-Bedford-Town-boards-1779827726703",
   "entityId": "NY-Bedford-Town",
   "domainId": "boards",
   "entity": {
@@ -19,57 +19,61 @@
       "confidence": 10,
       "sourceRefs": [
         "https://bedfordny.gov/272/Conservation-Board"
+      ],
+      "gap": "The source does not list total authorized seats, currently filled seats, or vacancies for the Conservation Board.",
+      "score": 0,
+      "nextPrompts": [
+        "Search Bedford NY municipal code or town ordinances for the authorized composition of the Conservation Board.",
+        "Check Bedford NY official meeting minutes or appointment records for current member count and vacancies."
       ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "The Conservation Board's webpage lists a Facebook page (Bedford Love Nature) as a social media account, and provides an email address for contact: conservationchair@bedfordny.gov. The page also encourages the public to sign up for a monthly newsletter called 'Bedford Loves Nature.'",
-      "confidence": 85,
-      "sourceRefs": [
-        "https://bedfordny.gov/272/Conservation-Board"
-      ]
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
     }
   ],
   "scores": {
     "overallScore": 0,
     "normalizedScore": 0,
-    "averageConfidence": 14,
+    "averageConfidence": 1,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
@@ -141,16 +145,16 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 85
+          "confidence": 0
         }
       ]
     }
   },
   "overallScore": 0,
-  "averageConfidence": 14,
+  "averageConfidence": 1,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:18.315Z",
+  "lastUpdated": "2026-05-26T20:35:26.703Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [

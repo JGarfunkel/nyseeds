@@ -1,5 +1,5 @@
 {
-  "id": "NY-NewCastle-Town-boards-1779299089997",
+  "id": "NY-NewCastle-Town-boards-1779828157778",
   "entityId": "NY-NewCastle-Town",
   "domainId": "boards",
   "entity": {
@@ -15,83 +15,105 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "The sources list 12 named members of the Conservation Board (Victoria Alzapiedi, June Boyle, Marie Boster, Brandon Cavanagh, Jon Garfunkel, Roma Huggahalli as Student Member, TR Kelly, Stephen Kovari, Laura Lennihan, Angela Morgan, Belinda Rowsell, and Sara Weissman), plus a Town Board Liaison and a Staff Liaison. The total number of authorized seats and any current vacancies are not specified in the provided sources.",
-      "confidence": 60,
+      "answer": "The Conservation Board currently lists 11 voting members and 1 student member as filled seats: Victoria Alzapiedi (Chair), June Boyle, Marie Boster, Brandon Cavanagh, Jon Garfunkel, Roma Huggahalli (Student Member), TR Kelly, Stephen Kovari, Laura Lennihan, Angela Morgan, Belinda Rowsell, and Sara Weissman. Additionally, Holly McCall serves as Town Board Liaison and Dennis Corelli as Staff Liaison. The total number of authorized seats and any vacancies are not specified in the provided sources.",
+      "confidence": 45,
       "sourceRefs": [
         "https://www.mynewcastleny.gov/269/Conservation-Board"
+      ],
+      "gap": "The source lists current members but does not state the total number of authorized seats or identify any vacancies. Full alignment with best practice would require explicit disclosure of authorized seat count and vacancy status.",
+      "score": 0.3,
+      "nextPrompts": [
+        "What is the total number of authorized seats on the New Castle Conservation Board per Town Code or resolution?",
+        "Are there any current vacancies on the New Castle Conservation Board?"
       ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://www.mynewcastleny.gov/101/Departments"
+      ],
+      "gap": "The sources do not address how meeting dates, times, locations, or public notice details are posted or made accessible to the public. A dedicated meetings/calendar page or public notice policy would be needed to assess alignment with best practices.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the New Castle town website have a dedicated meetings calendar or agenda page listing upcoming board and committee meetings with dates, times, and locations?",
+        "What are the public notice requirements for New Castle governing boards and committees under New York Open Meetings Law?"
+      ]
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Conservation Board Activities page lists seasonal educational resources, including a 'Fall Native Plants Companion' (PDF) and a 'Fall Nature Hunt for Kids' (PDF), indicating some ongoing public engagement work. However, these appear to be informational/educational materials rather than formal ongoing projects or stated priorities.",
+      "confidence": 35,
+      "sourceRefs": [
+        "https://www.mynewcastleny.gov/704/Conservation-Board-Activities"
+      ],
+      "gap": "The page shows limited activity content (seasonal PDFs) but does not clearly present ongoing projects, strategic priorities, or current work in progress in a structured format. A dedicated projects or priorities section would better align with best practice.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the Conservation Board have a dedicated strategic plan or annual work plan published on the site?",
+        "Are there meeting agendas or minutes that outline current Conservation Board projects or priorities?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 9,
+    "overallScore": 0.5,
+    "normalizedScore": 0.5,
+    "averageConfidence": 13,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
+        0.3,
         0,
         0,
         0,
         0,
-        0,
-        0,
+        0.2,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.07,
+      "weightedScore": 0.05,
+      "totalWeightedScore": 0.7,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.3,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.3,
           "maxWeightedScore": 1,
-          "confidence": 60
+          "confidence": 45
         },
         {
           "id": "2",
@@ -107,7 +129,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "4",
@@ -127,11 +149,11 @@
         },
         {
           "id": "6",
-          "score": 0,
+          "score": 0.2,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 0.4,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 35
         },
         {
           "id": "7",
@@ -144,11 +166,11 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 9,
+  "overallScore": 0.5,
+  "averageConfidence": 13,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:49.997Z",
+  "lastUpdated": "2026-05-26T20:42:37.779Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [

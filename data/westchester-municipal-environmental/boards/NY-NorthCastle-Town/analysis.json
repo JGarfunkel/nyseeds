@@ -1,5 +1,5 @@
 {
-  "id": "NY-NorthCastle-Town-boards-1779299094337",
+  "id": "NY-NorthCastle-Town-boards-1779828228903",
   "entityId": "NY-NorthCastle-Town",
   "domainId": "boards",
   "entity": {
@@ -15,42 +15,62 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 10,
-      "sourceRefs": []
+      "answer": "The North Castle Conservation Board currently lists 8 named members/officers: Jane Black (Co-Chair, term expires April 10, 2026), John Krupa (Co-Chair, term expires December 31, 2026), Adam Barnett (Member, May 14, 2027), Craig Benedict (Member, April 23, 2027), George Drapeau (Member, April 10, 2026), Vincent Giordano (Member, October 10, 2026), Erin McCaffrey Nenadich (Member, October 23, 2026), and Julie Mucker (Secretary). Councilman Jose Berra serves as Town Board Liaison. The total number of authorized seats and any vacancies are not specified in the provided sources.",
+      "confidence": 40,
+      "sourceRefs": [
+        "https://www.northcastleny.com/654/Conservation-Board"
+      ],
+      "gap": "The source lists current members but does not state the total number of authorized seats or identify any vacancies. Full alignment with best practice would require explicit disclosure of authorized seat count and vacancy status.",
+      "score": 0.3,
+      "nextPrompts": [
+        "What is the total number of authorized seats on the North Castle Conservation Board per town code or resolution?",
+        "Are there any current vacancies on the North Castle Conservation Board as of 2026?"
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 5,
+      "sourceRefs": [],
+      "gap": "The sources provided contain no information about governing board or committee member names, appointment methods, term lengths, or expiration dates. The retrieved content relates entirely to private water wells and wildlife/tick resources, which are unrelated to the question.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the North Castle NY website directly for board and committee membership pages listing member names, appointment methods, and term information.",
+        "Check https://www.northcastleny.com for a dedicated 'Boards & Committees' section that may include member rosters and term details."
+      ]
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 5,
+      "sourceRefs": [],
+      "gap": "No information found regarding agenda posting practices, timeliness, or accessibility for governing boards and committees in North Castle, NY.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the North Castle NY website for a dedicated 'Agendas & Minutes' or 'Board Meetings' page to determine how and when agendas are posted.",
+        "Check the North Castle Town Board or specific committee pages for agenda posting policies or schedules."
+      ]
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
@@ -64,14 +84,14 @@
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 3,
+    "overallScore": 0.21,
+    "normalizedScore": 0.21,
+    "averageConfidence": 9,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.3,
         0,
         0,
         0,
@@ -79,18 +99,18 @@
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.04,
+      "weightedScore": 0.0214,
+      "totalWeightedScore": 0.3,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.3,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.3,
           "maxWeightedScore": 1,
-          "confidence": 10
+          "confidence": 40
         },
         {
           "id": "2",
@@ -98,7 +118,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 5
         },
         {
           "id": "3",
@@ -114,7 +134,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 5
         },
         {
           "id": "5",
@@ -143,11 +163,11 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 3,
+  "overallScore": 0.21,
+  "averageConfidence": 9,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:54.337Z",
+  "lastUpdated": "2026-05-26T20:43:48.903Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [

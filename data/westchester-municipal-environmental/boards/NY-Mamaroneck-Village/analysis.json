@@ -1,5 +1,5 @@
 {
-  "id": "NY-Mamaroneck-Village-boards-1779299081714",
+  "id": "NY-Mamaroneck-Village-boards-1779828080479",
   "entityId": "NY-Mamaroneck-Village",
   "domainId": "boards",
   "entity": {
@@ -15,121 +15,174 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Committee for the Environment is authorized to have 11 members, all appointed by the Board of Trustees and serving three-year terms without compensation. The statute does not provide information on how many seats are currently filled or how many vacancies exist as of the document date (2025-04-14). [§ 20-2]",
+      "confidence": 40,
+      "sourceRefs": [
+        "§ 20-2 – Membership; terms; compensation; vacancies"
+      ],
+      "gap": "The statute specifies 11 authorized seats but does not disclose the number of currently filled seats or existing vacancies. Full alignment with best practice would require current membership and vacancy data.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Request a current roster of appointed members from the Village of Mamaroneck Clerk's office to determine filled seats and vacancies.",
+        "Check the Village of Mamaroneck's official website or Board of Trustees meeting minutes for recent appointment records for the Committee for the Environment."
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The statute (§ 20-2) specifies that the Committee for the Environment is comprised of 11 members appointed by the Board of Trustees, serving three-year terms expiring at the end of the Village's official year. The Chairperson is also appointed by the Board of Trustees. Vacancies are filled for unexpired terms in the same manner as original appointments. However, the statute does not list individual member names or specific term expiration dates for current members.",
+      "confidence": 55,
+      "sourceRefs": [
+        "§ 20-2 Membership; terms; compensation; vacancies"
+      ],
+      "gap": "The statute provides appointment method and term length but does not publish individual member names or specific term expiration dates, falling short of the best practice of clearly listing all four elements (names, appointment method, term lengths, and expiration dates).",
+      "score": 0.3,
+      "nextPrompts": [
+        "Does the Village of Mamaroneck website or a separate board/committee roster page list current member names and their term expiration dates for the Committee for the Environment?",
+        "Are there meeting minutes or annual reports that identify current Committee for the Environment members and their appointment dates?"
+      ]
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The statute (§ 20-5) requires the Committee for the Environment to comply with New York State's Open Meetings Law (Public Officers Law § 100 et seq.), which mandates public notice of meetings. However, the statute does not specify how or where meeting dates, times, and locations are to be posted, nor does it detail the format or advance timing of public notices beyond the general reference to Open Meetings Law compliance.",
+      "confidence": 45,
+      "sourceRefs": [
+        "§ 20-5, Village of Mamaroneck Chapter 20, added 6-11-2018 by L.L. No. 7-2018"
+      ],
+      "gap": "The statute references Open Meetings Law compliance but does not specify where or how meeting dates, times, locations, and public notices are posted (e.g., village website, bulletin board). Best practice calls for clearly listed, easily accessible meeting information online.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the Village of Mamaroneck website publish a calendar or schedule of Committee for the Environment meetings with dates, times, and locations?",
+        "What specific public notice procedures does the Village follow under New York Open Meetings Law for advisory committee meetings?"
+      ]
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The statute (§ 20-5) requires the Committee for the Environment to comply with New York State's Open Meetings Law (Public Officers Law § 100 et seq.), even though the Committee operates in an advisory capacity. Under New York's Open Meetings Law, public bodies are generally required to post agendas and meeting notices at least 72 hours in advance. However, the statute itself does not specify where agendas must be posted, how they are made accessible (e.g., on a website), or any additional timeliness requirements beyond what the Open Meetings Law mandates.",
+      "confidence": 45,
+      "sourceRefs": [
+        "§ 20-5 Procedures, Village of Mamaroneck Chapter 20, added 6-11-2018 by L.L. No. 7-2018"
+      ],
+      "gap": "The statute references Open Meetings Law compliance but does not specify that agendas must be posted on the village website, how far in advance beyond the statutory minimum, or in a consistent and easily discoverable manner. Best practice calls for explicit website posting and consistent advance notice.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Does the Village of Mamaroneck's website have a dedicated page for the Committee for the Environment where agendas are posted before meetings?",
+        "Does the Village have a broader municipal policy or code section specifying agenda posting requirements and timelines for all boards and committees?"
+      ]
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The statute (§ 20-5) requires the Committee for the Environment to comply with New York State's Open Meetings Law (Public Officers Law § 100 et seq.), which mandates that minutes be made available to the public. However, the statute does not specify requirements for online posting or define a timeframe for posting minutes after meetings.",
+      "confidence": 45,
+      "sourceRefs": [
+        "§ 20-5, Village of Mamaroneck Chapter 20, added 6-11-2018 by L.L. No. 7-2018"
+      ],
+      "gap": "The statute references Open Meetings Law compliance but does not explicitly require online posting of minutes or specify a prompt posting timeline. Best practice calls for approved minutes or summaries to be available online and posted promptly after meetings.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Does the Village of Mamaroneck have a separate policy or administrative code section specifying timelines for posting committee minutes online?",
+        "Are the Committee for the Environment's minutes currently accessible on the Village of Mamaroneck's official website?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The statute outlines the Committee for the Environment's general responsibilities, including advising on environmental issues, promoting recycling, reducing pollution, decreasing energy consumption, and eliminating harmful pesticides and fertilizers. However, no specific ongoing projects, current priorities, or work in progress are identified in the provided statute text.",
+      "confidence": 30,
+      "sourceRefs": [
+        "§ 20-1C",
+        "§ 20-3"
+      ],
+      "gap": "The statute describes the committee's general mission and duties but does not include a link or reference to ongoing projects, current priorities, or active work in progress. This falls short of the best practice of clearly communicating active initiatives and their status.",
+      "score": 0.1,
+      "nextPrompts": [
+        "Does the Village of Mamaroneck website have a dedicated Committee for the Environment page listing current projects or priorities?",
+        "Are there recent meeting minutes or annual reports from the Committee for the Environment that detail ongoing work?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 20-1",
+        "§ 20-2"
+      ],
+      "score": 0
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 2.07,
+    "normalizedScore": 2.07,
+    "averageConfidence": 39,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        0.2,
+        0.3,
+        0.2,
+        0.3,
+        0.3,
+        0.1,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.2,
+      "weightedScore": 0.2071,
+      "totalWeightedScore": 2.9000000000000004,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.2,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.2,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 40
         },
         {
           "id": "2",
-          "score": 0,
+          "score": 0.3,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 0.6,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 55
         },
         {
           "id": "3",
-          "score": 0,
+          "score": 0.2,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 0.4,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 45
         },
         {
           "id": "4",
-          "score": 0,
+          "score": 0.3,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 0.6,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 45
         },
         {
           "id": "5",
-          "score": 0,
+          "score": 0.3,
           "weight": 3,
-          "weightedScore": 0,
+          "weightedScore": 0.9,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 45
         },
         {
           "id": "6",
-          "score": 0,
+          "score": 0.1,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 0.2,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 30
         },
         {
           "id": "7",
@@ -137,16 +190,16 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 2.07,
+  "averageConfidence": 39,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:41.714Z",
+  "lastUpdated": "2026-05-26T20:41:20.479Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

@@ -1,5 +1,5 @@
 {
-  "id": "NY-Buchanan-Village-projects-1778785707956",
+  "id": "NY-Buchanan-Village-projects-1779828600891",
   "entityId": "NY-Buchanan-Village",
   "domainId": "projects",
   "entity": {
@@ -82,7 +82,8 @@
   "averageConfidence": 0,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:08:27.956Z",
+  "lastUpdated": "2026-05-26T20:50:00.891Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

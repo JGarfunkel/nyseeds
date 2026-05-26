@@ -1,5 +1,5 @@
 {
-  "id": "NY-MountPleasant-Town-boards-1779299087105",
+  "id": "NY-MountPleasant-Town-boards-1779828128951",
   "entityId": "NY-MountPleasant-Town",
   "domainId": "boards",
   "entity": {
@@ -15,10 +15,17 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "The Conservation Advisory Council (CAC) letter lists the following members: Steven Kavee (Chairman), Josephine Di Costanzo, Lee S. Parker, Carmel Promisel, and Steven Willard — totaling 5 named members. The sources do not specify the total number of authorized seats, how many are currently filled beyond those listed, or how many vacancies exist.",
-      "confidence": 40,
+      "answer": "The Conservation Advisory Council (CAC) is authorized to have seven members per §14-8A. The current members listed on the town website are: Steven Kavee (Chairman), Gibson Craig, Josephine DiCostanzo, GG Kopilak, Steven Willard, Pamela Brown, and Dennis Corelli — totaling seven filled seats. No vacancies are indicated based on the listed membership.",
+      "confidence": 72,
       "sourceRefs": [
-        "https://www.mtpleasantny.gov/DocumentCenter/View/237/Meadows-at-Briarcliff-Draft-Scoping-Document-Pocantico-Lakes-CAC-Summary-Comments-PDF"
+        "§ 14-8A (Town Code, Chapter 14, Article II)",
+        "https://www.mtpleasantny.gov/270/Conservation-Advisory-Council"
+      ],
+      "gap": "The website lists current members but does not explicitly state the number of filled seats or confirm zero vacancies. No date is provided for when the membership list was last updated, making it unclear if the roster is current.",
+      "score": 0.65,
+      "nextPrompts": [
+        "When was the CAC membership list on the town website last updated, and are there any currently advertised vacancies?",
+        "Does the Town Board maintain a formal record of CAC appointment dates and term expirations that would confirm all seven seats are currently filled?"
       ]
     },
     {
@@ -27,84 +34,110 @@
       "answer": "Not specified in the provided sources.",
       "confidence": 10,
       "sourceRefs": [
-        "Section 105.17"
+        "§ 14-2",
+        "§ 14-8",
+        "§ 14-3"
+      ],
+      "gap": "The sources do not provide member names, appointment methods, term lengths, or expiration dates for any board or committee. Full alignment with best practice requires clearly listing all four elements for each member on the website.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the Town of Mount Pleasant website for board/committee member rosters including appointment method and term expiration dates.",
+        "Review Chapter 14 Boards and Councils in full for provisions on member appointments, qualifications, and term lengths."
       ]
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 10,
+      "answer": "The Town of Mount Pleasant website includes a calendar showing upcoming meeting dates. For example, the May 2026 calendar lists a Town Board Meeting on Tuesday, May 26, and Court on Thursday, May 28, with links to read more. The website also features a 'Stay Notified' section, an 'Agendas & Minutes' section, and posts public hearing notices (e.g., Town Board Public Hearing posted May 16, 2026). The town's address is One Town Hall Plaza, Valhalla, NY 10595, and phone number 914-742-2300 are listed. Office hours (Monday–Friday, 8:30 am–4:30 pm) are also provided. Meeting times and specific room/location details within the town hall are not explicitly shown in the excerpts provided.",
+      "confidence": 62,
       "sourceRefs": [
-        "Section 105.17"
+        "https://www.mtpleasantny.gov/"
+      ],
+      "gap": "The calendar shows meeting dates and links but does not clearly display meeting times or specific room/location details inline. Best practice calls for dates, times, locations, and public notice details all clearly visible without requiring additional clicks.",
+      "score": 0.55,
+      "nextPrompts": [
+        "Do the individual meeting detail pages (linked from the calendar) include specific times and room locations for each board or committee meeting?",
+        "Are public notice postings for all boards and committees (e.g., Conservation Advisory Council, Planning Board) consistently listed with advance notice periods on the website?"
       ]
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
       "sourceRefs": [
-        "Section 105.17"
+        "https://www.mtpleasantny.gov/508/Earth-Watch"
+      ],
+      "gap": "No information found regarding agenda posting practices, timing, or accessibility for governing boards and committees in Mt. Pleasant, NY.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the Mt. Pleasant, NY official website for a dedicated agendas/minutes page for governing boards and committees.",
+        "Check if the Conservation Advisory Council or other boards post agendas on the municipal calendar or meeting portal prior to scheduled meetings."
       ]
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": [
+        "§ 14-3",
+        "§ 14-4",
+        "§ 14-2",
         "Section 105.17"
       ]
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "The source references a draft Master and Comprehensive Plan that was currently under review by the Town at the time of the document, indicating ongoing planning work. The Pocantico Lakes CAC (likely a Citizens Advisory Committee) submitted comments on a Draft Scoping Document related to the Meadows at Briarcliff development, suggesting active committee involvement in environmental review. However, this is a single document excerpt rather than a board or committee page displaying ongoing projects or priorities.",
-      "confidence": 30,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
       "sourceRefs": [
-        "https://www.mtpleasantny.gov/DocumentCenter/View/237/Meadows-at-Briarcliff-Draft-Scoping-Document-Pocantico-Lakes-CAC-Summary-Comments-PDF"
+        "§ 14-3",
+        "§ 14-10",
+        "§ 14-2",
+        "Section 206-49"
       ]
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
       "answer": "Not specified in the provided sources.",
-      "confidence": 10,
+      "confidence": 5,
       "sourceRefs": [
-        "Section 105.17"
+        "https://www.mtpleasantny.gov/508/Earth-Watch"
       ],
       "score": 0
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 14,
+    "overallScore": 1.25,
+    "normalizedScore": 1.25,
+    "averageConfidence": 23,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
+        0.65,
         0,
-        0,
-        0,
+        0.55,
         0,
         0,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.17,
+      "weightedScore": 0.125,
+      "totalWeightedScore": 1.75,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.65,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.65,
           "maxWeightedScore": 1,
-          "confidence": 40
+          "confidence": 72
         },
         {
           "id": "2",
@@ -116,11 +149,11 @@
         },
         {
           "id": "3",
-          "score": 0,
+          "score": 0.55,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 1.1,
           "maxWeightedScore": 2,
-          "confidence": 10
+          "confidence": 62
         },
         {
           "id": "4",
@@ -128,7 +161,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "5",
@@ -144,7 +177,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 30
+          "confidence": 0
         },
         {
           "id": "7",
@@ -152,16 +185,16 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 10
+          "confidence": 5
         }
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 14,
+  "overallScore": 1.25,
+  "averageConfidence": 23,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:47.105Z",
+  "lastUpdated": "2026-05-26T20:42:08.951Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [

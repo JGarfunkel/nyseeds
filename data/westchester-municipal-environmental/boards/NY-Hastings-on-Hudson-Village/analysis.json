@@ -1,5 +1,5 @@
 {
-  "id": "NY-Hastings-on-Hudson-Village-boards-1779299074414",
+  "id": "NY-Hastings-on-Hudson-Village-boards-1779827969045",
   "entityId": "NY-Hastings-on-Hudson-Village",
   "domainId": "boards",
   "entity": {
@@ -15,49 +15,75 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://www.hohny.gov/461/Get-Involved",
+        "https://www.hohny.gov/613/Zero-Waste-Advisory-Taskforce-ZWAT"
+      ],
+      "gap": "The sources do not specify the total number of authorized seats, currently filled seats, or vacancies for the Conservation Commission or its subcommittees. The ZWAT page lists 10 named members but provides no authorized seat count or vacancy information.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the Village of Hastings-on-Hudson municipal code or official resolutions for the authorized membership size of the Conservation Commission.",
+        "Check the Village Board meeting minutes or official appointments page for current member counts and any open vacancies on the Conservation Commission."
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://www.hohny.gov/461/Get-Involved",
+        "https://www.hohny.gov/523/Compost"
+      ],
+      "gap": "The sources contain no information about board/committee member names, appointment methods, term lengths, or expiration dates. The retrieved pages relate to community events and composting programs, not governance membership details.",
+      "score": 0,
+      "nextPrompts": [
+        "Search hohny.gov for a dedicated board or committee roster page listing member names and term information.",
+        "Look for a Village Board or Conservation Commission page on hohny.gov that includes appointment and term details."
+      ]
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://www.hohny.gov/461/Get-Involved"
+      ],
+      "gap": "The provided source contains no information about meeting dates, times, locations, or public notice details for governing boards or committees. A best-practice website would clearly list all upcoming meeting information in an accessible location.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the Hastings-on-Hudson municipal website for a dedicated 'Meetings' or 'Calendar' page listing board and committee meeting schedules.",
+        "Check individual board/committee pages (e.g., Village Board, Planning Board, Zoning Board) on hohny.gov for posted agendas, notices, and meeting details."
+      ]
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     }
@@ -65,7 +91,7 @@
   "scores": {
     "overallScore": 0,
     "normalizedScore": 0,
-    "averageConfidence": 0,
+    "averageConfidence": 4,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
@@ -89,7 +115,7 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "2",
@@ -97,7 +123,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "3",
@@ -105,7 +131,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "4",
@@ -143,10 +169,10 @@
     }
   },
   "overallScore": 0,
-  "averageConfidence": 0,
+  "averageConfidence": 4,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:34.414Z",
+  "lastUpdated": "2026-05-26T20:39:29.045Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

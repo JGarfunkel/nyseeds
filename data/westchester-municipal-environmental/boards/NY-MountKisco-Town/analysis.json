@@ -1,5 +1,5 @@
 {
-  "id": "NY-MountKisco-Town-boards-1779299083232",
+  "id": "NY-MountKisco-Town-boards-1779828095847",
   "entityId": "NY-MountKisco-Town",
   "domainId": "boards",
   "entity": {
@@ -15,62 +15,70 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Conservation Advisory Council is authorized to have 9 members appointed by the Village Board of Trustees. Currently, 5 seats are filled: Alan Antin (term expires 12/6/2027), Robin Buco (12/6/2027), Mark von Holstein (12/6/2027), Zachary Strauss (12/3/2028), and Renee Lomax (12/3/2028), plus a Chairperson (unnamed). There are 3 listed vacancies. Note: It is unclear if the Chairperson is one of the 5 named members or an additional filled seat.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://www.mountkiscony.gov/government/boards_and_commissions/conservation_advisor_council.php"
+      ],
+      "gap": "The chairperson's identity is not specified, making the exact count of filled seats ambiguous. No current date is provided on the page to confirm the vacancy information is up to date.",
+      "score": 0.7,
+      "nextPrompts": [
+        "Who is the current Chairperson of the Conservation Advisory Council, and are they one of the five named members?",
+        "When was the membership list on the Conservation Advisory Council page last updated?"
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.5,
+    "normalizedScore": 0.5,
+    "averageConfidence": 10,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.7,
         0,
         0,
         0,
@@ -78,18 +86,18 @@
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.1,
+      "weightedScore": 0.05,
+      "totalWeightedScore": 0.7,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.7,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.7,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 72
         },
         {
           "id": "2",
@@ -142,11 +150,11 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.5,
+  "averageConfidence": 10,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:43.232Z",
+  "lastUpdated": "2026-05-26T20:41:35.847Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

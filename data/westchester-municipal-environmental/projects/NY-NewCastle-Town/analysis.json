@@ -1,5 +1,5 @@
 {
-  "id": "NY-NewCastle-Town-projects-1778785840521",
+  "id": "NY-NewCastle-Town-projects-1779828772939",
   "entityId": "NY-NewCastle-Town",
   "domainId": "projects",
   "entity": {
@@ -15,18 +15,17 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "The sources advertise community involvement in combatting the Spotted Lanternfly through participation in community clean-up events and volunteer programs aimed at removing lanternflies and their eggs. The Conservation Board also encourages public attendance at its monthly meetings (usually the first Monday of the month) at Town Hall for those interested in conservation efforts. Additional conservation resources are referenced at https://mynewcastle.org/conservation-board, https://www.healthyyards.org/, and https://www.pollinator-pathway.org/.",
-      "confidence": 55,
+      "answer": "The following conservation-related projects and events are currently advertised for New Castle, NY:\n\n1. **Conservation Corner: Help Wildlife Navigate Temperature Swings** – featured in latest news.\n2. **Rooted In New Castle** – scheduled for Saturdays 5/23 & 6/6.\n3. **Sustainability Spotlight – New Castle Going Green: Composting with Peter Jamros** – featured in news.\n4. **Native Plants to Spot in the Fall** – Fall Native Plants Companion (PDF) and Fall Nature Hunt for Kids (PDF) available via the Conservation Board Activities page.\n5. **Projects of Note** include: Addressing Climate Change, Decommissioning Upper Minkel Dam, Natural Resources Inventory, Stormwater management, and Hazard Mitigation Plan.\n\nThe Conservation Board meets monthly (usually the first Monday of the month) at Town Hall and encourages public involvement. Contact: 914-238-4723.",
+      "confidence": 62,
       "sourceRefs": [
-        "https://www.mynewcastleny.gov/DocumentCenter/View/4751/Protect-Our-Trees-Combatting-the-Spotted-Lanternfly-Town-of-New-Castle-PDF",
-        "https://www.mynewcastleny.gov/DocumentCenter/View/372/Planting-Along-the-Lines---Landscape-Buffers-PDF",
-        "https://www.mynewcastleny.gov/269/Conservation-Board"
+        "https://www.mynewcastleny.gov/",
+        "https://www.mynewcastleny.gov/704/Conservation-Board-Activities",
+        "https://www.mynewcastleny.gov/329/Projects-of-Note"
       ],
-      "gap": "The sources mention community clean-up events and volunteer programs for Spotted Lanternfly removal but lack specific details on goals, locations, dates, who can participate, and frequency. No structured project listings aligned with best practices are present.",
-      "score": 0.2,
+      "score": 0.35,
       "nextPrompts": [
-        "Are there specific upcoming conservation events with dates and locations listed on the New Castle Conservation Board webpage or event calendar?",
-        "Does the Town of New Castle publish a schedule or registration process for Spotted Lanternfly volunteer clean-up events?"
+        "What are the goals, dates, and participation details for the 'Rooted In New Castle' event on 5/23 and 6/6?",
+        "What specific actions or public involvement opportunities are associated with the Decommissioning Upper Minkel Dam or Natural Resources Inventory projects?"
       ]
     },
     {
@@ -34,55 +33,55 @@
       "question": "What documentation or photo/videos showing past projects exists online?",
       "answer": "Not specified in the provided sources.",
       "confidence": 10,
-      "sourceRefs": [],
-      "gap": "The provided sources contain no documentation, photos, videos, or online portfolio of past projects. Best practice calls for a public project portfolio with dated photos/videos, before-and-after documentation, and brief narratives of completed conservation work.",
+      "sourceRefs": [
+        "https://www.mynewcastleny.gov/"
+      ],
       "score": 0,
       "nextPrompts": [
-        "Does the Town of New Castle Conservation Board maintain a project gallery or archive on mynewcastleny.gov or social media?",
-        "Are there any annual reports or newsletters from the Conservation Board that document completed on-the-ground projects with photos?"
+        "Search the Newcastle NY website or linked portals for a 'Projects' or 'Capital Improvements' section with photo documentation.",
+        "Check the Fiscal Transparency Portal linked from mynewcastleny.gov for project records or completed work documentation."
       ]
     },
     {
       "id": 3,
       "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
-      "answer": "The sources describe two specific opportunities for community involvement: (1) Home landscaping — residents are encouraged to plant landscape buffers along property lines, with guidance on plant selection and design to reduce CO2, attract pollinators, limit soil erosion, and aid water retention. The Town's Environmental Coordinator (914-238-4723) and resources like healthyyards.org and pollinator-pathway.org are referenced for support. (2) Surveillance and reporting — residents are asked to identify and report Spotted Lanternfly sightings to the NYS Department of Agriculture and Markets or Cornell, with DEC providing additional reporting guidelines. Attendance at Environmental Board meetings is also mentioned as a way to get involved. No information is provided about shared space maintenance programs, volunteer coordination, or how to donate time or financial resources.",
-      "confidence": 42,
+      "answer": "The sources describe two main opportunities for resident involvement in New Castle. First, the Recreation & Parks Department offers over 150 recreation activities within a 550-acre park system, governed by a seven-member Commission, though specific volunteer or donation pathways are not detailed. Second, the Conservation Board encourages homeowners to plant native landscape buffers along property perimeters, providing guidance on plant selection, design, and environmental benefits (e.g., attracting pollinators, reducing CO2, limiting erosion). Residents are encouraged to discuss plans with neighbors to share ideas and resources, and to attend Conservation Board meetings. Contact is available via the Town's Environmental Coordinator at 914-238-4723 or through resources like healthyyards.org and pollinator-pathway.org. No information on surveillance/reporting programs or shared space maintenance volunteering is provided in these sources.",
+      "confidence": 40,
       "sourceRefs": [
-        "https://www.mynewcastleny.gov/DocumentCenter/View/372/Planting-Along-the-Lines---Landscape-Buffers-PDF",
-        "https://www.mynewcastleny.gov/DocumentCenter/View/4751/Protect-Our-Trees-Combatting-the-Spotted-Lanternfly-Town-of-New-Castle-PDF"
+        "https://www.mynewcastleny.gov/158/Recreation-Parks",
+        "https://www.mynewcastleny.gov/DocumentCenter/View/372/Planting-Along-the-Lines---Landscape-Buffers-PDF"
       ],
-      "gap": "Sources cover home landscaping guidance and pest reporting but lack information on shared space maintenance programs, volunteer coordination, or mechanisms for donating time or resources. A full spectrum of engagement opportunities with clear onboarding instructions is absent.",
-      "score": 0.3,
+      "score": 0.2,
       "nextPrompts": [
-        "Does New Castle have a volunteer or community stewardship program for parks or shared green spaces?",
-        "Are there organized tree planting, trail maintenance, or environmental volunteer events listed on the Town website?"
+        "Does New Castle have a volunteer program or adopt-a-park initiative for shared space maintenance in its parks system?",
+        "Is there a neighborhood watch, environmental reporting hotline, or stewardship program available to residents in New Castle?"
       ]
     }
   ],
   "scores": {
-    "overallScore": 1.75,
-    "normalizedScore": 1.75,
-    "averageConfidence": 36,
+    "overallScore": 2.25,
+    "normalizedScore": 2.25,
+    "averageConfidence": 37,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0.2,
+        0.35,
         0,
-        0.3
+        0.2
       ],
-      "averageQuestionScore": 0.17,
-      "weightedScore": 0.175,
-      "totalWeightedScore": 0.28,
+      "averageQuestionScore": 0.18,
+      "weightedScore": 0.225,
+      "totalWeightedScore": 0.36000000000000004,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0.2,
+          "score": 0.35,
           "weight": 0.8,
-          "weightedScore": 0.16,
+          "weightedScore": 0.28,
           "maxWeightedScore": 0.8,
-          "confidence": 55
+          "confidence": 62
         },
         {
           "id": "2",
@@ -94,62 +93,62 @@
         },
         {
           "id": "3",
-          "score": 0.3,
+          "score": 0.2,
           "weight": 0.4,
-          "weightedScore": 0.12,
+          "weightedScore": 0.08,
           "maxWeightedScore": 0.4,
-          "confidence": 42
+          "confidence": 40
         }
       ]
     }
   },
-  "overallScore": 1.75,
-  "averageConfidence": 36,
+  "overallScore": 2.25,
+  "averageConfidence": 37,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:11.108Z",
+  "lastUpdated": "2026-05-26T20:52:52.939Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.mynewcastleny.gov/",
-      "title": "https://www.mynewcastleny.gov/"
+      "title": "New Castle, NY | Official Website"
     },
     {
       "url": "https://www.mynewcastleny.gov/171/Special-Programs-Events",
-      "title": "https://www.mynewcastleny.gov/171/Special-Programs-Events"
+      "title": "Special Programs & Events | New Castle, NY"
     },
     {
       "url": "https://www.mynewcastleny.gov/269/Conservation-Board",
-      "title": "https://www.mynewcastleny.gov/269/Conservation-Board"
+      "title": "Conservation Board | New Castle, NY"
     },
     {
       "url": "https://www.mynewcastleny.gov/365/Programs",
-      "title": "https://www.mynewcastleny.gov/365/Programs"
+      "title": "Programs | New Castle, NY"
     },
     {
       "url": "https://www.mynewcastleny.gov/642/Community-Events",
-      "title": "https://www.mynewcastleny.gov/642/Community-Events"
+      "title": "Community Events | New Castle, NY"
     },
     {
       "url": "https://www.mynewcastleny.gov/DocumentCenter/View/3555/NYS-DEC-Plant-List-PDF",
-      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/3555/NYS-DEC-Plant-List-PDF"
+      "title": "NYS DEC Plant List PDF"
     },
     {
       "url": "https://www.mynewcastleny.gov/DocumentCenter/View/372/Planting-Along-the-Lines---Landscape-Buffers-PDF",
-      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/372/Planting-Along-the-Lines---Landscape-Buffers-PDF"
+      "title": "Planting Along The Lines Landscape Buffers PDF"
     },
     {
       "url": "https://www.mynewcastleny.gov/DocumentCenter/View/4751/Protect-Our-Trees-Combatting-the-Spotted-Lanternfly-Town-of-New-Castle-PDF",
-      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/4751/Protect-Our-Trees-Combatting-the-Spotted-Lanternfly-Town-of-New-Castle-PDF"
+      "title": "Protect Our Trees Combatting The Spotted Lanternfly Town Of New Castle PDF"
     },
     {
       "url": "https://www.mynewcastleny.gov/DocumentCenter/View/5221/Fall-Native-Plants-Companion-PDF",
-      "title": "https://www.mynewcastleny.gov/DocumentCenter/View/5221/Fall-Native-Plants-Companion-PDF"
+      "title": "Fall Native Plants Companion PDF"
     },
     {
       "url": "https://www.mynewcastleny.gov/sitemap",
-      "title": "https://www.mynewcastleny.gov/sitemap"
+      "title": "Site Map • New Castle, NY • CivicEngage"
     }
   ]
 }

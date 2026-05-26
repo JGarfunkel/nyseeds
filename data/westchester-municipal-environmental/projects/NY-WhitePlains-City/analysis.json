@@ -1,5 +1,5 @@
 {
-  "id": "NY-WhitePlains-City-projects-1778785948770",
+  "id": "NY-WhitePlains-City-projects-1779829028340",
   "entityId": "NY-WhitePlains-City",
   "domainId": "projects",
   "entity": {
@@ -15,49 +15,69 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Two conservation-related events are advertised on the City of White Plains website:\n\n1. **Pollinator Garden Maintenance Morning** – Hosted by the WP Sustainability Committee at the Rec & Parks Building. Scheduled for Saturday, April 25, from 9:30 AM to 12:30 PM. Open to all residents. Participants are encouraged to bring gloves, water, and garden tools.\n\n2. **Prescription Drug Take Back Day** – Scheduled for Saturday, April 25 at Renaissance Plaza (environmental/public health conservation focus).\n\nThe Sustainable White Plains Committee also maintains a Native Plant Demo Garden and offers a Habitat Restoration How-To Guide as ongoing resources. Residents are directed to the White Plains Sustainability Committee Facebook group for the most current event information.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://www.cityofwhiteplains.com/",
+        "https://www.cityofwhiteplains.com/556/Sustainable-White-Plains-Committee"
+      ],
+      "score": 0.4,
+      "nextPrompts": [
+        "Does the Sustainable White Plains Committee webpage list ongoing or multi-year conservation projects with goals and timelines?",
+        "What events or projects are listed on the White Plains Sustainability Committee Facebook group?"
+      ]
     },
     {
       "id": 2,
       "question": "What documentation or photo/videos showing past projects exists online?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0,
+      "nextPrompts": [
+        "Search the White Plains Multimedia page (linked from cityofwhiteplains.com/9/Our-Community) for any photo galleries or video archives of past projects.",
+        "Check the White Plains Capital Projects or Public Works department pages for project completion reports, photo documentation, or progress updates."
+      ]
     },
     {
       "id": 3,
       "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://www.cityofwhiteplains.com/148/Community-Development-Citizens-Advisory-"
+      ],
+      "score": 0,
+      "nextPrompts": [
+        "Does White Plains have a volunteer or community engagement program with specific opportunities for residents to participate in neighborhood maintenance or beautification?",
+        "Does White Plains offer a neighborhood watch, adopt-a-block, or similar program with clear sign-up instructions for residents?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 2,
+    "normalizedScore": 2,
+    "averageConfidence": 31,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.4,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.13,
+      "weightedScore": 0.2,
+      "totalWeightedScore": 0.32,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.4,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.32,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 72
         },
         {
           "id": "2",
@@ -65,7 +85,7 @@
           "weight": 0.4,
           "weightedScore": 0,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "3",
@@ -73,22 +93,22 @@
           "weight": 0.4,
           "weightedScore": 0,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 2,
+  "averageConfidence": 31,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:11.880Z",
+  "lastUpdated": "2026-05-26T20:57:08.340Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.cityofwhiteplains.com/",
-      "title": "https://www.cityofwhiteplains.com/"
+      "title": "White Plains, NY - Official Website | Official Website"
     }
   ]
 }

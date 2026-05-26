@@ -1,5 +1,5 @@
 {
-  "id": "NY-NewRochelle-City-projects-1778785842784",
+  "id": "NY-NewRochelle-City-projects-1779828787804",
   "entityId": "NY-NewRochelle-City",
   "domainId": "projects",
   "entity": {
@@ -15,9 +15,16 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Two conservation-related programs are advertised on the New Rochelle city website:\n\n1. **Food Scrap Recycling Program** – Drop-off locations at Pinebrook Tennis Center Parking Lot and D'Onofrio Park. No dates or frequency specified.\n\n2. **Helpsy Textile Recycling Program** – Recycle textiles via free home pickup. No dates or additional details specified.\n\nAdditionally, **Yard Waste Collection** began April 6, with residents reminded to place yard waste at the curb by 7 a.m. for collection.\n\nSource: https://www.newrochelleny.com/",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://www.newrochelleny.com/"
+      ],
+      "score": 0.3,
+      "nextPrompts": [
+        "What are the schedules, eligibility requirements, and goals for the Food Scrap Recycling and Helpsy Textile Recycling programs in New Rochelle?",
+        "Does New Rochelle have a dedicated environmental or sustainability page listing all active conservation projects with dates, locations, and participation details?"
+      ]
     },
     {
       "id": 2,
@@ -29,35 +36,40 @@
     {
       "id": 3,
       "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0,
+      "nextPrompts": [
+        "Does New Rochelle have a volunteer or community stewardship program for parks, public spaces, or neighborhood beautification?",
+        "Does New Rochelle offer a neighborhood watch, block captain, or community reporting program with participation instructions?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 1.5,
+    "normalizedScore": 1.5,
+    "averageConfidence": 27,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.3,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.1,
+      "weightedScore": 0.15,
+      "totalWeightedScore": 0.24,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.3,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.24,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 72
         },
         {
           "id": "2",
@@ -73,16 +85,17 @@
           "weight": 0.4,
           "weightedScore": 0,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 1.5,
+  "averageConfidence": 27,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:10:42.784Z",
+  "lastUpdated": "2026-05-26T20:53:07.804Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

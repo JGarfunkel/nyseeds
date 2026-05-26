@@ -1,5 +1,5 @@
 {
-  "id": "NY-Somers-Town-projects-1778785933190",
+  "id": "NY-Somers-Town-projects-1779828994363",
   "entityId": "NY-Somers-Town",
   "domainId": "projects",
   "entity": {
@@ -82,41 +82,41 @@
   "averageConfidence": 0,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:11.748Z",
+  "lastUpdated": "2026-05-26T20:56:34.363Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.somersny.com/events/saint-lukes-episcopal-church-plant-sale",
-      "title": "https://www.somersny.com/events/saint-lukes-episcopal-church-plant-sale"
+      "title": "Saint Luke's Episcopal Church Plant Sale, May 7 to May 16, 2026"
     },
     {
       "url": "https://www.somersny.com/events/somers-senior-programs-cinco-de-mayo-celebration",
-      "title": "https://www.somersny.com/events/somers-senior-programs-cinco-de-mayo-celebration"
+      "title": "Somers Senior Programs Cinco De Mayo Celebration"
     },
     {
       "url": "https://www.somersny.gov/events",
-      "title": "https://www.somersny.gov/events"
+      "title": "Events"
     },
     {
       "url": "https://www.somersny.gov/events/saint-lukes-episcopal-church-plant-sale",
-      "title": "https://www.somersny.gov/events/saint-lukes-episcopal-church-plant-sale"
+      "title": "Saint Luke's Episcopal Church Plant Sale, May 7 to May 16, 2026"
     },
     {
       "url": "https://www.somersny.gov/events/senior-programs-presents-trip-to-ny-yankees-game",
-      "title": "https://www.somersny.gov/events/senior-programs-presents-trip-to-ny-yankees-game"
+      "title": "Somers Senior Programs Presents Trip to NY Yankees Game"
     },
     {
       "url": "https://www.somersny.gov/events/somers-senior-programs-cinco-de-mayo-celebration",
-      "title": "https://www.somersny.gov/events/somers-senior-programs-cinco-de-mayo-celebration"
+      "title": "Somers Senior Programs Cinco De Mayo Celebration"
     },
     {
       "url": "https://www.somersny.gov/events/somers-senior-programs-presents-hudson-breeze-harbor-feast",
-      "title": "https://www.somersny.gov/events/somers-senior-programs-presents-hudson-breeze-harbor-feast"
+      "title": "Somers Senior Programs Presents Hudson Breeze & Harbor Feast"
     },
     {
       "url": "https://www.somersny.gov/resources/tree-inventory-community-forest-management-plan-project",
-      "title": "https://www.somersny.gov/resources/tree-inventory-community-forest-management-plan-project"
+      "title": "Tree Inventory & Community Forest Management Plan Project"
     }
   ]
 }

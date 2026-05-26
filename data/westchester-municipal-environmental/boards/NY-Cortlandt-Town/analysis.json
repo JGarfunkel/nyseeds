@@ -1,5 +1,5 @@
 {
-  "id": "NY-Cortlandt-Town-boards-1779299063969",
+  "id": "NY-Cortlandt-Town-boards-1779378179144",
   "entityId": "NY-Cortlandt-Town",
   "domainId": "boards",
   "entity": {
@@ -15,62 +15,98 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Cortlandt CAC is authorized to have up to 11 voting members appointed by the Town Board, plus up to 2 student members (one-year terms). Additionally, there are 3 non-voting ex officio members: the Town Supervisor, the Chairman of the Planning Board, and the Director of Planning and Community Improvement. The statute does not specify how many seats are currently filled or how many vacancies exist. [§ 15-3, amended 4-22-2025 by L.L. No. 3-2025]",
+      "confidence": 55,
+      "sourceRefs": [
+        "§ 15-3"
+      ],
+      "gap": "The statute provides authorized seat counts but does not list currently filled seats or existing vacancies. Full alignment with best practice would require current membership roster and vacancy information.",
+      "score": 0.3,
+      "nextPrompts": [
+        "What is the current membership roster of the Cortlandt CAC, including names and appointment dates?",
+        "Are there any currently advertised vacancies on the Cortlandt CAC as of 2025?"
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 5,
+      "sourceRefs": [
+        "§ 15-8"
+      ],
+      "gap": "The statute excerpt provided does not address board/committee member listings, appointment methods, term lengths, or expiration dates. A gap exists between best practice (clearly listing member names, appointment method, term lengths, and expiration dates) and what is available in the provided sources.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the Town of Cortlandt's official website for board and committee member rosters with appointment and term information.",
+        "Review Town of Cortlandt municipal code chapters specifically governing board composition, appointments, and terms of office."
+      ]
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 15-4",
+        "§ 15-5",
+        "§ 15-3"
+      ]
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 15-4",
+        "§ 15-3",
+        "§ 15-5"
+      ]
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 15-4",
+        "§ 15-3",
+        "§ 15-5"
+      ]
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 15-5",
+        "§ 15-4",
+        "§ 15-3"
+      ]
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 15-5",
+        "§ 15-4",
+        "§ 15-3"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.21,
+    "normalizedScore": 0.21,
+    "averageConfidence": 9,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.3,
         0,
         0,
         0,
@@ -78,18 +114,18 @@
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.04,
+      "weightedScore": 0.0214,
+      "totalWeightedScore": 0.3,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.3,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.3,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 55
         },
         {
           "id": "2",
@@ -97,7 +133,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 5
         },
         {
           "id": "3",
@@ -142,11 +178,11 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.21,
+  "averageConfidence": 9,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:23.969Z",
+  "lastUpdated": "2026-05-21T15:42:59.144Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

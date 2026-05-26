@@ -1,5 +1,5 @@
 {
-  "id": "NY-Pleasantville-Village-boards-1779299108643",
+  "id": "NY-Pleasantville-Village-boards-1779828340774",
   "entityId": "NY-Pleasantville-Village",
   "domainId": "boards",
   "entity": {
@@ -15,62 +15,70 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Conservation Advisory Council (CAC) of Pleasantville, NY currently lists 9 named members: Helen Meurer (Chair), Jennifer Frawley, Lisa Brown, Sophie Worley, Susan Todd, William Serlin, Michael Inglis, Tara Klein, and Philippe Yahia. The total number of authorized seats and any vacancies are not specified in the provided sources.",
+      "confidence": 40,
+      "sourceRefs": [
+        "https://www.pleasantville-ny.gov/1662/Conservation-Advisory-Council"
+      ],
+      "gap": "The website lists current members but does not state the total number of authorized seats or identify any vacancies. Full alignment with best practice would require explicitly stating authorized seat count and vacancy information.",
+      "score": 0.25,
+      "nextPrompts": [
+        "What is the total number of authorized seats on the Pleasantville Conservation Advisory Council per Village Code or local law?",
+        "Are there any current vacancies on the Pleasantville Conservation Advisory Council as of the most recent Village Board meeting minutes?"
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.18,
+    "normalizedScore": 0.18,
+    "averageConfidence": 6,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.25,
         0,
         0,
         0,
@@ -78,18 +86,18 @@
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.04,
+      "weightedScore": 0.0179,
+      "totalWeightedScore": 0.25,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.25,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.25,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 40
         },
         {
           "id": "2",
@@ -142,11 +150,11 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.18,
+  "averageConfidence": 6,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:45:08.643Z",
+  "lastUpdated": "2026-05-26T20:45:40.774Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

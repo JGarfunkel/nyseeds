@@ -1,5 +1,5 @@
 {
-  "id": "NY-Ardsley-Village-boards-1779299052537",
+  "id": "NY-Ardsley-Village-boards-1779827714927",
   "entityId": "NY-Ardsley-Village",
   "domainId": "boards",
   "entity": {
@@ -15,62 +15,102 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Commission shall consist of 11 members total. Seven members are appointed by the Board of Trustees and serve at the pleasure of the Board. The remaining members are ex officio members as provided in the statute. No information is provided regarding how many seats are currently filled or how many vacancies currently exist. (§ 14-2)",
+      "confidence": 55,
+      "sourceRefs": [
+        "§ 14-2"
+      ],
+      "gap": "The statute specifies 11 total authorized seats and the appointment structure, but does not provide current membership count or existing vacancies. A fully aligned source would include real-time data on filled seats and open vacancies.",
+      "score": 0.3,
+      "nextPrompts": [
+        "What are the current appointed members of the Ardsley Conservation Commission and are there any open vacancies?",
+        "Who are the current ex officio members of the Ardsley Conservation Commission?"
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 14-8"
+      ],
+      "gap": "The statute excerpt provided relates only to environmental powers of the Village of Ardsley and does not address board/committee member names, appointment methods, term lengths, or expiration dates. Full alignment with best practice cannot be assessed from this source.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the Village of Ardsley website or municipal code for board and committee membership rosters, including appointment methods and term details.",
+        "Review chapters specifically governing boards and committees (e.g., Planning Board, Zoning Board of Appeals) for term length and appointment provisions."
+      ]
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 14-4",
+        "§ 14-5",
+        "§ 14-1"
+      ]
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 14-4",
+        "§ 14-5",
+        "§ 14-1"
+      ]
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "Village of Ardsley, NY – Chapter 14, Environmental Conservation Commission (adopted 7-23-73, L.L. No. 1-1973)"
+      ],
+      "gap": "The statute does not address online availability or posting timelines for approved minutes or meeting summaries. A gap exists relative to best practice, which calls for approved minutes to be available online and posted promptly after meetings.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Village of Ardsley have a general records access or transparency policy that governs posting of meeting minutes online?",
+        "Are Environmental Conservation Commission meeting minutes currently posted on the Village of Ardsley official website, and if so, how promptly after meetings?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 14-5",
+        "§ 14-4",
+        "§ 14-8"
+      ]
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 14-5",
+        "§ 14-4",
+        "§ 14-2"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.21,
+    "normalizedScore": 0.21,
+    "averageConfidence": 11,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.3,
         0,
         0,
         0,
@@ -78,18 +118,18 @@
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.04,
+      "weightedScore": 0.0214,
+      "totalWeightedScore": 0.3,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.3,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.3,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 55
         },
         {
           "id": "2",
@@ -97,7 +137,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "3",
@@ -121,7 +161,7 @@
           "weight": 3,
           "weightedScore": 0,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "6",
@@ -142,11 +182,11 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.21,
+  "averageConfidence": 11,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:12.537Z",
+  "lastUpdated": "2026-05-26T20:35:14.927Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

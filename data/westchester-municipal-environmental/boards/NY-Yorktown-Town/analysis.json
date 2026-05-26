@@ -1,5 +1,5 @@
 {
-  "id": "NY-Yorktown-Town-boards-1779299130313",
+  "id": "NY-Yorktown-Town-boards-1779828481520",
   "entityId": "NY-Yorktown-Town",
   "domainId": "boards",
   "entity": {
@@ -15,89 +15,141 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Yorktown Conservation Board is authorized to have 10 members, appointed by the Town Board of the Town of Yorktown, each serving terms not exceeding three years (§ 10-7, adopted 5-17-1988 by L.L. No. 22-1988). The sources do not specify how many seats are currently filled or how many vacancies exist.",
+      "confidence": 40,
+      "sourceRefs": [
+        "§ 10-7, Town of Yorktown Code, Chapter 10, Article II, adopted 5-17-1988 by L.L. No. 22-1988"
+      ],
+      "gap": "The statute only provides the authorized seat count (10). Current filled seats and vacancies are not listed in the provided sources, falling short of best practice which requires all three data points.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Check the Town of Yorktown official website or Clerk's Office for a current roster of Conservation Board members to determine filled seats and vacancies.",
+        "Request meeting minutes or Town Board resolutions from 2024-2025 that may reflect recent appointments or vacancies on the Conservation Board."
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The statute specifies that the Yorktown Conservation Board consists of 10 members appointed by the Town Board of the Town of Yorktown. Members serve at the pleasure of the Town Board for a term not exceeding three years. No member names or term expiration dates are listed in the provided statute text.",
+      "confidence": 72,
+      "sourceRefs": [
+        "Town of Yorktown, NY, Chapter 10, Article II, § 10-7, adopted 5-17-1988 by L.L. No. 22-1988"
+      ],
+      "gap": "The statute provides appointment method and maximum term length, but does not list individual member names or specific term expiration dates. Full alignment with best practice would require a roster with each member's name, appointment basis, and term expiration date.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the Town of Yorktown maintain a current roster of Conservation Board members with appointment dates and term expirations on its official website?",
+        "Are Conservation Board member appointments recorded in Town Board meeting minutes with specific term start and end dates?"
+      ]
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "Town of Yorktown, NY - Chapter 10, Article II, §10-7"
+      ],
+      "gap": "The statute contains no information about meeting dates, times, locations, or public notice requirements for the Conservation Board. Best practice calls for clearly listed upcoming meeting details and public notice procedures.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Town of Yorktown website or Town Code contain a separate section specifying public notice requirements for Conservation Board meetings?",
+        "Are there Town Board resolutions or administrative policies governing how Conservation Board meeting schedules are posted and publicized?"
+      ]
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "Town of Yorktown, NY - Chapter 10, Article II, §10-7"
+      ],
+      "gap": "The statute contains no provisions addressing agenda posting requirements, public accessibility of agendas, or timing of agenda publication prior to meetings.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Town of Yorktown have a separate open meetings policy or administrative code that specifies agenda posting requirements and timelines?",
+        "Does the Town of Yorktown's website provide agendas for Conservation Board meetings, and how far in advance are they posted?"
+      ]
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "Town of Yorktown, NY - Chapter 10, Article II, §10-7"
+      ],
+      "gap": "The statute does not address online availability of minutes or posting timelines for meeting summaries. A gap exists relative to best practice, which calls for approved minutes to be available online and posted promptly after meetings.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Town of Yorktown have a separate records access or transparency policy that governs posting of board minutes online?",
+        "Are Conservation Board meeting minutes available on the Town of Yorktown official website, and is there a stated timeline for posting after approval?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "Town of Yorktown, NY - Chapter 10, Article II, § 10-7"
+      ],
+      "gap": "The statute only establishes the Conservation Board's creation, membership, and powers under General Municipal Law § 239-x. No ongoing projects, priorities, or current work in progress are referenced.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the Town of Yorktown Conservation Board maintain a separate webpage listing current projects or priorities?",
+        "Are there meeting minutes or agendas for the Yorktown Conservation Board that outline active initiatives?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 10-7",
+        "§ 239"
+      ],
+      "score": 0
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.43,
+    "normalizedScore": 0.43,
+    "averageConfidence": 23,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0,
-        0,
+        0.2,
+        0.2,
         0,
         0,
         0,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.06,
+      "weightedScore": 0.0429,
+      "totalWeightedScore": 0.6000000000000001,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.2,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.2,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 40
         },
         {
           "id": "2",
-          "score": 0,
+          "score": 0.2,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 0.4,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 72
         },
         {
           "id": "3",
@@ -105,7 +157,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "4",
@@ -113,7 +165,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "5",
@@ -121,7 +173,7 @@
           "weight": 3,
           "weightedScore": 0,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "6",
@@ -129,7 +181,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "7",
@@ -137,16 +189,16 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.43,
+  "averageConfidence": 23,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:45:30.313Z",
+  "lastUpdated": "2026-05-26T20:48:01.520Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

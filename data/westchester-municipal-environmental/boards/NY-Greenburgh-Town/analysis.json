@@ -1,5 +1,5 @@
 {
-  "id": "NY-Greenburgh-Town-boards-1779299071175",
+  "id": "NY-Greenburgh-Town-boards-1779827939764",
   "entityId": "NY-Greenburgh-Town",
   "domainId": "boards",
   "entity": {
@@ -15,62 +15,103 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Greenburgh Conservation Advisory Council currently lists 8 members appointed by the Town Board: Theresa Mae Tori (Chairperson), Donna Maiello (Vice Chairperson), Margaret Beal Rabito, Nancy Drain, Alison Gilmore, George Gundlach, Lauren Powell, and Liz Silverstein. The total number of authorized seats and any existing vacancies are not specified in the provided sources.",
+      "confidence": 40,
+      "sourceRefs": [
+        "https://www.greenburghny.com/270/Conservation-Advisory-Council"
+      ],
+      "gap": "The sources do not state the total number of authorized seats or identify any vacancies. Best practice requires listing authorized seats, filled seats, and vacancies explicitly.",
+      "score": 0.2,
+      "nextPrompts": [
+        "What does Greenburgh Town Code Chapter 520 specify regarding the total number of authorized seats on the Conservation Advisory Council?",
+        "Are there any current vacancies on the Greenburgh Conservation Advisory Council as listed on the Town's official appointments or vacancy notices?"
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 5,
+      "sourceRefs": [],
+      "gap": "The sources contain no information about board/committee member names, appointment methods, term lengths, or expiration dates. The retrieved excerpts relate exclusively to SEQR (State Environmental Quality Review) procedures and EIS processes, not governance membership details.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the Greenburgh NY website directly for board and committee membership pages listing member names, terms, and appointment details.",
+        "Check the Town of Greenburgh's official boards and commissions directory for term and appointment information."
+      ]
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "gap": "The sources focus on SEQR public participation processes and CAC roles but do not address how upcoming meeting dates, times, locations, and public notice details are posted or made accessible to the public.",
+      "score": 0,
+      "nextPrompts": [
+        "Does Greenburgh's website or municipal code specify requirements for posting CAC or Town Board meeting schedules, times, and locations?",
+        "Are there any local laws or resolutions in Greenburgh that govern public notice requirements for committee and board meetings?"
+      ]
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://www.greenburghny.com/669/Resource-IV--CAC-Guide-under-NYS-SEQR-an"
+      ],
+      "gap": "The statute excerpt does not address agenda posting practices, website accessibility, or timing of agenda publication before meetings. Full alignment with best practice cannot be assessed.",
+      "score": 0,
+      "nextPrompts": [
+        "Does Greenburgh NY post CAC or board agendas on their website, and if so, how many days before meetings?",
+        "Is there a municipal code or policy specifying when agendas must be posted for Greenburgh governing boards or committees?"
+      ]
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "Section 239"
+      ],
+      "gap": "The statute excerpts provided relate to SEQR (State Environmental Quality Review) procedures and EIS requirements, with no mention of online posting of approved minutes or meeting summaries, or timeliness of such postings.",
+      "score": 0,
+      "nextPrompts": [
+        "Search for Greenburgh CAC or governing board bylaws addressing minutes publication and online posting requirements.",
+        "Check the Greenburgh town website or municipal code for open meetings law compliance and minutes availability policies."
+      ]
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "Section 239"
+      ]
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "Section 239"
+      ],
+      "score": 0
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.14,
+    "normalizedScore": 0.14,
+    "averageConfidence": 12,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.2,
         0,
         0,
         0,
@@ -78,18 +119,18 @@
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.03,
+      "weightedScore": 0.0143,
+      "totalWeightedScore": 0.2,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.2,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.2,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 40
         },
         {
           "id": "2",
@@ -97,7 +138,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 5
         },
         {
           "id": "3",
@@ -105,7 +146,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "4",
@@ -113,7 +154,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "5",
@@ -121,7 +162,7 @@
           "weight": 3,
           "weightedScore": 0,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "6",
@@ -137,16 +178,16 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.14,
+  "averageConfidence": 12,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:31.175Z",
+  "lastUpdated": "2026-05-26T20:38:59.765Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

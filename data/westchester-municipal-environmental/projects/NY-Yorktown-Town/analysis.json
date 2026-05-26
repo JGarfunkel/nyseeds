@@ -1,5 +1,5 @@
 {
-  "id": "NY-Yorktown-Town-projects-1778785954329",
+  "id": "NY-Yorktown-Town-projects-1779829111813",
   "entityId": "NY-Yorktown-Town",
   "domainId": "projects",
   "entity": {
@@ -15,49 +15,65 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Yorktown website advertises a Relay for Life event on Friday, May 29, 2026, at Jack DeVito Field in Yorktown Heights, NY, from 3:00 PM to 10:00 PM. The site also references 'Sustainable Yorktown' as a section under Living in Yorktown, and mentions Parks, Preserves, and Trailways as community resources. No specific conservation projects with detailed goals, locations, or participation information are listed in the provided excerpts beyond the Relay for Life event and general navigation links.",
+      "confidence": 35,
+      "sourceRefs": [
+        "https://www.yorktownny.gov/"
+      ],
+      "score": 0.15,
+      "nextPrompts": [
+        "What initiatives or events are listed under the 'Sustainable Yorktown' section of the Yorktown website?",
+        "Are there any conservation volunteer opportunities or environmental programs advertised through Yorktown's Parks, Preserves, and Trailways pages?"
+      ]
     },
     {
       "id": 2,
       "question": "What documentation or photo/videos showing past projects exists online?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://www.yorktownny.gov/"
+      ],
+      "score": 0,
+      "nextPrompts": [
+        "Search the Town of Yorktown's YouTube channel for project documentation videos or before-and-after conservation footage.",
+        "Check Yorktown's Facebook and Instagram pages for dated posts showing completed municipal or conservation projects."
+      ]
     },
     {
       "id": 3,
       "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
       "answer": "No relevant sources available",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "Section 8"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.75,
+    "normalizedScore": 0.75,
+    "averageConfidence": 15,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.15,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.05,
+      "weightedScore": 0.075,
+      "totalWeightedScore": 0.12,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.15,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.12,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 35
         },
         {
           "id": "2",
@@ -65,7 +81,7 @@
           "weight": 0.4,
           "weightedScore": 0,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "3",
@@ -78,11 +94,12 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.75,
+  "averageConfidence": 15,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:12:34.329Z",
+  "lastUpdated": "2026-05-26T20:58:31.813Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

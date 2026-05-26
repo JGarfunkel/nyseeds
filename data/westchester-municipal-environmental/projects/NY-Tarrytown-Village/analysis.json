@@ -1,5 +1,5 @@
 {
-  "id": "NY-Tarrytown-Village-projects-1778785940590",
+  "id": "NY-Tarrytown-Village-projects-1779829006063",
   "entityId": "NY-Tarrytown-Village",
   "domainId": "projects",
   "entity": {
@@ -15,16 +15,16 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "The Tarrytown Tree Commission is advertised as dedicated to stewardship and preservation of the village's arboreal heritage and tree canopy. Their mission includes safeguarding Tarrytown's diverse native shade tree population to enhance environmental quality, aesthetic appeal, energy consumption reduction, and property values for future generations. This is listed under the village's events section.",
-      "confidence": 55,
+      "answer": "TEAC (Tarrytown Environmental Advisory Council) advertises the following conservation projects and events:\n\n1. **TEAC Vine Squad** – volunteer invasive vine removal\n2. **Waste Warriors** – community waste reduction initiative\n3. **Community Garden/Jardín Comunitario** – with published community garden rules\n4. **Tarrytown Lakes** project\n5. **Pollinator Pathways** – pollinator habitat initiative\n6. **Green Landscape Champions** program\n7. **Food Scrap Collection for Composting** – with a dedicated learn page\n8. **Chaos and Catharsis Speaker Series** – climate-focused speaker events\n9. **Dark Skies Are For The Birds!** – listed as a recent article/event\n10. **Tarrytown Tree Commission** – focused on stewardship and preservation of the village tree canopy\n\nRegular TEAC meetings are also advertised as open to the public. Volunteer opportunities are promoted broadly across these initiatives.",
+      "confidence": 62,
       "sourceRefs": [
+        "http://www.tarrytownenvironmental.org/",
         "https://www.tarrytownny.gov/home/events/54991"
       ],
-      "gap": "The source describes the Tree Commission's mission but does not list specific conservation projects or events with goals, locations, dates, participant eligibility, or frequency — all elements identified in best practices.",
-      "score": 0.2,
+      "score": 0.35,
       "nextPrompts": [
-        "Are there specific Tree Commission planting events, volunteer days, or conservation projects listed elsewhere on the Tarrytown website?",
-        "Does Tarrytown publish an annual calendar or project schedule for the Tree Commission or other conservation initiatives?"
+        "Do individual project pages (e.g., Vine Squad, Pollinator Pathways) include dates, meeting locations, and volunteer eligibility?",
+        "Does the TEAC events calendar provide specific upcoming event dates and participation details?"
       ]
     },
     {
@@ -43,29 +43,29 @@
     }
   ],
   "scores": {
-    "overallScore": 1,
-    "normalizedScore": 1,
-    "averageConfidence": 18,
+    "overallScore": 1.75,
+    "normalizedScore": 1.75,
+    "averageConfidence": 21,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0.2,
+        0.35,
         0,
         0
       ],
-      "averageQuestionScore": 0.07,
-      "weightedScore": 0.1,
-      "totalWeightedScore": 0.16,
+      "averageQuestionScore": 0.12,
+      "weightedScore": 0.175,
+      "totalWeightedScore": 0.28,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0.2,
+          "score": 0.35,
           "weight": 0.8,
-          "weightedScore": 0.16,
+          "weightedScore": 0.28,
           "maxWeightedScore": 0.8,
-          "confidence": 55
+          "confidence": 62
         },
         {
           "id": "2",
@@ -86,17 +86,17 @@
       ]
     }
   },
-  "overallScore": 1,
-  "averageConfidence": 18,
+  "overallScore": 1.75,
+  "averageConfidence": 21,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:11.816Z",
+  "lastUpdated": "2026-05-26T20:56:46.063Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.tarrytownny.gov/home/events/54991",
-      "title": "https://www.tarrytownny.gov/home/events/54991"
+      "title": "Tree Commission | Tarrytown NY"
     }
   ]
 }

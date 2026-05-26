@@ -1,5 +1,5 @@
 {
-  "id": "NY-BriarcliffManor-Village-boards-1779299059724",
+  "id": "NY-BriarcliffManor-Village-boards-1779827744118",
   "entityId": "NY-BriarcliffManor-Village",
   "domainId": "boards",
   "entity": {
@@ -15,62 +15,98 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Environmental Conservation Council of the Village of Briarcliff Manor is authorized to have 11 members, appointed by the Board of Trustees (§ 18-3). Additionally, the Board of Trustees may designate ex-officio members by resolution. No more than two members may be between the ages of 16 and 21. The statute does not provide information on how many seats are currently filled or how many vacancies exist.",
+      "confidence": 55,
+      "sourceRefs": [
+        "§ 18-3"
+      ],
+      "gap": "The statute specifies the total authorized seats (11) but does not provide current filled seats or vacancy counts. To fully align with best practice, the entity should publish current membership status and vacancies.",
+      "score": 0.3,
+      "nextPrompts": [
+        "What is the current membership roster of the Briarcliff Manor Environmental Conservation Council?",
+        "Are there any current vacancies on the Briarcliff Manor Environmental Conservation Council?"
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 5,
+      "sourceRefs": [
+        "§ 18-8"
+      ],
+      "gap": "The statute excerpt provided relates to environmental preservation powers and does not address board/committee member listings, appointment methods, term lengths, or expiration dates. Full alignment with best practice cannot be assessed from available sources.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the Village of Briarcliff Manor website directly for board and committee member rosters, including appointment methods and term expiration dates.",
+        "Review additional municipal code chapters specifically governing board composition, appointments, and terms for Briarcliff Manor governing bodies."
+      ]
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 18-4",
+        "§ 18-5",
+        "§ 18-1"
+      ]
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 18-4",
+        "§ 18-5",
+        "§ 18-1"
+      ]
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 18-4",
+        "§ 18-5",
+        "§ 18-3"
+      ]
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 18-5",
+        "§ 18-4",
+        "§ 18-8"
+      ]
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
-      "sourceRefs": []
+      "sourceRefs": [
+        "§ 18-5",
+        "§ 18-4",
+        "§ 18-8"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.21,
+    "normalizedScore": 0.21,
+    "averageConfidence": 9,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.3,
         0,
         0,
         0,
@@ -78,18 +114,18 @@
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.04,
+      "weightedScore": 0.0214,
+      "totalWeightedScore": 0.3,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.3,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.3,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 55
         },
         {
           "id": "2",
@@ -97,7 +133,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 5
         },
         {
           "id": "3",
@@ -142,11 +178,11 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.21,
+  "averageConfidence": 9,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:19.724Z",
+  "lastUpdated": "2026-05-26T20:35:44.118Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

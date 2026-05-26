@@ -1,5 +1,5 @@
 {
-  "id": "NY-RyeBrook-Village-projects-1778785925878",
+  "id": "NY-RyeBrook-Village-projects-1779828947074",
   "entityId": "NY-RyeBrook-Village",
   "domainId": "projects",
   "entity": {
@@ -15,16 +15,15 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "Not specified in the provided sources. The advertised events on the Rye Brook events page include community/recreational activities such as the 44th Birthday Celebration, Ice Cream Fridays, Movie Nights in the Park, and a Food Truck Event — none of which are conservation-related projects or events.",
+      "answer": "Not specified in the provided sources. The events listed for Rye Brook are recreational and entertainment events (birthday celebration, ice cream Fridays, movie nights, food truck event) with no conservation projects or events advertised.",
       "confidence": 85,
       "sourceRefs": [
         "https://www.ryebrook.org/events"
       ],
-      "gap": "The website does not list any conservation projects or events with goals, locations, dates, eligibility, or frequency. Best practice calls for dedicated conservation project listings with all of these details clearly stated.",
-      "score": 0,
+      "score": 0.05,
       "nextPrompts": [
-        "Does Rye Brook have a dedicated environmental or conservation department page listing active projects?",
-        "Are there any tree planting, recycling, watershed, or sustainability initiatives listed elsewhere on the Rye Brook municipal website?"
+        "Does Rye Brook have a dedicated environmental or conservation department page with project listings?",
+        "Are there any tree planting, stream cleanup, or sustainability initiatives listed elsewhere on the Rye Brook municipal website?"
       ]
     },
     {
@@ -43,27 +42,27 @@
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
+    "overallScore": 0.25,
+    "normalizedScore": 0.25,
     "averageConfidence": 28,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.05,
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.02,
+      "weightedScore": 0.025,
+      "totalWeightedScore": 0.04,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.05,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.04,
           "maxWeightedScore": 0.8,
           "confidence": 85
         },
@@ -86,17 +85,17 @@
       ]
     }
   },
-  "overallScore": 0,
+  "overallScore": 0.25,
   "averageConfidence": 28,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:11.576Z",
+  "lastUpdated": "2026-05-26T20:55:47.074Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.ryebrook.org/events",
-      "title": "https://www.ryebrook.org/events"
+      "title": "Spring Events - Village of Rye Brook"
     }
   ]
 }

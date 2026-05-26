@@ -1,5 +1,5 @@
 {
-  "id": "NY-Peekskill-City-boards-1779299102422",
+  "id": "NY-Peekskill-City-boards-1779828309091",
   "entityId": "NY-Peekskill-City",
   "domainId": "boards",
   "entity": {
@@ -15,98 +15,154 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 50,
-      "sourceRefs": []
+      "answer": "The Conservation Advisory Council is authorized to have nine members (§24-2). As of the source date, eight members are listed on the city website: Janine Melillo (Chair), Lise Prown (Vice-Chair), Elaine Caccoma, Sarah Aparacio, Courtney Williams, Deborah Bliss, Dana Freedenfeld, and Steven Forte. This indicates one vacancy exists, though the vacancy is not explicitly stated in the sources.",
+      "confidence": 72,
+      "sourceRefs": [
+        "§24-2, Chapter 24, City of Peekskill Code",
+        "https://www.cityofpeekskillny.gov/552/Conservation-Advisory-Council"
+      ],
+      "gap": "The city website does not explicitly state the number of vacancies. Total authorized seats and current members can be derived from the statute and member list, but a direct vacancy count is not provided.",
+      "score": 0.65,
+      "nextPrompts": [
+        "Does the city website or clerk's office maintain a current vacancy announcement for the Conservation Advisory Council?",
+        "Has the Common Council passed any resolution changing the authorized seat count from nine since the 2016 amendment?"
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The statute specifies that the Conservation Advisory Council consists of nine members appointed by the Common Council (§24-2), with each member serving a two-year term (§24-3A). The Common Council designates the Chair from among appointed members. However, the statute does not list individual member names or specific term expiration dates. The appointment method (Common Council appointment) and term length (two years) are clearly stated, but individual member rosters with expiration dates are not included in this statutory text.",
+      "confidence": 55,
+      "sourceRefs": [
+        "§24-2 Composition",
+        "§24-3 Terms of office; compensation"
+      ],
+      "gap": "The statute provides appointment method and term length but does not list individual member names or specific term expiration dates. Full alignment with best practice would require a publicly accessible roster showing each member's name, appointment basis, and term expiration date.",
+      "score": 0.3,
+      "nextPrompts": [
+        "Is there a current member roster for the Peekskill Conservation Advisory Council published on the city website or in meeting minutes?",
+        "What are the current term expiration dates for each of the nine Conservation Advisory Council members?"
+      ]
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The statute does not specify meeting dates, times, locations, or public notice procedures for the Conservation Advisory Council. The only relevant provision is §24-4(J), which requires the Council to 'keep accurate records of its meetings and actions' and file an annual report with the Common Council by December 31 each year. No details about public posting of meeting notices, schedules, or locations are included in the provided sources.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 24-4(J), Chapter 24, City of Peekskill Code"
+      ],
+      "gap": "The statute contains no provisions for publicly posting meeting dates, times, locations, or public notices. Best practice requires the website to clearly list this information. A significant gap exists between current statute language and best practice standards.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does the City of Peekskill website or municipal calendar list Conservation Advisory Council meeting schedules and locations?",
+        "Does New York State Open Meetings Law (Public Officers Law Article 7) impose public notice requirements on the Conservation Advisory Council that supplement this local statute?"
+      ]
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 239",
+        "§ 24-3",
+        "§ 24-4"
+      ],
+      "gap": "The statute contains no provisions addressing agenda publication, posting timelines, or public accessibility of agendas prior to meetings. Best practice requires agendas to be easily findable on the website and posted before meetings in a timely and consistent way.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the City of Peekskill have a general open meetings or public notice ordinance that governs agenda posting requirements for advisory councils?",
+        "Are Conservation Advisory Council agendas publicly posted on the City of Peekskill website, and if so, how far in advance of meetings?"
+      ]
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The statute requires the Conservation Advisory Council to 'keep accurate records of its meetings and actions' (§ 24-4J) and to file an annual report with the Common Council by December 31 each year. However, there is no specific requirement in the statute for minutes or meeting summaries to be posted online or for any particular timeframe for posting after meetings.",
+      "confidence": 85,
+      "sourceRefs": [
+        "§ 24-4J"
+      ],
+      "gap": "The statute requires record-keeping and an annual report but does not mandate online posting of approved minutes or meeting summaries, nor does it specify a prompt posting timeline after meetings.",
+      "score": 0.15,
+      "nextPrompts": [
+        "Does the City of Peekskill have a separate municipal transparency or open meetings policy that requires online posting of minutes for advisory councils?",
+        "Are Conservation Advisory Council meeting minutes currently available on the City of Peekskill's official website, and if so, how promptly are they posted after meetings?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The statute outlines the Conservation Advisory Council's standing powers and duties, which include conducting land research, coordinating with other bodies, maintaining inventories of open areas and wetlands, recommending environmental ordinances, reviewing environmental impact statements and site plans, organizing volunteers for conservation projects, and identifying funding opportunities. These are ongoing responsibilities rather than specific current projects or priorities. The Council is also required to file an annual report with the Common Council by December 31 each year. No specific current projects, active priorities, or work-in-progress initiatives are identified in the provided sources.",
+      "confidence": 35,
+      "sourceRefs": [
+        "§ 24-4 Powers and duties"
+      ],
+      "gap": "The statute describes standing duties but does not provide a link or reference to ongoing projects, current priorities, or work in progress. Best practice calls for a clearly accessible link to active initiatives on the board/committee page.",
+      "score": 0.1,
+      "nextPrompts": [
+        "Does the City of Peekskill publish annual reports from the Conservation Advisory Council that detail current projects?",
+        "Is there a dedicated Conservation Advisory Council webpage on the City of Peekskill website listing active initiatives or meeting agendas?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
       "answer": "Not specified in the provided sources.",
       "confidence": 10,
-      "sourceRefs": [],
+      "sourceRefs": [
+        "§ 239",
+        "§ 24-4",
+        "§ 24-3"
+      ],
       "score": 0
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 9,
+    "overallScore": 1.43,
+    "normalizedScore": 1.43,
+    "averageConfidence": 50,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
+        0.65,
+        0.3,
+        0.05,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        0.15,
+        0.1,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.18,
+      "weightedScore": 0.1429,
+      "totalWeightedScore": 2,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.65,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.65,
           "maxWeightedScore": 1,
-          "confidence": 50
+          "confidence": 72
         },
         {
           "id": "2",
-          "score": 0,
+          "score": 0.3,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 0.6,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 55
         },
         {
           "id": "3",
-          "score": 0,
+          "score": 0.05,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 0.1,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 85
         },
         {
           "id": "4",
@@ -114,23 +170,23 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "5",
-          "score": 0,
+          "score": 0.15,
           "weight": 3,
-          "weightedScore": 0,
+          "weightedScore": 0.45,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 85
         },
         {
           "id": "6",
-          "score": 0,
+          "score": 0.1,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 0.2,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 35
         },
         {
           "id": "7",
@@ -143,11 +199,11 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 9,
+  "overallScore": 1.43,
+  "averageConfidence": 50,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:45:02.422Z",
+  "lastUpdated": "2026-05-26T20:45:09.091Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [

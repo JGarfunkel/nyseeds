@@ -1,5 +1,5 @@
 {
-  "id": "NY-NewRochelle-City-boards-1779299091422",
+  "id": "NY-NewRochelle-City-boards-1779828202735",
   "entityId": "NY-NewRochelle-City",
   "domainId": "boards",
   "entity": {
@@ -15,89 +15,147 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Ecology and Natural Resources Advisory Committee (ENRAC) is authorized to have up to 18 members, including a Chair, all appointed by the City Manager (§ 9-99, amended 5-17-2022). Additionally, up to 3 Auxiliary Youth Members may be appointed by the City Manager under § 9-99.1 (added 1-21-2025). The number of currently filled seats and any existing vacancies are not specified in the provided sources.",
+      "confidence": 40,
+      "sourceRefs": [
+        "§ 9-99, amended 5-17-2022 by Ord. No. 2022-60",
+        "§ 9-99.1, added 1-21-2025 by Res. No. 2025-14"
+      ],
+      "gap": "The statute specifies the maximum authorized seats (up to 18 regular members plus 3 auxiliary youth members) but does not provide current filled seats or vacancy counts. Full alignment with best practice would require a current roster or vacancy listing.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Where can the current roster of appointed ENRAC members be found on the City of New Rochelle's official website?",
+        "Are there any public records or City Manager reports listing current ENRAC vacancies as of 2025?"
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The statute specifies that up to 18 members (including a Chair) are appointed by and serve at the pleasure of the City Manager (§9-99). Three Auxiliary Youth Members may also be appointed by the City Manager, must be New Rochelle residents under age 20, require endorsements from the New Rochelle City School District Green Schools Committee and ENRAC, serve one-year terms, and are selected through a competitive application process (§9-99.1). No specific term lengths or expiration dates are stated for the regular 18 members beyond serving 'at the pleasure of the City Manager.' Individual member names are not listed in the statute.",
+      "confidence": 72,
+      "sourceRefs": [
+        "§9-99 (Amended 5-17-2022 by Ord. No. 2022-60)",
+        "§9-99.1 (Added 1-21-2025 by Res. No. 2025-14)"
+      ],
+      "gap": "The statute does not list individual member names, term lengths for regular members, or term expiration dates. Only auxiliary youth members have defined one-year terms. This falls short of the best practice of clearly listing member names, appointment method, term lengths, and expiration dates for all members.",
+      "score": 0.2,
+      "nextPrompts": [
+        "Does the City of New Rochelle maintain a public roster of current ENRAC members with appointment dates and term expirations on its website?",
+        "Are there any administrative rules or resolutions that establish fixed term lengths for the 18 regular ENRAC members?"
+      ]
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 9-99",
+        "§ 9-99.1"
+      ],
+      "gap": "The statute contains no information about meeting dates, times, locations, or public notice requirements for the Ecology and Natural Resources Advisory Committee. Best practice calls for clearly listed upcoming meeting dates, times, locations, and public notice details on the website.",
+      "score": 0,
+      "nextPrompts": [
+        "Does the City of New Rochelle municipal code or ENRAC bylaws specify meeting frequency, notice requirements, or posting procedures?",
+        "Is there a City of New Rochelle website or public calendar where ENRAC meeting information is posted?"
+      ]
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "City of New Rochelle, NY - Chapter 9, Article XXVII, §9-99 and §9-99.1"
+      ],
+      "gap": "The statute contains no provisions addressing agenda posting requirements, timelines, or public accessibility for the Ecology and Natural Resources Advisory Committee meetings.",
+      "score": 0,
+      "nextPrompts": [
+        "Does New Rochelle have a citywide open meetings or public notice ordinance that governs agenda posting timelines for advisory committees?",
+        "Are ENRAC meeting agendas posted on the City of New Rochelle's official website, and if so, how far in advance of meetings?"
+      ]
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 9-99",
+        "§ 9-99.1"
+      ],
+      "gap": "The statute contains no provisions addressing online availability of approved minutes or meeting summaries, nor any requirements for prompt posting after meetings. This is a gap relative to best practice.",
+      "score": 0,
+      "nextPrompts": [
+        "Does New Rochelle have a citywide open meetings or records policy that requires posting of minutes for advisory committees like ENRAC?",
+        "Are ENRAC meeting minutes currently posted on the City of New Rochelle's official website or a public portal?"
+      ]
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The statute establishes the Ecology and Natural Resources Advisory Committee (ENRAC) and designates it as the City's official Climate Smart Community Task Force (Resolution No. 42-2022). The Sustainability Coordinator is designated as the Climate Smart Community Coordinator. A 2025 resolution (Res. No. 2025-14) authorized the addition of three Auxiliary Youth Members, indicating recent organizational activity. However, no specific ongoing projects, priorities, or current work in progress are described in the provided statute text.",
+      "confidence": 30,
+      "sourceRefs": [
+        "Chapter 9, Article XXVII, § 9-99",
+        "Resolution No. 42-2022, adopted 4-19-2022",
+        "Resolution No. 2025-14, adopted 1-21-2025"
+      ],
+      "gap": "The statute does not include links or references to ongoing projects, priorities, or current work in progress. Best practice calls for a clearly accessible link to active initiatives and current work, which is absent from the provided sources.",
+      "score": 0.1,
+      "nextPrompts": [
+        "Does the City of New Rochelle's website provide a dedicated ENRAC page listing current projects or priorities?",
+        "What specific initiatives has ENRAC undertaken as the Climate Smart Community Task Force?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "§ 9-99",
+        "§ 9-99.1"
+      ],
+      "score": 0
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.57,
+    "normalizedScore": 0.57,
+    "averageConfidence": 26,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
+        0.2,
+        0.2,
         0,
         0,
         0,
-        0,
-        0,
-        0,
+        0.1,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.07,
+      "weightedScore": 0.0571,
+      "totalWeightedScore": 0.8,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.2,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.2,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 40
         },
         {
           "id": "2",
-          "score": 0,
+          "score": 0.2,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 0.4,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 72
         },
         {
           "id": "3",
@@ -105,7 +163,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "4",
@@ -113,7 +171,7 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "5",
@@ -121,15 +179,15 @@
           "weight": 3,
           "weightedScore": 0,
           "maxWeightedScore": 3,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "6",
-          "score": 0,
+          "score": 0.1,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 0.2,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 30
         },
         {
           "id": "7",
@@ -137,16 +195,16 @@
           "weight": 2,
           "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 10
         }
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.57,
+  "averageConfidence": 26,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:51.422Z",
+  "lastUpdated": "2026-05-26T20:43:22.735Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

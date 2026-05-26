@@ -15,25 +15,37 @@
     {
       "questionId": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "bestAnswer": "The sources list 12 named members of the Conservation Board (Victoria Alzapiedi, June Boyle, Marie Boster, Brandon Cavanagh, Jon Garfunkel, Roma Huggahalli as Student Member, TR Kelly, Stephen Kovari, Laura Lennihan, Angela Morgan, Belinda Rowsell, and Sara Weissman), plus a Town Board Liaison and a Staff Liaison.",
+      "bestAnswer": "The website should list the total number of authorized seats on the board, the number of currently filled seats, and any existing vacancies.",
       "quantitativeHighlights": []
     },
     {
       "questionId": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "bestAnswer": "The statute does not require t specified in the provided sources.",
+      "bestAnswer": "The website should clearly list member names, appointment method, term lengths, and expiration dates.",
       "quantitativeHighlights": []
     },
     {
       "questionId": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "bestAnswer": "The statute does not require t specified in the provided sources.",
+      "bestAnswer": "The website should clearly list upcoming meeting dates, times, locations, and public notice details.",
+      "quantitativeHighlights": []
+    },
+    {
+      "questionId": 4,
+      "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
+      "bestAnswer": "Agendas should be easy to find on the website and should be posted before meetings in a timely and consistent way.",
+      "quantitativeHighlights": []
+    },
+    {
+      "questionId": 5,
+      "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
+      "bestAnswer": "Approved minutes or meeting summaries should be available online and posted promptly after meetings.",
       "quantitativeHighlights": []
     },
     {
       "questionId": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "bestAnswer": "The source references a draft Master and Comprehensive Plan that was currently under review by the Town at the time of the document, indicating ongoing planning work.",
+      "bestAnswer": "The website should clearly have a link to ongoing projects, priorities, or current work in progress.",
       "quantitativeHighlights": []
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "id": "NY-NorthSalem-Town-boards-1779299095764",
+  "id": "NY-NorthSalem-Town-boards-1779828243673",
   "entityId": "NY-NorthSalem-Town",
   "domainId": "boards",
   "entity": {
@@ -15,62 +15,70 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Conservation Advisory Council consists of nine authorized member seats appointed by the North Salem Town Board. Currently filled seats include: Holly Thomson (Co-Chair), Robert Wasp (Co-Chair), John Baker (Ad Hoc), Mary Christine Basile-Miranda (Member), Andrea Good (Member), Jocko McKean (Member), Jennifer Landers (Member), and Virginia Tait (Member) — totaling 8 filled seats (excluding ex officio and secretary roles). Two vacancies are explicitly listed as 'Vacancy One, Member' and 'Vacancy Two, Member,' indicating 2 open seats among the nine authorized positions.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://www.northsalemny.gov/1311/Conservation-Advisory-Council"
+      ],
+      "gap": "The source lists total authorized seats (9), named current members, and two explicit vacancies, which aligns well with best practice. However, no current date is provided for this roster, so it is unclear how up-to-date the information is. Additionally, the role of 'Ad Hoc' for John Baker is ambiguous regarding whether it counts toward the 9 authorized seats.",
+      "score": 0.72,
+      "nextPrompts": [
+        "When was the Conservation Advisory Council member roster last updated on the North Salem website?",
+        "Does the Ad Hoc designation for John Baker count as one of the nine authorized seats on the Conservation Advisory Council?"
+      ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 0.51,
+    "normalizedScore": 0.51,
+    "averageConfidence": 10,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0,
+        0.72,
         0,
         0,
         0,
@@ -78,18 +86,18 @@
         0,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.1,
+      "weightedScore": 0.0514,
+      "totalWeightedScore": 0.72,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.72,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.72,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 72
         },
         {
           "id": "2",
@@ -142,11 +150,11 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 0.51,
+  "averageConfidence": 10,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:55.764Z",
+  "lastUpdated": "2026-05-26T20:44:03.673Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []

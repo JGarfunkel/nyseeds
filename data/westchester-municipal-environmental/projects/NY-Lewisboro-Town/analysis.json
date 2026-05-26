@@ -1,5 +1,5 @@
 {
-  "id": "NY-Lewisboro-Town-projects-1778785775655",
+  "id": "NY-Lewisboro-Town-projects-1779828706120",
   "entityId": "NY-Lewisboro-Town",
   "domainId": "projects",
   "entity": {
@@ -15,17 +15,9 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 10,
-      "sourceRefs": [
-        "https://www.lewisborony.gov/cac/page/tree-preservation-ordinance"
-      ],
-      "gap": "The sources do not list any conservation projects or events with goals, locations, dates, eligibility, or frequency. Best practice recommends that projects be listed on the website with all of these details.",
-      "score": 0,
-      "nextPrompts": [
-        "Search the Lewisboro town website for a conservation advisory council events or projects calendar page.",
-        "Check for any community stewardship, habitat restoration, or tree planting event listings on the town's environmental or parks pages."
-      ]
+      "answer": "No relevant sources available",
+      "confidence": 0,
+      "sourceRefs": []
     },
     {
       "id": 2,
@@ -45,7 +37,7 @@
   "scores": {
     "overallScore": 0,
     "normalizedScore": 0,
-    "averageConfidence": 3,
+    "averageConfidence": 0,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
@@ -65,7 +57,7 @@
           "weight": 0.8,
           "weightedScore": 0,
           "maxWeightedScore": 0.8,
-          "confidence": 10
+          "confidence": 0
         },
         {
           "id": "2",
@@ -87,16 +79,16 @@
     }
   },
   "overallScore": 0,
-  "averageConfidence": 3,
+  "averageConfidence": 0,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:10.918Z",
+  "lastUpdated": "2026-05-26T20:51:46.120Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.lewisborony.gov/cac/page/tree-preservation-ordinance",
-      "title": "https://www.lewisborony.gov/cac/page/tree-preservation-ordinance"
+      "title": "Tree Preservation Ordinance | Lewisboro, NY"
     }
   ]
 }

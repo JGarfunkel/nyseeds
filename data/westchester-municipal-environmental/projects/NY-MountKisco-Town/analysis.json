@@ -1,5 +1,5 @@
 {
-  "id": "NY-MountKisco-Town-projects-1778785804421",
+  "id": "NY-MountKisco-Town-projects-1779828732445",
   "entityId": "NY-MountKisco-Town",
   "domainId": "projects",
   "entity": {
@@ -15,9 +15,16 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [
+        "https://www.mountkiscony.gov/"
+      ],
+      "score": 0,
+      "nextPrompts": [
+        "Does Mount Kisco have a dedicated environmental or conservation department page with current projects?",
+        "Are there any conservation-related events listed under the Recreation or Clubs & Organizations sections of the Mount Kisco website?"
+      ]
     },
     {
       "id": 2,
@@ -37,7 +44,7 @@
   "scores": {
     "overallScore": 0,
     "normalizedScore": 0,
-    "averageConfidence": 0,
+    "averageConfidence": 3,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
@@ -57,7 +64,7 @@
           "weight": 0.8,
           "weightedScore": 0,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 10
         },
         {
           "id": "2",
@@ -79,10 +86,11 @@
     }
   },
   "overallScore": 0,
-  "averageConfidence": 0,
+  "averageConfidence": 3,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:10:04.421Z",
+  "lastUpdated": "2026-05-26T20:52:12.445Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

@@ -1,5 +1,5 @@
 {
-  "id": "NY-Elmsford-Village-projects-1778785734383",
+  "id": "NY-Elmsford-Village-projects-1779828631393",
   "entityId": "NY-Elmsford-Village",
   "domainId": "projects",
   "entity": {
@@ -82,7 +82,8 @@
   "averageConfidence": 0,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-14T19:08:54.383Z",
+  "lastUpdated": "2026-05-26T20:50:31.393Z",
   "processingMethod": "vector-search-rag",
-  "usesStateCode": false
+  "usesStateCode": false,
+  "sources": []
 }

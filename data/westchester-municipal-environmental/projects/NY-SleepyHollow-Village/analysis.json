@@ -1,5 +1,5 @@
 {
-  "id": "NY-SleepyHollow-Village-projects-1778785930628",
+  "id": "NY-SleepyHollow-Village-projects-1779828992207",
   "entityId": "NY-SleepyHollow-Village",
   "domainId": "projects",
   "entity": {
@@ -15,136 +15,162 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "Several conservation projects and events are currently advertised by Sustainable Sleepy Hollow and TEAC:\n\n**Earth Month 2026 (April):**\n- April 11: Compost Giveback Day (9am-12:30pm, Sleepy Hollow High School Admin Building Parking Lot); Sarah Michaels Park Spring Garden Refresh & Pollinator Planter Demo (12pm-2pm)\n- April 12: Community Garden Prep (9am-12pm, Community Vegetable Garden near Paulding School); Beekman Avenue Pollinator Garden Clean-Up (1-3pm)\n- April 18: Green Horsemen Family Saturday/Earth Month Festival (10am-12:30pm, Barnhardt Park); Friends of the Riverwalk Work Day (10am-2pm); TEAC Vine Squad at Wilson Park Drive (10am-Noon)\n- April 19: Morning Bird Walk with TEAC (8am)\n\n**September Events:**\n- September 17: Oyster-counting measuring tape craft event\n- September 20: TaSH Eco Fair at Patriots Park (10am-1pm), volunteers needed (contact kirsten.hasemclaughlin@gmail.com)\n- September 24: Sustainability tour of DeCicco's\n\n**Monthly RiverWalk Flash Clean-Ups** are also ongoing (first monthly).\n\nAll events are open to the public; some request volunteers.",
+      "confidence": 82,
+      "sourceRefs": [
+        "https://sustainablesleepyhollow.org/2026/04/08/happy-earth-month",
+        "https://sustainablesleepyhollow.org/2025/09/15/craft-garden-bike-your-way-through-september",
+        "https://sustainablesleepyhollow.org/2025/03/17/our-power-our-planet-earth-month-2025-preview"
+      ],
+      "score": 0.72,
+      "nextPrompts": [
+        "Are there year-round conservation programs (beyond Earth Month) with stated goals and schedules listed on the website?",
+        "Is there a dedicated projects or events page that consolidates all current initiatives with full details in one place?"
+      ]
     },
     {
       "id": 2,
       "question": "What documentation or photo/videos showing past projects exists online?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The sustainablesleepyhollow.org website contains blog-style posts documenting past projects and activities with dates. Notable examples include: a 2014 Beautification Day at Horan's Landing Park; a 2024 Climate Action Plan Community Workshop recap mentioning photos of recent flooding on the East Parcel and Riverwalk; updates on the Rivertowns Food Scrap Study; and posts about the 'Project Mover' e-bike share program. The January 2024 Climate Action Plan workshop recap specifically references photos shown during the presentation. Posts are dated and include narrative summaries of completed activities, though the excerpts do not describe a dedicated photo/video gallery or portfolio page.",
+      "confidence": 52,
+      "sourceRefs": [
+        "https://sustainablesleepyhollow.org/page/11",
+        "https://sustainablesleepyhollow.org/2024/01/26/2024-priority-projects-recycling-tips-of-the-month",
+        "https://sustainablesleepyhollow.org/page/3",
+        "https://sustainablesleepyhollow.org/2025/12/11/remembering-our-fearless-leader-anne-white"
+      ],
+      "score": 0.3,
+      "nextPrompts": [
+        "Does sustainablesleepyhollow.org have a dedicated gallery, media, or projects archive page with photos or videos of completed work?",
+        "Are there linked external resources (e.g., Flickr, YouTube, or municipal reports) referenced in the site's posts that contain visual documentation of past projects?"
+      ]
     },
     {
       "id": 3,
       "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The sources describe a volunteer opportunity to help water and weed planters and pots at the Morse garden, with a sign-up link provided. There is also an invitation to attend a Climate Action Plan Information Session on August 7 at Village Hall to learn about actions addressing inland flooding, storm surge, and extreme heat.",
+      "confidence": 55,
+      "sourceRefs": [
+        "https://sustainablesleepyhollow.org/2025/07/23/summers-a-great-time-to-take-climate-action-save-august-7th-9th"
+      ],
+      "score": 0.2,
+      "nextPrompts": [
+        "Does Sleepy Hollow have a formal volunteer or community stewardship program covering a broader range of environmental or public space activities?",
+        "Are there any neighborhood watch, environmental reporting, or home landscaping assistance programs offered by the Village of Sleepy Hollow or Sustainable Sleepy Hollow?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 0,
+    "overallScore": 4.87,
+    "normalizedScore": 4.87,
+    "averageConfidence": 63,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
-        0,
-        0
+        0.72,
+        0.3,
+        0.2
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.41,
+      "weightedScore": 0.4875,
+      "totalWeightedScore": 0.7799999999999999,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.72,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.58,
           "maxWeightedScore": 0.8,
-          "confidence": 0
+          "confidence": 82
         },
         {
           "id": "2",
-          "score": 0,
+          "score": 0.3,
           "weight": 0.4,
-          "weightedScore": 0,
+          "weightedScore": 0.12,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 52
         },
         {
           "id": "3",
-          "score": 0,
+          "score": 0.2,
           "weight": 0.4,
-          "weightedScore": 0,
+          "weightedScore": 0.08,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 55
         }
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 0,
+  "overallScore": 4.87,
+  "averageConfidence": 63,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:11.696Z",
+  "lastUpdated": "2026-05-26T20:56:32.207Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://sustainablesleepyhollow.org/2014/08/21/invasive-plant-species-found-in-sleepy-hollow",
-      "title": "https://sustainablesleepyhollow.org/2014/08/21/invasive-plant-species-found-in-sleepy-hollow"
+      "title": "Guide to Invasive Plants – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/2023/09/28/monthly-meeting-10-2-other-upcoming-events",
-      "title": "https://sustainablesleepyhollow.org/2023/09/28/monthly-meeting-10-2-other-upcoming-events"
+      "title": "Monthly Meeting 10/2 & Other Upcoming Events – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/2023/11/06/november-meeting-info-events",
-      "title": "https://sustainablesleepyhollow.org/2023/11/06/november-meeting-info-events"
+      "title": "November Meeting Info & Events – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/2024/01/03/climate-action-plan-community-workshop-january-10th",
-      "title": "https://sustainablesleepyhollow.org/2024/01/03/climate-action-plan-community-workshop-january-10th"
+      "title": "Climate Action Plan Community Workshop January 10th – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/2024/01/26/2024-priority-projects-recycling-tips-of-the-month",
-      "title": "https://sustainablesleepyhollow.org/2024/01/26/2024-priority-projects-recycling-tips-of-the-month"
+      "title": "2024 Priority Projects + Recycling Tips of the Month – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/2025/03/17/our-power-our-planet-earth-month-2025-preview",
-      "title": "https://sustainablesleepyhollow.org/2025/03/17/our-power-our-planet-earth-month-2025-preview"
+      "title": "“Our Power, Our Planet”: Earth Month 2025 Preview – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/2025/07/23/summers-a-great-time-to-take-climate-action-save-august-7th-9th",
-      "title": "https://sustainablesleepyhollow.org/2025/07/23/summers-a-great-time-to-take-climate-action-save-august-7th-9th"
+      "title": "Summer’s a Great Time to Take Climate Action-Save August 7th & 9th! – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/2025/08/12/count-the-oysters-of-sleepy-hollow-on-october-5th",
-      "title": "https://sustainablesleepyhollow.org/2025/08/12/count-the-oysters-of-sleepy-hollow-on-october-5th"
+      "title": "Count the Oysters of Sleepy Hollow on October 5th – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/2025/09/15/craft-garden-bike-your-way-through-september",
-      "title": "https://sustainablesleepyhollow.org/2025/09/15/craft-garden-bike-your-way-through-september"
+      "title": "Craft, garden & bike your way through September – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/2025/12/11/remembering-our-fearless-leader-anne-white",
-      "title": "https://sustainablesleepyhollow.org/2025/12/11/remembering-our-fearless-leader-anne-white"
+      "title": "Remembering our fearless leader Anne White – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/2026/04/08/happy-earth-month",
-      "title": "https://sustainablesleepyhollow.org/2026/04/08/happy-earth-month"
+      "title": "HAPPY EARTH MONTH! – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/category/uncategorized",
-      "title": "https://sustainablesleepyhollow.org/category/uncategorized"
+      "title": "Uncategorized – Sustainable Sleepy Hollow"
     },
     {
       "url": "https://sustainablesleepyhollow.org/page/11",
-      "title": "https://sustainablesleepyhollow.org/page/11"
+      "title": "Sustainable Sleepy Hollow – Page 11"
     },
     {
       "url": "https://sustainablesleepyhollow.org/page/2",
-      "title": "https://sustainablesleepyhollow.org/page/2"
+      "title": "Sustainable Sleepy Hollow – Page 2"
     },
     {
       "url": "https://sustainablesleepyhollow.org/page/3",
-      "title": "https://sustainablesleepyhollow.org/page/3"
+      "title": "Sustainable Sleepy Hollow – Page 3"
     }
   ]
 }

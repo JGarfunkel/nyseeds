@@ -1,5 +1,5 @@
 {
-  "id": "NY-Lewisboro-Town-boards-1779299078603",
+  "id": "NY-Lewisboro-Town-boards-1779828024336",
   "entityId": "NY-Lewisboro-Town",
   "domainId": "boards",
   "entity": {
@@ -16,48 +16,48 @@
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
       "answer": "Not specified in the provided sources.",
-      "confidence": 50,
+      "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 4,
       "question": "Are agendas easy to find, and are they posted before meetings in a timely and consistent way?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 5,
       "question": "Are approved minutes or meeting summaries available online, and are they posted promptly after meetings?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "No relevant sources available",
+      "answer": "Not specified in the provided sources.",
       "confidence": 0,
       "sourceRefs": []
     }
@@ -65,7 +65,7 @@
   "scores": {
     "overallScore": 0,
     "normalizedScore": 0,
-    "averageConfidence": 7,
+    "averageConfidence": 0,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
@@ -89,7 +89,7 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 50
+          "confidence": 0
         },
         {
           "id": "2",
@@ -143,10 +143,10 @@
     }
   },
   "overallScore": 0,
-  "averageConfidence": 7,
+  "averageConfidence": 0,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:44:38.603Z",
+  "lastUpdated": "2026-05-26T20:40:24.336Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [

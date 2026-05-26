@@ -1,5 +1,5 @@
 {
-  "id": "NY-NorthCastle-Town-projects-1778785854211",
+  "id": "NY-NorthCastle-Town-projects-1779828807301",
   "entityId": "NY-NorthCastle-Town",
   "domainId": "projects",
   "entity": {
@@ -15,22 +15,33 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 15,
-      "sourceRefs": [],
-      "gap": "The sources do not list any currently advertised conservation projects or events. Best practice recommends that projects be listed on the website with goals, locations, dates, eligibility, and frequency. North Castle's available content covers historical awards and tree preservation policy, but no active or upcoming conservation projects or events are advertised.",
-      "score": 0,
+      "answer": "North Castle advertises its **Volunteer Invasive Vine Cutters Program**, which organizes hands-on vine-cutting events to combat invasive species spreading across town. Key details: Sessions are 2 hours each, open to volunteers of all experience levels (brief instructions provided for newcomers), with no long-term commitment required. Participants cut vines, pull roots, and help replant native species. Reminder emails are sent before each event. To join or get more information, residents can email Doug Mancinelli at vinesdoug13@gmail.com. The program joins 18 other Westchester municipalities in this effort. The goal is to protect trees, shrubs, wildlife habitats, and drinking water quality.",
+      "confidence": 72,
+      "sourceRefs": [
+        "https://www.northcastleny.com/1049/Get-Involved",
+        "https://www.northcastleny.com/1045/Invasive-Vine-Cutting-Program"
+      ],
+      "score": 0.45,
       "nextPrompts": [
-        "Does North Castle's Conservation Board have a calendar or events page listing upcoming projects or volunteer opportunities?",
-        "Are there any active conservation initiatives such as tree planting, stream cleanups, or habitat restoration programs currently promoted by the Town of North Castle?"
+        "Are there specific upcoming vine-cutting event dates and locations posted anywhere on the North Castle website or linked calendar?",
+        "Does North Castle advertise any other conservation projects beyond the Invasive Vine Cutters Program, such as tree planting or water quality initiatives?"
       ]
     },
     {
       "id": 2,
       "question": "What documentation or photo/videos showing past projects exists online?",
-      "answer": "No relevant sources available",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The North Castle website includes some documentation related to environmental projects, such as a video on 'How a Septic System Works' (Cornell Cooperative Extension, 2010) linked from the Septic Systems page, and PDF documents including a Detailed Program Plan and Fact Sheet for septic systems, a North Castle Watershed Map, and a Conservation Board Brochure. The invasive plants pages include hyperlinks to external resources about invasive species identification and management. However, no dated project photos, before-and-after documentation, or video documentation of completed on-the-ground conservation projects is described in the provided sources.",
+      "confidence": 45,
+      "sourceRefs": [
+        "https://www.northcastleny.com/662/Septic-Systems",
+        "https://www.northcastleny.com/1046/North-Castles-Most-Aggressive-Invasive-V",
+        "https://www.northcastleny.com/660/Plants"
+      ],
+      "score": 0.1,
+      "nextPrompts": [
+        "Does North Castle maintain a separate news, updates, or project blog page documenting completed environmental or conservation projects with photos?",
+        "Are there any annual reports or Conservation Board meeting minutes that include photographic documentation of completed invasive species removal or watershed restoration projects?"
+      ]
     },
     {
       "id": 3,
@@ -41,37 +52,37 @@
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 5,
+    "overallScore": 2.5,
+    "normalizedScore": 2.5,
+    "averageConfidence": 39,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
-        0,
-        0,
+        0.45,
+        0.1,
         0
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.18,
+      "weightedScore": 0.25,
+      "totalWeightedScore": 0.39999999999999997,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.45,
           "weight": 0.8,
-          "weightedScore": 0,
+          "weightedScore": 0.36,
           "maxWeightedScore": 0.8,
-          "confidence": 15
+          "confidence": 72
         },
         {
           "id": "2",
-          "score": 0,
+          "score": 0.1,
           "weight": 0.4,
-          "weightedScore": 0,
+          "weightedScore": 0.04,
           "maxWeightedScore": 0.4,
-          "confidence": 0
+          "confidence": 45
         },
         {
           "id": "3",
@@ -84,49 +95,49 @@
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 5,
+  "overallScore": 2.5,
+  "averageConfidence": 39,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-15T13:48:11.176Z",
+  "lastUpdated": "2026-05-26T20:53:27.301Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
     {
       "url": "https://www.northcastleny.com/1045/Invasive-Vine-Cutting-Program",
-      "title": "https://www.northcastleny.com/1045/Invasive-Vine-Cutting-Program"
+      "title": "Invasive Vine Cutting Program | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/1046/North-Castles-Most-Aggressive-Invasive-V",
-      "title": "https://www.northcastleny.com/1046/North-Castles-Most-Aggressive-Invasive-V"
+      "title": "North Castle's Most Aggressive Invasive Vines, Shrubs & Weeds | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/1048/Learn-More-About-Invasives",
-      "title": "https://www.northcastleny.com/1048/Learn-More-About-Invasives"
+      "title": "Learn More About Invasives | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/1055/Invasive-Vines---Quick-Reference-Guide",
-      "title": "https://www.northcastleny.com/1055/Invasive-Vines---Quick-Reference-Guide"
+      "title": "Invasive Vines - Quick Reference Guide | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/1059/Vines",
-      "title": "https://www.northcastleny.com/1059/Vines"
+      "title": "Vines | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/1061/Weeds",
-      "title": "https://www.northcastleny.com/1061/Weeds"
+      "title": "Weeds | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/655/Conservation-Board-Awards",
-      "title": "https://www.northcastleny.com/655/Conservation-Board-Awards"
+      "title": "Conservation Board Awards | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/660/Plants",
-      "title": "https://www.northcastleny.com/660/Plants"
+      "title": "Plants | North Castle, NY"
     },
     {
       "url": "https://www.northcastleny.com/665/Trees",
-      "title": "https://www.northcastleny.com/665/Trees"
+      "title": "Trees | North Castle, NY"
     }
   ]
 }
