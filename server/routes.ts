@@ -2,6 +2,7 @@ import type { Express } from "express";
 import { createServer, type Server } from "http";
 import path from "path";
 import { registerAllRoutes as registerOrdinizerRoutes } from "@civillyengaged/ordinizer-server";
+import { ORDINIZER_CONTEXT_PATH } from "server";
 
 /**
  * NYSeeds Server Routes
@@ -16,9 +17,8 @@ import { registerAllRoutes as registerOrdinizerRoutes } from "@civillyengaged/or
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Mount Ordinizer application routes at /api/ordinizer
-  // Pass nyseeds/data as the data directory path
   //const dataPath = path.join(process.cwd(), "data");
-  await registerOrdinizerRoutes(app, "/api/ordinizer");
+  await registerOrdinizerRoutes(app, "/api" + ORDINIZER_CONTEXT_PATH);
   
   // Future: Add other application routes here
   // Example:

@@ -10,18 +10,19 @@ import { Toaster, TooltipProvider, OrdinizerApp } from "@civillyengaged/ordinize
 import { queryClient } from "./lib/queryClient";
 import AboutPage from "./AboutPage";
 import BotPage from "./BotPage";
+import { ORDINIZER_CONTEXT_PATH } from "./config";
 
 function Router() {
   // Check if path starts with /ordinizer and render accordingly
   const pathname = window.location.pathname;
   
-  if (pathname.startsWith('/ordinizer')) {
-    return <OrdinizerApp basePath="/ordinizer" />;
+  if (pathname.startsWith(ORDINIZER_CONTEXT_PATH)) {
+    return <OrdinizerApp basePath={ORDINIZER_CONTEXT_PATH} />;
   }
   
   // Redirect root to /ordinizer
   if (pathname === '' || pathname === '/') {
-    window.location.href = '/ordinizer';
+    window.location.href = ORDINIZER_CONTEXT_PATH;
     return null;
   }
   

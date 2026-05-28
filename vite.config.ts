@@ -11,10 +11,15 @@ const ordinizerClientUi = fs.existsSync(path.join(ordinizerRoot, "app/client/src
   : path.join(ordinizerRoot, "client/src/ui");
 
 export default defineConfig({
-  base: "./ordinizer/",
+  // Must be an absolute path (not relative) so asset URLs in index.html work
+  // regardless of the current page's URL depth. Must match ORDINIZER_CONTEXT_PATH.
+  base: (process.env.ORDINIZER_CONTEXT_PATH || "/ordinizer") + "/",
   plugins: [
     react()
   ],
+  define: {
+    __ORDINIZER_CONTEXT_PATH__: JSON.stringify(process.env.ORDINIZER_CONTEXT_PATH || "/ordinizer"),
+  },
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
