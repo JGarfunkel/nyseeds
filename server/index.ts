@@ -51,8 +51,8 @@ app.use((req, res, next) => {
         return next();
       }
       const path = require("path");
-      
       const ordinizerDist = path.resolve(process.cwd(), "dist", "public");
+      res.setHeader('Cache-Control', 'no-cache');
       res.sendFile(path.join(ordinizerDist, "index.html"));
     });
 
@@ -78,10 +78,23 @@ app.use((req, res, next) => {
     const expressStatic = express.static;
     const ordinizerDist = path.resolve(process.cwd(), "dist", "public");
 
-    // Serve static assets under /ordinizer
-    app.use(ORDINIZER_CONTEXT_PATH, expressStatic(ordinizerDist));
-    // Catch-all for client-side routing under /ordinizer
-    app.get(`${ORDINIZER_CONTEXT_PATH}/*`, (_req, res) => {
+    // Serve static assets under /ordinizer.
+    // index.html gets no-cache so stale hashes after a deploy don't cause JS
+    // files to be served as text/html (browser re-checks on every load).
+    app.use(ORDINIZER_CONTEXT_PATH, expressStatic(ordinizerDist, {
+      setHeaders: (res, filePath) => {
+        if (filePath.endsWith('index.html')) {
+          res.setHeader('Cache-Control', 'no-cache');
+        }
+      }
+    }));
+    // SPA fallback for client-side routes under /ordinizer.
+    // Must NOT serve index.html for paths with extensions — if an asset is
+    // missing (stale hash, rolling deploy) the client should get a 404, not
+    // an HTML document that the browser will reject as application/javascript.
+    app.get(`${ORDINIZER_CONTEXT_PATH}/*`, (req, res, next) => {
+      if (req.path.includes('.')) return next();
+      res.setHeader('Cache-Control', 'no-cache');
       res.sendFile(path.join(ordinizerDist, "index.html"));
     });
 
