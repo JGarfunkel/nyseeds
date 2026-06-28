@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<title>Advocacy — NY Seeds</title>
+<link href="/proposal.css" rel="stylesheet">
+<style>
+.proposal-list { list-style: none; padding: 0; margin: 2rem 0; }
+.proposal-item { border-top: 1px solid #d0cfc8; padding: 1.25rem 0; }
+.proposal-item:last-child { border-bottom: 1px solid #d0cfc8; }
+.proposal-item a {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 1.2rem;
+  color: #0f6a5b;
+  text-decoration: none;
+}
+.proposal-item a:hover { text-decoration: underline; }
+.pmeta-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  align-items: center;
+  font-size: 0.875rem;
+}
+</style>
+</head>
+<body>
+<%- include('partials/header.html') %>
+<div class="content">
+  <h1>Advocacy</h1>
+  <% if (!proposals.length) { %>
+  <p>No proposals yet.</p>
+  <% } %>
+  <ul class="proposal-list">
+    <% proposals.forEach(function(p) { var sl = p.meta.status || 'proposed'; %>
+    <li class="proposal-item">
+      <a href="/advocacy/<%= p.slug %>"><%= p.meta.title %></a>
+      <div class="pmeta-row">
+        <span class="pmb-status <%= sl %>"><%= sl.charAt(0).toUpperCase() + sl.slice(1) %></span>
+        <% if (p.formattedDate) { %><span class="pmb-date"><%= p.formattedDate %></span><% } %>
+        <% if (p.meta.tags && p.meta.tags.length) { %><span class="pmb-tags"><%= p.meta.tags.join(' · ') %></span><% } %>
+      </div>
+    </li>
+    <% }); %>
+  </ul>
+</div>
+<%- include('partials/footer.html') %>
+</body>
+</html>

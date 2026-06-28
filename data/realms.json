@@ -1,4 +1,8 @@
 {
+      "layout": {
+        "showHeader": true,
+        "onMapClick": ["sidebar","floatingPopup"]
+    },
   "realms": [
     {
       "id": "westchester-municipal-environmental",
@@ -9,10 +13,12 @@
       "datapath": "westchester-municipal-environmental",
       "entityType": "municipalities",
       "entityFile": "municipalities.json",
-      "mapBoundaries": "gis/NY/westchester-boundaries.json",
-      "mapCenter": [41.1220, -73.7949],
-      "stateProvince": "NY",
-      "county": "Westchester",
+      "geo": {
+        "mapBoundaries": "gis/NY/westchester-boundaries.json",
+        "mapCenter": [41.1220, -73.7949],
+        "stateProvince": "NY",
+        "county": "Westchester"
+      },
       "dataSource": {
         "type": "google-sheets",
         "url": "https://docs.google.com/spreadsheets/d/1Nc5xZZ9OrRgI2pnGjlBmo7yvpiQELYSEp19e73Gl_UE/edit?gid=2126758775#gid=2126758775"
@@ -75,10 +81,12 @@
       "datapath": "westchester-schools-sustainability",
       "entityType": "school-districts",
       "entityFile": "school-districts.json",
-      "mapBoundaries": "gis/NY/westchester-school-district-boundaries.geojson",
-      "stateProvince": "NY",
-      "county": "Westchester",
-      "mapCenter": [41.1220, -73.7949],
+      "geo": {
+        "mapBoundaries": "gis/NY/westchester-school-district-boundaries.geojson",
+        "mapCenter": [41.1220, -73.7949],
+        "stateProvince": "NY",
+        "county": "Westchester"
+      },
       "dataSource": {
         "type": "json-file",
         "path": "data/environmental-schools/school_district_sustainability_policies.json"

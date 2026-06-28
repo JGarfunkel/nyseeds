@@ -9,8 +9,10 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster, TooltipProvider, OrdinizerApp } from "@civillyengaged/ordinizer-client";
 import { queryClient } from "./lib/queryClient";
 import AboutPage from "./AboutPage";
+import AdvocacyPage from "./AdvocacyPage";
 import BotPage from "./BotPage";
 import { ORDINIZER_CONTEXT_PATH } from "./config";
+import SiteHeader from "./SiteHeader";
 
 function Router() {
   // Check if path starts with /ordinizer and render accordingly
@@ -32,6 +34,7 @@ function Router() {
       
       {/* About route */}
       <Route path="/about" component={AboutPage} />
+      <Route path="/advocacy" component={AdvocacyPage} />
       <Route path="/bot" component={BotPage} />
       
       {/* 404 fallback */}
@@ -64,8 +67,6 @@ function Footer() {
               <span className="text-sm text-civic-gray-light">NYSeeds & Ordinizer © 2026 Civilly Engaged. Making municipal law accessible.</span>
             </div>
             <div className="flex items-center space-x-6 text-sm text-civic-gray-light">
-              <a href="/about" className="hover:text-gray-900 transition-colors">About</a>
-
               <a href="https://github.com/JGarfunkel/ordinizer" 
               className="hover:text-gray-900 transition-colors">Github: Ordinizer</a>
               <a href="mailto:civillyengaged@gmail.com" className="hover:text-gray-900 transition-colors">Contact</a>
@@ -82,6 +83,7 @@ function App() {
       <TooltipProvider>
         <Toaster />
         <div className="flex flex-col min-h-screen">
+          <SiteHeader />
           <div className="flex-1">
             <Router />
           </div>

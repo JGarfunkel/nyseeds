@@ -9,6 +9,8 @@ export default {
   content: [
     path.resolve(baseDir, "index.html"),
     path.resolve(baseDir, "src/**/*.{js,jsx,ts,tsx}"),
+    path.resolve(baseDir, "partials/**/*.html"),
+    path.resolve(baseDir, "public/advocacy/**/*.html"),
     // Local dev: sibling ordinizer repo
     path.resolve(baseDir, "../../ordinizer/app/client/src/**/*.{js,jsx,ts,tsx}"),
     path.resolve(baseDir, "../../ordinizer/client/src/**/*.{js,jsx,ts,tsx}"),

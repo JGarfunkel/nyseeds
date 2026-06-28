@@ -1,6 +1,9 @@
 import "./env-defaults";
 import "dotenv/config";
 import express, { type Request, Response, NextFunction } from "express";
+import path from "path";
+import fs from "fs";
+import ejs from "ejs";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 
@@ -40,11 +43,113 @@ app.use((req, res, next) => {
   next();
 });
 
+// EJS configuration for server-side rendering
+app.engine("html", ejs.renderFile);
+app.set("view engine", "html");
+app.set("views", path.resolve(process.cwd(), "client"));
+const staticRoot = path.resolve(process.cwd(), "client", "public");
+const proposalsRoot = path.resolve(process.cwd(), "client", "public", "advocacy");
+
+interface ProposalMeta {
+  title: string;
+  date?: string;
+  tags?: string[];
+  status?: string;
+}
+
+interface ProposalEntry {
+  slug: string;
+  meta: ProposalMeta;
+  formattedDate: string;
+}
+
+let proposalsCache: ProposalEntry[] = [];
+
+const parseProposalFile = (fileName: string): ProposalEntry => {
+  const slug = fileName.replace(/\.html$/, "");
+  let meta: ProposalMeta = { title: slug.replace(/-/g, " "), status: "proposed" };
+
+  try {
+    const content = fs.readFileSync(path.join(proposalsRoot, fileName), "utf-8");
+    const get = (field: string) => {
+      const m = content.match(new RegExp(`<meta[^>]+name="proposal:${field}"[^>]+content="([^"]+)"`))
+        ?? content.match(new RegExp(`<meta[^>]+content="([^"]+)"[^>]+name="proposal:${field}"`));
+      return m ? m[1] : "";
+    };
+
+    const title = get("title");
+    const date = get("date");
+    const status = get("status");
+    const tags = get("tags");
+
+    if (title) meta.title = title;
+    if (date) meta.date = date;
+    if (status) meta.status = status;
+    if (tags) meta.tags = tags.split(",").map(t => t.trim());
+  } catch {}
+
+  let formattedDate = "";
+  if (meta.date) {
+    formattedDate = new Date(`${meta.date}T00:00:00`).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+  }
+
+  return { slug, meta, formattedDate };
+};
+
+const rebuildProposalsCache = () => {
+  let files: string[] = [];
+  try {
+    files = fs.readdirSync(proposalsRoot).filter(f => f.endsWith(".html"));
+  } catch {
+    proposalsCache = [];
+    return;
+  }
+
+  const parsed = files.map(parseProposalFile);
+  parsed.sort((a, b) => (b.meta.date ?? "").localeCompare(a.meta.date ?? ""));
+  proposalsCache = parsed;
+};
+
+const watchProposalsCache = () => {
+  try {
+    fs.watch(proposalsRoot, (eventType, fileName) => {
+      if (!fileName || !fileName.endsWith(".html")) return;
+      if (eventType !== "rename" && eventType !== "change") return;
+      rebuildProposalsCache();
+    });
+  } catch {
+    // If the directory does not exist yet or watcher setup fails, requests still use the latest built cache.
+  }
+};
+
 (async () => {
   try {
     console.log("Starting server...");
     const server = await registerRoutes(app);
     console.log("Routes registered.");
+
+    // Serve client/public as static (CSS, images, etc.)
+    app.use(express.static(staticRoot));
+
+    rebuildProposalsCache();
+    watchProposalsCache();
+
+    // Proposals index
+    app.get(['/advocacy', '/advocacy/'], (req, res) => {
+      res.render('proposals-index', { proposals: proposalsCache, requestPath: req.path });
+    });
+
+    // Render proposals via EJS (views root is client/, so path is relative to that)
+    app.get('/advocacy/:name', (req, res, next) => {
+      res.render(path.join('public', 'advocacy', req.params.name), { requestPath: req.path }, (err, html) => {
+        if (err) return next();
+        res.send(html);
+      });
+    });
 
     app.get('*', (req, res, next) => {
       if (req.path.includes('.') || req.path.startsWith('/api')) {
