@@ -1,6 +1,9 @@
 (function () {
   var bar = document.getElementById('proposal-meta-bar');
-  if (!bar) return;
+  if (!bar) { 
+    console.warn('Element with id "proposal-meta-bar" (meta bar) not found.');
+    return;
+  }
 
   function meta(name) {
     var el = document.querySelector('meta[name="proposal:' + name + '"]');
@@ -10,6 +13,7 @@
   var status  = meta('status') || 'proposed';
   var date    = meta('date');
   var tags    = meta('tags');
+  var type    = meta('type');
 
   var label   = status.charAt(0).toUpperCase() + status.slice(1);
   var dateStr = date
@@ -18,11 +22,15 @@
   var tagStr  = tags
     ? tags.split(',').map(function (t) { return t.trim(); }).join(' · ')
     : '';
+  var typeStr = type
+    ? type.charAt(0).toUpperCase() + type.slice(1)
+    : '';
 
   bar.innerHTML =
     '<div class="proposal-meta-bar">' +
-    '<span class="pmb-status ' + status + '">' + label + '</span>' +
-    (dateStr ? '<span class="pmb-date">'  + dateStr + '</span>' : '') +
-    (tagStr  ? '<span class="pmb-tags">'  + tagStr  + '</span>' : '') +
+    (typeStr  ? '<span class="pmb-type">'               + typeStr + '</span>' : '') +
+    '<span class="pmb-status ' + status + '">'          + label   + '</span>' +
+    (dateStr  ? '<span class="pmb-date">'  + dateStr  + '</span>' : '') +
+    (tagStr   ? '<span class="pmb-tags">'  + tagStr   + '</span>' : '') +
     '</div>';
 }());

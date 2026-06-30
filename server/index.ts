@@ -48,10 +48,11 @@ app.engine("html", ejs.renderFile);
 app.set("view engine", "html");
 app.set("views", path.resolve(process.cwd(), "client"));
 const staticRoot = path.resolve(process.cwd(), "client", "public");
-const proposalsRoot = path.resolve(process.cwd(), "client", "public", "advocacy");
+const projectsRoot = path.resolve(process.cwd(), "client", "public", "projects");
 
 interface ProposalMeta {
   title: string;
+  subtitle?: string;
   date?: string;
   tags?: string[];
   status?: string;
@@ -70,7 +71,7 @@ const parseProposalFile = (fileName: string): ProposalEntry => {
   let meta: ProposalMeta = { title: slug.replace(/-/g, " "), status: "proposed" };
 
   try {
-    const content = fs.readFileSync(path.join(proposalsRoot, fileName), "utf-8");
+    const content = fs.readFileSync(path.join(projectsRoot, fileName), "utf-8");
     const get = (field: string) => {
       const m = content.match(new RegExp(`<meta[^>]+name="proposal:${field}"[^>]+content="([^"]+)"`))
         ?? content.match(new RegExp(`<meta[^>]+content="([^"]+)"[^>]+name="proposal:${field}"`));
@@ -86,6 +87,9 @@ const parseProposalFile = (fileName: string): ProposalEntry => {
     if (date) meta.date = date;
     if (status) meta.status = status;
     if (tags) meta.tags = tags.split(",").map(t => t.trim());
+
+    const subtitleMatch = content.match(/<p[^>]*class="[^"]*\bsubtitle\b[^"]*"[^>]*>(.*?)<\/p>/s);
+    if (subtitleMatch) meta.subtitle = subtitleMatch[1].replace(/<[^>]+>/g, "").trim();
   } catch {}
 
   let formattedDate = "";
@@ -103,7 +107,7 @@ const parseProposalFile = (fileName: string): ProposalEntry => {
 const rebuildProposalsCache = () => {
   let files: string[] = [];
   try {
-    files = fs.readdirSync(proposalsRoot).filter(f => f.endsWith(".html"));
+    files = fs.readdirSync(projectsRoot).filter(f => f.endsWith(".html"));
   } catch {
     proposalsCache = [];
     return;
@@ -116,7 +120,7 @@ const rebuildProposalsCache = () => {
 
 const watchProposalsCache = () => {
   try {
-    fs.watch(proposalsRoot, (eventType, fileName) => {
+    fs.watch(projectsRoot, (eventType, fileName) => {
       if (!fileName || !fileName.endsWith(".html")) return;
       if (eventType !== "rename" && eventType !== "change") return;
       rebuildProposalsCache();
@@ -138,14 +142,28 @@ const watchProposalsCache = () => {
     rebuildProposalsCache();
     watchProposalsCache();
 
-    // Proposals index
+    // Projects index - backwards compatible route for /advocacy (used in the past for advocacy proposals)
     app.get(['/advocacy', '/advocacy/'], (req, res) => {
       res.render('proposals-index', { proposals: proposalsCache, requestPath: req.path });
     });
 
-    // Render proposals via EJS (views root is client/, so path is relative to that)
+    // Proposals index
+    app.get(['/projects', '/projects/'], (req, res) => {
+      res.render('proposals-index', { proposals: proposalsCache, requestPath: req.path });
+    });
+
+
+    // Render proposals via EJS - backwards compatible route for /advocacy/:name (used in the past for advocacy proposals)
     app.get('/advocacy/:name', (req, res, next) => {
-      res.render(path.join('public', 'advocacy', req.params.name), { requestPath: req.path }, (err, html) => {
+      res.render(path.join('public', 'projects', req.params.name), { requestPath: req.path }, (err, html) => {
+        if (err) return next();
+        res.send(html);
+      });
+    });
+
+    // Render proposals via EJS (views root is client/, so path is relative to that)
+    app.get('/projects/:name', (req, res, next) => {
+      res.render(path.join('public', 'projects', req.params.name), { requestPath: req.path }, (err, html) => {
         if (err) return next();
         res.send(html);
       });

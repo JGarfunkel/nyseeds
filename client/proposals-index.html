@@ -6,19 +6,24 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-<title>Advocacy — NY Seeds</title>
+<title>Projects — NY Seeds</title>
 <link href="/proposal.css" rel="stylesheet">
 <style>
-.proposal-list { list-style: none; padding: 0; margin: 2rem 0; }
-.proposal-item { border-top: 1px solid #d0cfc8; padding: 1.25rem 0; }
-.proposal-item:last-child { border-bottom: 1px solid #d0cfc8; }
-.proposal-item a {
+.project-list { list-style: none; padding: 0; margin: 2rem 0; }
+.project-item { padding: 0.6rem 0; }
+.project-item a {
   font-family: 'Libre Baskerville', Georgia, serif;
   font-size: 1.2rem;
   color: #0f6a5b;
   text-decoration: none;
 }
-.proposal-item a:hover { text-decoration: underline; }
+.project-item a:hover { text-decoration: underline; }
+.project-subtitle {
+  margin: 0.45rem 0 0;
+  color: #5d6b62;
+  font-size: 0.98rem;
+  line-height: 1.45;
+}
 .pmeta-row {
   display: flex;
   gap: 1rem;
@@ -32,14 +37,15 @@
 <body>
 <%- include('partials/header.html') %>
 <div class="content">
-  <h1>Advocacy</h1>
+  <h1>Projects</h1>
   <% if (!proposals.length) { %>
-  <p>No proposals yet.</p>
+  <p>No projects yet.</p>
   <% } %>
-  <ul class="proposal-list">
+  <ul class="project-list">
     <% proposals.forEach(function(p) { var sl = p.meta.status || 'proposed'; %>
-    <li class="proposal-item">
-      <a href="/advocacy/<%= p.slug %>"><%= p.meta.title %></a>
+    <li class="project-item">
+      <a href="/projects/<%= p.slug %>"><%= p.meta.title %></a>
+      <% if (p.meta.subtitle) { %><p class="project-subtitle"><%= p.meta.subtitle %></p><% } %>
       <div class="pmeta-row">
         <span class="pmb-status <%= sl %>"><%= sl.charAt(0).toUpperCase() + sl.slice(1) %></span>
         <% if (p.formattedDate) { %><span class="pmb-date"><%= p.formattedDate %></span><% } %>

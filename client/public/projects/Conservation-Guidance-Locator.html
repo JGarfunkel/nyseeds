@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../../../client/partials/head.html') %>
+
+<title>Conservation Guidance Locator</title>
+<meta name="proposal:title"  content="Conservation Guidance Locator">
+<meta name="proposal:date"   content="June 30, 2026">
+<meta name="proposal:tags"   content="GIS, zoning">
+<meta name="proposal:status" content="draft">
+<meta name="proposal:type" content="project">
+</head>
+<body>
+
+<%- include('../../../client/partials/header.html') %>
+
+    <article>
+
+    <h1>Conservation Guidance Locator</h1>
+    <p class="subtitle">A public, address-searchable tool that shows the ordinances, guidance, and programs that apply to any property.</p>
+
+    <div class="summary-box">
+      <h2>Summary</h2>
+      <p>Conservation context reaches almost every property, and it lives scattered across state and county rules, intermunicipal overlay districts, and voluntary partnerships. Most owners meet it for the first time at the permit counter.</p>
+      <p>A Conservation Guidance Locator gathers that context into one place. Enter an address, and see the ordinances, the watershed, the guidance, and the programs that apply to that parcel.</p>
+    </div>
+
+    <h2>The idea</h2>
+    <p>Conservation context reaches almost every property, and it lives in many places at once: state and county regulations, intermunicipal overlay districts, local ordinances, and voluntary stewardship partnerships. Most owners meet this context at the permit counter, where staff consult records and mark property cards by hand to flag the watersheds, districts, and rules that touch a given parcel.</p>
+
+    <p>A Conservation Guidance Locator gathers that scattered guidance into one public place. A resident enters an address and sees the ordinances and overlay districts the parcel falls within, the watershed it drains to, the conservation guidance that applies, and the stewardship programs and grants available at that address. The thing it locates is the rule or the guidance itself: the actual ordinance, buffer requirement, or program a property owner would otherwise meet only mid-application.</p>
+
+    <h2>What it draws together</h2>
+    <div class="data-box">
+      <div class="data-box-title">Three layers feed the Locator</div>
+      <ul>
+        <li><strong>Government rules</strong> &mdash; state designations such as DEC-regulated wetlands, streams, and Critical Environmental Areas, together with county and municipal ordinances.</li>
+        <li><strong>Intermunicipal districts</strong> &mdash; overlay zoning whose boundaries today live largely in staff knowledge and paper records.</li>
+        <li><strong>Voluntary partnerships</strong> &mdash; participation in efforts such as a Conservation Neighbor Partnership, displayed as each owner chooses.</li>
+      </ul>
+    </div>
+    <p>This last layer joins the two halves of the initiative: the partnership supplies one set of entries, and the Locator gives it a permanent, searchable home beside the official rules.</p>
+
+    <h2>Proven parts, brought together</h2>
+    <p>Several tools already perform a piece of this. New York City's <a href="https://zola.planning.nyc.gov/">ZoLa</a> returns zoning by address. The state DEC's <a href="https://dec.ny.gov/nature/animals-fish-plants/biodiversity-species-conservation/biodiversity-mapping/environmental-resource-mapper">Environmental Resource Mapper</a> returns regulated wetlands, streams, and rare-species context by location, and its <a href="https://dec.ny.gov/nature/waterbodies/lakes-rivers/hudson-river/hudson-valley-natural-resource-mapper">Hudson Valley Natural Resource Mapper</a> layers more than forty regional data sets for land-use planning. Aspetuck's <a href="https://www.aspetucklandtrust.org/green-corridor-partners-map">chickadee map</a> shows voluntary participation by address. A Conservation Guidance Locator brings local ordinances, voluntary stewardship, and grant eligibility together for a single parcel, the combination property owners currently assemble by hand, when they manage to assemble it at all.</p>
+
+    <div class="compare-grid">
+      <div class="compare-col col-now">
+        <div class="compare-col-head">Today</div>
+        <ul>
+          <li>Marked on property cards by hand at the permit counter</li>
+          <li>Boundaries interpreted case by case</li>
+          <li>Voluntary efforts archived in documents</li>
+          <li>Invisible to buyers and on real-estate sites</li>
+        </ul>
+      </div>
+      <div class="compare-col col-prop">
+        <div class="compare-col-head">With a Locator</div>
+        <ul>
+          <li>Searchable by address, open to everyone</li>
+          <li>Boundaries shown on a clean map</li>
+          <li>Voluntary participation visible beside the rules</li>
+          <li>Conservation context legible before a permit</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card-mockup">
+      <div class="card-title">123 Example Road</div>
+      <div class="card-subtitle">Town of New Castle &middot; Croton watershed</div>
+      <div class="card-field">
+        <span class="card-field-label">Overlay district</span><br>
+        <span class="card-field-value">Indian Brook&ndash;Croton Gorge WPOD</span>
+      </div>
+      <div class="card-field">
+        <span class="card-field-label">Drains to</span><br>
+        <span class="card-field-value">New Croton Reservoir</span>
+      </div>
+      <div class="card-field">
+        <span class="card-field-label">Applies here</span><br>
+        <span class="card-field-value">150-ft stream buffer; fertilizer &amp; pesticide limits</span>
+      </div>
+      <div class="card-field">
+        <span class="card-field-label">Programs</span><br>
+        <span class="card-field-value">WAC East of Hudson; Conservation Neighbor Partnership</span>
+      </div>
+      <div class="card-terms">Informational. Confirm specifics with the Town planning office.</div>
+    </div>
+
+    <h2>How it works</h2>
+    <p>The Locator answers an address with a layered result and points the owner to the planning office to confirm specifics, in the manner of a flood map. It guides and refers, which keeps both accuracy and liability manageable and makes the data a public service. The binding force of any ordinance stays with the municipality; the Locator's role is to surface it early and plainly.</p>
+
+    <p>Because the data sits at the parcel level, it also adds up. The same records that tell one owner what applies to them tell a town how much of its land is protected, regulated, or actively stewarded, the parcel-level accounting of the suburban landscape that the State's 30&times;30 effort currently needs.</p>
+
+    <h2>In Northern Westchester</h2>
+    <p>The Croton watershed offers a ready proving ground. The Indian Brook&ndash;Croton Gorge Watershed Protection Overlay District, adopted across five municipalities, carries real requirements: site plan review, 150-foot stream and wetland buffers, and limits on fertilizer, pesticides, and stormwater hotspots. Its boundaries resolve case by case at the permit counter, where a planning office marks property cards by hand to apply them. A Locator built for these towns would lift those boundaries into a clean, searchable map that any resident could read.</p>
+
+    <div class="stat-row">
+      <div class="stat-card">
+        <span class="stat-number">5</span>
+        <span class="stat-label">municipalities in the overlay district</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">150 ft</span>
+        <span class="stat-label">stream and wetland buffers</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">1997</span>
+        <span class="stat-label">NYC Watershed Memorandum of Agreement</span>
+      </div>
+    </div>
+
+    <p>The infrastructure to support it already exists. <a href="https://planning.westchestercountyny.gov/watershed-protection">Westchester County</a> maintains GIS layers and has coordinated watershed protection since the 1997 Memorandum of Agreement. A pilot fits naturally in a single municipality, and New Castle is a strong candidate, given its place within the district, an active Conservation Board, and its adopted <a href="https://www.mynewcastleny.gov/DocumentCenter/View/4970/LOCAL-LAW-7-2024-Regarding-Indian-Brook-Croton-Gorge-Watershed-Protection-Overlay-District-PDF">Local Law 7 of 2024</a>. Funding can draw on the Environmental Protection Fund's Water Quality Improvement Program, county GIS resources, or Hudson River Estuary watershed grants, which already support work in this watershed.</p>
+
+    <p>The pilot would digitize one town's conservation layers, stand up the address lookup, and demonstrate a public service that serves residents, eases the load on town staff, and gives the whole community a clear picture of the land it shares.</p>
+
+    <div class="references">
+      <div class="references-label">References &amp; Links</div>
+      <ul>
+        <li>NYC Planning &mdash; <a href="https://zola.planning.nyc.gov/">ZoLa (Zoning &amp; Land Use Map)</a></li>
+        <li>NYSDEC &mdash; <a href="https://dec.ny.gov/nature/animals-fish-plants/biodiversity-species-conservation/biodiversity-mapping/environmental-resource-mapper">Environmental Resource Mapper</a></li>
+        <li>NYSDEC &mdash; <a href="https://dec.ny.gov/nature/waterbodies/lakes-rivers/hudson-river/hudson-valley-natural-resource-mapper">Hudson Valley Natural Resource Mapper</a></li>
+        <li>NYSDEC &mdash; <a href="https://dec.ny.gov/nature/animals-fish-plants/biodiversity-species-conservation/habitat-conservation-assistance-programs">Habitat Conservation Assistance Programs</a></li>
+        <li>Aspetuck Land Trust &mdash; <a href="https://www.aspetucklandtrust.org/green-corridor-partners-map">Green Corridor Partners Map</a></li>
+        <li>Town of New Castle &mdash; <a href="https://www.mynewcastleny.gov/DocumentCenter/View/4970/LOCAL-LAW-7-2024-Regarding-Indian-Brook-Croton-Gorge-Watershed-Protection-Overlay-District-PDF">Local Law 7 of 2024 (Watershed Protection Overlay District)</a></li>
+        <li>Westchester County Planning &mdash; <a href="https://planning.westchestercountyny.gov/watershed-protection">Watershed Protection</a></li>
+      </ul>
+    </div>
+
+    </article>
+<%- include('../../../client/partials/footer.html') %>
+
+</body>
+</html>

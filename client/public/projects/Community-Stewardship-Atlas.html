@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../../../client/partials/head.html') %>
+
+<title>Community Stewardship Atlas</title>
+<meta name="proposal:title"  content="Community Stewardship Atlas">
+<meta name="proposal:date"   content="2026-06-26">
+<meta name="proposal:tags"   content="invasives,landscaping">
+<meta name="proposal:status" content="draft">
+<meta name="proposal:type" content="legislation">
+<meta name="proposal:version" content="1.0">
+</head>
+<body>
+
+<%- include('../../../client/partials/header.html') %>
+
+<article>
+
+  <h1>The Community Stewardship Atlas</h1>
+  <p class="subtitle">A shared, navigable database and public map of the gardens and wild areas people steward — built from the ground up, by the communities that tend them.</p>
+  <div id="proposal-meta-bar"></div>
+
+  <div class="summary-box">
+    <h2>Summary</h2>
+    <p>The Community Stewardship Atlas is a navigable database and public map of the gardens and wild areas people steward — pollinator plantings, native gardens, school grounds, neighborhood preserves, and small wild places. Anyone can register a site and keep it current with dated observations and photos.</p>
+    <p>Each managed area becomes a living entry, with its steward, a structured profile, and a record of what has been seen and done over time. It is designed to start in a single community and grow into one shared, open system.</p>
+  </div>
+
+  <h2>The opportunity</h2>
+  <p>Conservation, in practice, is usually measured one way: acres of land permanently protected from development. Stewardship is the part that lives inside that goal but is rarely counted. It is the active, ongoing care of a place, the who, where, and how of it. Who tends a garden or a strip of woods, where it sits, and how it is managed through the seasons, from clearing invasives to planting natives. Stewardship is where conservation succeeds or fails on the ground. A parcel can be permanently protected and still lose its value if no one manages it, while a well-tended quarter-acre beside a school can hold more life than acres of neglected open space. Most of this care is done quietly by residents, schools, clubs, and land trusts, and almost none of it is written down.</p>
+  <p>The formal record tracks protection. The federal <a href="https://apps.conservation.gov/atbatlas/explorer" target="_blank" rel="noopener">Conservation and Stewardship Atlas</a> draws its protected-lands layer from the USGS Protected Areas Database of the United States (PAD-US), which receives New York's records from the <a href="https://www.nypad.org/" target="_blank" rel="noopener">New York Protected Areas Database (NYPAD)</a>, a state inventory assembled from county tax-parcel data and submissions by agencies and land trusts, and forwarded to PAD-US once a year. These databases register whether a parcel is shielded from development. The who, where, and how of stewardship falls outside their design.</p>
+  <p>They are incomplete even on their own terms. NYPAD openly asks municipalities, counties, and land trusts to send protected lands that do not yet appear, and whether a local site reaches the national map depends on how its parcel is classified on the tax roll and on someone choosing to submit it. That path can require a manual step, and many stewarded sites never travel it.</p>
+  <p>The Community Stewardship Atlas starts at the bottom of that chain. Its two goals are concrete:</p>
+  <ul>
+    <li><strong>Compile an inventory from the bottom up.</strong> Let residents and groups register the publicly accessible gardens and wild areas, especially shared-access spaces such as schools, recreation clubs, and preserves, that the formal databases miss.</li>
+    <li><strong>Encourage community ownership.</strong> Credit each steward and keep the record current with their ongoing observations and photos, so a site shows how it is cared for and how it changes over time.</li>
+  </ul>
+
+  <h2>What exists today — and where this fits</h2>
+  <p>The closest precedent came from the bottom up. Cornell Lab of Ornithology and The Nature Conservancy once ran <a href="https://ourhabitatgarden.org/home/act/comm-sci/plants/habitat-network/" target="_blank" rel="noopener">Habitat Network</a> (formerly YardMap), which let people map the yards, parks, schools, and gardens they stewarded — a genuine community habitat database that was later discontinued, leaving the niche empty. Pollinator-pathway and healthy-yards programs place a marker for a pledged private yard but keep no record over time, and iNaturalist catalogs sightings of individual organisms rather than the managed places themselves.</p>
+  <p>The Community Stewardship Atlas is the missing middle: a navigable, contributor-built inventory of stewarded <em>sites</em> that revives what Habitat Network proved and adds the living record none of these keep.</p>
+
+  <h2>How the inventory is built</h2>
+  <p>The design rests on one idea: capture <strong>places</strong>, <strong>moments</strong>, and <strong>people</strong> separately, store photos by link, and give every site a location. Four simple record types do the work.</p>
+  <ul>
+    <li><strong>Sites</strong> — the place, with mostly stable facts (where, how big, who owns it, what it is).</li>
+    <li><strong>Observations</strong> — what was seen or done on a given visit. One site collects many over the years, turning the inventory into a history rather than a snapshot.</li>
+    <li><strong>Stewards</strong> — the people or groups caring for sites, so credit and contact stay clear even as stewardship changes hands.</li>
+    <li><strong>Photos</strong> — stored in low-cost cloud storage and referenced by link, so the database stays lean.</li>
+  </ul>
+
+  <h2>The site questionnaire</h2>
+  <p>Contributing a site is a single guided form. It opens with photos — the easiest thing for anyone to provide — and every answer flows straight into the site record. Fixed choices (rather than free text) for accessibility and type are what later make the map filterable: "show all public pollinator gardens" only works if everyone answered from the same menu.</p>
+
+  <div class="form-box">
+    <div class="form-head">Add a Site — contributor questionnaire</div>
+    <div class="form-q"><div class="form-qlabel">1. Start with photos.</div><div class="form-qhint">Upload a few photos of the spot. These become its first observation.</div></div>
+    <div class="form-q"><div class="form-qlabel">2. Where is it?</div><div class="form-qhint">Drop a pin or enter the address. We'll capture the location automatically.</div></div>
+    <div class="form-q"><div class="form-qlabel">3. How large is it?</div><div class="form-qhint">Approximate size in square feet.</div></div>
+    <div class="form-q"><div class="form-qlabel">4. Is it the whole lot, or part of the lot?</div></div>
+    <div class="form-q"><div class="form-qlabel">5. Who is the legal owner?</div></div>
+    <div class="form-q"><div class="form-qlabel">6. What is the accessibility?</div>
+      <ul class="check-list"><li>Public</li><li>For designated community members and guests (e.g., school, private club)</li><li>Private garden visible from the street</li><li>Private garden visible only on selected days (e.g., garden tours)</li></ul>
+    </div>
+    <div class="form-q"><div class="form-qlabel">7. Who is the steward?</div></div>
+    <div class="form-q"><div class="form-qlabel">8. What is it?</div>
+      <ul class="check-list"><li>Vegetable / herb garden</li><li>Ornamental garden</li><li>Pollinator garden</li><li>Wild area</li></ul>
+    </div>
+    <div class="form-q"><div class="form-qlabel">9. What is the non-native management strategy?</div></div>
+    <div class="form-q"><div class="form-qlabel">10. Who is involved? Is there an educational component?</div></div>
+    <div class="form-q"><div class="form-qlabel">11. Add links.</div><div class="form-qhint">Photo collection · iNaturalist records.</div></div>
+  </div>
+
+  <h2>How it works in practice</h2>
+  <p>The questionnaire creates a site once. The real value compounds afterward, as people return to add <strong>observations</strong> — short, dated updates with photos. A few everyday examples:</p>
+
+  <div class="usecase">
+    <h4>A resident registers a front-yard pollinator garden</h4>
+    <p>A homeowner photographs their milkweed-and-aster bed, drops a pin, and answers the questionnaire. Their garden appears on the statewide map within minutes, credited to them as steward.</p>
+    <p class="records-note"><strong>Creates:</strong> 1 site · 1 steward · 1 observation with 3 photos.</p>
+  </div>
+
+  <div class="usecase">
+    <h4>A school garden club logs the growing season</h4>
+    <p>Each month, students add a dated observation to their existing site: what's blooming, what they planted, monarch caterpillars spotted. Photos and an iNaturalist link attach to each entry. Over a year, the site becomes a visual, searchable record of the garden's progress — useful for the class, for grant reports, and for the next group of students.</p>
+    <p class="records-note"><strong>Adds over time:</strong> many observations on one site, each with photos + species records.</p>
+  </div>
+
+  <div class="usecase">
+    <h4>A preserve steward documents an invasive-removal workday</h4>
+    <p>After a volunteer day pulling barberry from a town preserve, the steward posts one observation with before, during, and after photos and a note on the strategy used. The next steward inherits a clear management history instead of starting from scratch.</p>
+    <p class="records-note"><strong>Adds:</strong> 1 observation with a photo set + management notes; volunteers credited.</p>
+  </div>
+
+</article>
+<%- include('../../../client/partials/footer.html') %>
+
+</body>
+</html>
