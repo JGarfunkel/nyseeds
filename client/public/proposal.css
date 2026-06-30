@@ -178,6 +178,27 @@ svg {
     align-items: flex-start;
     flex-direction: column;
   }
+
+  /* ─── Mobile typography scale ──────────────────────────────────────────── */
+  /* Bump the root em so all rem-based sizes scale up ~6% across the board  */
+  html { font-size: 17px; }
+
+  p, ul, ol, blockquote { line-height: 1.75; }
+
+  /* Floor all-caps labels — at 0.72–0.78rem they'd render below 13px       */
+  .kicker,
+  .section-num,
+  .draft-label,
+  .pmb-status,
+  .pmb-type,
+  .phase-card .phase-step,
+  .alert-box strong,
+  .alert-green strong,
+  .data-box .data-box-title,
+  .references .references-label { font-size: 0.82rem; }
+
+  .footer-note,
+  .footnote { font-size: 0.88rem; }
 }
 
     .stat-row {

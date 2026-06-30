@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -31,6 +32,12 @@
   margin-top: 0.5rem;
   align-items: center;
   font-size: 0.875rem;
+}
+@media (max-width: 640px) {
+  .project-item { padding: 0.85rem 0; border-bottom: 1px solid #e8e7e3; }
+  .project-item:last-child { border-bottom: none; }
+  .project-subtitle { line-height: 1.6; }
+  .pmeta-row { gap: 0.6rem; }
 }
 </style>
 </head>
