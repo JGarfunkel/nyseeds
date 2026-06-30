@@ -1,5 +1,5 @@
 {
-  "id": "NY-Hastings-on-Hudson-Village-boards-1779827969045",
+  "id": "NY-Hastings-on-Hudson-Village-boards-1782839287526",
   "entityId": "NY-Hastings-on-Hudson-Village",
   "domainId": "boards",
   "entity": {
@@ -15,33 +15,32 @@
     {
       "id": 1,
       "question": "How many seats are authorized on the board or committee, how many are currently filled, and how many vacancies exist?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 10,
+      "answer": "The Conservation Commission is authorized to have seven appointed members plus two liaison members (nine total). Currently, seven named appointed members are listed: Haven Colgate (Chair), Eyal Dror, Matthew Hobby, Margie Lavender, Dan Lemons, Amy Listerman, and Aarthi Muthukrishnan, plus one liaison (Trustee Fleisig). The number of vacancies is not explicitly stated, though the seven appointed seats appear filled based on the member list.",
+      "confidence": 62,
       "sourceRefs": [
-        "https://www.hohny.gov/461/Get-Involved",
-        "https://www.hohny.gov/613/Zero-Waste-Advisory-Taskforce-ZWAT"
+        "https://www.hohny.gov/360/Conservation-Commission"
       ],
-      "gap": "The sources do not specify the total number of authorized seats, currently filled seats, or vacancies for the Conservation Commission or its subcommittees. The ZWAT page lists 10 named members but provides no authorized seat count or vacancy information.",
-      "score": 0,
+      "gap": "The website does not explicitly state the number of current vacancies, nor confirm whether the second liaison seat is filled. Total authorized seats and current membership count are inferable but not directly stated as a vacancy summary.",
+      "score": 0.45,
       "nextPrompts": [
-        "Search the Village of Hastings-on-Hudson municipal code or official resolutions for the authorized membership size of the Conservation Commission.",
-        "Check the Village Board meeting minutes or official appointments page for current member counts and any open vacancies on the Conservation Commission."
+        "Is there a second liaison member position currently filled or vacant on the Conservation Commission?",
+        "Does the Village of Hastings-on-Hudson publish an official vacancy notice or roster update for the Conservation Commission?"
       ]
     },
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 10,
+      "answer": "The Conservation Commission page for Hastings-on-Hudson provides contact information, archived agendas, archived minutes, and a calendar, but does not list member names, appointment methods, term lengths, or expiration dates. The Index of Conservation Commission Initiatives lists various projects and working groups but similarly contains no membership details.",
+      "confidence": 85,
       "sourceRefs": [
-        "https://www.hohny.gov/461/Get-Involved",
-        "https://www.hohny.gov/523/Compost"
+        "https://www.hohny.gov/360/Conservation-Commission",
+        "https://www.hohny.gov/494/Index-of-Conservation-Commission-Initiat"
       ],
-      "gap": "The sources contain no information about board/committee member names, appointment methods, term lengths, or expiration dates. The retrieved pages relate to community events and composting programs, not governance membership details.",
-      "score": 0,
+      "gap": "The website does not list member names, appointment methods, term lengths, or expiration dates for the Conservation Commission. Full alignment with best practice would require publishing all four elements prominently on the commission's page.",
+      "score": 0.05,
       "nextPrompts": [
-        "Search hohny.gov for a dedicated board or committee roster page listing member names and term information.",
-        "Look for a Village Board or Conservation Commission page on hohny.gov that includes appointment and term details."
+        "Is there a separate village code or resolution that specifies appointment method and term lengths for Conservation Commission members?",
+        "Does the village's board meeting minutes or annual reorganization records list current Conservation Commission members and their term dates?"
       ]
     },
     {
@@ -50,13 +49,13 @@
       "answer": "Not specified in the provided sources.",
       "confidence": 10,
       "sourceRefs": [
-        "https://www.hohny.gov/461/Get-Involved"
+        "https://www.hohny.gov/360/Conservation-Commission"
       ],
-      "gap": "The provided source contains no information about meeting dates, times, locations, or public notice details for governing boards or committees. A best-practice website would clearly list all upcoming meeting information in an accessible location.",
+      "gap": "The provided sources contain only a list of Conservation Commission initiatives and resources, with no information about upcoming meeting dates, times, locations, or public notice details.",
       "score": 0,
       "nextPrompts": [
-        "Search the Hastings-on-Hudson municipal website for a dedicated 'Meetings' or 'Calendar' page listing board and committee meeting schedules.",
-        "Check individual board/committee pages (e.g., Village Board, Planning Board, Zoning Board) on hohny.gov for posted agendas, notices, and meeting details."
+        "Search the Hastings Conservation Commission page for a meeting calendar or agenda section listing upcoming meeting dates, times, and locations.",
+        "Check if the municipality posts public meeting notices or agendas on a dedicated calendar or public notice board on hohny.gov."
       ]
     },
     {
@@ -76,54 +75,65 @@
     {
       "id": 6,
       "question": "Does the board or committee page show ongoing projects, priorities, or current work in progress?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The board/committee page shows ongoing projects and current work in progress. Specifically, the Hillside Woods Restoration Project (HWRP) is highlighted as a multi-year initiative focused on restoring ecological balance and habitat to Hillside Woods and Park. Ongoing work sessions are available for public participation. Current activities include removing invasive plants and replanting with native species. The Hastings Vine Squad operates seasonally (November to March) to free trees from invasive vines. A dedicated project page and the Protect Our Woods website are referenced for additional background information. Sign-up options for work sessions are provided.",
+      "confidence": 85,
+      "sourceRefs": [
+        "https://www.hohny.gov/461/Get-Involved"
+      ],
+      "gap": "No gap — the page clearly communicates active initiatives, current status, and ongoing work with participation opportunities and links to further project details.",
+      "score": 0.85,
+      "nextPrompts": [
+        "Are there additional boards or committees with listed ongoing projects or priorities beyond the Hillside Woods Restoration Project?",
+        "Does the site provide a timeline or measurable milestones for the Hillside Woods Restoration Project?"
+      ]
     },
     {
       "id": 7,
       "question": "Does the website list and share social media accounts, contact information?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 0,
-      "sourceRefs": []
+      "answer": "The Conservation Commission page for Hastings-on-Hudson lists contact information including the Municipal Building address (7 Maple Avenue, Hastings-on-Hudson, NY 10706) and phone number (914-478-3400), along with Village Hall hours (Monday–Friday, 8:30AM–4:00PM). The page also includes a 'Subscribe to Mailing Lists' option and a 'Contact Us' link. No social media accounts are listed in the provided sources.",
+      "confidence": 60,
+      "sourceRefs": [
+        "https://www.hohny.gov/360/Conservation-Commission"
+      ],
+      "score": 0.3
     }
   ],
   "scores": {
-    "overallScore": 0,
-    "normalizedScore": 0,
-    "averageConfidence": 4,
+    "overallScore": 2.04,
+    "normalizedScore": 2.04,
+    "averageConfidence": 43,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
+        0.45,
+        0.05,
         0,
         0,
         0,
-        0,
-        0,
-        0,
-        0
+        0.85,
+        0.3
       ],
-      "averageQuestionScore": 0,
-      "weightedScore": 0,
-      "totalWeightedScore": 0,
+      "averageQuestionScore": 0.24,
+      "weightedScore": 0.2036,
+      "totalWeightedScore": 2.85,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0,
+          "score": 0.45,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.45,
           "maxWeightedScore": 1,
-          "confidence": 10
+          "confidence": 62
         },
         {
           "id": "2",
-          "score": 0,
+          "score": 0.05,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 0.1,
           "maxWeightedScore": 2,
-          "confidence": 10
+          "confidence": 85
         },
         {
           "id": "3",
@@ -151,28 +161,28 @@
         },
         {
           "id": "6",
-          "score": 0,
+          "score": 0.85,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 1.7,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 85
         },
         {
           "id": "7",
-          "score": 0,
+          "score": 0.3,
           "weight": 2,
-          "weightedScore": 0,
+          "weightedScore": 0.6,
           "maxWeightedScore": 2,
-          "confidence": 0
+          "confidence": 60
         }
       ]
     }
   },
-  "overallScore": 0,
-  "averageConfidence": 4,
+  "overallScore": 2.04,
+  "averageConfidence": 43,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-26T20:39:29.045Z",
+  "lastUpdated": "2026-06-30T17:08:07.526Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": []
