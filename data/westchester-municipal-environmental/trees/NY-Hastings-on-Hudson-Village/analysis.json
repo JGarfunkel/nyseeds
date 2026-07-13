@@ -1,5 +1,5 @@
 {
-  "id": "NY-Hastings-on-Hudson-Village-trees-1779067805804",
+  "id": "NY-Hastings-on-Hudson-Village-trees-1783969488985",
   "entityId": "NY-Hastings-on-Hudson-Village",
   "domainId": "trees",
   "entity": {
@@ -8,118 +8,138 @@
   },
   "domain": {
     "id": "trees",
-    "displayName": "Trees"
+    "displayName": "Trees & Urban Forestry"
   },
   "grades": {},
   "questions": [
     {
       "id": 1,
       "question": "Do I need a permit to remove a tree on my private property, how do I apply, and who reviews it? What are the fees for each tree?",
-      "answer": "Yes, a permit is required to remove any \"designated tree\" (dbh of 8 inches or more) on private property (§273-4). To apply, submit three copies of a written application to the Building Inspector (§273-7A), including: applicant name/address, property tax map designation, total land area, number/size/species of trees, reason for removal, removal method, name of contractor, a tree survey or sketch, and proof that neighbors within 50 yards were notified at least two weeks prior. The Building Inspector, after consultation with the Tree Preservation Board, reviews and issues or denies the permit (§273-7A(1)). Permits are normally issued if the tree endangers health/safety, blocks sight lines, prevents approved construction, or is dead/diseased (§273-7B). Emergency removal without a permit is allowed for immediate threats, but documentation must be submitted to the Building Inspector within three days (§273-11). Fees per tree are not specified in the provided sources.",
-      "confidence": 72,
+      "answer": "Yes, a permit is required to remove any 'designated tree' (DBH of 8 inches or more) on private property (§273-4). Application is made in writing to the Building Inspector, who consults with the Tree Preservation Board before issuing or denying the permit (§273-7A). The application must include: applicant name/address, property address and tax map designation, total land area, number/size/species of trees, reason for removal, removal method, name of contractor, a tree survey or sketch, and proof that neighbors within 50 yards were notified at least two weeks prior (§273-7A). The Building Inspector reviews the application in consultation with the Tree Preservation Board. No permit fees per tree are specified in the provided sources. Emergency removal of an immediately threatening tree is allowed without a permit, but a written explanation must be submitted to the Building Inspector within three days (§273-11).",
+      "confidence": 85,
       "sourceRefs": [
         "§273-4",
         "§273-7",
         "§273-11",
         "§273-2"
       ],
-      "gap": "The statute requires permits for trees with dbh of 8 inches or more (lower than the best practice threshold of 18 inches). No fee schedule is specified. There is no provision for limited removal without a permit (e.g., up to three trees annually on residential lots).",
-      "score": 0.6,
+      "shortAnswer": "Yes; apply in writing to Building Inspector; fees not specified.",
+      "gap": "Gaps vs. best practice: (1) DBH threshold is 8 inches, slightly above the 6–10 inch best-practice range but within it; (2) no tiered fee structure or per-tree fees are specified; (3) no decision timeline (21–30 days) is stated; (4) neighbor notification radius is 50 yards rather than the best-practice 100 feet (actually 50 yards is ~150 feet, so this exceeds best practice); (5) no explicit surcharge for large-scale removals; (6) no exemption from fees for dead/hazardous/invasive trees is mentioned (fees not addressed at all); (7) referral threshold to Planning Board for large removals is not specified as a standalone rule (only in context of site plans/subdivisions).",
+      "score": 0.62,
       "nextPrompts": [
-        "Is there a separate fee schedule or resolution establishing permit fees for tree removal applications?",
-        "Are there any exemptions for small residential lots or a limited number of tree removals per year without a permit?"
+        "What are the permit fees or fee schedule for tree removal permits under this statute or village code?",
+        "Is there a specified timeframe within which the Building Inspector must issue or deny a tree removal permit?"
       ]
     },
     {
       "id": 2,
       "question": "What are the penalties for removing trees without a permit?",
-      "answer": "The penalties for removing trees without a permit include a fine ranging from $250 to $5,000 for each violation. Additionally, you will be required to replace any removed tree with one of the same species, size, or value as determined by the Building Inspector.",
-      "confidence": 85,
+      "answer": "Under §273-12, any person violating the chapter (including removing trees without a permit) is subject to: (A) a fine of no less than $250 and not exceeding $5,000; (B) each violation to an individual designated tree constitutes a separate offense; (C) mandatory replacement of any removed tree with a tree of the same species, size, and/or value as determined by the Building Inspector; and (D) no building permit, demolition permit, or certificate of occupancy shall be granted until all provisions of the chapter have been satisfied.",
+      "confidence": 95,
       "sourceRefs": [
         "§ 273-12"
       ],
-      "score": 0.3,
-      "gap": "Consider adding specific details about the application procedures for obtaining a tree removal permit, including the required documentation, review criteria, timelines for decision-making, and any appeal processes available to applicants."
+      "shortAnswer": "$250–$5,000 fine; replacement required; permits withheld",
+      "gap": "No imprisonment provision is specified (best practice suggests up to 30 days). The minimum fine ($250) is lower than best practice's $1,000 first-offense threshold, and there is no escalating fine structure for repeat offenses.",
+      "score": 0.7,
+      "nextPrompts": [
+        "Are there any provisions for escalating fines or enhanced penalties for repeat violations of the tree permit requirements?",
+        "Does the statute define which trees are 'designated trees' subject to these penalties, and is there a permit application process outlined?"
+      ]
     },
     {
       "id": 3,
       "question": "What exemptions are specified in the law? This might include sick or hazardous trees, trees under a certain size, trees that are in certain locations, or non-native species.",
-      "answer": "The statute specifies the following exemptions or conditions under which tree removal is permitted or does not require a standard permit:\n\n1. **Immediate threat exemption**: A designated tree posing an immediate threat to health, safety, or welfare may be removed without a permit (§273-11). Post-removal documentation must be submitted within three days.\n\n2. **Size threshold**: Only \"designated trees\" with a DBH of 8 inches or more are regulated. Trees smaller than 8 inches DBH are not subject to permit requirements.\n\n3. **Permit issuance conditions** (§273-5B) — permits are normally issued when:\n - The tree endangers health, safety, welfare, or property\n - The tree prevents compliance with sight line or driveway standards\n - The tree substantially interferes with permitted construction\n - The tree is dead, diseased, damaged by storm/accident, or causes undue hardship\n - The tree is dead or so diseased it constitutes a danger to persons, property, or other trees\n - Removal is consistent with good horticultural or vegetation management without adverse ecological effect\n\nNo exemptions based on species origin (native vs. non-native) are specified in the provided sources.",
-      "confidence": 85,
+      "answer": "The provided sources do not contain statutory exemption language for tree removal (e.g., sick/hazardous trees, size thresholds, location-based exemptions, or non-native species exemptions). The sources describe native and invasive plant surveys in Hastings-on-Hudson, NY, but do not include the text of a tree protection ordinance or statute specifying exemptions.",
+      "confidence": 10,
       "sourceRefs": [
-        "§273-2 (Definitions)",
-        "§273-5B (Permit issuance conditions)",
-        "§273-11 (Immediate threat removal)"
+        "https://www.hastingsgreen.org/nature/hillside-woods/hillside-plants",
+        "https://www.hastingsgreen.org/nature/hillside-woods/what-hastings-is-doing/work-to-date/invasive-plant-surveys-removals"
       ],
-      "gap": "The statute lacks exemptions or differentiated treatment for invasive/non-native species, does not reference NYS DEC protected native plant designations, and does not require arborist certification prior to immediate-threat removals (only post-removal documentation). No reduced replacement obligations for invasive species are specified.",
-      "score": 0.4,
+      "shortAnswer": "Not specified",
+      "gap": "No exemption provisions are identifiable from the provided sources. Best practice calls for explicit exemptions (or lack thereof) for hazardous trees, DBH thresholds, invasive/non-native species with arborist certification, and location-based rules — none of which are documented here.",
+      "score": 0,
       "nextPrompts": [
-        "Does Greenburgh's code address invasive or non-native species differently in terms of replacement obligations after removal?",
-        "Are there any administrative rules or arborist certification requirements tied to the immediate threat exemption beyond the post-removal documentation?"
+        "Search for the Hastings-on-Hudson Village Code chapter on tree preservation or tree removal permits to identify statutory exemptions.",
+        "Check whether the Village of Hastings-on-Hudson has adopted a specific tree ordinance that addresses hazardous trees, size thresholds, or invasive species exemptions."
       ]
     },
     {
       "id": 4,
       "question": "Can I replant new trees to replace those removed, in lieu of a payment? Am I allowed to plant non-native species as replacements?",
-      "answer": "Yes, you can propose mitigation measures by planting new trees to replace those removed. The type of species for replacement trees is not specified, so it is unclear if non-native species are allowed.",
-      "confidence": 85,
+      "answer": "Yes, replanting is required when trees are removed. Under § 273-9, the disturbed area must be restored by backfilling, replanting and/or reseeding. Under § 273-10, any street tree removed must be replaced with new trees in the nearest practical location. The size and variety of replacement trees shall be as required by the Village — no specific native species requirement is stated, though poplar trees are prohibited within 50 feet of any sewer or sewer branch. There is no explicit provision allowing replanting in lieu of a payment, nor is there a payment-in-lieu option described. Non-native species are not explicitly prohibited (except poplars near sewers), but species selection is subject to Village approval.",
+      "confidence": 72,
       "sourceRefs": [
-        "§ 273-7",
-        "§ 273-12"
+        "§ 273-9",
+        "§ 273-10"
       ],
-      "score": 0.7,
-      "gap": "Consider adding specific guidelines on the types of species allowed for replacement, including a preference for native species, as well as requirements for survival monitoring and replacement ratios to ensure ecological balance and compliance."
+      "shortAnswer": "Replanting required; species set by Village",
+      "gap": "The statute requires replanting but does not offer a formal payment-in-lieu option, does not require native species, does not reference an approved species list, and does not establish a dedicated tree fund for cases where on-site replanting is impractical.",
+      "score": 0.45,
+      "nextPrompts": [
+        "Does the Village have a Board of Trustees-promulgated guideline or approved tree species list specifying native species requirements for replacement trees?",
+        "Is there any provision in the Village code for a payment-in-lieu-of-replanting fee or a dedicated tree fund?"
+      ]
     },
     {
       "id": 5,
       "question": "How is the notification done to neighbors and other residents for tree removal applications, and how many neighbors need to be notified?",
-      "answer": "Not specified in the provided sources. The statute (§ 273-7) outlines the application procedure for tree removal permits, including filing three copies with the Building Inspector and providing details such as applicant name, property address, tree species, size, reason for removal, and removal method. However, no provisions regarding neighbor notification, the number of neighbors to be notified, notification methods (e.g., certified mail), or posting of permit signs are described in the excerpts provided.",
-      "confidence": 15,
+      "answer": "Not specified in the provided sources. The retrieved content relates to a planting archive from Hastings-on-Hudson, NY and does not contain any statute or ordinance provisions regarding neighbor notification requirements for tree removal applications.",
+      "confidence": 5,
       "sourceRefs": [
-        "§ 273-7"
+        "§ 273-7",
+        "§ 273-11",
+        "§ 273-2"
       ],
-      "gap": "Significant gap exists. The statute does not appear to require any neighbor or community notification process for tree removal applications. Best practices call for certified mail notification to adjoining and directly opposite property owners within a specified distance (e.g., 300 feet), at least 15 days before a decision, plus on-site permit sign posting at least 3 days before removal begins. None of these elements are present in the provided sources.",
+      "shortAnswer": "Not specified",
+      "gap": "Full gap: No notification requirements found. Best practice calls for certified mail notice to all adjoining and directly opposite owners plus those within a specified distance (e.g., 300 feet), at least 15 days before a decision, plus on-site permit signage posted 3 days before removal.",
       "score": 0,
       "nextPrompts": [
-        "Does the municipality have a separate public notice or hearing requirement for tree removal permits elsewhere in the code or zoning ordinance?",
-        "Are there any Board of Trustees guidelines (referenced in § 273-9) that address neighbor notification or public posting requirements for tree removal?"
+        "Search for the Hastings-on-Hudson, NY tree ordinance or municipal code sections on tree removal permits and neighbor notification requirements.",
+        "Check whether the village posts tree removal permit applications in a public database or requires posted signage on the property prior to removal."
       ]
     },
     {
       "id": 5.1,
       "question": "Who is the enforcement officer, and is it a trained arborist or environmental professional?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 0,
+      "answer": "The sources do not identify a dedicated enforcement officer for tree-related statutes in Hastings. The only arborist mentioned is Taro Ietaka, a certified arborist consulting on a replanting project (HWR), not an enforcement role. No enforcement officer, tree warden, or forestry officer is specified in the provided sources.",
+      "confidence": 15,
       "sourceRefs": [
-        "§ 273-11",
-        "§ 273-4",
-        "§ 273-12"
+        "https://www.hastingsgreen.org/nature/hillside-woods/what-hastings-is-doing/work-to-date/replanting"
+      ],
+      "shortAnswer": "Not specified",
+      "gap": "No dedicated enforcement officer is identified in the sources, and no requirement for an ISA-Certified Arborist or Tree Warden in an enforcement capacity is present. This falls well short of best practice, which calls for a designated Forestry Officer or Tree Warden with arboricultural qualifications and authority to retain certified arborists for technical determinations.",
+      "score": 0.05,
+      "nextPrompts": [
+        "Does Hastings-on-Hudson have a municipal tree ordinance or code section designating a Tree Warden, Forestry Officer, or similar enforcement authority?",
+        "Does the Hastings-on-Hudson code require consultation with a certified arborist for tree removal permits or hazard assessments?"
       ]
     },
     {
       "id": 6,
       "question": "Does the code recognize the importance of keeping a healthy tree canopy?",
-      "answer": "The code does not explicitly mention the importance of maintaining a healthy tree canopy, but it emphasizes the negative effects of removing trees such as increased drainage problems and deterioration of the community, which imply the importance of preserving tree cover.",
+      "answer": "Yes. §273-1 explicitly recognizes that destruction or damage to shade, ornamental, and evergreen trees causes barren conditions, increased surface drainage problems, impaired property values, and deterioration adversely affecting health, safety, environment, ecosystems, and general welfare, and the chapter seeks to correct these conditions.",
       "confidence": 85,
       "sourceRefs": [
-        "§ 273-1"
+        "§273-1"
       ],
-      "score": 0.5,
-      "gap": "Consider adding explicit coverage targets for tree canopy, detailed measurement methods for assessing canopy health, and comprehensive maintenance and long-term preservation strategies to strengthen the statute's focus on maintaining a healthy tree canopy."
+      "shortAnswer": "Yes, explicitly stated in §273-1.",
+      "gap": "The purpose statement recognizes tree canopy importance but the sources do not confirm specific canopy coverage targets, measurement methods, species diversity goals, tree-topping prohibitions, or replanting mandates aligned with best practices.",
+      "score": 0.4,
+      "nextPrompts": [
+        "Does the code establish canopy coverage targets or measurable canopy goals?",
+        "Does the code require replanting or species diversity when trees are removed?"
+      ]
     },
     {
       "id": 8,
       "question": "What are my responsibilities for maintaining trees on my property?",
-      "answer": "Based on the provided sources, property owners are responsible for the following regarding trees:\n\n1. **Street Trees**: Trees on Village streets cannot be removed or disturbed without permission from the Board of Trustees. If a tree is removed for any reason, the person desiring removal or benefiting from it bears the cost of replacement.\n\n2. **Designated Trees on Private Property**: A permit is required to remove any designated tree (8 inches dbh or more) on private property (covered in Q1).\n\n3. **Replacement Obligations**: When trees are removed, replacement trees must be planted in the nearest practical location, with size and variety as required by the Village.\n\n4. **Species Restrictions**: No poplar trees may be planted within 50 feet of any sewer or sewer branch.\n\nNo specific maintenance obligations such as pruning, trimming, or hazard tree removal timelines are detailed in the provided sources.",
-      "confidence": 55,
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
       "sourceRefs": [
-        "§ 273-10"
-      ],
-      "gap": "The statute lacks provisions requiring property owners to maintain clearance heights above roads/sidewalks, remove hazardous trees promptly, or perform regular pruning/trimming. No maintenance schedule or restoration requirements for unauthorized removal are specified.",
-      "score": 0.3,
-      "nextPrompts": [
-        "Does the Village code specify any requirements for trimming trees that overhang public sidewalks or roads?",
-        "Are there any provisions addressing hazardous or dead trees on private property and required response timelines?"
+        "§ 273-9",
+        "§ 273-10",
+        "§ 273-4"
       ]
     },
     {
@@ -135,59 +155,59 @@
     }
   ],
   "scores": {
-    "overallScore": 3.6,
-    "normalizedScore": 3.6,
-    "averageConfidence": 54,
+    "overallScore": 3.08,
+    "normalizedScore": 3.08,
+    "averageConfidence": 41,
     "questionsAnswered": 9,
     "totalQuestions": 9,
     "scoreBreakdown": {
       "questionScores": [
-        0.6,
-        0.3,
-        0.4,
+        0.62,
         0.7,
         0,
+        0.45,
         0,
-        0.5,
-        0.3,
+        0.05,
+        0.4,
+        0,
         0
       ],
-      "averageQuestionScore": 0.31,
-      "weightedScore": 0.36,
-      "totalWeightedScore": 5.3999999999999995,
+      "averageQuestionScore": 0.25,
+      "weightedScore": 0.308,
+      "totalWeightedScore": 4.62,
       "totalPossibleWeight": 15,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0.6,
+          "score": 0.62,
           "weight": 1,
-          "weightedScore": 0.6,
+          "weightedScore": 0.62,
           "maxWeightedScore": 1,
-          "confidence": 72
+          "confidence": 85
         },
         {
           "id": "2",
-          "score": 0.3,
+          "score": 0.7,
           "weight": 2,
-          "weightedScore": 0.6,
+          "weightedScore": 1.4,
           "maxWeightedScore": 2,
-          "confidence": 85
+          "confidence": 95
         },
         {
           "id": "3",
-          "score": 0.4,
+          "score": 0,
           "weight": 0,
           "weightedScore": 0,
           "maxWeightedScore": 0,
-          "confidence": 85
+          "confidence": 10
         },
         {
           "id": "4",
-          "score": 0.7,
+          "score": 0.45,
           "weight": 3,
-          "weightedScore": 2.1,
+          "weightedScore": 1.35,
           "maxWeightedScore": 3,
-          "confidence": 85
+          "confidence": 72
         },
         {
           "id": "5",
@@ -195,31 +215,31 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 15
+          "confidence": 5
         },
         {
           "id": "5.1",
-          "score": 0,
+          "score": 0.05,
           "weight": 1,
-          "weightedScore": 0,
+          "weightedScore": 0.05,
           "maxWeightedScore": 1,
-          "confidence": 0
+          "confidence": 15
         },
         {
           "id": "6",
-          "score": 0.5,
+          "score": 0.4,
           "weight": 3,
-          "weightedScore": 1.5,
+          "weightedScore": 1.2,
           "maxWeightedScore": 3,
           "confidence": 85
         },
         {
           "id": "8",
-          "score": 0.3,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.6,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 55
+          "confidence": 0
         },
         {
           "id": "9",
@@ -232,11 +252,11 @@
       ]
     }
   },
-  "overallScore": 3.6,
-  "averageConfidence": 54,
+  "overallScore": 3.08,
+  "averageConfidence": 41,
   "questionsAnswered": 9,
   "totalQuestions": 9,
-  "lastUpdated": "2026-05-18T01:30:05.804Z",
+  "lastUpdated": "2026-07-13T19:04:48.985Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
@@ -248,5 +268,6 @@
       "url": "https://www.greenburghny.com/DocumentCenter/View/14657/2024-CAC-Winter-Letter",
       "title": "2024 CAC Winter Letter"
     }
-  ]
+  ],
+  "overallSummary": "Code partially meets functionality with notable gaps in exemptions, notifications, and enforcement details."
 }

@@ -1,0 +1,175 @@
+{
+  "id": "NY-Hastings-on-Hudson-Village-wildlife-1779298323503",
+  "entityId": "NY-Hastings-on-Hudson-Village",
+  "domainId": "wildlife",
+  "entity": {
+    "id": "NY-Hastings-on-Hudson-Village",
+    "displayName": "Hastings-on-Hudson - Village"
+  },
+  "domain": {
+    "id": "wildlife",
+    "displayName": "Wildlife & Habitat"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "What wildlife protection and habitat conservation regulations apply in this area, and how are they enforced?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 10,
+      "sourceRefs": [],
+      "score": 0
+    },
+    {
+      "id": 2,
+      "question": "Are there designated protected habitats, reserves, or conservation areas, and what activities are restricted there?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 3,
+      "question": "Are any wildlife corridors identified, protected, or required in planning, and how are they maintained?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 4,
+      "question": "Are there specific protections for amphibians, such as breeding-site safeguards, seasonal restrictions, or migration measures?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 5,
+      "question": "Are there specific protections for birds, including nesting, roosting, migration, or disturbance limits?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 6,
+      "question": "Are there specific protections for turtles, such as nesting beach protections, road-crossing measures, or harvest bans?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 7,
+      "question": "What biodiversity conservation requirements exist for development, land use, or resource projects in this area?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 8,
+      "question": "How are habitat loss, fragmentation, and degradation assessed and minimized before project approval?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    }
+  ],
+  "scores": {
+    "overallScore": 0,
+    "normalizedScore": 0,
+    "averageConfidence": 1,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "averageQuestionScore": 0,
+      "weightedScore": 0,
+      "totalWeightedScore": 0,
+      "totalPossibleWeight": 7,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 10
+        },
+        {
+          "id": "2",
+          "score": 0,
+          "weight": 0.95,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.95,
+          "confidence": 0
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 0.9,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.9,
+          "confidence": 0
+        },
+        {
+          "id": "4",
+          "score": 0,
+          "weight": 0.8,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.8,
+          "confidence": 0
+        },
+        {
+          "id": "5",
+          "score": 0,
+          "weight": 0.8,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.8,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "score": 0,
+          "weight": 0.8,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.8,
+          "confidence": 0
+        },
+        {
+          "id": "7",
+          "score": 0,
+          "weight": 0.9,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.9,
+          "confidence": 0
+        },
+        {
+          "id": "8",
+          "score": 0,
+          "weight": 0.85,
+          "weightedScore": 0,
+          "maxWeightedScore": 0.85,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 0,
+  "averageConfidence": 1,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2026-05-20T17:32:03.503Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [
+    {
+      "url": "https://www.greenburghny.com/DocumentCenter/View/14656/2024-CAC-Newsletter-5-Green-for-Fall-V2",
+      "title": "2024 CAC Newsletter 5 Green For Fall V2"
+    }
+  ]
+}

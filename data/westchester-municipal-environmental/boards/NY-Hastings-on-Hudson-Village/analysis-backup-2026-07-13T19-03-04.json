@@ -1,5 +1,5 @@
 {
-  "id": "NY-Hastings-on-Hudson-Village-boards-1783970911493",
+  "id": "NY-Hastings-on-Hudson-Village-boards-1783969384395",
   "entityId": "NY-Hastings-on-Hudson-Village",
   "domainId": "boards",
   "entity": {
@@ -31,33 +31,34 @@
     {
       "id": 2,
       "question": "Does the website clearly list member names, appointment method, term lengths, and expiration dates?",
-      "answer": "The website lists member names (Haven Colgate, Eyal Dror, Matthew Hobby, Margie Lavender, Dan Lemons, Amy Listerman, Aarthi Muthukrishnan, and Trustee Fleisig as Board of Trustees Liaison) and identifies the Chair, but provides no information on appointment method, term lengths, or term expiration dates.",
-      "confidence": 90,
+      "answer": "The Conservation Commission pages for Hastings-on-Hudson list contact information, archived agendas, archived minutes, and a calendar, but do not list member names, appointment methods, term lengths, or expiration dates.",
+      "confidence": 85,
       "sourceRefs": [
-        "https://www.hohny.gov/360/Conservation-Commission"
+        "https://www.hohny.gov/360/Conservation-Commission",
+        "https://www.hohny.gov/494/Index-of-Conservation-Commission-Initiat"
       ],
-      "shortAnswer": "Names only; no terms or appointment info",
-      "gap": "Appointment method, term lengths, and expiration dates are entirely absent from the website listing.",
-      "score": 0.2,
+      "shortAnswer": "Not specified",
+      "gap": "The website is missing member names, appointment methods, term lengths, and expiration dates — all four elements required by best practice.",
+      "score": 0.05,
       "nextPrompts": [
-        "Search the Village Code or local law for Conservation Commission term lengths and appointment authority.",
-        "Check Village Board meeting minutes for recent appointment resolutions that include term start and end dates."
+        "Search the village code or municipal law for Conservation Commission appointment and term requirements in Hastings-on-Hudson.",
+        "Check the village board meeting minutes or resolutions for recent Conservation Commission member appointments and term dates."
       ]
     },
     {
       "id": 3,
       "question": "Are upcoming meeting dates, times, locations, and public notice details easy to find and clearly posted?",
-      "answer": "The Conservation Commission page states meetings are held at 8 pm on the 2nd Tuesday of every month, in-person 4 times per year in the Municipal Building 2nd Floor Conference Room, and otherwise on Zoom. A link to 'Most Recent Agendas and Minutes' is provided. No details about public notice procedures or advance posting requirements are specified on the page.",
+      "answer": "The Conservation Commission page at hohny.gov lists initiatives, programs, and resources, but no upcoming meeting dates, times, locations, or public notice details are present in the provided sources.",
       "confidence": 72,
       "sourceRefs": [
         "https://www.hohny.gov/360/Conservation-Commission"
       ],
-      "shortAnswer": "Meeting schedule posted; no public notice details",
-      "gap": "The page provides recurring schedule and location but lacks specific public notice details (e.g., how far in advance notices are posted, where notices are filed, or statutory notice requirements). Upcoming specific meeting dates are not individually listed.",
-      "score": 0.55,
+      "shortAnswer": "Not specified",
+      "gap": "No meeting dates, times, locations, or public notice details are posted on the Conservation Commission page. Best practice requires clearly listed upcoming meeting information.",
+      "score": 0.05,
       "nextPrompts": [
-        "Does the Village of Hastings-on-Hudson post individual meeting agendas with advance notice (e.g., 72 hours prior) on the website or a public notice board?",
-        "Is there a Village-wide public notice or meeting calendar page that lists all board/committee meetings with specific upcoming dates?"
+        "Search the hohny.gov calendar or agenda center for Conservation Commission meeting schedules.",
+        "Check if a separate 'Meetings' or 'Agendas & Minutes' page exists for the Conservation Commission on hohny.gov."
       ]
     },
     {
@@ -103,24 +104,24 @@
     }
   ],
   "scores": {
-    "overallScore": 2.96,
-    "normalizedScore": 2.96,
-    "averageConfidence": 54,
+    "overallScore": 2.04,
+    "normalizedScore": 2.04,
+    "averageConfidence": 53,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
         0.45,
-        0.2,
-        0.55,
+        0.05,
+        0.05,
         0,
         0,
         0.8,
         0.3
       ],
-      "averageQuestionScore": 0.33,
-      "weightedScore": 0.2964,
-      "totalWeightedScore": 4.15,
+      "averageQuestionScore": 0.24,
+      "weightedScore": 0.2036,
+      "totalWeightedScore": 2.85,
       "totalPossibleWeight": 14,
       "questionsWithScores": [
         {
@@ -133,17 +134,17 @@
         },
         {
           "id": "2",
-          "score": 0.2,
+          "score": 0.05,
           "weight": 2,
-          "weightedScore": 0.4,
+          "weightedScore": 0.1,
           "maxWeightedScore": 2,
-          "confidence": 90
+          "confidence": 85
         },
         {
           "id": "3",
-          "score": 0.55,
+          "score": 0.05,
           "weight": 2,
-          "weightedScore": 1.1,
+          "weightedScore": 0.1,
           "maxWeightedScore": 2,
           "confidence": 72
         },
@@ -182,13 +183,13 @@
       ]
     }
   },
-  "overallScore": 2.96,
-  "averageConfidence": 54,
+  "overallScore": 2.04,
+  "averageConfidence": 53,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-07-13T19:28:31.493Z",
+  "lastUpdated": "2026-07-13T19:03:04.395Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [],
-  "overallSummary": "Partially met; basic info present but missing key transparency details on membership and meetings."
+  "overallSummary": "Minimal transparency; ongoing projects visible, but member details, meetings, and minutes largely absent."
 }

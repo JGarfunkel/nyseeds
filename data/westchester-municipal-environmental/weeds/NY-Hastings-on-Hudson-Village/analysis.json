@@ -1,164 +1,178 @@
 {
-  "id": "NY-Hastings-on-Hudson-Village-weeds-1778856982985",
-  "municipality": {
+  "id": "NY-Hastings-on-Hudson-Village-weeds-1783969671514",
+  "entityId": "NY-Hastings-on-Hudson-Village",
+  "domainId": "weeds",
+  "entity": {
     "id": "NY-Hastings-on-Hudson-Village",
     "displayName": "Hastings-on- Hudson - Village"
   },
   "domain": {
     "id": "weeds",
-    "displayName": "Weeds"
+    "displayName": "Weed Management"
   },
-  "grades": {
-    "WEN": "R-"
-  },
+  "grades": {},
   "questions": [
     {
       "id": "1",
       "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-      "answer": "Residents must eliminate or remove heavy undergrowth and plant growth that are unsightly, noxious, or detrimental to health. Hedges and shrubs should be pruned or trimmed, and grass must not exceed six inches in height.",
-      "confidence": 85,
+      "answer": "Under §224-2F, grass shall not exceed six inches; heavy undergrowth and plant growth that is unsightly, noxious, or detrimental to health must be eliminated or removed; hedges and shrubs must be kept pruned or trimmed. Under §224-2I, dead or incurably diseased trees must be taken down and diseased portions removed and destroyed; trees must be kept pruned and dead wood removed. Owners must keep premises clean, sanitary, and safe (§224-2G). Tenants/occupants of multifamily and commercial premises share responsibility for maintaining steps, walks, driveways, and parking areas in a clean, sanitary, and safe condition (§224-8B).",
+      "confidence": 88,
       "sourceRefs": [
-        "§ 224-2F"
+        "§224-2F",
+        "§224-2G",
+        "§224-2I",
+        "§224-8B"
       ],
-      "score": 0.7,
-      "gap": "Consider adding specific definitions for terms like \"unsightly,\" \"noxious,\" and \"detrimental to health\" to ensure consistent enforcement and understanding among residents."
+      "shortAnswer": "Grass max 6 inches; remove noxious/unsightly growth; prune hedges/trees.",
+      "gap": "The statute sets a 6-inch grass limit (aligned with best practice) but does not specify a stricter limit for areas adjacent to public pathways, does not explicitly require removal of poisonous plants by name, and does not address hedge height relative to pedestrian passage impediment.",
+      "score": 0.65,
+      "nextPrompts": [
+        "Does the statute specify any requirements for poisonous or toxic plants specifically, beyond 'noxious or detrimental to health'?",
+        "Are there any provisions addressing hedge or shrub height limits near sidewalks or public pathways to ensure pedestrian safety?"
+      ]
     },
     {
       "id": "2",
       "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
-      "answer": "Not specified in the statute.",
-      "confidence": 15,
-      "sourceRefs": [],
-      "score": 0.1,
-      "gap": "Consider adding a provision to the property maintenance code that explicitly permits cultivated pollinator gardens, defining specific criteria such as plant species, maintenance standards, and designated areas to ensure they are distinguishable from unmanaged weed growth."
+      "answer": "Not specified in the provided sources. The retrieved excerpts relate to invasive plant surveys and removal in Hillside Woods and do not contain any property maintenance code provisions regarding pollinator garden exceptions.",
+      "confidence": 5,
+      "sourceRefs": [
+        "§ 224-2",
+        "§ 224-4",
+        "§ 224-3"
+      ],
+      "shortAnswer": "Not specified",
+      "gap": "The statute/code does not appear to contain any explicit exception for cultivated pollinator gardens, nor definitions distinguishing them from 'weeds,' nor exemptions from vegetation height restrictions — all of which represent best practice.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the local municipal code (e.g., Hastings-on-Hudson village code) for property maintenance or nuisance vegetation sections that may address cultivated gardens or pollinator plantings.",
+        "Check whether any variance or permit process exists in the zoning or environmental code that would allow residents to maintain native/pollinator plantings above standard height limits."
+      ]
     },
     {
       "id": "3",
       "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
-      "answer": "Yes, the law requires owners to maintain areas from the building line to the nearest public street line, which includes steps, walks, driveways, and parking areas, in a clean, sanitary, and safe condition.",
-      "confidence": 85,
+      "answer": "The Chapter 224 Property Maintenance law for Village of Hastings-on-Hudson references 'Streets and sidewalks — See Ch. 252' as a general reference, suggesting sidewalk/street maintenance may be addressed separately, but the provided excerpts do not explicitly state that the property maintenance law extends beyond lot lines to the curb. This detail is not specified in the retrieved statute text.",
+      "confidence": 20,
       "sourceRefs": [
-        "§ 224-2G"
+        "Chapter 224 Property Maintenance, Village of Hastings-on-Hudson"
       ],
-      "score": 0.55,
-      "gap": "Consider adding explicit guidelines for the maintenance of vegetation, such as grass and trees, in the areas extending to the nearest public street line to ensure clarity and consistency in enforcement."
+      "shortAnswer": "Not specified",
+      "score": 0.1
     },
     {
       "id": "4",
       "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
-      "answer": "Penalties for violating the property maintenance regulations include a fine of not less than $100 and not more than $200 for the first offense, and not less than $500 and not more than $1,000 for the second or any subsequent offense within a twelve-month period. In addition, offenders may be subject to an injunction preventing further violations.",
-      "confidence": 85,
+      "answer": "First offense: fine of $100–$200. Second or subsequent offense within 12 months: $500–$1,000. Additionally, the violator may be subject to an injunction. Upon noncompliance within 20 days of notice, the Village may perform the correction and charge the actual cost plus accrued legal interest to the owner. If unpaid within 20 days of correction, the cost becomes a lien on the property, collectible as taxes, with a delinquent penalty at the legal interest rate if not paid by the tax bill due date. (§ 224-8, § 224-11)",
+      "confidence": 95,
       "sourceRefs": [
-        "§ 224-8A"
+        "§ 224-8",
+        "§ 224-11"
       ],
-      "score": 0.3,
-      "gap": "Consider adding specific categories of violations with corresponding penalties to ensure clarity and consistency in enforcement, as well as detailing the process for issuing injunctions to enhance the statute's comprehensiveness."
+      "shortAnswer": "$100–$200 first offense; $500–$1,000 subsequent",
+      "gap": "Gaps vs. best practice: (1) No per-day violation treatment — the statute does not specify each continuing day as a separate offense. (2) Fine amounts are lower than best-practice benchmarks ($100–$200 vs. $250 first offense; $500–$1,000 vs. up to $2,000). (3) No 20% administrative fee on village-performed remediation costs. (4) Notice period is 20 days vs. best-practice 7–15 days.",
+      "score": 0.55,
+      "nextPrompts": [
+        "Does the statute specify whether each day of continued violation constitutes a separate offense?",
+        "Is there an administrative fee or surcharge applied when the Village performs corrective work and bills the property owner?"
+      ]
     },
     {
       "id": "6",
       "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
-      "answer": "A notice of violation requires compliance within a prescribed reasonable time as specified in the notice. A person has 10 days from the service of the notice to request a hearing. If compliance is not achieved or a hearing not requested, the notice becomes an order to cease and desist the violation. Further, the owner must resolve the violation within 20 days after receiving notice before the village may correct the violation at the owner's expense.",
+      "answer": "Under §224-9, a notice of violation gives the recipient 10 days from service to either request a hearing or the notice becomes an order to cease and abate the violation. If no hearing is requested, the notice becomes a cease-and-desist order after 10 days, with a 'reasonable time' prescribed for abatement. If a hearing is requested, it must commence within 10 days of the request, after which the Building Inspector issues an abatement order within a 'prescribed reasonable time.'",
       "confidence": 85,
       "sourceRefs": [
-        "§ 224-9B",
-        "§ 224-11A"
+        "§224-9B",
+        "§224-9C"
       ],
-      "score": 0.85,
-      "gap": "Consider adding specific fine amounts for non-compliance, detailed escalation procedures for repeat offenses, and clear categories of violations to enhance enforcement clarity and consistency."
+      "shortAnswer": "10 days to request hearing; then reasonable abatement time set.",
+      "gap": "The statute uses 'reasonable time' for abatement without specifying a standard 30-day resolution period. There is no explicit provision for imminent danger (10-day corrective action), no mention of repeat offense escalation within a 24-month period, and no municipal intervention/cost-recovery mechanism described in the retrieved text.",
+      "score": 0.4,
+      "nextPrompts": [
+        "Does the statute define 'reasonable time' for abatement or provide a default number of days elsewhere in Chapter 224?",
+        "Are there provisions for municipal intervention, cost recovery, or escalated penalties for repeat violations within a defined period?"
+      ]
     }
   ],
   "scores": {
-    "overallScore": 4.33,
-    "normalizedScore": 4.33,
-    "averageConfidence": 71,
-    "questionsAnswered": 4,
+    "overallScore": 2.83,
+    "normalizedScore": 2.83,
+    "averageConfidence": 59,
+    "questionsAnswered": 5,
     "totalQuestions": 5,
     "scoreBreakdown": {
       "questionScores": [
-        0.7,
+        0.65,
+        0,
         0.1,
         0.55,
-        0.3,
-        0.85
+        0.4
       ],
-      "averageQuestionScore": 0.5,
-      "weightedScore": 0.4333,
-      "totalWeightedScore": 2.6,
+      "averageQuestionScore": 0.34,
+      "weightedScore": 0.2833,
+      "totalWeightedScore": 1.7000000000000002,
       "totalPossibleWeight": 6,
       "questionsWithScores": [
         {
           "id": "1",
-          "question": "What are the specific property maintenance requirements for residents regarding weeds?",
-          "answer": "Residents must eliminate or remove heavy undergrowth and plant growth that are unsightly, noxious, or detrimental to health. Hedges and shrubs should be pruned or trimmed, and grass must not exceed six inches in height.",
-          "score": 0.7,
+          "score": 0.65,
           "weight": 1,
-          "weightedScore": 0.7,
+          "weightedScore": 0.65,
           "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 88
         },
         {
           "id": "2",
-          "question": "Are there exceptions in the property maintenance code to allow for cultivated pollinator gardens?",
-          "answer": "Not specified in the statute.",
-          "score": 0.1,
+          "score": 0,
           "weight": 2,
-          "weightedScore": 0.2,
+          "weightedScore": 0,
           "maxWeightedScore": 2,
-          "confidence": 15
+          "confidence": 5
         },
         {
           "id": "3",
-          "question": "Does the property maintenance law go beyond the property lot lines (such as to the curb)?",
-          "answer": "Yes, the law requires owners to maintain areas from the building line to the nearest public street line, which includes steps, walks, driveways, and parking areas, in a clean, sanitary, and safe condition.",
+          "score": 0.1,
+          "weight": 1,
+          "weightedScore": 0.1,
+          "maxWeightedScore": 1,
+          "confidence": 20
+        },
+        {
+          "id": "4",
           "score": 0.55,
           "weight": 1,
           "weightedScore": 0.55,
           "maxWeightedScore": 1,
-          "confidence": 85
-        },
-        {
-          "id": "4",
-          "question": "What are the penalties/fees for failing to comply with property maintenance regulations?",
-          "answer": "Penalties for violating the property maintenance regulations include a fine of not less than $100 and not more than $200 for the first offense, and not less than $500 and not more than $1,000 for the second or any subsequent offense within a twelve-month period. In addition, offenders may be subject to an injunction preventing further violations.",
-          "score": 0.3,
-          "weight": 1,
-          "weightedScore": 0.3,
-          "maxWeightedScore": 1,
-          "confidence": 85
+          "confidence": 95
         },
         {
           "id": "6",
-          "question": "What is the timeline for resolving a property maintenance violation before penalties are applied?",
-          "answer": "A notice of violation requires compliance within a prescribed reasonable time as specified in the notice. A person has 10 days from the service of the notice to request a hearing. If compliance is not achieved or a hearing not requested, the notice becomes an order to cease and desist the violation. Further, the owner must resolve the violation within 20 days after receiving notice before the village may correct the violation at the owner's expense.",
-          "score": 0.85,
+          "score": 0.4,
           "weight": 1,
-          "weightedScore": 0.85,
+          "weightedScore": 0.4,
           "maxWeightedScore": 1,
           "confidence": 85
         }
       ]
     }
   },
-  "overallScore": 4.33,
-  "averageConfidence": 71,
-  "questionsAnswered": 4,
+  "overallScore": 2.83,
+  "averageConfidence": 59,
+  "questionsAnswered": 5,
   "totalQuestions": 5,
-  "lastUpdated": "2026-05-15T14:56:22.985Z",
+  "lastUpdated": "2026-07-13T19:07:51.514Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
-  "normalizedScore": 4.33,
-  "scoresUpdatedAt": "2025-10-10T17:18:57.515Z",
-  "domainId": "weeds",
   "sources": [
     {
       "url": "https://www.greenburghny.com/DocumentCenter/View/14655/2024-CAC-Newsletter-3-Invasive-Plants",
-      "title": "https://www.greenburghny.com/DocumentCenter/View/14655/2024-CAC-Newsletter-3-Invasive-Plants",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Hastings-on-Hudson-Village\\2024-cac-newsletter-3-invasive-plants.txt"
+      "title": "2024 CAC Newsletter 3 Invasive Plants"
     },
     {
       "url": "https://www.greenburghny.com/DocumentCenter/View/14657/2024-CAC-Winter-Letter",
-      "title": "https://www.greenburghny.com/DocumentCenter/View/14657/2024-CAC-Winter-Letter",
-      "localFilePath": "C:\\Users\\Jon\\dev\\nyseeds\\data\\westchester-municipal-environmental\\EntityDownloads\\NY-Hastings-on-Hudson-Village\\2024-cac-winter-letter.txt"
+      "title": "2024 CAC Winter Letter"
     }
-  ]
+  ],
+  "overallSummary": "Partially met; basic rules and penalties covered, but key details often missing."
 }

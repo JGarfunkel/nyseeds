@@ -1,0 +1,207 @@
+{
+  "id": "NY-Hastings-on-Hudson-Village-wetland-protection-1783969624949",
+  "entityId": "NY-Hastings-on-Hudson-Village",
+  "domainId": "wetland-protection",
+  "entity": {
+    "id": "NY-Hastings-on-Hudson-Village",
+    "displayName": "Hastings-on-Hudson - Village"
+  },
+  "domain": {
+    "id": "wetland-protection",
+    "displayName": "Wetland Protection"
+  },
+  "grades": {},
+  "questions": [
+    {
+      "id": 1,
+      "question": "Does the municipality have legislation to preserve and protect wetlands?",
+      "answer": "No wetland protection statute is found in the provided sources for this municipality. The sources reference general water quality information, stream buffers, and community environmental projects, but explicitly state 'There are no known statutes for Wetland Protection.'",
+      "confidence": 55,
+      "sourceRefs": [
+        "https://www.hohny.gov/559/Water",
+        "https://www.hastingsgreen.org/nature/hillside-woods/ponds-streams-wetlands"
+      ],
+      "shortAnswer": "No wetland protection statute found",
+      "gap": "Significant gap: No wetland protection legislation is documented. Best practice requires a comprehensive permit system with tiered review, 100–500 ft buffer protections, mitigation ratios of 1.5:1, enumerated regulated activities, qualified boundary delineation, and enforcement/restoration authority — none of which are present.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the municipality's official code or zoning ordinances for any wetland, watercourse, or floodplain protection chapters not captured in these sources.",
+        "Check whether the municipality relies on New York State DEC freshwater wetlands regulations (Article 24 of the Environmental Conservation Law) in lieu of local legislation."
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What are the setback or buffer requirements from wetland boundaries?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 4,
+      "question": "What are the penalties for unauthorized wetland disturbance?",
+      "answer": "The provided sources do not contain specific penalty provisions for unauthorized wetland disturbance. The sources describe wetland ecology in Hastings-on-Hudson, NY, but include no statutory penalty language. The 'best practice' note is not a statute but an editorial benchmark.",
+      "confidence": 5,
+      "sourceRefs": [
+        "https://www.hastingsgreen.org/nature/hillside-woods/ponds-streams-wetlands"
+      ],
+      "shortAnswer": "Not specified",
+      "gap": "No penalty provisions found in sources. Best practice calls for civil penalties up to $5,000/day per violation, criminal fines of $500–$15,000, up to 6 months imprisonment for repeat offenses, and mandatory wetland restoration with possible bond requirement. None of these elements are present in the retrieved statute text.",
+      "score": 0,
+      "nextPrompts": [
+        "Search for the specific New York State or local Hastings-on-Hudson wetland protection ordinance or statute that governs penalties for unauthorized disturbance.",
+        "Look up NY Environmental Conservation Law Article 24 (Freshwater Wetlands Act) for penalty provisions applicable to this jurisdiction."
+      ]
+    },
+    {
+      "id": 5,
+      "question": "How do I apply for a wetland permit or variance?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 6,
+      "question": "Are there mitigation requirements for permitted wetland impacts?",
+      "answer": "The provided sources do not contain specific statutory mitigation requirements for permitted wetland impacts. The source references a best practice standard (requiring mitigation plans, no net loss, 1.5x replacement ratio, on-site preference, monitoring, and performance bonds), but this is labeled as a best practice, not an existing statutory requirement found in the statute.",
+      "confidence": 15,
+      "sourceRefs": [
+        "https://www.hohny.gov/559/Water"
+      ],
+      "shortAnswer": "Not specified",
+      "gap": "Significant gap: No mitigation requirements are specified in the provided statutory sources. Best practice calls for mitigation plans ensuring no net loss, 1.5x replacement size, on-site preference, construction/maintenance guidelines, monitoring schedules, and performance bonds — none of which are confirmed as statutory requirements here.",
+      "score": 0,
+      "nextPrompts": [
+        "Search the full text of the applicable wetland protection statute for mitigation, compensatory mitigation, or no-net-loss provisions.",
+        "Check whether NY State wetland regulations (e.g., ECL Article 24) impose mitigation requirements for permitted impacts."
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What types of development are completely prohibited in wetlands?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    },
+    {
+      "id": 9,
+      "question": "Are there tax incentives for wetland preservation?",
+      "answer": "The statute calls for tax incentives for wetland preservation.",
+      "confidence": 40,
+      "sourceRefs": [
+        "https://www.hohny.gov/562/Water-Conservation-Tips"
+      ],
+      "shortAnswer": "Yes, tax incentives exist",
+      "gap": "The source does not provide specific details about the nature, eligibility, or scope of the tax incentives for wetland preservation.",
+      "score": 0.5,
+      "nextPrompts": [
+        "What specific tax incentives or credits are available for wetland preservation under the statute?",
+        "Who is eligible for wetland preservation tax incentives and how are they applied?"
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What monitoring and maintenance requirements apply to permitted wetland projects?",
+      "answer": "Not specified in the provided sources.",
+      "confidence": 0,
+      "sourceRefs": []
+    }
+  ],
+  "scores": {
+    "overallScore": 0.56,
+    "normalizedScore": 0.56,
+    "averageConfidence": 14,
+    "questionsAnswered": 8,
+    "totalQuestions": 8,
+    "scoreBreakdown": {
+      "questionScores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0
+      ],
+      "averageQuestionScore": 0.06,
+      "weightedScore": 0.0556,
+      "totalWeightedScore": 0.5,
+      "totalPossibleWeight": 9,
+      "questionsWithScores": [
+        {
+          "id": "1",
+          "score": 0,
+          "weight": 3,
+          "weightedScore": 0,
+          "maxWeightedScore": 3,
+          "confidence": 55
+        },
+        {
+          "id": "3",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "4",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 5
+        },
+        {
+          "id": "5",
+          "score": 0,
+          "weight": 0,
+          "weightedScore": 0,
+          "maxWeightedScore": 0,
+          "confidence": 0
+        },
+        {
+          "id": "6",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 15
+        },
+        {
+          "id": "7",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        },
+        {
+          "id": "9",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 40
+        },
+        {
+          "id": "10",
+          "score": 0,
+          "weight": 1,
+          "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 0
+        }
+      ]
+    }
+  },
+  "overallScore": 0.56,
+  "averageConfidence": 14,
+  "questionsAnswered": 8,
+  "totalQuestions": 8,
+  "lastUpdated": "2026-07-13T19:07:04.949Z",
+  "processingMethod": "vector-search-rag",
+  "usesStateCode": false,
+  "sources": [],
+  "overallSummary": "Wetland protection is largely absent, with minimal functionality met beyond limited tax incentives."
+}

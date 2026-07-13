@@ -1,5 +1,5 @@
 {
-  "id": "NY-Hastings-on-Hudson-Village-glb-1779296492977",
+  "id": "NY-Hastings-on-Hudson-Village-glb-1783969593982",
   "entityId": "NY-Hastings-on-Hudson-Village",
   "domainId": "glb",
   "entity": {
@@ -15,134 +15,152 @@
     {
       "id": 1,
       "question": "How much of the year does the prohibition of gas leaf blowers last? What date in the year does it start, and what date does it end?",
-      "answer": "The prohibition of gas-powered leaf blowers lasts from January 1 through October 14. It starts on January 1 and ends on October 14. (§ 176-4)",
-      "confidence": 90,
+      "answer": "Gas-powered leaf blowers are prohibited for approximately 9.5 months of the year. The prohibition runs from January 1 through October 14 (i.e., they are only permitted October 15 through December 31). The allowed window is 77 days; the prohibited window is approximately 288 days.",
+      "confidence": 98,
       "sourceRefs": [
-        "§ 176-4"
+        "§ 176-4 Gas-powered leaf blowers",
+        "https://www.hohny.gov/521/Info-on-Leaf-Blowers-Hastings-Leaf-Blowe"
       ],
-      "score": 0.5,
-      "analyzedAt": "2025-09-09T20:01:20.284Z"
+      "shortAnswer": "Banned ~9.5 months; allowed Oct 15–Dec 31 only.",
+      "gap": "Hastings permits gas blowers Oct 15–Dec 31 (~77 days allowed). Best practice (e.g., Larchmont) is a year-round ban, or at minimum a shorter allowed window. Hastings' allowed window is longer than the best-practice model of Oct 1–Dec 31 with an additional spring window, and falls short of a full-year ban.",
+      "score": 0.79,
+      "nextPrompts": [
+        "Does Hastings have any plans or pending legislation to extend the gas leaf blower prohibition to a year-round ban?",
+        "Are there any exemptions to the October 15–December 31 permitted window for specific user types (e.g., homeowners vs. commercial landscapers)?"
+      ]
     },
     {
       "id": 2,
       "question": "What are the permitted hours for gas leaf blower operation?",
-      "answer": "The permitted hours for gas leaf blower operation are between 9:00 a.m. and 5:00 p.m. (§ 176-5).",
-      "confidence": 90,
+      "answer": "Gas-powered leaf blowers may only be operated between 9:00 a.m. and 5:00 p.m., and only during the permitted seasonal window of October 15 through December 31 (§ 176-4, § 176-5).",
+      "confidence": 99,
       "sourceRefs": [
+        "§ 176-4",
         "§ 176-5"
       ],
-      "score": 0.6,
-      "analyzedAt": "2025-09-09T20:01:21.053Z"
+      "shortAnswer": "9:00 a.m. to 5:00 p.m., Oct 15–Dec 31 only",
+      "gap": "The statute is more restrictive than best practice in seasonal scope (only Oct 15–Dec 31 vs. Oct 1–May 31), does not differentiate hours by day of week (weekdays vs. weekends/holidays), and the daily window (9am–5pm) is narrower than the best practice allowance of up to 8pm on weekdays/Saturdays.",
+      "score": 0.85,
+      "nextPrompts": [
+        "Are there any exemptions or variances to the permitted hours for gas leaf blower operation in Hastings-on-Hudson?",
+        "Does the Village have any plans to extend the seasonal window or adjust permitted hours for gas leaf blowers?"
+      ]
     },
     {
       "id": 3,
       "question": "What are the penalties for violating gas leaf blower regulations?",
-      "answer": "The penalties for violating gas leaf blower regulations are as follows: Any person found guilty of violating any provision of this article shall be subject to a penalty of $250 for the first offense, $500 for a second offense, and $1,000 for any subsequent offense (§ 176-6 B).",
-      "confidence": 90,
+      "answer": "Under § 176-6, violators of the leaf blower article (Article II) are subject to: $250 for the first offense, $500 for the second offense, and $1,000 for any subsequent offense. Responsible parties include both the employer of the operator and the property owner or tenant responsible for landscape maintenance. For violations of the registration article (Article I), penalties are assessed per § 1-14 of the Village Code (amount not specified in the provided sources).",
+      "confidence": 95,
       "sourceRefs": [
-        "§ 176-6"
+        "§ 176-6, Chapter 176, Village of Hastings-on-Hudson Code"
       ],
+      "shortAnswer": "$250 first, $500 second, $1,000 subsequent offenses",
+      "gap": "The statute imposes fines starting at $250 for the first offense rather than a written warning, which diverges from best practice recommending a written warning first. However, it does hold both the operator's employer and the property owner accountable, aligning with best practice on responsible parties. No per-day language is specified.",
       "score": 0.75,
-      "analyzedAt": "2025-09-09T20:01:22.236Z"
+      "nextPrompts": [
+        "Does § 1-14 of the Village Code specify additional penalty amounts or per-day fines applicable to landscaper registration violations?",
+        "Is there any provision for a written warning in lieu of a fine for first-time gas leaf blower violations in Hastings-on-Hudson?"
+      ]
     },
     {
       "id": 4,
       "question": "Are there any exceptions for school/government/commercial properties?",
-      "answer": "Not specified in the provided sources. The statute applies broadly to gas-powered leaf blower use 'at any time within the Village' (§ 176-4) without carving out exceptions for school, government, or commercial properties. The only exception noted is the permitted seasonal window of October 15 through December 31.",
-      "confidence": 85,
+      "answer": "The statute (§ 176-4) contains no exceptions for school, government, or commercial properties. The prohibition on gas-powered leaf blowers (except October 15–December 31) applies universally within the Village, with no carve-outs based on property type or ownership.",
+      "confidence": 97,
       "sourceRefs": [
-        "§ 176-4"
+        "§ 176-4 Gas-powered leaf blowers",
+        "§ 176-5 Additional limitations on use of leaf blowers"
       ],
-      "gap": "The statute does not provide exceptions for school district properties, municipal properties, commercial properties, emergency utility repairs, or municipally sponsored events. There is no provision limiting restrictions based on distance from residences or public safety needs, all of which are considered best practices.",
-      "score": 0.1,
+      "shortAnswer": "No exceptions for any property type.",
+      "gap": "The statute lacks exceptions for school district properties, municipal properties, utility/emergency repairs, properties beyond 100 feet from residences, permit-based activities, or municipally sponsored events — all identified as best practices.",
+      "score": 0,
       "nextPrompts": [
-        "Does the Village have any separate ordinance or administrative policy granting exceptions for municipal or school district landscaping operations?",
-        "Are there any pending amendments to Chapter 176 that would introduce property-type exceptions or emergency use provisions?"
+        "Does Hastings-on-Hudson have any separate ordinance or administrative policy granting exceptions for municipal or school district landscaping operations?",
+        "Has the Village Board of Trustees proposed or discussed amendments to add property-type exceptions to the leaf blower restrictions?"
       ]
     },
     {
       "id": 5,
       "question": "How are violations reported and enforced?",
-      "answer": "Under § 176-6, responsible parties for violations include: (1) the party who employed the person to operate the leaf blower, and (2) the party who owns or rents the property where the violation occurs (where the tenant is responsible for landscape maintenance). Both the employer/contractor and the property owner/tenant can be held liable simultaneously. For landscapers specifically, registration can be revoked (§ 176-2D), and violations of the registration article are subject to penalties per § 1-14 of the Village Code (§ 176-3). The statute does not specify which enforcement authority (e.g., police, code enforcement) is responsible for issuing violations or describe the reporting process.",
-      "confidence": 62,
+      "answer": "Under § 176-6, violations are enforced through penalties against two responsible parties: (1) the party who employed the person operating the leaf blower, and (2) the property owner or tenant responsible for landscape maintenance. Penalties are $250 for a first offense, $500 for a second offense, and $1,000 for any subsequent offense. The statute does not specify which enforcement officers or agencies are responsible for reporting or investigating violations. Notably, the village's informational page acknowledges that enforcement officers do not have sound meters for noise-level enforcement.",
+      "confidence": 82,
       "sourceRefs": [
-        "§ 176-6A",
-        "§ 176-6B",
-        "§ 176-2D",
-        "§ 176-3"
+        "§ 176-6, Village of Hastings-on-Hudson Code, Chapter 176",
+        "https://www.hohny.gov/521/Info-on-Leaf-Blowers-Hastings-Leaf-Blowe"
       ],
-      "gap": "The statute identifies liable parties and penalties but does not specify the enforcement authority (e.g., police, code enforcement officers), reporting mechanisms, or written notification requirements for repeated violations, which are considered best practices.",
-      "score": 0.35,
+      "shortAnswer": "Fines: $250/$500/$1,000; employer and property owner liable",
+      "gap": "The statute does not designate specific enforcement authorities (e.g., Police, Code Enforcement, DPW), does not require written notification to property owners for repeated violations, and does not establish a formal reporting mechanism. This falls short of best practice in enforcement infrastructure.",
+      "score": 0.5,
       "nextPrompts": [
-        "Which Village department or officer is designated to enforce leaf blower violations in Hastings-on-Hudson?",
-        "Does the Village Code § 1-14 or any other provision outline the reporting or complaint process for leaf blower violations?"
+        "Which village department or officer is designated to enforce Chapter 176 leaf blower violations in Hastings-on-Hudson?",
+        "Does the village have a formal complaint or reporting process for residents to report leaf blower violations?"
       ]
     },
     {
       "id": 6,
       "question": "Does the ordinance mention the benefits of leaving leaf debris and/or leaf mulching?",
-      "answer": "Not specified in the provided sources.",
+      "answer": "The ordinance itself (Chapter 176) does not mention the benefits of leaving leaf debris or leaf mulching. However, related Village web pages (hohny.gov) describe benefits such as: mulch acting as a protective layer, suppressing weed growth, conserving water, adding nutrients and humus to the soil, providing overwintering habitat for insects and small creatures, and serving as 'free' fertilizer when left in place.",
       "confidence": 95,
       "sourceRefs": [
-        "§ 176-4",
-        "§ 176-2",
-        "§ 176-1"
+        "https://www.hohny.gov/529/Lawn-Garden-Waste",
+        "https://www.hohny.gov/519/Healthy-Landscape-Initiative"
       ],
-      "gap": "The ordinance does not mention any benefits of leaving leaf debris or leaf mulching, nor does it include educational requirements, ecological guidance, or community outreach regarding these practices. This represents a significant gap compared to best practices, which recommend municipalities explicitly promote soil enrichment, habitat creation, and public awareness campaigns around leaf debris and mulching.",
-      "score": 0,
+      "shortAnswer": "Not in ordinance; yes on Village website",
+      "gap": "The ordinance contains no mention of leaf debris or mulching benefits. The Village website addresses these benefits informally, but there is no statutory requirement to educate residents or mandate/encourage these practices as the best practice recommends.",
+      "score": 0.2,
       "nextPrompts": [
-        "Does the Village of Hastings-on-Hudson have any separate environmental or sustainability policies that address leaf mulching or leaf debris management?",
-        "Are there any Village-sponsored educational programs or informational materials that discuss the ecological benefits of leaving leaf debris on properties?"
+        "Does the Village have any formal educational program or ordinance-mandated outreach campaign promoting leaf mulching and leaving leaf debris?",
+        "Are there any Village resolutions or policies that formally incorporate ecological benefits of leaf debris into landscaping regulations?"
       ]
     },
     {
       "id": 7,
       "question": "Does the ordinance require a report to be presented to the public?",
-      "answer": "Not specified in the provided sources.",
-      "confidence": 10,
+      "answer": "The ordinance does not require a report to be presented to the public.",
+      "confidence": 90,
       "sourceRefs": [
-        "§ 176-2",
-        "§ 176-4",
-        "§ 176-1"
-      ]
+        "Village of Hastings-on-Hudson, NY, Chapter 176, Article II"
+      ],
+      "shortAnswer": "No",
+      "score": 0
     }
   ],
   "scores": {
-    "overallScore": 4.42,
-    "normalizedScore": 4.42,
-    "averageConfidence": 75,
+    "overallScore": 5.8,
+    "normalizedScore": 5.8,
+    "averageConfidence": 94,
     "questionsAnswered": 7,
     "totalQuestions": 7,
     "scoreBreakdown": {
       "questionScores": [
-        0.5,
-        0.6,
+        0.79,
+        0.85,
         0.75,
-        0.1,
-        0.35,
         0,
+        0.5,
+        0.2,
         0
       ],
-      "averageQuestionScore": 0.33,
-      "weightedScore": 0.4417,
-      "totalWeightedScore": 5.299999999999999,
+      "averageQuestionScore": 0.44,
+      "weightedScore": 0.58,
+      "totalWeightedScore": 6.96,
       "totalPossibleWeight": 12,
       "questionsWithScores": [
         {
           "id": "1",
-          "score": 0.5,
+          "score": 0.79,
           "weight": 4,
-          "weightedScore": 2,
+          "weightedScore": 3.16,
           "maxWeightedScore": 4,
-          "confidence": 90
+          "confidence": 98
         },
         {
           "id": "2",
-          "score": 0.6,
+          "score": 0.85,
           "weight": 1,
-          "weightedScore": 0.6,
+          "weightedScore": 0.85,
           "maxWeightedScore": 1,
-          "confidence": 90
+          "confidence": 99
         },
         {
           "id": "3",
@@ -150,29 +168,29 @@
           "weight": 3,
           "weightedScore": 2.25,
           "maxWeightedScore": 3,
-          "confidence": 90
+          "confidence": 95
         },
         {
           "id": "4",
-          "score": 0.1,
-          "weight": 1,
-          "weightedScore": 0.1,
-          "maxWeightedScore": 1,
-          "confidence": 85
-        },
-        {
-          "id": "5",
-          "score": 0.35,
-          "weight": 1,
-          "weightedScore": 0.35,
-          "maxWeightedScore": 1,
-          "confidence": 62
-        },
-        {
-          "id": "6",
           "score": 0,
           "weight": 1,
           "weightedScore": 0,
+          "maxWeightedScore": 1,
+          "confidence": 97
+        },
+        {
+          "id": "5",
+          "score": 0.5,
+          "weight": 1,
+          "weightedScore": 0.5,
+          "maxWeightedScore": 1,
+          "confidence": 82
+        },
+        {
+          "id": "6",
+          "score": 0.2,
+          "weight": 1,
+          "weightedScore": 0.2,
           "maxWeightedScore": 1,
           "confidence": 95
         },
@@ -182,16 +200,16 @@
           "weight": 1,
           "weightedScore": 0,
           "maxWeightedScore": 1,
-          "confidence": 10
+          "confidence": 90
         }
       ]
     }
   },
-  "overallScore": 4.42,
-  "averageConfidence": 75,
+  "overallScore": 5.8,
+  "averageConfidence": 94,
   "questionsAnswered": 7,
   "totalQuestions": 7,
-  "lastUpdated": "2026-05-20T17:01:32.977Z",
+  "lastUpdated": "2026-07-13T19:06:33.982Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
@@ -203,5 +221,6 @@
       "url": "https://www.greenburghny.com/DocumentCenter/View/14656/2024-CAC-Newsletter-5-Green-for-Fall-V2",
       "title": "2024 CAC Newsletter 5 Green For Fall V2"
     }
-  ]
+  ],
+  "overallSummary": "Core regulations well-covered; exceptions, enforcement details, and ecological benefits poorly addressed."
 }

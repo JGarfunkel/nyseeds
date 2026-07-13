@@ -1,5 +1,5 @@
 {
-  "id": "NY-Hastings-on-Hudson-Village-projects-1779828671594",
+  "id": "NY-Hastings-on-Hudson-Village-projects-1783969418075",
   "entityId": "NY-Hastings-on-Hudson-Village",
   "domainId": "projects",
   "entity": {
@@ -15,7 +15,7 @@
     {
       "id": 1,
       "question": "What conservation projects or events are currently advertised?",
-      "answer": "The following conservation projects and events are currently advertised on hastingsgreen.org:\n\n**2025 Projects:** Community Reforestation Project 2025, Community Tree Planting 2025, Saw Mill River Planting and Restoration, Student-Village Vine Squad Collaboration, Microforest for Resiliency, Hope Grows Mural, The EcoShed Initiative, Improving Access to Irrigation for All, Project Rainwater, The RainCycle Project, Repurposing Rainwater to Irrigate Local Gardens, Run It Back, Small Business Significant Impact, WasteWise, Water-Wise Hastings, YCAF Zinsser Greenhouse Solar Project.\n\n**Upcoming Event:** Spring Thing 2026.\n\n**Ongoing:** Restoration of the Lower Burke Estate (volunteers sought via conservationcommission@hohny.gov) and Trail Maintenance (volunteers sought).\n\nAll projects are listed under the Bloomberg YCAF or community categories on the site.",
+      "answer": "The following conservation projects and events are currently advertised on hastingsgreen.org:\n\n**2025 Active Projects (Bloomberg YCAF):** Community Reforestation Project 2025, Community Tree Planting 2025, Hope Grows Mural, The EcoShed Initiative, Improving Access to Irrigation for All, Microforest for Resiliency, Project Rainwater, The RainCycle Project, Repurposing Rainwater to Irrigate Local Gardens, Run It Back, Saw Mill River Planting and Restoration, Small Business Significant Impact, Student-Village Vine Squad Collaboration, WasteWise, Water-Wise Hastings, YCAF Zinsser Greenhouse Solar Project.\n\n**Recurring Events:** Spring Thing 2026 (upcoming), with past editions in 2022–2025.\n\n**Ongoing restoration volunteer opportunities:** Restoration of the Lower Burke Estate (email conservationcommission@hohny.gov to join) and Hillside Woods Trail Maintenance (volunteers sought).\n\nDetailed goals, dates, locations, and participation instructions are not provided in the excerpts for most listings.",
       "confidence": 72,
       "sourceRefs": [
         "https://www.hastingsgreen.org/community",
@@ -23,60 +23,62 @@
         "https://www.hastingsgreen.org/nature/lower-burke-estate/restoration-of-the-lower-burke-estate",
         "https://www.hastingsgreen.org/nature/hillside-woods/what-hastings-is-doing/trail-maintenance"
       ],
+      "shortAnswer": "16+ projects listed; Spring Thing 2026 upcoming",
       "score": 0.4,
       "nextPrompts": [
-        "Do individual project pages on hastingsgreen.org provide dates, locations, and participation details for each listed project?",
-        "Is there a calendar or sign-up page for Spring Thing 2026 or other upcoming conservation events?"
+        "Do individual project pages on hastingsgreen.org provide dates, locations, and sign-up details for each 2025 project?",
+        "What are the specific dates and location for Spring Thing 2026?"
       ]
     },
     {
       "id": 2,
       "question": "What documentation or photo/videos showing past projects exists online?",
-      "answer": "The hastingsgreen.org website documents numerous past projects organized by year, including 2024 and 2025 Bloomberg YCAF Projects, Spring Thing events from 2022–2026, and individual project pages such as the YCAF Zinsser Greenhouse Solar Project, RainCycle Project, Microforest for Resiliency, Saw Mill River Planting and Restoration, Hastings Invasive Plant Removal Initiative, Community Tree Planting 2025, and more. The Zinsser Community Gardens page references a historical photo from 1933 courtesy of the Hastings Historical Society. The hohny.gov Conservation page includes a photo credited to John Maggiotto, PDF maps of Hillside Woods (2020, 2003), and a History of Hillside Woods PDF. Earth Month Events and Recordings are listed for 2020, 2021, and 2022. Fred Hubbard's naturalist monographs (Birds, Flora, Recreational Areas of Hastings) are available as PDFs. Stormwater Management Annual Reports and a Municipal Energy Audit Report are also linked online.",
-      "confidence": 62,
+      "answer": "The hastingsgreen.org website lists numerous past and current projects with dedicated pages, including dated project categories (2024 Bloomberg YCAF Projects, 2025 Bloomberg YCAF Projects, Spring Thing events from 2022–2026) and project-specific pages (e.g., Zinsser Community Gardens with a 1933 historical photo credited to the Hastings Historical Society, Hillside Woods with maps and iNaturalist observation links). The hohny.gov conservation page includes PDFs, maps, and photos (e.g., photo by John Maggiotto). However, the excerpts do not confirm the presence of before-and-after photos, videos, or detailed narrative documentation within individual project pages.",
+      "confidence": 55,
       "sourceRefs": [
         "https://www.hastingsgreen.org/village/food/zinsser-community-gardens",
         "https://www.hastingsgreen.org/nature/hillside-woods/hillside-plants",
-        "https://www.hohny.gov/424/Conservation-of-Natural-Habitats",
-        "https://www.hohny.gov/494/Index-of-Conservation-Commission-Initiat"
+        "https://www.hohny.gov/424/Conservation-of-Natural-Habitats"
       ],
+      "shortAnswer": "Project pages and dated categories exist; photos/PDFs present",
       "score": 0.35,
       "nextPrompts": [
-        "Do individual project pages on hastingsgreen.org contain dated photos or before-and-after documentation?",
-        "Are the Earth Month Recordings (2020–2022) video recordings accessible online, and do they document completed conservation work?"
+        "Visit individual project pages (e.g., Community Reforestation Project 2025, RainCycle Project) to check for dated photos, videos, or progress narratives.",
+        "Check hastingsgreen.org's Spring Thing event pages (2022–2025) for photo galleries or outcome reports."
       ]
     },
     {
       "id": 3,
       "question": "What range of opportunities exist, from shared space maintenance to home landscaping to surveillance and reporting, and how easy is it for the average person to donate time or resources to get involved?",
-      "answer": "The Village of Hastings-on-Hudson offers several volunteer opportunities related to environmental stewardship. Residents can attend monthly Conservation Commission meetings, join subcommittees on topics of interest, or participate in listed events (some qualifying for teen community service hours). Volunteer organizations include the Hastings Climate Smart Communities Task Force, Conservation Commission, Hillside Woods Restoration Project, Hastings Vine Squad, and Zero Waste Advisory Taskforce. Entry points are relatively accessible: attending a meeting or emailing the Conservation Commission are the primary steps mentioned. Additional resources include national tools for carbon footprint calculation, flood vulnerability mapping, and energy efficiency incentives.",
+      "answer": "The sources describe a moderate range of volunteer opportunities including: joining task forces (Climate Smart Communities Task Force, Conservation Commission, Zero Waste Advisory Taskforce), participating in invasive plant removal (Vine Squad, Hastings Invasive Plant Removal Initiative), river planting and restoration (Saw Mill River Planting and Restoration), community tree planting and reforestation, adopting roadside/park 'Spots' for native plant gardening (Hastings Pollinator Pathway Project), and youth-led sustainability projects. Home landscaping guidance is available via the lawn and garden page. However, specific instructions on how to sign up, donate resources, or contact these groups are not detailed in the excerpts. No surveillance or reporting opportunities are mentioned.",
       "confidence": 62,
       "sourceRefs": [
-        "https://www.hohny.gov/461/Get-Involved",
-        "https://www.hohny.gov/396/Addressing-Climate-Change"
+        "https://www.hohny.gov/396/Addressing-Climate-Change",
+        "https://www.hastingsgreen.org/nature/lawn-and-garden"
       ],
-      "score": 0.35,
+      "shortAnswer": "Multiple volunteer groups; sign-up steps not detailed",
+      "score": 0.45,
       "nextPrompts": [
-        "Does Hastings-on-Hudson have a formal volunteer onboarding process or resource donation program for environmental projects?",
-        "Are there specific shared-space maintenance or neighborhood stewardship programs (e.g., adopt-a-park, invasive species removal) with clear participation steps?"
+        "Do any of the listed organizations (e.g., Vine Squad, Pollinator Pathway Project) provide direct sign-up links, contact info, or volunteer onboarding steps on their pages?",
+        "Is there a centralized volunteer portal or resource donation mechanism for Hastings-on-Hudson environmental projects?"
       ]
     }
   ],
   "scores": {
-    "overallScore": 3.75,
-    "normalizedScore": 3.75,
-    "averageConfidence": 65,
+    "overallScore": 4,
+    "normalizedScore": 4,
+    "averageConfidence": 63,
     "questionsAnswered": 3,
     "totalQuestions": 3,
     "scoreBreakdown": {
       "questionScores": [
         0.4,
         0.35,
-        0.35
+        0.45
       ],
-      "averageQuestionScore": 0.37,
-      "weightedScore": 0.375,
-      "totalWeightedScore": 0.6000000000000001,
+      "averageQuestionScore": 0.4,
+      "weightedScore": 0.4,
+      "totalWeightedScore": 0.64,
       "totalPossibleWeight": 1.6,
       "questionsWithScores": [
         {
@@ -93,24 +95,24 @@
           "weight": 0.4,
           "weightedScore": 0.14,
           "maxWeightedScore": 0.4,
-          "confidence": 62
+          "confidence": 55
         },
         {
           "id": "3",
-          "score": 0.35,
+          "score": 0.45,
           "weight": 0.4,
-          "weightedScore": 0.14,
+          "weightedScore": 0.18,
           "maxWeightedScore": 0.4,
           "confidence": 62
         }
       ]
     }
   },
-  "overallScore": 3.75,
-  "averageConfidence": 65,
+  "overallScore": 4,
+  "averageConfidence": 63,
   "questionsAnswered": 3,
   "totalQuestions": 3,
-  "lastUpdated": "2026-05-26T20:51:11.594Z",
+  "lastUpdated": "2026-07-13T19:03:38.075Z",
   "processingMethod": "vector-search-rag",
   "usesStateCode": false,
   "sources": [
@@ -126,5 +128,6 @@
       "url": "https://www.greenburghny.com/DocumentCenter/View/14657/2024-CAC-Winter-Letter",
       "title": "2024 CAC Winter Letter"
     }
-  ]
+  ],
+  "overallSummary": "**Partially met: projects listed and documented, but volunteer sign-up and engagement details are insufficient.**"
 }
