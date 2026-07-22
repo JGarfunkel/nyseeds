@@ -147,6 +147,11 @@ const watchProposalsCache = () => {
       res.render('proposals-index', { proposals: proposalsCache, requestPath: req.path });
     });
 
+    // About page
+    app.get(['/about', '/about/'], (req, res) => {
+      res.render(path.join('public', 'about'), { requestPath: req.path });
+    });
+
     // Proposals index
     app.get(['/projects', '/projects/'], (req, res) => {
       res.render('proposals-index', { proposals: proposalsCache, requestPath: req.path });

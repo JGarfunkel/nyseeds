@@ -8,7 +8,6 @@ import { Switch, Route } from "wouter";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster, TooltipProvider, OrdinizerApp } from "@civillyengaged/ordinizer-client";
 import { queryClient } from "./lib/queryClient";
-import AboutPage from "./AboutPage";
 import AdvocacyPage from "./AdvocacyPage";
 import BotPage from "./BotPage";
 import { ORDINIZER_CONTEXT_PATH } from "./config";
@@ -31,9 +30,6 @@ function Router() {
   return (
     <Switch>
       {/* Root - redirect handled above */}
-      
-      {/* About route */}
-      <Route path="/about" component={AboutPage} />
       <Route path="/advocacy" component={AdvocacyPage} />
       <Route path="/bot" component={BotPage} />
       

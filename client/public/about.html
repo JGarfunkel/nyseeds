@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<%- include('../partials/head.html') %>
+<title>About - NY Seeds</title>
+<meta name="description" content="About NY Seeds and the Ordinizer library." />
+<style>
+  .about-page {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 3rem 1rem 4rem;
+  }
+
+  .about-page h1 {
+    margin-bottom: 1rem;
+  }
+
+  .about-page p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+
+  .faq-list {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .faq-item h2 {
+    margin-bottom: 0.35rem;
+  }
+
+  .faq-item p {
+    color: #374151;
+    margin-bottom: 0;
+  }
+</style>
+</head>
+<body>
+<%- include('../partials/header.html') %>
+<main class="about-page content">
+  <h1>About NY Seeds</h1>
+  <p>
+    NY Seeds is an environmental statute analysis application powered by the <a href="https://github.com/JGarfunkel/ordinizer">Ordinizer library</a>. It helps users analyze and compare municipal statutes across New York municipalities with AI-powered plain-language summaries.
+  </p>
+  <p>
+    This project is open source and maintained by the NY Seeds team.
+  </p>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-list">
+    <section class="faq-item">
+      <h2>Who is responsible for this website?</h2>
+      <p>
+        The <a href="https://civillyengaged.org/ordinizer">Ordinizer library</a> is developed and maintained by NY Seeds, led by Jon Garfunkel of <a href="https://civillyengaged.org/">Civilly Engaged</a>. We are actively working with regional partners and advisory groups.
+      </p>
+    </section>
+
+    <section class="faq-item">
+      <h2>Where does the data come from?</h2>
+      <p>
+        The ordinance links were initially assembled by <a href="https://nysacc.org/">NYSACC (New York State Association of Conservation Commissions)</a> and have been further curated and updated by <a href="https://www.healthyyards.org/westchester/">Westchester Healthy Yards</a>. The ordinance text itself is sourced directly from official municipal code publishers.
+      </p>
+    </section>
+
+    <section class="faq-item">
+      <h2>How do you access municipal codes?</h2>
+      <p>
+        We retrieve municipal code data directly from publicly available code hosting platforms. These codes are intended for public use. We are also exploring formal data-sharing arrangements with code publishers.
+      </p>
+    </section>
+
+    <section class="faq-item">
+      <h2>How often is the data updated?</h2>
+      <p>
+        The current dataset reflects ordinances as of May 2026. We plan to update the data at least annually and are exploring options for more frequent updates over time.
+      </p>
+    </section>
+
+    <section class="faq-item">
+      <h2>How is the ordinance analysis performed?</h2>
+      <p>
+        Analysis is conducted using the Ordinizer framework, which applies structured prompts tailored to each policy domain (e.g., tree preservation, wetlands). These prompts are iteratively refined to produce consistent, comparable summaries across municipalities.
+      </p>
+    </section>
+
+    <section class="faq-item">
+      <h2>How are ratings such as score, confidence, and gap determined?</h2>
+      <p>
+        Each analysis includes three evaluative fields: Confidence reflects how certain the system is in the interpretation; Score reflects how well the ordinance addresses a given issue; Gap identifies potential areas where the ordinance could be strengthened. These are generated through structured AI analysis and reviewed for consistency.
+      </p>
+    </section>
+
+    <section class="faq-item">
+      <h2>Why use AI for this work?</h2>
+      <p>
+        Ideally, this kind of comparative legal analysis would be performed collaboratively by subject-matter experts. In practice, local boards and municipalities often lack the time and resources for that level of coordination. AI enables a first-pass analysis that reduces the burden on volunteers and professionals, making it easier to identify gaps, compare approaches, and focus human expertise where it is most needed.
+      </p>
+    </section>
+
+    <section class="faq-item">
+      <h2>What is the environmental impact of using AI?</h2>
+      <p>
+        AI does consume energy, as does all modern computing. However, Ordinizer is designed to perform analysis once and serve many users through static results. This significantly reduces the marginal energy cost per user. In many cases, this approach may be more efficient than repeated manual research, meetings, or travel.
+      </p>
+    </section>
+
+    <section class="faq-item">
+      <h2>Can this be expanded to other regions or topics?</h2>
+      <p>
+        Yes. Ordinizer is designed to be extended to additional counties, states, and policy areas. We are actively seeking partners such as municipalities, nonprofits, and regional organizations to help expand the scope of the platform.
+      </p>
+    </section>
+
+    <section class="faq-item">
+      <h2>What are the broader goals of the project?</h2>
+      <p>
+        The goal of Ordinizer is to make local laws more transparent, comparable, and actionable. By helping officials, board members, and residents better understand existing regulations, we aim to support more informed decision-making and more effective environmental policy.
+      </p>
+    </section>
+  </div>
+</main>
+<%- include('../partials/footer.html') %>
+</body>
+</html>
