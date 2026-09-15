@@ -137,7 +137,14 @@ svg {
   color: #444;
 }
 .pmb-date { color: #555; }
+.pmb-updated { color: #888; }
 .pmb-tags { color: #888; }
+.pmb-link {
+  color: #0f6a5b;
+  text-decoration: none;
+  font-weight: 600;
+}
+.pmb-link:hover { text-decoration: underline; }
 
 /* ─── Site header ────────────────────────────────────────────────────────── */
 .site-header {

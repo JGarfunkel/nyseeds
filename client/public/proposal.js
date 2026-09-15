@@ -12,14 +12,21 @@
 
   var status  = meta('status') || 'proposed';
   var date    = meta('date');
+  var updated = meta('updated');
   var tags    = meta('tags');
   var type    = meta('type');
+  var link    = meta('link');
 
-  var label   = status.charAt(0).toUpperCase() + status.slice(1);
-  var dateStr = date
-    ? new Date(date + 'T00:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
-    : '';
-  var tagStr  = tags
+  function formatDate(d) {
+    return d
+      ? new Date(d + 'T00:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+      : '';
+  }
+
+  var label      = status.charAt(0).toUpperCase() + status.slice(1);
+  var dateStr    = formatDate(date);
+  var updatedStr = formatDate(updated);
+  var tagStr     = tags
     ? tags.split(',').map(function (t) { return t.trim(); }).join(' · ')
     : '';
   var typeStr = type
@@ -28,9 +35,11 @@
 
   bar.innerHTML =
     '<div class="proposal-meta-bar">' +
-    (typeStr  ? '<span class="pmb-type">'               + typeStr + '</span>' : '') +
-    '<span class="pmb-status ' + status + '">'          + label   + '</span>' +
-    (dateStr  ? '<span class="pmb-date">'  + dateStr  + '</span>' : '') +
-    (tagStr   ? '<span class="pmb-tags">'  + tagStr   + '</span>' : '') +
+    (typeStr    ? '<span class="pmb-type">'                                           + typeStr    + '</span>' : '') +
+    '<span class="pmb-status ' + status + '">'                                        + label      + '</span>' +
+    (dateStr    ? '<span class="pmb-date">'    + dateStr                              + '</span>' : '') +
+    (updatedStr ? '<span class="pmb-updated">Updated ' + updatedStr                   + '</span>' : '') +
+    (tagStr     ? '<span class="pmb-tags">'    + tagStr                               + '</span>' : '') +
+    (link       ? '<a class="pmb-link" href="' + link + '" target="_blank" rel="noopener">View live ↗</a>' : '') +
     '</div>';
 }());
