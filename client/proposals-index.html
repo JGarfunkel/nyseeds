@@ -50,7 +50,7 @@
   <% } %>
   <ul class="project-list">
     <% proposals.forEach(function(p) { var sl = p.meta.status || 'proposed'; %>
-    <li class="project-item">
+    <li class="project-item" data-type="<%= p.meta.type || '' %>">
       <a href="/projects/<%= p.slug %>"><%= p.meta.title %></a>
       <% if (p.meta.subtitle) { %><p class="project-subtitle"><%= p.meta.subtitle %></p><% } %>
       <div class="pmeta-row">
@@ -62,6 +62,21 @@
     <% }); %>
   </ul>
 </div>
+<script>
+(function () {
+  var TYPES = ['legislation', 'app', 'project', 'education'];
+  var items = document.querySelectorAll('.project-item');
+  function applyFilter() {
+    var type = decodeURIComponent(location.hash.slice(1)).toLowerCase();
+    var active = TYPES.indexOf(type) !== -1;
+    items.forEach(function (li) {
+      li.hidden = active && li.dataset.type !== type;
+    });
+  }
+  window.addEventListener('hashchange', applyFilter);
+  applyFilter();
+})();
+</script>
 <%- include('partials/footer.html') %>
 </body>
 </html>

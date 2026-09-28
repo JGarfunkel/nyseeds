@@ -56,6 +56,7 @@ interface ProposalMeta {
   date?: string;
   tags?: string[];
   status?: string;
+  type?: string;
 }
 
 interface ProposalEntry {
@@ -82,11 +83,13 @@ const parseProposalFile = (fileName: string): ProposalEntry => {
     const date = get("date");
     const status = get("status");
     const tags = get("tags");
+    const type = get("type");
 
     if (title) meta.title = title;
     if (date) meta.date = date;
     if (status) meta.status = status;
     if (tags) meta.tags = tags.split(",").map(t => t.trim());
+    if (type) meta.type = type.trim().toLowerCase();
 
     const subtitleMatch = content.match(/<p[^>]*class="[^"]*\bsubtitle\b[^"]*"[^>]*>(.*?)<\/p>/s);
     if (subtitleMatch) meta.subtitle = subtitleMatch[1].replace(/<[^>]+>/g, "").trim();
