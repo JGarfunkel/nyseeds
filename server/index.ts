@@ -5,9 +5,35 @@ import path from "path";
 import fs from "fs";
 import ejs from "ejs";
 import { registerRoutes } from "./routes";
+import { verifyInboundEmailWebhook, handleInboundEmailEvent } from "./inbound-email";
 import { setupVite, serveStatic, log } from "./vite";
 
 const app = express();
+
+// Resend inbound-email webhook. Registered before express.json() because
+// svix signature verification needs the raw, unparsed body.
+app.post("/api/inbound-email", express.raw({ type: "*/*", limit: "1mb" }), (req, res) => {
+  let event;
+  try {
+    event = verifyInboundEmailWebhook(req.body.toString("utf8"), {
+      "svix-id": req.header("svix-id") ?? "",
+      "svix-timestamp": req.header("svix-timestamp") ?? "",
+      "svix-signature": req.header("svix-signature") ?? "",
+    });
+  } catch (err) {
+    console.error("Inbound email webhook verification failed:", err);
+    return res.status(400).json({ message: "Invalid webhook signature" });
+  }
+
+  handleInboundEmailEvent(event)
+    .then(() => res.status(200).json({ ok: true }))
+    .catch((err) => {
+      console.error("Inbound email handling failed:", err);
+      // 500 makes Resend retry the delivery.
+      res.status(500).json({ message: "Failed to process inbound email" });
+    });
+});
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
