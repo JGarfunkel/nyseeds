@@ -1,6 +1,13 @@
 <header class="site-header" role="banner">
 	<div class="site-header-inner">
-		<a class="site-brand" href="/ordinizer">NYSeeds</a>
+		<div class="site-logos">
+			<a class="site-brand" href="https://nysacc.org" target="_blank" rel="noopener noreferrer">
+				<img src="/images/NYSACC_Logo.jpg" alt="New York State Association of Conservation Commissions" class="site-logo site-logo-nysacc">
+			</a>
+			<a class="site-brand" href="/ordinizer" aria-label="NYSeeds home">
+				<img src="/images/nyseeds-logo.svg" alt="NYSeeds" class="site-logo site-logo-nyseeds">
+			</a>
+		</div>
 		<nav class="site-nav" aria-label="Main">
 			<a href="/ordinizer">Ordinances</a>
 			<a href="/projects">Projects</a>
@@ -12,6 +19,6 @@
 <div class="content-x">
 	<% if (requestPath && requestPath !== '/projects' && requestPath !== '/projects/' && requestPath !== '/about' && requestPath !== '/about/') { %>
         <a href="/projects" class="back-link">&larr; Projects</a>
-    <% } %> 
+    <% } %>
 
 </div>

@@ -169,6 +169,15 @@ svg {
   font-weight: 700;
 }
 .site-brand:hover { color: #0f6a5b; }
+.site-logos {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+.site-brand { display: inline-flex; }
+.site-logo { display: block; width: auto; }
+.site-logo-nyseeds { height: 2rem; }
+.site-logo-nysacc { height: 2.75rem; }
 .site-nav {
   display: flex;
   align-items: center;
