@@ -39,7 +39,9 @@ export function verifyInboundEmailWebhook(
   headers: InboundWebhookHeaders,
 ): EmailReceivedEvent {
   const wh = new Webhook(requireEnv("RESEND_WEBHOOK_SECRET"));
-  return wh.verify(rawBody, headers) as EmailReceivedEvent;
+  // svix >= 2.9 verify() returns void, so parse the (now trusted) body ourselves.
+  wh.verify(rawBody, headers);
+  return JSON.parse(rawBody) as EmailReceivedEvent;
 }
 
 type ReceivedEmail = {
