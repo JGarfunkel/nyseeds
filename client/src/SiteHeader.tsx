@@ -17,6 +17,7 @@ export default function SiteHeader() {
           </div>
           <nav className="flex items-center gap-6 text-sm font-medium text-civic-gray-light" aria-label="Main">
             <a href="/ordinizer" className="hover:text-gray-900 transition-colors">Ordinances</a>
+            <a href="/openspace" className="hover:text-gray-900 transition-colors">Open Space</a>
             <a href="/projects" className="hover:text-gray-900 transition-colors">Projects</a>
             <a href="/about" className="hover:text-gray-900 transition-colors">About</a>
           </nav>

@@ -10,6 +10,7 @@ import { Toaster, TooltipProvider, OrdinizerApp } from "@civillyengaged/ordinize
 import { queryClient } from "./lib/queryClient";
 import AdvocacyPage from "./AdvocacyPage";
 import BotPage from "./BotPage";
+import OpenSpacePage from "./openspace/OpenSpacePage";
 import { ORDINIZER_CONTEXT_PATH } from "./config";
 import SiteHeader from "./SiteHeader";
 
@@ -32,6 +33,7 @@ function Router() {
       {/* Root - redirect handled above */}
       <Route path="/advocacy" component={AdvocacyPage} />
       <Route path="/bot" component={BotPage} />
+      <Route path="/openspace" component={OpenSpacePage} />
       
       {/* 404 fallback */}
       <Route>

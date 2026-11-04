@@ -1,0 +1,12 @@
+{
+  "state_fips": "36",
+  "counties": {
+    "westchester": {
+      "name": "Westchester",
+      "large_acres": 5,
+      "parcel_url": "https://giswww.westchestergov.com/ArcGIS/rest/services/DataHub_TaxParcels/MapServer/0",
+      "parcel_where": "1=1",
+      "county_os_url": "https://services.arcgis.com/XKEHpOulfycN9cGC/ArcGIS/rest/services/AlldataMerge/FeatureServer/16"
+    }
+  }
+}

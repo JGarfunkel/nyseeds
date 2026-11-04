@@ -46,3 +46,4 @@ logs/
 EntityDownloads/
 
 local/
+__pycache__/
