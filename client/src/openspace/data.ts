@@ -97,7 +97,14 @@ export const num = (v: string | undefined) => {
 };
 
 /** "8: Wholly exempt" -> "Wholly exempt" */
-export const afterCode = (v: string | undefined) => (v ?? "").replace(/^[^:]*:\s*/, "");
+// "3 — managed for multiple uses … | 4 — no known mandate …" -> "3, 4"
+export const gapNumbers = (v: string | undefined) =>
+  (v ?? "")
+    .split("|")
+    .map((s) => s.trim().match(/^\d/)?.[0])
+    .filter(Boolean)
+    .join(", ");
+export const afterCode =(v: string | undefined) => (v ?? "").replace(/^[^:]*:\s*/, "");
 
 export const STATUS_STYLE: Record<string, { badge: string; fill: string }> = {
   "Not in NYPAD": { badge: "bg-red-100 text-red-800", fill: "#dc2626" },

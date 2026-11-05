@@ -3,6 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import ParcelMap from "./ParcelMap";
 import {
   afterCode,
+  gapNumbers,
   fetchCsv,
   fetchJson,
   joinUrl,
@@ -52,6 +53,10 @@ export default function OpenSpacePage() {
   const [selectedId, setSelectedId] = useState(init.parcel);
   const [sort, setSort] = useState<{ key: SortKey; dir: 1 | -1 }>({ key: "nypad_status", dir: 1 });
   const [page, setPage] = useState(0);
+
+  useEffect(() => {
+    document.title = "NYSeeds: Open Space Explorer";
+  }, []);
 
   const config = useQuery({
     queryKey: ["openspace-config"],
@@ -182,7 +187,7 @@ export default function OpenSpacePage() {
 
   return (
     <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <h1 className="text-2xl font-bold text-gray-900">NY Open Space Explorer</h1>
+      <h1 className="text-2xl font-bold text-gray-900">NYSeeds: Open Space Explorer</h1>
       <p className="mt-1 max-w-3xl text-sm text-gray-600">
         Tax parcels classed as open space by the assessor, mapped in the county open space layer, or
         covered by the <a href="https://www.nypad.org/InteractiveMap">New York Protected Areas Database (NYPAD)</a>, 
@@ -346,7 +351,6 @@ export default function OpenSpacePage() {
                       >
                         <td className="px-2 py-1.5">
                           <div className="text-gray-900">{p.address || "No address"}</div>
-                          <div className="text-xs text-gray-500">{p.parcel_id}</div>
                         </td>
                         {!muniEntry && <td className="px-2 py-1.5 text-gray-700">{p.municipality}</td>}
                         <td className="px-2 py-1.5 text-gray-700">
@@ -370,6 +374,11 @@ export default function OpenSpacePage() {
                             <span className="text-xs text-gray-400">N/A</span>
                           )}
                           {p.nypad_designation && <div className="mt-0.5 text-xs text-gray-600">{afterCode(p.nypad_designation)}</div>}
+                          {gapNumbers(p.nypad_gap_status) && (
+                            <div className="mt-0.5 text-xs text-gray-600" title={p.nypad_gap_status}>
+                              GAP {gapNumbers(p.nypad_gap_status)}
+                            </div>
+                          )}
                           {num(p.nypad_easement_acres) > 0 && (
                             <div className="mt-0.5 text-xs text-gray-600">
                               Easement: {num(p.nypad_easement_acres).toFixed(1)} of {num(p.parcel_acres).toFixed(1)} ac

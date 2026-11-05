@@ -583,7 +583,7 @@ def analyze(par, cos, nyp, args):
         if r.county_os_share >= args.include_overlap and r.nypad_status == "Not in NYPAD":
             n.append("In county open space layer but not in NYPAD")
         if (r.nypad_status != "Not in NYPAD" and r.county_os_share < 0.10):
-            n.append("In NYPAD but not in county open space layer")
+            n.append("In NYPAD, not in county")
         if (not cls_ok and isinstance(r.nypad_category, str) and "Fee" in r.nypad_category
                 and str(r.roll_section or "").startswith("1")):
             n.append("NYPAD fee land on taxable roll with non-open-space class")
