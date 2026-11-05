@@ -15,10 +15,38 @@ import {
 } from "./data";
 
 const PAGE_SIZE = 100;
+const NONE = "__none__"; // county OS filter value for parcels not in the county layer
 
 // A parcel listed only because of its size (e.g. a private residential lot) is not open
 // space, so its NYPAD status doesn't apply.
 const isOpenSpace = (p: Parcel) => p.selected_by !== "large parcel";
+
+// NYS property class hundreds groups.
+const CLASS_GROUPS: Record<string, string> = {
+  "1": "Agricultural",
+  "2": "Residential",
+  "3": "Vacant Land",
+  "4": "Commercial",
+  "5": "Recreation & Entertainment",
+  "6": "Community Services",
+  "7": "Industrial",
+  "8": "Public Services",
+  "9": "Conservation Lands & Public Parks",
+};
+
+// Property class filter text: "6xx" or "6" matches the whole group, "612" (or a picked
+// "612 School") that class, and anything else is a substring of "code description".
+function makeClassMatcher(text: string): (p: Parcel) => boolean {
+  const t = text.trim().toLowerCase();
+  if (!t) return () => true;
+  const group = t.match(/^(\d)(?:xx)?(?:\s+all\b.*)?$/);
+  if (group) return (p) => p.prop_class.startsWith(group[1]);
+  const code = t.match(/^(\d{3})(?:\s|$)/);
+  if (code) return (p) => p.prop_class === code[1];
+  const partial = t.match(/^(\d{1,2})x*$/);
+  if (partial) return (p) => p.prop_class.startsWith(partial[1]);
+  return (p) => `${p.prop_class} ${p.prop_class_desc}`.toLowerCase().includes(t);
+}
 
 type SortKey = "address" | "municipality" | "owner" | "parcel_acres" | "prop_class" | "nypad_status";
 const STATUS_RANK: Record<string, number> = { "Not in NYPAD": 0, "Partly in NYPAD": 1, "In NYPAD": 2 };
@@ -34,8 +62,10 @@ function readUrlState() {
     search: q.get("q") ?? "",
     notes: q.get("notes") === "1",
     easement: q.get("easement") === "1",
-    os: q.get("os") === "1" || q.get("src") === "os",
+    os: q.get("os") ? q.get("os") === "1" : !q.get("src") || q.get("src") === "os",
     large: q.get("large") === "1" || q.get("src") === "large",
+    propClass: q.get("class") ?? "",
+    countyOs: q.get("cos") ?? "",
   };
 }
 
@@ -51,6 +81,8 @@ export default function OpenSpacePage() {
   const [osChecked, setOsChecked] = useState(init.os);
   const [largeChecked, setLargeChecked] = useState(init.large);
   const [selectedId, setSelectedId] = useState(init.parcel);
+  const [propClass, setPropClass] = useState(init.propClass);
+  const [countyOs, setCountyOs] = useState(init.countyOs);
   const [sort, setSort] = useState<{ key: SortKey; dir: 1 | -1 }>({ key: "nypad_status", dir: 1 });
   const [page, setPage] = useState(0);
 
@@ -90,17 +122,38 @@ export default function OpenSpacePage() {
     if (search) q.set("q", search);
     if (notesOnly) q.set("notes", "1");
     if (easementOnly) q.set("easement", "1");
-    if (osChecked) q.set("os", "1");
+    q.set("os", osChecked ? "1" : "0");
     if (largeChecked) q.set("large", "1");
+    if (propClass) q.set("class", propClass);
+    if (countyOs) q.set("cos", countyOs);
     if (selectedId) q.set("parcel", selectedId);
     const s = q.toString();
     window.history.replaceState(null, "", s ? `?${s}` : window.location.pathname);
-  }, [countyKey, muni, statuses, minAcres, search, notesOnly, easementOnly, osChecked, largeChecked, selectedId]);
+  }, [countyKey, muni, statuses, minAcres, search, notesOnly, easementOnly, osChecked, largeChecked, propClass, countyOs, selectedId]);
 
-  useEffect(() => setPage(0), [countyKey, muni, statuses, minAcres, search, notesOnly, easementOnly, osChecked, largeChecked, sort]);
+  useEffect(() => setPage(0), [countyKey, muni, statuses, minAcres, search, notesOnly, easementOnly, osChecked, largeChecked, propClass, countyOs, sort]);
 
   const muniEntry = county?.municipalities.find((m) => m.slug === muni);
   const all = parcelsQ.data ?? [];
+
+  // Choices for the two column filters, taken from the loaded county.
+  // Suggestions are the broad hundreds groups present (6xx All Community Services) followed
+  // by each specific class ("612 School").
+  const classOptions = useMemo(() => {
+    const m = new Map<string, string>();
+    for (const p of all) {
+      if (!p.prop_class) continue;
+      m.set(p.prop_class, `${p.prop_class} ${p.prop_class_desc}`);
+      const d = p.prop_class[0];
+      if (CLASS_GROUPS[d]) m.set(`${d}xx`, `${d}xx All ${CLASS_GROUPS[d]}`);
+    }
+    return [...m].sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => [v, k]);
+  }, [all]);
+  const classMatch = useMemo(() => makeClassMatcher(propClass), [propClass]);
+  const countyOsOptions = useMemo(
+    () => [...new Set(all.map((p) => p.county_os_classification).filter(Boolean))].sort(),
+    [all],
+  );
 
   const filtered = useMemo(() => {
     const min = parseFloat(minAcres) || 0;
@@ -111,6 +164,8 @@ export default function OpenSpacePage() {
       if (min && num(p.parcel_acres) < min) return false;
       if (notesOnly && !p.review_notes) return false;
       if (easementOnly && !(num(p.nypad_easement_acres) > 0)) return false;
+      if (!classMatch(p)) return false;
+      if (countyOs && (countyOs === NONE ? !!p.county_os_classification : p.county_os_classification !== countyOs)) return false;
       // Parcels listed only because of their size have "large parcel" as the sole rule.
       // With neither or both boxes ticked, nothing is excluded.
       if (osChecked !== largeChecked && osChecked !== isOpenSpace(p)) return false;
@@ -138,7 +193,7 @@ export default function OpenSpacePage() {
       if (x > y) return sort.dir;
       return num(b.parcel_acres) - num(a.parcel_acres);
     });
-  }, [all, muniEntry, statuses, minAcres, search, notesOnly, easementOnly, osChecked, largeChecked, sort]);
+  }, [all, muniEntry, statuses, minAcres, search, notesOnly, easementOnly, osChecked, largeChecked, classMatch, countyOs, sort]);
 
   const selected = all.find((p) => p.parcel_id === selectedId);
   const selectedMuni = selected
@@ -190,7 +245,7 @@ export default function OpenSpacePage() {
       <h1 className="text-2xl font-bold text-gray-900">NYSeeds: Open Space Explorer</h1>
       <p className="mt-1 max-w-3xl text-sm text-gray-600">
         Tax parcels classed as open space by the assessor, mapped in the county open space layer, or
-        covered by the <a href="https://www.nypad.org/InteractiveMap">New York Protected Areas Database (NYPAD)</a>, 
+        covered by the <a target="_blank" rel="noopener" href="https://www.nypad.org/InteractiveMap">New York Protected Areas Database (NYPAD)</a>, 
         plus larger parcels of any class (5 acres, default). Each row shows the parcel's local assessment status and the
         NYPAD record that covers it, if any.
       </p>
@@ -204,6 +259,8 @@ export default function OpenSpacePage() {
             onChange={(e) => {
               setCountyKey(e.target.value);
               setMuni("");
+              setPropClass("");
+              setCountyOs("");
               setSelectedId("");
             }}
           >
@@ -260,6 +317,40 @@ export default function OpenSpacePage() {
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Address, owner, name, ID"
           />
+        </label>
+        <label className="flex flex-col text-xs font-medium text-gray-600">
+          Property class
+          <input
+            type="text"
+            list="prop-class-options"
+            className="mt-1 w-56 rounded border border-gray-300 px-2 py-1.5 text-sm disabled:bg-gray-100"
+            value={propClass}
+            disabled={!county}
+            onChange={(e) => setPropClass(e.target.value)}
+            placeholder="All (e.g. 6xx, 612, school)"
+          />
+          <datalist id="prop-class-options">
+            {classOptions.map(([value]) => (
+              <option key={value} value={value} />
+            ))}
+          </datalist>
+        </label>
+        <label className="flex flex-col text-xs font-medium text-gray-600">
+          County OS
+          <select
+            className="mt-1 max-w-[14rem] rounded border border-gray-300 bg-white px-2 py-1.5 text-sm text-gray-900 disabled:bg-gray-100"
+            value={countyOs}
+            disabled={!county}
+            onChange={(e) => setCountyOs(e.target.value)}
+          >
+            <option value="">All</option>
+            <option value={NONE}>Not in county layer</option>
+            {countyOsOptions.map((c) => (
+              <option key={c} value={c}>
+                {c}
+              </option>
+            ))}
+          </select>
         </label>
         <div className="flex flex-col text-xs font-medium text-gray-600">
           NYPAD status
@@ -325,7 +416,7 @@ export default function OpenSpacePage() {
           </div>
 
           <div className="mt-3 flex flex-col gap-4 lg:flex-row">
-            <div className="min-w-0 lg:w-[55%]">
+            <div className="min-w-0 lg:w-[65%]">
               <div className="overflow-x-auto rounded-md border border-gray-200">
                 <table className="min-w-full text-sm">
                   <thead className="bg-gray-50 text-left text-xs font-semibold uppercase tracking-wide text-gray-600">
@@ -384,7 +475,6 @@ export default function OpenSpacePage() {
                               Easement: {num(p.nypad_easement_acres).toFixed(1)} of {num(p.parcel_acres).toFixed(1)} ac
                             </div>
                           )}
-                          {p.review_notes && <div className="mt-0.5 text-xs text-amber-700">{p.review_notes}</div>}
                         </td>
                       </tr>
                     ))}
@@ -413,7 +503,7 @@ export default function OpenSpacePage() {
               )}
             </div>
 
-            <div className="lg:sticky lg:top-4 lg:w-[45%] lg:self-start">
+            <div className="lg:sticky lg:top-4 lg:w-[35%] lg:self-start">
               {mapMuni ? (
                 <div className="space-y-3">
                   <div className="h-[420px] rounded-md border border-gray-200">
@@ -531,7 +621,6 @@ const DETAIL_GROUPS: { title: string; fields: [string, string][] }[] = [
     title: "Review",
     fields: [
       ["selected_by", "Listed because"],
-      ["review_notes", "Notes"],
     ],
   },
 ];
@@ -555,6 +644,11 @@ function ParcelDetails({ p, onClose }: { p: Parcel; onClose: () => void }) {
           Close
         </button>
       </div>
+      {p.review_notes && (
+        <p className="mt-3 rounded bg-amber-50 px-2 py-1 text-xs text-amber-800">
+          <span className="font-semibold">Notes:</span> {p.review_notes}
+        </p>
+      )}
       {DETAIL_GROUPS.map((g) => {
         const rows = g.fields.filter(([k]) => p[k] && !(k === "nypad_easement_acres" && !(num(p[k]) > 0)) && !(k === "unit_count" && num(p[k]) <= 1));
         if (!rows.length) return null;

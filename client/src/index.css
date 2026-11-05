@@ -136,6 +136,15 @@
   body {
     @apply font-sans antialiased bg-background text-foreground;
   }
+
+  /* Preflight resets links to inherit; restore conventional link styling in prose */
+  p a {
+    @apply text-blue-600 underline;
+  }
+
+  p a:hover {
+    @apply text-blue-800;
+  }
 }
 
 @layer utilities {
